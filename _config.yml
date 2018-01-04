@@ -83,10 +83,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Shanto Roy"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  bio              : "This is my personal website"
+  location         : "Bangladesh"
   email            :
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
