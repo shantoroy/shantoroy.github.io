@@ -1,14 +1,4 @@
 
----
-title:  "This is a test"
-header:
-  teaser: "http://www.mediamarketingwave.com/wp-content/uploads/2013/03/test-header-940-188.jpg"
-
-categories: 
-  - Test
-tags:
-  - test
----
 Copied from the original contributor.
 
 You'll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
