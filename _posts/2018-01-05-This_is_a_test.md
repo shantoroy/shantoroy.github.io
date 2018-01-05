@@ -1,8 +1,9 @@
 
 ---
 title:  "This is a test"
-header:
-  teaser: "http://www.mediamarketingwave.com/wp-content/uploads/2013/03/test-header-940-188.jpg"
+#header:
+  #teaser: "http://www.mediamarketingwave.com/wp-content/uploads/2013/03/test-header-940-188.jpg"
+featured-img: http://www.mediamarketingwave.com/wp-content/uploads/2013/03/test-header-940-188.jpg
 categories: 
   - Test
 tags:
