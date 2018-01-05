@@ -84,17 +84,17 @@ analytics:
 # Site Author
 author:
   name             : "Shanto Roy"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/passport.jpg"
   bio              : "Site is under construction"
   location         : "Bangladesh"
-  email            :
+  email            : "royshantoiit@gmail.com"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
   codepen          :
   dribbble         :
-  flickr           :
-  facebook         :
+  flickr           : "https://www.flickr.com/roysclick"
+  facebook         : "https://www.facebook.com/shanto.roy.9"
   foursquare       :
   github           :
   gitlab           :
@@ -102,7 +102,7 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+  linkedin         : "https://www.linkedin.com/in/shanto-roy/"
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
