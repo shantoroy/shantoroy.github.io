@@ -1,6 +1,5 @@
 
 ---
-layout: post
 title:  "This is a test"
 header:
   teaser: "http://www.mediamarketingwave.com/wp-content/uploads/2013/03/test-header-940-188.jpg"
@@ -9,7 +8,6 @@ categories:
   - Test
 tags:
   - test
-  - shanto roy
 ---
 Copied from the original contributor.
 
