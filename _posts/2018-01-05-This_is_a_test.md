@@ -2,7 +2,7 @@
 ---
 title:  "This is a test"
 header:
-  teaser: "https://scontent.fdac5-1.fna.fbcdn.net/v/t1.0-9/12509561_1648412855410061_2642698853197430250_n.jpg?oh=abf61dd7d20f3bee2a1b53318b0fcef2&amp;oe=5ACC7582"
+  teaser: "http://www.mediamarketingwave.com/wp-content/uploads/2013/03/test-header-940-188.jpg"
 categories: 
   - Test
 tags:
@@ -25,5 +25,7 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 ```
 
+
+Check out [my site] [my current site] for now.
 
 [my current site]: https://sites.google.com/site/shantoroyiit/home
