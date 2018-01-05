@@ -87,6 +87,7 @@ author:
   avatar           : "/assets/images/passport.jpg"
   bio              : "Site is under construction"
   location         : "Bangladesh"
+  google site      : "https://sites.google.com/site/shantoroyiit/"
   email            : "royshantoiit@gmail.com"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
@@ -100,10 +101,10 @@ author:
   gitlab           :
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : "https://www.instagram.com/shanto.roy.9/"
   lastfm           :
   linkedin         : "https://www.linkedin.com/in/shanto-roy/"
-  pinterest        :
+  pinterest        : "https://www.pinterest.com/shantoroy9/"
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
