@@ -7,6 +7,9 @@ categories:
   - Jekyll
 tags:
   - update
+toc: true
+toc_label: "Unique Title"
+toc_icon: "heart" 
 ---
 
 ## What is Lorem Ipsum?
