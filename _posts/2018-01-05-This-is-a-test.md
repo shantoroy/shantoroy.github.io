@@ -28,6 +28,6 @@ print_hi('Tom')
 ```
 
 
-Check out `[my current site]` for now.
+Check out [`My site`][my current site] for now.
 
 [my current site]: https://sites.google.com/site/shantoroyiit/home
