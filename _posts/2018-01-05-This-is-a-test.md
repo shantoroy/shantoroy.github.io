@@ -1,6 +1,9 @@
 ---
 layout: single
-header: "http://www.mediamarketingwave.com/wp-content/uploads/2013/03/test-header-940-188.jpg"
+excerpt: "This is really a test"
+header: 
+  overlay_image: "http://www.mediamarketingwave.com/wp-content/uploads/2013/03/test-header-940-188.jpg"
+  overlay_filter: 0.5
   teaser: "https://farm5.staticflickr.com/4076/4940499208_b79b77fb0a_z.jpg"
 categories: 
   - Jekyll
