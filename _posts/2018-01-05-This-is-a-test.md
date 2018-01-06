@@ -1,4 +1,9 @@
 
+---
+layout : single
+categories : test
+---
+
 Copied from the original contributor.
 
 You'll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
@@ -16,6 +21,6 @@ print_hi('Tom')
 ```
 
 
-Check out [my site] [my current site] for now.
+Check out `[my site]` [my current site] for now.
 
 [my current site]: https://sites.google.com/site/shantoroyiit/home
