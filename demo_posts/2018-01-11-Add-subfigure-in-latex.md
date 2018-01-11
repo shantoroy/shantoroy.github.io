@@ -14,7 +14,7 @@ toc_icon: "heart"
 To add sub-figures in a latex file you need to use the package `graphicx`. Then you can use both `subfigure` and `minipage` for inserting sub-figures or sub-images. 
 
 ## Add sub-figures horizontally
-```
+```latex
 \usepackage{subcaption}
 \begin{figure}
 \begin{subfigure}{.5\textwidth}
