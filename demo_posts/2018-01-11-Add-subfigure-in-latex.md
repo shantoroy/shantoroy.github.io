@@ -13,8 +13,10 @@ toc_label: "Unique Title"
 toc_icon: "heart" 
 ---
 
+## How to add subfigures in latex
 
-```
+## Add subfigures horizontally
+```latex
 \begin{figure}[ht]
   \subfloat[Percentage storage utilization]{%
 	\begin{minipage}[c][1\width]{%
@@ -39,3 +41,4 @@ toc_icon: "heart"
 \caption{}
 \end{figure}
 ```
+## Add subfigures vertically
