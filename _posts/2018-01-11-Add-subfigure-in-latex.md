@@ -10,10 +10,12 @@ toc_label: "Table of Contents"
 toc_icon: "heart" 
 ---
 
-## How to add sub-figures in latex
-To add sub-figures in a latex file you need to use the package `graphicx`. Then you can use both `subfigure` and `minipage` for inserting sub-figures or sub-images. Keep 
+## How to add subfigures in latex
+In research articles, we need to add subfigures often. To create subfigure in latex, you can use both `\begin{minipage}...\end{minipage}` and `\begin{subfigure}...\end{subfigure}` block to insert subfigures or sub-images. Subfigurs are generally inserted horizontally in one or multiple rows. Here, some example codes with output screenshot is provided in the following.
 
-## Add sub-figures horizontally
+## Add subfigures horizontally
+The following code puts two subfigures in a figure portion-
+
 ```latex
 \usepackage{subcaption}
 \begin{figure}[ht]
@@ -40,6 +42,7 @@ So, applying the code the output should look like this-
 
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/142248809@N07/38744621035/in/dateposted-public/" title="subfigure"><img src="https://farm5.staticflickr.com/4651/38744621035_a725266755_b.jpg" width="1024" height="488" alt="subfigure"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
+Here is another code to do the same. Only difference is, this time we are using `\begin{minipage}...\end{minipage}` instead of `\begin{subfigure}...\end{subfigure}` block.
 
 ```latex
 \begin{figure}[ht]
@@ -66,7 +69,14 @@ So, applying the code the output should look like this-
 \caption{}
 \end{figure}
 ```
+
+So, applying the code the output should look like this-
+
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/142248809@N07/39612703392/in/dateposted-public/" title="subfigure_3"><img src="https://farm5.staticflickr.com/4658/39612703392_1bf583c3ed_b.jpg" width="1024" height="389" alt="subfigure_3"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
 ## Add multiple subfigures in multiple rows
+
+Multiple subfigures can be put in multiple rows by adding a `\newline` after one row is complete. For example, if you have four figures and you want to put them in 2x2 style, put `\newline` after two subfigures which will be placed in the first rwo. The command will create a new row for rest of the subfigures. 
 
 ```latex
 \begin{document}
@@ -85,7 +95,9 @@ So, applying the code the output should look like this-
   \caption{Put your sub-caption here}
   \label{fig:sub-second}
 \end{subfigure}
+
 \newline
+
 \begin{subfigure}{.5\textwidth}
   \centering
   % include third image
@@ -104,3 +116,6 @@ So, applying the code the output should look like this-
 \label{fig:fig}
 \end{figure}
 ```
+
+So, applying the code the output should look like this-
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/142248809@N07/39642619871/in/dateposted-public/" title="subfigure_2"><img src="https://farm5.staticflickr.com/4673/39642619871_bc6b328e85_b.jpg" width="736" height="567" alt="subfigure_2"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
