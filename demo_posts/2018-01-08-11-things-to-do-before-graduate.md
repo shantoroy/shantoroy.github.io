@@ -18,7 +18,7 @@ toc_icon: "heart"
 
 The graduation period is very important for a student as it is the time s/he starts thinking about his/her career. During this period a student learns how to cope with the market and what should be his role in a particular position. Just after completion, they start looking out for job opprotunities. 
 
-In this article, I recommend 11 things a **Computer Science (CS/CSE)** or **Information Technology (IT)** student should do before completing his graduation. 
+In this article, I will recommend 11 things a **Computer Science (CS/CSE)** or **Information Technology (IT)** student should do before completing his graduation. 
 
 >"Your time is limited, so don't waste it living someone else's life. Don't let the noise of others' opinions drown out your own inner voice. And most important, have the courage to follow your heart and intuition." - Steve Jobs [^1]
 
@@ -44,6 +44,10 @@ If you already are expert in one sector, that's very good. But, necessarily you 
 And today, hands-on experience is always preferred over just theoratical knowledge in IT arena. Also, entreprenuership skill needs overall knowledge on every other aspects. So, even being a CSE or IT student you need to know the marketing skill as well. Because you have to market not only your product but also your skill.
 
 ## 4. Write a CV/Resume
+Prepare a CV/Resume while continuing in your final year. You can write it using MS Word or Latex. In this case, Latex is my personal favorite. You will find a lot of CV/Resume templates in [`Overleaf`][Overleaf] or [`ShareLatex`][ShareLatex] - two popular cloud based platform. 
+
+If you prefer MS word, then you will find some templates for CV/Resume or cover letter in [`Office templates`][t1] or [`Office templates 2`][t2]. Also you can create and customize your CV online using a free platform - [`Hloom`][Hloom].
+
 ## 5. Attend seminars, workshops or conferences
 ## 6. Take professional courses
 ## 7. Create a LinkedIn profile
@@ -58,6 +62,12 @@ And today, hands-on experience is always preferred over just theoratical knowled
 [C++ programming]: https://isocpp.org
 [PHP]: https://secure.php.net/
 [MySQL]: https://www.mysql.com
+[Overleaf]: https://www.overleaf.com/gallery/tagged/cv
+[ShareLatex]: https://www.sharelatex.com/templates/cv-or-resume
+[t1]: https://templates.office.com/en-us/CV-resume-TM00002021
+[t2]: https://templates.office.com/en-us/Resumes-and-Cover-Letters
+[Hloom]: http://www.hloom.com/resumes/
+
 
 [^1]: [6 inspirational success quotes reach highest goals] (https://buzz.strayer.edu/success-project/6-inspirational-success-quotes-reach-highest-goals/)
 [^2]: [R vs Python for Data Science: The Winner is...] (https://www.kdnuggets.com/2015/05/r-vs-python-data-science.html)
