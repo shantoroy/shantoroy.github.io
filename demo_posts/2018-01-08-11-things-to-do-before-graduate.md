@@ -49,7 +49,15 @@ Prepare a CV/Resume while continuing in your final year. You can write it using 
 If you prefer MS word, then you will find some templates for CV/Resume or cover letter in [`Office templates`][t1] or [`Office templates 2`][t2]. Also you can create and customize your CV online using a free platform - [`Hloom`][Hloom].
 
 ## 5. Attend seminars, workshops or conferences
+Attend regularly at different IT oriented seminars and workshops. The more will you participate the more your boundary of knowledge or experience will expand. Also this is a good chance to engage more with professional people and enhance your netwok. At the end of the day, you will come to know about new trends, best practices and state of the art in every IT/business sector.
+
+Students who are preparing themselves to join in academic arena, should attend at least one conference. If you can submit a manuscript/conference paper, got accepted and present there;  you'll have the opportunity to know and collaborate other academic scholars. People will review your work which in result give you a proper direction for future works. If you don't have a paper to present, you can also participate in poster presentation where you can present an idea. Additionally, you can participae in project showcasing if you have a project done while doing regular classwork. 
+
+Basically seminars, workshops and conferences give you the opportunity to meet people with whom you will work in future. It enhances your professional network, and by participating in these, you will be able to build your community.
+
 ## 6. Take professional courses
+ALthough, it's a busy schedule in the final year of your graduation, it will be effective if you have at least one professional course on your preferred arena. Additionally, having a vendor/professional exam certificate will enrich your profile and accelerate the possibilty for getting a job in no time after graduation. 
+
 ## 7. Create a LinkedIn profile
 ## 8. Find a mentor
 ## 9. Build a network
