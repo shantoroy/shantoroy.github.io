@@ -35,10 +35,14 @@ For example, data scientists always prefer [`Python`][Python programming] and [`
 ## 2. Start a personal website
 Yes, definitely you need a personal website before completing your graduation. A personal site not only talks for you but also it provides you the continuous platform to update your portfolio and CV. Profile development is a coninuous process and a personal site stands as the showcase of your achievements, experiences and future goals. Also, it helps enhancing professional networks and marketing your skills. 
 
-A blog with personal site enriches your visibility. I always suggest to have a blog as it is one kind of notebook or personal diary to me. It enhances one's writing skill as well. And if English is not your native language, maybe blogging can become the best platfor for you to master your writing skills. 
+A blog with personal site enriches your visibility. I always suggest to have a blog as it is one kind of notebook or personal diary to me. It enhances one's writing skill as well. And if English is not your native language, maybe blogging can become the best platfor for you to master your writing skills in English. And who doesn't want to do that!!! 
 
 
 ## 3. Have basic ideas on every sector of IT arenas
+If you already are expert in one sector, that's very good. But, necessarily you should have the basics of other IT arenas as well. The market is being more competitive day by day and if you want to show yourself from thousands, you'll definitely need knowledge on other sectors thereby. Have basic knowledge on structured programming, OOP, web programming, networking, server systems, database, software & web development and definitely Cloud. Using cloud, it will seem to have a super computer on your pocket. If you can utilize cloud, you won't have to buy a heavy performance computer or laptop; simply a normal machine with a browser will do the work. 
+
+And today, hands-on experience is always preferred over just theoratical knowledge in IT arena. Also, entreprenuership skill needs overall knowledge on every other aspects. So, even being a CSE or IT student you need to know the marketing skill as well. Because you have to market not only your product but also your skill.
+
 ## 4. Write a CV/Resume
 ## 5. Attend seminars, workshops or conferences
 ## 6. Take professional courses
