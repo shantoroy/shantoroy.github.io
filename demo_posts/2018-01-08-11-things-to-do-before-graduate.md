@@ -56,7 +56,9 @@ Students who are preparing themselves to join in academic arena, should attend a
 Basically seminars, workshops and conferences give you the opportunity to meet people with whom you will work in future. It enhances your professional network, and by participating in these, you will be able to build your community.
 
 ## 6. Take professional courses
-ALthough, it's a busy schedule in the final year of your graduation, it will be effective if you have at least one professional course on your preferred arena. Additionally, having a vendor/professional exam certificate will enrich your profile and accelerate the possibilty for getting a job in no time after graduation. 
+ALthough, it's a busy schedule in the final year of your graduation, it will be effective if you have at least one professional course on your preferred arena. Additionally, having a vendor/professional exam certificate will enrich your profile and accelerate the possibilty for securing a job in no time after graduation. 
+
+In my case, I completed two courses- `*Red Hat Enterprise Administration*` and `*Red Hat Enterprise Engineering*` and attended the certification exams knowing that I will enter in system administration. But, although later I entered in academic career, these two yet gave me some professionalexperiences, boosted my confidence and weighted my profile. Therefore, I will suggest you to take at least one course according to your preferred arena.
 
 ## 7. Create a LinkedIn profile
 ## 8. Find a mentor
