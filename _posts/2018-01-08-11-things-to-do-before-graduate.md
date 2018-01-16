@@ -1,8 +1,8 @@
 ---
 layout: single
-title: "11 things to do before completion of graduation in CSE/IT"
+title: "12 things to do before completing graduation in CSE/IT"
 header: 
-  image: "https://farm6.staticflickr.com/5705/21779044556_6406c39c32_b.jpg"
+  image: "https://farm5.staticflickr.com/4654/24859362187_2c62340d96_b.jpg"
   teaser: "https://farm6.staticflickr.com/5705/21779044556_6406c39c32_b.jpg"
 categories: 
   - Education
@@ -83,9 +83,10 @@ Judging our ownselves is quite hard, isn't it..? So, participate in inter-univer
 >"I never lose. I either win or I learn." -Mandela
 
 ## 11. Practice public speaking
-
+These days, communication skill is another big requirement to promote yourself. So practice public speaking or try to present a topic in front of others. Good presentation skill require fluency while speaking in front of others. Moreover, if English is not your native language, it will an efficient way as well to speak better in English. And who doesn't want to achieve that skill..!
 
 ## 12. Enhance writing/documentation skill
+Author, writer, blogger or developer- whoever you are, you need good skills in documentation. Documentation basically refers to report/article/manuscript writing on specific topic or process. We couldn't be able to solve many mysteries from the ancient civilizations because they lack this documentation skills. So, if you want to trace your life events or your progress in tasks, you need to have proper skill in writing. Your idea is useful only then when you express it. And the best way to express something lies in documentation. What do you think I have been doing here..!?! :) 
 
 
 [Python programming]: https://www.python.org/
