@@ -58,7 +58,7 @@ Basically seminars, workshops and conferences give you the opportunity to meet p
 ## 6. Take professional courses
 ALthough, it's a busy schedule in the final year of your graduation, it will be effective if you have at least one professional course on your preferred arena. Additionally, having a vendor/professional exam certificate will enrich your profile and accelerate the possibilty for securing a job in no time after graduation. 
 
-In my case, I completed two courses- `*Red Hat Enterprise Administration*` and `*Red Hat Enterprise Engineering*` and attended the certification exams knowing that I will enter in system administration. But, although later I entered in academic career, these two yet gave me some professionalexperiences, boosted my confidence and weighted my profile. Therefore, I will suggest you to take at least one course according to your preferred arena.
+In my case, I completed two courses- `Red Hat Enterprise Administration` and `Red Hat Enterprise Engineering` and attended the certification exams knowing that I will enter in system administration. But, although later I entered in academic career, these two yet gave me some professionalexperiences, boosted my confidence and weighted my profile. Therefore, I will suggest you to take at least one course according to your preferred arena.
 
 ## 7. Create a LinkedIn profile
 [`LinkedIn`][Linkedin] is the most preferable social network among professionals for it's skill oriented search options. Thus it became easy to find a skilled person whom employers want to hire or may ask for collaboration. Also it is said to be the most powerfull tool for marketing in the 21st century[^6]. The [`Huffingtonpost`][Huff] claimed it for three main reasons- media, partnerships and clients.
