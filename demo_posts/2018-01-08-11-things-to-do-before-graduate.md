@@ -61,10 +61,31 @@ ALthough, it's a busy schedule in the final year of your graduation, it will be 
 In my case, I completed two courses- `*Red Hat Enterprise Administration*` and `*Red Hat Enterprise Engineering*` and attended the certification exams knowing that I will enter in system administration. But, although later I entered in academic career, these two yet gave me some professionalexperiences, boosted my confidence and weighted my profile. Therefore, I will suggest you to take at least one course according to your preferred arena.
 
 ## 7. Create a LinkedIn profile
+[`LinkedIn`][Linkedin] is the most preferable social network among professionals for it's skill oriented search options. Thus it became easy to find a skilled person whom employers want to hire or may ask for collaboration. Also it is said to be the most powerfull tool for marketing in the 21st century[^6]. The [`Huffingtonpost`][Huff] claimed it for three main reasons- media, partnerships and clients.
+
+Now-a-days most IT companies are hiring employees through LinkedIn because a profile can speak more than a CV here. So, chance is you may be knocked by employers before you even complete your graduation if you have quite a good looking profile.
+
+[^6]: [Why LinkedIn Is the Most Powerful Marketing Tool of the 21st Century](https://www.huffingtonpost.com/anfernee-chansamooth/why-linkedin-is-the-most-_b_5706017.html)
+
 ## 8. Find a mentor
+>“I cannot teach anybody anything. I can only make them think” ― Socrates
+
+Yes, that is true. No one can teach you, it's you who can teach yourself. A teacher or mentor can just show you the way. It's completely your choice whether or not you will learn. But, after even knowing what is right, sometimes we fall victim to depression and lose the way. In that time we need someone to motivate ourselves. So, find a mentor who can influence and guide you to march ahead. 
+
+Choosing the right mentor is another important thing. You can choose a professional, a teacher, parents, elder siblings or even a friend as your mentor. Always remember, choose someone who has every positivity about life. It will be better if s/he is already working or has knowledge on your prefered arena so that you can find a lot of scopes & opportunities in future.
+
 ## 9. Build a network
-## 10. Practice public speaking
-## 11. Enhance writing/documentation skill
+Build your own network and keep enhancing the boundary. You can enhance your network through engaging in online communities or social networks, forums & blogs; through participating in seminars/workshops/conferences and doing projects through internships. Always ask and answer questions and arise particular problems/solutions there. Be sure, every others will keep an eye on you, and opportunities will knock on your door.
+
+## 10. Participate in inter-university contests
+Judging our ownselves is quite hard, isn't it..? So, participate in inter-university contests. You won't have to bring a prize, medal or certificates. Participate to understand your level and gather more experiences about the real life problems. If you can secure a place, voila!!! That will boost your confidence in tremendous level and you can weight your profile a bit more. If you can't, at least you know what is your lacking so that you can improve there in future.
+
+>"I never lose. I either win or I learn." -Mandela
+
+## 11. Practice public speaking
+
+
+## 12. Enhance writing/documentation skill
 
 
 [Python programming]: https://www.python.org/
@@ -77,6 +98,8 @@ In my case, I completed two courses- `*Red Hat Enterprise Administration*` and `
 [t1]: https://templates.office.com/en-us/CV-resume-TM00002021
 [t2]: https://templates.office.com/en-us/Resumes-and-Cover-Letters
 [Hloom]: http://www.hloom.com/resumes/
+[Linkedin]: https://www.linkedin.com
+[Huff]: https://www.huffingtonpost.com
 
 
 [^1]: [6 inspirational success quotes reach highest goals] (https://buzz.strayer.edu/success-project/6-inspirational-success-quotes-reach-highest-goals/)
