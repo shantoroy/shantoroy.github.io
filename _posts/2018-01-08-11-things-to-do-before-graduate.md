@@ -22,14 +22,18 @@ In this article, I will recommend 11 things a **Computer Science (CS/CSE)** or *
 
 >"Your time is limited, so don't waste it living someone else's life. Don't let the noise of others' opinions drown out your own inner voice. And most important, have the courage to follow your heart and intuition." - Steve Jobs [^1]
 
+[^1]: [6 inspirational success quotes reach highest goals](https://buzz.strayer.edu/success-project/6-inspirational-success-quotes-reach-highest-goals/)
+
+
 ## 1. Master one programming language
 Before completing graduation, master at least one programming language. To cope with the progressing technologies, coding skill has become the most primary need unless you plan for a career change. Most of the students become confused when they are suggested to choose that choice. Although it entirely depends on the field you choose. Because every single programming language has different specialities- that means languages have particular functionalities and advantages over other languages. 
 
 For example, data scientists always prefer [`Python`][Python programming] and [`R`][R programming] programming languages [^2] because these languages have better built-in functions to work over data. ACM programmer's preferable choice is [`C++`][C++ programming] for competitive programming [^3] [^4] [^5]. On the other hand, [`PHP`][PHP] along with [`MySQL`][MySQL] is quite popular in terms of developing web applications. So, one need to choose a particular language acording to his preferable arena.
 
-[^3]: [Why do programming competition contestants use C++ and Java?] (https://stackoverflow.com/questions/3380993/why-do-programming-competition-contestants-use-c-and-java)
-[^4]: [Which language is better for competitive coding?] (https://discuss.codechef.com/questions/47211/which-language-is-better-for-competitive-coding)
-[^5]: [Why do most people prefer C++ for competitive programming?] (https://www.quora.com/Why-do-most-people-prefer-C++-for-competitive-programming)
+[^2]: [R vs Python for Data Science: The Winner is...](https://www.kdnuggets.com/2015/05/r-vs-python-data-science.html)
+[^3]: [Why do programming competition contestants use C++ and Java?](https://stackoverflow.com/questions/3380993/why-do-programming-competition-contestants-use-c-and-java)
+[^4]: [Which language is better for competitive coding?](https://discuss.codechef.com/questions/47211/which-language-is-better-for-competitive-coding)
+[^5]: [Why do most people prefer C++ for competitive programming?](https://www.quora.com/Why-do-most-people-prefer-C++-for-competitive-programming)
 
 
 ## 2. Start a personal website
@@ -102,6 +106,3 @@ Author, writer, blogger or developer- whoever you are, you need good skills in d
 [Linkedin]: https://www.linkedin.com
 [Huff]: https://www.huffingtonpost.com
 
-
-[^1]: [6 inspirational success quotes reach highest goals] (https://buzz.strayer.edu/success-project/6-inspirational-success-quotes-reach-highest-goals/)
-[^2]: [R vs Python for Data Science: The Winner is...] (https://www.kdnuggets.com/2015/05/r-vs-python-data-science.html)
