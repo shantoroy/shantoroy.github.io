@@ -1,5 +1,6 @@
 ---
 layout: single
+title: How to add subfigure in Latex
 categories: 
   - Latex
 tags:
