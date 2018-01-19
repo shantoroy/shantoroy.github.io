@@ -17,8 +17,15 @@ toc_icon: "heart"
 ---
 
 ## Pre-Requisite
+### Pre-requisite for system
+### Pre-requisite configuration
+* Static IP
+* Static Hostname
+* NTP
+* yum update
 
 ## Initial Configuration
+
 
 ## Install Open Stack
 
