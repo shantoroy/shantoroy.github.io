@@ -110,8 +110,8 @@ You can add/modify other information by editing the `\etc\ntp.conf` file.
 ```
 
 ## Install Open Stack
-```bash
+{% highlight bash %}
 # yum -y install openstack-packstack
-```
+{% endhighlight %}
 
 ## Network Configuration
