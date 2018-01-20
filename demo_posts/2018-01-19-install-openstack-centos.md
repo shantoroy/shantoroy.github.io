@@ -17,7 +17,7 @@ toc_label: "Table of Contents"
 toc_icon: "heart" 
 ---
 
-## Pre-Requisite
+## Pre-Requisite 
 To check out how to install CentOS/Red Hat in your PC you can visit following tutorials created by [Tecmint][tec]-
 [How to install Cent OS][cent]
 [How to install Red Hat][red]
@@ -27,13 +27,8 @@ To check out how to install CentOS/Red Hat in your PC you can visit following tu
 [red]: https://www.tecmint.com/redhat-enterprise-linux-7-installation/
 
 ### Pre-requisite for system
-### Pre-requisite configuration
-* Static IP
-* Static Hostname
-* NTP
-* yum update
 
-## Initial Configuration
+### Static IP and Hostname
 First thing first, you have to set a static `IP` and `hostname`. Check carefully whether or not they are already set.
 
 You can check the `IP` and `hostname` using the following command-
@@ -41,7 +36,6 @@ You can check the `IP` and `hostname` using the following command-
 # ip a s eth0
 # hostname
 ```
-
 If the IP is a global IP or already obtained from DHCP, set static IP by editing the `/etc/sysconfig/network-scripts/ifcfg-enp0s3` file.
 ```bash
 # vim /etc/sysconfig/network-scripts/ifcfg-enp0s3
@@ -79,12 +73,45 @@ Then add the DNS server address of Google or add your local nameserver address-
 nameserver 8.8.8.8
 nameserver 8.8.4.4
 ```
+Now, restart the `network` service-
+```bash
+# systemctl restart network
+```
 Then you can set the hostname using following command-
 ```bash
 # hostnamectl set-hostname cloud.example.com
+# hostname
 ```
 
+### Configure NTP (Network Time Protocol)
+NTP is generally installed by default while installing the server OS. To check if the ntp service is already running use the following command-
+```bash
+# chronyc tracking
+```
+If it is not running, install the `ntp` package and add to firewall rules.
+```bash
+# yum install ntp
+# firewall-cmd --permanent --add-service=ntp 
+# firewall-cmd --reload
+```
+Now start the `ntp service`-
+```bash
+# systemctl start ntpd
+# systemctl enable ntpd
+# systemctl status ntpd
+```
+You can add/modify other information by editing the `\etc\ntp.conf` file.
+
+### Update the kernel
+```bash
+# yum upadate -y
+# uname -r
+# rpm -qa | grep kernel
+```
 
 ## Install Open Stack
+```bash
+# yum -y install openstack-packstack
+```
 
 ## Network Configuration
