@@ -114,4 +114,22 @@ You can add/modify other information by editing the `\etc\ntp.conf` file.
 # yum -y install openstack-packstack
 {% endhighlight %}
 
+Now, generate an answer file with default configurations for `packstack`.
+```bash
+# packstack --gen-answer-file = answer.txt
+```
+
+Now edit the answer file using vi/m
+```bash
+# vim answer.txt
+```
+
+Now set the parameters like following-
+```bash
+CONFIG_PROVISION_DEMO=n
+CONFIG_NTP_SERVERS= 172.16.31.1    # according to your configured ntp server
+CONFIG_KEYSTONE_ADMIN_PW = 123456    # Admin password
+CONFIG_HORIZON_SSL=y       # for SSL enabled access
+```
+
 ## Network Configuration
