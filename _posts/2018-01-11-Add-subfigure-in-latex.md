@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "How to add subfigure in Latex"
+header: 
+  image: "https://farm5.staticflickr.com/4618/39005424665_7933a838e6_b.jpg"
+  teaser: "https://farm5.staticflickr.com/4618/39005424665_7933a838e6_b.jpg"
 categories: 
   - Latex
 tags:
@@ -41,7 +44,10 @@ The following code puts two subfigures in a figure portion-
 
 So, applying the code the output should look like this -
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/142248809@N07/38744621035/in/dateposted-public/" title="subfigure"><img src="https://farm5.staticflickr.com/4651/38744621035_a725266755_b.jpg" width="1024" height="488" alt="subfigure"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<figure>
+	<a href="https://farm5.staticflickr.com/4651/38744621035_a725266755_b.jpg"><img src="https://farm5.staticflickr.com/4651/38744621035_a725266755_b.jpg"></a>
+</figure>
+
 
 Here is another code to do the same. Only difference is, this time we are using `\begin{minipage}...\end{minipage}` instead of `\begin{subfigure}...\end{subfigure}` block.
 
@@ -73,7 +79,10 @@ Here is another code to do the same. Only difference is, this time we are using 
 
 So, applying the code the output should look like this-
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/142248809@N07/39612703392/in/dateposted-public/" title="subfigure_3"><img src="https://farm5.staticflickr.com/4658/39612703392_1bf583c3ed_b.jpg" width="1024" height="389" alt="subfigure_3"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<figure>
+	<a href="https://farm5.staticflickr.com/4658/39612703392_1bf583c3ed_b.jpg"><img src="https://farm5.staticflickr.com/4658/39612703392_1bf583c3ed_b.jpg"></a>
+</figure>
+
 
 ## Add multiple subfigures in multiple rows
 
@@ -119,4 +128,6 @@ Multiple subfigures can be put in multiple rows by adding a `\newline` after one
 ```
 
 So, applying the code the output should look like this-
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/142248809@N07/39642619871/in/dateposted-public/" title="subfigure_2"><img src="https://farm5.staticflickr.com/4673/39642619871_bc6b328e85_b.jpg" width="736" height="567" alt="subfigure_2"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<figure>
+	<a href="https://farm5.staticflickr.com/4673/39642619871_bc6b328e85_b.jpg"><img src="https://farm5.staticflickr.com/4673/39642619871_bc6b328e85_b.jpg"></a>
+</figure>
