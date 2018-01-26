@@ -32,7 +32,7 @@ To check out how to install CentOS/Red Hat in your PC you can visit following tu
 First thing first, you have to set a static `IP` and `hostname`. Check carefully whether or not they are already set.
 
 You can check the `IP` and `hostname` using the following command-
-```python
+```
 # ip a s eth0
 # hostname
 ```
