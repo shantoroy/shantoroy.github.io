@@ -119,7 +119,7 @@ Now, generate an answer file with default configurations for `packstack`.
 # packstack --gen-answer-file = answer.txt
 ```
 
-Now edit the answer file using vi/m
+Edit the answer file using vi/m
 ```bash
 # vim answer.txt
 ```
@@ -131,5 +131,15 @@ CONFIG_NTP_SERVERS= 172.16.31.1    # according to your configured ntp server
 CONFIG_KEYSTONE_ADMIN_PW = 123456    # Admin password
 CONFIG_HORIZON_SSL=y       # for SSL enabled access
 ```
+It's all set up now. Install openstack using packstack answer file
+```bash
+# packstack --answer-file answer.txt
+```
+It may take hours to complete the installation process. 
 
-## Network Configuration
+After completion, it will provide a link for the dashboard interface. Generally, it will look like `https://192.168.1.5/dashboard`. You can access to the dashboard using that link in a browser.
+
+Find the credentials under the home directory in `keystonerc_admin` file.
+
+As you are using a `Self-Signed Certificate` issued by an **untrusted Certificate Authority**, your browser will show an error.
+Accepting the error, login to the dashboard with the default user admin and the password set on `CONFIG_KEYSTONE_ADMIN_PW` parameter which was set while editing the packstack answer file.
