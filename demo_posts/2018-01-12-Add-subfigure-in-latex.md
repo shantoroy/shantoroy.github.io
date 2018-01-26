@@ -20,24 +20,4 @@ In research articles, we need to add subfigures often. To create subfigure in la
 ## Add subfigures horizontally
 The following code puts two subfigures in a figure portion-
 
-```
-\usepackage{subcaption}
-\begin{figure}[ht]
-\begin{subfigure}{.5\textwidth}
-  \centering
-  % include first image
-  \includegraphics[width=.8\linewidth]{image_file_name}  
-  \caption{Put your sub-caption here}
-  \label{fig:sub-first}
-\end{subfigure}
-\begin{subfigure}{.5\textwidth}
-  \centering
-  % include second image
-  \includegraphics[width=.8\linewidth]{image_file_name}  
-  \caption{Put your sub-caption here}
-  \label{fig:sub-second}
-\end{subfigure}
-\caption{Put your caption here}
-\label{fig:fig}
-\end{figure}
-```
+
