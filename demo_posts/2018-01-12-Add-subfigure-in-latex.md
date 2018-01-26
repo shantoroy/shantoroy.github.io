@@ -15,7 +15,7 @@ toc_icon: "heart"
 ---
 
 ## How to add subfigures in latex
-In research articles, we need to add subfigures often. To create subfigure in latex, you can use both `\begin{minipage}...\end{minipage}` and `\begin{subfigure}...\end{subfigure}` block to insert subfigures or sub-images. Subfigurs are generally inserted horizontally in one or multiple rows. Here, some example codes with output screenshot is provided in the following.
+fsfsfsfsfs
 
 ## Add subfigures horizontally
 The following code puts two subfigures in a figure portion-
