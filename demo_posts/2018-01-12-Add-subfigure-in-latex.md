@@ -20,7 +20,7 @@ In research articles, we need to add subfigures often. To create subfigure in la
 ## Add subfigures horizontally
 The following code puts two subfigures in a figure portion-
 
-``` latex
+```
 \usepackage{subcaption}
 \begin{figure}[ht]
 \begin{subfigure}{.5\textwidth}
