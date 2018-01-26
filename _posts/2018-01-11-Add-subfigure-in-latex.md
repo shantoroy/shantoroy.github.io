@@ -20,7 +20,7 @@ In research articles, we need to add subfigures often. To create subfigure in la
 ## Add subfigures horizontally
 The following code puts two subfigures in a figure portion-
 
-{% highlight %}
+```
 \usepackage{subcaption}
 \begin{figure}[ht]
 \begin{subfigure}{.5\textwidth}
@@ -40,7 +40,7 @@ The following code puts two subfigures in a figure portion-
 \caption{Put your caption here}
 \label{fig:fig}
 \end{figure}
-{% endhighlight %}
+```
 
 So, applying the code the output should look like this -
 
