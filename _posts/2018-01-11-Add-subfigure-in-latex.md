@@ -42,7 +42,7 @@ The following code puts two subfigures in a figure portion-
 \end{figure}
 {% endhighlight %}
 
-So, applying the code the output should look like this-
+So, applying the code the output should look like this -
 
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/142248809@N07/38744621035/in/dateposted-public/" title="subfigure"><img src="https://farm5.staticflickr.com/4651/38744621035_a725266755_b.jpg" width="1024" height="488" alt="subfigure"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
