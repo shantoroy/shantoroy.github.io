@@ -1,8 +1,8 @@
 ---
 layout: single
 header: 
-  image: "https://farm5.staticflickr.com/4618/39005424665_7933a838e6_b.jpg"
-  teaser: "https://farm5.staticflickr.com/4618/39005424665_7933a838e6_b.jpg"
+  image: "https://farm5.staticflickr.com/4654/24859362187_2c62340d96_b.jpg"
+  teaser: "https://farm5.staticflickr.com/4654/24859362187_2c62340d96_b.jpg"
 categories: 
   - Latex
 tags:
