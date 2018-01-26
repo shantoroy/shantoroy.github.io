@@ -32,12 +32,12 @@ To check out how to install CentOS/Red Hat in your PC you can visit following tu
 First thing first, you have to set a static `IP` and `hostname`. Check carefully whether or not they are already set.
 
 You can check the `IP` and `hostname` using the following command-
-```bash
+```
 # ip a s eth0
 # hostname
 ```
 If the IP is a global IP or already obtained from DHCP, set static IP by editing the `/etc/sysconfig/network-scripts/ifcfg-enp0s3` file.
-```bash
+```
 # vim /etc/sysconfig/network-scripts/ifcfg-enp0s3
 ```
 set the `bootproto=static`, `IPADDR=192.168.1.5` and `ONBOOT=yes`. It will look like the following-
@@ -61,11 +61,11 @@ UUID=eb49ea7e-253b-653c-c9b4-gfdb6f1b4ac5
 ONBOOT=yes
 ```
 If the gateway is not set, you can set that by editing the `/etc/sysconfig/network` file.
-```bash
+```
 # vim /etc/sysconfig/network
 ```
 Also, if the DNS is not set, edit the `/etc/resolv.conf` file.
-```bash
+```
 # vim /etc/resolv.conf
 ```
 Then add the DNS server address of Google or add your local nameserver address-
@@ -74,28 +74,28 @@ nameserver 8.8.8.8
 nameserver 8.8.4.4
 ```
 Now, restart the `network` service-
-```bash
+```
 # systemctl restart network
 ```
 Then you can set the hostname using following command-
-```bash
+```
 # hostnamectl set-hostname cloud.example.com
 # hostname
 ```
 
 ### Configure NTP (Network Time Protocol)
 NTP is generally installed by default while installing the server OS. To check if the ntp service is already running use the following command-
-```bash
+```
 # chronyc tracking
 ```
 If it is not running, install the `ntp` package and add to firewall rules.
-```bash
+```
 # yum install ntp
 # firewall-cmd --permanent --add-service=ntp 
 # firewall-cmd --reload
 ```
 Now start the `ntp service`-
-```bash
+```
 # systemctl start ntpd
 # systemctl enable ntpd
 # systemctl status ntpd
@@ -103,7 +103,7 @@ Now start the `ntp service`-
 You can add/modify other information by editing the `\etc\ntp.conf` file.
 
 ### Update the kernel
-```bash
+```
 # yum upadate -y
 # uname -r
 # rpm -qa | grep kernel
@@ -115,12 +115,12 @@ You can add/modify other information by editing the `\etc\ntp.conf` file.
 {% endhighlight %}
 
 Now, generate an answer file with default configurations for `packstack`.
-```bash
+```
 # packstack --gen-answer-file = answer.txt
 ```
 
 Edit the answer file using vi/m
-```bash
+```
 # vim answer.txt
 ```
 
@@ -132,7 +132,7 @@ CONFIG_KEYSTONE_ADMIN_PW = 123456    # Admin password
 CONFIG_HORIZON_SSL=y       # for SSL enabled access
 ```
 It's all set up now. Install openstack using packstack answer file
-```bash
+```
 # packstack --answer-file answer.txt
 ```
 It may take hours to complete the installation process. 
