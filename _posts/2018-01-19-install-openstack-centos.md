@@ -111,7 +111,7 @@ You can add/modify other information by editing the `\etc\ntp.conf` file.
 
 ## Install Open Stack
 ### Install Pack Stack
-{% highlight bash %}
+{% highlight %}
 # yum -y install openstack-packstack
 {% endhighlight %}
 
