@@ -14,10 +14,4 @@ toc_label: "Table of Contents"
 toc_icon: "heart" 
 ---
 
-## How to add subfigures in latex
-fsfsfsfsfs
-
-## Add subfigures horizontally
-The following code puts two subfigures in a figure portion-
-
 
