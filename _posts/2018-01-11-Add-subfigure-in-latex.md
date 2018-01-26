@@ -20,7 +20,7 @@ In research articles, we need to add subfigures often. To create subfigure in la
 ## Add subfigures horizontally
 The following code puts two subfigures in a figure portion-
 
-{% highlight latex %}
+{% highlight %}
 \usepackage{subcaption}
 \begin{figure}[ht]
 \begin{subfigure}{.5\textwidth}
@@ -51,7 +51,7 @@ So, applying the code the output should look like this -
 
 Here is another code to do the same. Only difference is, this time we are using `\begin{minipage}...\end{minipage}` instead of `\begin{subfigure}...\end{subfigure}` block.
 
-```latex
+```
 \begin{figure}[ht]
   \subfloat[Percentage storage utilization]{
 	\begin{minipage}[c][1\width]{
@@ -88,7 +88,7 @@ So, applying the code the output should look like this-
 
 Multiple subfigures can be put in multiple rows by adding a `\newline` after one row is complete. For example, if you have four figures and you want to put them in 2x2 style, put `\newline` after two subfigures which will be placed in the first rwo. The command will create a new row for rest of the subfigures. 
 
-```latex
+```
 \begin{document}
 \begin{figure}
 \begin{subfigure}{.5\textwidth}
