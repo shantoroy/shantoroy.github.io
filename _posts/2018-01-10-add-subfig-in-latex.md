@@ -14,3 +14,35 @@ toc_label: "Table of Contents"
 toc_icon: "heart" 
 ---
 
+In research articles, we need to add subfigures often. To create subfigure in latex, you can use both `\begin{minipage}...\end{minipage}` and `\begin{subfigure}...\end{subfigure}` block to insert subfigures or sub-images. Subfigurs are generally inserted horizontally in one or multiple rows. Here, some example codes with output screenshots are provided in the following.
+
+## Add subfigures horizontally
+The following code puts two subfigures in a figure portion-
+
+```
+\usepackage{subcaption}
+\begin{figure}[ht]
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include first image
+  \includegraphics[width=.8\linewidth]{image_file_name}  
+  \caption{Put your sub-caption here}
+  \label{fig:sub-first}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+  \centering
+  % include second image
+  \includegraphics[width=.8\linewidth]{image_file_name}  
+  \caption{Put your sub-caption here}
+  \label{fig:sub-second}
+\end{subfigure}
+\caption{Put your caption here}
+\label{fig:fig}
+\end{figure}
+```
+
+So, applying the code the output should look like this -
+
+<figure>
+	<a href="https://farm5.staticflickr.com/4651/38744621035_a725266755_b.jpg"><img src="https://farm5.staticflickr.com/4651/38744621035_a725266755_b.jpg"></a>
+</figure>
