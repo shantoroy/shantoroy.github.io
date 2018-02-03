@@ -101,7 +101,7 @@ For CS/CSE/IT/EEE students, it is better to check whether or not the conference/
 Read author instructions carefully and submit your paper accordingly. Almost all conferences or journals prefer their own templates. So, download the template and organize the sections, figures, tables etc as given instructions. Conferences usually use an online management tool through which one can submit his paper. In case of journals, usually author needs to send manuscripts through email. 
 
 
-## 12. Modify as per reviewer's comments
+## 11. Modify as per reviewer's comments
 After a certain period, the notifications come- accept/reject. If accepted, voila..! :)
 
 It's not done yet although. You need to find the reviewers comments and read them carefully. Modify your manuscript according to their reviews. And after final proofreading, submit the modified manuscript along with answers to reviewers comments.
