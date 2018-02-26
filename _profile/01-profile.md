@@ -19,3 +19,14 @@ You can also find me in:
 
 * [ResearchGate][ResearchGate]
 * [Academia][Academia]
+* [Google Citation Profile][Google]
+* [LinkedIn][LinkedIn]
+* [Instagram][Instagram]
+* [Flickr][Flickr]
+
+[ResearchGate]: https://www.researchgate.net/profile/Shanto_Roy2
+[Academia]: https://juniv.academia.edu/ShantoRoy
+[Google]: https://scholar.google.com/citations?user=OMGYMbwAAAAJ&hl=en
+[LinkedIn]: https://www.linkedin.com/in/shanto-roy/
+[Instagram]: https://www.instagram.com/shanto.roy.9/
+[Flickr]: https://www.flickr.com/roysclick
