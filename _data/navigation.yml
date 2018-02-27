@@ -5,7 +5,7 @@ main:
   - title: "My Google Site"
     url: https://sites.google.com/site/shantoroyiit/
   - title: "Profile"
-    url: /profile/
+    url: /profile/profile/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
@@ -14,7 +14,9 @@ main:
 
 # profile links
 profile:
-  - title: "Bio"
-    url: /profile/profile/
-  - title: "Experience"
-    url: /profile/experience/
+  - title: "Roy's Profile"
+    children:
+      - title: "Bio"
+        url: /profile/profile/
+      - title: "Experience"
+        url: /profile/experience/
