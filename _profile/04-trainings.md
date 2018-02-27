@@ -1,5 +1,5 @@
 ---
-title: "Trainings & Certs"
+title: "Trainings & Certifications"
 layout: single
 permalink: /profile/certifications/
 excerpt: "Shanto Roy's Certifications"
