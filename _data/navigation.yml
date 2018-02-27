@@ -4,9 +4,17 @@ main:
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "My Google Site"
     url: https://sites.google.com/site/shantoroyiit/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
+  - title: "Profile"
+    url: /profile/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+
+# profile links
+profile:
+  - title: "Bio"
+    url: /profile/profile/
+  - title: "Experience"
+    url: /profile/experience/
