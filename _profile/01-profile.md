@@ -6,10 +6,10 @@ excerpt: "Shanto Roy's Contact"
 toc: false
 ---
 
-Shanto Roy
-Lecturer, Department of Computer Science and Engineering
-Green University of Bangladesh
-E-mail : shanto.cse@green.edu.bd
+Shanto Roy\\
+Lecturer, Department of Computer Science and Engineering\\
+Green University of Bangladesh\\
+E-mail : shanto.cse@green.edu.bd\\
 Mobile: (+880) 1784-989404
 
 You can also find me in:
