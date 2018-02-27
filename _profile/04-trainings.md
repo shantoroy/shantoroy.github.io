@@ -37,7 +37,7 @@ Course topics : [Click here](https://sites.google.com/site/shantoroyiit/training
 
 Place : [New Horizon Computer Learning Center](https://dhaka.newhorizons.com)\\
 Conducted by : [ASM Kaiser](https://www.facebook.com/7he.0n3) (Instructor at New Horizon CLC)\\
-Training Period : One month   (February,2016)\\
+Training Period : One month   (`February, 2016`)\\
 Vendor Certificate : [Click here](https://drive.google.com/file/d/0B8JAvfQn3CY7QTl1bWh2ckpnM1k/view)\\
 Course topics : [Click here](https://sites.google.com/site/shantoroyiit/trainings/rhcsa)
 
