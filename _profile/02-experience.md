@@ -2,10 +2,7 @@
 title: "Experience"
 permalink: /profile/experience/
 excerpt: "Shanto Roy's Experience"
-
-[//]: # (redirect_from:)
-[//]: # (  - /theme-setup/)
-
+layout: single
 toc: true
 ---
 
