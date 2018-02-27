@@ -1,8 +1,8 @@
 ---
-title: "Trainings & Certifications"
+title: "Trainings"
 layout: single
-permalink: /profile/certifications/
-excerpt: "Shanto Roy's Certifications"
+permalink: /profile/trainings/
+excerpt: "Shanto Roy's Trainings"
 toc: false
 ---
 
