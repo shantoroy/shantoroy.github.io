@@ -1,5 +1,6 @@
 ---
 title: "Profile"
+layout: single
 permalink: /profile/profile/
 excerpt: "Shanto Roy's Contact"
 toc: true
