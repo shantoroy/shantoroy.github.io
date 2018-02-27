@@ -239,6 +239,12 @@ compress_html:
   ignore:
     envs: development
 
+# Collections
+collections:
+  profile:
+    output: true
+    permalink: /:collection/:path/
+
 
 # Defaults
 defaults:
