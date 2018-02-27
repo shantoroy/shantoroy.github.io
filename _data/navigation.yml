@@ -22,3 +22,5 @@ profile:
         url: /profile/experience/
       - title: "Research & Publications"
         url: /profile/publications/
+      - title: "Trainings & Certs"
+        url: /profile/certifications/
