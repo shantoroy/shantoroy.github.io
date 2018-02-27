@@ -20,3 +20,5 @@ profile:
         url: /profile/profile/
       - title: "Experience"
         url: /profile/experience/
+      - title: "Research & Publications"
+        url: /profile/publications/
