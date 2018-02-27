@@ -259,3 +259,11 @@ defaults:
       comments: true
       share: true
       related: true
+      
+  # _profile
+  - scope:
+      path: ""
+      type: profile
+    values:
+      sidebar:
+        nav: "profile"
