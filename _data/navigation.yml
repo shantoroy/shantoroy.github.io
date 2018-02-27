@@ -14,9 +14,9 @@ main:
 
 # profile links
 profile:
-  - title: "Roy's Profile"
+  - title: Roy's Profile
     children:
-      - title: "Bio"
+      - title: "Profile"
         url: /profile/profile/
       - title: "Experience"
         url: /profile/experience/
