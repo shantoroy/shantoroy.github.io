@@ -2,10 +2,6 @@
 title: "Profile"
 permalink: /profile/profile/
 excerpt: "Shanto Roy's Contact"
-
-[//]: # (redirect_from:)
-[//]: # (  - /theme-setup/)
-
 toc: true
 ---
 
