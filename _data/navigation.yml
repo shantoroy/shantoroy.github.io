@@ -25,3 +25,5 @@ profile:
         url: /profile/publications/
       - title: "Trainings"
         url: /profile/trainings/
+      - title: "Certifications"
+        url: /profile/certifications/
