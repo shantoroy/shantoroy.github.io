@@ -24,7 +24,7 @@ Technology : `Red Hat Enterprise Linux 7`\\
 Center : `New Horizon Computer Learning Center, BD`
 
 ### Red Hat Certified System Administrator (RHCSA)
-[Details](https://www.redhat.com/en/services/training/ex200-red-hat-certified-system-administrator-rhcsa-exam)
+[Details](https://www.redhat.com/en/services/training/ex200-red-hat-certified-system-administrator-rhcsa-exam)\\
 Exam Date : `February 26, 2016` \\
 Technology : `Red Hat Enterprise Linux 7`\\
 Center : `New Horizon Computer Learning Center, BD`
