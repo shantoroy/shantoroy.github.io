@@ -27,8 +27,7 @@ hosted by _IEEE Student Branch, Jahangirnagar University_, `IIT, Jahangirnagar U
 ### 2016
 * IEEE Bangladesh Section Student/Young Professional/Women in Engineering Congress 2016, hosted by _IEEE SB DU_ `Senate Bhaban, DU, 2016`
 * Generate ideas for Research and Development projects leading to commercial success, a workshop conducted 
-by [Mr. Sudeendra Koushik](https://www.linkedin.com/in/sudeendrakoushik/) and [Ms. Pragya Dixit](https://www.linkedin.com/in/pragya-
-dixit-1a30148/), renowned speakers of IEEE from India; sponsored by `IEEE BDS AIUB, 2016`  
+by [Mr. Sudeendra Koushik](https://www.linkedin.com/in/sudeendrakoushik/) and [Ms. Pragya Dixit](https://www.linkedin.com/in/pragya-dixit-1a30148/), renowned speakers of IEEE from India; sponsored by `IEEE BDS AIUB, 2016`  
 [View Certificate](https://drive.google.com/file/d/1Jti4oz_iJdKU28RxowOi_xVXSWO6ZpZR/view)
 * Skill Development for Mobile Game and Application Development, a workshop arranged by [ICT Division, Bangladesh](http://www.ictd.gov.bd), `BCC auditorium, ICTD Building, 2016`
 * Software Defined Networking and Software Defined Data Centre, a seminar conducted by Mr. Md. Arman Hossain, Sr. Solution Architect, 
