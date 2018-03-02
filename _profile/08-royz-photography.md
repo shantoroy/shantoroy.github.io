@@ -14,8 +14,8 @@ intro:
   - excerpt: 'Find more photos in [Flickr](https://www.flickr.com/photos/roysclick/)'
 feature_row:
   - image_path: https://farm1.staticflickr.com/684/21617058800_d3ff67e8e4_k.jpg
-    alt: "Enjoyable rain"
-    title: "Enjoyable rain at Jahangirnagar University, Dhaka, Bangladesh"
+    alt: "Enjoyable rain at Jahangirnagar University, Dhaka, Bangladesh"
+    title: "Enjoyable rain"
     excerpt: "A couple gossipping under a shelter in a rainy day. Location: Cetral Cafeteria, Jahangirnagar University, Dhaka, Bangladesh."
   - image_path: https://farm9.staticflickr.com/8678/16518979530_b2181c9335_k.jpg
     alt: "Shaheed Minar, Jahangirnagar University, Dhaka, Bangladesh"
