@@ -4,29 +4,30 @@ layout: splash
 permalink: /profile/photography/
 header:
   overlay_color: "#000"
-  overlay_filter: "0.5"
+  overlay_filter: "0.6"
   overlay_image: https://farm6.staticflickr.com/5705/21779044556_d5d40c8c17_k.jpg
   cta_label: "Download"
   [//]: # (cta_url: "https://github.com/mmistakes/minimal-mistakes/")
   [//]: # (caption: "Untitled")  
 excerpt: "All this happened when I started capturing the beauties I find in the surroundings"
 intro: 
-  - excerpt: 'Find more photos in [Flickr](https://www.flickr.com/photos/roysclick/) `type="center"`'
+  - excerpt: 'Find more photos in [Flickr](https://www.flickr.com/photos/roysclick/)'
 feature_row:
   - image_path: https://farm1.staticflickr.com/684/21617058800_d3ff67e8e4_k.jpg
-    alt: "placeholder image 1"
-    title: "Placeholder 1"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    alt: "Enjoyable rain"
+    title: "Enjoyable rain at Jahangirnagar University, Dhaka, Bangladesh"
+    excerpt: "A couple gossipping under a shelter in a rainy day. Location: Cetral Cafeteria, Jahangirnagar University, Dhaka, Bangladesh."
   - image_path: https://farm9.staticflickr.com/8678/16518979530_b2181c9335_k.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder 2"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
+    alt: "Shaheed Minar, Jahangirnagar University, Dhaka, Bangladesh"
+    title: "The highest Shaheed Minar of Bangladesh"
+    excerpt: "Preparation for a program to celebrate International Mother Language day. Location: Shaheed Minar, Jahangirnagar University, Dhaka, Bangladesh."
+    [//]: # (url: "#test-link")
+    [//]: # (btn_label: "Read More")
+    [//]: # ( btn_class: "btn--primary")
   - image_path: https://farm6.staticflickr.com/5458/17782930606_4220871d44_k.jpg
-    title: "Placeholder 3"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    title: "The Butterfly Effect"
+    alt: "wildlife: colorful butterfly sitting on a green leaf"
+    excerpt: "A butterfly simply sitting on a leaf. Location: Botanical Garden, Dhaka, Bangladesh"
 feature_row2:
   - image_path: https://farm1.staticflickr.com/559/19949134478_6960a6cc2c_k.jpg
     alt: "placeholder image 2"
@@ -61,4 +62,4 @@ feature_row4:
 
 {% include feature_row id="feature_row3" type="right" %}
 
-{% include feature_row id="feature_row4" type="center" %}
+{% include feature_row id="feature_row4" type="left" %}
