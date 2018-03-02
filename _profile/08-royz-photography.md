@@ -12,7 +12,14 @@ header:
 excerpt: "All this happened when I started capturing the beauties I find in the surroundings"
 intro: 
   - excerpt: 'Find more photos in [Flickr](https://www.flickr.com/photos/roysclick/)'
+
 feature_row:
+  - image_path: https://farm1.staticflickr.com/684/21617058800_d3ff67e8e4_k.jpg
+    alt: "Enjoyable rain at Jahangirnagar University, Dhaka, Bangladesh"
+    title: "Enjoyable rain"
+    excerpt: "A couple gossipping under a shelter in a rainy day. Location: Cetral Cafeteria, Jahangirnagar University, Dhaka, Bangladesh."
+
+feature_row1:
   - image_path: https://farm1.staticflickr.com/684/21617058800_d3ff67e8e4_k.jpg
     alt: "Enjoyable rain at Jahangirnagar University, Dhaka, Bangladesh"
     title: "Enjoyable rain"
@@ -56,7 +63,9 @@ feature_row4:
 
 {% include feature_row id="intro" type="center" %}
 
-{% include feature_row %}
+{% include feature_row type="left" %}
+
+{% include feature_row id="feature_row1" %}
 
 {% include feature_row id="feature_row2" type="left" %}
 
