@@ -16,7 +16,8 @@ intro:
 feature_row:
   - image_path: https://farm6.staticflickr.com/5772/21927086194_5c87eb5482_b.jpg
     alt: "Dawn of the brighten Lantern"
-    title: "'Category: Festivals'\\'Dawn of the brighten Lantern'"
+    title: "Category: Festivals"
+    title: "Dawn of the brighten Lantern"
     excerpt: "A buddhist monk is launching a sky lantern on `Prabarana Purnima`.\\
     Location: Buddhist temple, Dhaka, Bangladesh."
 
