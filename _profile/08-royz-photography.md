@@ -17,7 +17,7 @@ feature_row:
   - image_path: https://farm9.staticflickr.com/8669/16111051134_3b399e1515_b.jpg
     alt: "Holi Festival in Shakharibazar, Dhaka"
     title: "Happy Holi"
-    excerpt: "A sudden click in the Holi festival. **Category:** Festival
+    excerpt: "A sudden click in the Holi festival. <br> **Category:** Festival <br>
     **Location:** Shakharibazar, Dhaka, Bangladesh"
 
 
