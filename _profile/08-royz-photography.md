@@ -90,6 +90,29 @@ feature_row5:
     title: "The common Kingfisher"
     excerpt: "A kingfisher waiting with patience for it's pray <br> **Category:** WildLife <br>
     **Location:** Botanical Garden, Dhaka, Bangladesh"
+    
+feature_row6:
+  - image_path: https://farm6.staticflickr.com/5705/21779044556_d5d40c8c17_k.jpg
+    alt: "Untitled"
+    title: "Untitled"
+    excerpt: "A lantern hanging outside a shop <br> **Category:** Abstract"
+    
+feature_row7:
+  - image_path: https://farm1.staticflickr.com/559/19949134478_6960a6cc2c_k.jpg
+    alt: "Untitled"
+    title: "Untitled-1"
+    excerpt: "The fossil of a dead lizard <br> **Category:** Abstract<br>
+    **Location:** Dhaka, Bangladesh"
+  - image_path: https://farm2.staticflickr.com/1663/23851903094_f204e27dc4_k.jpg
+    alt: "Untitled"
+    title: "Untitled-2"
+    excerpt: "A journey towards heaven <br> **Category:** Abstract<br>
+    **Location:** Dhaka, Bangladesh"
+  - image_path: https://farm8.staticflickr.com/7530/16340188861_a82445d73d_k.jpg
+    alt: "Untitled"
+    title: "Untitled-3"
+    excerpt: "Growing life in the middle of dead <br> **Category:** Abstract<br>
+    **Location:** Dhaka, Bangladesh"
 ---
 
 {% include feature_row id="intro" type="center" %}
@@ -105,3 +128,7 @@ feature_row5:
 {% include feature_row id="feature_row4" type="right" %}
 
 {% include feature_row id="feature_row5" %}
+
+{% include feature_row id="feature_row6" type="left" %}
+
+{% include feature_row id="feature_row7" %}
