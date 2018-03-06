@@ -52,17 +52,17 @@ feature_row2:
     
 feature_row3:
   - image_path: https://farm1.staticflickr.com/356/32067687263_1f84305b88_b.jpg
-    title: "Colorful Spring Festival-1"
+    title: "Colorful Spring Fest-1"
     alt: "Welcoming the Spring"
     excerpt: "A few girls with colors celebrating the very first day of Spring <br> **Category:** Festival <br>
     **Location:** Fine Arts, DU, Dhaka, Bangladesh"
   - image_path: https://farm3.staticflickr.com/2531/32067703643_70fb673aee_b.jpg
-    title: "Colorful Spring Festival-2"
+    title: "Colorful Spring Fest-2"
     alt: "Welcoming the Spring"
     excerpt: "A little girl preparing herself for the cultural program on `Pohela Falgun` <br> **Category:** Festival <br>
     **Location:** Fine Arts, DU, Dhaka, Bangladesh"
   - image_path: https://farm3.staticflickr.com/2050/32067710823_c9d4795846_b.jpg
-    title: "Colorful Spring Festival-3"
+    title: "Colorful Spring Fest-3"
     alt: "Welcoming the Spring"
     excerpt: "People capturing moments with the mode of `Spring Festival` <br> **Category:** Festival <br>
     **Location:** Fine Arts, DU, Dhaka, Bangladesh"
