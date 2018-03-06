@@ -49,6 +49,7 @@ feature_row2:
     alt: "Welcoming the Spring"
     excerpt: "A girl celebrating `Pohela Falgun`, the first day of Spring <br> **Category:** Festival <br>
     **Location:** Fine Arts, DU, Dhaka, Bangladesh"
+    
 feature_row3:
   - image_path: https://farm1.staticflickr.com/356/32067687263_1f84305b88_b.jpg
     title: "Colorful Spring Festival-1"
@@ -58,36 +59,36 @@ feature_row3:
   - image_path: https://farm3.staticflickr.com/2531/32067703643_70fb673aee_b.jpg
     title: "Colorful Spring Festival-2"
     alt: "Welcoming the Spring"
-    excerpt: "A little girl preparing herself for the cultural program on `Pohela Falgun`<br> **Category:** Festival <br>
+    excerpt: "A little girl preparing herself for the cultural program on `Pohela Falgun` <br> **Category:** Festival <br>
     **Location:** Fine Arts, DU, Dhaka, Bangladesh"
   - image_path: https://farm3.staticflickr.com/2050/32067710823_c9d4795846_b.jpg
     title: "Colorful Spring Festival-3"
     alt: "Welcoming the Spring"
-    excerpt: "People capturing moments with the mode of `Spring Festival`<br> **Category:** Festival <br>
+    excerpt: "People capturing moments with the mode of `Spring Festival` <br> **Category:** Festival <br>
     **Location:** Fine Arts, DU, Dhaka, Bangladesh"
 
 feature_row4:
   - image_path: https://farm6.staticflickr.com/5697/21806248075_2836ca0600_k.jpg
-    alt: "WildLife: The Curious Lizard"
+    alt: "WildLife- The Curious Lizard"
     title: "The Curious Lizard"
-    excerpt: "A curious lizard just exploring new branches<br> **Category:** WildLife <br>
+    excerpt: "A curious lizard just exploring new branches <br> **Category:** WildLife <br>
     **Location:** Botanical Garden, Dhaka, Bangladesh"
     
 feature_row5:
   - image_path: https://farm6.staticflickr.com/5458/17782930606_520df24234_b.jpg
     alt: "WildLife"
     title: "The Lazy Butterfly"
-    excerpt: "A butterfly trying to balance itself on a thin leaf<br> **Category:** WildLife <br>
+    excerpt: "A butterfly trying to balance itself on a thin leaf <br> **Category:** WildLife <br>
     **Location:** Botanical Garden, Dhaka, Bangladesh"
   - image_path: https://farm8.staticflickr.com/7743/17812941795_6dc830f3da_b.jpg
     alt: "WildLife: The Curious Lizard"
     title: "The Camouflage"
-    excerpt: "A big lizard disguising itself with camouflage<br> **Category:** WildLife <br>
+    excerpt: "A big lizard disguising itself with camouflage <br> **Category:** WildLife <br>
     **Location:** Botanical Garden, Dhaka, Bangladesh"
   - image_path: https://farm9.staticflickr.com/8616/15757141343_a6a6739c5d_b.jpg
     alt: "Wildlife: The common Kingfisher"
     title: "The common Kingfisher"
-    excerpt: "A kingfisher waiting with patience for it's pray<br> **Category:** WildLife <br>
+    excerpt: "A kingfisher waiting with patience for it's pray <br> **Category:** WildLife <br>
     **Location:** Botanical Garden, Dhaka, Bangladesh"
 ---
 
