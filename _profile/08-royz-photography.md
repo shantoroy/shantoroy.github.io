@@ -95,7 +95,8 @@ feature_row6:
   - image_path: https://farm6.staticflickr.com/5705/21779044556_d5d40c8c17_k.jpg
     alt: "Untitled"
     title: "Untitled"
-    excerpt: "A lantern hanging outside a shop <br> **Category:** Abstract"
+    excerpt: "A lantern hanging outside a shop <br> **Category:** Abstract<br>
+    **Location:** Dhaka, Bangladesh"
     
 feature_row7:
   - image_path: https://farm1.staticflickr.com/559/19949134478_6960a6cc2c_k.jpg
