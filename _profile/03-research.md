@@ -18,7 +18,7 @@ toc: false
 ## Publications
 ### Conference Proceedings
 1. **Shanto Roy**, Ahmedur Rahman Shovon and Md. Whaiduzzaman, "**Combined approach of Tokenization and Mining to secure and
-optimize Big Data in Cloud Storage**", _IEEE R10 Humanitarian Technology Conference (R10 - HTC) - 2017_.
+optimize Big Data in Cloud Storage**", _IEEE R10 Humanitarian Technology Conference (R10 - HTC) - 2017_.\\
 [IEEE Xplore](http://ieeexplore.ieee.org/document/8288912/)
 2. **Shanto Roy**, Abdur Rahman, Masuk Helal, M Shamim Kaiser, and Zamshed Iqbal Chowdhury, "**Low Cost RF based Online Patient 
 Monitoring using Web & Mobile Applications**", _International Conference on Informatics, Electronics & Vision - 2016_.   
