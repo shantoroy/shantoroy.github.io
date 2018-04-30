@@ -5,7 +5,7 @@ header:
   image: "https://farm6.staticflickr.com/5705/21779044556_6406c39c32_b.jpg"
   teaser: "https://farm6.staticflickr.com/5705/21779044556_6406c39c32_b.jpg"
 categories: 
-  - Article
+  - articles
 tags:
   - test
   - demo
