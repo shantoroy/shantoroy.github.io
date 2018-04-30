@@ -1,8 +1,8 @@
 # main links
 main:
   - title: "Home"
-  - title: "Articles"
-    url: /articles/index.html
+  - title: "Quick Start Guide"
+    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "My Google Site"
     url: https://sites.google.com/site/shantoroyiit/
   - title: "Profile"
