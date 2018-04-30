@@ -2,7 +2,7 @@
 main:
   - title: "Home"
   - title: "Articles"
-    url: /articles/index.html
+    url: /test/index.html
   - title: "My Google Site"
     url: https://sites.google.com/site/shantoroyiit/
   - title: "Profile"
