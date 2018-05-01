@@ -163,8 +163,8 @@ while True:
 Save the server side code in a file and name it as `server.py` or anything as you wish. Also save the client side code in another file and name as `client.py`. You can run the code in windows command prompt (cmd) by opening it in the directory you stored your script file. Then type `python server.py`and hit Enter. Running `client.py` will require another cmd window. Type there as `python client.py` and hit enter. You will get a message in the server side that a client is connected. Now, you can send and receive message from and to both ends.
 
 
-References:
-[^1]: An Overview of Socket Programming for Computer Networking
-- [lifewire](https://www.lifewire.com/socket-programming-for-computer-networking-4056385)
+[^1]: An Overview of Socket Programming for Computer Networking- [lifewire](https://www.lifewire.com/socket-programming-for-computer-networking-4056385)
+
 [^2]: Network Socket definition - [techtarget](https://whatis.techtarget.com/definition/sockets)
+
 [^3]: Introduction to Socket Programming - [Communication Networks-University of Kansas](https://www.ittc.ku.edu/~jpgs/courses/intronets/lecture-lab-socket-intronets-display.pdf)
