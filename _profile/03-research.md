@@ -24,6 +24,7 @@ optimize Big Data in Cloud Storage**", _IEEE R10 Humanitarian Technology Confere
 Monitoring using Web & Mobile Applications**", _International Conference on Informatics, Electronics & Vision - 2016_.   
 [IEEE Computer Society](https://www.computer.org/csdl/proceedings/iciev/2016/1269/00/07760125-abs.html) 
 [IEEE Xplore](http://ieeexplore.ieee.org/abstract/document/7760125/)
+3. Ahmedur Rahman Shovon, **Shanto Roy**, Tanusree Sharma and Md. Whaiduzzaman, "A RESTful E-Governance Application Framework for People Identity Verification in Cloud“, International Conference on Cloud Computing - 2018, Seattle, USA. (Accepted)
 
 ## Papers in progress
 ### Articles
