@@ -41,6 +41,6 @@ for Future Internet Architecture**"
 1. Nishat Farzana, **Shanto Roy** and Md. Whaiduzzaman, "**An Identity based Encryption Scheme to Secure Data in Fog Computing**“
 2. Shahriar Setu, **Shanto Roy**, Farhana Sunny, Md Whaiduzzaman, "**IoLT: An IoT based Intelligent Blended Learning and Research 
 Platform in Higher Education**"
-3. Abdur Rahman, Shanto Roy and Md. Shahidul Islam, "**An enhanced Data Privacy Framework to Secure Communication between Smart IoT Devices**"
+3. Abdur Rahman, Shanto Roy and M Shamim Kaiser, "**An enhanced Data Privacy Framework to Secure Communication between Smart IoT Devices**"
 
 
