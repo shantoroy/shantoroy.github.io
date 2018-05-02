@@ -9,9 +9,9 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en"
-title                    : "Shanto Roy"
+title                    : "Roy's Blog"
 title_separator          : "-"
-name                     : "Shanto Roy"
+name                     : "Roy's Blog"
 description              : "A blog based on research & education."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -85,7 +85,7 @@ analytics:
 author:
   name             : "Shanto Roy"
   avatar           : "/assets/images/passport.jpg"
-  bio              : "Site is under construction"
+  bio              : "Born to Explore  :)"
   location         : "Bangladesh"
   google site      : "shantoroyiit"
   email            : "royshantoiit@gmail.com"
@@ -97,15 +97,15 @@ author:
   flickr           : "roysclick"
   facebook         : "shanto.roy.9"
   foursquare       :
-  github           :
+  github           : "shantoroy"
   gitlab           :
   google_plus      :
   keybase          :
   instagram        : "shanto.roy.9"
   lastfm           :
-  linkedin         : "in/shanto-roy"
+  linkedin         : "shanto-roy"
   pinterest        : "shantoroy9"
-  soundcloud       :
+  soundcloud       : "shanto-roy"
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
