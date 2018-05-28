@@ -1,0 +1,33 @@
+# main links
+main:
+  - title: "Home"
+  - title: "Quick Start Guide"
+    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "My Google Site"
+    url: https://sites.google.com/site/shantoroyiit/
+  - title: "Who Am I?"
+    url: http://shantoroy.com/profile/profile/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
+
+
+# profile links
+profile:
+  - title: Roy's Profile
+    children:
+      - title: "Profile"
+        url: http://shantoroy.com/profile/profile/
+      - title: "Experience"
+        url: http://shantoroy.com/profile/experience/
+      - title: "Research & Publications"
+        url: http://shantoroy.com/profile/publications/
+      - title: "Trainings"
+        url: http://shantoroy.com/profile/trainings/
+      - title: "Certifications"
+        url: http://shantoroy.com/profile/certifications/
+      - title: "Seminars & Workshops"
+        url: http://shantoroy.com/profile/seminar-workshops/
+      - title: "Photography"
+        url: http://shantoroy.com/profile/photography/
