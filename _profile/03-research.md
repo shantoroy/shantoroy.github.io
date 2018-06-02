@@ -28,9 +28,9 @@ Monitoring using Web & Mobile Applications**", _International Conference on Info
 
 ## Manuscripts under Review Process
 ### Conference Proceedings
-1. Abdur Rahman, **Shanto Roy**, M Shamim Kaiser, and Md. Shahidul Islam, "**A lightweight multi-tier S-MQTT framework to secure communication between low-end IoT devices**", _International Conference on Electrical and Computer Engineering  - 2018_
-2. Nishat Farjana, **Shanto Roy**, Md. Julkar Nayeen Mahi, and  Md. Whaiduzzaman, "**An Identity Based Encryption Scheme for Data Security in Fog Computing**", _International Conference on Electrical and Computer Engineering  - 2018_
-3. Farhana Rashid, **Shanto Roy**, Tanusree Sharma, Md Jinat Raihan Jiko and Md. Abu Yousuf, "**An Artificial Online/Offline Treatment system for Type II Diabetes Mellitus Patients**", _International Conference on Electrical Engineering and Information & Communication Technology_
+1. Abdur Rahman, **Shanto Roy**, M Shamim Kaiser, and Md. Shahidul Islam, "**A lightweight multi-tier S-MQTT framework to secure communication between low-end IoT devices**", _International Conference on Electrical and Computer Engineering - 2018_
+2. Nishat Farjana, **Shanto Roy**, Md. Julkar Nayeen Mahi, and  Md. Whaiduzzaman, "**An Identity Based Encryption Scheme for Data Security in Fog Computing**", _International Conference on Electrical and Computer Engineering - 2018_
+3. Farhana Rashid, **Shanto Roy**, Tanusree Sharma, Md Jinat Raihan Jiko and Md. Abu Yousuf, "**An Artificial Online/Offline Treatment system for Type II Diabetes Mellitus Patients**", _International Conference on Electrical Engineering and Information & Communication Technology - 2018_
 
 ## Papers in progress
 ### Articles
