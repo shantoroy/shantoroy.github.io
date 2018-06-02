@@ -35,18 +35,14 @@ Monitoring using Web & Mobile Applications**", _International Conference on Info
 ## Papers in progress
 ### Articles
 1. **Shanto Roy**, Md. Whaiduzzaman, "**Efficient Confidentiality Management and Storage Optimization for IoT Sensor Data in Cloud**"
-2. Jenia Afrin Jeba, Mahbub-Or-Rashid, **Shanto Roy**, Syeda Tanjila Atique, Md. Whaiduzzaman, "**Green Cloud Computing: a novel approach 
-for energy minimization in cloud data centers**"
-3. **Shanto Roy**, Tanusree Sharma, Md. Whaiduzzaman and Md. Abdur Razzaque, "**Network Virtualization, NFV and Software Defined Networking 
-for Future Internet Architecture**"
+2. Jenia Afrin Jeba, **Shanto Roy**, Mahbub-Or-Rashid, Syeda Tanjila Atique, Md. Whaiduzzaman, "**Green Cloud Computing: a novel approach for energy minimization in cloud data centers**"
+3. **Shanto Roy**, Tanusree Sharma, Md. Whaiduzzaman and Md. Abdur Razzaque, "**Network Virtualization, NFV and Software Defined Networking for Future Internet Architecture**"
 4. Tanusree Sharma, **Shanto Roy** and Md. Whaiduzzaman, "**The roadmap towards information centric network: a survey**"
 5. Kaiyum Hossain, **Shanto Roy** and Md. Abdur Razzaque, "**A survey on IoT data compression and optimization techniques in Cloud**"
 6. Nishat Farjana, Md. Razon Hossain, Shelia Rahman, **Shanto Roy** and Md. Whaiduzzaman, "**Fog Computing - State of the art and future perspectives**"
 
 ### Conference Proceedings
-1. Nishat Farzana, **Shanto Roy** and Md. Whaiduzzaman, "**An Identity based Encryption Scheme to Secure Data in Fog Computing**“
-2. Shahriar Setu, **Shanto Roy**, Farhana Sunny, Md Whaiduzzaman, "**IoLT: An IoT based Intelligent Blended Learning and Research 
+1. Shahriar Setu, **Shanto Roy**, Farhana Sunny, Md Whaiduzzaman, "**IoLT: An IoT based Intelligent Blended Learning and Research 
 Platform in Higher Education**"
-3. Abdur Rahman, Shanto Roy and M Shamim Kaiser, "**An enhanced Data Privacy Framework to Secure Communication between Smart IoT Devices**"
 
 
