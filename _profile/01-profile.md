@@ -6,6 +6,11 @@ excerpt: "Shanto Roy's Contact"
 toc: false
 ---
 
+## About Myself
+I love exploring new things, creating new hobbies. Have been working in academic (Teaching & Research) arena for past two years; have already published a few papers in the meantime. Now, I'm interested in going abroad for pursuing MS and Ph.D.  in the upcoming year. Industry (Networking & Sys Admin) arena also attracts me as well, as I had enrolled myself in different courses and appeared in a few vendor exams. Travelling and sports are my hobby. In short, I like to experience everything; life is short, so much to explore, isn't it..? :) 
+
+
+## Contact
 Shanto Roy\\
 Lecturer, Department of Computer Science and Engineering\\
 Green University of Bangladesh\\
@@ -18,6 +23,7 @@ You can also find me in:
 * [ResearchGate][ResearchGate]
 * [Academia][Academia]
 * [Google Citation Profile][Google]
+* [Orcid][Orcid]
 * [LinkedIn][LinkedIn]
 * [Instagram][Instagram]
 * [Flickr][Flickr]
@@ -25,6 +31,7 @@ You can also find me in:
 [ResearchGate]: https://www.researchgate.net/profile/Shanto_Roy2
 [Academia]: https://juniv.academia.edu/ShantoRoy
 [Google]: https://scholar.google.com/citations?user=OMGYMbwAAAAJ&hl=en
+[Orcid]: https://orcid.org/0000-0002-4213-9460
 [LinkedIn]: https://www.linkedin.com/in/shanto-roy/
 [Instagram]: https://www.instagram.com/shanto.roy.9/
 [Flickr]: https://www.flickr.com/roysclick
