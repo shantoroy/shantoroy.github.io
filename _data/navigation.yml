@@ -1,12 +1,12 @@
 # main links
 main:
   - title: "Home"
-  - title: "Quick Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "My Google Site"
     url: https://sites.google.com/site/shantoroyiit/
-  - title: "Who Am I?"
-    url: /profile/profile/
+  - title: "Portfolio"
+    url: /profile/experience/
+  #- title: "About Me"
+   # url: /about/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
@@ -15,10 +15,8 @@ main:
 
 # profile links
 profile:
-  - title: Roy's Profile
+  - title: Roy's Portfolio
     children:
-      - title: "Profile"
-        url: /profile/profile/
       - title: "Experience"
         url: /profile/experience/
       - title: "Research & Publications"
