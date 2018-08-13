@@ -1,7 +1,7 @@
 ---
 title: "About"
 layout: single
-permalink: /About/
+permalink: /about/
 excerpt: "Shanto Roy's Contact"
 toc: false
 ---
