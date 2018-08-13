@@ -5,8 +5,8 @@ main:
     url: https://sites.google.com/site/shantoroyiit/
   - title: "Portfolio"
     url: /profile/experience/
-  #- title: "About Me"
-   # url: /about/
+  - title: "About Me"
+    url: /about/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
