@@ -1,14 +1,18 @@
 ---
-title: "Profile"
+title: "About"
 layout: single
-permalink: /profile/profile/
+permalink: /About/
 excerpt: "Shanto Roy's Contact"
 toc: false
 ---
 
+## About the Blog
+AT the very beginning, I want to thank you for going through my blog posts. The blog is nothing but some documentation of what I meet and think in my everyday life. I started this blog intending to write down about different pros & cons of **Education**, **Research** and **Travel**. As I am involved with the academic arena, most posts are intended primarily to help my students and juniors. 
+
+Why writing? Without documentation, we forget how we do or improve what we did before. That's the primary concern for me. So, if there is area of improvement in my posts, please let me know with your feedback. Thanks again.
+
 ## About Myself
 I love exploring new things, creating new hobbies. Have been working in academic (Teaching & Research) arena for past two years; have already published a few papers in the meantime. Now, I'm interested in going abroad for pursuing MS and Ph.D.  in the upcoming year. Industry (Networking & Sys Admin) arena also attracts me as well, as I had enrolled myself in different courses and appeared in a few vendor exams. Travelling and sports are my hobby. In short, I like to experience everything; life is short, so much to explore, isn't it..? :) 
-
 
 ## Contact
 Shanto Roy\\
