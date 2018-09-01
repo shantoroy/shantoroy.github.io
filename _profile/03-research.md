@@ -17,7 +17,7 @@ toc: false
 
 ## Publications
 ### Chapter in Book
-1. Ahmedur Rahman Shovon, Shanto Roy, Tanusree Sharma, and Md. Whaiduzzaman, "A RESTful E-Governance Application Framework for People Identity Verification in Cloud", In: Luo M., Zhang LJ. (eds) _Cloud Computing – CLOUD 2018. CLOUD 2018. Lecture Notes in Computer Science, vol 10967. Springer, Cham_ ([Book URL](https://www.springer.com/us/book/9783319942940)) ([Paper URL](https://link.springer.com/chapter/10.1007/978-3-319-94295-7_19))
+1. Ahmedur Rahman Shovon, **Shanto Roy**, Tanusree Sharma, and Md. Whaiduzzaman, "**A RESTful E-Governance Application Framework for People Identity Verification in Cloud**", In: Luo M., Zhang LJ. (eds) _Cloud Computing – CLOUD 2018. CLOUD 2018. Lecture Notes in Computer Science, vol 10967. Springer, Cham_ ([Book URL](https://www.springer.com/us/book/9783319942940)) ([Paper URL](https://link.springer.com/chapter/10.1007/978-3-319-94295-7_19))
 
 ### Conference Proceedings
 1. **Shanto Roy**, Ahmedur Rahman Shovon and Md. Whaiduzzaman, "**Combined approach of Tokenization and Mining to secure and
