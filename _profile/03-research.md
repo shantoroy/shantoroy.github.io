@@ -17,7 +17,7 @@ toc: false
 
 ## Publications
 ### Chapter in Book
-1. Ahmedur Rahman Shovon, Shanto Roy, Tanusree Sharma, and Md. Whaiduzzaman, "A RESTful E-Governance Application Framework for People Identity Verification in Cloud", In: Luo M., Zhang LJ. (eds) _Cloud Computing – CLOUD 2018. CLOUD 2018. Lecture Notes in Computer Science, vol 10967. Springer, Cham_ [Book URL](https://www.springer.com/us/book/9783319942940) [Paper URL](https://link.springer.com/chapter/10.1007/978-3-319-94295-7_19)
+1. Ahmedur Rahman Shovon, Shanto Roy, Tanusree Sharma, and Md. Whaiduzzaman, "A RESTful E-Governance Application Framework for People Identity Verification in Cloud", In: Luo M., Zhang LJ. (eds) _Cloud Computing – CLOUD 2018. CLOUD 2018. Lecture Notes in Computer Science, vol 10967. Springer, Cham_ ([Book URL](https://www.springer.com/us/book/9783319942940)) ([Paper URL](https://link.springer.com/chapter/10.1007/978-3-319-94295-7_19))
 
 ### Conference Proceedings
 1. **Shanto Roy**, Ahmedur Rahman Shovon and Md. Whaiduzzaman, "**Combined approach of Tokenization and Mining to secure and
@@ -25,9 +25,9 @@ optimize Big Data in Cloud Storage**", _IEEE R10 Humanitarian Technology Confere
 [IEEE Xplore](http://ieeexplore.ieee.org/document/8288912/)
 2. **Shanto Roy**, Abdur Rahman, Masuk Helal, M Shamim Kaiser, and Zamshed Iqbal Chowdhury, "**Low Cost RF based Online Patient 
 Monitoring using Web & Mobile Applications**", _International Conference on Informatics, Electronics & Vision - 2016_.   
-[IEEE Computer Society](https://www.computer.org/csdl/proceedings/iciev/2016/1269/00/07760125-abs.html) 
-[IEEE Xplore](http://ieeexplore.ieee.org/abstract/document/7760125/)
-3. Ahmedur Rahman Shovon, **Shanto Roy**, Tanusree Sharma and Md. Whaiduzzaman, "**A RESTful E-Governance Application Framework for People Identity Verification in Cloud**“, _International Conference on Cloud Computing - 2018, Seattle, USA_.
+([IEEE Computer Society](https://www.computer.org/csdl/proceedings/iciev/2016/1269/00/07760125-abs.html))
+([IEEE Xplore](http://ieeexplore.ieee.org/abstract/document/7760125/))
+3. Ahmedur Rahman Shovon, **Shanto Roy**, Tanusree Sharma and Md. Whaiduzzaman, "**A RESTful E-Governance Application Framework for People Identity Verification in Cloud**“, _International Conference on Cloud Computing - 2018, Seattle, USA_. ([Paper URL](https://link.springer.com/chapter/10.1007/978-3-319-94295-7_19))
 
 ### Journal Article
 1. Jenia Afrin Jeba, **Shanto Roy**, Mahbub-Or-Rashid, Syeda Tanjila Atique, and Md. Whaiduzzaman,  "**Towards Green Cloud Computing: An Algorithmic Approach for Energy Minimization in Cloud Data Centers**", _[International Journal of Cloud Applications and Computing (IJCAC)](https://www.igi-global.com/journal/international-journal-cloud-applications-computing/41974)_  (Accepted)
