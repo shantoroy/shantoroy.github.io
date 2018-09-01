@@ -16,6 +16,9 @@ toc: false
 * Network Security
 
 ## Publications
+### Chapter in Book
+1. Ahmedur Rahman Shovon, Shanto Roy, Tanusree Sharma, and Md. Whaiduzzaman, "A RESTful E-Governance Application Framework for People Identity Verification in Cloud", In: Luo M., Zhang LJ. (eds) _Cloud Computing – CLOUD 2018. CLOUD 2018. Lecture Notes in Computer Science, vol 10967. Springer, Cham_ [Book URL](https://www.springer.com/us/book/9783319942940) [Paper URL](https://link.springer.com/chapter/10.1007/978-3-319-94295-7_19)
+
 ### Conference Proceedings
 1. **Shanto Roy**, Ahmedur Rahman Shovon and Md. Whaiduzzaman, "**Combined approach of Tokenization and Mining to secure and
 optimize Big Data in Cloud Storage**", _IEEE R10 Humanitarian Technology Conference (R10 - HTC) - 2017_.\\
@@ -24,13 +27,22 @@ optimize Big Data in Cloud Storage**", _IEEE R10 Humanitarian Technology Confere
 Monitoring using Web & Mobile Applications**", _International Conference on Informatics, Electronics & Vision - 2016_.   
 [IEEE Computer Society](https://www.computer.org/csdl/proceedings/iciev/2016/1269/00/07760125-abs.html) 
 [IEEE Xplore](http://ieeexplore.ieee.org/abstract/document/7760125/)
-3. Ahmedur Rahman Shovon, **Shanto Roy**, Tanusree Sharma and Md. Whaiduzzaman, "A RESTful E-Governance Application Framework for People Identity Verification in Cloud“, _International Conference on Cloud Computing - 2018, Seattle, USA_. (Accepted)
+3. Ahmedur Rahman Shovon, **Shanto Roy**, Tanusree Sharma and Md. Whaiduzzaman, "**A RESTful E-Governance Application Framework for People Identity Verification in Cloud**“, _International Conference on Cloud Computing - 2018, Seattle, USA_.
+
+### Journal Article
+1. Jenia Afrin Jeba, **Shanto Roy**, Mahbub-Or-Rashid, Syeda Tanjila Atique, and Md. Whaiduzzaman,  "**Towards Green Cloud Computing: An Algorithmic Approach for Energy Minimization in Cloud Data Centers**", _[International Journal of Cloud Applications and Computing (IJCAC)](https://www.igi-global.com/journal/international-journal-cloud-applications-computing/41974)_  (Accepted)
+
 
 ## Manuscripts under Review Process
 ### Conference Proceedings
-1. Abdur Rahman, **Shanto Roy**, M Shamim Kaiser, and Md. Shahidul Islam, "**A lightweight multi-tier S-MQTT framework to secure communication between low-end IoT devices**", _International Conference on Electrical and Computer Engineering - 2018_
-2. Nishat Farjana, **Shanto Roy**, Md. Julkar Nayeen Mahi, and  Md. Whaiduzzaman, "**An Identity Based Encryption Scheme for Data Security in Fog Computing**", _International Conference on Electrical and Computer Engineering - 2018_
-3. Farhana Rashid, **Shanto Roy**, Tanusree Sharma, Md Jinat Raihan Jiko and Md. Abu Yousuf, "**An Artificial Online/Offline Treatment system for Type II Diabetes Mellitus Patients**", _International Conference on Electrical Engineering and Information & Communication Technology - 2018_
+1. **Shanto Roy**, Md. Ashaduzzaman, Mehedi Hassan, and Arnab Rahman Chowdhury, "**BlockChain for IoT Security and Management: Current Prospects, Challenges and Future Directions**", _[International Conference on Networking, Systems and Security (NSysS 2018)](https://cse.buet.ac.bd/nsyss2018/)_
+2. Abdur Rahman, **Shanto Roy**, M Shamim Kaiser, and Md. Shahidul Islam, "**A lightweight multi-tier S-MQTT framework to secure communication between low-end IoT devices**", _[International Conference on Networking, Systems and Security (NSysS 2018)](https://cse.buet.ac.bd/nsyss2018/)_
+3. Nishat Farjana, **Shanto Roy**, Md. Julkar Nayeen Mahi, and  Md. Whaiduzzaman, "**An Identity Based Encryption Scheme for Data Security in Fog Computing**", _[International Conference on Electrical and Computer Engineering - 2018](http://icece.buet.ac.bd/i2018/)_
+4. Kaiyum Hossain, and **Shanto Roy**, "**A Data Compression and Storage Optimization Framework for IoT Sensor Data in Cloud Storage**", _[International Conference on Computer and Information Technology (ICCIT) - 2018](http://iccit.org.bd/2018/index.php)_
+
+### Articles
+1. Farhana Rashid, **Shanto Roy**, Tanusree Sharma, Md Jinat Raihan Jiko and Md. Abu Yousuf, "**An Artificial Online/Offline Treatment system for Type II Diabetes Mellitus Patients**", _[Beni-Suef University Journal of Basic and Applied Sciences](https://www.journals.elsevier.com/beni-suef-university-journal-of-basic-and-applied-sciences/)_
+2. Kaiyum Hossain, Mizanur Rahman, and **Shanto Roy**, "**A Survey on IoT Data Compression and Optimization Techniques in Cloud**", _[International Journal of Cloud Applications and Computing (IJCAC)](https://www.igi-global.com/journal/international-journal-cloud-applications-computing/41974)_ (IGI-Global)
 
 ## Papers in progress
 ### Articles
