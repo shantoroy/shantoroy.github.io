@@ -16,7 +16,7 @@ toc_icon: "heart"
 
 After sending the acceptance notification, most of the IEEE conferences ask authors to add a copyright notice at the left footer and the conference name at the right header position of the first page in the manuscript. In this tutorial, I note the required code to do that.
 
-## Code for "Copyright Notice" and "Conference Name"
+## Code for Copyright Notice and Conference Name
 
 ```latex
 \documentclass[conference]{IEEEtran}
@@ -26,12 +26,12 @@ After sending the acceptance notification, most of the IEEE conferences ask auth
 
 \makeatletter
 
-\def\ps@IEEEtitlepagestyle{%
-  \def\@oddfoot{\mycopyrightnotice}%
-  \def\@evenfoot{}%
+\def\ps@IEEEtitlepagestyle{
+  \def\@oddfoot{\mycopyrightnotice}
+  \def\@evenfoot{}
 }
-\def\mycopyrightnotice{%
-  {\footnotesize xxx-x-xxxx-xxxx-x/xx/\$31.00~\copyright~2018 IEEE\hfill}% <--- Change here
+\def\mycopyrightnotice{
+  {\footnotesize xxx-x-xxxx-xxxx-x/xx/\$31.00~\copyright~2018 IEEE\hfill} % <--- Change here
   \gdef\mycopyrightnotice{}
 }
 
@@ -42,12 +42,12 @@ After sending the acceptance notification, most of the IEEE conferences ask auth
 \makeatother
 
 \usepackage{eso-pic}
-\newcommand\AtPageUpperMyright[1]{\AtPageUpperLeft{%
- \put(\LenToUnit{0.5\paperwidth},\LenToUnit{-1cm}){%
-     \parbox{0.5\textwidth}{\raggedleft\fontsize{9}{11}\selectfont #1}}%
- }}%
-\newcommand{\conf}[1]{%
-\AddToShipoutPictureBG*{%
+\newcommand\AtPageUpperMyright[1]{\AtPageUpperLeft{
+ \put(\LenToUnit{0.5\paperwidth},\LenToUnit{-1cm}){
+     \parbox{0.5\textwidth}{\raggedleft\fontsize{9}{11}\selectfont #1}}
+ }}
+\newcommand{\conf}[1]{
+\AddToShipoutPictureBG*{
 \AtPageUpperMyright{#1}
 }
 }
@@ -104,5 +104,3 @@ The output will look like the following-
 <figure>
   <a href="https://farm5.staticflickr.com/4910/44165382050_376fa6e935_b.jpg"><img src="https://farm5.staticflickr.com/4910/44165382050_376fa6e935_b.jpg"></a>
 </figure>
-
-
