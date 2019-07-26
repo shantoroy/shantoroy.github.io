@@ -86,6 +86,8 @@ So, applying the code the output should look like this-
 Multiple subfigures can be put in multiple rows by adding a `\newline` after one row is complete. For example, if you have four figures and you want to put them in 2x2 style, put `\newline` after two subfigures which will be placed in the first rwo. The command will create a new row for rest of the subfigures. 
 
 ```latex
+\usepackage{caption}
+\usepackage{subcaption}
 \begin{document}
 \begin{figure}
 \begin{subfigure}{.5\textwidth}
