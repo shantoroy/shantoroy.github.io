@@ -7,9 +7,9 @@ toc: false
 ---
 
 ## About the Blog
-AT the very beginning, I want to thank you for going through my blog posts. The blog is nothing but some documentation of what I meet and think in my everyday life. I started this blog intending to write down about different pros & cons of **Education**, **Research** and **Travel**. As I am involved with the academic arena, most posts are intended primarily to help my students and juniors. 
+At the very beginning, I want to thank you for going through my blog posts. The blog is nothing but some documentation of what I meet and think in my everyday life. I started this blog intending to write down about different pros & cons of **Education**, **Research**, and **Travel**. As I am involved with the academic arena, most posts are intended primarily to help my students and juniors. 
 
-Why writing? Without documentation, we forget how we do or improve what we did before. That's the primary concern for me. So, if there is area of improvement in my posts, please let me know with your feedback. Thanks again.
+Why writing? Without documentation, we forget how we do or improve what we did before. That's the primary concern for me. Therefore, if there is an area of improvement in my posts, please feel free to let me know with your feedback. Thanks again.
 
 ## About Myself
 I love learning, researching, exploring new things, and creating new hobbies. I have been working as a Research Assistant and has enrolled as a Ph.D. student at the Department of Computer Science, University of Houston since Fall-2019. My primary research interest is in Cyber Security, Data Science & ML, SDN, Cloud-IoT ecosystem etc.
