@@ -6,8 +6,20 @@ layout: single
 toc: False
 ---
 
+## Research Assistant
+`September, 2019 - Present`\\
+Department of Computer Science\\
+University of Houston, TX, USA
+
+### General Responsibilities:
+* Conducting research work in [RNS](http://aronlaszka.com/lab.html) Lab
+* Literature study of current research problems in security
+* Idea Generation and Problem solving
+* Attending Seminars, workshops, and training programs
+* Publication
+
 ## Lecturer
-`May, 2016 - Present`\\
+`May, 2016 - July, 2019`\\
 Department of Computer Science and Engineering\\
 Green University of Bangladesh
 

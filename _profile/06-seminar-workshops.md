@@ -1,10 +1,78 @@
 ---
-title: "Participated Seminars & Workshops"
+title: "Seminars & Workshops"
 layout: single
 permalink: /profile/seminar-workshops/
-excerpt: "Shanto Roy's participated Seminars/Workshops"
+excerpt: "Shanto Roy's Seminars/Workshops"
 toc: false
 ---
+
+## Conducted Seminars/Workshops
+### 2019
+* [A Comprehensive Workshop on Latex](https://www.facebook.com/events/1353841874773406/), a workshop conducted at Venue- Conference Room, [Wazed Miah Science Research Centre](http://www.juniv.edu/center/wmsrc), Jahangirnagar University, arranged by [Biotech Club](https://www.facebook.com/BiotechClubJU/), Jahangirnagar University 
+
+    - Date and time: 14 July, 2019, 2-5 PM (3 Hours)
+
+    - Covered topics:
+
+        1. Overleaf and other Cloud tools
+        2. Latex basic- Document preparing, Packages, Figure, Table, Algorithm, Equation etc.
+        3. Bibtex bibliography management
+        4. Editing  templates from Overleaf
+
+
+* The Latex Project, a workshop conducted at Venue- Lab#01, Science Building, Green University of Bangladesh, arranged by [Green University Computer Club (GUCC)](https://www.facebook.com/groups/GreenUniversityComputerClub/)
+
+    - Date and time: 02 July, 2019, 2-5 PM (3 Hours)
+
+    - Covered topics:
+
+        1. Overleaf and other Cloud tools
+        2. Latex basic- Document preparing, Packages, Figure, Table, Algorithm, Equation etc.
+        3. Bibtex bibliography management
+        4. Preparing Templates of GUB thesis/project & Assignment/Lab report 
+
+
+* [Basic Overview of Latex and Overleaf](https://www.facebook.com/events/321676625197610/), a workshop conducted at Venue- Seminar Room, Jahir Rayhan Auditorium, Jahangirnagar University, arranged by [Jahangirnagar University Science Club (JUSC)](https://www.facebook.com/juscbd/)
+
+    - Date and time: 27 April, 2019, 2-4 PM (2 Hours)
+
+    - Covered topics:
+
+        1. Registration in Overleaf
+        2. Latex basic- Document preparing, Packages, Figure, Table, Algorithm, Equation etc.
+        3. Bibtex bibliography management
+        4. Editing  templates from Overleaf
+
+
+* Latex for Documentation and Publication, a workshop conducted at Venue- IIT, Lab 03 (R# 232), Jahangirnagar University, arranged by [IEEE Student Branch, JU](https://www.facebook.com/ieeejuniv/). 
+
+    - Date and time: 10 April, 2019, 2-5 PM (3 Hours)
+
+    - Covered topics:
+
+        1. Registration in Overleaf
+        2. Latex basic- Document preparing, Packages, Figure, Table, Algorithm, Equation etc.
+        3. Bibtex bibliography management
+        4. Error Debugging
+        5. Common Mistakes
+        6. Editing  templates from Overleaf
+
+### 2018
+* Introduction to Latex, Overleaf and GUB Thesis Template, a workshop conducted collaboratively with Mr. Ashaduzzaman (Lecturer, Dept. of CSE), Venue- Lab 01 (R# 801), Green University of Bangladesh, arranged by [IEEE Student Branch, GUB](https://www.facebook.com/ieeesbgub).
+
+    - Date and time: 12 November, 2018, 2-5 PM (3 Hours)
+
+    - Covered topics:
+
+        1. Latex basic- Document preparing, Packages, Figure, Table, Algorithm, Equation etc.
+        2. Bibtex bibliography management
+        3. Writing thesis book in GUB template
+        4. CV and Academic document templates editing in Overleaf
+        5. Resources
+            * [Learn Latex in 30 Minutes](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes)
+            * [GUB Thesis Book Template by Shanto Roy](https://drive.google.com/file/d/1lyKI_9nLznw87kuGRdNKO1fFcMk5eoJx/view)
+            * [Academic journal & CV templates](https://www.overleaf.com/latex/templates)
+
 
 ## Participated Seminars/Workshops
 
