@@ -1,17 +1,17 @@
 ---
 layout: single
 title: "How to write algorithm in Latex"
-header: 
+header:
   image: "https://farm5.staticflickr.com/4662/40356609652_d977cf85a9_b.jpg"
   teaser: "https://farm5.staticflickr.com/4662/40356609652_d977cf85a9_b.jpg"
-categories: 
+categories:
   - Latex
 tags:
   - Latex
   - Tutorial
 toc: true
 toc_label: "Table of Contents"
-toc_icon: "heart" 
+toc_icon: "heart"
 ---
 
 While writing any research article in Latex, so often we demonstrate an algorithm according to our proposed model, workflow or architecture.
