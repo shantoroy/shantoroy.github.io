@@ -20,7 +20,7 @@ toc_icon: "heart"
 `Matplotlib` is the most usual package for creating graphs using python language. Here, in this tutorial we will see a few examples of python bar plots using `matplotlib` package.
 
 ### A simple bar plot
-```Python
+```python
 from matplotlib import pyplot as plt
 from matplotlib.pyplot import figure
 import numpy as np
@@ -78,7 +78,7 @@ The output will look like the following-
 
 ### Other modifications
 If the xLabels are word strings and you want to place those vertically, modify the `plt.xticks` as follows:
-```Python
+```python
 plt.xticks(y_pos, x_axis_labels, rotation='vertical')
 ```
 
@@ -97,7 +97,7 @@ To find more about bar/barh options go to the official documentation.
 Here in the following code, we show plotting two plots together as subplots. Also, if there is big differences between values, we can use logarithmic values instead of plotting plain values.
 
 ### Subplots
-```Python
+```python
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.pyplot import figure
@@ -142,7 +142,8 @@ The output will look like the following-
 
 
 ## Group Bar Plots
-```Python
+### Group bar plot with four members
+```python
 from matplotlib import pyplot as plt
 from matplotlib.pyplot import figure
 import numpy as np
