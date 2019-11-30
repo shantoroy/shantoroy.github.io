@@ -182,3 +182,50 @@ The output will look like the following-
 <figure>
 	<a href="https://live.staticflickr.com/65535/49138224572_83b768c1ea_h.jpg"><img src="https://live.staticflickr.com/65535/49138224572_83b768c1ea_h.jpg"></a>
 </figure>
+
+## Create bar chart from file
+If we want to plot values from csv file, we can use `pandas` `read_csv` function. 
+```python
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib.pyplot import figure
+
+font = {'family' : 'Times New Roman',
+        'weight' : 'bold',
+        'size'   : 18}
+
+plt.rc('font', **font)
+figure(num=None, figsize=(12, 6))
+
+# Read CSV file
+data = pd.read_csv("market_value.csv", sep='\s*,\s*',
+                           header=0, encoding='ascii', engine='python')
+
+# prints the column names
+# print(table.columns.tolist())
+
+# Create the bar plot for 8 rows in CSV file
+plt.bar(x=np.arange(1,9), height = data['Market Value'])
+
+# Set Plot Title
+plt.title("Market Value of Tech Companies in 2019")
+
+# Set X-Axis values for 8 rows in CSV file
+plt.xticks(np.arange(1,9), data['Companies'], rotation=60)
+
+# Set X/Y-Axis labels
+plt.xlabel("Tech Giants")
+plt.ylabel("Market value in Billion")
+
+# Show Plots
+plt.show()
+
+# Save Figure
+# plt.savefig('market analysis using python matplotlib.png', dpi=300)
+```
+
+The output should look like following:
+<figure>
+	<a href="https://live.staticflickr.com/65535/49145055902_89d8c6fdf9_k.jpg"><img src="https://live.staticflickr.com/65535/49145055902_89d8c6fdf9_k.jpg"></a>
+</figure>
