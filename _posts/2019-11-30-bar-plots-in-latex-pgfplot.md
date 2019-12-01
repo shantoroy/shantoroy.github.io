@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Creating Bar Charts using Python Matplotlib"
+title: "Creating Bar Charts using Latex PGFPlots"
 header:
   image: "https://live.staticflickr.com/65535/49149608331_427d999f03_h.jpg"
   teaser: "https://live.staticflickr.com/65535/49149608331_427d999f03_h.jpg"
