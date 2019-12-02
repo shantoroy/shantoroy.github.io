@@ -129,7 +129,7 @@ R> IRkernel::installspec(name = 'ir33', displayname = 'R 3.3')
 
 ## Professional IDE
 | Language | IDE |
-| :------------- | :----------: |
+| ------------- | ---------- |
 | Python | [**PyCharm**](https://www.jetbrains.com/pycharm/download) |
 | R | [**R Studio**](https://rstudio.com/products/rstudio/download/) |
 | Julia | [**Julia Studio**](https://www.linuxlinks.com/juliastudio/) |
