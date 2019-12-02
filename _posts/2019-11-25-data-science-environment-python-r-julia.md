@@ -128,11 +128,10 @@ R> IRkernel::installspec(name = 'ir33', displayname = 'R 3.3')
 ```
 
 ## Professional IDE
-| Language | IDE       |
-| :--- | :-----: |
-| Python   | [**PyCharm**](https://www.jetbrains.com/pycharm/download)      |
-| R        | [**R Studio**](https://rstudio.com/products/rstudio/download/) |
-| Julia    | [**Julia Studio**](https://www.linuxlinks.com/juliastudio/)    |
+
+* Python --> [**PyCharm**](https://www.jetbrains.com/pycharm/download)
+* R  --> [**R Studio**](https://rstudio.com/products/rstudio/download/)
+* Julia  --> [**Julia Studio**](https://www.linuxlinks.com/juliastudio/)
 
 ## References
 * [Installing chatterbot in conda environment using Python 3.7](https://gist.github.com/arsho/9a1e4ac9221c50d754a90a7291a12602)
