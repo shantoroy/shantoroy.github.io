@@ -20,6 +20,9 @@ Considering that someone known has already picked you from the airport and drove
 
 ##  Buy a sim card
 The first thing you have to do is to buy a sim card. Sim cards are available in nearby stores or you can order one online. WIthout a sim card it is difficult to contact family or browse internet until you have a broadband internet. In Texas, people usually start with `LycaMobile` that offers unlimited local and international calls alongside 5GB mobile data for 29$/month. However, the only problem with this one is the network availability. In case it is severe, people go for another career named `Sprint`.
+
+## Visit the Apartment Lease Office
+Visit the lease office on the day upon arrival if it remains open or on the next day during office hours. You need to sign the `lease contract`, get `security pass` for the lease area entrances, and get additional stuffs (`Mailbox key`, `Locker Access`, etc.). Also, if you have already checked your apartment, you can ask them to fix things if not in proper states.
     
 ##   Buy home stuffs
 Right after having some rest take a look in your apartment and make a list that you may need to buy. Here is a simple list that may come in handy. 
@@ -78,6 +81,9 @@ Once you have all the letters and forms, you will have to visit the nearest `Soc
 *  I-94 record
 *  Form I-20
 
+It will take around 10-20 minutes to be done. You will receive your SSN card within 2-3 weeks via mail.
+
+
 ##   Tax Exemption Form
 Tax treaty exemption means you will have to pay reduced amount of tax each year. In Texas, we actually have full salaries in first four months of a year. In other months, you will have the salary after deduction of tax amount. Anyway, you will have to fill up the following forms and submit thereby to designated person through post mail/ email.
 * Immigration Status Data Form
@@ -97,6 +103,8 @@ You need to apply for driving license if you want to have cars. First, you will 
 	* Utility bill (Electricity/WiFi)
 	* Bank Statement
 	* Fixed Deposit Statement (Salary)
+
+Once you reach the DPS, wait in a queue, receive and fill up the form, and wait for your call. It will take around 15-20 minutes in a counter once you are called to attend a counter. The person in the counter will request you for documents, get fingerprints of your thumbs, take a photo, and will ask you to keep your eyes on a visual test device and read a line from there. You will have to pay the fee (in Texas, $25) and you will be done. You will receive your learner's card within two weeks via mail.
     
 ##   Networking
 You should start networking with other students once course classes start. One of the major key point to succeed in PhD/MS is to have good networking with your peers. It will also help you to form strong group as you will have to submit final projects in the courses as a group.
