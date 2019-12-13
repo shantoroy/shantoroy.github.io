@@ -1,4 +1,3 @@
-
 ---
 layout: single
 title: "Things to do after installing Ubuntu for a Computer Science Students"
@@ -9,8 +8,7 @@ categories:
   - Linux
 tags:
   - Linux
-  - Grad Student
-  - PhD Life
+  - Ubuntu
   - To-do list
 toc: true
 toc_label: "Table of Contents"
