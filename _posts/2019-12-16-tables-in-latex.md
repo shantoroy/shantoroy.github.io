@@ -172,7 +172,7 @@ The following table code includes `multirow`, `multicolumn`, `resizebox`, and `h
 \caption{Multirow and Multicolumn together}
 \label{tab:table 4}
 %  resizebox is used just outside tabular
-\resizebox{\columnwidth}{!}{%
+\resizebox{\columnwidth}{!}{
 \begin{tabular}{|M{2.1cm}|M{1cm}||M{2cm}|M{1cm}|M{2cm}|M{1cm}|M{2cm}|M{1cm}|}
 \hhline{--||------}
 \multicolumn{2}{|M{3.1cm}||}{\multirow{2}{*}{\textbf{Source 1}}} & \multicolumn{6}{M{10.3cm}|}{\textbf{Source 2}} \\ \hhline{~~||------}\hhline{~~||------}
