@@ -162,7 +162,7 @@ or,
 \end{table}
 ```
 
-For long tables, you can merge both tables and partition those with `hhline` package. In a recent paper work, I tried the codes but did not succeed. Then I found it and to be honest, `hhline` is really awesome. 
+For long tables, you can merge both tables and partition those with `hhline` package. In a recent paper work, I tried the abovementioned codes but did not succeed. Then I found it and to be honest, `hhline` is really awesome.
 
 `\hhline{---||---}` is used instead of simple `\hline`. Here, the total number of cell in a row is 6 and the partition comes after 3 columns. Just remember, if you need to omit a horizontal line due to `multirow` cells, you need to use `~` instead of `-`. For example, `\hhline{~~-||---}` where first two columns have a multirow situation.
 
