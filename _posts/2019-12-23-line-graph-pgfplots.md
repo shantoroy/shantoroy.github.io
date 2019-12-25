@@ -113,7 +113,7 @@ The following example has two subplots-
 ```latex
 \begin{figure*}[!ht]
     \centering
-    \resizebox{\columnwidth}{!}{%
+    \resizebox{\columnwidth}{!}{
     \begin{subfigure}[pt]{0.45\linewidth}
     \begin{tikzpicture}
 \begin{axis}[
