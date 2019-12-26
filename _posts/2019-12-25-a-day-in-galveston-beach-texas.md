@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "A few hours in Galveston Beach"
+title: "A few hours in the Galveston Beach"
 header:
   image: "https://live.staticflickr.com/65535/49276809047_d5a5ff175f_h.jpg"
   teaser: "https://live.staticflickr.com/65535/49276809047_d5a5ff175f_h.jpg"
@@ -12,9 +12,6 @@ tags:
   - Houston
   - Texas
   - USA
-toc: true
-toc_label: "Table of Contents"
-toc_icon: "heart"
 ---
 
 It is the semester break and a few from our community wanted to have fresh airs. So, we chose Galveston beach as it is just an hour's drive from Harris County. We spent a few hours there until sunset and it was enjoyable. This is also the first time I went outside Houston's main city after arriving in the USA. 
