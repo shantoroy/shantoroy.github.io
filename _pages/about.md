@@ -11,7 +11,8 @@ At the very beginning, I want to thank you for going through my blog posts. The 
 
 Why writing? Without documentation, we forget how we do or improve what we did before. That's the primary concern for me. Therefore, if there is an area of improvement in my posts, please feel free to let me know with your feedback. :v:
 
-Obviously, I am not a needy guy. :no_mouth: I will keep writing because I find joy in it. Yet, in case if any of my posts help you solve your problem and you want to thank me for that, you can simply do it by\\ [Buying me Coffee](https://www.paypal.me/shantoroy). :smiley:
+Obviously, I am not a needy guy. :no_mouth: I will keep writing because I find joy in it. Yet, in case if any of my posts help you solve your problem and you want to thank me for that, you can simply do it by\\ 
+[Buying me Coffee](https://www.paypal.me/shantoroy). :smiley:
 
 ## About Myself
 I love learning, researching, exploring new things, and creating new hobbies. I have been working as a Research Assistant and have enrolled as a Ph.D. student at the Department of Computer Science, the University of Houston since Fall-2019. My primary research interest is in Cyber Security, Data Science & ML, SDN, Cloud-IoT ecosystem, etc.
