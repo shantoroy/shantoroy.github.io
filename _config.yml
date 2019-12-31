@@ -87,7 +87,10 @@ author:
   avatar           : "/assets/images/sroy.png"
   bio              : "Born to Explore  :)"
   location         : "TX, USA"
-  website          : "http://shantoroy.me"
+  links:
+    - label: "Google Site"
+      icon: "fas fa-fw fa-link"
+      url: "http://shantoroy.me"
   google site      : "shantoroyiit"
   email            : "royshantoiit@gmail.com"
   uri              :
