@@ -21,7 +21,7 @@ Currently, I am researching on `Cyber Deception` based on our findings of  `Cybe
 
 Before joining UH, I worked as a lecturer in the Dept. of CSE, Green University of Bangladesh. I like to collaborate with other researchers and together we have been working on projects and publications. I also love to have hands-on experiences on System Administration that made me take part in RHCSA, RHCE, Openstack, CCNA, etc vendor courses, and exams. I intend to gather more knowledge that covers the topics of DevSecOps. 
 
-I love to `travel` a lot. I love sports too, the most favorite one is obviously `Cycling`. Apart from that, I play `Cricket` and `Football`(Soccer). `Photography` and music attracts me as well. In my spare time, I like to read Quora discussions and to watch movies. life is short, so much to explore, isn't it..? :) 
+I love to `travel` a lot. I love sports too, the most favorite one is obviously `Cycling`. Apart from that, I play `Cricket` and `Football`(Soccer). `Photography` and music attracts me as well. In my spare time, I like to read Quora discussions and to watch movies. life is short, so much to explore, isn't it..? :sunglasses:
 
 ## Contact
 Shanto Roy\\
