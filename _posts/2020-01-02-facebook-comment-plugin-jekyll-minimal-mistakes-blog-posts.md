@@ -34,7 +34,8 @@ fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 ```
 
-## Set Up Comment Moderation 
+## Set Up Comment Moderation
+### Include Meta Property in Page
 In most of the tutorials, authors included only the following code within the `<head>...</head>` section of the `_layout/default.html` file.
 ```html
 <meta  property="fb:admins"  content="{https://www.facebook.com/shanto.roy.9}"/>
