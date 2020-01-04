@@ -1,11 +1,9 @@
 # main links
 main:
   - title: "Home"
-  - title: "My Google Site"
-    url: https://sites.google.com/site/shantoroyiit/
   - title: "Portfolio"
     url: /profile/experience/
-  - title: "About Me"
+  - title: "About"
     url: /about/
   # - title: "Sample Collections"
   #   url: /collection-archive/
