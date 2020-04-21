@@ -6,12 +6,12 @@ header:
   image: "https://live.staticflickr.com/65535/49799517663_f7285ba01d_h.jpg"
   teaser: "https://live.staticflickr.com/65535/49799517663_f7285ba01d_h.jpg"
 categories:
-  - Raspberry Pi
+  - Raspberry-Pi
 tags:
   - Tutorial
   - ARM
   - Installation
-  - Raspberry Pi
+  - Raspberry-Pi
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "heart"
