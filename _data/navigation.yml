@@ -5,6 +5,8 @@ main:
     url: /profile/experience/
   - title: "About"
     url: /about/
+  - title: "Resume"
+    url: /resume/index
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
