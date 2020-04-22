@@ -6,7 +6,7 @@ main:
   - title: "About"
     url: /about/
   - title: "Resume"
-    url: /resume/index.html
+    url: /resume/index/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
