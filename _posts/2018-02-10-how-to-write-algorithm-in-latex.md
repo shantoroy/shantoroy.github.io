@@ -199,6 +199,7 @@ You will find the code in [Overleaf](https://www.overleaf.com/read/qpsqbngcqkpq)
 
 The output will look like the following-
 <figure>
-	<a href="https://live.staticflickr.com/65535/49814635333_9a92858bfe_z.jpg"><img src="https://live.staticflickr.com/65535/49814635333_9a92858bfe_z.jpg"></a>
+	<a href="https://live.staticflickr.com/65535/49815560527_396893a427_z.jpg"><img src="https://live.staticflickr.com/65535/49815560527_396893a427_z.jpg"></a>
 </figure>
+
 
