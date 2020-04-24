@@ -77,7 +77,7 @@ You can find all necessary Latex commands in the following link-
 
 As this is a public document, I embed here for your convenience.
 
-<iframe src="https://drive.google.com/file/d/1mZ9nyAn1PN1vd4Ls7--0-ox8ns-FNwin/preview" width="100%" height="100%"></iframe>
+<iframe src="https://drive.google.com/file/d/1mZ9nyAn1PN1vd4Ls7--0-ox8ns-FNwin/preview" width="100%" height="650"></iframe>
 
 
 ## Example Equations
