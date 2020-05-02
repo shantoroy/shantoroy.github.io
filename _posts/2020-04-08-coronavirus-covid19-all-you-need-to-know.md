@@ -33,8 +33,9 @@ toc_icon: "heart"
 
 ## Vaccine Update
 ### List and Updates of Research Groups
-1. [**WHO** - DRAFT landscape of COVID-19 candidate vaccines](https://www.who.int/blueprint/priority-diseases/key-action/novel-coronavirus-landscape-ncov.pdf) (April 20, 2020)
-2. [**WHO** - DRAFT landscape of COVID-19 candidate vaccines](https://www.who.int/blueprint/priority-diseases/key-action/Novel-Coronavirus_Landscape_nCoV-4april2020.pdf?ua=1) (April 04, 2020)
+1. [How Remdesivir, New Hope for Covid-19 Patients, Was Resurrected](https://www.nytimes.com/2020/05/01/health/coronavirus-remdesivir.html)
+2. [**WHO** - DRAFT landscape of COVID-19 candidate vaccines](https://www.who.int/blueprint/priority-diseases/key-action/novel-coronavirus-landscape-ncov.pdf) (April 20, 2020)
+3. [**WHO** - DRAFT landscape of COVID-19 candidate vaccines](https://www.who.int/blueprint/priority-diseases/key-action/Novel-Coronavirus_Landscape_nCoV-4april2020.pdf?ua=1) (April 04, 2020)
 
 ## Vaccine Tracker
 1. [**Regulatory Affairs Professionals Society (RAPS)** covid-19-vaccine-tracker](https://www.raps.org/news-and-articles/news-articles/2020/3/covid-19-vaccine-tracker)
@@ -43,6 +44,7 @@ toc_icon: "heart"
 
 ### Clinical Trials
 1. [**WHO** - COVID-19 Studies from the World Health Organization Database](https://clinicaltrials.gov/ct2/who_table)
+2. [Remdesivir Clinical Trials](https://www.gilead.com/purpose/advancing-global-health/covid-19/remdesivir-clinical-trials)
 
 ### Important News
 1. [COVID-19 vaccine protects monkeys from new coronavirus, Chinese biotech reports](https://www.sciencemag.org/news/2020/04/covid-19-vaccine-protects-monkeys-new-coronavirus-chinese-biotech-reports) (April 23, 2020)
