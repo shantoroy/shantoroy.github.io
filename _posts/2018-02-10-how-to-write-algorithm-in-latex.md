@@ -70,7 +70,7 @@ It can be done so easily using the `algorithm` or `algorithm2e` package in `arti
 \end{document}
 ```
 
-You will find the code in [Overleaf](https://www.overleaf.com/read/rddymzwmnqgb) or clone with git from [here](https://git.overleaf.com/13752479mvffzrkgykhg)
+You will find the code in [Overleaf](https://www.overleaf.com/read/rddymzwmnqgb).
 
 The output will look like the following-
 <figure>
@@ -139,9 +139,67 @@ The output will look like the following-
 \end{document}
 ```
 
-You will find the code in [Overleaf](https://www.overleaf.com/read/wzwnrbbwrvyx) or clone with git from [here](https://git.overleaf.com/13864807ptspmwgdbnqt)
+You will find the code in [Overleaf](https://www.overleaf.com/read/wzwnrbbwrvyx).
 
 The output will look like the following-
 <figure>
 	<a href="https://farm5.staticflickr.com/4612/26696807688_f6940a208e_b.jpg"><img src="https://farm5.staticflickr.com/4612/26696807688_f6940a208e_b.jpg"></a>
 </figure>
+
+
+## Write Function within Algorithm
+```latex
+\begin{algorithm}[H]
+\SetKwInput{KwInput}{Input}                % Set the Input
+\SetKwInput{KwOutput}{Output}              % set the Output
+\DontPrintSemicolon
+  
+  \KwInput{Your Input}
+  \KwOutput{Your output}
+  \KwData{Testing set $x$}
+
+% Set Function Names
+  \SetKwFunction{FMain}{Main}
+  \SetKwFunction{FSum}{Sum}
+  \SetKwFunction{FSub}{Sub}
+ 
+% Write Function with word ``Function''
+  \SetKwProg{Fn}{Function}{:}{}
+  \Fn{\FSum{$first$, $second$}}{
+        a = first\;
+        b = second\;
+        sum = first + second\;
+        \KwRet sum\;
+  }
+  \;
+
+% Write Function with word ``Def''
+  \SetKwProg{Fn}{Def}{:}{}
+  \Fn{\FSub{$first$, $second$}}{
+        a = first\;
+        b = second\;
+        sum = first - second\;
+        \KwRet sum\;
+  }
+  \;
+
+  \SetKwProg{Fn}{Function}{:}{\KwRet}
+  \Fn{\FMain}{
+        a = 5\;
+        b = 10\;
+        Sum(5, 10)\;
+        Sub(5, 10)\;
+        print Sum, Sub\;
+        \KwRet 0\;
+  }
+\end{algorithm}
+```
+
+You will find the code in [Overleaf](https://www.overleaf.com/read/qpsqbngcqkpq).
+
+The output will look like the following-
+<figure>
+	<a href="https://live.staticflickr.com/65535/49815560527_396893a427_z.jpg"><img src="https://live.staticflickr.com/65535/49815560527_396893a427_z.jpg"></a>
+</figure>
+
+
