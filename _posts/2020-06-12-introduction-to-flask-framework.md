@@ -2,8 +2,8 @@
 layout: single
 title: "Create your first Flask (Python) `Hello World` App in 5 minutes"
 header:
-  image: "https://live.staticflickr.com/65535/49993827911_e3d3c300d6_c.jpg"
-  teaser: "https://live.staticflickr.com/65535/49993827911_e3d3c300d6_c.jpg"
+  image: "https://live.staticflickr.com/65535/51207015303_8ef57cac63_c.jpg"
+  teaser: "https://live.staticflickr.com/65535/51207015303_8ef57cac63_c.jpg"
 categories:
   - Python
 tags:
@@ -16,6 +16,7 @@ toc: true
 toc_label: "Table of Contents"
 toc_icon: "heart"
 ---
+
 
 In this post, we will install Flask and will create our first app.
 
@@ -95,5 +96,5 @@ $ flask run
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNjkzNTU4OF19
+eyJoaXN0b3J5IjpbMTI2NDc4NDAzNiwtNjM2OTM1NTg4XX0=
 -->
