@@ -139,12 +139,7 @@ This allows you to put your code inside
 \end{python}
 ```
 
-Similarly, for including external files, add a new command as follows:
-```latex
-\newcommand\pyexternal[2][]{{
-\pystyle
-\lstinputlisting[#1]{#2}}}
-```
+
 
 This is how we can add custom environment for each and every language. However, this requires time to do that for every language. 
 
