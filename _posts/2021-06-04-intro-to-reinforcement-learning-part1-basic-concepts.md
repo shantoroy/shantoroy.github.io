@@ -80,9 +80,8 @@ Based on the objectives, RL takes different approcahes to solve a particular pro
     -   **Deterministic** - at the current state  $s$, the policy  $π$ outputs the action $a$ to take.
 
     -   **Stochastic** - each action has a certain probability, given by the equation below -
-    
       
-	    $\pi (a|s) = Pr \big(A_t=a | S_t=s \big)$
+	    $$\pi (a|s) = Pr \big(A_t=a|S_t=s \big)$$
 
 - **Model-based** - this approach requires an additional model of the environment.
 
@@ -124,10 +123,10 @@ In the next tutorial, we will learn some additional concepts and other glossarie
 * [Introduction to Reinforcement Learning for Beginners-Analytics Vidhya](https://www.analyticsvidhya.com/blog/2021/02/introduction-to-reinforcement-learning-for-beginners/)
 * [Introduction to Reinforcement Learning-Datacamp](https://www.datacamp.com/community/tutorials/introduction-reinforcement-learning)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzI4MTIzNjIsMTY5OTY1MjUzNyw2OT
-gxMzg5NDYsLTE5Njc2NzE4MTgsNjk4MTM4OTQ2LC02NTE3ODQ5
-MzAsNDI4MTA4NjQ4LC0zMDYzMTYwNzUsLTU3NTU3MDA1MSw5MT
-k0MjUxMDUsMTAzNTc2OTU3MCwtMTY1NjgwODIzLDIwNzE3NTky
-NzAsOTE1MTQzNzgwLC0xMDM4NDE3NjUsNzg1Nzc4MDg4LDczMD
-k5ODExNl19
+eyJoaXN0b3J5IjpbMTgzNTM1MzU5NiwxNjk5NjUyNTM3LDY5OD
+EzODk0NiwtMTk2NzY3MTgxOCw2OTgxMzg5NDYsLTY1MTc4NDkz
+MCw0MjgxMDg2NDgsLTMwNjMxNjA3NSwtNTc1NTcwMDUxLDkxOT
+QyNTEwNSwxMDM1NzY5NTcwLC0xNjU2ODA4MjMsMjA3MTc1OTI3
+MCw5MTUxNDM3ODAsLTEwMzg0MTc2NSw3ODU3NzgwODgsNzMwOT
+k4MTE2XX0=
 -->
