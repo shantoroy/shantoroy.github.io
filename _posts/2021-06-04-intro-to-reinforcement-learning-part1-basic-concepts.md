@@ -36,25 +36,27 @@ RL defines the learning process of an intelligent agent that perceives environme
 
 - **Environment**  – is a typical physical world (could be a game or game-alike problems) where an agent or player learns to choose particular actions at each state of the game. Example: A Chess game. 
 
-	`Markov Decision Process (MDP)` is typically used to define an environemt. A MDP is represented as a 4-tuple (\\(S,A,P_a,R_a\\)), where \\(S\\) is a set of states, \\(A\\) is a set of actions, \\(P_a(s,s^\prime) = Pr(s_{t+1} = s^\prime| s_t=s,a_t=a)\\) is the probability of reaching to state \\(s^\prime\\) if an action \\(a\\) is taken at state \\(s\\), and \\(R_a(s,s^\prime)\\) is the immediate reward.
+	`Markov Decision Process (MDP)` is typically used to define an environemt. A MDP is represented as a 4-tuple ($S,A,P_a,R_a$), where $S$ is a set of states, $A$ is a set of actions, $P_a \big( s, s^{\prime} \big) = Pr \big( s_{t+1} = s^{\prime} \vert s_t = s, a_t = a \big)$  is the probability of reaching to state $s^{\prime}$ if an action $a$ is taken at state $s$, and $R_a \big( s, s^{\prime} \big)$ is the immediate reward.
+
+
 
 - **Agent**  – is a learner whose target is to maximize the cumulative reward at each time step of a game. The agent finds a policy to understand the best action to take given a particular state of the environment. Example: each player in a Chess game  is defined as the agent whose target is to win the game with best possible combination of moves.
 
-- **Action ($$a$$)**  – a list of actions that an agent can perform at each state of the environment. Example: At the beginning state of Chess, a player can use any of his pawns to go forward, or any of the Knights.
+- **Action ($a$)**  – a list of actions that an agent can perform at each state of the environment. Example: At the beginning state of Chess, a player can use any of his pawns to go forward, or any of the Knights.
 
-- **State ($$s$$)**  – the present condition of the agent/player in the environment. Example: The beginning condition of a Chess board where a player is yet to take an action.
+- **State ($s$)**  – the present condition of the agent/player in the environment. Example: The beginning condition of a Chess board where a player is yet to take an action.
 
-- **Reward ($$r$$)**  – for each action taken by an agent, the environment outputs a reward. It’s usually a scalar value and nothing but feedback from the environment
+- **Reward ($r$)**  – for each action taken by an agent, the environment outputs a reward. It’s usually a scalar value and nothing but feedback from the environment
 
 ### Additional Important Terminologies
 - **Discount Factor ($\gamma$)** - In a RL problem, the agent tries to maximize the cumulative reward at each time step $t$,
 
-	$total\_reward = \sum_{k=0}^T R_{t+k+1}$
+	$total\ reward = \sum_{k=0}^T R_{t+k+1}$
 	
 	However, not all rewards are equally important, for example the distant future rewards. In that case, we discount the future rewards by multiplying the rewards with a discount factor  $\gamma \in [0,1)$. Therefore, our cumulative expected (discounted) rewards is
 	
-	$total\_reward = \sum_{k=0}^\infty \big[\gamma^k \cdot R_{t+k+1} \big]$
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	$= R_{t+1} + \gamma \cdot R_{t+2} + \gamma^2 \cdot R_{t+3} \dots$	
+	$total\ reward = \sum_{k=0}^\infty \big[\gamma^k \cdot R_{t+k+1} \big]$
+	$= R_{t+1} + \gamma \cdot R_{t+2} + \gamma^2 \cdot R_{t+3} \dots$	
 	
 - **Policy ($\pi$)**  – defines the action strategy at a particular state (the current state). For a deterministic policy, the action to take at a particular state is the policy. If Stochastic, it outputs a probability of an action. We will see more details later.
 
@@ -70,7 +72,7 @@ Based on the objectives, RL takes different approcahes to solve a particular pro
 
 -   **Value-based Approach** - in this approach, an agent tries to maximize a value function  $V(s)$, which  is the value of the cumulative reward which an agent expects to gain in the future.  
       
-	  $V_\pi(s) = E_\pi [R_{t+1} + \gamma R_{t+2} + \gamma^2 R_{t+3} + ...|S_t = s]$
+	  $$V_\pi(s) = E_\pi \big[R_{t+1} + \gamma R_{t+2} + \gamma^2 R_{t+3} + ...|S_t = s \big]$$
     
     
   
@@ -80,9 +82,8 @@ Based on the objectives, RL takes different approcahes to solve a particular pro
     -   **Deterministic** - at the current state  $s$, the policy  $π$ outputs the action $a$ to take.
 
     -   **Stochastic** - each action has a certain probability, given by the equation below -
-    
       
-	    $\pi(a|s) = Pr(A_t=a | S_t=s)$
+	    $$\pi (a|s) = Pr \big(A_t=a|S_t=s \big)$$
 
 - **Model-based** - this approach requires an additional model of the environment.
 
@@ -92,20 +93,20 @@ TD-learning is a type of model-free reinforcement learning method (not model-bas
 $V(S_t) \leftarrow V(S_t) + \alpha \big[ R_{t+1} +\gamma \cdot V(S_{t+1}) - V(S_t) \big]$
 
 Here,
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; $V(S_t) \rightarrow$ is the previous estimate
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; $\alpha \rightarrow$ learning rate
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; $R_{t+1} \rightarrow$ reward at the next state
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; $\gamma \cdot V(S_{t+1}) \rightarrow$ discounted value at the next step
-$R_{t+1} + \gamma \cdot V(S_{t+1}) \rightarrow$ TD Target
+- $V(S_t) \rightarrow$ is the previous estimate
+- $\alpha \rightarrow$ learning rate
+- $R_{t+1} \rightarrow$ reward at the next state
+- $\gamma \cdot V(S_{t+1}) \rightarrow$ discounted value at the next step
+- $R_{t+1} + \gamma \cdot V(S_{t+1}) \rightarrow$ TD Target
 
 ## Workflow
-– Problem Formulation and Model Buildup
-– Create an Environment based on model
-– Define Actions and Observations for the agent(s)
-– Define the Reward function of the agent(s)
-– Create the agent(s)
-– Train and validate the agent(s)
-– Deploy the policy (policies in multi-agent games)
+- Problem Formulation and Model Buildup
+- Create an Environment based on model
+- Define Actions and Observations for the agent(s)
+- Define the Reward function of the agent(s)
+- Create the agent(s)
+- Train and validate the agent(s)
+- Deploy the policy (policies in multi-agent games)
 
 
 
@@ -124,9 +125,11 @@ In the next tutorial, we will learn some additional concepts and other glossarie
 * [Introduction to Reinforcement Learning for Beginners-Analytics Vidhya](https://www.analyticsvidhya.com/blog/2021/02/introduction-to-reinforcement-learning-for-beginners/)
 * [Introduction to Reinforcement Learning-Datacamp](https://www.datacamp.com/community/tutorials/introduction-reinforcement-learning)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Njc2NzE4MTgsNjk4MTM4OTQ2LC02NT
-E3ODQ5MzAsNDI4MTA4NjQ4LC0zMDYzMTYwNzUsLTU3NTU3MDA1
-MSw5MTk0MjUxMDUsMTAzNTc2OTU3MCwtMTY1NjgwODIzLDIwNz
-E3NTkyNzAsOTE1MTQzNzgwLC0xMDM4NDE3NjUsNzg1Nzc4MDg4
-LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMTcyMTg4MTgyMiwtNzExMTgxNTYxLC0xOT
+I1Nzg3MTUzLDY5NDUzNTQxNSwxNjgyMzc5MjIxLDE2OTk2NTI1
+MzcsNjk4MTM4OTQ2LC0xOTY3NjcxODE4LDY5ODEzODk0NiwtNj
+UxNzg0OTMwLDQyODEwODY0OCwtMzA2MzE2MDc1LC01NzU1NzAw
+NTEsOTE5NDI1MTA1LDEwMzU3Njk1NzAsLTE2NTY4MDgyMywyMD
+cxNzU5MjcwLDkxNTE0Mzc4MCwtMTAzODQxNzY1LDc4NTc3ODA4
+OF19
 -->
