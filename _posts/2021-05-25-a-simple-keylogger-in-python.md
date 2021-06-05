@@ -22,7 +22,11 @@ Keylogger is a simple yet effective program that can monitor a person's keyboard
 
 It can be designed to store all keystrokes activities in a local log file or can be sent via email depending on how it is designed.
 
-In this tutorial, we will see how to write a simple keylogger in python so that we understand the underlying theme of how it works.
+In this tutorial, we will see how to write a simple keylogger in python so that we understand the underlying theme of how it works. If you are interested to write other types of malwares, you can look into my previous posts:
+* [Write a Simple Virus in Python](https://shantoroy.com/security/write-a-virus-in-python/)
+* [A Basic Keylogger in Python](https://shantoroy.com/security/a-simple-keylogger-in-python/)
+* [Write a Backdoor in Python](https://shantoroy.com/security/simple-backdoor-using-python/)
+
 
 ## Requirements
 First, we need to install the module [pynput](https://pynput.readthedocs.io/en/latest/index.html). This module is used to control and monitor `keyboard` or `mouse/trackpad` activities.
@@ -124,6 +128,6 @@ That's it! Thanks for being with me. Cheers!
 * [Design a Keylogger in Python](https://www.tutorialspoint.com/design-a-keylogger-in-python)
 * [How to Make a Keylogger in Python](https://www.thepythoncode.com/article/write-a-keylogger-python)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MTY1NTYzOCwtMTY0NzgzMTQ4LC03ND
-M3OTUwNzgsMTMwMjMzMTgzNl19
+eyJoaXN0b3J5IjpbNTczODMzNTc4LDE3OTE2NTU2MzgsLTE2ND
+c4MzE0OCwtNzQzNzk1MDc4LDEzMDIzMzE4MzZdfQ==
 -->
