@@ -93,9 +93,9 @@ $V(S_t) \leftarrow V(S_t) + \alpha \big[ R_{t+1} +\gamma \cdot V(S_{t+1}) - V(S_
 Here,
 - $V(S_t) \rightarrow$ is the previous estimate
 - $\alpha \rightarrow$ learning rate
-$R_{t+1} \rightarrow$ reward at the next state
-$\gamma \cdot V(S_{t+1}) \rightarrow$ discounted value at the next step
-$R_{t+1} + \gamma \cdot V(S_{t+1}) \rightarrow$ TD Target
+- $R_{t+1} \rightarrow$ reward at the next state
+- $\gamma \cdot V(S_{t+1}) \rightarrow$ discounted value at the next step
+- $R_{t+1} + \gamma \cdot V(S_{t+1}) \rightarrow$ TD Target
 
 ## Workflow
 - Problem Formulation and Model Buildup
@@ -123,10 +123,10 @@ In the next tutorial, we will learn some additional concepts and other glossarie
 * [Introduction to Reinforcement Learning for Beginners-Analytics Vidhya](https://www.analyticsvidhya.com/blog/2021/02/introduction-to-reinforcement-learning-for-beginners/)
 * [Introduction to Reinforcement Learning-Datacamp](https://www.datacamp.com/community/tutorials/introduction-reinforcement-learning)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc0OTg5NDEwLDE2OTk2NTI1MzcsNjk4MT
-M4OTQ2LC0xOTY3NjcxODE4LDY5ODEzODk0NiwtNjUxNzg0OTMw
-LDQyODEwODY0OCwtMzA2MzE2MDc1LC01NzU1NzAwNTEsOTE5ND
-I1MTA1LDEwMzU3Njk1NzAsLTE2NTY4MDgyMywyMDcxNzU5Mjcw
-LDkxNTE0Mzc4MCwtMTAzODQxNzY1LDc4NTc3ODA4OCw3MzA5OT
-gxMTZdfQ==
+eyJoaXN0b3J5IjpbMTY4MjM3OTIyMSwxNjk5NjUyNTM3LDY5OD
+EzODk0NiwtMTk2NzY3MTgxOCw2OTgxMzg5NDYsLTY1MTc4NDkz
+MCw0MjgxMDg2NDgsLTMwNjMxNjA3NSwtNTc1NTcwMDUxLDkxOT
+QyNTEwNSwxMDM1NzY5NTcwLC0xNjU2ODA4MjMsMjA3MTc1OTI3
+MCw5MTUxNDM3ODAsLTEwMzg0MTc2NSw3ODU3NzgwODgsNzMwOT
+k4MTE2XX0=
 -->
