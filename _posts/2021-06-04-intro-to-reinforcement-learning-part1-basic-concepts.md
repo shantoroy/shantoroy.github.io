@@ -98,13 +98,13 @@ $\gamma \cdot V(S_{t+1}) \rightarrow$ discounted value at the next step
 $R_{t+1} + \gamma \cdot V(S_{t+1}) \rightarrow$ TD Target
 
 ## Workflow
-– Problem Formulation and Model Buildup
-– Create an Environment based on model
-– Define Actions and Observations for the agent(s)
-– Define the Reward function of the agent(s)
-– Create the agent(s)
-– Train and validate the agent(s)
-– Deploy the policy (policies in multi-agent games)
+- Problem Formulation and Model Buildup
+- Create an Environment based on model
+- Define Actions and Observations for the agent(s)
+- Define the Reward function of the agent(s)
+- Create the agent(s)
+- Train and validate the agent(s)
+- Deploy the policy (policies in multi-agent games)
 
 
 
@@ -123,10 +123,10 @@ In the next tutorial, we will learn some additional concepts and other glossarie
 * [Introduction to Reinforcement Learning for Beginners-Analytics Vidhya](https://www.analyticsvidhya.com/blog/2021/02/introduction-to-reinforcement-learning-for-beginners/)
 * [Introduction to Reinforcement Learning-Datacamp](https://www.datacamp.com/community/tutorials/introduction-reinforcement-learning)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNTM1MzU5NiwxNjk5NjUyNTM3LDY5OD
-EzODk0NiwtMTk2NzY3MTgxOCw2OTgxMzg5NDYsLTY1MTc4NDkz
-MCw0MjgxMDg2NDgsLTMwNjMxNjA3NSwtNTc1NTcwMDUxLDkxOT
-QyNTEwNSwxMDM1NzY5NTcwLC0xNjU2ODA4MjMsMjA3MTc1OTI3
-MCw5MTUxNDM3ODAsLTEwMzg0MTc2NSw3ODU3NzgwODgsNzMwOT
-k4MTE2XX0=
+eyJoaXN0b3J5IjpbNzc3MTE0MzUwLDE2OTk2NTI1MzcsNjk4MT
+M4OTQ2LC0xOTY3NjcxODE4LDY5ODEzODk0NiwtNjUxNzg0OTMw
+LDQyODEwODY0OCwtMzA2MzE2MDc1LC01NzU1NzAwNTEsOTE5ND
+I1MTA1LDEwMzU3Njk1NzAsLTE2NTY4MDgyMywyMDcxNzU5Mjcw
+LDkxNTE0Mzc4MCwtMTAzODQxNzY1LDc4NTc3ODA4OCw3MzA5OT
+gxMTZdfQ==
 -->
