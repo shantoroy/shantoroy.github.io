@@ -36,7 +36,7 @@ RL defines the learning process of an intelligent agent that perceives environme
 
 - **Environment**  – is a typical physical world (could be a game or game-alike problems) where an agent or player learns to choose particular actions at each state of the game. Example: A Chess game. 
 
-	`Markov Decision Process (MDP)` is typically used to define an environemt. A MDP is represented as a 4-tuple ($S,A,P_a,R_a$), where $S$ is a set of states, $A$ is a set of actions, $P_a(s,s^\prime) = Pr(s_{t+1} = s^\prime| s_t=s,a_t=a)$ is the probability of reaching to state $s^\prime$ if an action $a$ is taken at state $s$, and $R_a(s,s^\prime)$ is the immediate reward.
+	`Markov Decision Process (MDP)` is typically used to define an environemt. A MDP is represented as a 4-tuple ($S,A,P_a,R_a$), where $S$ is a set of states, $A$ is a set of actions, $P_a \big(s,s^\prime\bi) = Pr(s_{t+1} = s^\prime| s_t=s,a_t=a)$ is the probability of reaching to state $s^\prime$ if an action $a$ is taken at state $s$, and $R_a(s,s^\prime)$ is the immediate reward.
 
 - **Agent**  – is a learner whose target is to maximize the cumulative reward at each time step of a game. The agent finds a policy to understand the best action to take given a particular state of the environment. Example: each player in a Chess game  is defined as the agent whose target is to win the game with best possible combination of moves.
 
@@ -92,10 +92,10 @@ TD-learning is a type of model-free reinforcement learning method (not model-bas
 $V(S_t) \leftarrow V(S_t) + \alpha \big[ R_{t+1} +\gamma \cdot V(S_{t+1}) - V(S_t) \big]$
 
 Here,
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; $V(S_t) \rightarrow$ is the previous estimate
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; $\alpha \rightarrow$ learning rate
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; $R_{t+1} \rightarrow$ reward at the next state
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; $\gamma \cdot V(S_{t+1}) \rightarrow$ discounted value at the next step
+$V(S_t) \rightarrow$ is the previous estimate
+$\alpha \rightarrow$ learning rate
+$R_{t+1} \rightarrow$ reward at the next state
+$\gamma \cdot V(S_{t+1}) \rightarrow$ discounted value at the next step
 $R_{t+1} + \gamma \cdot V(S_{t+1}) \rightarrow$ TD Target
 
 ## Workflow
@@ -124,10 +124,10 @@ In the next tutorial, we will learn some additional concepts and other glossarie
 * [Introduction to Reinforcement Learning for Beginners-Analytics Vidhya](https://www.analyticsvidhya.com/blog/2021/02/introduction-to-reinforcement-learning-for-beginners/)
 * [Introduction to Reinforcement Learning-Datacamp](https://www.datacamp.com/community/tutorials/introduction-reinforcement-learning)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzkzNTU4NTAsMTY5OTY1MjUzNyw2OT
-gxMzg5NDYsLTE5Njc2NzE4MTgsNjk4MTM4OTQ2LC02NTE3ODQ5
-MzAsNDI4MTA4NjQ4LC0zMDYzMTYwNzUsLTU3NTU3MDA1MSw5MT
-k0MjUxMDUsMTAzNTc2OTU3MCwtMTY1NjgwODIzLDIwNzE3NTky
-NzAsOTE1MTQzNzgwLC0xMDM4NDE3NjUsNzg1Nzc4MDg4LDczMD
-k5ODExNl19
+eyJoaXN0b3J5IjpbLTExMjU5ODIzNywxNjk5NjUyNTM3LDY5OD
+EzODk0NiwtMTk2NzY3MTgxOCw2OTgxMzg5NDYsLTY1MTc4NDkz
+MCw0MjgxMDg2NDgsLTMwNjMxNjA3NSwtNTc1NTcwMDUxLDkxOT
+QyNTEwNSwxMDM1NzY5NTcwLC0xNjU2ODA4MjMsMjA3MTc1OTI3
+MCw5MTUxNDM3ODAsLTEwMzg0MTc2NSw3ODU3NzgwODgsNzMwOT
+k4MTE2XX0=
 -->
