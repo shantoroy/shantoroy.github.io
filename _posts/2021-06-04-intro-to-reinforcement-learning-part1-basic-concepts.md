@@ -36,7 +36,7 @@ RL defines the learning process of an intelligent agent that perceives environme
 
 - **Environment**  – is a typical physical world (could be a game or game-alike problems) where an agent or player learns to choose particular actions at each state of the game. Example: A Chess game. 
 
-	`Markov Decision Process (MDP)` is typically used to define an environemt. A MDP is represented as a 4-tuple ($S,A,P_a,R_a$), where $S$ is a set of states, $A$ is a set of actions, $P_a \big( s, s^{\prime} \big) = Pr \big( s_{t+1} = s^{\prime}|s_t = s, a_t = a \big)$  is the probability of reaching to state $s^{\prime}$ if an action $a$ is taken at state $s$, and $R_a \big( s, s^{\prime} \big)$ is the immediate reward.
+	`Markov Decision Process (MDP)` is typically used to define an environemt. A MDP is represented as a 4-tuple ($S,A,P_a,R_a$), where $S$ is a set of states, $A$ is a set of actions, $P_a \big( s, s^{\prime} \big) = Pr \big( s_{t+1} = s^{\prime} \vert s_t = s, a_t = a \big)$  is the probability of reaching to state $s^{\prime}$ if an action $a$ is taken at state $s$, and $R_a \big( s, s^{\prime} \big)$ is the immediate reward.
 
 
 
@@ -125,11 +125,11 @@ In the next tutorial, we will learn some additional concepts and other glossarie
 * [Introduction to Reinforcement Learning for Beginners-Analytics Vidhya](https://www.analyticsvidhya.com/blog/2021/02/introduction-to-reinforcement-learning-for-beginners/)
 * [Introduction to Reinforcement Learning-Datacamp](https://www.datacamp.com/community/tutorials/introduction-reinforcement-learning)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMTE4MTU2MSwtMTkyNTc4NzE1Myw2OT
-Q1MzU0MTUsMTY4MjM3OTIyMSwxNjk5NjUyNTM3LDY5ODEzODk0
-NiwtMTk2NzY3MTgxOCw2OTgxMzg5NDYsLTY1MTc4NDkzMCw0Mj
-gxMDg2NDgsLTMwNjMxNjA3NSwtNTc1NTcwMDUxLDkxOTQyNTEw
-NSwxMDM1NzY5NTcwLC0xNjU2ODA4MjMsMjA3MTc1OTI3MCw5MT
-UxNDM3ODAsLTEwMzg0MTc2NSw3ODU3NzgwODgsNzMwOTk4MTE2
-XX0=
+eyJoaXN0b3J5IjpbMTcyMTg4MTgyMiwtNzExMTgxNTYxLC0xOT
+I1Nzg3MTUzLDY5NDUzNTQxNSwxNjgyMzc5MjIxLDE2OTk2NTI1
+MzcsNjk4MTM4OTQ2LC0xOTY3NjcxODE4LDY5ODEzODk0NiwtNj
+UxNzg0OTMwLDQyODEwODY0OCwtMzA2MzE2MDc1LC01NzU1NzAw
+NTEsOTE5NDI1MTA1LDEwMzU3Njk1NzAsLTE2NTY4MDgyMywyMD
+cxNzU5MjcwLDkxNTE0Mzc4MCwtMTAzODQxNzY1LDc4NTc3ODA4
+OF19
 -->
