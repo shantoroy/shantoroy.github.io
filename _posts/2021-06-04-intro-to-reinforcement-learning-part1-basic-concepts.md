@@ -36,7 +36,7 @@ RL defines the learning process of an intelligent agent that perceives environme
 
 - **Environment**  – is a typical physical world (could be a game or game-alike problems) where an agent or player learns to choose particular actions at each state of the game. Example: A Chess game. 
 
-	`Markov Decision Process (MDP)` is typically used to define an environemt. A MDP is represented as a 4-tuple (\\(S,A,P_a,R_a\\)), where \\(S\\) is a set of states, \\(A\\) is a set of actions, \\(P_a(s,s^\prime) = Pr(s_{t+1} = s^\prime| s_t=s,a_t=a)\\) is the probability of reaching to state \\(s^\prime\\) if an action \\(a\\) is taken at state \\(s\\), and \\(R_a(s,s^\prime)\\) is the immediate reward.
+	`Markov Decision Process (MDP)` is typically used to define an environemt. A MDP is represented as a 4-tuple ($S,A,P_a,R_a$), where $S$ is a set of states, $A$ is a set of actions, $P_a(s,s^\prime) = Pr(s_{t+1} = s^\prime| s_t=s,a_t=a)$ is the probability of reaching to state $s^\prime$ if an action $a$ is taken at state $s$, and $R_a(s,s^\prime)$is the immediate reward.
 
 - **Agent**  – is a learner whose target is to maximize the cumulative reward at each time step of a game. The agent finds a policy to understand the best action to take given a particular state of the environment. Example: each player in a Chess game  is defined as the agent whose target is to win the game with best possible combination of moves.
 
@@ -124,9 +124,9 @@ In the next tutorial, we will learn some additional concepts and other glossarie
 * [Introduction to Reinforcement Learning for Beginners-Analytics Vidhya](https://www.analyticsvidhya.com/blog/2021/02/introduction-to-reinforcement-learning-for-beginners/)
 * [Introduction to Reinforcement Learning-Datacamp](https://www.datacamp.com/community/tutorials/introduction-reinforcement-learning)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk4MTM4OTQ2LC0xOTY3NjcxODE4LDY5OD
-EzODk0NiwtNjUxNzg0OTMwLDQyODEwODY0OCwtMzA2MzE2MDc1
-LC01NzU1NzAwNTEsOTE5NDI1MTA1LDEwMzU3Njk1NzAsLTE2NT
-Y4MDgyMywyMDcxNzU5MjcwLDkxNTE0Mzc4MCwtMTAzODQxNzY1
-LDc4NTc3ODA4OCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTM5MDQ0MDU4LDY5ODEzODk0NiwtMTk2Nz
+Y3MTgxOCw2OTgxMzg5NDYsLTY1MTc4NDkzMCw0MjgxMDg2NDgs
+LTMwNjMxNjA3NSwtNTc1NTcwMDUxLDkxOTQyNTEwNSwxMDM1Nz
+Y5NTcwLC0xNjU2ODA4MjMsMjA3MTc1OTI3MCw5MTUxNDM3ODAs
+LTEwMzg0MTc2NSw3ODU3NzgwODgsNzMwOTk4MTE2XX0=
 -->
