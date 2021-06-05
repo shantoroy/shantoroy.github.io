@@ -36,7 +36,7 @@ RL defines the learning process of an intelligent agent that perceives environme
 
 - **Environment**  – is a typical physical world (could be a game or game-alike problems) where an agent or player learns to choose particular actions at each state of the game. Example: A Chess game. 
 
-	`Markov Decision Process (MDP)` is typically used to define an environemt. A MDP is represented as a 4-tuple ($S,A,P_a,R_a$), where $S$ is a set of states, $A$ is a set of actions, $P_a(s,s^') = Pr(s_{t+1} = s^\prime| s_t=s,a_t=a)$ is the probability of reaching to state $s^\prime$ if an action $a$ is taken at state $s$, and $R_a(s,s^\prime)$is the immediate reward.
+	`Markov Decision Process (MDP)` is typically used to define an environemt. A MDP is represented as a 4-tuple ($S,A,P_a,R_a$), where $S$ is a set of states, $A$ is a set of actions, $P_a(s,s^\\prime) = Pr(s_{t+1} = s^\prime| s_t=s,a_t=a)$ is the probability of reaching to state $s^\prime$ if an action $a$ is taken at state $s$, and $R_a(s,s^\prime)$is the immediate reward.
 
 - **Agent**  – is a learner whose target is to maximize the cumulative reward at each time step of a game. The agent finds a policy to understand the best action to take given a particular state of the environment. Example: each player in a Chess game  is defined as the agent whose target is to win the game with best possible combination of moves.
 
@@ -124,7 +124,7 @@ In the next tutorial, we will learn some additional concepts and other glossarie
 * [Introduction to Reinforcement Learning for Beginners-Analytics Vidhya](https://www.analyticsvidhya.com/blog/2021/02/introduction-to-reinforcement-learning-for-beginners/)
 * [Introduction to Reinforcement Learning-Datacamp](https://www.datacamp.com/community/tutorials/introduction-reinforcement-learning)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MTU2NDg5Nyw2OTgxMzg5NDYsLTE5Nj
+eyJoaXN0b3J5IjpbMTY5OTY1MjUzNyw2OTgxMzg5NDYsLTE5Nj
 c2NzE4MTgsNjk4MTM4OTQ2LC02NTE3ODQ5MzAsNDI4MTA4NjQ4
 LC0zMDYzMTYwNzUsLTU3NTU3MDA1MSw5MTk0MjUxMDUsMTAzNT
 c2OTU3MCwtMTY1NjgwODIzLDIwNzE3NTkyNzAsOTE1MTQzNzgw
