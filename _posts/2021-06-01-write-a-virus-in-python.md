@@ -24,7 +24,7 @@ First thing first, let's get introduced to the definition of a computer virus. A
 Point to be noted; a virus does not replicate itself. It just continuously infects all files in the directories/folders. The malware that replicates itself and consumes hard disk space is typically called a `Worm`.
 
 If you are interested to write other types of malwares, you can go through my previous posts:
-* [Write a Simple Virus in Python](https://shantoroy.com/security/write-a-virus-in-python/)
+* [Write a Backdoor in Python](https://shantoroy.com/security/simple-backdoor-using-python/)
 * [Write a Worm (Malware) in Python](https://shantoroy.com/security/write-a-worm-malware-in-python/)
 * [A Basic Keylogger in Python](https://shantoroy.com/security/a-simple-keylogger-in-python/)
 
@@ -242,6 +242,6 @@ Have a good day! Cheers!!!
 1. [Viruses – From Newbie to pro](https://www.geeksforgeeks.org/viruses-from-newbie-to-pro/)
 2. [os- Miscellaneous operating system interfaces](https://docs.python.org/3/library/os.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI4NDQ5ODIzLDIwNDI3ODQ3OTcsLTY2NT
-U4Mzc2OV19
+eyJoaXN0b3J5IjpbMTU3MTk0OTQxMywyMDQyNzg0Nzk3LC02Nj
+U1ODM3NjldfQ==
 -->
