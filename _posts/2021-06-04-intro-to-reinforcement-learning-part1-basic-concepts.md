@@ -91,10 +91,10 @@ TD-learning is a type of model-free reinforcement learning method (not model-bas
 $V(S_t) \leftarrow V(S_t) + \alpha \big[ R_{t+1} +\gamma \cdot V(S_{t+1}) - V(S_t) \big]$
 
 Here,
-$V(S_t) \rightarrow$ is the previous estimate</br>
-$\alpha \rightarrow$ learning rate</br>
-$R_{t+1} \rightarrow$ reward at the next state</br>
-$\gamma \cdot V(S_{t+1}) \rightarrow$ discounted value at the next step</br>
+- $V(S_t) \rightarrow$ is the previous estimate
+- $\alpha \rightarrow$ learning rate
+$R_{t+1} \rightarrow$ reward at the next state
+$\gamma \cdot V(S_{t+1}) \rightarrow$ discounted value at the next step
 $R_{t+1} + \gamma \cdot V(S_{t+1}) \rightarrow$ TD Target
 
 ## Workflow
@@ -123,10 +123,10 @@ In the next tutorial, we will learn some additional concepts and other glossarie
 * [Introduction to Reinforcement Learning for Beginners-Analytics Vidhya](https://www.analyticsvidhya.com/blog/2021/02/introduction-to-reinforcement-learning-for-beginners/)
 * [Introduction to Reinforcement Learning-Datacamp](https://www.datacamp.com/community/tutorials/introduction-reinforcement-learning)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTA0NDI5MTYsMTY5OTY1MjUzNyw2OT
-gxMzg5NDYsLTE5Njc2NzE4MTgsNjk4MTM4OTQ2LC02NTE3ODQ5
-MzAsNDI4MTA4NjQ4LC0zMDYzMTYwNzUsLTU3NTU3MDA1MSw5MT
-k0MjUxMDUsMTAzNTc2OTU3MCwtMTY1NjgwODIzLDIwNzE3NTky
-NzAsOTE1MTQzNzgwLC0xMDM4NDE3NjUsNzg1Nzc4MDg4LDczMD
-k5ODExNl19
+eyJoaXN0b3J5IjpbODc0OTg5NDEwLDE2OTk2NTI1MzcsNjk4MT
+M4OTQ2LC0xOTY3NjcxODE4LDY5ODEzODk0NiwtNjUxNzg0OTMw
+LDQyODEwODY0OCwtMzA2MzE2MDc1LC01NzU1NzAwNTEsOTE5ND
+I1MTA1LDEwMzU3Njk1NzAsLTE2NTY4MDgyMywyMDcxNzU5Mjcw
+LDkxNTE0Mzc4MCwtMTAzODQxNzY1LDc4NTc3ODA4OCw3MzA5OT
+gxMTZdfQ==
 -->
