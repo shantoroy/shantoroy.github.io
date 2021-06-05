@@ -70,7 +70,7 @@ Based on the objectives, RL takes different approcahes to solve a particular pro
 
 -   **Value-based Approach** - in this approach, an agent tries to maximize a value function  $V(s)$, which  is the value of the cumulative reward which an agent expects to gain in the future.  
       
-	  $$V_\pi(s) = E_\pi [R_{t+1} + \gamma R_{t+2} + \gamma^2 R_{t+3} + ...|S_t = s]$$
+	  $$V_\pi(s) = E_\pi \big[R_{t+1} + \gamma R_{t+2} + \gamma^2 R_{t+3} + ...|S_t = s \big]$$
     
     
   
@@ -124,7 +124,7 @@ In the next tutorial, we will learn some additional concepts and other glossarie
 * [Introduction to Reinforcement Learning for Beginners-Analytics Vidhya](https://www.analyticsvidhya.com/blog/2021/02/introduction-to-reinforcement-learning-for-beginners/)
 * [Introduction to Reinforcement Learning-Datacamp](https://www.datacamp.com/community/tutorials/introduction-reinforcement-learning)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjUyNjEzNTgsMTY5OTY1MjUzNyw2OT
+eyJoaXN0b3J5IjpbLTE0NzkzNTU4NTAsMTY5OTY1MjUzNyw2OT
 gxMzg5NDYsLTE5Njc2NzE4MTgsNjk4MTM4OTQ2LC02NTE3ODQ5
 MzAsNDI4MTA4NjQ4LC0zMDYzMTYwNzUsLTU3NTU3MDA1MSw5MT
 k0MjUxMDUsMTAzNTc2OTU3MCwtMTY1NjgwODIzLDIwNzE3NTky
