@@ -36,7 +36,7 @@ RL defines the learning process of an intelligent agent that perceives environme
 
 - **Environment**  – is a typical physical world (could be a game or game-alike problems) where an agent or player learns to choose particular actions at each state of the game. Example: A Chess game. 
 
-	`Markov Decision Process (MDP)` is typically used to define an environemt. A MDP is represented as a 4-tuple ($S,A,P_a,R_a$), where $S$ is a set of states, $A$ is a set of actions, $s^\prime$
+	`Markov Decision Process (MDP)` is typically used to define an environemt. A MDP is represented as a 4-tuple ($S,A,P_a,R_a$), where $S$ is a set of states, $A$ is a set of actions, $P_a \big( s, s^{\prime} \big) = Pr \big(s_{t+1} = s^{\prime} | s_t = s, a_t = a \big)$ is the probability of reaching to state $s^{\prime}$ if an action $a$ is taken at state $s$, and $R_a \big(s,s^{\prime} \big)$ is the immediate reward.
 
 - **Agent**  – is a learner whose target is to maximize the cumulative reward at each time step of a game. The agent finds a policy to understand the best action to take given a particular state of the environment. Example: each player in a Chess game  is defined as the agent whose target is to win the game with best possible combination of moves.
 
@@ -123,10 +123,10 @@ In the next tutorial, we will learn some additional concepts and other glossarie
 * [Introduction to Reinforcement Learning for Beginners-Analytics Vidhya](https://www.analyticsvidhya.com/blog/2021/02/introduction-to-reinforcement-learning-for-beginners/)
 * [Introduction to Reinforcement Learning-Datacamp](https://www.datacamp.com/community/tutorials/introduction-reinforcement-learning)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzQ0ODgyNzUsMTY4MjM3OTIyMSwxNj
-k5NjUyNTM3LDY5ODEzODk0NiwtMTk2NzY3MTgxOCw2OTgxMzg5
-NDYsLTY1MTc4NDkzMCw0MjgxMDg2NDgsLTMwNjMxNjA3NSwtNT
-c1NTcwMDUxLDkxOTQyNTEwNSwxMDM1NzY5NTcwLC0xNjU2ODA4
-MjMsMjA3MTc1OTI3MCw5MTUxNDM3ODAsLTEwMzg0MTc2NSw3OD
-U3NzgwODgsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbOTI4MTc1MTY5LDE2ODIzNzkyMjEsMTY5OT
+Y1MjUzNyw2OTgxMzg5NDYsLTE5Njc2NzE4MTgsNjk4MTM4OTQ2
+LC02NTE3ODQ5MzAsNDI4MTA4NjQ4LC0zMDYzMTYwNzUsLTU3NT
+U3MDA1MSw5MTk0MjUxMDUsMTAzNTc2OTU3MCwtMTY1NjgwODIz
+LDIwNzE3NTkyNzAsOTE1MTQzNzgwLC0xMDM4NDE3NjUsNzg1Nz
+c4MDg4LDczMDk5ODExNl19
 -->
