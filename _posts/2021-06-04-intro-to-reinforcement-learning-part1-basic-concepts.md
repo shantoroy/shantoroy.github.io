@@ -38,6 +38,8 @@ RL defines the learning process of an intelligent agent that perceives environme
 
 	`Markov Decision Process (MDP)` is typically used to define an environemt. A MDP is represented as a 4-tuple ($S,A,P_a,R_a$), where $S$ is a set of states, $A$ is a set of actions,  is the probability of reaching to state $s^{\prime}$ if an action $a$ is taken at state $s$, and $R_a \big( s, s^{\prime} \big)$ is the immediate reward.
 
+$P_a \big( s, s^{\prime} \big) = Pr \big( s_{t+1} = s^{\prime} | s_t = s, a_t = a \big)$
+
 - **Agent**  – is a learner whose target is to maximize the cumulative reward at each time step of a game. The agent finds a policy to understand the best action to take given a particular state of the environment. Example: each player in a Chess game  is defined as the agent whose target is to win the game with best possible combination of moves.
 
 - **Action ($a$)**  – a list of actions that an agent can perform at each state of the environment. Example: At the beginning state of Chess, a player can use any of his pawns to go forward, or any of the Knights.
@@ -123,10 +125,10 @@ In the next tutorial, we will learn some additional concepts and other glossarie
 * [Introduction to Reinforcement Learning for Beginners-Analytics Vidhya](https://www.analyticsvidhya.com/blog/2021/02/introduction-to-reinforcement-learning-for-beginners/)
 * [Introduction to Reinforcement Learning-Datacamp](https://www.datacamp.com/community/tutorials/introduction-reinforcement-learning)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1ODkzOTcyMCwxNjgyMzc5MjIxLDE2OT
-k2NTI1MzcsNjk4MTM4OTQ2LC0xOTY3NjcxODE4LDY5ODEzODk0
-NiwtNjUxNzg0OTMwLDQyODEwODY0OCwtMzA2MzE2MDc1LC01Nz
-U1NzAwNTEsOTE5NDI1MTA1LDEwMzU3Njk1NzAsLTE2NTY4MDgy
-MywyMDcxNzU5MjcwLDkxNTE0Mzc4MCwtMTAzODQxNzY1LDc4NT
-c3ODA4OCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMzY5NzQwMDg3LDE2ODIzNzkyMjEsMTY5OT
+Y1MjUzNyw2OTgxMzg5NDYsLTE5Njc2NzE4MTgsNjk4MTM4OTQ2
+LC02NTE3ODQ5MzAsNDI4MTA4NjQ4LC0zMDYzMTYwNzUsLTU3NT
+U3MDA1MSw5MTk0MjUxMDUsMTAzNTc2OTU3MCwtMTY1NjgwODIz
+LDIwNzE3NTkyNzAsOTE1MTQzNzgwLC0xMDM4NDE3NjUsNzg1Nz
+c4MDg4LDczMDk5ODExNl19
 -->
