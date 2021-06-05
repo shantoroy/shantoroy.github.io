@@ -24,7 +24,7 @@ It can be designed to store all keystrokes activities in a local log file or can
 
 In this tutorial, we will see how to write a simple keylogger in python so that we understand the underlying theme of how it works. If you are interested to write other types of malwares, you can look into my previous posts:
 * [Write a Simple Virus in Python](https://shantoroy.com/security/write-a-virus-in-python/)
-* [A Basic Keylogger in Python](https://shantoroy.com/security/a-simple-keylogger-in-python/)
+* [Write a Worm (Malware) in Python](https://shantoroy.com/security/write-a-worm-malware-in-python/)
 * [Write a Backdoor in Python](https://shantoroy.com/security/simple-backdoor-using-python/)
 
 
@@ -128,6 +128,6 @@ That's it! Thanks for being with me. Cheers!
 * [Design a Keylogger in Python](https://www.tutorialspoint.com/design-a-keylogger-in-python)
 * [How to Make a Keylogger in Python](https://www.thepythoncode.com/article/write-a-keylogger-python)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTczODMzNTc4LDE3OTE2NTU2MzgsLTE2ND
-c4MzE0OCwtNzQzNzk1MDc4LDEzMDIzMzE4MzZdfQ==
+eyJoaXN0b3J5IjpbLTEzNjk4NjU4NiwxNzkxNjU1NjM4LC0xNj
+Q3ODMxNDgsLTc0Mzc5NTA3OCwxMzAyMzMxODM2XX0=
 -->
