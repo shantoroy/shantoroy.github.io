@@ -40,11 +40,11 @@ RL defines the learning process of an intelligent agent that perceives environme
 
 - **Agent**  – is a learner whose target is to maximize the cumulative reward at each time step of a game. The agent finds a policy to understand the best action to take given a particular state of the environment. Example: each player in a Chess game  is defined as the agent whose target is to win the game with best possible combination of moves.
 
-- **Action ($a$)**  – a list of actions that an agent can perform at each state of the environment. Example: At the beginning state of Chess, a player can use any of his pawns to go forward, or any of the Knights.
+- **Action ($$a$$)**  – a list of actions that an agent can perform at each state of the environment. Example: At the beginning state of Chess, a player can use any of his pawns to go forward, or any of the Knights.
 
-- **State ($s$)**  – the present condition of the agent/player in the environment. Example: The beginning condition of a Chess board where a player is yet to take an action.
+- **State ($$s$$)**  – the present condition of the agent/player in the environment. Example: The beginning condition of a Chess board where a player is yet to take an action.
 
-- **Reward ($r$)**  – for each action taken by an agent, the environment outputs a reward. It’s usually a scalar value and nothing but feedback from the environment
+- **Reward ($$r$$)**  – for each action taken by an agent, the environment outputs a reward. It’s usually a scalar value and nothing but feedback from the environment
 
 ### Additional Important Terminologies
 - **Discount Factor ($\gamma$)** - In a RL problem, the agent tries to maximize the cumulative reward at each time step $t$,
@@ -124,9 +124,9 @@ In the next tutorial, we will learn some additional concepts and other glossarie
 * [Introduction to Reinforcement Learning for Beginners-Analytics Vidhya](https://www.analyticsvidhya.com/blog/2021/02/introduction-to-reinforcement-learning-for-beginners/)
 * [Introduction to Reinforcement Learning-Datacamp](https://www.datacamp.com/community/tutorials/introduction-reinforcement-learning)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk4MTM4OTQ2LC02NTE3ODQ5MzAsNDI4MT
-A4NjQ4LC0zMDYzMTYwNzUsLTU3NTU3MDA1MSw5MTk0MjUxMDUs
-MTAzNTc2OTU3MCwtMTY1NjgwODIzLDIwNzE3NTkyNzAsOTE1MT
-QzNzgwLC0xMDM4NDE3NjUsNzg1Nzc4MDg4LDczMDk5ODExNl19
-
+eyJoaXN0b3J5IjpbLTE5Njc2NzE4MTgsNjk4MTM4OTQ2LC02NT
+E3ODQ5MzAsNDI4MTA4NjQ4LC0zMDYzMTYwNzUsLTU3NTU3MDA1
+MSw5MTk0MjUxMDUsMTAzNTc2OTU3MCwtMTY1NjgwODIzLDIwNz
+E3NTkyNzAsOTE1MTQzNzgwLC0xMDM4NDE3NjUsNzg1Nzc4MDg4
+LDczMDk5ODExNl19
 -->
