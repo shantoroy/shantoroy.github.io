@@ -82,7 +82,7 @@ Based on the objectives, RL takes different approcahes to solve a particular pro
     -   **Stochastic** - each action has a certain probability, given by the equation below -
     
       
-	    $\pi(a|s) = Pr(A_t=a | S_t=s)$
+	    $\pi (a|s) = Pr \big(A_t=a | S_t=s \big)$
 
 - **Model-based** - this approach requires an additional model of the environment.
 
@@ -124,10 +124,10 @@ In the next tutorial, we will learn some additional concepts and other glossarie
 * [Introduction to Reinforcement Learning for Beginners-Analytics Vidhya](https://www.analyticsvidhya.com/blog/2021/02/introduction-to-reinforcement-learning-for-beginners/)
 * [Introduction to Reinforcement Learning-Datacamp](https://www.datacamp.com/community/tutorials/introduction-reinforcement-learning)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU1MzgxNTI4LDE2OTk2NTI1MzcsNjk4MT
-M4OTQ2LC0xOTY3NjcxODE4LDY5ODEzODk0NiwtNjUxNzg0OTMw
-LDQyODEwODY0OCwtMzA2MzE2MDc1LC01NzU1NzAwNTEsOTE5ND
-I1MTA1LDEwMzU3Njk1NzAsLTE2NTY4MDgyMywyMDcxNzU5Mjcw
-LDkxNTE0Mzc4MCwtMTAzODQxNzY1LDc4NTc3ODA4OCw3MzA5OT
-gxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE1NzI4MTIzNjIsMTY5OTY1MjUzNyw2OT
+gxMzg5NDYsLTE5Njc2NzE4MTgsNjk4MTM4OTQ2LC02NTE3ODQ5
+MzAsNDI4MTA4NjQ4LC0zMDYzMTYwNzUsLTU3NTU3MDA1MSw5MT
+k0MjUxMDUsMTAzNTc2OTU3MCwtMTY1NjgwODIzLDIwNzE3NTky
+NzAsOTE1MTQzNzgwLC0xMDM4NDE3NjUsNzg1Nzc4MDg4LDczMD
+k5ODExNl19
 -->
