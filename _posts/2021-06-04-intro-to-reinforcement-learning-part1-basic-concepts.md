@@ -67,7 +67,7 @@ while not done:
 	$total\ reward = \sum_{k=0}^\infty \big[\gamma^k \cdot R_{t+k+1} \big]$
 	$= R_{t+1} + \gamma \cdot R_{t+2} + \gamma^2 \cdot R_{t+3} \dots$	
 	
-- **Policy ($\pi$)**  – defines the action strategy at a particular state (the current state). For a deterministic policy, the action to take at a particular state is the policy. If Stochastic, it outputs a probability of an action. We will see more details later.
+- **Policy ($\pi$)**  – defines the action strategy at a particular state (the current state). For a deterministic policy, the action to take at a particular state is the policy. If Stochastic, it outputs a probability of an action. We will see more details later. It can be stochastic $a_t \sim \pi(s_t)$
 
 -   **Value ($V$)** - The expected long-term return with discount, as opposed to the short-term reward  $R$.  Here,  the $V_\pi(s)$, is defined as the expected long-term return of the current state  $s$  under policy  $\pi$.
 
@@ -139,11 +139,11 @@ In the next tutorial, we will learn some additional concepts and other glossarie
 * [Introduction to Reinforcement Learning-Datacamp](https://www.datacamp.com/community/tutorials/introduction-reinforcement-learning)
 * [Introduction to Reinforcement Learning- Joshua Achiam](https://github.com/jachiam/rl-intro/blob/master/Presentation/rl_intro.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE0Nzc4OTc1LDE3MjE4ODE4MjIsLTcxMT
-E4MTU2MSwtMTkyNTc4NzE1Myw2OTQ1MzU0MTUsMTY4MjM3OTIy
-MSwxNjk5NjUyNTM3LDY5ODEzODk0NiwtMTk2NzY3MTgxOCw2OT
-gxMzg5NDYsLTY1MTc4NDkzMCw0MjgxMDg2NDgsLTMwNjMxNjA3
-NSwtNTc1NTcwMDUxLDkxOTQyNTEwNSwxMDM1NzY5NTcwLC0xNj
-U2ODA4MjMsMjA3MTc1OTI3MCw5MTUxNDM3ODAsLTEwMzg0MTc2
-NV19
+eyJoaXN0b3J5IjpbLTY5NTg4MzUxOSw1MTQ3Nzg5NzUsMTcyMT
+g4MTgyMiwtNzExMTgxNTYxLC0xOTI1Nzg3MTUzLDY5NDUzNTQx
+NSwxNjgyMzc5MjIxLDE2OTk2NTI1MzcsNjk4MTM4OTQ2LC0xOT
+Y3NjcxODE4LDY5ODEzODk0NiwtNjUxNzg0OTMwLDQyODEwODY0
+OCwtMzA2MzE2MDc1LC01NzU1NzAwNTEsOTE5NDI1MTA1LDEwMz
+U3Njk1NzAsLTE2NTY4MDgyMywyMDcxNzU5MjcwLDkxNTE0Mzc4
+MF19
 -->
