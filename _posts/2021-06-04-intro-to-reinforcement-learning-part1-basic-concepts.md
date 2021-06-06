@@ -83,7 +83,7 @@ while not done:
 ## Final Objective of RL
 Our target is to make the agent learn the best policy ($\pi^*$) that maximizes the expected cumulative reward
 
-$$\pi^* = \argmax_\pi E_{\tau \sim \pi} \big[ R(\tau) \big]$$
+$$\pi^* = \arg \max_\pi E_{\tau \sim \pi} \big[ R(\tau) \big]$$
 
 where, $\tau \sim \pi$ means
 - $s_0 \sim \mu(\centerdot)$
@@ -156,11 +156,11 @@ In the next tutorial, we will learn some additional concepts and other glossarie
 * [Introduction to Reinforcement Learning-Datacamp](https://www.datacamp.com/community/tutorials/introduction-reinforcement-learning)
 * [Introduction to Reinforcement Learning- Joshua Achiam](https://github.com/jachiam/rl-intro/blob/master/Presentation/rl_intro.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDI1NjE2MjYsMTk3NDY0MTMyNSwtMj
-QzMjIzNDQ0LC0xNTczMzIyNjAwLDE2NDQwOTM5ODIsNTE0Nzc4
-OTc1LDE3MjE4ODE4MjIsLTcxMTE4MTU2MSwtMTkyNTc4NzE1My
-w2OTQ1MzU0MTUsMTY4MjM3OTIyMSwxNjk5NjUyNTM3LDY5ODEz
-ODk0NiwtMTk2NzY3MTgxOCw2OTgxMzg5NDYsLTY1MTc4NDkzMC
-w0MjgxMDg2NDgsLTMwNjMxNjA3NSwtNTc1NTcwMDUxLDkxOTQy
-NTEwNV19
+eyJoaXN0b3J5IjpbLTE2ODI0MjAyMjgsLTE1MDI1NjE2MjYsMT
+k3NDY0MTMyNSwtMjQzMjIzNDQ0LC0xNTczMzIyNjAwLDE2NDQw
+OTM5ODIsNTE0Nzc4OTc1LDE3MjE4ODE4MjIsLTcxMTE4MTU2MS
+wtMTkyNTc4NzE1Myw2OTQ1MzU0MTUsMTY4MjM3OTIyMSwxNjk5
+NjUyNTM3LDY5ODEzODk0NiwtMTk2NzY3MTgxOCw2OTgxMzg5ND
+YsLTY1MTc4NDkzMCw0MjgxMDg2NDgsLTMwNjMxNjA3NSwtNTc1
+NTcwMDUxXX0=
 -->
