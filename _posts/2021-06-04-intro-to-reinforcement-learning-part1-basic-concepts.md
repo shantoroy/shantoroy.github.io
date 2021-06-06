@@ -30,7 +30,11 @@ RL defines the learning process of an intelligent agent that perceives environme
 
 In python, it is like:
 ```python
-obs = env.reset
+obs = env.reset()
+done = False
+while not done:
+	action = agent.get_action(obs)
+	next_obs, reward, done, inf
 
 ```
 
@@ -130,11 +134,11 @@ In the next tutorial, we will learn some additional concepts and other glossarie
 * [Introduction to Reinforcement Learning for Beginners-Analytics Vidhya](https://www.analyticsvidhya.com/blog/2021/02/introduction-to-reinforcement-learning-for-beginners/)
 * [Introduction to Reinforcement Learning-Datacamp](https://www.datacamp.com/community/tutorials/introduction-reinforcement-learning)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4OTEzNTIsMTcyMTg4MTgyMiwtNzExMT
-gxNTYxLC0xOTI1Nzg3MTUzLDY5NDUzNTQxNSwxNjgyMzc5MjIx
-LDE2OTk2NTI1MzcsNjk4MTM4OTQ2LC0xOTY3NjcxODE4LDY5OD
-EzODk0NiwtNjUxNzg0OTMwLDQyODEwODY0OCwtMzA2MzE2MDc1
-LC01NzU1NzAwNTEsOTE5NDI1MTA1LDEwMzU3Njk1NzAsLTE2NT
-Y4MDgyMywyMDcxNzU5MjcwLDkxNTE0Mzc4MCwtMTAzODQxNzY1
-XX0=
+eyJoaXN0b3J5IjpbLTIwNTY1MDE2MDMsMTcyMTg4MTgyMiwtNz
+ExMTgxNTYxLC0xOTI1Nzg3MTUzLDY5NDUzNTQxNSwxNjgyMzc5
+MjIxLDE2OTk2NTI1MzcsNjk4MTM4OTQ2LC0xOTY3NjcxODE4LD
+Y5ODEzODk0NiwtNjUxNzg0OTMwLDQyODEwODY0OCwtMzA2MzE2
+MDc1LC01NzU1NzAwNTEsOTE5NDI1MTA1LDEwMzU3Njk1NzAsLT
+E2NTY4MDgyMywyMDcxNzU5MjcwLDkxNTE0Mzc4MCwtMTAzODQx
+NzY1XX0=
 -->
