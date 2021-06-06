@@ -133,13 +133,13 @@ In the next tutorial, we will learn some additional concepts and other glossarie
 ## References
 * [Introduction to Reinforcement Learning for Beginners-Analytics Vidhya](https://www.analyticsvidhya.com/blog/2021/02/introduction-to-reinforcement-learning-for-beginners/)
 * [Introduction to Reinforcement Learning-Datacamp](https://www.datacamp.com/community/tutorials/introduction-reinforcement-learning)
-* [Introduction to Reinforcement Learning](https://github.com/jachiam/rl-intro/blob/master/Presentation/rl_intro.pdf)
+* [Introduction to Reinforcement Learning- Joshua Achiam](https://github.com/jachiam/rl-intro/blob/master/Presentation/rl_intro.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTc3NDUyNjYsMTcyMTg4MTgyMiwtNz
-ExMTgxNTYxLC0xOTI1Nzg3MTUzLDY5NDUzNTQxNSwxNjgyMzc5
-MjIxLDE2OTk2NTI1MzcsNjk4MTM4OTQ2LC0xOTY3NjcxODE4LD
-Y5ODEzODk0NiwtNjUxNzg0OTMwLDQyODEwODY0OCwtMzA2MzE2
-MDc1LC01NzU1NzAwNTEsOTE5NDI1MTA1LDEwMzU3Njk1NzAsLT
-E2NTY4MDgyMywyMDcxNzU5MjcwLDkxNTE0Mzc4MCwtMTAzODQx
-NzY1XX0=
+eyJoaXN0b3J5IjpbOTU5NTMwOTUwLDE3MjE4ODE4MjIsLTcxMT
+E4MTU2MSwtMTkyNTc4NzE1Myw2OTQ1MzU0MTUsMTY4MjM3OTIy
+MSwxNjk5NjUyNTM3LDY5ODEzODk0NiwtMTk2NzY3MTgxOCw2OT
+gxMzg5NDYsLTY1MTc4NDkzMCw0MjgxMDg2NDgsLTMwNjMxNjA3
+NSwtNTc1NTcwMDUxLDkxOTQyNTEwNSwxMDM1NzY5NTcwLC0xNj
+U2ODA4MjMsMjA3MTc1OTI3MCw5MTUxNDM3ODAsLTEwMzg0MTc2
+NV19
 -->
