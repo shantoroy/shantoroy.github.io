@@ -34,8 +34,8 @@ obs = env.reset()
 done = False
 while not done:
 	action = agent.get_action(obs)
-	next_obs, reward, done, inf
-
+	next_obs, reward, done, info = env.step(action)
+	obs = next_obs
 ```
 
 
@@ -133,8 +133,9 @@ In the next tutorial, we will learn some additional concepts and other glossarie
 ## References
 * [Introduction to Reinforcement Learning for Beginners-Analytics Vidhya](https://www.analyticsvidhya.com/blog/2021/02/introduction-to-reinforcement-learning-for-beginners/)
 * [Introduction to Reinforcement Learning-Datacamp](https://www.datacamp.com/community/tutorials/introduction-reinforcement-learning)
+* [Introduction to Reinforcement Learning](https://github.com/jachiam/rl-intro/blob/master/Presentation/rl_intro.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTY1MDE2MDMsMTcyMTg4MTgyMiwtNz
+eyJoaXN0b3J5IjpbLTIxMTc3NDUyNjYsMTcyMTg4MTgyMiwtNz
 ExMTgxNTYxLC0xOTI1Nzg3MTUzLDY5NDUzNTQxNSwxNjgyMzc5
 MjIxLDE2OTk2NTI1MzcsNjk4MTM4OTQ2LC0xOTY3NjcxODE4LD
 Y5ODEzODk0NiwtNjUxNzg0OTMwLDQyODEwODY0OCwtMzA2MzE2
