@@ -75,6 +75,8 @@ while not done:
 -   **Q-value or Action-value ($Q$)** - Q-value is similar to the Value Function, except that it takes an extra parameter, the current action  $a$. Here, the Q-value function, $Q_\pi(s, a)$  refers to the long-term return of the current state  $s$, taking action  $a$  under policy  $\pi$.
 
 - **Trajectory** - A sequence of state, action, and rewards, e.g., ($s_2, a_2, r_3,s_3,a_3,r_4,s_4$) that influence those environment states
+	- The initial state $s_0$ is sampled over initial distribution $\mu$
+	$$s_0 \diff$$ 
 
 ## How RL works
 Based on the objectives, RL takes different approcahes to solve a particular problem. Here, we will get introduced to the primary approaches to solve RL problems.
@@ -135,11 +137,11 @@ In the next tutorial, we will learn some additional concepts and other glossarie
 * [Introduction to Reinforcement Learning-Datacamp](https://www.datacamp.com/community/tutorials/introduction-reinforcement-learning)
 * [Introduction to Reinforcement Learning- Joshua Achiam](https://github.com/jachiam/rl-intro/blob/master/Presentation/rl_intro.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU5NTMwOTUwLDE3MjE4ODE4MjIsLTcxMT
-E4MTU2MSwtMTkyNTc4NzE1Myw2OTQ1MzU0MTUsMTY4MjM3OTIy
-MSwxNjk5NjUyNTM3LDY5ODEzODk0NiwtMTk2NzY3MTgxOCw2OT
-gxMzg5NDYsLTY1MTc4NDkzMCw0MjgxMDg2NDgsLTMwNjMxNjA3
-NSwtNTc1NTcwMDUxLDkxOTQyNTEwNSwxMDM1NzY5NTcwLC0xNj
-U2ODA4MjMsMjA3MTc1OTI3MCw5MTUxNDM3ODAsLTEwMzg0MTc2
-NV19
+eyJoaXN0b3J5IjpbMTMxNTg1NzU3NCwxNzIxODgxODIyLC03MT
+ExODE1NjEsLTE5MjU3ODcxNTMsNjk0NTM1NDE1LDE2ODIzNzky
+MjEsMTY5OTY1MjUzNyw2OTgxMzg5NDYsLTE5Njc2NzE4MTgsNj
+k4MTM4OTQ2LC02NTE3ODQ5MzAsNDI4MTA4NjQ4LC0zMDYzMTYw
+NzUsLTU3NTU3MDA1MSw5MTk0MjUxMDUsMTAzNTc2OTU3MCwtMT
+Y1NjgwODIzLDIwNzE3NTkyNzAsOTE1MTQzNzgwLC0xMDM4NDE3
+NjVdfQ==
 -->
