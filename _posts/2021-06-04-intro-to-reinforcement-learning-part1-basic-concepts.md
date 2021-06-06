@@ -81,7 +81,9 @@ while not done:
 	- stochastic state transition, $s_{t+1} = Pr(\centerdot \vert s_t,a_t)$
 
 ## Final Objective of RL
-Our target is to maximize the 
+Our target is to make the agent learn the best policy ($\pi^*$) that maximizes the expected cumulative reward
+
+$$\pi^* = \argmax_\pi$$
 
 ## How RL works
 Based on the objectives, RL takes different approcahes to solve a particular problem. Here, we will get introduced to the primary approaches to solve RL problems.
@@ -142,7 +144,7 @@ In the next tutorial, we will learn some additional concepts and other glossarie
 * [Introduction to Reinforcement Learning-Datacamp](https://www.datacamp.com/community/tutorials/introduction-reinforcement-learning)
 * [Introduction to Reinforcement Learning- Joshua Achiam](https://github.com/jachiam/rl-intro/blob/master/Presentation/rl_intro.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NTUxMTQyNSwxNjQ0MDkzOTgyLDUxND
+eyJoaXN0b3J5IjpbMTQxMjQ5NTAwOCwxNjQ0MDkzOTgyLDUxND
 c3ODk3NSwxNzIxODgxODIyLC03MTExODE1NjEsLTE5MjU3ODcx
 NTMsNjk0NTM1NDE1LDE2ODIzNzkyMjEsMTY5OTY1MjUzNyw2OT
 gxMzg5NDYsLTE5Njc2NzE4MTgsNjk4MTM4OTQ2LC02NTE3ODQ5
