@@ -77,7 +77,8 @@ while not done:
 - **Trajectory** - A sequence of state, action, and rewards, e.g., ($s_2, a_2, r_3,s_3,a_3,r_4,s_4$) that influence those environment states
 	- The initial state $s_0$ is sampled over initial distribution $\mu$
 	$$s_0 \sim \mu(\centerdot)$$ 
-	- deterministic state transition, $s_{t+1} = f(s_t,a_)$
+	- deterministic state transition, $s_{t+1} = f(s_t,a_t)$
+	- stochastic state transition, $s_{t+1} = Pr(\centerdot \vert s_t,a_t)$
 
 ## How RL works
 Based on the objectives, RL takes different approcahes to solve a particular problem. Here, we will get introduced to the primary approaches to solve RL problems.
@@ -138,7 +139,7 @@ In the next tutorial, we will learn some additional concepts and other glossarie
 * [Introduction to Reinforcement Learning-Datacamp](https://www.datacamp.com/community/tutorials/introduction-reinforcement-learning)
 * [Introduction to Reinforcement Learning- Joshua Achiam](https://github.com/jachiam/rl-intro/blob/master/Presentation/rl_intro.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTEyNjE3MjAsMTcyMTg4MTgyMiwtNz
+eyJoaXN0b3J5IjpbLTE0NTU3MDE4NzcsMTcyMTg4MTgyMiwtNz
 ExMTgxNTYxLC0xOTI1Nzg3MTUzLDY5NDUzNTQxNSwxNjgyMzc5
 MjIxLDE2OTk2NTI1MzcsNjk4MTM4OTQ2LC0xOTY3NjcxODE4LD
 Y5ODEzODk0NiwtNjUxNzg0OTMwLDQyODEwODY0OCwtMzA2MzE2
