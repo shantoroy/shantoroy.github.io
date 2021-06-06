@@ -28,6 +28,11 @@ RL defines the learning process of an intelligent agent that perceives environme
   <a href="https://live.staticflickr.com/65535/51226516036_e486b2a319_w.jpg"><img src="https://live.staticflickr.com/65535/51226516036_e486b2a319_w.jpg"></a>
 </figure>
 
+In python, it is like:
+```python
+obs = env.reset
+
+```
 
 
 ## Reinforcement Learning Terminologies
@@ -125,11 +130,11 @@ In the next tutorial, we will learn some additional concepts and other glossarie
 * [Introduction to Reinforcement Learning for Beginners-Analytics Vidhya](https://www.analyticsvidhya.com/blog/2021/02/introduction-to-reinforcement-learning-for-beginners/)
 * [Introduction to Reinforcement Learning-Datacamp](https://www.datacamp.com/community/tutorials/introduction-reinforcement-learning)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMTg4MTgyMiwtNzExMTgxNTYxLC0xOT
-I1Nzg3MTUzLDY5NDUzNTQxNSwxNjgyMzc5MjIxLDE2OTk2NTI1
-MzcsNjk4MTM4OTQ2LC0xOTY3NjcxODE4LDY5ODEzODk0NiwtNj
-UxNzg0OTMwLDQyODEwODY0OCwtMzA2MzE2MDc1LC01NzU1NzAw
-NTEsOTE5NDI1MTA1LDEwMzU3Njk1NzAsLTE2NTY4MDgyMywyMD
-cxNzU5MjcwLDkxNTE0Mzc4MCwtMTAzODQxNzY1LDc4NTc3ODA4
-OF19
+eyJoaXN0b3J5IjpbMTc4OTEzNTIsMTcyMTg4MTgyMiwtNzExMT
+gxNTYxLC0xOTI1Nzg3MTUzLDY5NDUzNTQxNSwxNjgyMzc5MjIx
+LDE2OTk2NTI1MzcsNjk4MTM4OTQ2LC0xOTY3NjcxODE4LDY5OD
+EzODk0NiwtNjUxNzg0OTMwLDQyODEwODY0OCwtMzA2MzE2MDc1
+LC01NzU1NzAwNTEsOTE5NDI1MTA1LDEwMzU3Njk1NzAsLTE2NT
+Y4MDgyMywyMDcxNzU5MjcwLDkxNTE0Mzc4MCwtMTAzODQxNzY1
+XX0=
 -->
