@@ -137,6 +137,7 @@ Here,
 - [Awesome Deep Reinforcement Learning](https://github.com/brianspiering/awesome-deep-rl)
 - [Course in Deep Reinforcement Learning](https://github.com/andri27-ts/Reinforcement-Learning#week-2---rl-basics-mdp-dynamic-programming-and-model-free-control)
 - [Deep RL Bootcamp](https://sites.google.com/view/deep-rl-bootcamp/lectures)
+- [Coursera - Practical Reinforcement Learning](https://www.coursera.org/learn/practical-rl?specialization=aml)
 
 ## Applications
 
@@ -154,7 +155,7 @@ In the next tutorial, we will learn some additional concepts and other glossarie
 * [Introduction to Reinforcement Learning-Datacamp](https://www.datacamp.com/community/tutorials/introduction-reinforcement-learning)
 * [Introduction to Reinforcement Learning- Joshua Achiam](https://github.com/jachiam/rl-intro/blob/master/Presentation/rl_intro.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwOTAyNjk0MSwtMjQzMjIzNDQ0LC0xNT
+eyJoaXN0b3J5IjpbMTk3NDY0MTMyNSwtMjQzMjIzNDQ0LC0xNT
 czMzIyNjAwLDE2NDQwOTM5ODIsNTE0Nzc4OTc1LDE3MjE4ODE4
 MjIsLTcxMTE4MTU2MSwtMTkyNTc4NzE1Myw2OTQ1MzU0MTUsMT
 Y4MjM3OTIyMSwxNjk5NjUyNTM3LDY5ODEzODk0NiwtMTk2NzY3
