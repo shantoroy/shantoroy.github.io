@@ -74,7 +74,7 @@ while not done:
 
 -   **Q-value or Action-value ($Q$)** - Q-value is similar to the Value Function, except that it takes an extra parameter, the current action  $a$. Here, the Q-value function, $Q_\pi(s, a)$  refers to the long-term return of the current state  $s$, taking action  $a$  under policy  $\pi$.
 
-- **Trajectory** - A sequence of state, action, and rewards, e.g., ($s_2, a_2, r_3,s_3,a_3,r_4,s_4$) that influence those environment states
+- **Trajectory (sometimes called as Episodes)** - A sequence of state, action, and rewards, e.g., ($s_2, a_2, r_3,s_3,a_3,r_4,s_4$) that influence those environment states
 	- The initial state $s_0$ is sampled over initial distribution $\mu$
 	$$s_0 \sim \mu(\centerdot)$$ 
 	- deterministic state transition, $s_{t+1} = f(s_t,a_t)$
@@ -139,11 +139,11 @@ In the next tutorial, we will learn some additional concepts and other glossarie
 * [Introduction to Reinforcement Learning-Datacamp](https://www.datacamp.com/community/tutorials/introduction-reinforcement-learning)
 * [Introduction to Reinforcement Learning- Joshua Achiam](https://github.com/jachiam/rl-intro/blob/master/Presentation/rl_intro.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTU3MDE4NzcsMTcyMTg4MTgyMiwtNz
-ExMTgxNTYxLC0xOTI1Nzg3MTUzLDY5NDUzNTQxNSwxNjgyMzc5
-MjIxLDE2OTk2NTI1MzcsNjk4MTM4OTQ2LC0xOTY3NjcxODE4LD
-Y5ODEzODk0NiwtNjUxNzg0OTMwLDQyODEwODY0OCwtMzA2MzE2
-MDc1LC01NzU1NzAwNTEsOTE5NDI1MTA1LDEwMzU3Njk1NzAsLT
-E2NTY4MDgyMywyMDcxNzU5MjcwLDkxNTE0Mzc4MCwtMTAzODQx
-NzY1XX0=
+eyJoaXN0b3J5IjpbNTE0Nzc4OTc1LDE3MjE4ODE4MjIsLTcxMT
+E4MTU2MSwtMTkyNTc4NzE1Myw2OTQ1MzU0MTUsMTY4MjM3OTIy
+MSwxNjk5NjUyNTM3LDY5ODEzODk0NiwtMTk2NzY3MTgxOCw2OT
+gxMzg5NDYsLTY1MTc4NDkzMCw0MjgxMDg2NDgsLTMwNjMxNjA3
+NSwtNTc1NTcwMDUxLDkxOTQyNTEwNSwxMDM1NzY5NTcwLC0xNj
+U2ODA4MjMsMjA3MTc1OTI3MCw5MTUxNDM3ODAsLTEwMzg0MTc2
+NV19
 -->
