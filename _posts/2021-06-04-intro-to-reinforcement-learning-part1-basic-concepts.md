@@ -76,7 +76,7 @@ while not done:
 
 - **Trajectory** - A sequence of state, action, and rewards, e.g., ($s_2, a_2, r_3,s_3,a_3,r_4,s_4$) that influence those environment states
 	- The initial state $s_0$ is sampled over initial distribution $\mu$
-	$$s_0 \diff$$ 
+	$$s_0 \sim \mu()$$ 
 
 ## How RL works
 Based on the objectives, RL takes different approcahes to solve a particular problem. Here, we will get introduced to the primary approaches to solve RL problems.
@@ -137,11 +137,11 @@ In the next tutorial, we will learn some additional concepts and other glossarie
 * [Introduction to Reinforcement Learning-Datacamp](https://www.datacamp.com/community/tutorials/introduction-reinforcement-learning)
 * [Introduction to Reinforcement Learning- Joshua Achiam](https://github.com/jachiam/rl-intro/blob/master/Presentation/rl_intro.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNTg1NzU3NCwxNzIxODgxODIyLC03MT
-ExODE1NjEsLTE5MjU3ODcxNTMsNjk0NTM1NDE1LDE2ODIzNzky
-MjEsMTY5OTY1MjUzNyw2OTgxMzg5NDYsLTE5Njc2NzE4MTgsNj
-k4MTM4OTQ2LC02NTE3ODQ5MzAsNDI4MTA4NjQ4LC0zMDYzMTYw
-NzUsLTU3NTU3MDA1MSw5MTk0MjUxMDUsMTAzNTc2OTU3MCwtMT
-Y1NjgwODIzLDIwNzE3NTkyNzAsOTE1MTQzNzgwLC0xMDM4NDE3
-NjVdfQ==
+eyJoaXN0b3J5IjpbLTE0NTYzNzM1NzUsMTcyMTg4MTgyMiwtNz
+ExMTgxNTYxLC0xOTI1Nzg3MTUzLDY5NDUzNTQxNSwxNjgyMzc5
+MjIxLDE2OTk2NTI1MzcsNjk4MTM4OTQ2LC0xOTY3NjcxODE4LD
+Y5ODEzODk0NiwtNjUxNzg0OTMwLDQyODEwODY0OCwtMzA2MzE2
+MDc1LC01NzU1NzAwNTEsOTE5NDI1MTA1LDEwMzU3Njk1NzAsLT
+E2NTY4MDgyMywyMDcxNzU5MjcwLDkxNTE0Mzc4MCwtMTAzODQx
+NzY1XX0=
 -->
