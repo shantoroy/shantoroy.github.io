@@ -78,7 +78,7 @@ while not done:
 	- The initial state $s_0$ is sampled over initial distribution $\mu$
 	$$s_0 \sim \mu(\centerdot)$$ 
 	- deterministic state transition, $s_{t+1} = f(s_t,a_t)$
-	- stochastic state transition, $s_{t+1} = Pr(\centerdot \vert s_t,a_t)$
+	- stochastic state transition, $s_{t+1} \sim Pr(\centerdot \vert s_t,a_t)$
 
 ## Final Objective of RL
 Our target is to make the agent learn the best policy ($\pi^*$) that maximizes the expected cumulative reward
@@ -88,6 +88,7 @@ $$\pi^* = \argmax_\pi E_{\tau \sim \pi} \big[ R(\tau) \big]$$
 where, $\tau \sim \pi$ means
 - $s_0 \sim \mu(\centerdot)$
 - $a_t \sim \pi(\centerdot \vert s_t)$
+- $s_{t+1} \sim Pr(\centerdot \vert s_t,a_t)$
 
 ## How RL works
 Based on the objectives, RL takes different approcahes to solve a particular problem. Here, we will get introduced to the primary approaches to solve RL problems.
@@ -148,11 +149,11 @@ In the next tutorial, we will learn some additional concepts and other glossarie
 * [Introduction to Reinforcement Learning-Datacamp](https://www.datacamp.com/community/tutorials/introduction-reinforcement-learning)
 * [Introduction to Reinforcement Learning- Joshua Achiam](https://github.com/jachiam/rl-intro/blob/master/Presentation/rl_intro.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNzI0MTA4NCwxNjQ0MDkzOTgyLDUxND
-c3ODk3NSwxNzIxODgxODIyLC03MTExODE1NjEsLTE5MjU3ODcx
-NTMsNjk0NTM1NDE1LDE2ODIzNzkyMjEsMTY5OTY1MjUzNyw2OT
-gxMzg5NDYsLTE5Njc2NzE4MTgsNjk4MTM4OTQ2LC02NTE3ODQ5
-MzAsNDI4MTA4NjQ4LC0zMDYzMTYwNzUsLTU3NTU3MDA1MSw5MT
-k0MjUxMDUsMTAzNTc2OTU3MCwtMTY1NjgwODIzLDIwNzE3NTky
-NzBdfQ==
+eyJoaXN0b3J5IjpbLTE1NzMzMjI2MDAsMTY0NDA5Mzk4Miw1MT
+Q3Nzg5NzUsMTcyMTg4MTgyMiwtNzExMTgxNTYxLC0xOTI1Nzg3
+MTUzLDY5NDUzNTQxNSwxNjgyMzc5MjIxLDE2OTk2NTI1MzcsNj
+k4MTM4OTQ2LC0xOTY3NjcxODE4LDY5ODEzODk0NiwtNjUxNzg0
+OTMwLDQyODEwODY0OCwtMzA2MzE2MDc1LC01NzU1NzAwNTEsOT
+E5NDI1MTA1LDEwMzU3Njk1NzAsLTE2NTY4MDgyMywyMDcxNzU5
+MjcwXX0=
 -->
