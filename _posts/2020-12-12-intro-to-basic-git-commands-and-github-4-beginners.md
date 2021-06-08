@@ -193,8 +193,8 @@ Now, let's create a repository in Github, create a local directory where we will
 * You will need username and password when you enter the `git push` command. If you want to avoid entering username and password each time you push, you should add SSH key (I will describe that process in a seperate post).
 
 
-That's it for today. I will add some other deatils
+That's it for today. You should be able to use Git commands and Github based on today's short directions. I will add some other deatils in a separate post. Stay tuned!!!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MTA2MDE0OSwtMTc1NDcxOTU3NSwxNz
-E5Njk2MDM0LDM3MjEzNDgxM119
+eyJoaXN0b3J5IjpbLTE2NzA1NTMyMjgsLTE3NTQ3MTk1NzUsMT
+cxOTY5NjAzNCwzNzIxMzQ4MTNdfQ==
 -->
