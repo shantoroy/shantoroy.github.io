@@ -106,8 +106,8 @@ Now, let's create a repository in Github, create a local directory where we will
 </figure>
 
 
-## Local Machine
-1. Create a directory (does not need to be same as the online repository name)
+### Create Directory in Local Machine
+1. Create a directory that you want to sync (does not need to be same as the online repository name)
 	```sh
 	$ mkdir hello_world
 	```
@@ -198,5 +198,6 @@ Now, let's create a repository in Github, create a local directory where we will
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxOTY5NjAzNCwzNzIxMzQ4MTNdfQ==
+eyJoaXN0b3J5IjpbLTE3NTQ3MTk1NzUsMTcxOTY5NjAzNCwzNz
+IxMzQ4MTNdfQ==
 -->
