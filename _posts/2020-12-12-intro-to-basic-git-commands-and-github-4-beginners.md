@@ -106,7 +106,7 @@ Now, let's create a repository in Github, create a local directory where we will
 </figure>
 
 
-### Create Directory in Local Machine
+### Create Local Repo in Local Machine
 1. Create a directory that you want to sync (does not need to be same as the online repository name)
 	```sh
 	$ mkdir hello_world
@@ -195,6 +195,6 @@ Now, let's create a repository in Github, create a local directory where we will
 
 That's it for today. You should be able to use Git commands and Github based on today's short directions. I will add some other deatils in a separate post. Stay tuned!!!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMzI2ODY4LC0xNjcwNTUzMjI4LC0xNz
-U0NzE5NTc1LDE3MTk2OTYwMzQsMzcyMTM0ODEzXX0=
+eyJoaXN0b3J5IjpbMTc3MTk5NTQyOCwtMTY3MDU1MzIyOCwtMT
+c1NDcxOTU3NSwxNzE5Njk2MDM0LDM3MjEzNDgxM119
 -->
