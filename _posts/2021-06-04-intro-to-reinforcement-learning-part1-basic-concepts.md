@@ -28,6 +28,15 @@ RL defines the learning process of an intelligent agent that perceives environme
   <a href="https://live.staticflickr.com/65535/51226516036_e486b2a319_w.jpg"><img src="https://live.staticflickr.com/65535/51226516036_e486b2a319_w.jpg"></a>
 </figure>
 
+In python, it is like:
+```python
+obs = env.reset()
+done = False
+while not done:
+	action = agent.get_action(obs)
+	next_obs, reward, done, info = env.step(action)
+	obs = next_obs
+```
 
 
 ## Reinforcement Learning Terminologies
@@ -58,14 +67,28 @@ RL defines the learning process of an intelligent agent that perceives environme
 	$total\ reward = \sum_{k=0}^\infty \big[\gamma^k \cdot R_{t+k+1} \big]$
 	$= R_{t+1} + \gamma \cdot R_{t+2} + \gamma^2 \cdot R_{t+3} \dots$	
 	
-- **Policy ($\pi$)**  – defines the action strategy at a particular state (the current state). For a deterministic policy, the action to take at a particular state is the policy. If Stochastic, it outputs a probability of an action. We will see more details later.
+- **Policy ($\pi$)**  – defines the action strategy at a particular state (the current state). For a deterministic policy, the action to take at a particular state is the policy. If Stochastic, it outputs a probability of an action. We will see more details later. It can be stochastic, $a_t \sim \pi(\centerdot \vert s_t)$ or deterministic, $a_t = \pi(s_t)$
 
 -   **Value ($V$)** - The expected long-term return with discount, as opposed to the short-term reward  $R$.  Here,  the $V_\pi(s)$, is defined as the expected long-term return of the current state  $s$  under policy  $\pi$.
 
 
 -   **Q-value or Action-value ($Q$)** - Q-value is similar to the Value Function, except that it takes an extra parameter, the current action  $a$. Here, the Q-value function, $Q_\pi(s, a)$  refers to the long-term return of the current state  $s$, taking action  $a$  under policy  $\pi$.
 
-- **Trajectory** - A sequence of state, action, and rewards, e.g., ($s_2, a_2, r_3,s_3,a_3,r_4,s_4$) that influence those environment states
+- **Trajectory (sometimes called as Episodes, $\tau$)** - A sequence of state, action, and rewards, e.g., $\tau \rightarrow (s_2, a_2, r_3,s_3,a_3,r_4,s_4)$ that influence those environment states
+	- The initial state $s_0$ is sampled over initial distribution $\mu$
+	$$s_0 \sim \mu(\centerdot)$$ 
+	- deterministic state transition, $s_{t+1} = f(s_t,a_t)$
+	- stochastic state transition, $s_{t+1} \sim Pr(\centerdot \vert s_t,a_t)$
+
+## Final Objective of RL
+Our target is to make the agent learn the best policy ($\pi^*$) that maximizes the expected cumulative reward
+
+$$\pi^* = \arg \max_\pi E_{\tau \sim \pi} \big[ R(\tau) \big]$$
+
+where, $\tau \sim \pi$ means
+- $s_0 \sim \mu(\centerdot)$
+- $a_t \sim \pi(\centerdot \vert s_t)$
+- $s_{t+1} \sim Pr(\centerdot \vert s_t,a_t)$
 
 ## How RL works
 Based on the objectives, RL takes different approcahes to solve a particular problem. Here, we will get introduced to the primary approaches to solve RL problems.
@@ -109,6 +132,13 @@ Here,
 - Deploy the policy (policies in multi-agent games)
 
 
+## Reading/Watch Lists and Resources
+- [Awesome Reinforcement Learning](https://github.com/aikorea/awesome-rl)
+- [Awesome Deep Reinforcement Learning](https://github.com/brianspiering/awesome-deep-rl)
+- [Course in Deep Reinforcement Learning](https://github.com/andri27-ts/Reinforcement-Learning#week-2---rl-basics-mdp-dynamic-programming-and-model-free-control)
+- [Deep RL Bootcamp](https://sites.google.com/view/deep-rl-bootcamp/lectures)
+- [Coursera - Practical Reinforcement Learning](https://www.coursera.org/learn/practical-rl?specialization=aml)
+- [Udacity - Reinforcement Learning](https://www.udacity.com/course/reinforcement-learning--ud600)
 
 ## Applications
 
@@ -124,12 +154,13 @@ In the next tutorial, we will learn some additional concepts and other glossarie
 ## References
 * [Introduction to Reinforcement Learning for Beginners-Analytics Vidhya](https://www.analyticsvidhya.com/blog/2021/02/introduction-to-reinforcement-learning-for-beginners/)
 * [Introduction to Reinforcement Learning-Datacamp](https://www.datacamp.com/community/tutorials/introduction-reinforcement-learning)
+* [Introduction to Reinforcement Learning- Joshua Achiam](https://github.com/jachiam/rl-intro/blob/master/Presentation/rl_intro.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMTg4MTgyMiwtNzExMTgxNTYxLC0xOT
-I1Nzg3MTUzLDY5NDUzNTQxNSwxNjgyMzc5MjIxLDE2OTk2NTI1
-MzcsNjk4MTM4OTQ2LC0xOTY3NjcxODE4LDY5ODEzODk0NiwtNj
-UxNzg0OTMwLDQyODEwODY0OCwtMzA2MzE2MDc1LC01NzU1NzAw
-NTEsOTE5NDI1MTA1LDEwMzU3Njk1NzAsLTE2NTY4MDgyMywyMD
-cxNzU5MjcwLDkxNTE0Mzc4MCwtMTAzODQxNzY1LDc4NTc3ODA4
-OF19
+eyJoaXN0b3J5IjpbLTE2ODI0MjAyMjgsLTE1MDI1NjE2MjYsMT
+k3NDY0MTMyNSwtMjQzMjIzNDQ0LC0xNTczMzIyNjAwLDE2NDQw
+OTM5ODIsNTE0Nzc4OTc1LDE3MjE4ODE4MjIsLTcxMTE4MTU2MS
+wtMTkyNTc4NzE1Myw2OTQ1MzU0MTUsMTY4MjM3OTIyMSwxNjk5
+NjUyNTM3LDY5ODEzODk0NiwtMTk2NzY3MTgxOCw2OTgxMzg5ND
+YsLTY1MTc4NDkzMCw0MjgxMDg2NDgsLTMwNjMxNjA3NSwtNTc1
+NTcwMDUxXX0=
 -->
