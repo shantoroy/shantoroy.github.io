@@ -89,17 +89,17 @@ A repository typically contains all commits (records of file addition, modificat
 Now, let's create a repository in Github, create a local directory where we will keep our files, and then sync the directory in the Github repository.
 
 ### Create a Repository in Github
-* Click on `Create a repository` option which can be found by clicking on the `+` sign from the right top corner of your github homepage.
+1. Click on `Create a repository` option which can be found by clicking on the `+` sign from the right top corner of your github homepage.
 <figure>
   <a href="https://live.staticflickr.com/65535/51232116102_5bdf10f7ef_w.jpg"><img src="https://live.staticflickr.com/65535/51232116102_5bdf10f7ef_w.jpg"></a>
 </figure>
 
-* Write your repository name (does not need to be the same as your directory name you are using in your local machine). Then select `public` or `private` based on what you want (you can change later). Now, click on the green button `Create repository`.
+2. Write your repository name (does not need to be the same as your directory name you are using in your local machine). Then select `public` or `private` based on what you want (you can change later). Now, click on the green button `Create repository`.
 <figure>
   <a href="https://live.staticflickr.com/65535/51233030128_008d10a5f2_w.jpg"><img src="https://live.staticflickr.com/65535/51233030128_008d10a5f2_w.jpg"></a>
 </figure>
 
-* The basic commands are suggested here that we are going to use in our local machine.
+3. The basic commands are suggested here that we are going to use in our local machine.
 
 <figure>
   <a href="https://live.staticflickr.com/65535/51232820531_20178f3e7e_w.jpg"><img src="https://live.staticflickr.com/65535/51232820531_20178f3e7e_w.jpg"></a>
@@ -195,6 +195,6 @@ Now, let's create a repository in Github, create a local directory where we will
 
 That's it for today. You should be able to use Git commands and Github based on today's short directions. I will add some other deatils in a separate post. Stay tuned!!!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzA1NTMyMjgsLTE3NTQ3MTk1NzUsMT
-cxOTY5NjAzNCwzNzIxMzQ4MTNdfQ==
+eyJoaXN0b3J5IjpbMTIzMzI2ODY4LC0xNjcwNTUzMjI4LC0xNz
+U0NzE5NTc1LDE3MTk2OTYwMzQsMzcyMTM0ODEzXX0=
 -->
