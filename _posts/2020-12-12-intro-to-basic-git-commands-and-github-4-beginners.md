@@ -60,7 +60,7 @@ https://github.com/shantoroy/hello_world.git
 Install from the [git for windows - link](https://gitforwindows.org/). It provides both command-line tool and Graphical User Interface.
 
 ### Create a GitHub Account
-Create an account in [Github](https://github.com/). If you have accounts in social medias (e.g., Facebook or Instagram), you actually know how to open an account anywhere. :zany_face:
+Create an account in [Github](https://github.com/). If you have accounts in social medias (e.g., Facebook or Instagram), you actually know how to open an account anywhere. :stuck_out_tongue:
 
 ### Initial Configuration
 In your local machine, you need to configure your `username` and `email` using the following commands. The user name and email refers to your Github account.
@@ -193,11 +193,8 @@ Now, let's create a repository in Github, create a local directory where we will
 * You will need username and password when you enter the `git push` command. If you want to avoid entering username and password each time you push, you should add SSH key (I will describe that process in a seperate post).
 
 
-
-
-
-
+That's it for today. I will add some other deatils
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTQ3MTk1NzUsMTcxOTY5NjAzNCwzNz
-IxMzQ4MTNdfQ==
+eyJoaXN0b3J5IjpbLTk3MTA2MDE0OSwtMTc1NDcxOTU3NSwxNz
+E5Njk2MDM0LDM3MjEzNDgxM119
 -->
