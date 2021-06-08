@@ -60,7 +60,7 @@ https://github.com/shantoroy/hello_world.git
 Install from the [git for windows - link](https://gitforwindows.org/). It provides both command-line tool and Graphical User Interface.
 
 ### Create a GitHub Account
-Create an account in [Github](https://github.com/). If you have accounts in social medias (e.g., Facebook or Instagram), you actually know how to open an account anywhere. :zany_face:
+Create an account in [Github](https://github.com/). If you have accounts in social medias (e.g., Facebook or Instagram), you actually know how to open an account anywhere. :stuck_out_tongue:
 
 ### Initial Configuration
 In your local machine, you need to configure your `username` and `email` using the following commands. The user name and email refers to your Github account.
@@ -89,25 +89,25 @@ A repository typically contains all commits (records of file addition, modificat
 Now, let's create a repository in Github, create a local directory where we will keep our files, and then sync the directory in the Github repository.
 
 ### Create a Repository in Github
-* Click on `Create a repository` option which can be found by clicking on the `+` sign from the right top corner of your github homepage.
+1. Click on `Create a repository` option which can be found by clicking on the `+` sign from the right top corner of your github homepage.
 <figure>
   <a href="https://live.staticflickr.com/65535/51232116102_5bdf10f7ef_w.jpg"><img src="https://live.staticflickr.com/65535/51232116102_5bdf10f7ef_w.jpg"></a>
 </figure>
 
-* Write your repository name (does not need to be the same as your directory name you are using in your local machine). Then select `public` or `private` based on what you want (you can change later). Now, click on the green button `Create repository`.
+2. Write your repository name (does not need to be the same as your directory name you are using in your local machine). Then select `public` or `private` based on what you want (you can change later). Now, click on the green button `Create repository`.
 <figure>
   <a href="https://live.staticflickr.com/65535/51233030128_008d10a5f2_w.jpg"><img src="https://live.staticflickr.com/65535/51233030128_008d10a5f2_w.jpg"></a>
 </figure>
 
-* The basic commands are suggested here that we are going to use in our local machine.
+3. The basic commands are suggested here that we are going to use in our local machine.
 
 <figure>
   <a href="https://live.staticflickr.com/65535/51232820531_20178f3e7e_w.jpg"><img src="https://live.staticflickr.com/65535/51232820531_20178f3e7e_w.jpg"></a>
 </figure>
 
 
-## Local Machine
-1. Create a directory (does not need to be same as the online repository name)
+### Create Local Repo in Local Machine
+1. Create a directory that you want to sync (does not need to be same as the online repository name)
 	```sh
 	$ mkdir hello_world
 	```
@@ -193,10 +193,8 @@ Now, let's create a repository in Github, create a local directory where we will
 * You will need username and password when you enter the `git push` command. If you want to avoid entering username and password each time you push, you should add SSH key (I will describe that process in a seperate post).
 
 
-
-
-
-
+That's it for today. You should be able to use Git commands and Github based on today's short directions. I will add some other deatils in a separate post. Stay tuned!!!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxOTY5NjAzNCwzNzIxMzQ4MTNdfQ==
+eyJoaXN0b3J5IjpbMTc3MTk5NTQyOCwtMTY3MDU1MzIyOCwtMT
+c1NDcxOTU3NSwxNzE5Njk2MDM0LDM3MjEzNDgxM119
 -->
