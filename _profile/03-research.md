@@ -9,9 +9,9 @@ toc: false
 
 ## Research Interest
 * `Cyber Deception`
+* `IoT Remote Attestation`
 * `Cloud-IoT ecosystem`
 * `Data Science and Machine Learning`
-* `Software Defined Network`
 * `Network Security`
 
 ## Current Lab
