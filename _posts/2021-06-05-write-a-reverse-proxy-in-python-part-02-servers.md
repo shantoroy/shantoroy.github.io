@@ -19,7 +19,7 @@ toc_icon: "heart"
 
 
 
-in the [previous post](https://shantoroy.com/network/write-a-reverse-proxy-server-in-python/), we have coded the `reverse proxy server` in python. In this post, I will cover the server code for the servers in a pool waiting to process user data.
+In the [previous post](https://shantoroy.com/network/write-a-reverse-proxy-server-in-python/), we have coded the `reverse proxy server` in python. In this post, I will cover the server code for the servers in a pool waiting to process user data.
 
 ### Required Modules
 As usual, we need the similar modules that we required to build a reverse proxy server. I only add a new module here: `hashlib`. This module is used for hashing a particular data. In our setup, we will use `sha1` hashing algorithm to hash user payload and return the digest back to the user via reverse proxy.
@@ -178,6 +178,6 @@ The entire code is available in [Github](https://github.com/shantoroy/reverse_pr
 
 In the next tutorial, we will code the client-side script. Stay Tuned!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAyMDMyNTcyLC0xMjU1MDU3MzgzLC0yMT
-Q0NjkzNzk5XX0=
+eyJoaXN0b3J5IjpbODQ5NjcwMzAwLDUwMjAzMjU3MiwtMTI1NT
+A1NzM4MywtMjE0NDY5Mzc5OV19
 -->
