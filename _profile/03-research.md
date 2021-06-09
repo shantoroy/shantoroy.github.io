@@ -1,6 +1,7 @@
 ---
 title: "Research & Publications"
 layout: single
+classes: wide
 permalink: /profile/publications/
 excerpt: "Shanto Roy's Research & Publications"
 toc: false
