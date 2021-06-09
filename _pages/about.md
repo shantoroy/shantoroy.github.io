@@ -11,11 +11,11 @@ At the very beginning, I want to thank you for going through my blog posts. The 
 
 Why writing? Without documentation, we forget how we do or improve what we did before. That's the primary concern for me. Please feel free to let me know with your feedback if there is an area of improvement in my posts. :v:
 
-In case any of my posts help you solve your problem, and you want to thank me for that, you can <br/>
+In case any of my posts help you solve your problem, and you want to thank/support me for that, you can <br/>
 [Buy me Coffee](https://www.paypal.me/shantoroy). :smiley:
 
 ## About Myself
-I love learning, researching, exploring new things, and creating new hobbies. I have been working as a Research Assistant and have enrolled as a Ph.D. student at the Department of Computer Science, University of Houston (since Fall-2019). My primary research interest is in Cyber Security, Data Science & ML, SDN, Cloud-IoT ecosystem, etc.
+I love learning, researching, exploring new things, and creating new hobbies. I have been working as a Research Assistant and have enrolled as a Ph.D. student at the Department of Computer Science, University of Houston (since Fall-2019). My primary research interest is in **Cyber Security** (mostly, Reconnaissance, Cyber Deception, and IoT Remote Attestation), **Data Science & Machine Learning**, **Security Games and Reinforcement Learning in Security**, **Cloud-IoT ecosystem**, etc.
 
 Currently, I am researching `Cyber Deception` based on our findings of  `Cyber Reconnaissance`. We have developed an IoT Remote attestation testbed where we can simulate different attacks and attestation strategies in another work. Besides, we developed a `Security Game`-based model and solution. We are now working on modeling more complex models and develop solutions using `Reinforcement Learning`. Previously, I worked on data collection, filtering, analyzing, and visualization of smart contract-related posts from Medium.com after joining the RNS Lab at `University of Houston`.
 
