@@ -122,11 +122,14 @@ Coding the client part is a lot easier than coding the server or the reverse pro
 
 So, now we are done with coding all three scripts. In the next post, we will write an automation script in `shell` and check whether our round-robin-based load-balancing works fine in the `reverse proxy`.
 
+
 The whole tutorial series is listed here:
 * [Write a Reverse Proxy Server in Python: Part 1 (Reverse Proxy Server)](https://shantoroy.com/network/write-a-reverse-proxy-server-in-python/)
 * [Write a Reverse Proxy Server in Python: Part 2 (Server Pool)](https://shantoroy.com/network/write-a-reverse-proxy-in-python-part-02-servers/)
+* [Write a Reverse Proxy Server in Python: Part 3 (Client-side Script)](https://shantoroy.com/network/write-a-reverse-proxy-server-client-side-script/)
+* [Write a Reverse Proxy Server in Python: Part 4 (Shell Script for Automation)](https://shantoroy.com/network/write-a-reverse-proxy-in-python-automation-shell-script/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MzIyODI5MSwtMTg4Njc1NjUwLC0xOT
-IxMjc5MzcyLC0yMDgwODc4OTA3LC0yMTI2NDc4MTg0LDE2ODEx
-MTk5NjUsLTU4MDUzNTY3OV19
+eyJoaXN0b3J5IjpbLTEwMzU2MzAxMjUsMTQ0MzIyODI5MSwtMT
+g4Njc1NjUwLC0xOTIxMjc5MzcyLC0yMDgwODc4OTA3LC0yMTI2
+NDc4MTg0LDE2ODExMTk5NjUsLTU4MDUzNTY3OV19
 -->
