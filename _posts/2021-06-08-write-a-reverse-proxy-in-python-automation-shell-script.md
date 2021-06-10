@@ -166,7 +166,9 @@ The whole tutorial series is listed here:
 * [Write a Reverse Proxy Server in Python: Part 1 (Reverse Proxy Server)](https://shantoroy.com/network/write-a-reverse-proxy-server-in-python/)
 * [Write a Reverse Proxy Server in Python: Part 2 (Server Pool)](https://shantoroy.com/network/write-a-reverse-proxy-in-python-part-02-servers/)
 * [Write a Reverse Proxy Server in Python: Part 3 (Client-side Script)](https://shantoroy.com/network/write-a-reverse-proxy-server-client-side-script/)
+* [Write a Reverse Proxy Server in Python: Part 4 (Shell Script for Automation)](https://shantoroy.com/network/write-a-reverse-proxy-in-python-automation-shell-script/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQwMjM5MTE3LDY2MDIwMzA2NCwtMjAzND
-AwMTEzMSwtMTg1MDAxNzY5NCwxNjA2NjI1Mjc5XX0=
+eyJoaXN0b3J5IjpbLTE0OTU0NTQzOTgsNTQwMjM5MTE3LDY2MD
+IwMzA2NCwtMjAzNDAwMTEzMSwtMTg1MDAxNzY5NCwxNjA2NjI1
+Mjc5XX0=
 -->
