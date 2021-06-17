@@ -29,6 +29,11 @@ The `Slough Trail` is one of the closest and easiest walk/bike trail near the Ma
 <iframe src="https://www.youtube.com/embed/u4CiK4moqWQ" width="560" height="315" frameborder="0"> </iframe>
 
 If you want to check my camping item checklist, please feel free to check my other post:
+
+[Camping Checklist: Things to take for Camping](https://shantoroy.com/travel/things-to-take-for-camping/)
+
+Thanks! Cheers!!!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDU5MjUyMzVdfQ==
+eyJoaXN0b3J5IjpbLTIwMTE3Mjc5OTQsLTIxMDU5MjUyMzVdfQ
+==
 -->
