@@ -23,12 +23,21 @@ Unfortunately, the Walnut Ridge Unit was closed due to maintenance at this time.
 Here, I linked two videos: the first one is a summary of our camping (although I missed capturing a lot of moments including games, camp fire, etc.).
 <iframe src="https://www.youtube.com/embed/cMHv8hdtKbU" width="560" height="315" frameborder="0"> </iframe>
 
+<br/><br/>
+
 The other video covers the only trail I finished. There are several other trails, however, I could not get enough time to visit.
 
 The `Slough Trail` is one of the closest and easiest walk/bike trail near the Martin Dies Jr. State Park, Jasper, TX. Apart from our camping, I explored a few trails. This is the only one, I completely explored. The trail map is provided at the beginning of the video including the distance from our camp site.
 <iframe src="https://www.youtube.com/embed/u4CiK4moqWQ" width="560" height="315" frameborder="0"> </iframe>
 
+<br/><br/>
+
 If you want to check my camping item checklist, please feel free to check my other post:
+
+[Camping Checklist: Things to take for Camping](https://shantoroy.com/travel/things-to-take-for-camping/)
+
+Thanks! Cheers!!!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDU5MjUyMzVdfQ==
+eyJoaXN0b3J5IjpbOTE4NjA3MzY2LC0yMDExNzI3OTk0LC0yMT
+A1OTI1MjM1XX0=
 -->
