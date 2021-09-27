@@ -91,7 +91,7 @@ Refering to an online CV in your personal site is recommended. Or you can upload
 I sent the following follow-up email (replying to the earlier one) to the professors if I had not received a response of my first email in two weeks. 
 > Dear Professor,
 
-> This is a follow up of my original communication send on October 16. I fear that I sent the mail at the least convenient time and you were busy at that moment.
+> This is a follow-up to my original communication sent on October 16. I fear that I sent the mail at the least convenient time and you were busy at that moment.
 
 > I am interested to work you as I found that my research interests have a strong similarity with yours. I would like to have a chance to discuss our shared research interests and ongoing projects at length, perhaps on a Skype session.
 
