@@ -38,6 +38,7 @@ Note that, you will have to install latex environment first before installing th
 
 ## Useful Complete resources
 * [Awesome LaTeX](https://github.com/egeerardyn/awesome-LaTeX)
+* [Learn LaTeX — A Beginner's Step-By-Step Guide](https://typeset.io/resources/learn-latex-beginners-step-by-step-guide/)
 * [The Comprehensive LaTeX Symbol List](http://tug.ctan.org/info/symbols/comprehensive/symbols-a4.pdf)
 * [LaTeX Command Summary](https://www.ntg.nl/doc/biemesderfer/ltxcrib.pdf)
 
@@ -63,5 +64,6 @@ Some of those are included here.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjQyMDMzMjQsNDMwMzkyOTIyXX0=
+eyJoaXN0b3J5IjpbMjAwMzM4MDYyNiwtMTYyNDIwMzMyNCw0Mz
+AzOTI5MjJdfQ==
 -->
