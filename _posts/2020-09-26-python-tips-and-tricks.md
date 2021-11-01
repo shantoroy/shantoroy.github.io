@@ -15,7 +15,7 @@ toc_label: "Table of Contents"
 toc_icon: "heart"
 ---
 
-In this post, we will learn to use some basic tips a
+In this post, we will learn to use some basic tips and tricks of Python.
 
 1. Swap Two Numbers
 	```python
@@ -244,5 +244,5 @@ sorted_dict = {k:v for k,v in sorted(my_dict.items(), key=lambda item: item[1])}
 	# runtime: 0.0002 sec
 	```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc4NjcyNDk2XX0=
+eyJoaXN0b3J5IjpbODQ5NDYxMTY5XX0=
 -->
