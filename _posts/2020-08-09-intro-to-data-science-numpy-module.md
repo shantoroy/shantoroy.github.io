@@ -2,8 +2,8 @@
 layout: single
 title: "Introduction to Data Science: Numpy Module"
 header:
-  image: "https://live.staticflickr.com/65535/51221326129_1df153df24_c.jpg"
-  teaser: "https://live.staticflickr.com/65535/51221326129_1df153df24_c.jpg"
+  image: "https://live.staticflickr.com/65535/51652426627_4e5afafd1f_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/51652426627_4e5afafd1f_b.jpg"
 categories:
   - Python
 tags:
@@ -230,5 +230,5 @@ which is normally done using python map
 
 I hope, the above-mentioned methods are enough for the basic. We will go through more advanced operations later in another post. Till then, cheers!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDEzNjE5MTcyXX0=
+eyJoaXN0b3J5IjpbMTI5Mjg4NDQ0MF19
 -->
