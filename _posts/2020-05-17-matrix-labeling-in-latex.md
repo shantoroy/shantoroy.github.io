@@ -101,7 +101,7 @@ Now, let's take a look at the codes for matrices.
 	\]
 	```
 
-	NoLet's take a look at the all side labeling matrix
+	Now, Let's take a look at the all side labeling matrix
 	```latex
 	\[
 	\gamma  = 
@@ -113,7 +113,7 @@ Now, let's take a look at the codes for matrices.
 	 & \vdots & \vdots & \ddots & \vdots &\\
 	k_n & 0 & 0 &\cdots & 1\bigstrut[b] & =1\\
 	\end{block}
-	 & \leq 4 & \leq 5 & \dots & \leq 10 \\
+	 & \leq 4 & \leq 5 & \dots & \leq 10 & \\
 	\end{blockarray}\vspace*{-1.25\baselineskip}
 	\]
 	```
@@ -183,5 +183,5 @@ Once again, you can check the outputs in this [Overleaf Document](https://www.ov
 2. [Labeling the Dimensions of a Matrix](https://tex.stackexchange.com/questions/416635/labeling-the-dimensions-of-a-matrix)
 3. [Matrix with column and row headings [duplicate]](https://tex.stackexchange.com/questions/423621/matrix-with-column-and-row-headings)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjE4OTQwOTksODYzNzA4NDExXX0=
+eyJoaXN0b3J5IjpbMTk4MzEzNDU3OCw4NjM3MDg0MTFdfQ==
 -->
