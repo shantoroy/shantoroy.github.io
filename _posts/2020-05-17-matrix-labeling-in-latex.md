@@ -10,7 +10,6 @@ tags:
   - Latex
   - Tutorial
   - matrix
-  - math equations
   - Overleaf
 toc: true
 toc_label: "Table of Contents"
@@ -191,6 +190,6 @@ Once again, you can check the outputs in this [Overleaf Document](https://www.ov
 2. [Labeling the Dimensions of a Matrix](https://tex.stackexchange.com/questions/416635/labeling-the-dimensions-of-a-matrix)
 3. [Matrix with column and row headings [duplicate]](https://tex.stackexchange.com/questions/423621/matrix-with-column-and-row-headings)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMDMwNjM4LDE5ODMxMzQ1NzgsLTEwND
-A0MjYwNDYsODYzNzA4NDExXX0=
+eyJoaXN0b3J5IjpbLTE3NzAyODI4ODYsMTgxMDMwNjM4LDE5OD
+MxMzQ1NzgsLTEwNDA0MjYwNDYsODYzNzA4NDExXX0=
 -->
