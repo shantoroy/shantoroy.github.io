@@ -123,6 +123,8 @@ Now, let's take a look at the codes for matrices.
 	```
 
 6. The following example follows the same way. The example is taken from this [stackexchange thread](https://tex.stackexchange.com/questions/388138/labels-and-captions-of-a-matrix).
+
+
 	```latex
 	\newcommand{\cX}{\mathcal{X}}
 	\newcommand{\fixhd}[1]{%
@@ -157,7 +159,9 @@ Now, let's take a look at the codes for matrices.
 	\end{blockarray}
 	\]
 	```
+	
 7. If you want to label the whole row or column, the following example is for you. This is a simple `bmatrix` with `\underbrace{\begin{bmatrix} ... \end{bmatrix} }_{\displaystyle your-label}` for columns and `\left.\vphantom{ \begin{bmatrix} ... \end{bmatrix} }\right\} your-label` for labeling rows on the right side.
+
 	```latex
 	\[
 	\underbrace{
@@ -187,6 +191,6 @@ Once again, you can check the outputs in this [Overleaf Document](https://www.ov
 2. [Labeling the Dimensions of a Matrix](https://tex.stackexchange.com/questions/416635/labeling-the-dimensions-of-a-matrix)
 3. [Matrix with column and row headings [duplicate]](https://tex.stackexchange.com/questions/423621/matrix-with-column-and-row-headings)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjAxOTk0NzQsMTk4MzEzNDU3OCwtMT
-A0MDQyNjA0Niw4NjM3MDg0MTFdfQ==
+eyJoaXN0b3J5IjpbMTgxMDMwNjM4LDE5ODMxMzQ1NzgsLTEwND
+A0MjYwNDYsODYzNzA4NDExXX0=
 -->
