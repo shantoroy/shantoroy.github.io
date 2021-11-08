@@ -61,9 +61,10 @@ Some of those are included here.
 * [Creating Bar Charts using Latex PGFPlots](http://shantoroy.com/latex/bar-plots-in-latex-pgfplot/)
 * [How to write algorithm in Latex](http://shantoroy.com/latex/how-to-write-algorithm-in-latex/)
 * [How to add subfigure in Latex](http://shantoroy.com/latex/add-subfig-in-latex/)
+* [How to Write Matrix with Row/Column Labels in Latex](https://shantoroy.com/latex/matrix-labeling-in-latex/)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMzM4MDYyNiwtMTYyNDIwMzMyNCw0Mz
-AzOTI5MjJdfQ==
+eyJoaXN0b3J5IjpbLTE5ODMwOTc3MjIsMjAwMzM4MDYyNiwtMT
+YyNDIwMzMyNCw0MzAzOTI5MjJdfQ==
 -->
