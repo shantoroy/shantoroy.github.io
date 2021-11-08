@@ -29,26 +29,26 @@ First, we need to include the following packages.
 
 Now, let's take a look at the codes for matrices.
 1. This is a simple matrix without any border
-```latex
-\[
-\begin{matrix}
-1 & 2 & 3 \\
-4 & 5 & 6 \\
-7 & 8 & 9 \\
-\end{matrix}
-\]
-```
+	```latex
+	\[
+	\begin{matrix}
+	1 & 2 & 3 \\
+	4 & 5 & 6 \\
+	7 & 8 & 9 \\
+	\end{matrix}
+	\]
+	```
 
 2. This code creates a bordered matrix with brackets
-```latex
-\[
-\begin{bmatrix}
-1 & 2 & 3 \\
-4 & 5 & 6 \\
-7 & 8 & 9 \\
-\end{bmatrix}
-\]
-```
+	```latex
+	\[
+	\begin{bmatrix}
+	1 & 2 & 3 \\
+	4 & 5 & 6 \\
+	7 & 8 & 9 \\
+	\end{bmatrix}
+	\]
+	```
 3. A simple equation where we generate the dot product of two matrices
 ```latex
 \[ 
@@ -183,5 +183,5 @@ Once again, you can check the outputs in this [Overleaf Document](https://www.ov
 2. [Labeling the Dimensions of a Matrix](https://tex.stackexchange.com/questions/416635/labeling-the-dimensions-of-a-matrix)
 3. [Matrix with column and row headings [duplicate]](https://tex.stackexchange.com/questions/423621/matrix-with-column-and-row-headings)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYzNzA4NDExXX0=
+eyJoaXN0b3J5IjpbMjEyODAxNjg5MSw4NjM3MDg0MTFdfQ==
 -->
