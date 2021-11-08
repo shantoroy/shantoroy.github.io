@@ -101,7 +101,7 @@ Now, let's take a look at the codes for matrices.
 	\]
 	```
 
-	Let's take a look at the all-side labeling matrix
+	NoLet's take a look at the all side labeling matrix
 	```latex
 	\[
 	\gamma  = 
@@ -183,5 +183,5 @@ Once again, you can check the outputs in this [Overleaf Document](https://www.ov
 2. [Labeling the Dimensions of a Matrix](https://tex.stackexchange.com/questions/416635/labeling-the-dimensions-of-a-matrix)
 3. [Matrix with column and row headings [duplicate]](https://tex.stackexchange.com/questions/423621/matrix-with-column-and-row-headings)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMjE0MzM2NSw4NjM3MDg0MTFdfQ==
+eyJoaXN0b3J5IjpbLTEzMjE4OTQwOTksODYzNzA4NDExXX0=
 -->
