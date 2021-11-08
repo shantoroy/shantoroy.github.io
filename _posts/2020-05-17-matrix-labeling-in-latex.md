@@ -188,8 +188,8 @@ Once again, you can check the outputs in this [Overleaf Document](https://www.ov
 ## References
 1. [Labels and captions of a matrix](https://tex.stackexchange.com/questions/388138/labels-and-captions-of-a-matrix)
 2. [Labeling the Dimensions of a Matrix](https://tex.stackexchange.com/questions/416635/labeling-the-dimensions-of-a-matrix)
-3. [Matrix with column and row headings [duplicate]](https://tex.stackexchange.com/questions/423621/matrix-with-column-and-row-headings)
+3. [Matrix with column and row headings (duplicate)](https://tex.stackexchange.com/questions/423621/matrix-with-column-and-row-headings)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzAyODI4ODYsMTgxMDMwNjM4LDE5OD
-MxMzQ1NzgsLTEwNDA0MjYwNDYsODYzNzA4NDExXX0=
+eyJoaXN0b3J5IjpbMTE5MjM5Mzg3NSwxODEwMzA2MzgsMTk4Mz
+EzNDU3OCwtMTA0MDQyNjA0Niw4NjM3MDg0MTFdfQ==
 -->
