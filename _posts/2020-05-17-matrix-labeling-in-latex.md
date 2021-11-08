@@ -101,22 +101,7 @@ Now, let's take a look at the codes for matrices.
 	\]
 	```
 
-	Now, Let's take a look at the all side labeling matrix
-	```latex
-	\[
-	\gamma  = 
-	\begin{blockarray}{cccccc}
-	 & \bar{f_1} & \bar{f_2} & \dots & \bar{f_n} \\
-	\begin{block}{c[cccc]c}
-	k_1 & 0 & 1 &\cdots & 0\bigstrut[t] & =1 \\
-	k_2 & 1 & 0 &\cdots & 0 & =1 \\
-	 & \vdots & \vdots & \ddots & \vdots &\\
-	k_n & 0 & 0 &\cdots & 1\bigstrut[b] & =1\\
-	\end{block}
-	 & \leq 4 & \leq 5 & \dots & \leq 10 & \\
-	\end{blockarray}\vspace*{-1.25\baselineskip}
-	\]
-	```
+
 
 6. The following example follows the same way. The example is taken from this [stackexchange thread](https://tex.stackexchange.com/questions/388138/labels-and-captions-of-a-matrix).
 	```latex
@@ -183,5 +168,5 @@ Once again, you can check the outputs in this [Overleaf Document](https://www.ov
 2. [Labeling the Dimensions of a Matrix](https://tex.stackexchange.com/questions/416635/labeling-the-dimensions-of-a-matrix)
 3. [Matrix with column and row headings [duplicate]](https://tex.stackexchange.com/questions/423621/matrix-with-column-and-row-headings)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MzEzNDU3OCw4NjM3MDg0MTFdfQ==
+eyJoaXN0b3J5IjpbLTEwNDA0MjYwNDYsODYzNzA4NDExXX0=
 -->
