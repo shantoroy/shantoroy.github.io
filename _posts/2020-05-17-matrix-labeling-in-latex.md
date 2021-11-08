@@ -127,7 +127,7 @@ Now, let's take a look at the codes for matrices.
 	```latex
 	\newcommand{\cX}{\mathcal{X}}
 	\newcommand{\fixhd}[1]{%
-	  \smash[#1]{\vphantom{\Big|}}%
+	  \smash[#1]{\vphantom{\Big|}}
 	}
 	```
 
@@ -146,13 +146,13 @@ Now, let's take a look at the codes for matrices.
 	T_N & 0 & \cdots & 0 & \cdots & x_N & T_{2N} & \cX_1^N & \cdots & \cX_i^N & \cdots & 0 \fixhd{t} \\
 	\end{block}
 	\noalign{\vspace{-1.5ex}}
-	& \BAmulticolumn{5}{c}{%
+	& \BAmulticolumn{5}{c}{
 	    \underbrace{\hphantom{\begin{bmatrix}x_1&\cdots&x_j&\cdots&x_N\end{bmatrix}}}%
-	    _{\text{Broadcasting phase}}%
+	    _{\text{Broadcasting phase}}
 	  }
-	&& \BAmulticolumn{5}{c}{%
-	    \underbrace{\hphantom{\begin{bmatrix}\cX^N&\cdots&\cX^N&\cdots&\cX^N\end{bmatrix}}}%
-	    _{\text{Cooperation phase}}%
+	&& \BAmulticolumn{5}{c}{
+	    \underbrace{\hphantom{\begin{bmatrix}\cX^N&\cdots&\cX^N&\cdots&\cX^N\end{bmatrix}}}
+	    _{\text{Cooperation phase}}
 	  }
 	\\
 	\end{blockarray}
@@ -190,6 +190,6 @@ Once again, you can check the outputs in this [Overleaf Document](https://www.ov
 2. [Labeling the Dimensions of a Matrix](https://tex.stackexchange.com/questions/416635/labeling-the-dimensions-of-a-matrix)
 3. [Matrix with column and row headings (duplicate)](https://tex.stackexchange.com/questions/423621/matrix-with-column-and-row-headings)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MjM5Mzg3NSwxODEwMzA2MzgsMTk4Mz
+eyJoaXN0b3J5IjpbMTk1NTgxMzk5NywxODEwMzA2MzgsMTk4Mz
 EzNDU3OCwtMTA0MDQyNjA0Niw4NjM3MDg0MTFdfQ==
 -->
