@@ -24,7 +24,7 @@ You can check the outputs in this [Overleaf Document](https://www.overleaf.com/r
 
 First, we need to include the following packages.
 ```latex
-\usepackage{amsmath,blkarray,booktabs, bigstrut}
+\usepackage{amsmath,blkarray,booktabs,bigstrut}
 ```
 
 Now, let's take a look at the codes for matrices.
@@ -49,6 +49,7 @@ Now, let's take a look at the codes for matrices.
 	\end{bmatrix}
 	\]
 	```
+	
 3. A simple equation where we generate the dot product of two matrices
 	```latex
 	\[ 
@@ -59,6 +60,7 @@ Now, let's take a look at the codes for matrices.
 	\begin{bmatrix} a & b & c \\ d & e & f \\ g & h & i \end{bmatrix} 
 	\]
 	```
+	
 4. A bordered matrix with row and column labels
 	```latex
 	\[
@@ -70,6 +72,7 @@ Now, let's take a look at the codes for matrices.
 	      k_4 & 0 & 1 & 0 } \qquad
 	\]
 	```
+	
 5. Another way to create a bordered matrix with row and column labels. I find this more helpful and easier than the other one. If you understand the code of writing a latex table, then this one is pretty simple. Use `\begin{block}{c(ccc)} ... \end{block}` to create the matrix, and then put the labels outside it using `\begin{blockarray}{cccc} ... \end{blockarray}`. Remember, the number of total column number `c` must be equal. 
 
 	```latex
@@ -87,6 +90,7 @@ Now, let's take a look at the codes for matrices.
 	```
 
 	Using `(ccc)` creates `()` shaped matrix while using `[ccc]` creates `[]` shaped matrix.
+	
 	```latex
 	\[
 	\begin{blockarray}{ccccc}
@@ -183,6 +187,6 @@ Once again, you can check the outputs in this [Overleaf Document](https://www.ov
 2. [Labeling the Dimensions of a Matrix](https://tex.stackexchange.com/questions/416635/labeling-the-dimensions-of-a-matrix)
 3. [Matrix with column and row headings [duplicate]](https://tex.stackexchange.com/questions/423621/matrix-with-column-and-row-headings)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MzEzNDU3OCwtMTA0MDQyNjA0Niw4Nj
-M3MDg0MTFdfQ==
+eyJoaXN0b3J5IjpbLTE1NjAxOTk0NzQsMTk4MzEzNDU3OCwtMT
+A0MDQyNjA0Niw4NjM3MDg0MTFdfQ==
 -->
