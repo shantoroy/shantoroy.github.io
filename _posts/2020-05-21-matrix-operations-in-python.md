@@ -201,7 +201,7 @@ Let's create a input file named `T.txt` that contains the following input
 Now, in the python script, do the following
 ```python
 with  open('T.txt', 'r') as  f:
-T = [[int(num) for  num  in  line.split(',')] for  line  in  f]
+	T = np.array([[int(num) for  num  in  line.split(',')] for  line  in  f])
 print(T)
 ```
 
@@ -209,5 +209,5 @@ print(T)
 1. [Python Matrices and NumPy Arrays](https://www.programiz.com/python-programming/matrix)
 2. [Matrix manipulation in Python](https://www.geeksforgeeks.org/matrix-manipulation-python/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyOTE1MTU3NCwxNjE3NzQyOTFdfQ==
+eyJoaXN0b3J5IjpbMTY0Mzc3ODMxMiwxNjE3NzQyOTFdfQ==
 -->
