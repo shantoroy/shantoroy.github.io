@@ -79,6 +79,7 @@ array([[ 0,  4,  8, 12],
        [ 2,  6, 10, 14],
        [ 3,  7, 11, 15]])
 ```
+7.
 
 ## `max/min` and `argmax/argmin`
 in numpy, `array_variable.max()` and `array_variable.min()` are used to return the maximum/minimum values respectively. `array_variable.argmax()` and `array_variable.argmin()` are used to return the indices of maximum/minimum values respectively. 
@@ -209,5 +210,6 @@ print(T)
 1. [Python Matrices and NumPy Arrays](https://www.programiz.com/python-programming/matrix)
 2. [Matrix manipulation in Python](https://www.geeksforgeeks.org/matrix-manipulation-python/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0Mzc3ODMxMiwxNjE3NzQyOTFdfQ==
+eyJoaXN0b3J5IjpbLTk0NzY5NjA2NSwxNjQzNzc4MzEyLDE2MT
+c3NDI5MV19
 -->
