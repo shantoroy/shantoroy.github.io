@@ -192,12 +192,22 @@ array([[ True, False, False],
 ## Input a Matrix from a Input File
 Let's create a input file named `T.txt` that contains the following input
 ```
+1,0,2,0,0,0,0
+1,1,2,2,0,0,1
+2,2,1,1,0,0,2
+1,1,2,1,0,2,1
+```
 
+Now, in the python script, do the following
+```python
+with  open('T.txt', 'r') as  f:
+T = [[int(num) for  num  in  line.split(',')] for  line  in  f]
+print(T)
 ```
 
 ## References
 1. [Python Matrices and NumPy Arrays](https://www.programiz.com/python-programming/matrix)
 2. [Matrix manipulation in Python](https://www.geeksforgeeks.org/matrix-manipulation-python/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzEzMTExNjcsMTYxNzc0MjkxXX0=
+eyJoaXN0b3J5IjpbMTMyOTE1MTU3NCwxNjE3NzQyOTFdfQ==
 -->
