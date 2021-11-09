@@ -181,17 +181,17 @@ print(matrix[:, 1:3])  # all rows, second to the third column
 	2
 	```
 3. Determinant of a square matrix
-```python
->>> np.linalg.det(np.eye(5))
-1.0
-```
+	```python
+	>>> np.linalg.det(np.eye(5))
+	1.0
+	```
 4. Numpy offers direct filtering/mapping options. Let's take a look at the examples:
-```python
->>> test > 30
-array([[ True, False, False],
-       [ True,  True, False],
-       [False,  True,  True]])
-```
+	```python
+	>>> test > 30
+	array([[ True, False, False],
+	       [ True,  True, False],
+	       [False,  True,  True]])
+	```
 
 ## Input a Matrix from a Input File
 Let's create a input file named `T.txt` that contains the following input
@@ -213,6 +213,6 @@ print(T)
 1. [Python Matrices and NumPy Arrays](https://www.programiz.com/python-programming/matrix)
 2. [Matrix manipulation in Python](https://www.geeksforgeeks.org/matrix-manipulation-python/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDA0MTQwNTIsMTY0Mzc3ODMxMiwxNj
-E3NzQyOTFdfQ==
+eyJoaXN0b3J5IjpbNjk3NjQxODM2LDE2NDM3NzgzMTIsMTYxNz
+c0MjkxXX0=
 -->
