@@ -189,10 +189,15 @@ array([[ True, False, False],
        [False,  True,  True]])
 ```
 
+## Input a Matrix from a Input File
+Let's create a input file named `T.txt` that contains the following input
+```
+
+```
 
 ## References
 1. [Python Matrices and NumPy Arrays](https://www.programiz.com/python-programming/matrix)
 2. [Matrix manipulation in Python](https://www.geeksforgeeks.org/matrix-manipulation-python/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNzc0MjkxXX0=
+eyJoaXN0b3J5IjpbMzEzMTExNjcsMTYxNzc0MjkxXX0=
 -->
