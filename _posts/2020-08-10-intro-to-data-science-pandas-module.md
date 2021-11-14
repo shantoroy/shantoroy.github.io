@@ -189,9 +189,10 @@ You can use a few other options described below:
 	df.plot.density()
 	```
 
-In this post, I just showed a few basic uses of the module `pandas`. In the next post, we will take a more elaborate look at the module. 
+In this post, I just showed a few basic uses of the module `pandas`. In the [next post](https://shantoroy.com/python/intro-to-data-science-pandas-module-part-2/), we will take a more elaborate look at the module. 
 
 Till then, cheers!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTQzNzY5MDEsLTE2MjE2NTA3OF19
+eyJoaXN0b3J5IjpbMjA5MDc0Mjc2LC0xODU0Mzc2OTAxLC0xNj
+IxNjUwNzhdfQ==
 -->
