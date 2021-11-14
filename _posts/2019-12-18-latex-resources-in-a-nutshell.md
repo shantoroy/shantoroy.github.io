@@ -62,9 +62,10 @@ Some of those are included here.
 * [How to write algorithm in Latex](http://shantoroy.com/latex/how-to-write-algorithm-in-latex/)
 * [How to add subfigure in Latex](http://shantoroy.com/latex/add-subfig-in-latex/)
 * [How to Write Matrix with Row/Column Labels in Latex](https://shantoroy.com/latex/matrix-labeling-in-latex/)
+* [How to Collaboratively Write a Paper using Overleaf Latex Platform](https://shantoroy.com/latex/how-to-collaborately-write-a-paper-using-latex-overleaf/)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODMwOTc3MjIsMjAwMzM4MDYyNiwtMT
-YyNDIwMzMyNCw0MzAzOTI5MjJdfQ==
+eyJoaXN0b3J5IjpbLTQzNDkwODk2NSwtMTk4MzA5NzcyMiwyMD
+AzMzgwNjI2LC0xNjI0MjAzMzI0LDQzMDM5MjkyMl19
 -->
