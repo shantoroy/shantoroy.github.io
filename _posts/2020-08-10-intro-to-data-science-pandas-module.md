@@ -100,34 +100,41 @@ You can use a few other options described below:
 	```python
 	df[['one_column_name','another_column_name']]
 	```
-3. Creating a new column
+3. Accessing first $n$ or last $n$ number of rows
+```python
+df.head(5)
+```
+```python
+df.head(5)
+```
+5. Creating a new column
 	```python
 	df['new_column_name'] = df['column_name_1'] + df['column_name_2']
 	```
-4. Deleting a column
+6. Deleting a column
 	```python
 	df.drop('target_column_name',axis=1)
 	```
-5. Deleting a row
+7. Deleting a row
 	```python
 	df.drop('row_index',axis=0)
 	```
-6. selecting a row using `loc` or `iloc`
+8. selecting a row using `loc` or `iloc`
 	```python
 	df.loc['row_index']
 	```
 	```python
 	df.iloc[row_index]
 	```
-7. Accessing a single value
+9. Accessing a single value
 	```python
 	df.loc['row_index','column_header']
 	```
-8. Accessing values from selected multiple rows and multiple columns
+10. Accessing values from selected multiple rows and multiple columns
 	```python
 	df.loc[['row_index_1','row_index_2'],['column_header_1','column_header_2']]
 	```
-9. creating a new CSV file
+11. creating a new CSV file
 	```python
 	df.to_csv('file_name.csv')
 	```
@@ -186,5 +193,5 @@ In this post, I just showed a few basic uses of the module `pandas`. In the next
 
 Till then, cheers!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjE2NTA3OF19
+eyJoaXN0b3J5IjpbLTEwODEzNzAxMDMsLTE2MjE2NTA3OF19
 -->
