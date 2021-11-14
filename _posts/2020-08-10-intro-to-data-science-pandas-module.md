@@ -100,13 +100,13 @@ You can use a few other options described below:
 	```python
 	df[['one_column_name','another_column_name']]
 	```
-3. Accessing first $n$ or last $n$ number of rows
-```python
-df.head(5)
-```
-```python
-df.head(5)
-```
+3. Accessing first $n$ or last $n$ number of rows. `head(n)` is used to access first $n$ rows and `tail(n)` is used to access last $n$ rows.
+	```python
+	df.head(5)
+	```
+	```python
+	df.tail(15)
+	```
 5. Creating a new column
 	```python
 	df['new_column_name'] = df['column_name_1'] + df['column_name_2']
@@ -193,5 +193,5 @@ In this post, I just showed a few basic uses of the module `pandas`. In the next
 
 Till then, cheers!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODEzNzAxMDMsLTE2MjE2NTA3OF19
+eyJoaXN0b3J5IjpbLTE4NTQzNzY5MDEsLTE2MjE2NTA3OF19
 -->
