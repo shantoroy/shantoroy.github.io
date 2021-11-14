@@ -96,6 +96,8 @@ You can use a few other options described below:
 	```python
 	df.describe()
 	```
+2. Get unique or non-unique values of a column
+
 3. Access a particular column
 	```python
 	df['target_column_name']
@@ -104,41 +106,41 @@ You can use a few other options described below:
 	```python
 	df[['one_column_name','another_column_name']]
 	```
-5. Accessing first $n$ or last $n$ number of rows. `head(n)` is used to access first $n$ rows and `tail(n)` is used to access last $n$ rows.
+6. Accessing first $n$ or last $n$ number of rows. `head(n)` is used to access first $n$ rows and `tail(n)` is used to access last $n$ rows.
 	```python
 	df.head(5)
 	```
 	```python
 	df.tail(15)
 	```
-6. Creating a new column
+7. Creating a new column
 	```python
 	df['new_column_name'] = df['column_name_1'] + df['column_name_2']
 	```
-7. Deleting a column
+8. Deleting a column
 	```python
 	df.drop('target_column_name',axis=1)
 	```
-8. Deleting a row
+9. Deleting a row
 	```python
 	df.drop('row_index',axis=0)
 	```
-9. selecting a row using `loc` or `iloc`
+10. selecting a row using `loc` or `iloc`
 	```python
 	df.loc['row_index']
 	```
 	```python
 	df.iloc[row_index]
 	```
-10. Accessing a single value
+11. Accessing a single value
 	```python
 	df.loc['row_index','column_header']
 	```
-11. Accessing values from selected multiple rows and multiple columns
+12. Accessing values from selected multiple rows and multiple columns
 	```python
 	df.loc[['row_index_1','row_index_2'],['column_header_1','column_header_2']]
 	```
-12. creating a new CSV file
+13. creating a new CSV file
 	```python
 	df.to_csv('file_name.csv')
 	```
@@ -197,6 +199,6 @@ In this post, I just showed a few basic uses of the module `pandas`. In the [nex
 
 Till then, cheers!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MjIwMDA2OSwyMDkwNzQyNzYsLTE4NT
-QzNzY5MDEsLTE2MjE2NTA3OF19
+eyJoaXN0b3J5IjpbLTEyNjA5ODk2NjUsMjA5MDc0Mjc2LC0xOD
+U0Mzc2OTAxLC0xNjIxNjUwNzhdfQ==
 -->
