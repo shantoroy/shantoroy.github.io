@@ -46,6 +46,12 @@ In the [previous post](https://shantoroy.com/python/intro-to-data-science-pandas
 	df[(df['conditioned_col_name_1']>0) | (df['conditioned_col_name_2'] > 0)]
 	```
 
+## Merging, Joining, and Concatenating
+1. Concatenation
+	```python
+	pd.concat([df1,df2,df3])
+	```
+
 ## Tips and Tricks
 1. Column Slicing
 	```python
@@ -135,5 +141,6 @@ I will keep adding useful functionalities of `pandas dataframe` in this post.
 ## References
 1. [100 pandas tricks to save you time and energy](https://www.dataschool.io/python-pandas-tips-and-tricks/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1OTAwNTc2OSw3NzMxNjU2MTVdfQ==
+eyJoaXN0b3J5IjpbLTExNzI4NTU5LDEzNTkwMDU3NjksNzczMT
+Y1NjE1XX0=
 -->
