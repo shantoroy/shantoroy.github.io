@@ -125,11 +125,15 @@ In the [previous post](https://shantoroy.com/python/intro-to-data-science-pandas
 	```python
 	df.col_name.apply(type).value_counts()
 	```
+16. You can transpose a dataframe like a matrix
+	```python
+	df.T
+	```
 
 I will keep adding useful functionalities of `pandas dataframe` in this post.
 
 ## References
 1. [100 pandas tricks to save you time and energy](https://www.dataschool.io/python-pandas-tips-and-tricks/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzczMTY1NjE1XX0=
+eyJoaXN0b3J5IjpbMTM1OTAwNTc2OSw3NzMxNjU2MTVdfQ==
 -->
