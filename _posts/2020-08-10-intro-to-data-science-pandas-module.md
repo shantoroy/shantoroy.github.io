@@ -97,7 +97,12 @@ You can use a few other options described below:
 	df.describe()
 	```
 2. Get unique or non-unique values of a column
-
+	```python
+	df['col_name'].unique()
+	```
+	```python
+	df['col_name'].nunique()
+	```
 3. Access a particular column
 	```python
 	df['target_column_name']
@@ -106,13 +111,14 @@ You can use a few other options described below:
 	```python
 	df[['one_column_name','another_column_name']]
 	```
-6. Accessing first $n$ or last $n$ number of rows. `head(n)` is used to access first $n$ rows and `tail(n)` is used to access last $n$ rows.
+5. Accessing first $n$ or last $n$ number of rows. `head(n)` is used to access first $n$ rows and `tail(n)` is used to access last $n$ rows.
 	```python
 	df.head(5)
 	```
 	```python
 	df.tail(15)
 	```
+6. Count number of appearences of a value
 7. Creating a new column
 	```python
 	df['new_column_name'] = df['column_name_1'] + df['column_name_2']
@@ -199,6 +205,6 @@ In this post, I just showed a few basic uses of the module `pandas`. In the [nex
 
 Till then, cheers!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjA5ODk2NjUsMjA5MDc0Mjc2LC0xOD
-U0Mzc2OTAxLC0xNjIxNjUwNzhdfQ==
+eyJoaXN0b3J5IjpbLTQyMTA2ODM1NSwyMDkwNzQyNzYsLTE4NT
+QzNzY5MDEsLTE2MjE2NTA3OF19
 -->
