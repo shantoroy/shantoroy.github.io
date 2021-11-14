@@ -56,8 +56,11 @@ In the [previous post](https://shantoroy.com/python/intro-to-data-science-pandas
 	pd.merge(df5,df6,how='inner',on='index')
 	```
 	```python
-	
-```
+	df1.join(df2)
+	```
+	```python
+	ndf1.join(df2, how='outer')
+	```
 
 ## Tips and Tricks
 1. Column Slicing
@@ -148,6 +151,6 @@ I will keep adding useful functionalities of `pandas dataframe` in this post.
 ## References
 1. [100 pandas tricks to save you time and energy](https://www.dataschool.io/python-pandas-tips-and-tricks/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE4MDY3NzA2LDEzNTkwMDU3NjksNzczMT
+eyJoaXN0b3J5IjpbOTg3MDc3OTMwLDEzNTkwMDU3NjksNzczMT
 Y1NjE1XX0=
 -->
