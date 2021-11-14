@@ -119,6 +119,9 @@ You can use a few other options described below:
 	df.tail(15)
 	```
 6. Count number of appearences of a value
+	```python
+	data['col_name'].value_counts()
+	```
 7. Creating a new column
 	```python
 	df['new_column_name'] = df['column_name_1'] + df['column_name_2']
@@ -205,6 +208,6 @@ In this post, I just showed a few basic uses of the module `pandas`. In the [nex
 
 Till then, cheers!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMTA2ODM1NSwyMDkwNzQyNzYsLTE4NT
+eyJoaXN0b3J5IjpbLTcyNjE5Nzc4MiwyMDkwNzQyNzYsLTE4NT
 QzNzY5MDEsLTE2MjE2NTA3OF19
 -->
