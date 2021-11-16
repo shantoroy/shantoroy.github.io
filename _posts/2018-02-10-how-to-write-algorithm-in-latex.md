@@ -99,7 +99,7 @@ The output will look like the following-
 \begin{document}
 \maketitle
 
-\begin{algorithm}[H]
+\begin{algorithm}[!ht]
 \DontPrintSemicolon
   
   \KwInput{Your Input}
@@ -203,3 +203,6 @@ The output will look like the following-
 </figure>
 
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTY1Mjg1MzM1NF19
+-->
