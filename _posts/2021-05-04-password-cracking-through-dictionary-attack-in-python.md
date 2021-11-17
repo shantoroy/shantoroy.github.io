@@ -135,8 +135,10 @@ You can check the [code and files](https://github.com/shantoroy/intro-2-cybersec
 - [ ] **Experiment 4**: Adding Salt to user password to avoid duplicates
 
 That's all for today, cheers!
+
+If this post helps you to solve your problem, and you want to thank/support me for that, you can  [Buy me Coffee](https://www.paypal.me/shantoroy). :smiley:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MTQ2Nzc1NSwxMjgzNjIzNDg5LC0xNT
-UxMTIwNTkzLDQ1MTUwOTY0NSw5NTI0NjgyNzAsNzI1MzYzMTQy
-LDc1ODgwNDQ4MSwxNzgwODU3OTA4XX0=
+eyJoaXN0b3J5IjpbNjk1MDA4NTg2LDE2NjE0Njc3NTUsMTI4Mz
+YyMzQ4OSwtMTU1MTEyMDU5Myw0NTE1MDk2NDUsOTUyNDY4Mjcw
+LDcyNTM2MzE0Miw3NTg4MDQ0ODEsMTc4MDg1NzkwOF19
 -->
