@@ -159,8 +159,11 @@ pi@raspberrypi:~/exploitation/mprotect $ ropper --file /bin/ls --search "pop"
 0x0001be08: popne {r4, r5, r6, pc}; add r2, r2, #8; cmp r3, r2; bhi #0xbe00; mov r0, #0; pop {r4, r5, r6, pc};
 ```
 
+If this post helps you to solve your problem, and you want to thank/support me for that, you can  [Buy me Coffee](https://www.paypal.me/shantoroy). :smiley:
+
 ## References:
 1. [https://github.com/sashs/Ropper](https://github.com/sashs/Ropper)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NDM4MzAsMjU4MjM0MzgxXX0=
+eyJoaXN0b3J5IjpbLTE1NDU3NjA1OTcsLTI5NDM4MzAsMjU4Mj
+M0MzgxXX0=
 -->
