@@ -114,6 +114,8 @@ _________
 `# So, this is all from me for now. I will keep adding more items if I find out. Let me know in the comments if there is something more to add. `
 
 `# Let's make America great again.`
+
+If this post helps you to solve your problem, and you want to thank/support me for that, you can  [Buy me Coffee](https://www.paypal.me/shantoroy). :smiley:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjc3NDEwODBdfQ==
+eyJoaXN0b3J5IjpbLTQ5NjQwNzI5MiwtMjEyNzc0MTA4MF19
 -->
