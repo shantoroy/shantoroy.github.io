@@ -97,6 +97,8 @@ Within the `\axis` environment, first we define the width, height, xtick informa
 The output can be viewed in the [Overleaf Document](https://www.overleaf.com/read/dpkydqvjcpds)
 
 That's it for today! Cheers!!!
+
+If this post helps you to solve your problem, and you want to thank/support me for that, you can  [Buy me Coffee](https://www.paypal.me/shantoroy). :smiley:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1OTAxMzMzMl19
+eyJoaXN0b3J5IjpbLTE4NDMzNzUxODEsMTQ1OTAxMzMzMl19
 -->
