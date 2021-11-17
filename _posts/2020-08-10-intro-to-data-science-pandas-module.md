@@ -207,7 +207,9 @@ You can use a few other options described below:
 In this post, I just showed a few basic uses of the module `pandas`. In the [next post](https://shantoroy.com/python/intro-to-data-science-pandas-module-part-2/), we will take a more elaborate look at the module. 
 
 Till then, cheers!
+
+If this post helps you to solve your problem, and you want to thank/support me for that, you can  [Buy me Coffee](https://www.paypal.me/shantoroy). :smiley:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNjE5Nzc4MiwyMDkwNzQyNzYsLTE4NT
+eyJoaXN0b3J5IjpbMTEwODgzMTk0NSwyMDkwNzQyNzYsLTE4NT
 QzNzY5MDEsLTE2MjE2NTA3OF19
 -->
