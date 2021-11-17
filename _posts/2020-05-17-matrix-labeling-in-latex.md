@@ -183,6 +183,8 @@ Now, let's take a look at the codes for matrices.
 
 Once again, you can check the outputs in this [Overleaf Document](https://www.overleaf.com/read/hygqjqwcnfxb).
 
+If this post helps you to solve your problem, and you want to thank/support me for that, you can  [Buy me Coffee](https://www.paypal.me/shantoroy). :smiley:
+
 
 
 ## References
@@ -190,6 +192,7 @@ Once again, you can check the outputs in this [Overleaf Document](https://www.ov
 2. [Labeling the Dimensions of a Matrix](https://tex.stackexchange.com/questions/416635/labeling-the-dimensions-of-a-matrix)
 3. [Matrix with column and row headings (duplicate)](https://tex.stackexchange.com/questions/423621/matrix-with-column-and-row-headings)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2OTI4MDIxLDE4MTAzMDYzOCwxOTgzMT
-M0NTc4LC0xMDQwNDI2MDQ2LDg2MzcwODQxMV19
+eyJoaXN0b3J5IjpbMTU0NzgzNzM5OCwxMzY5MjgwMjEsMTgxMD
+MwNjM4LDE5ODMxMzQ1NzgsLTEwNDA0MjYwNDYsODYzNzA4NDEx
+XX0=
 -->
