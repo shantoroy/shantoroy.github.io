@@ -77,7 +77,7 @@ In a python file, start typing `header` and the whole snippet will appear. Press
   <a href="https://live.staticflickr.com/65535/51232407132_1e82bbe26c_w.jpg"><img src="https://live.staticflickr.com/65535/51232407132_1e82bbe26c_w.jpg"></a>
 </figure>
 
-
+If this post helps you to solve your problem, and you want to thank/support me for that, you can  [Buy me Coffee](https://www.paypal.me/shantoroy). :smiley:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NTk0MTAxMl19
+eyJoaXN0b3J5IjpbMTI0MzQxNDU1MSwxNTQ1OTQxMDEyXX0=
 -->
