@@ -73,11 +73,13 @@ A few suggestions:
 
 That's it! Have a good day.
 
+If this post helps you to solve your problem, and you want to thank/support me for that, you can  [Buy me Coffee](https://www.paypal.me/shantoroy). :smiley:
+
 
 **References**
 - [How to render math equations on your Minimal Mistakes](https://www.cross-validated.com/How-to-render-math-on-Minimal-Mistakes/)
 - [Building a Personal Site with Jekyll & Minimal Mistakes](http://www.pwills.com/posts/2017/12/20/website.html)
 - [Add Latex Support for Minimal Mistakes](https://sort-care.github.io/Latex-on-Blog/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMjE1Mjg2MV19
+eyJoaXN0b3J5IjpbMTYzMzEzMjI5MCwtOTMyMTUyODYxXX0=
 -->
