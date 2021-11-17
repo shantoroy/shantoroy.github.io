@@ -176,9 +176,14 @@ The second subplot includes logarithmic scale.
 
 Happy Documentation and writing papers.
 
+If this post helps you to solve your problem, and you want to thank/support me for that, you can  [Buy me Coffee](https://www.paypal.me/shantoroy). :smiley:
+
 ## References
 
 * [Having y-axis in log scale base 2 using pgfplots](https://tex.stackexchange.com/questions/132703/having-y-axis-in-log-scale-base-2-using-pgfplots)
 * [PGFPlots Gallery](http://pgfplots.sourceforge.net/gallery.html)
 * [PgfPlots creating bar chart from csv](https://tex.stackexchange.com/questions/364076/pgfplots-creating-bar-chart-from-csv)
 * [How to plot the first n rows of a table using pgfplots?](https://tex.stackexchange.com/questions/199376/how-to-plot-the-first-n-rows-of-a-table-using-pgfplots)
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTgxNzcxODkyNl19
+-->
