@@ -91,10 +91,14 @@ Now, run the flask again and reload the browser page.
 $ flask run
 ```
 
+That's it! Cheers!!! :sunglasses:
+
+If this post helps you to solve your problem, and you want to thank/support me for that, you can  [Buy me Coffee](https://www.paypal.me/shantoroy). :smiley:
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NDc4NDAzNiwtNjM2OTM1NTg4XX0=
+eyJoaXN0b3J5IjpbMTExMzczOTUwNywxMjY0Nzg0MDM2LC02Mz
+Y5MzU1ODhdfQ==
 -->
