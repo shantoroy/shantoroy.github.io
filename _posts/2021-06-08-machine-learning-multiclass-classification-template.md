@@ -254,6 +254,9 @@ Now, let's add individual method for each classification algorithm. Here in each
 The entire code is available in [Github](https://gist.github.com/shantoroy/2172937f5157998069d667b362e3fe81).
 
 Thanks everyone! Have a nice day!!!
+
+If this post helps you to solve your problem, and you want to thank/support me for that, you can  [Buy me Coffee](https://www.paypal.me/shantoroy). :smiley:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MjY0NzEzMSwtMTcwNzk0MDQyMV19
+eyJoaXN0b3J5IjpbMjUxOTUyMDU4LDEyOTI2NDcxMzEsLTE3MD
+c5NDA0MjFdfQ==
 -->
