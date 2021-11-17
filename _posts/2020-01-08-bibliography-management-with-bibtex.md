@@ -75,7 +75,10 @@ In this post, we will learn how to manage bibliography using BibTex in Latex. Th
 * Cite as before.
 
 > That's all folks. Cheers! :sunglasses:
+
+If this post helps you to solve your problem, and you want to thank/support me for that, you can  [Buy me Coffee](https://www.paypal.me/shantoroy). :smiley:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTExNDg0ODYsLTE5NDk0MTM5NTQsLT
-E1ODU5MzMzOTksMTM5MjM1MzA3MSw1MDcwNjc5MDBdfQ==
+eyJoaXN0b3J5IjpbMjEzNDk5Mzk0NSwtMTIxMTE0ODQ4NiwtMT
+k0OTQxMzk1NCwtMTU4NTkzMzM5OSwxMzkyMzUzMDcxLDUwNzA2
+NzkwMF19
 -->
