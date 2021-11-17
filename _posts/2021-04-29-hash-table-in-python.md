@@ -130,6 +130,8 @@ You can also take a look at some examples of `distributed hash table` where the 
 There are a few drawbacks of hashtables as well. An efficient algorithm has to ensure a good hashing technique (which are typically costly) to avoid possible collisions. However, considering scaling, hashtables work way better than other search methods.
 
 This is all for today. Feel free to let me know if I have missed anything to include in this post.
+
+If this post helps you to solve your problem, and you want to thank/support me for that, you can  [Buy me Coffee](https://www.paypal.me/shantoroy). :smiley:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzOTU0MjM0N119
+eyJoaXN0b3J5IjpbLTg2NTM0Nzk0OCwtNDM5NTQyMzQ3XX0=
 -->
