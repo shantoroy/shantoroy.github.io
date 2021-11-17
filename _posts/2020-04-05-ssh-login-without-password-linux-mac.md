@@ -67,7 +67,9 @@ Now, you can ssh to the device without password. Suppose the IP address of the r
 ```
 
 That's all!!!
+
+If this post helps you to solve your problem, and you want to thank/support me for that, you can  [Buy me Coffee](https://www.paypal.me/shantoroy). :smiley:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE3NzI2NjMzLC01MTg3NTMyMTYsLTI1Nj
-I5Mjc0MywxODAzMzA3NjA2XX0=
+eyJoaXN0b3J5IjpbMjYyMjc4NzkyLDkxNzcyNjYzMywtNTE4Nz
+UzMjE2LC0yNTYyOTI3NDMsMTgwMzMwNzYwNl19
 -->
