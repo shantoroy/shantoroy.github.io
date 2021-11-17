@@ -215,11 +215,14 @@ if __name__ == "__main__":
 
 For now, the post is very short. I will keep adding contents and details over time with further explanation. Cheers!
 
+If this post helps you to solve your problem, and you want to thank/support me for that, you can  [Buy me Coffee](https://www.paypal.me/shantoroy). :smiley:
+
 
 ## References
 * [Introduction to Deep Learning - Deep Learning basics with Python, TensorFlow and Keras p.1](https://pythonprogramming.net/introduction-deep-learning-python-tensorflow-keras/)
 * [Recurrent Neural Networks - Deep Learning basics with Python, TensorFlow and Keras p.7](https://pythonprogramming.net/recurrent-neural-network-deep-learning-python-tensorflow-keras/)
 * [Image Classification in 10 Minutes with MNIST Dataset](https://towardsdatascience.com/image-classification-in-10-minutes-with-mnist-dataset-54c35b77a38d)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNDQ5ODQzOSwtMTk5NzAwNzQ0Nl19
+eyJoaXN0b3J5IjpbLTU5MjMwNzY0MCwxMTA0NDk4NDM5LC0xOT
+k3MDA3NDQ2XX0=
 -->
