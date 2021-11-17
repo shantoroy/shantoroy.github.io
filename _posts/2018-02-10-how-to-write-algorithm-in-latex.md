@@ -202,7 +202,7 @@ The output will look like the following-
 	<a href="https://live.staticflickr.com/65535/49815560527_396893a427_z.jpg"><img src="https://live.staticflickr.com/65535/49815560527_396893a427_z.jpg"></a>
 </figure>
 
-
+If this post helps you to solve your problem, and you want to thank/support me for that, you can  [Buy me Coffee](https://www.paypal.me/shantoroy). :smiley:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1Mjg1MzM1NF19
+eyJoaXN0b3J5IjpbLTIwMzg2NDUzOTUsMTY1Mjg1MzM1NF19
 -->
