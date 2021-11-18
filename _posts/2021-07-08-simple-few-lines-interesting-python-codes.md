@@ -2,9 +2,17 @@
 
 
 1. Text to Voice
-2. Create/read barcode
-3. create/read QR code
-4. 
+```python
+
+```
+3. Create/read barcode
+4. create/read QR code
+5. CSV to Excel
+6. password generator
+
+```python
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MDE3MzE4NF19
+eyJoaXN0b3J5IjpbMjEzMDk1OTcyMV19
 -->
