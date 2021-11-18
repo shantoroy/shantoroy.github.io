@@ -277,5 +277,5 @@ defaults:
 analytics:
   provider: "google-gtag"
   google:
-    tracking_id: "G-VNWTLR55RV"
+    tracking_id: "G-1X97YRKH1L"
     anonymize_ip: false # default
