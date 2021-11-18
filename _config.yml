@@ -74,12 +74,6 @@ social:
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
-# Analytics
-analytics:
-  provider               : "google"
-  google:
-    tracking_id          : UA-114908766-1
-
 
 # Site Author
 author:
