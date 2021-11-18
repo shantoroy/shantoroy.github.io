@@ -5,14 +5,23 @@
 ```python
 
 ```
-3. Create/read barcode
-4. create/read QR code
-5. CSV to Excel
+2. Create/read barcode
+```python
+
+```
+3. create/read QR code
+```python
+
+```
+4. CSV to Excel
+```python
+
+```
 6. password generator
 
 ```python
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMDk1OTcyMV19
+eyJoaXN0b3J5IjpbLTE2MzIxMTMxMzJdfQ==
 -->
