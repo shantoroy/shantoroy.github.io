@@ -272,3 +272,10 @@ defaults:
     values:
       sidebar:
         nav: "profile"
+
+
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-VNWTLR55RV"
+    anonymize_ip: false # default
