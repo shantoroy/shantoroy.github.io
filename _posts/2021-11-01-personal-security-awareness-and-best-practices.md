@@ -4,6 +4,7 @@ title: "Cyber Security Awareness and Best Practices at Personal Level"
 header:
   image: "https://live.staticflickr.com/65535/51651624220_c268312ac6_b.jpg"
   teaser: "https://live.staticflickr.com/65535/51651624220_c268312ac6_b.jpg"
+  og_image: "https://live.staticflickr.com/65535/51651624220_c268312ac6_b.jpg"
 categories:
   - Security
 tags:
@@ -64,5 +65,5 @@ This post will briefly point out the best practices to keep your information pri
 
 Please let me know if I have missed any point. In the future posts, I will talk more details regarding everyday security.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAyMjMzOThdfQ==
+eyJoaXN0b3J5IjpbLTExNTIwNzA4MDUsNDAyMjMzOThdfQ==
 -->
