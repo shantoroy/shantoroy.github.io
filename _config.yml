@@ -83,10 +83,10 @@ author:
   location         : "TX, USA"
   links:
     - label: "Google Site"
-      icon: "fas fa-fw fa-link"
+      icon: "fab fa-fw fa-link"
       url: "http://shantoroy.me"
     - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
+      icon: "fab fa-fw fa-envelope-square"
       url: "mailto:royshantoiit@gmail.com"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
