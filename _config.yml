@@ -100,33 +100,34 @@ author:
     - label: "Youtube"
       icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/channel/UC85cVe_fhFJCtULZUi1vjkQ"
-#   google site      : # "shantoroyiit"
-#   email            : # "royshantoiit@gmail.com"
-#   uri              : # "http://shantoroy.me"
-#   home             : # null (default), "absolute or relative url to link to author home"
-#   bitbucket        :
-#   codepen          :
-#   dribbble         :
-#   flickr           : # "roysclick"
-#   facebook         : 
-#   foursquare       :
-#   github           : # "shantoroy"
-#   gitlab           :
-#   google_plus      :
-#   keybase          :
-#   instagram        : # "shanto.roy.9"
-#   lastfm           :
-#   linkedin         : # "shanto-roy"
-#   pinterest        : # "shantoroy9"
-#   soundcloud       : # "shanto-roy"
-#   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
-#   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
-#   tumblr           :
-#   twitter          :
-#   vine             :
-#   weibo            :
-#   xing             :
-#   youtube          : # "https://www.youtube.com/channel/UC85cVe_fhFJCtULZUi1vjkQ"
+      
+  google site      : # "shantoroyiit"
+  email            : # "royshantoiit@gmail.com"
+  uri              : # "http://shantoroy.me"
+  home             : # null (default), "absolute or relative url to link to author home"
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           : # "roysclick"
+  facebook         : 
+  foursquare       :
+  github           : # "shantoroy"
+  gitlab           :
+  google_plus      :
+  keybase          :
+  instagram        : # "shanto.roy.9"
+  lastfm           :
+  linkedin         : # "shanto-roy"
+  pinterest        : # "shantoroy9"
+  soundcloud       : # "shanto-roy"
+  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
+  steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
+  tumblr           :
+  twitter          :
+  vine             :
+  weibo            :
+  xing             :
+  youtube          : # "https://www.youtube.com/channel/UC85cVe_fhFJCtULZUi1vjkQ"
 
 
 
