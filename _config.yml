@@ -114,6 +114,21 @@ author:
   youtube          : "https://www.youtube.com/channel/UC85cVe_fhFJCtULZUi1vjkQ"
 
 
+
+# Site Footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/shantoroy"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/shanto-roy"
+    - label: "Buy me a Coffee"
+      icon: "fab fa fa-coffee"
+      url: "https://www.paypal.com/paypalme/shantoroy"
+
+
 # Reading Files
 include:
   - .htaccess
