@@ -85,23 +85,39 @@ author:
     - label: "Google Site"
       icon: "fas fa-fw fa-link"
       url: "http://shantoroy.me"
-  google site      : "shantoroyiit"
-  email            : "royshantoiit@gmail.com"
-  uri              : "http://shantoroy.me"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:royshantoiit@gmail.com"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/shanto-roy"
+      
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/shantoroy"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://www.instagram.com/shanto.roy.9/"
+    - label: "Youtube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/channel/UC85cVe_fhFJCtULZUi1vjkQ"
+  google site      : # "shantoroyiit"
+  email            : # "royshantoiit@gmail.com"
+  uri              : # "http://shantoroy.me"
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
   codepen          :
   dribbble         :
-  flickr           : "roysclick"
+  flickr           : # "roysclick"
   facebook         : 
   foursquare       :
-  github           : "shantoroy"
+  github           : # "shantoroy"
   gitlab           :
   google_plus      :
   keybase          :
-  instagram        : "shanto.roy.9"
+  instagram        : # "shanto.roy.9"
   lastfm           :
-  linkedin         : "shanto-roy"
+  linkedin         : # "shanto-roy"
   pinterest        : # "shantoroy9"
   soundcloud       : # "shanto-roy"
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
@@ -111,7 +127,7 @@ author:
   vine             :
   weibo            :
   xing             :
-  youtube          : "https://www.youtube.com/channel/UC85cVe_fhFJCtULZUi1vjkQ"
+  youtube          : # "https://www.youtube.com/channel/UC85cVe_fhFJCtULZUi1vjkQ"
 
 
 
