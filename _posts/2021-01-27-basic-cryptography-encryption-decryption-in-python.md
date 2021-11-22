@@ -125,6 +125,7 @@ Decrypted Text: b'this is a test'
 ## References
 1. [Python and cryptography with pycrypto](https://www.laurentluce.com/posts/python-and-cryptography-with-pycrypto/)
 2. [Pycrypto Example: Encryption And Decryption In Python](https://appdividend.com/2020/06/16/pycrypto-example-encryption-and-decryption-in-python/)
+3. [Python Encryption and Decryption with PyCryptodome](https://nitratine.net/blog/post/python-encryption-and-decryption-with-pycryptodome/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDUyMjM5ODNdfQ==
+eyJoaXN0b3J5IjpbNTYwNTAyMDY2XX0=
 -->
