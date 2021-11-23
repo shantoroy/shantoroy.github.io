@@ -274,9 +274,9 @@ Also, the associated blog post links are available in the `ReadMe` file over the
 
 Have a good day! Cheers!!!
 
-If this post helps you to solve your problem, and you want to thank/support me for that, you can  [Buy me Coffee](https://www.paypal.me/shantoroy). :smiley:
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTI3Njg5NDUsLTE1OTYxNjI0NDgsMj
-AzOTkyODczMSwtMTg4MDM1NzQyNSw3OTQ1Mzc0NTAsMTk2NDU5
-MDgyMF19
+eyJoaXN0b3J5IjpbMTE2OTc1NTk4MCwtMTU5NjE2MjQ0OCwyMD
+M5OTI4NzMxLC0xODgwMzU3NDI1LDc5NDUzNzQ1MCwxOTY0NTkw
+ODIwXX0=
 -->
