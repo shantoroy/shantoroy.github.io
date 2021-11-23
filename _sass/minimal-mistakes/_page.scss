@@ -54,7 +54,8 @@
 
 .page__title {
   margin-top: 0;
-  line-height: 1;
+  line-height: 1.5;
+  font-size: 2em;
 
   & + .page__meta {
     margin-top: -0.5em;
@@ -70,12 +71,13 @@
   h2 {
     padding-bottom: 0.5em;
     border-bottom: 1px solid $border-color;
+    font-size: $type-size-2;
   }
 
   p,
   li,
   dl {
-    font-size: 1em;
+    font-size: 18px;
   }
 
   /* paragraph indents */
