@@ -117,14 +117,14 @@ Once again, you can also find the code and output in the [Overleaf Document](htt
 
 That's all folks. Cheers!!! :smiley:
 
-If this post helps you to solve your problem, and you want to thank/support me for that, you can  [Buy me Coffee](https://www.paypal.me/shantoroy). :smiley:
+
 
 ## References
 1. [edge from parent (dashed) makes nodes themselves dashed?](https://tex.stackexchange.com/questions/350252/edge-from-parentdashed-makes-nodes-themselves-dashed)
 2. [Trees Examples](http://www.texample.net/tikz/examples/feature/trees/)
 3. [TikZ and pgf](https://www.bu.edu/math/files/2013/08/tikzpgfmanual.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjI1Njc4OTEsLTY3MzIxNTI4MiwtMj
+eyJoaXN0b3J5IjpbLTEzNDk5NTk2MzgsLTY3MzIxNTI4MiwtMj
 YwMjgzNjMwLC01MjYyNDM2MSwyNDY5NDMxMDYsOTk2NTY3OTQ1
 XX0=
 -->
