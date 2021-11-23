@@ -74,12 +74,12 @@ The output is as follows:
 
 Once again, you will find the code and output in the [Overleaf Document](https://www.overleaf.com/read/bqjtshzgspsj).
 
-If this post helps you to solve your problem, and you want to thank/support me for that, you can  [Buy me Coffee](https://www.paypal.me/shantoroy). :smiley:
+
 
 ## References
 * [Grouping of Aligned Table Columns in Combination with Multicolumn](https://tex.stackexchange.com/questions/262760/grouping-of-aligned-table-columns-in-combination-with-multicolumn-and-a-long-hea)
 * [How Can I Insert a Big Table in IEEE Template](https://tex.stackexchange.com/questions/305411/how-can-i-insert-a-big-table-in-ieee-template)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMzYzMjU1NiwyMDU0MTY3OTQ5LC0yMD
-cyNjY4MDkxXX0=
+eyJoaXN0b3J5IjpbLTEzNzgyNjQ4NTUsMjA1NDE2Nzk0OSwtMj
+A3MjY2ODA5MV19
 -->
