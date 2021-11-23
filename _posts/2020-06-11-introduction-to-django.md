@@ -154,12 +154,12 @@ Now, reload the browser page and it will work just fine.
 <figure>
 	<a href="https://live.staticflickr.com/65535/49994065807_85ff35015e_c.jpg"><img src="https://live.staticflickr.com/65535/49994065807_85ff35015e_c.jpg"></a></figure>
 
-If this post helps you to solve your problem, and you want to thank/support me for that, you can  [Buy me Coffee](https://www.paypal.me/shantoroy). :smiley:
+
 
 
 ## Reference
 1. [Watch me build a real startup with Python and JavaScript | Web Development | Build A Startup #1](https://www.youtube.com/watch?v=UyQn0BhVqNU)
 2. [Making a Hello World App with Django | Web Development | Build a Startup #2](https://www.youtube.com/watch?v=h7rvyDK70FA)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU3MzA2OTQ2LC01NjkzNjE5NDldfQ==
+eyJoaXN0b3J5IjpbNDc2NzkxNjE1LC01NjkzNjE5NDldfQ==
 -->
