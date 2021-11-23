@@ -145,7 +145,7 @@ This is how we can add custom environment for each and every language. However, 
 
 That's it for today! Cheers!!!
 
-If this post helps you to solve your problem, and you want to thank/support me for that, you can  [Buy me Coffee](https://www.paypal.me/shantoroy). :smiley:
+
 
 
 ## References
@@ -153,6 +153,6 @@ If this post helps you to solve your problem, and you want to thank/support me f
 * [Code listing](https://www.overleaf.com/learn/latex/Code_listing)
 * [How to highlight Python syntax in LaTeX Listings \lstinputlistings command](https://tex.stackexchange.com/questions/83882/how-to-highlight-python-syntax-in-latex-listings-lstinputlistings-command)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzkwMjM5MjQsLTE1Mjk0MDQxNjddfQ
+eyJoaXN0b3J5IjpbLTE3MDkyODMxMjcsLTE1Mjk0MDQxNjddfQ
 ==
 -->
