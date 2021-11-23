@@ -118,15 +118,15 @@ If you are interested to learn about OS fingerprinting from PCAP files, you can 
 
 That's all Folks, cheers!
 
-If this post helps you to solve your problem, and you want to thank/support me for that, you can  [Buy me Coffee](https://www.paypal.me/shantoroy). :smiley:
+
 
 ## References
 1. [Wireshark Packet Analyzer Official SIte](https://www.wireshark.org/)
 2. [tshark man page](https://www.wireshark.org/docs/man-pages/tshark.html)
 3. [Splitting PCAP Files with tcpdump](https://support.metageek.com/hc/en-us/articles/115000910348-Splitting-PCAP-Files-with-tcpdump)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNzUyODE0LDE5NzcxNzc1ODcsLTk4Nz
-g3MjE2NSw4OTgyMDQ2NiwtNDUzMjU5NjY3LDExNjg1NDI5NDMs
-MTA3NzQ0MzI4OCwtNzI3Mzc2MDQ3LDU0MDg2MTk2NCwxMDgxMT
-QwMzQzLDI2ODI0OTAwXX0=
+eyJoaXN0b3J5IjpbMTE1ODg0NjU0MywxOTc3MTc3NTg3LC05OD
+c4NzIxNjUsODk4MjA0NjYsLTQ1MzI1OTY2NywxMTY4NTQyOTQz
+LDEwNzc0NDMyODgsLTcyNzM3NjA0Nyw1NDA4NjE5NjQsMTA4MT
+E0MDM0MywyNjgyNDkwMF19
 -->
