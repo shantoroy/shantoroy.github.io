@@ -188,13 +188,13 @@ The following example has two subplots-
 \end{figure*}
 ```
 
-If this post helps you to solve your problem, and you want to thank/support me for that, you can  [Buy me Coffee](https://www.paypal.me/shantoroy). :smiley:
+
 
 ## References
 * [Plotting sinx and cosx on pgf tikz](https://tex.stackexchange.com/questions/231052/plotting-fx-sin-x-and-fx-cos-x-on-pgf-tikz)
 * [tikz or pgfplots- plotting a trigonometric function](https://tex.stackexchange.com/questions/361915/tikz-or-pgfplots-plotting-a-trigonometric-function-cos-sin-tan)
 * [How to plot sinx and cosx with tikz](https://tex.stackexchange.com/questions/16232/how-to-plot-fx-sinx-kx-cosx-and-ux-x%C2%B2-with-tikz)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjUzNzcxNzcsMTUzNzI1OTA2NywtMT
-U2ODI3MjkyMV19
+eyJoaXN0b3J5IjpbLTU4NDA5ODkzNCwxNTM3MjU5MDY3LC0xNT
+Y4MjcyOTIxXX0=
 -->
