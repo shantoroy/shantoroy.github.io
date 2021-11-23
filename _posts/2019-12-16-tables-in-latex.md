@@ -192,11 +192,10 @@ Test3 & 1600 & SC & 5013 & Ryu & 32 & R & 208 \\ \hhline{--||------}
 
 Once again, all the codes are available in the [overleaf document](https://www.overleaf.com/read/nybtcgkxdjhd). 
 
-If this post helps you to solve your problem, and you want to thank/support me for that, you can  [Buy me Coffee](https://www.paypal.me/shantoroy). :smiley:
 
 Cheers!!! :smiley::sunglasses::v:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MTUzNzI5MiwtNzE3ODY0NjE2LC0xNz
+eyJoaXN0b3J5IjpbLTMzNzYzOTQ1OSwtNzE3ODY0NjE2LC0xNz
 gxMjUxMDI5LDIxNzE0MTc5MiwxMjE2NjkxODIyLC0xMzAwOTE1
 ODc3LDExNzA4OTA5OCwtNjA1MjEyOTg5LDk4MTUyNzEyNCwyNT
 I5MjU5NjAsNTExMzcwODc5LDQwOTc0NzM0MSwtNTk4NjAwOTEw
