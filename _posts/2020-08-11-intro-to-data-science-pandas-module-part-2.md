@@ -148,11 +148,10 @@ In the [previous post](https://shantoroy.com/python/intro-to-data-science-pandas
 
 I will keep adding useful functionalities of `pandas dataframe` in this post.
 
-If this post helps you to solve your problem, and you want to thank/support me for that, you can  [Buy me Coffee](https://www.paypal.me/shantoroy). :smiley:
 
 ## References
 1. [100 pandas tricks to save you time and energy](https://www.dataschool.io/python-pandas-tips-and-tricks/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkwOTIwNzUsOTg3MDc3OTMwLDEzNTkwMD
-U3NjksNzczMTY1NjE1XX0=
+eyJoaXN0b3J5IjpbMTE4NzgzMzIxMiw5ODcwNzc5MzAsMTM1OT
+AwNTc2OSw3NzMxNjU2MTVdfQ==
 -->
