@@ -3,7 +3,7 @@ layout: single
 title: "Introduction to Data Science: Matplotlib Module"
 header:
   overlay_image: "https://live.staticflickr.com/65535/51699602895_9f512e632d_o.png"
-  teaser: "https://live.staticflickr.com/65535/51699602895_9f512e632d_o.png"
+  teaser: "https://live.staticflickr.com/65535/51699752275_9f18c8cb49_o.png"
 categories:
   - Python
 tags:
@@ -263,6 +263,6 @@ In this post, I tried to cover basic plotting using the `matplotlib` module. So 
 
 Thanks for your patience. Have a good day!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODQ4MDQzNzEsLTEzNDI1MjIxNzcsMj
+eyJoaXN0b3J5IjpbLTEyNzY5MzIwMjEsLTEzNDI1MjIxNzcsMj
 U4OTU0NTY1XX0=
 -->
