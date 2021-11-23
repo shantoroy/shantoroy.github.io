@@ -73,7 +73,7 @@ A few suggestions:
 
 That's it! Have a good day.
 
-If this post helps you to solve your problem, and you want to thank/support me for that, you can  [Buy me Coffee](https://www.paypal.me/shantoroy). :smiley:
+
 
 
 **References**
@@ -81,5 +81,5 @@ If this post helps you to solve your problem, and you want to thank/support me f
 - [Building a Personal Site with Jekyll & Minimal Mistakes](http://www.pwills.com/posts/2017/12/20/website.html)
 - [Add Latex Support for Minimal Mistakes](https://sort-care.github.io/Latex-on-Blog/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMzEzMjI5MCwtOTMyMTUyODYxXX0=
+eyJoaXN0b3J5IjpbLTE2MTQ4MjA0OSwtOTMyMTUyODYxXX0=
 -->
