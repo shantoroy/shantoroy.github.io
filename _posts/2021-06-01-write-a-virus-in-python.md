@@ -238,12 +238,12 @@ Also, the associated blog post links are available in the `ReadMe` file over the
 
 Have a good day! Cheers!!!
 
-If this post helps you to solve your problem, and you want to thank/support me for that, you can  [Buy me Coffee](https://www.paypal.me/shantoroy). :smiley:
+
 
 ## References
 1. [Viruses – From Newbie to pro](https://www.geeksforgeeks.org/viruses-from-newbie-to-pro/)
 2. [os- Miscellaneous operating system interfaces](https://docs.python.org/3/library/os.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NDEyMzAxMiwyMDQyNzg0Nzk3LC02Nj
+eyJoaXN0b3J5IjpbMTYzNjg0NDk5MywyMDQyNzg0Nzk3LC02Nj
 U1ODM3NjldfQ==
 -->
