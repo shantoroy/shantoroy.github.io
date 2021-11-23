@@ -255,8 +255,8 @@ The entire code is available in [Github](https://gist.github.com/shantoroy/21729
 
 Thanks everyone! Have a nice day!!!
 
-If this post helps you to solve your problem, and you want to thank/support me for that, you can  [Buy me Coffee](https://www.paypal.me/shantoroy). :smiley:
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUxOTUyMDU4LDEyOTI2NDcxMzEsLTE3MD
-c5NDA0MjFdfQ==
+eyJoaXN0b3J5IjpbLTE1ODQ0ODg5MDUsMTI5MjY0NzEzMSwtMT
+cwNzk0MDQyMV19
 -->
