@@ -41,3 +41,6 @@ Sometimes generating a table in latex requires a lot of hassles. In this case, I
 I want to recommend using only [Mendeley](https://www.mendeley.com/) for this purpose. It is free to use and has a desktop version as well. You can create folders here and keep documents there. All the necessary information is collected by itself from online. It's easy to create notes, tags as well as to organize according to author names, journals, years etc. It also provides an easier reference management system. In a word it's almost all in one. You might have heard the names of [Zotero](https://www.zotero.org), [Qiqqa](http://www.qiqqa.com) and [Docear](http://www.docear.org); they are quite good as `Mendeley` is but don't provide online storage service.
 
 These cloud-based tools are on my list to help myself to carry on researches. Do you have any more in mind, please suggest in the comment section.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMjAwODI5MDI5NV19
+-->
