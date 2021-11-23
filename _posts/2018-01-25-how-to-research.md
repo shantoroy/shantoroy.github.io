@@ -111,3 +111,6 @@ It's not done yet although. You need to find the reviewers comments and read the
 Complete the registration process and wait. In case of conference papers, you will have to present the paper either through oral or poster presentation. Then it will take up to a few months to have the paper available in corresponding digital libraries. In case of journals, no presentation is required. You just have to wait till the manuscript is published.
 
 Good luck!!! :)
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE5MzAzNDcyMDBdfQ==
+-->
