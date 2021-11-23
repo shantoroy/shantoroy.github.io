@@ -104,10 +104,10 @@ Shanto Roy
 
 That's it for today. Cheers! 
 
-If this post helps you to solve your problem, and you want to thank/support me for that, you can  [Buy me Coffee](https://www.paypal.me/shantoroy). :smiley:
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5OTAzOTYwMCwxMjEyMjE5Mjg4LC0xOD
-c3MTM1OTc5LC0xMjMwODMwMTM0LC0xMjk0MDcxNDAzLDg3MTI5
-Nzc5NSwtMTE2NTE1NjU1LDE0OTQwODE3MjEsODU4NTc3NTI3LC
-01Njc0MTA0ODFdfQ==
+eyJoaXN0b3J5IjpbLTE5NjA0MjQzLDEyMTIyMTkyODgsLTE4Nz
+cxMzU5NzksLTEyMzA4MzAxMzQsLTEyOTQwNzE0MDMsODcxMjk3
+Nzk1LC0xMTY1MTU2NTUsMTQ5NDA4MTcyMSw4NTg1Nzc1MjcsLT
+U2NzQxMDQ4MV19
 -->
