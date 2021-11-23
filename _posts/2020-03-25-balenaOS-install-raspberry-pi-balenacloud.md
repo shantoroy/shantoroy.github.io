@@ -70,11 +70,11 @@ I added three devices and the dashboard looks like as follows:
 <figure>
 	<a href="https://live.staticflickr.com/65535/49803482718_713ee46128_b.jpg"><img src="https://live.staticflickr.com/65535/49803482718_713ee46128_b.jpg"></a></figure>
 
-If this post helps you to solve your problem, and you want to thank/support me for that, you can  [Buy me Coffee](https://www.paypal.me/shantoroy). :smiley:
+
 
 ## Reference:
 1. [Get started with Raspberry Pi 4 and Python](https://www.balena.io/docs/learn/getting-started/raspberrypi4-64/python/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMDY3MTE0OCwzOTQzMjEzNjEsNjg1NT
-I1MTQ0XX0=
+eyJoaXN0b3J5IjpbMzk0MzIxMzYxLDM5NDMyMTM2MSw2ODU1Mj
+UxNDRdfQ==
 -->
