@@ -91,7 +91,8 @@ Tax treaty exemption means you will have to pay reduced amount of tax each year.
 * W-8BEN
     
 ##   Apply for a Credit Card
-In USA, `credit card` is a must, and you need to apply for one as soon as you get your `SSN`. However, you cannot apply for any credit card you want without building a good credit score. Initially, students start with the `Discover` credit card that offers `$50` for both referee and referrer. Once you build your score, you become qualified for the other ones.
+In USA, `credit card` is a must, and you need to apply for one as soon as you get your `SSN`. However, you cannot apply for any credit card you want without building a good credit score. Initially, students start with the [Discover](https://refer.discover.com/s/shantoroy2016?advocate.partner_share_id=5161100829) credit card that offers `$50` for both referee and referrer. Once you build your score, you become qualified for the other ones. If you need to know my credit journey, you can read my other post on this:
+
 
 ##   Get driving learner's permit
 You need to apply for driving license if you want to have cars. First, you will have to apply for the learner’s permit. Attend the [Online Course](https://driversed.com/), get the **`completion certificate`**, and take it to the Deaprtment of Public Safety (DPS) along with other necessary documents:
@@ -117,5 +118,5 @@ _________
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NzgxODQ5NSwtMjEyNzc0MTA4MF19
+eyJoaXN0b3J5IjpbMTMzNjI4OTU1OSwtMjEyNzc0MTA4MF19
 -->
