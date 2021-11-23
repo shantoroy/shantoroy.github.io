@@ -123,14 +123,14 @@ I will post details on how to send message via email or send an attachment with 
 
 That's it! Thanks for being with me. Cheers!
 
-If this post helps you to solve your problem, and you want to thank/support me for that, you can  [Buy me Coffee](https://www.paypal.me/shantoroy). :smiley:
+
 
 ## References
 * [pynput: Handling the keyboard](https://pynput.readthedocs.io/en/latest/keyboard.html)
 * [Design a Keylogger in Python](https://www.tutorialspoint.com/design-a-keylogger-in-python)
 * [How to Make a Keylogger in Python](https://www.thepythoncode.com/article/write-a-keylogger-python)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NjExMTgzMywtMTM2OTg2NTg2LDE3OT
+eyJoaXN0b3J5IjpbLTMyMjEzNzM5OCwtMTM2OTg2NTg2LDE3OT
 E2NTU2MzgsLTE2NDc4MzE0OCwtNzQzNzk1MDc4LDEzMDIzMzE4
 MzZdfQ==
 -->
