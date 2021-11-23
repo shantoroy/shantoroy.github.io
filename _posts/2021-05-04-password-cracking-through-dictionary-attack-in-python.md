@@ -136,9 +136,9 @@ You can check the [code and files](https://github.com/shantoroy/intro-2-cybersec
 
 That's all for today, cheers!
 
-If this post helps you to solve your problem, and you want to thank/support me for that, you can  [Buy me Coffee](https://www.paypal.me/shantoroy). :smiley:
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk1MDA4NTg2LDE2NjE0Njc3NTUsMTI4Mz
-YyMzQ4OSwtMTU1MTEyMDU5Myw0NTE1MDk2NDUsOTUyNDY4Mjcw
-LDcyNTM2MzE0Miw3NTg4MDQ0ODEsMTc4MDg1NzkwOF19
+eyJoaXN0b3J5IjpbLTM3NDQwMTA4MSwxNjYxNDY3NzU1LDEyOD
+M2MjM0ODksLTE1NTExMjA1OTMsNDUxNTA5NjQ1LDk1MjQ2ODI3
+MCw3MjUzNjMxNDIsNzU4ODA0NDgxLDE3ODA4NTc5MDhdfQ==
 -->
