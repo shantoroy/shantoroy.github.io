@@ -18,6 +18,7 @@ tags:
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "heart"
+excerpt: "This post explains the basic syntax of matplotlib module for data visualization."
 ---
 
 In this tutorial, we will see basic syntax of producing plots for data visualization using the `matplotlib` module. `matplotlib` and `seaborn` are widely used for basic data visualization. `seaborn` actually uses the underlying functionalities of the `matplotlib` module for more beautiful less code-oriented visualizations.
@@ -261,5 +262,5 @@ In this post, I tried to cover basic plotting using the `matplotlib` module. So 
 
 Thanks for your patience. Have a good day!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwOTAyMDYxMiwyNTg5NTQ1NjVdfQ==
+eyJoaXN0b3J5IjpbLTEzNDI1MjIxNzcsMjU4OTU0NTY1XX0=
 -->
