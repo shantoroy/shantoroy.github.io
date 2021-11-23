@@ -230,7 +230,7 @@ The output should look like following:
 	<a href="https://live.staticflickr.com/65535/49145055902_89d8c6fdf9_k.jpg"><img src="https://live.staticflickr.com/65535/49145055902_89d8c6fdf9_k.jpg"></a>
 </figure>
 
-If this post helps you to solve your problem, and you want to thank/support me for that, you can  [Buy me Coffee](https://www.paypal.me/shantoroy). :smiley:
+If this post helps you to solve your problem, and you want to thank/support me for that, you can  [Buy me a Coffee](https://www.buymeacoffee.com/shantoroy). :smiley:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMDczNzc3NV19
+eyJoaXN0b3J5IjpbMjAzMjgwODEzMV19
 -->
