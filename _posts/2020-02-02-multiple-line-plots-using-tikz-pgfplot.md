@@ -98,7 +98,8 @@ The output can be viewed in the [Overleaf Document](https://www.overleaf.com/rea
 
 That's it for today! Cheers!!!
 
-If this post helps you to solve your problem, and you want to thank/support me for that, you can  [Buy me Coffee](https://www.paypal.me/shantoroy). :smiley:
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDMzNzUxODEsMTQ1OTAxMzMzMl19
+eyJoaXN0b3J5IjpbMTUyNTcxMjMwNCwtMTg0MzM3NTE4MSwxND
+U5MDEzMzMyXX0=
 -->
