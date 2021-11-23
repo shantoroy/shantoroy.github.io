@@ -105,7 +105,7 @@ The output will look like the following-
   <a href="https://farm5.staticflickr.com/4910/44165382050_376fa6e935_b.jpg"><img src="https://farm5.staticflickr.com/4910/44165382050_376fa6e935_b.jpg"></a>
 </figure>
 
-If this post helps you to solve your problem, and you want to thank/support me for that, you can  [Buy me a Coffee](https://www.buymeacoffee.com/shantoroy). :smiley:
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0Mjc5Mzg5NV19
+eyJoaXN0b3J5IjpbLTE2MDI2MzM2ODZdfQ==
 -->
