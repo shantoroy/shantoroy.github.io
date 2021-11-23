@@ -66,12 +66,12 @@ comments:
 
 Now, you are good to go. Cheers!!!
 
-If this post helps you to solve your problem, and you want to thank/support me for that, you can  [Buy me Coffee](https://www.paypal.me/shantoroy). :smiley:
+
 
 ## References
 * [Comments Moderation using Facebook Comment Plugin](https://developers.facebook.com/docs/plugins/comments)
 * [Comments Plugin Moderation Tool not working](https://stackoverflow.com/questions/9120814/comments-plugin-moderation-tool-not-working)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyOTYwNzEzMSwxOTUxMDg1OTA1LDIwNT
+eyJoaXN0b3J5IjpbMTg3NTIyMzM2OCwxOTUxMDg1OTA1LDIwNT
 U0NjA2MjVdfQ==
 -->
