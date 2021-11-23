@@ -176,7 +176,6 @@ The second subplot includes logarithmic scale.
 
 Happy Documentation and writing papers.
 
-If this post helps you to solve your problem, and you want to thank/support me for that, you can  [Buy me a Coffee](https://www.buymeacoffee.com/shantoroy). :smiley:
 
 ## References
 
@@ -185,5 +184,5 @@ If this post helps you to solve your problem, and you want to thank/support me f
 * [PgfPlots creating bar chart from csv](https://tex.stackexchange.com/questions/364076/pgfplots-creating-bar-chart-from-csv)
 * [How to plot the first n rows of a table using pgfplots?](https://tex.stackexchange.com/questions/199376/how-to-plot-the-first-n-rows-of-a-table-using-pgfplots)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU4NjQ3ODc2XX0=
+eyJoaXN0b3J5IjpbLTI3NzYyODc2OV19
 -->
