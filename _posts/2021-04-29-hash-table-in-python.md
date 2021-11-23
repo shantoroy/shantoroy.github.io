@@ -131,7 +131,7 @@ There are a few drawbacks of hashtables as well. An efficient algorithm has to e
 
 This is all for today. Feel free to let me know if I have missed anything to include in this post.
 
-If this post helps you to solve your problem, and you want to thank/support me for that, you can  [Buy me Coffee](https://www.paypal.me/shantoroy). :smiley:
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NTM0Nzk0OCwtNDM5NTQyMzQ3XX0=
+eyJoaXN0b3J5IjpbMTQ2MDU2OTEwNSwtNDM5NTQyMzQ3XX0=
 -->
