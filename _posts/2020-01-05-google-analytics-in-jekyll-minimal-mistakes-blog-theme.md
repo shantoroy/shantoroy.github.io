@@ -15,7 +15,7 @@ tags:
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "heart"
-excerpt: "This post explains the way of setting up your minimal mistakes theme blog so that you can optimize your site using Google Adsense."
+excerpt: "This post explains the way of setting up your minimal mistakes theme blog so that you can optimize your site using Google Analytics."
 ---
 
 
@@ -63,5 +63,5 @@ Or you can add the code in a `custom.html` file and select `provider: "custom"` 
 1. https://github.com/mmistakes/minimal-mistakes/issues/85
 2. https://mmistakes.github.io/minimal-mistakes/docs/configuration/#seo-social-sharing-and-analytics-settings
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDUxNTM4MDZdfQ==
+eyJoaXN0b3J5IjpbLTM5Mjk4MzczMSwtMTg0NTE1MzgwNl19
 -->
