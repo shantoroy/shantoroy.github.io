@@ -166,7 +166,9 @@ plt.show()
 
 That's it for now. In the later posts, I will include code snippets for stylish data visualization using `seaborn` and interactive visualization using `plotly` modules.
 
+For accessing all `data science in python` related posts, check this post:
 
+[Collection of  `Data Science in Python`  Posts in my Blog](https://shantoroy.com/python/data-science-in-python-posts-in-my-blog/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MTQ3OTYyOCwyMTM2MzY1NDQyXX0=
+eyJoaXN0b3J5IjpbLTEwNjY1NjQ5OTYsMjEzNjM2NTQ0Ml19
 -->
