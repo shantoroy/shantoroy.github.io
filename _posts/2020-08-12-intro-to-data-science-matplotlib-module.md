@@ -273,10 +273,17 @@ axes[1].set_yscale("log")
 axes[1].set_title("Logarithmic scale (y)");
 ```
 
+### Styling
+You can use styles for different looking plots. Simply check the available styles using the following command
+```python
+print(plt.style.available)
+```
+You can find the styles names as follo
+
 In this post, I tried to cover basic plotting using the `matplotlib` module. So far, we have learnt how to draw line charts. In the next tutorial, we will learn other plots, for example, bar plots, pie plots, scatter plots, and others.
 
 Thanks for your patience. Have a good day!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDE3NTg3MjIsLTEyNzY5MzIwMjEsLT
-EzNDI1MjIxNzcsMjU4OTU0NTY1XX0=
+eyJoaXN0b3J5IjpbMTk2NTQ0NTcxNiwtMTA0MTc1ODcyMiwtMT
+I3NjkzMjAyMSwtMTM0MjUyMjE3NywyNTg5NTQ1NjVdfQ==
 -->
