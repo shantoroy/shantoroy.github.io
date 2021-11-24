@@ -306,9 +306,13 @@ plt.show()
 
 In this post, I tried to cover basic plotting using the `matplotlib` module. So far, we have learnt how to draw line charts. In the [next tutorial](https://shantoroy.com/python/intro-to-data-science-data-visualization-matplotlib-part-2/), we will learn other plots, for example, bar plots, pie plots, scatter plots, and others.
 
+For accessing all `data science in python` related posts, check this post:
+
+[Collection of  `Data Science in Python`  Posts in my Blog](https://shantoroy.com/python/data-science-in-python-posts-in-my-blog/).
+
 Thanks for your patience. Have a good day!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTg2MzQ2NTksNjg1MjA5MzYsLTEwND
-E3NTg3MjIsLTEyNzY5MzIwMjEsLTEzNDI1MjIxNzcsMjU4OTU0
-NTY1XX0=
+eyJoaXN0b3J5IjpbLTI1Mzc4MzgzOSw2ODUyMDkzNiwtMTA0MT
+c1ODcyMiwtMTI3NjkzMjAyMSwtMTM0MjUyMjE3NywyNTg5NTQ1
+NjVdfQ==
 -->
