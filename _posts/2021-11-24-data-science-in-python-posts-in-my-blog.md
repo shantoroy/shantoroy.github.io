@@ -30,7 +30,7 @@ I have been writing on `data science in python` and have already included severa
 2. [Introduction to Data Science: Pandas Module (Part 01)](https://shantoroy.com/python/intro-to-data-science-pandas-module/)
 3. [Introduction to Data Science: Pandas Module (Part 02)](https://shantoroy.com/python/intro-to-data-science-pandas-module-part-2/)
 4. [Introduction to Data Science: Matplotlib Module (Part 01)](https://shantoroy.com/python/intro-to-data-science-matplotlib-module/)
-5. [Introduction to Data Science: Matplotlib Module (Part 02)](https://shantoroy.com/intro-to-data-science-data-visualization-matplotlib-part-2/)
+5. [Introduction to Data Science: Matplotlib Module (Part 02)](https://shantoroy.com/python/intro-to-data-science-data-visualization-matplotlib-part-2/)
 
 ## Machine/Deep Learning
 1. [Machine Learning: Multiclass Classification Template for any Classification Dataset](https://shantoroy.com/machine-learning/machine-learning-multiclass-classification-template/)
@@ -40,6 +40,6 @@ I will keep adding related posts and include here for your reference.
 
 Happy Learning!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNDYwMDU2OCwtMTY0NDgwODYxOSwxNT
-YxODEzODI1XX0=
+eyJoaXN0b3J5IjpbLTE4NzA2NzkwNTksMTIzNDYwMDU2OCwtMT
+Y0NDgwODYxOSwxNTYxODEzODI1XX0=
 -->
