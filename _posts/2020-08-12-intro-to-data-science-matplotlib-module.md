@@ -259,10 +259,24 @@ axes.plot(x, y1, color="blue", lw=3, ls='-', marker='+')
 axes.plot(x, y2, color="blue", lw=3, ls='--', marker='o')
 ```
 
+### Scaling
+Use logarithmic scales for large difference values
+
+```python
+fig, axes = plt.subplots(1, 2, figsize=(10,4))
+      
+axes[0].plot(x, x**3, x, np.exp(x))
+axes[0].set_title("Normal scale")
+
+axes[1].plot(x, x**2, x, np.exp(x))
+axes[1].set_yscale("log")
+axes[1].set_title("Logarithmic scale (y)");
+```
+
 In this post, I tried to cover basic plotting using the `matplotlib` module. So far, we have learnt how to draw line charts. In the next tutorial, we will learn other plots, for example, bar plots, pie plots, scatter plots, and others.
 
 Thanks for your patience. Have a good day!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzY5MzIwMjEsLTEzNDI1MjIxNzcsMj
-U4OTU0NTY1XX0=
+eyJoaXN0b3J5IjpbLTEzOTIzNTQzNjYsLTEyNzY5MzIwMjEsLT
+EzNDI1MjIxNzcsMjU4OTU0NTY1XX0=
 -->
