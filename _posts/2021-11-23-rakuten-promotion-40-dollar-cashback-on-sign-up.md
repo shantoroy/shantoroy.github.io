@@ -28,7 +28,15 @@ If you want to earn $40$ dollar cashback after spending $40$ dollar on selected 
 
 https://www.rakuten.com/r/STONEH425?eeid=28187
 
+Apart from the current offer, you can always get some cashbacks if you have a Rakuten account. For example, these are the current offers in selected shops:
+
+<figure>
+  <a href="https://live.staticflickr.com/65535/51702906384_4cca174910_o.png"><img src="https://live.staticflickr.com/65535/51702906384_4cca174910_o.png"></a>
+</figure>
+<br/>
+
 Have a good day and shop unlimited during this holiday season.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MDAwNzczOSwtMzIzOTc1NDY2XX0=
+eyJoaXN0b3J5IjpbLTEwOTcxMzc5MDksMTQ4MDAwNzczOSwtMz
+IzOTc1NDY2XX0=
 -->
