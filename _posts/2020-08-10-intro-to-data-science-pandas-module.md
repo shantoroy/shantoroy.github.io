@@ -206,10 +206,14 @@ You can use a few other options described below:
 
 In this post, I just showed a few basic uses of the module `pandas`. In the [next post](https://shantoroy.com/python/intro-to-data-science-pandas-module-part-2/), we will take a more elaborate look at the module. 
 
-Till then, cheers!
+For accessing all `data science in python` related posts, check this post:
+
+[Collection of  `Data Science in Python`  Posts in my Blog](https://shantoroy.com/python/data-science-in-python-posts-in-my-blog/).
+
+Have a nice day, cheers!
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTQxOTM5NzgsMjA5MDc0Mjc2LC0xOD
-U0Mzc2OTAxLC0xNjIxNjUwNzhdfQ==
+eyJoaXN0b3J5IjpbMTc4OTIxMjg2NCwyMDkwNzQyNzYsLTE4NT
+QzNzY5MDEsLTE2MjE2NTA3OF19
 -->
