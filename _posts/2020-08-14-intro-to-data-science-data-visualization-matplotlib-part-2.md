@@ -1,4 +1,3 @@
-
 ---
 layout: single
 title: "Introduction to Data Science: Matplotlib Module (Part 02)"
@@ -167,5 +166,5 @@ plt.show()
 
 That's it for now. In the later posts, I will include code snippets for stylish data visualization using `seaborn` and interactive visualization using `plotly` modules.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNjM2NTQ0Ml19
+eyJoaXN0b3J5IjpbLTc2MDgyNjc2OCwyMTM2MzY1NDQyXX0=
 -->
