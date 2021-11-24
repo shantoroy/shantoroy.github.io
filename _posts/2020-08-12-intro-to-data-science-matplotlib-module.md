@@ -304,10 +304,11 @@ fig.tight_layout()
 plt.show()
 ```
 
-In this post, I tried to cover basic plotting using the `matplotlib` module. So far, we have learnt how to draw line charts. In the next tutorial, we will learn other plots, for example, bar plots, pie plots, scatter plots, and others.
+In this post, I tried to cover basic plotting using the `matplotlib` module. So far, we have learnt how to draw line charts. In the [next tutorial](https://shantoroy.com/python/intro-to-data-science-data-visualization-matplotlib-part-2/), we will learn other plots, for example, bar plots, pie plots, scatter plots, and others.
 
 Thanks for your patience. Have a good day!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg1MjA5MzYsLTEwNDE3NTg3MjIsLTEyNz
-Y5MzIwMjEsLTEzNDI1MjIxNzcsMjU4OTU0NTY1XX0=
+eyJoaXN0b3J5IjpbLTE5NTg2MzQ2NTksNjg1MjA5MzYsLTEwND
+E3NTg3MjIsLTEyNzY5MzIwMjEsLTEzNDI1MjIxNzcsMjU4OTU0
+NTY1XX0=
 -->
