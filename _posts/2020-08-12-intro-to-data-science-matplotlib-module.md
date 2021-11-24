@@ -266,9 +266,9 @@ Use logarithmic scales for large difference values
 fig, axes = plt.subplots(1, 2, figsize=(10,4))
       
 axes[0].plot(x, x**3, x, np.exp(x))
-axes[0].set_title("Normal scale")
+axes[0].set_title("Regular scale")
 
-axes[1].plot(x, x**2, x, np.exp(x))
+axes[1].plot(x, x**3, x, np.exp(x))
 axes[1].set_yscale("log")
 axes[1].set_title("Logarithmic scale (y)");
 ```
@@ -277,6 +277,6 @@ In this post, I tried to cover basic plotting using the `matplotlib` module. So 
 
 Thanks for your patience. Have a good day!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTIzNTQzNjYsLTEyNzY5MzIwMjEsLT
+eyJoaXN0b3J5IjpbLTEwNDE3NTg3MjIsLTEyNzY5MzIwMjEsLT
 EzNDI1MjIxNzcsMjU4OTU0NTY1XX0=
 -->
