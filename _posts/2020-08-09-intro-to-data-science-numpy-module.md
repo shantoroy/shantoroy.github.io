@@ -230,7 +230,10 @@ which is normally done using python map
 
 I hope, the above-mentioned methods are enough for the basic. We will go through more advanced operations later in another post. Till then, cheers!
 
+For accessing all `data science in python` related posts, check this post:
+
+[Collection of  `Data Science in Python`  Posts in my Blog](https://shantoroy.com/python/data-science-in-python-posts-in-my-blog/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Njc5NzYwMTIsMTI5Mjg4NDQ0MF19
+eyJoaXN0b3J5IjpbLTE0OTA5NTAzMzQsMTI5Mjg4NDQ0MF19
 -->
