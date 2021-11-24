@@ -148,10 +148,14 @@ In the [previous post](https://shantoroy.com/python/intro-to-data-science-pandas
 
 I will keep adding useful functionalities of `pandas dataframe` in this post.
 
+For accessing all `data science in python` related posts, check this post:
+
+[Collection of  `Data Science in Python`  Posts in my Blog](https://shantoroy.com/python/data-science-in-python-posts-in-my-blog/).
+
 
 ## References
 1. [100 pandas tricks to save you time and energy](https://www.dataschool.io/python-pandas-tips-and-tricks/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NzgzMzIxMiw5ODcwNzc5MzAsMTM1OT
-AwNTc2OSw3NzMxNjU2MTVdfQ==
+eyJoaXN0b3J5IjpbLTEyODk4Nzk4ODYsOTg3MDc3OTMwLDEzNT
+kwMDU3NjksNzczMTY1NjE1XX0=
 -->
