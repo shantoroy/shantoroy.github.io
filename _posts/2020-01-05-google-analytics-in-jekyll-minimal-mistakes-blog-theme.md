@@ -58,10 +58,15 @@ analytics:
 
 Or you can add the code in a `custom.html` file and select `provider: "custom"` in the `_config.yml` file.
 
+If you want to read how to add `Google Adsense` in minimal mistakes theme, feel free to read the following post:
+
+[Google Adsense in Jekyll Static Site or Minimal Mistakes Blog Theme](https://shantoroy.com/jekyll/how-I-added-google-adsense-to-my-jekyll-minimal-mistakes-blog/)
+
 
 ## References
 1. https://github.com/mmistakes/minimal-mistakes/issues/85
 2. https://mmistakes.github.io/minimal-mistakes/docs/configuration/#seo-social-sharing-and-analytics-settings
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5Mjk4MzczMSwtMTg0NTE1MzgwNl19
+eyJoaXN0b3J5IjpbLTgzNzg3ODYzLC0zOTI5ODM3MzEsLTE4ND
+UxNTM4MDZdfQ==
 -->
