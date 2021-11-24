@@ -17,7 +17,7 @@ tags:
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "heart"
-excerpt: "This post explains the basic syntax of matplotlib module for data visualization."
+excerpt: "This post provides all the links of posts related to data science in python."
 ---
 
 I have been writing on `data science in python` and have already included several posts at different times. In this post, I am providing links for all related posts:
@@ -39,5 +39,5 @@ I will keep adding related posts and include here for your reference.
 
 Happy Learning!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MTgxMzgyNV19
+eyJoaXN0b3J5IjpbLTE2NDQ4MDg2MTksMTU2MTgxMzgyNV19
 -->
