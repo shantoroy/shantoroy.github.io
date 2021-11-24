@@ -278,12 +278,36 @@ You can use styles for different looking plots. Simply check the available style
 ```python
 print(plt.style.available)
 ```
-You can find the styles names as follo
+You can find the styles names as follows:
+```
+['Solarize_Light2', '_classic_test_patch', 'bmh', 'classic', 'dark_background', 'fast', 'fivethirtyeight', 'ggplot', 'grayscale', 'seaborn', 'seaborn-bright', 'seaborn-colorblind', 'seaborn-dark', 'seaborn-dark-palette', 'seaborn-darkgrid', 'seaborn-deep', 'seaborn-muted', 'seaborn-notebook', 'seaborn-paper', 'seaborn-pastel', 'seaborn-poster', 'seaborn-talk', 'seaborn-ticks', 'seaborn-white', 'seaborn-whitegrid', 'tableau-colorblind10']
+```
+
+Now, check all styles using a loop:
+```python
+import math
+
+n = len(plt.style.available)
+num_rows = math.ceil(n/4)
+
+fig = plt.figure(figsize=(15, 15))
+
+for i, s in enumerate(plt.style.available):
+    with plt.style.context(s):
+        ax = fig.add_subplot(num_rows, 4, i+1)
+        for i in range(1, 4):
+            ax.plot(x, i * x**2, label='Group %d' % i)
+            ax.set_xlabel(s, color='black')
+            ax.legend(loc='best')
+    
+fig.tight_layout()
+plt.show()
+```
 
 In this post, I tried to cover basic plotting using the `matplotlib` module. So far, we have learnt how to draw line charts. In the next tutorial, we will learn other plots, for example, bar plots, pie plots, scatter plots, and others.
 
 Thanks for your patience. Have a good day!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NTQ0NTcxNiwtMTA0MTc1ODcyMiwtMT
-I3NjkzMjAyMSwtMTM0MjUyMjE3NywyNTg5NTQ1NjVdfQ==
+eyJoaXN0b3J5IjpbNjg1MjA5MzYsLTEwNDE3NTg3MjIsLTEyNz
+Y5MzIwMjEsLTEzNDI1MjIxNzcsMjU4OTU0NTY1XX0=
 -->
