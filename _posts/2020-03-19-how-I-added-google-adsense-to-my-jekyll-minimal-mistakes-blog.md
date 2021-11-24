@@ -74,10 +74,11 @@ So, you see, I have added the `vertical ad unit` after the `table of contents` a
 {% include advertisements.html %}
 ```
 
-If you want to know how to track your website or blo
+If you want to know how to track your website or blog using `Google Analytics`, feel free to read my other post:
+[Google Analytics in Minimal Mistakes Blog Theme](https://shantoroy.com/jekyll/google-analytics-in-jekyll-minimal-mistakes-blog-theme/)
 
 Keep growing your audience and earning some passive money. 
 Happy blogging!!! :sunglasses:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjcyMTkwMTBdfQ==
+eyJoaXN0b3J5IjpbLTY0NzAwODA3XX0=
 -->
