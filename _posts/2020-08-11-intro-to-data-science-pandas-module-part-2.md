@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Introduction to Data Science: Pandas Module (Part 02)"
+title: "Introduction to Data Science in Python: Pandas Module (Part 02)"
 header:
   image: "https://live.staticflickr.com/65535/51677688266_10458b914a_o.png"
   teaser: "https://live.staticflickr.com/65535/51677688266_10458b914a_o.png"
@@ -156,6 +156,6 @@ For accessing all `data science in python` related posts, check this post:
 ## References
 1. [100 pandas tricks to save you time and energy](https://www.dataschool.io/python-pandas-tips-and-tricks/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODk4Nzk4ODYsOTg3MDc3OTMwLDEzNT
-kwMDU3NjksNzczMTY1NjE1XX0=
+eyJoaXN0b3J5IjpbLTY5MzQ3MDk0OSw5ODcwNzc5MzAsMTM1OT
+AwNTc2OSw3NzMxNjU2MTVdfQ==
 -->
