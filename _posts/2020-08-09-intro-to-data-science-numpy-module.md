@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Introduction to Data Science: Numpy Module"
+title: "Introduction to Data Science in Python: Numpy Module"
 header:
   image: "https://live.staticflickr.com/65535/51652426627_4e5afafd1f_b.jpg"
   teaser: "https://live.staticflickr.com/65535/51652426627_4e5afafd1f_b.jpg"
@@ -235,5 +235,6 @@ For accessing all `data science in python` related posts, check this post:
 [Collection of  `Data Science in Python`  Posts in my Blog](https://shantoroy.com/python/data-science-in-python-posts-in-my-blog/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTA5NTAzMzQsMTI5Mjg4NDQ0MF19
+eyJoaXN0b3J5IjpbLTI3OTQ0MjMxMSwtMTQ5MDk1MDMzNCwxMj
+kyODg0NDQwXX0=
 -->
