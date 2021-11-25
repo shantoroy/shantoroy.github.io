@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Introduction to Data Science: Matplotlib Module (Part 02)"
+title: "Introduction to Data Science in Python: Matplotlib Module (Part 02)"
 header:
   overlay_image: "https://live.staticflickr.com/65535/51699602895_9f512e632d_o.png"
   teaser: "https://live.staticflickr.com/65535/51221326129_1df153df24_c.jpg"
@@ -170,5 +170,5 @@ For accessing all `data science in python` related posts, check this post:
 
 [Collection of  `Data Science in Python`  Posts in my Blog](https://shantoroy.com/python/data-science-in-python-posts-in-my-blog/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjY1NjQ5OTYsMjEzNjM2NTQ0Ml19
+eyJoaXN0b3J5IjpbODQ0MDE1NTg5LDIxMzYzNjU0NDJdfQ==
 -->
