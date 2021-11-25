@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Introduction to Data Science: Pandas Module (Part 01)"
+title: "Introduction to Data Science in Python: Pandas Module (Part 01)"
 header:
   image: "https://live.staticflickr.com/65535/51677928748_7cd1af1e23_o.png"
   teaser: "https://live.staticflickr.com/65535/51677928748_7cd1af1e23_o.png"
@@ -214,6 +214,6 @@ Have a nice day, cheers!
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4OTIxMjg2NCwyMDkwNzQyNzYsLTE4NT
-QzNzY5MDEsLTE2MjE2NTA3OF19
+eyJoaXN0b3J5IjpbMjI2MjIzNzcsMjA5MDc0Mjc2LC0xODU0Mz
+c2OTAxLC0xNjIxNjUwNzhdfQ==
 -->
