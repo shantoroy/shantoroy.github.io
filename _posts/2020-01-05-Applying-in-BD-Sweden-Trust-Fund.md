@@ -16,8 +16,6 @@ toc_label: "Table of Contents"
 toc_icon: "heart"
 ---
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/142248809@N07/51227320076/in/dateposted-public/" title="How to Apply for the Bangladesh-Sweden Trust Fund for a Travel Grant (BD students only)"><img src="https://live.staticflickr.com/65535/51227320076_544aa0f944_w.jpg" width="400" height="133" alt="How to Apply for the Bangladesh-Sweden Trust Fund for a Travel Grant (BD students only)"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-
 
 Many students come to the USA, Europe, and Australia from Bangladesh each year for higher study purposes. However, many students do not know that we can apply for a one-way travel grant (BD to Outside) to the Bangladesh-Sweden Trust Fund (BSTF).
 
@@ -61,6 +59,6 @@ it did not pay any travel allowance to Mr. <Your Name> for his visit to the Unit
 Please let me know if you need more information.
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMjA5OTgwNywxNDczMjYyOTU1LC04MD
-kwNzk0MTQsMTc1MzY4Njc4N119
+eyJoaXN0b3J5IjpbMTI2NzE2ODc5MCwxMzIyMDk5ODA3LDE0Nz
+MyNjI5NTUsLTgwOTA3OTQxNCwxNzUzNjg2Nzg3XX0=
 -->
