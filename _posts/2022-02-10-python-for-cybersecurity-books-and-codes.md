@@ -40,13 +40,13 @@ The first part is primarily listing the renowned "Awesome Collections" available
 * [CyberSec-Books](https://github.com/ad0x99/CyberSec-Books)
 * [Python-Books-for-Security](https://github.com/ManhNho/Python-Books-for-Security)
 
-## Codes
+## Codes from Different Books
 * [Mastering-Python-for-Networking-and-Security](https://github.com/PacktPublishing/Mastering-Python-for-Networking-and-Security)
 * [Mastering-Python-for-Networking-and-Security-Second-Edition](https://github.com/PacktPublishing/Mastering-Python-for-Networking-and-Security-Second-Edition)
 * [Mastering-Python-Networking](https://github.com/PacktPublishing/Mastering-Python-Networking)
 * [violent-python3](https://github.com/EONRaider/violent-python3)
 * [Black-Hat Python Repo 1](https://github.com/EONRaider/blackhat-python3)
-* [Black-Hat Python Repo 2](https://github.com/EONRaider/blackhat-python3)
+* [Black-Hat Python Repo 2](https://github.com/carloocchiena/blackhat_python_book_code)
 * [Computer Security: A Hands-on Approach + Internet Security: A Hands-on Approach](https://github.com/kevin-w-du/BookCode)
 * [Machine Learning and Security: Protecting Systems with Data and Algorithms](https://github.com/oreilly-mlsec/book-resources)
 * [Machine-Learning-for-Cybersecurity-Cookbook](https://github.com/PacktPublishing/Machine-Learning-for-Cybersecurity-Cookbook)
@@ -54,5 +54,5 @@ The first part is primarily listing the renowned "Awesome Collections" available
 
 Please, feel free to let me know if I should include a few other excellent collections. Thanks!!!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MzU4NzkyOSwtMTU3OTE5MjU4Nl19
+eyJoaXN0b3J5IjpbMTI1MzcyOTAxLC0xNTc5MTkyNTg2XX0=
 -->
