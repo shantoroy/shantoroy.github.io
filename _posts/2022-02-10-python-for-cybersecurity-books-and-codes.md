@@ -45,6 +45,8 @@ The first part is primarily listing the renowned "Awesome Collections" available
 * [Mastering-Python-for-Networking-and-Security-Second-Edition](https://github.com/PacktPublishing/Mastering-Python-for-Networking-and-Security-Second-Edition)
 * [Mastering-Python-Networking](https://github.com/PacktPublishing/Mastering-Python-Networking)
 * [violent-python3](https://github.com/EONRaider/violent-python3)
+* [Black-Hat Python Repo 1](https://github.com/EONRaider/blackhat-python3)
+* [Black-Hat Python Repo 2](https://github.com/EONRaider/blackhat-python3)
 * [Computer Security: A Hands-on Approach + Internet Security: A Hands-on Approach](https://github.com/kevin-w-du/BookCode)
 * [Machine Learning and Security: Protecting Systems with Data and Algorithms](https://github.com/oreilly-mlsec/book-resources)
 * [Machine-Learning-for-Cybersecurity-Cookbook](https://github.com/PacktPublishing/Machine-Learning-for-Cybersecurity-Cookbook)
@@ -52,5 +54,5 @@ The first part is primarily listing the renowned "Awesome Collections" available
 
 Please, feel free to let me know if I should include a few other excellent collections. Thanks!!!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzkxOTI1ODZdfQ==
+eyJoaXN0b3J5IjpbMTA1MzU4NzkyOSwtMTU3OTE5MjU4Nl19
 -->
