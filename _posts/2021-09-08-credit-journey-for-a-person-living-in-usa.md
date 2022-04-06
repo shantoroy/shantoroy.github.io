@@ -39,7 +39,7 @@ Now, the point is, you should not get a few cards altogether. It will lower the 
 	* Deserve if you do not have an SSN
 * You should wait a few months (typically $5-6$ months) until you request your second card. I took the followings within next $1.5$ year of having my [Discover](https://refer.discover.com/s/shantoroy2016?advocate.partner_share_id=5161100829) card.
 	1. [Amex Blue Cash](http://refer.amex.us/SHANTR9FRc?xl=cp15)
-	2. [Chase Freedom Unlimited](https://www.referyourchasecard.com/18a/2W4TCPPJ1B)
+	2. [Chase Freedom Unlimited](https://www.referyourchasecard.com/18a/0D1JNDLSCF)
 	3. [Amazon Prime Rewards Visa Signature Card](https://www.amazon.com/Amazon-Prime-Rewards-Visa-Signature-Card/dp/BT00LN946S)
  
  The abovementioned cards have no annual fee and [Amazon Prime Rewards Visa Signature Card](https://www.amazon.com/Amazon-Prime-Rewards-Visa-Signature-Card/dp/BT00LN946S) has $0\%$ foreign transaction fees. 
@@ -67,6 +67,6 @@ N.B. The links I have shared here are the referrel links that you can use for ap
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzAxNTE1NTAsLTE3NTk1MjEyNDBdfQ
-==
+eyJoaXN0b3J5IjpbMTQ0Njk1MzkwNiwtMTI3MDE1MTU1MCwtMT
+c1OTUyMTI0MF19
 -->
