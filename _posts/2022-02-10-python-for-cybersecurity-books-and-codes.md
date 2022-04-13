@@ -51,8 +51,10 @@ The first part is primarily listing the renowned "Awesome Collections" available
 * [Machine Learning and Security: Protecting Systems with Data and Algorithms](https://github.com/oreilly-mlsec/book-resources)
 * [Machine-Learning-for-Cybersecurity-Cookbook](https://github.com/PacktPublishing/Machine-Learning-for-Cybersecurity-Cookbook)
 * [Hands-on-Machine-Learning-for-Cyber-Security](https://github.com/PacktPublishing/Hands-on-Machine-Learning-for-Cyber-Security)
+* [Python-for-Automating-Information-Security](https://github.com/PacktPublishing/Python-for-Automating-Information-Security)
 
 Please, feel free to let me know if I should include a few other excellent collections. Thanks!!!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MzcyOTAxLC0xNTc5MTkyNTg2XX0=
+eyJoaXN0b3J5IjpbLTEzMTg2ODk4MjksMTI1MzcyOTAxLC0xNT
+c5MTkyNTg2XX0=
 -->
