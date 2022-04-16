@@ -15,7 +15,7 @@ tags:
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "heart"
-excerpt: "This post explains"
+excerpt: "This post includes some information regarding the Anthills MTB trails. I also included a few videos for your convenience."
 ---
 
 We recently visited the most popular mountain biking trail in Houston. People call it the Anthills hike and bike trail. one thing that I did not know before visiting is, it has a bike park being developed and if you are a true mountain biker you will really like this trail.
@@ -42,5 +42,5 @@ I have also covered some other bike trails including the [Green Ridge Trail](htt
 
 Have a good day! Cheers!!!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NjUzMDM3Ml19
+eyJoaXN0b3J5IjpbLTEyOTIyMzU4MzZdfQ==
 -->
