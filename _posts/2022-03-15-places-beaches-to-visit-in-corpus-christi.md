@@ -15,7 +15,7 @@ tags:
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "heart"
-excerpt: "This post presents necessary informat"
+excerpt: "This post presents necessary information regarding the sea beaches to visit in Corpus Christi. I also included some aerial shots of the popular beaches."
 ---
 
 
@@ -48,5 +48,5 @@ Then we took a bath in the North beach. The water is greenish and I guess most a
 
 I will upload a video later on my YouTube channel. Stay tuned for more contents! thanks!!!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODUzMDYzMjldfQ==
+eyJoaXN0b3J5IjpbMTk4OTQxNTA3XX0=
 -->
