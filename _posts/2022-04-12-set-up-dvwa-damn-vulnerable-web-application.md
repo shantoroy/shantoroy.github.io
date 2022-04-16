@@ -16,7 +16,7 @@ tags:
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "heart"
-excerpt: "This post explains"
+excerpt: "This post provide a summary of how to install DVWA platform, which is a popular platform learning web"
 ---
 
 I will post a series tutorial of web application vulnerabilities and how to learn about these vulnerabilities through practice. Throughout the series we will learn about the common vulnerabilities including Cross-site scripting, SQL injections, etc.
@@ -62,5 +62,5 @@ That's all for today. I will post the next tutorials as early as possible.
 
 Till then, cheers!!!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ0NDg3NTNdfQ==
+eyJoaXN0b3J5IjpbLTY2ODIxMzMzOV19
 -->
