@@ -62,7 +62,7 @@ The following figure is not included in the paper, I just have drawn it to illus
 </figure>
 <br/>
 
-## Revision
+### Revision
 The reviewers questioned the way we categorized the reconnaissance techniques earlier. From the above figure, you can see, these techniques are not exclusive in any dimension mentioned above and overlaps in different criteria. 
 
 Therefore, in the revised version we categorized the techniques based on source: `third-party`, `Human`, and `System`. Then Human- and System-based reconnaissance techniques are again cetegorized as `remote` and `local`. Please, go through the paper for further details.
@@ -71,5 +71,5 @@ Learning how the cyber reconnaissance work is important for security researchers
 
 I intend to post details of each categories in later posts. Stay tuned and have a good day. Cheers!!!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NTQ1MTkxNl19
+eyJoaXN0b3J5IjpbLTEyNjA4NzA5NzUsMTI0NTQ1MTkxNl19
 -->
