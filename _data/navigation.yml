@@ -14,18 +14,18 @@ main:
 
 
 # profile links
-profile:
-  - title: Roy's Portfolio
-    children:
-      - title: "Experience"
-        url: /profile/experience/
-      - title: "Research & Publications"
-        url: /profile/publications/
-      - title: "Trainings"
-        url: /profile/trainings/
-      - title: "Certifications"
-        url: /profile/certifications/
-      - title: "Seminars & Workshops"
-        url: /profile/seminar-workshops/
-      - title: "Photography"
-        url: /profile/photography/
+# profile:
+#   - title: Roy's Portfolio
+#     children:
+#       - title: "Experience"
+#         url: /profile/experience/
+#       - title: "Research & Publications"
+#         url: /profile/publications/
+#       - title: "Trainings"
+#         url: /profile/trainings/
+#       - title: "Certifications"
+#         url: /profile/certifications/
+#       - title: "Seminars & Workshops"
+#         url: /profile/seminar-workshops/
+#       - title: "Photography"
+#         url: /profile/photography/
