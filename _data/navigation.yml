@@ -1,8 +1,8 @@
 # main links
 main:
   - title: "Home"
-  - title: "Portfolio"
-    url: /profile/experience/
+  # - title: "Portfolio"
+  #   url: /profile/experience/
   - title: "About"
     url: /about/
   - title: "Resume"
