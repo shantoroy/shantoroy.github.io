@@ -5,7 +5,7 @@ header:
   overlay_image: "https://live.staticflickr.com/65535/51699602895_9f512e632d_o.png"
   teaser: "https://live.staticflickr.com/65535/52023019312_ca3bbdb467_o.png"
 categories:
-  - Web Scrapping
+  - WebScrapping
 tags:
   - Python
   - Tutorial
@@ -92,5 +92,5 @@ driver.quit()
 
 Let me know if you have any question. Thanks, have a good day!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MjM1Njk3Nl19
+eyJoaXN0b3J5IjpbLTI2NzA0MjcxOCwxODkyMzU2OTc2XX0=
 -->
