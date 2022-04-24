@@ -35,7 +35,7 @@ Cyber reconnaissance used to be assumed to take place only at the very initial s
 
 The external reconnaissance is somewhat close to the earlier reconnaissance definition. Internal reconnaissance typically takes place after the attacker compromises at least one internal node. the following figure defines our thought in the modified kill chain.
 <figure class="align-center">
-  <a href="https://live.staticflickr.com/65535/52008684679_0cb782e8be_o.png"><img src="https://live.staticflickr.com/65535/52008684679_0cb782e8be_o.png"></a>
+  <a href="https://shantoroy.com/security/adversarial-cyber-reconnaissance-information-gathering-part-01/"><img src="https://live.staticflickr.com/65535/52008684679_0cb782e8be_o.png"></a>
 <figcaption>Fig 1: Internal and External Recon in the Modified Kill Chain</figcaption>
 </figure>
 <br/>
@@ -57,7 +57,7 @@ There are some survey papers regarding `Social Engineering`, and `Cyber Scanning
 The following figure is not included in the paper, I just have drawn it to illustrate the ways we have thought. Please, go through the earlier version for more details.
 
 <figure class="align-center">
-  <a href="https://live.staticflickr.com/65535/52008257576_2371335c34_o.png"><img src="https://live.staticflickr.com/65535/52008257576_2371335c34_o.png"></a>
+  <a href="https://shantoroy.com/security/adversarial-cyber-reconnaissance-information-gathering-part-01/"><img src="https://live.staticflickr.com/65535/52008257576_2371335c34_o.png"></a>
 <figcaption>Fig 2: Dimensuins of Different Reconnaissance techniques</figcaption>
 </figure>
 <br/>
@@ -71,5 +71,6 @@ Learning how the cyber reconnaissance work is important for security researchers
 
 I intend to post details of each categories in later posts. Stay tuned and have a good day. Cheers!!!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjA4NzA5NzUsMTI0NTQ1MTkxNl19
+eyJoaXN0b3J5IjpbMTMyNzAxNTUyOSwtMTI2MDg3MDk3NSwxMj
+Q1NDUxOTE2XX0=
 -->
