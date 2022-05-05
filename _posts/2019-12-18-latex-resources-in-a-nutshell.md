@@ -18,7 +18,7 @@ toc_icon: "heart"
 ## Latex Editors
 ### Online
 There are several latex editors available online. However, none of the other ones are as powerful and trusted as `Overleaf`. Overleaf comes with a lot of templates including the official conference/ journal templates. You will also find `CV` templates and other letter/report/book templates. I always prefer using online tool over offline ones because you can work collaboratively by sharing the edit link of a document. Also, you do not need to worry about a particular computer and making it heavy with a new software. Previously there was another good platform named `ShareLatex`. Now, it is merged with Overleaf.
-* [Overleaf](http://overleaf.com/) (Obviously Preferred)
+* [Overleaf](https://overleaf.com/) (Obviously Preferred)
 * [Papeeria](https://papeeria.com/)
 
 ### Offline 
@@ -39,7 +39,7 @@ Note that, you will have to install latex environment first before installing th
 ## Useful Complete resources
 * [Awesome LaTeX](https://github.com/egeerardyn/awesome-LaTeX)
 * [Learn LaTeX — A Beginner's Step-By-Step Guide](https://typeset.io/resources/learn-latex-beginners-step-by-step-guide/)
-* [The Comprehensive LaTeX Symbol List](http://tug.ctan.org/info/symbols/comprehensive/symbols-a4.pdf)
+* [The Comprehensive LaTeX Symbol List](https://tug.ctan.org/info/symbols/comprehensive/symbols-a4.pdf)
 * [LaTeX Command Summary](https://www.ntg.nl/doc/biemesderfer/ltxcrib.pdf)
 
 ## Cheat Sheet
@@ -50,23 +50,23 @@ Note that, you will have to install latex environment first before installing th
 * [Latex Templates](https://www.latextemplates.com/)
 
 ## Latex Forums
-* [Latex StackExchange](http://tex.stackexchange.com/)
+* [Latex StackExchange](https://tex.stackexchange.com/)
 
 ## My own Blog Posts
-You can find all `Latex` oriented posts of mine in: [http://shantoroy.com/categories/#latex](http://shantoroy.com/categories/#latex)
+You can find all `Latex` oriented posts of mine in: [https://shantoroy.com/categories/#latex](https://shantoroy.com/categories/#latex)
 
 Some of those are included here.
-* [Add Copyright Notice and Conference Name in IEEE Conference Template](http://shantoroy.com/latex/add-copyright-conference-name/)
-* [Preparing Tables for Publication and Documentation in Latex](http://shantoroy.com/latex/tables-in-latex/)
+* [Add Copyright Notice and Conference Name in IEEE Conference Template](https://shantoroy.com/latex/add-copyright-conference-name/)
+* [Preparing Tables for Publication and Documentation in Latex](https://shantoroy.com/latex/tables-in-latex/)
 * [Creating Bar Charts using Latex PGFPlots](http://shantoroy.com/latex/bar-plots-in-latex-pgfplot/)
-* [How to write algorithm in Latex](http://shantoroy.com/latex/how-to-write-algorithm-in-latex/)
+* [How to write algorithm in Latex](https://shantoroy.com/latex/how-to-write-algorithm-in-latex/)
 * [How to add subfigure in Latex](https://shantoroy.com/latex/how-to-add-subfigure-in-latex/)
 * [How to Write Matrix with Row/Column Labels in Latex](https://shantoroy.com/latex/matrix-labeling-in-latex/)
 * [How to Collaboratively Write a Paper using Overleaf Latex Platform](https://shantoroy.com/latex/how-to-collaborately-write-a-paper-using-latex-overleaf/)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MDQxNjExOSwtNDM0OTA4OTY1LC0xOT
-gzMDk3NzIyLDIwMDMzODA2MjYsLTE2MjQyMDMzMjQsNDMwMzky
-OTIyXX0=
+eyJoaXN0b3J5IjpbLTEyNDkxNjg5MjEsLTg1MDQxNjExOSwtND
+M0OTA4OTY1LC0xOTgzMDk3NzIyLDIwMDMzODA2MjYsLTE2MjQy
+MDMzMjQsNDMwMzkyOTIyXX0=
 -->
