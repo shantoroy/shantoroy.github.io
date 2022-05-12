@@ -3,6 +3,7 @@ layout: single
 title: "Latex Resources in a Nutshell"
 header:
   image: "https://live.staticflickr.com/65535/49236199717_2f17584491_h.jpg"
+  og_image: "https://live.staticflickr.com/65535/49236199717_2f17584491_h.jpg"
   teaser: "https://live.staticflickr.com/65535/49236199717_2f17584491_h.jpg"
 categories:
   - Latex
@@ -66,7 +67,8 @@ Some of those are included here.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDEzNjc2NjAsLTEyNDkxNjg5MjEsLT
-g1MDQxNjExOSwtNDM0OTA4OTY1LC0xOTgzMDk3NzIyLDIwMDMz
-ODA2MjYsLTE2MjQyMDMzMjQsNDMwMzkyOTIyXX0=
+eyJoaXN0b3J5IjpbMTMxNzg1NjA5MywtMTg0MTM2NzY2MCwtMT
+I0OTE2ODkyMSwtODUwNDE2MTE5LC00MzQ5MDg5NjUsLTE5ODMw
+OTc3MjIsMjAwMzM4MDYyNiwtMTYyNDIwMzMyNCw0MzAzOTI5Mj
+JdfQ==
 -->
