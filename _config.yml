@@ -17,6 +17,7 @@ url                      : https://shantoroy.com
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/cover_teaser.png"
+logo                     : "/assets/images/shantoroy-logo.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
