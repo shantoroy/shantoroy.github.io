@@ -2,7 +2,7 @@
 layout: single
 title: "Pouplar Parks in Houston for Walking, Running, and Biking"
 header:
-  overlay_image: "https://live.staticflickr.com/65535/51699602895_9f512e632d_o.png"
+  image: "https://live.staticflickr.com/65535/51699602895_9f512e632d_o.png"
   teaser: "https://live.staticflickr.com/65535/52010068120_8e3bbfcefd_o.png"
 categories:
   - Sports
@@ -18,7 +18,6 @@ tags:
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "heart"
-excerpt: "This post includes the most popular parks in Houston"
 ---
 
 
@@ -73,5 +72,5 @@ The following three videos cover some trails of the Anthills. checkout my other 
 
 I will keep adding other parks after exploring and having some nice shots. Have a good day, cheers!!!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE2ODk2OTcwXX0=
+eyJoaXN0b3J5IjpbLTQ5MDk4MDRdfQ==
 -->
