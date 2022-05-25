@@ -2,7 +2,7 @@
 layout: single
 title: "Live Video Monitoring using a Raspberry Pi and any Webcam"
 header:
-  overlay_image: "https://live.staticflickr.com/65535/51699602895_9f512e632d_o.png"
+  image: "https://live.staticflickr.com/65535/51699602895_9f512e632d_o.png"
   teaser: "https://live.staticflickr.com/65535/51881564712_cc98a50055_o.png"
 categories:
   - Raspberry Pi
@@ -15,7 +15,6 @@ tags:
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "heart"
-excerpt: "This post explains the way of Live Monitoring by configuring a Raspberry Pi and any sort of supported Webcam."
 ---
 
 
@@ -107,5 +106,5 @@ That's all for today. Cheers!
 ## References
 1. [How to Make Raspberry Pi Webcam Server and Stream Live Video || Motion + Webcam + Raspberry Pi](https://www.instructables.com/How-to-Make-Raspberry-Pi-Webcam-Server-and-Stream-/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MTM1NTk3MF19
+eyJoaXN0b3J5IjpbLTEzMDM0MjIwNzIsMTM5MTM1NTk3MF19
 -->
