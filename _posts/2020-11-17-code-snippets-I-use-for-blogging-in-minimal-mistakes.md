@@ -2,8 +2,8 @@
 layout: single
 title: "Code Snippets I use to Blog using Jekyll and the Minimal Mistakes Theme"
 header:
-  image: "https://live.staticflickr.com/65535/51699602895_9f512e632d_o.png"
-  teaser: "https://live.staticflickr.com/65535/51211036232_6916bf5c10_c.jpg"
+  image: "https://live.staticflickr.com/65535/52099493299_0bbdfc4b68_o.png"
+  teaser: "https://live.staticflickr.com/65535/52099493299_0bbdfc4b68_o.png"
 categories:
   - Jekyll
 tags:
@@ -160,6 +160,6 @@ If you are looking for more snippets, just go visit this page:
 * https://www.fabriziomusacchio.com/blog/2021-08-11-Minimal_Mistakes_Cheat_Sheet/#via-html
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNzQ1NDI3NSwtNTY1NDcwODY3LC0xMT
-cxMDgwMjY0XX0=
+eyJoaXN0b3J5IjpbNTU0OTUyMzY5LC01NjU0NzA4NjcsLTExNz
+EwODAyNjRdfQ==
 -->
