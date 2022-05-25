@@ -118,10 +118,10 @@ Sometime, I need to embed a youtube video or instagram image. Here's the example
 
 ### Github Gist
 ```
-<script src="https://gist.github.com/2d7ca4eed82764833f8d93a6fea28f15.js"> </script>
+<script src="https://gist.github.com/shantoroy/9bb4da0b2a281e3c91cc836045b6c74d.js"></script>
 ```
-
-<script src="https://gist.github.com/2d7ca4eed82764833f8d93a6fea28f15.js"> </script>
+#### output
+<script src="https://gist.github.com/shantoroy/9bb4da0b2a281e3c91cc836045b6c74d.js"></script>
 
 
 ## Smileys
@@ -160,5 +160,5 @@ If you are looking for more snippets, just go visit this page:
 * https://www.fabriziomusacchio.com/blog/2021-08-11-Minimal_Mistakes_Cheat_Sheet/#via-html
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzEwODAyNjRdfQ==
+eyJoaXN0b3J5IjpbLTU2NTQ3MDg2NywtMTE3MTA4MDI2NF19
 -->
