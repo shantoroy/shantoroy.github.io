@@ -2,7 +2,7 @@
 layout: single
 title: "Five Awesome One-Column Resume Templates in Latex"
 header:
-  overlay_image: "https://live.staticflickr.com/65535/52099084861_9388371edf_o.png"
+  image: "https://live.staticflickr.com/65535/52099084861_9388371edf_o.png"
   teaser: "https://live.staticflickr.com/65535/52099084861_9388371edf_o.png"
 categories:
   - Latex
@@ -33,5 +33,5 @@ My last resume was created using the `deedy-resume` class, which had a two-colum
 
 However, I found two-column resumes difficult to render when chosen the option to obtain information from uploaded resume in the online resume submission portals. Therefore, I have decided to use one-column resumes to apply for internship in the next summer.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMjg1MjM2MV19
+eyJoaXN0b3J5IjpbMTY1MTIxODQ5MCwxMTEyODUyMzYxXX0=
 -->
