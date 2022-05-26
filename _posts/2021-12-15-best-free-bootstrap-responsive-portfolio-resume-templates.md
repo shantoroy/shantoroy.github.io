@@ -12,7 +12,7 @@ tags:
   - Portfolio
   - Resume
   - Template
-toc: true
+toc: false
 toc_label: "Table of Contents"
 toc_icon: "heart"
 ---
@@ -43,5 +43,6 @@ Here is a list of top five my most favorite and suitable bootstrap templates (sp
 
 That's all for today. If you found any other good-looking free templates, please let us know in the comment section. Thanks! 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0ODQ4MjIyNywtMTA3ODA0ODY4Ml19
+eyJoaXN0b3J5IjpbLTEzMzg0MTYxNiwxNzQ4NDgyMjI3LC0xMD
+c4MDQ4NjgyXX0=
 -->
