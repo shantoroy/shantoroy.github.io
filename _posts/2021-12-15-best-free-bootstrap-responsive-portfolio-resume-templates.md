@@ -27,21 +27,21 @@ However, i found a few other templates really awesome. You can download these te
 Here is a list of top five my most favorite and suitable bootstrap templates (specially for students):
 
 * Resume-bootstrap4 $\rightarrow$
-https://themewagon.com/themes/free-bootstrap-4-cv-template-download/
+[https://themewagon.com/themes/free-bootstrap-4-cv-template-download/](https://themewagon.com/themes/free-bootstrap-4-cv-template-download/)
 
 * Profile-Bootstrap $\rightarrow$
-https://themewagon.com/themes/bootstrap-4-portfolio-website-template-profile/
+[https://themewagon.com/themes/bootstrap-4-portfolio-website-template-profile/](https://themewagon.com/themes/bootstrap-4-portfolio-website-template-profile/)
 
 * Jackson $\rightarrow$
-https://themewagon.com/themes/free-bootstrap-portfolio-website-template/
+[https://themewagon.com/themes/free-bootstrap-portfolio-website-template/](https://themewagon.com/themes/free-bootstrap-portfolio-website-template/)
 
 * iPortfolio $\rightarrow$
-https://bootstrapmade.com/demo/iPortfolio/
+[https://bootstrapmade.com/demo/iPortfolio/](https://bootstrapmade.com/demo/iPortfolio/)
 
 * Creative-CV $\rightarrow$
-https://templateflip.com/templates/creative-cv/
+[https://templateflip.com/templates/creative-cv/](https://templateflip.com/templates/creative-cv/)
 
 That's all for today. If you found any other good-looking free templates, please let us know in the comment section. Thanks! 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzgwNDg2ODJdfQ==
+eyJoaXN0b3J5IjpbMTc0ODQ4MjIyNywtMTA3ODA0ODY4Ml19
 -->
