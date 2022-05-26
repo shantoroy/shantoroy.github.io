@@ -5,13 +5,13 @@ header:
   image: "https://live.staticflickr.com/65535/52102245910_94d1a1a625_o.png"
   teaser: "https://live.staticflickr.com/65535/52102245910_94d1a1a625_o.png"
 categories:
-  - Security
+  - Latex
 tags:
-  - Python
+  - Latex
   - Tutorial
-  - Keylogging
-  - Keylogger
-  - Trojan Horse
+  - PGFPlot
+  - Tikz
+  - Overleaf
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "heart"
@@ -159,5 +159,5 @@ You can find the outputs in [this Overleaf Project](https://www.overleaf.com/rea
 1. [pgfplots: Legends in multiple y-axis plot overlapping](https://tex.stackexchange.com/questions/42697/pgfplots-legends-in-multiple-y-axis-plot-overlapping)
 2. [Can I draw figure 3 y axis using pgfplot?](https://tex.stackexchange.com/questions/62291/can-i-draw-figure-3-y-axis-using-pgfplot)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NzI1NTE0MF19
+eyJoaXN0b3J5IjpbLTU3MTg1OTYxMF19
 -->
