@@ -18,12 +18,12 @@ toc_icon: "heart"
 ---
 
 I was looking for a code that has a visualization of equation parameter description like the following.
-```
+
 <figure>
   <a href="/assets/images/post_images/2021-11-17-draw-equation-with-parameter-description.png"><img src="/assets/images/post_images/2021-11-17-draw-equation-with-parameter-description.png"></a>
 </figure>
 <br/>
-```
+
 Then I found this [awesome collection of Tikz Examples](https://github.com/walmes/Tikz) and I just modified a little from their code.
 
 
@@ -88,5 +88,5 @@ You can also check out my other posts:
 * [Mathematics Documentation in Latex](https://shantoroy.com/latex/mathematics-numerical-analysis-in-latex/)
 * [Latex Resources in a Nutshell](https://shantoroy.com/latex/latex-resources-in-a-nutshell/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMyODkzMjldfQ==
+eyJoaXN0b3J5IjpbMjM1NjgwNTExLDIzMjg5MzI5XX0=
 -->
