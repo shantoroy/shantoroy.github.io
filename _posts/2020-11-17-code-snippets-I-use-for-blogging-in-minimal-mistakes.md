@@ -70,7 +70,7 @@ Here is the code for adding a figure. You can keep images in the same repository
 
 ### More Configurations
 ```
-<figure style="width: 80px" class="align-center">
+<figure style="width: 180px" class="align-center">
   <a href="https://live.staticflickr.com/65535/51226516036_e486b2a319_w.jpg" title="The Pixel Tracker logo" alt="The Pixel Tracker logo">
   <img src="https://live.staticflickr.com/65535/51226516036_e486b2a319_w.jpg" alt=""></a>
   <figcaption>Image caption.</figcaption>
@@ -160,6 +160,6 @@ If you are looking for more snippets, just go visit this page:
 * https://www.fabriziomusacchio.com/blog/2021-08-11-Minimal_Mistakes_Cheat_Sheet/#via-html
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU0OTUyMzY5LC01NjU0NzA4NjcsLTExNz
-EwODAyNjRdfQ==
+eyJoaXN0b3J5IjpbLTUyMDQ4MjIxNiw1NTQ5NTIzNjksLTU2NT
+Q3MDg2NywtMTE3MTA4MDI2NF19
 -->
