@@ -158,7 +158,7 @@ ytick style={color=black},
 yticklabels={}
 ]
 \addplot [draw=color0, fill=color0, mark=*, only marks]
-table{%
+table{
 x  y
 1 -0.170017665288662
 2 -0.0464802941273717
@@ -173,7 +173,7 @@ x  y
 };
 \addlegendentry{actual values}
 \addplot [semithick, color0]
-table {%
+table {
 1 -0.170017665288662
 2 -0.216497959416034
 3 0.370059043035632
@@ -218,6 +218,6 @@ That's all for today!
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NDI5NDAyNiwyNDA5ODg3NTQsMTkwMj
-gzNzcwMF19
+eyJoaXN0b3J5IjpbNjM0Nzc2NDYsMjQwOTg4NzU0LDE5MDI4Mz
+c3MDBdfQ==
 -->
