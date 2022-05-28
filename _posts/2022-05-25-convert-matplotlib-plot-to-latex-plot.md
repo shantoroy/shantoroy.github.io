@@ -206,7 +206,7 @@ All you need to do is, put the latex code within `figure` environment for better
 ```latex
 \begin{figure}[!ht]
     \centering
-    % put your tikz code here
+    
     \caption{Matplotlib to Tikz}
     \label{fig:my_tikz}
 \end{figure}
@@ -218,5 +218,5 @@ That's all for today!
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMjgzNzcwMF19
+eyJoaXN0b3J5IjpbMjQwOTg4NzU0LDE5MDI4Mzc3MDBdfQ==
 -->
