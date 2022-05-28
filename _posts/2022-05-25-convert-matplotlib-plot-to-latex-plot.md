@@ -216,8 +216,9 @@ Check the output in [this overleaf project](https://www.overleaf.com/read/tpmkcg
 
 That's all for today!
 
-<iframe src="https://giphy.com/embed/f9RzoxHizH72k15FKS" width="480" height="268" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+<iframe src="https://giphy.com/embed/f9RzoxHizH72k15FKS" width="480" height="268"></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNjU4ODkwNSwzNTc0MzcwMzMsNjM0Nz
-c2NDYsMjQwOTg4NzU0LDE5MDI4Mzc3MDBdfQ==
+eyJoaXN0b3J5IjpbLTE1NDYwNjk2MTksLTYyNjU4ODkwNSwzNT
+c0MzcwMzMsNjM0Nzc2NDYsMjQwOTg4NzU0LDE5MDI4Mzc3MDBd
+fQ==
 -->
