@@ -21,7 +21,7 @@ toc_icon: "heart"
 I used to draw plots using matplotlib a lot and then add the figures in reports. Later I switched to latex plots as it is easier and works best for numerous reasons! 
 
 Read my other post to learn the benifits of using latex plots in reports:
-
+[Why you should use Latex Plots in your Reports instead of Matplotlib Plots]
 
 Recently, I found a module that converts `python matplotlib` plots to `latex` plots. I was literally fascinated by this since sometimes I have to struggle creating similar results using latex pgfplots and most of all it requires some times to do that.
 
@@ -218,6 +218,6 @@ That's all for today!
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM0Nzc2NDYsMjQwOTg4NzU0LDE5MDI4Mz
-c3MDBdfQ==
+eyJoaXN0b3J5IjpbMTY4NDQ0NTgzNSw2MzQ3NzY0NiwyNDA5OD
+g3NTQsMTkwMjgzNzcwMF19
 -->
