@@ -40,7 +40,7 @@ So, there's a new module named [tikzplotlib](https://github.com/texworld/tikzplo
 
 That's all for today! cheers!!!
 
-<iframe src="https://giphy.com/embed/ZIzN7YWNuTUYg" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/the-lizzie-bennet-diaries-tlbd-thelbd-ZIzN7YWNuTUYg"></a></p>
+<iframe src="https://giphy.com/embed/ZIzN7YWNuTUYg" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/the-lizzie-bennet-diaries-tlbd-thelbd-ZIzN7YWNuTUYg">via Giphy</a></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MTE5MDg5XX0=
+eyJoaXN0b3J5IjpbLTEwNDAxODU1MTRdfQ==
 -->
