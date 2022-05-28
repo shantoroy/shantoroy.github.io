@@ -27,7 +27,6 @@ Recently, I found a module that converts `python matplotlib` plots to `latex` pl
 
 In this post I will provide some examples on how to do that.
 
-<iframe src="https://giphy.com/embed/KAq5w47R9rmTuvWOWa" width="280" height="276" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/devrock-python-django-edr-KAq5w47R9rmTuvWOWa"></a></p>
 
 
 ## Install `tikzplotlib`
@@ -219,5 +218,5 @@ That's all for today!
 
 <iframe src="https://giphy.com/embed/f9RzoxHizH72k15FKS" width="480" height="268" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/snl-saturday-night-live-season-44-f9RzoxHizH72k15FKS">via GIPHY</a></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkyMjI5MTI1XX0=
+eyJoaXN0b3J5IjpbMTk5NDQyODA2OV19
 -->
