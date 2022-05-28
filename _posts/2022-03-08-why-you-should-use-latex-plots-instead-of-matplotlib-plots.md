@@ -37,7 +37,7 @@ Most of all the `pgfplot` and `tikz` libraries provide excellent graphs that you
 
 Now, when writing a new report, I always look for latex plots. And there is a new python module I have found that makes it a lot easier. Yay!
 
-
+<iframe src="https://giphy.com/embed/11sBLVxNs7v6WA" width="480" height="217"></iframe>
 
 So, there's a new module named [tikzplotlib](https://github.com/texworld/tikzplotlib) that helps you convert your matplotlib code into a latex code. i will cover more details in this following post:
 
@@ -45,7 +45,9 @@ So, there's a new module named [tikzplotlib](https://github.com/texworld/tikzplo
 
 That's all for today! cheers!!!
 
+<iframe src="https://giphy.com/embed/ZIzN7YWNuTUYg" width="480" height="270"></iframe>
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAyNTY0NzA4XX0=
+eyJoaXN0b3J5IjpbLTIzMzAzNzk3MF19
 -->
