@@ -41,9 +41,11 @@ Now, when writing a new report, I always look for latex plots. And there is a ne
 
 So, there's a new module named [tikzplotlib](https://github.com/texworld/tikzplotlib) that helps you convert your matplotlib code into a latex code. i will cover more details in this following post:
 
+[How to Convert Python Matplotlib Plots to Latex Plots (Easiest Way)](https://shantoroy.com/latex/convert-matplotlib-plot-to-latex-plot/)
+
 That's all for today! cheers!!!
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODY2MzY2OTFdfQ==
+eyJoaXN0b3J5IjpbNzAyNTY0NzA4XX0=
 -->
