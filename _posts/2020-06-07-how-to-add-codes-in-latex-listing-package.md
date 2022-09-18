@@ -23,7 +23,7 @@ Sometimes we need to include codes in our Latex documents. In this post we will 
 We need to packages to work with code environments. `listing` is used to create styles and environments for adding codes in the document. `color` or `xcolor` is used to define custom colors only if you feel to use a custom one.
 ```latex
 \usepackage{listings}
-\usepackage{color}
+\usepackage{xcolor}
 ```
 
 ## Define Color
@@ -110,11 +110,14 @@ For adding an external file, we can use `\lstinputlisting` and define the langua
 ### Custom Style
 We can define custom styles and environments as well for different languages. In that case, first we will have to define a new style, for example, for `python` it might look like as follows
 ```latex
+\DeclareFixedFont{\ttb}{T1}{txtt}{bx}{n}{9} % for bold
+\DeclareFixedFont{\ttm}{T1}{txtt}{m}{n}{9}  % for normal
+
 \newcommand\pystyle{\lstset{
 language=Python,
 basicstyle=\ttm,
 morekeywords={self},          % Add more keywords here
-commentstyle=\color{grey},
+commentstyle=\color{gray},
 keywordstyle=\ttb\color{blue},
 emphstyle=\ttb\color{red},    % Custom highlighting style
 stringstyle=\color{green},
@@ -153,6 +156,6 @@ That's it for today! Cheers!!!
 * [Code listing](https://www.overleaf.com/learn/latex/Code_listing)
 * [How to highlight Python syntax in LaTeX Listings \lstinputlistings command](https://tex.stackexchange.com/questions/83882/how-to-highlight-python-syntax-in-latex-listings-lstinputlistings-command)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDkyODMxMjcsLTE1Mjk0MDQxNjddfQ
-==
+eyJoaXN0b3J5IjpbMTgwMTU3ODgxNywtMTcwOTI4MzEyNywtMT
+UyOTQwNDE2N119
 -->
