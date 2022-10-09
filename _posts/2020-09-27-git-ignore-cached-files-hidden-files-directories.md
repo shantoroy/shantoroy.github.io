@@ -48,11 +48,11 @@ If you accidentally have done so, just follow these steps, and you are good to g
 	!/.gitignore
 	```
 
-4. To avoid adding `.DS_Store` files in every subfolder, do the following:
+## Pro Tips
+To avoid adding a particu `.DS_Store` files in every subfolder for all repositories in the computer, do the following:
 	```
-	$ ```
-echo .DS_Store >> ~/.gitignore_global
-```
+	$ echo .DS_Store >> ~/.gitignore_global
+	$ git config --global core.excludesfile ~/.gitignore_global
 	```
 Now, if you do `git add --all`, it will not automatically include these particular directories created again while working in the local machine.
 
@@ -62,5 +62,5 @@ Now, if you do `git add --all`, it will not automatically include these particul
 2. https://unix.stackexchange.com/questions/123233/recursively-delete-hidden-directory-its-files
 3. [.gitignore all the .DS_Store files in every folder and subfolder](https://stackoverflow.com/questions/18393498/gitignore-all-the-ds-store-files-in-every-folder-and-subfolder)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjc3MjQ5NzAsNzI0OTI2OF19
+eyJoaXN0b3J5IjpbMjY0NjY3NDUzLDcyNDkyNjhdfQ==
 -->
