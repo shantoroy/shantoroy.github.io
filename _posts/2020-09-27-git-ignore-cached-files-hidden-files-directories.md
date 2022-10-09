@@ -47,12 +47,15 @@ If you accidentally have done so, just follow these steps, and you are good to g
 	.*
 	!/.gitignore
 	```
+
+5. To avoid addi
 Now, if you do `git add --all`, it will not automatically include these particular directories created again while working in the local machine.
 
 ## References
 1. https://stackoverflow.com/questions/8021441/how-to-ignore-all-hidden-directories-files-recursively-in-a-git-repository
 
 2. https://unix.stackexchange.com/questions/123233/recursively-delete-hidden-directory-its-files
+3. [.gitignore all the .DS_Store files in every folder and subfolder](https://stackoverflow.com/questions/18393498/gitignore-all-the-ds-store-files-in-every-folder-and-subfolder)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI0OTI2OF19
+eyJoaXN0b3J5IjpbLTYwMTg3OTY1OSw3MjQ5MjY4XX0=
 -->
