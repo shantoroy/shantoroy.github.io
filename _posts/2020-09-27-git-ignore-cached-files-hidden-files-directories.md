@@ -41,14 +41,19 @@ If you accidentally have done so, just follow these steps, and you are good to g
 	find . -type d -name '__py[^.]*' -prune -exec rm -rf {} +
 	```
 
-4. Finally, create a `.gitignore` file and add the followings:
+3. Finally, create a `.gitignore` file and add the followings:
 	```python
 	**/__pycache__/
 	.*
 	!/.gitignore
 	```
 
-5. To avoid addi
+4. To avoid adding `.DS_Store` files in every subfolder, do the following:
+	```
+	$ ```
+echo .DS_Store >> ~/.gitignore_global
+```
+	```
 Now, if you do `git add --all`, it will not automatically include these particular directories created again while working in the local machine.
 
 ## References
@@ -57,5 +62,5 @@ Now, if you do `git add --all`, it will not automatically include these particul
 2. https://unix.stackexchange.com/questions/123233/recursively-delete-hidden-directory-its-files
 3. [.gitignore all the .DS_Store files in every folder and subfolder](https://stackoverflow.com/questions/18393498/gitignore-all-the-ds-store-files-in-every-folder-and-subfolder)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMTg3OTY1OSw3MjQ5MjY4XX0=
+eyJoaXN0b3J5IjpbLTEyNjc3MjQ5NzAsNzI0OTI2OF19
 -->
