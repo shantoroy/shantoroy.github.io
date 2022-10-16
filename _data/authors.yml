@@ -1,0 +1,16 @@
+# https://mmistakes.github.io/minimal-mistakes/docs/authors/
+
+Guest Author:
+  name        : "Guest Author"
+  bio         : "Bio of the Guest Author"
+  avatar      : "/assets/images/bio-photo-2.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:sroy.iitju@gmail.com.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://shantoroy.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/royshanto9"
