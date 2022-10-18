@@ -269,15 +269,19 @@ tag_archive:
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
 jekyll-archives:
-  enabled:
-    - categories
-    - tags
-    - year
-    - month
+  enabled: all
+    # - categories
+    # - tags
+    # - year
+    # - month
   layouts:
-    category: category
-    tag: tag
+    year: year-archive
+    month: month-archive
+    category: category-archive
+    tag: tag-archive
   permalinks:
+    year: '/archives/year/:year/'
+    month: '/archives/month/:year-:month/'
     category: /categories/:name/
     tag: /tags/:name/
 
