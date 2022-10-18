@@ -2,7 +2,8 @@
 title: "Stylesheets"
 permalink: /docs/stylesheets/
 excerpt: "Instructions for customizing and building the theme's stylesheets."
-last_modified_at: 2017-04-18T12:34:31-04:00
+last_modified_at: 2018-11-25T19:47:43-05:00
+toc: true
 ---
 
 The theme's `assets/css/main.css` file is built from several SCSS partials located in [`_sass/`](https://github.com/mmistakes/minimal-mistakes/tree/master/_sass) and is structured as follows:
@@ -13,7 +14,6 @@ minimal-mistakes
 |  └── minimal-mistakes
 |     ├── vendor               # vendor SCSS partials
 |     |   ├── breakpoint       # media query mixins
-|     |   ├── font-awesome     # Font Awesome icons
 |     |   ├── magnific-popup   # Magnific Popup lightbox
 |     |   └── susy             # Susy grid system
 |     ├── _animations.scss     # animations
@@ -40,29 +40,29 @@ minimal-mistakes
 
 ## Customizing
 
-To override the default [Sass](http://sass-lang.com/guide) (located in theme's 
+To override the default [Sass](http://sass-lang.com/guide) (located in theme's
 `_sass` directory), do one of the following:
 
 1. Copy directly from the Minimal Mistakes theme gem
 
-   - Go to your local Minimal Mistakes gem installation directory (run 
+   - Go to your local Minimal Mistakes gem installation directory (run
      `bundle show minimal-mistakes-jekyll` to get the path to it).
-   - Copy the contents of `/assets/css/main.scss` from there to 
+   - Copy the contents of `/assets/css/main.scss` from there to
      `<your_project>`.
    - Customize what you want inside `<your_project>/assets/css/main.scss`.
 
 2. Copy from this repo.
 
-   - Copy the contents of [assets/css/main.scss](https://github.com/mmistakes/minimal-mistakes/blob/master/assets/css/main.scss) 
+   - Copy the contents of [assets/css/main.scss](https://github.com/mmistakes/minimal-mistakes/blob/master/assets/css/main.scss)
      to `<your_project>`.
    - Customize what you want inside `<your_project/assets/css/main.scss`.
 
-**Note:** To make more extensive changes and customize the Sass partials bundled 
-in the gem. You will need to copy the complete contents of the `_sass` directory 
+**Note:** To make more extensive changes and customize the Sass partials bundled
+in the gem. You will need to copy the complete contents of the `_sass` directory
 to `<your_project>` due to the way Jekyll currently reads those files.
 
-To make basic tweaks to theme's style Sass variables can be overridden by adding 
-to `<your_project>/assets/css/main.scss`. For instance, to change the 
+To make basic tweaks to theme's style Sass variables can be overridden by adding
+to `<your_project>/assets/css/main.scss`. For instance, to change the
 link color used throughout the theme add:
 
 ```scss
@@ -71,20 +71,20 @@ $link-color: red;
 
 Before any `@import` lines.
 
-### Paragraph Indention 
+### Paragraph indention
 
 To mimic the look of type set in a printed book or manuscript you may want to enable paragraph indention. When `$paragraph-indent` is set to `true` indents are added to each sibling and the margin below each paragraph is removed.
 
 <figure>
-  <img src="{{ '/assets/images/mm-paragraph-indent-example.jpg' | absolute_url }}" alt="indented paragraph example">
+  <img src="{{ '/assets/images/mm-paragraph-indent-example.jpg' | relative_url }}" alt="indented paragraph example">
   <figcaption>Example of indented paragraphs.</figcaption>
 </figure>
 
 The size of the indent can also be customized by changing the value of `$indent-var`.
 
-### Font Stacks
+### Font stacks
 
-By default the theme uses [system fonts](https://medium.com/designing-medium/system-shock-6b1dc6d6596f#.rb81vgn7i) for all of the font stacks (serif, sans-serif, and monospace). This is done in part to provide a clean base for you to build off of and to improve performance since we aren't loading any custom webfonts[^font-awesome] by default.
+By default the theme uses [system fonts](https://medium.com/designing-medium/system-shock-6b1dc6d6596f#.rb81vgn7i) for all of the font stacks (serif, sans-serif, and monospace). This is done in part to provide a clean base for you to build off of and to improve performance since we aren't loading any custom webfonts by default.
 
 ```scss
 /* system typefaces */
@@ -93,14 +93,12 @@ $sans-serif : -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetic
 $monospace  : Monaco, Consolas, "Lucida Console", monospace;
 ```
 
-[^font-awesome]: Apart from [Font Awesome](https://fortawesome.github.io/Font-Awesome/) icon webfonts.
-
 Sans-serif fonts have been used for most of the type, with serifs reserved for captions. If you wish to change this you'll need to poke around the various `SCSS` partials and modify `font-family` declarations.
 
 **ProTip:** To use webfonts from services like [Adobe TypeKit](https://typekit.com/) or [Google Fonts](https://www.google.com/fonts) simply update the font stacks and then add their scripts to `_includes/head/custom.html`.
 {: .notice--info}
 
-#### Typography from Older Versions
+#### Typography from older versions
 
 Not a fan of the refreshed typography of the theme and want to revert back an older version? Easy enough.
 
@@ -120,9 +118,9 @@ $global-font-family : $serif;
 $header-font-family : $sans-serif-narrow;
 ```
 
-### Type Scale
+### Type scale
 
-Wherever possible type scale variables have been used instead of writing out fixed sizes. This makes updating much easier by changing values in one file. 
+Wherever possible type scale variables have been used instead of writing out fixed sizes. This makes updating much easier by changing values in one file.
 
 Example:
 
@@ -151,18 +149,241 @@ $type-size-8 : 0.625em;  // ~10px
 
 Change the mood of your site by altering a few color variables. `$body-color`, `$background-color`, `$text-color`, `$link-color`, and `$masthead-link-color` will have the most affect when changed.
 
-### Breakpoints and Grid Stuff
+#### Syntax highlighting
+
+To make customizing the colors used in code highlighted blocks, a base of sixteen colors ([Base16](http://chriskempson.com/projects/base16/)) have been used.
+
+Code block colors can easily be changed by overriding any of the following color variables:
+
+##### Default
+
+![default-code-block]({{ '/assets/images/default-code-block.jpg' | relative_url }})
+
+```scss
+/* default syntax highlighting (base16) */
+$base00: #263238;
+$base01: #2e3c43;
+$base02: #314549;
+$base03: #546e7a;
+$base04: #b2ccd6;
+$base05: #eeffff;
+$base06: #eeffff;
+$base07: #ffffff;
+$base08: #f07178;
+$base09: #f78c6c;
+$base0a: #ffcb6b;
+$base0b: #c3e88d;
+$base0c: #89ddff;
+$base0d: #82aaff;
+$base0e: #c792ea;
+$base0f: #ff5370;
+```
+
+##### Solarized light
+
+![solarized-light-code-block]({{ '/assets/images/solarized-light-code-block.jpg' | relative_url }})
+
+```scss
+/* solarized light syntax highlighting (base16) */
+$base00: #fafafa !default;
+$base01: #073642 !default;
+$base02: #586e75 !default;
+$base03: #657b83 !default;
+$base04: #839496 !default;
+$base05: #586e75 !default;
+$base06: #eee8d5 !default;
+$base07: #fdf6e3 !default;
+$base08: #dc322f !default;
+$base09: #cb4b16 !default;
+$base0a: #b58900 !default;
+$base0b: #859900 !default;
+$base0c: #2aa198 !default;
+$base0d: #268bd2 !default;
+$base0e: #6c71c4 !default;
+$base0f: #d33682 !default;
+```
+
+##### Contrast
+
+![contrast-code-block]({{ '/assets/images/contrast-code-block.jpg' | relative_url }})
+
+```scss
+/* contrast syntax highlighting (base16) */
+$base00: #000000;
+$base01: #242422;
+$base02: #484844;
+$base03: #6c6c66;
+$base04: #918f88;
+$base05: #b5b3aa;
+$base06: #d9d7cc;
+$base07: #fdfbee;
+$base08: #ff6c60;
+$base09: #e9c062;
+$base0a: #ffffb6;
+$base0b: #a8ff60;
+$base0c: #c6c5fe;
+$base0d: #96cbfe;
+$base0e: #ff73fd;
+$base0f: #b18a3d;
+```
+
+##### Dark
+
+![dark-code-block]({{ '/assets/images/dark-code-block.jpg' | relative_url }})
+
+```scss
+/* dark syntax highlighting (base16) */
+$base00: #ffffff;
+$base01: #e0e0e0;
+$base02: #d0d0d0;
+$base03: #b0b0b0;
+$base04: #000000;
+$base05: #101010;
+$base06: #151515;
+$base07: #202020;
+$base08: #ff0086;
+$base09: #fd8900;
+$base0a: #aba800;
+$base0b: #00c918;
+$base0c: #1faaaa;
+$base0d: #3777e6;
+$base0e: #ad00a1;
+$base0f: #cc6633;
+```
+
+##### Dirt
+
+![dirt-code-block]({{ '/assets/images/dirt-code-block.jpg' | relative_url }})
+
+```scss
+/* dirt syntax highlighting (base16) */
+$base00: #231e18;
+$base01: #302b25;
+$base02: #48413a;
+$base03: #9d8b70;
+$base04: #b4a490;
+$base05: #cabcb1;
+$base06: #d7c8bc;
+$base07: #e4d4c8;
+$base08: #d35c5c;
+$base09: #ca7f32;
+$base0a: #e0ac16;
+$base0b: #b7ba53;
+$base0c: #6eb958;
+$base0d: #88a4d3;
+$base0e: #bb90e2;
+$base0f: #b49368;
+```
+
+##### Dracula
+
+![dracula-code-block]({{ '/assets/images/dracula-code-block.jpg' | relative_url }})
+
+```scss
+/* dracula syntax highlighting (base16) */
+/* https://github.com/dracula/base16-dracula-scheme */
+$base00: #282936;
+$base01: #3a3c4e;
+$base02: #4d4f68;
+$base03: #626483;
+$base04: #62d6e8;
+$base05: #e9e9f4;
+$base06: #f1f2f8;
+$base07: #f7f7fb;
+$base08: #ea51b2;
+$base09: #b45bcf;
+$base0a: #00f769;
+$base0b: #ebff87;
+$base0c: #a1efe4;
+$base0d: #62d6e8;
+$base0e: #b45bcf;
+$base0f: #00f769;
+```
+
+##### Neon
+
+![neon-code-block]({{ '/assets/images/neon-code-block.jpg' | relative_url }})
+
+```scss
+/* neon syntax highlighting (base16) */
+$base00: #ffffff;
+$base01: #e0e0e0;
+$base02: #d0d0d0;
+$base03: #b0b0b0;
+$base04: #000000;
+$base05: #101010;
+$base06: #151515;
+$base07: #202020;
+$base08: #ff0086;
+$base09: #fd8900;
+$base0a: #aba800;
+$base0b: #00c918;
+$base0c: #1faaaa;
+$base0d: #3777e6;
+$base0e: #ad00a1;
+$base0f: #cc6633;
+```
+
+##### Plum
+
+![plum-code-block]({{ '/assets/images/plum-code-block.jpg' | relative_url }})
+
+```scss
+/* plum syntax highlighting (base16) */
+$base00: #ffffff;
+$base01: #e0e0e0;
+$base02: #d0d0d0;
+$base03: #b0b0b0;
+$base04: #000000;
+$base05: #101010;
+$base06: #151515;
+$base07: #202020;
+$base08: #ff0086;
+$base09: #fd8900;
+$base0a: #aba800;
+$base0b: #00c918;
+$base0c: #1faaaa;
+$base0d: #3777e6;
+$base0e: #ad00a1;
+$base0f: #cc6633;
+```
+
+##### Sunrise
+
+![sunrise-code-block]({{ '/assets/images/sunrise-code-block.jpg' | relative_url }})
+
+```scss
+/* sunrise syntax highlighting (base16) */
+$base00: #1d1f21;
+$base01: #282a2e;
+$base02: #373b41;
+$base03: #969896;
+$base04: #b4b7b4;
+$base05: #c5c8c6;
+$base06: #e0e0e0;
+$base07: #ffffff;
+$base08: #cc6666;
+$base09: #de935f;
+$base0a: #f0c674;
+$base0b: #b5bd68;
+$base0c: #8abeb7;
+$base0d: #81a2be;
+$base0e: #b294bb;
+$base0f: #a3685a;
+```
+
+### Breakpoints and grid stuff
 
 Probably won't need to touch these, but they're there if you need to. Width variables are used with the [`@include breakpoint()`](http://breakpoint-sass.com/) mixin to adapt the design of certain elements.
 
 And `$susy` is used for setting [the grid](http://susy.oddbird.net/) the theme uses. Uncommenting the lines under `debug` can be useful if you want to show the columns when adjusting the layout.
 
 <figure>
-  <img src="{{ '/assets/images/mm-susy-grid-overlay.jpg' | absolute_url }}" alt="Susy grid overlay for debugging">
+  <img src="{{ '/assets/images/mm-susy-grid-overlay.jpg' | relative_url }}" alt="Susy grid overlay for debugging">
   <figcaption>Susy grid debug overlay enabled.</figcaption>
 </figure>
 
-### Disabling Animations
+### Disabling animations
 
 You can disable either the fade-in intro animation, element transition animations, or both by overriding the corresponding variables. For example if you wanted to disable all animations you could include the following lines:
 

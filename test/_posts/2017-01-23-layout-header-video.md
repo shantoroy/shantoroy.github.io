@@ -2,7 +2,7 @@
 title: "Layout: Header Video"
 header:
   video:
-    id: XsxDH4HcOWA
+    id: -PVofD2A9t8
     provider: youtube
 categories:
   - Layout
@@ -23,38 +23,38 @@ This post should display a **header with a responsive video**, if the theme supp
 
 ### YouTube
 
-To embed the following YouTube video at url `https://www.youtube.com/watch?v=XsxDH4HcOWA` (long version) or `https://youtu.be/XsxDH4HcOWA` (short version) into a post or page's main content you'd use: 
+To embed the following YouTube video at url `https://www.youtube.com/watch?v=-PVofD2A9t8` (long version) or `https://youtu.be/-PVofD2A9t8` (short version) into a post or page's main content you'd use: 
 
 ```liquid
-{% raw %}{% include video id="XsxDH4HcOWA" provider="youtube" %}{% endraw %}
+{% raw %}{% include video id="-PVofD2A9t8" provider="youtube" %}{% endraw %}
 ```
 
-{% include video id="XsxDH4HcOWA" provider="youtube" %}
+{% include video id="-PVofD2A9t8" provider="youtube" %}
 
 To embed it as a video header you'd use the following YAML Front Matter
 
 ```yaml
 header:
   video:
-    id: XsxDH4HcOWA
+    id: -PVofD2A9t8
     provider: youtube
 ```
 
 ### Vimeo
 
-To embed the following Vimeo video at url `https://vimeo.com/97649261` into a post or page's main content you'd use: 
+To embed the following Vimeo video at url `https://vimeo.com/212731897` into a post or page's main content you'd use: 
 
 ```liquid
-{% raw %}{% include video id="97649261" provider="vimeo" %}{% endraw %}
+{% raw %}{% include video id="212731897" provider="vimeo" %}{% endraw %}
 ```
 
-{% include video id="97649261" provider="vimeo" %}
+{% include video id="212731897" provider="vimeo" %}
 
 To embed it as a video header you'd use the following YAML Front Matter
 
 ```yaml
 header:
   video:
-    id: 97649261
+    id: 212731897
     provider: vimeo
 ```

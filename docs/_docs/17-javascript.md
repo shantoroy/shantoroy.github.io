@@ -2,25 +2,27 @@
 title: "JavaScript"
 permalink: /docs/javascript/
 excerpt: "Instructions for customizing and building the theme's scripts."
-last_modified_at: 2017-09-12T12:41:33-04:00
+last_modified_at: 2021-07-23T09:33:35-04:00
 ---
 
-The theme's [`assets/js/main.min.js`] script is built from several vendor, jQuery plugins, and other scripts found in [`assets/js/`](https://github.com/mmistakes/minimal-mistakes/tree/master/assets/js).
+The theme's `assets/js/main.min.js` script is built from several vendor, jQuery plugins, and other scripts found in [`assets/js/`](https://github.com/mmistakes/minimal-mistakes/tree/master/assets/js).
 
 ```bash
 minimal mistakes
 ├── assets
 |  ├── js
 |  |  ├── plugins
-|  |  |   ├── jquery.fitvids.js            # fluid width video embeds
-|  |  |   ├── jquery.greedy-navigation.js  # priority plus navigation
-|  |  |   ├── jquery.magnific-popup.js     # responsive lightbox
-|  |  |   └── jquery.smooth-scroll.min.js  # make same-page links scroll smoothly
+|  |  |   ├── gumshoe.js                     # simple scrollspy
+|  |  |   ├── jquery.ba-throttle-debounce.js # rate-limit functions
+|  |  |   ├── jquery.fitvids.js              # fluid width video embeds
+|  |  |   ├── jquery.greedy-navigation.js    # priority plus navigation
+|  |  |   ├── jquery.magnific-popup.js       # responsive lightbox
+|  |  |   └── smooth-scroll.js               # make same-page links scroll smoothly
 |  |  ├── vendor
 |  |  |   └── jquery
-|  |  |       └── jquery-3.2.1.min.js
-|  |  ├── _main.js                         # jQuery plugin settings and other scripts
-|  |  └── main.min.js                      # concatenated and minified scripts
+|  |  |       └── jquery-3.5.1.js
+|  |  ├── _main.js                           # jQuery plugin settings and other scripts
+|  |  └── main.min.js                        # concatenated and minified theme script
 ```
 
 ## Customizing
@@ -35,10 +37,12 @@ You can also add scripts to the `<head>` or closing `</body>` elements by adding
 
 ```yaml
 head_scripts:
-  - https://code.jquery.com/jquery-3.2.1.min.js
+  - https://code.jquery.com/jquery-3.3.1.min.js
   - /assets/js/your-custom-head-script.js
 footer_scripts:
   - /assets/js/your-custom-footer-script.js
+after_footer_scripts:
+  - /assets/js/custom-script-loads-after-footer.js
 ```
 
 **Note:** If you assign `footer_scripts` the theme's `/assets/js/main.min.js` file will be deactivated. This script includes jQuery and various other plugins that you'll need to find replacements for and include separately.
@@ -46,7 +50,7 @@ footer_scripts:
 
 ---
 
-## Build Process
+## Build process
 
 In an effort to reduce dependencies a set of [**npm scripts**](https://css-tricks.com/why-npm-scripts/) are used to build `main.min.js` instead of task runners like [Gulp](http://gulpjs.com/) or [Grunt](http://gruntjs.com/). If those tools are more your style then by all means use them instead :wink:.
 
@@ -60,3 +64,19 @@ To get started:
 {: .notice--warning}
 
 If all goes well, running `npm run build:js` will compress/concatenate `_main.js` and all plugin scripts into `main.min.js`.
+
+## Debugging
+
+The minified JavaScript is harder to debug in the browser than the raw source. To stop the minification and bundle all the JavaScript as-is --- open up `package.json` and edit the value `scripts.uglify` from:
+
+```json
+  "scripts": {
+    "uglify": "uglifyjs [...] -c -m -o assets/js/main.min.js",
+```
+
+To the following:
+
+```json
+  "scripts": {
+    "uglify": "cat [...] > assets/js/main.min.js",
+```
