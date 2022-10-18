@@ -275,8 +275,8 @@ jekyll-archives:
     - year
     - month
   layouts:
-    category: archive
-    tag: archive
+    category: category
+    tag: tag
   permalinks:
     category: /categories/:name/
     tag: /tags/:name/
