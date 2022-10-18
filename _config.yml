@@ -117,7 +117,7 @@ author:
     - label: "Buy me a Coffee"
       icon: "fab fa fa-coffee"
       url: "https://www.buymeacoffee.com/shantoroy"
-      
+
   google site      : # "shantoroyiit"
   email            : # "royshantoiit@gmail.com"
   uri              : # "http://shantoroy.me"
@@ -126,7 +126,7 @@ author:
   codepen          :
   dribbble         :
   flickr           : # "roysclick"
-  facebook         : 
+  facebook         :
   foursquare       :
   github           : # "shantoroy"
   gitlab           :
@@ -262,10 +262,10 @@ whitelist:
 #  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path/my-awesome-category/index.html ~> path: /
 category_archive:
-  type: jekyll-archives
+  type: liquid
   path: /categories/
 tag_archive:
-  type: jekyll-archives
+  type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
 jekyll-archives:
@@ -310,7 +310,7 @@ defaults:
       share: true
       related: true
       mathjax: true
-      
+
   # _profile
   - scope:
       path: ""
