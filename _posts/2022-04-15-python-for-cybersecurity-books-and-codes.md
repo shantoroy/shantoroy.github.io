@@ -52,8 +52,9 @@ The first part is primarily listing the renowned "Awesome Collections" available
 * [Machine-Learning-for-Cybersecurity-Cookbook](https://github.com/PacktPublishing/Machine-Learning-for-Cybersecurity-Cookbook)
 * [Hands-on-Machine-Learning-for-Cyber-Security](https://github.com/PacktPublishing/Hands-on-Machine-Learning-for-Cyber-Security)
 * [Python-for-Automating-Information-Security](https://github.com/PacktPublishing/Python-for-Automating-Information-Security)
+* [Python for CyberSecurity](https://github.com/hposton/python-for-cybersecurity)
 
 Please, feel free to let me know if I should include a few other excellent collections. Thanks!!!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTg2ODk4MjldfQ==
+eyJoaXN0b3J5IjpbLTc4NTk3MjkwNCwtMTMxODY4OTgyOV19
 -->
