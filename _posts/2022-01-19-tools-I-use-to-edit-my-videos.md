@@ -19,7 +19,6 @@ tags:
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "heart"
-excerpt: "This post explains the tools I have been using to edit my videos."
 ---
 
 
@@ -92,5 +91,5 @@ Happy vlogging!
 
 <iframe src="https://giphy.com/embed/FvYiO8OO1MWNHbBp2I" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/60secdocs-tattoo-tattoos-inked-FvYiO8OO1MWNHbBp2I"></a></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMzc2NzkxN119
+eyJoaXN0b3J5IjpbLTU3NjI4MDgyMCwtNjEzNzY3OTE3XX0=
 -->
