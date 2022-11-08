@@ -2,7 +2,7 @@
 layout: single
 title: "Vlogging Life 01: Tools I use to Edit my Videos"
 header:
-  overlay_image: "https://live.staticflickr.com/65535/52469449084_ac66cccb6b_o.png"
+  image: "https://live.staticflickr.com/65535/52469449084_ac66cccb6b_o.png"
   teaser: "https://live.staticflickr.com/65535/52469449084_ac66cccb6b_o.png"
 categories:
   - Vlogging
@@ -91,5 +91,6 @@ Happy vlogging!
 
 <iframe src="https://giphy.com/embed/FvYiO8OO1MWNHbBp2I" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/60secdocs-tattoo-tattoos-inked-FvYiO8OO1MWNHbBp2I"></a></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NjI4MDgyMCwtNjEzNzY3OTE3XX0=
+eyJoaXN0b3J5IjpbLTM4MDcwNzU4NywtNTc2MjgwODIwLC02MT
+M3Njc5MTddfQ==
 -->
