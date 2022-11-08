@@ -2,7 +2,7 @@
 layout: single
 title: "Vlogging Life 02: Devices I use to Capture my Videos"
 header:
-  overlay_image: "https://live.staticflickr.com/65535/52479269958_d7ee1f7afa_o.png"
+  image: "https://live.staticflickr.com/65535/52479269958_d7ee1f7afa_o.png"
   teaser: "https://live.staticflickr.com/65535/52479269958_d7ee1f7afa_o.png"
 categories:
   - Vlogging
@@ -70,5 +70,5 @@ It's always better to carry extra batteries and memory cards. I carry 3 addition
 That's all for today. Have a great day!!!
 Cheers!!! :sunglasses:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MDYwMTI5NF19
+eyJoaXN0b3J5IjpbMTU3NDg4MjQwMywtNzkwNjAxMjk0XX0=
 -->
