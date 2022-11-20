@@ -32,13 +32,13 @@ Recently, we visited Colorado and it was one of the best trip of my life. Here, 
 ### Keystone
 So, we actually rented an apartment in the Keystone Condominium through AirBnB. Keystone is very popular for Ice skating, mountain biking, and many other activities. Since this was summer and there were fewer people, we got the apartment at a cheaper rate. The place was nice and we really enjoyed it.
 
-<iframe src="https://www.instagram.com/p/CWCgm3YrM5E/?utm_source=ig_embed" width="560" height="580" frameborder="0"> </iframe>
+<iframe src="https://www.instagram.com/p/CWCgm3YrM5E/embed" width="560" height="580" frameborder="0"> </iframe>
 
 
 ### Loveland Pass
 We went to the Mount Evans Scenic Byway through the Loveland pass. Loveland Pass is a high mountain pass in north-central Colorado. It has an elevation of 11,990 feet above sea level in the Rocky Mountains. This is the viewpoint where people park their cars and have an awesome view.
 
-<iframe src="https://www.instagram.com/p/CRWOmnTL5Bx/?utm_source=ig_embed" width="560" height="580" frameborder="0"> </iframe>
+<iframe src="https://www.instagram.com/p/CRWOmnTL5Bx/embed" width="560" height="580" frameborder="0"> </iframe>
 
 
 ### Mount Evans Scenic Byway
@@ -47,19 +47,19 @@ Then we went to the Mount Evans Scenic Byway. It requires 15$ to enter the mount
 
 The Mount Evans Scenic Byway is the highest paved road in North America. The views up to Mount Evans are breathtaking, with echo lake, and the most beautiful summit lake close to the peak. 
 
-<iframe src="https://www.instagram.com/p/CUwakrwgG61/?utm_source=ig_embed" width="560" height="580" frameborder="0"> </iframe>
+<iframe src="https://www.instagram.com/p/CUwakrwgG61/embed" width="560" height="580" frameborder="0"> </iframe>
 
 
 ### The summit lake
 The summit lake is located near the peak. If you want to hike, there are a lot of trails. Also a nice place to start seeing some mountain goats.
 
-<iframe src="https://www.instagram.com/p/CUtm-wTANz2/?utm_source=ig_embed" width="560" height="580" frameborder="0"> </iframe>
+<iframe src="https://www.instagram.com/p/CUtm-wTANz2/embed" width="560" height="580" frameborder="0"> </iframe>
 
 
 ### The Mount Evans Peak
 Unfortunately, the weather was harsh at the peak of mount evans and it was snowing heavily. the only thing we could do was to take some photos.
 
-<iframe src="https://www.instagram.com/p/CTsfZcSvJ4H/?utm_source=ig_embed" width="560" height="580" frameborder="0"> </iframe>
+<iframe src="https://www.instagram.com/p/CTsfZcSvJ4H/embed" width="560" height="580" frameborder="0"> </iframe>
 
 
 ## Vlog
@@ -86,5 +86,5 @@ So, it was an wonderful first day of the tour. Before returning back to Keystone
 <iframe src="https://www.youtube.com/embed/SM6kyLFABLs" width="560" height="315" frameborder="0"> </iframe>
 <br/>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MDQ0MjUwNl19
+eyJoaXN0b3J5IjpbMTg4MzUwODc5NSwxODQwNDQyNTA2XX0=
 -->
