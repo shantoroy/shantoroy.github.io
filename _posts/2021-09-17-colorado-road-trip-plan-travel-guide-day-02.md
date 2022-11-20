@@ -106,6 +106,10 @@ For more details, watch my vlog on YouTube:
 That's all for today! Cheers!!! :sunglasses:
 
 
+Find details of Day 01 here:
+
+[Colorado Tour 2021 (Day 01): Tour Plans and Travel Journal](https://shantoroy.com/sports/colorado-road-trip-plan-travel-guide-day-01/)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjg4ODgzNjUsLTY0ODQxMzA4MV19
+eyJoaXN0b3J5IjpbMjkwMDEzMTI3LC02NDg0MTMwODFdfQ==
 -->
