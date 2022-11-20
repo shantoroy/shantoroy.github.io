@@ -60,6 +60,13 @@ Here's our entire team.
 <iframe src="https://www.instagram.com/p/Cfk6KAztJ-N/embed" width="560" height="580" frameborder="0"> </iframe>
 
 That's all for today! Cheers!!! :sunglasses: 
+
+
+
+Check out other links:
+
+[Devices I use to edit my videos](https://shantoroy.com/vlogging/devices-I-use-to-edit-my-videos/)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYzMzk1NjRdfQ==
+eyJoaXN0b3J5IjpbLTI3MzQ3ODU5LDk2MzM5NTY0XX0=
 -->
