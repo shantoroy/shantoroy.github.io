@@ -85,6 +85,13 @@ So, it was an wonderful first day of the tour. Before returning back to Keystone
 ### Mount Evans Scenic Byway
 <iframe src="https://www.youtube.com/embed/SM6kyLFABLs" width="560" height="315" frameborder="0"> </iframe>
 <br/>
+
+That's all for today! Cheers!!!
+
+Check out Day 02 details in the other post:
+
+[Colorado Tour 2021 (Day 02): The Rocky Mountain National Park](https://shantoroy.com/sports/colorado-road-trip-plan-travel-guide-day-02/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4MzUwODc5NSwxODQwNDQyNTA2XX0=
+eyJoaXN0b3J5IjpbLTE1Njg0MzEwNDQsMTg4MzUwODc5NSwxOD
+QwNDQyNTA2XX0=
 -->
