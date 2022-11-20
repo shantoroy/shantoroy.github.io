@@ -68,8 +68,8 @@ Check out other links:
 1. [Devices I use to edit my videos](https://shantoroy.com/vlogging/devices-I-use-to-edit-my-videos/)
 2. [Video Editing Software I use](https://shantoroy.com/vlogging/tools-I-use-to-edit-my-videos/)
 3. [Follow me on Instagram](https://www.instagram.com/shanto.roy.9/)
-4. [Subscribe my YouTube Channel]()
+4. [Subscribe to my YouTube Channel](https://www.youtube.com/c/ShantoRoy)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODMzNDUzMzAsOTYzMzk1NjRdfQ==
+eyJoaXN0b3J5IjpbLTU4NDk5MTQ4NSw5NjMzOTU2NF19
 -->
