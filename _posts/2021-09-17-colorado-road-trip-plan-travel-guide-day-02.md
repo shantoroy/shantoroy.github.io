@@ -46,9 +46,9 @@ There are actually many viewpoints throughout the Trail ridge road. Also, the Mi
 ### Rainbow curve
 From [Rainbow Curve](https://www.nps.gov/places/romo_rainbowcurve.htm) View point, we were able to see the Horseshoe Park, Deer Mountain, and the Mummy Mountain range.
 
-<iframe src="https://www.instagram.com/p/CTrw18qgvKo/?utm_source=ig_embed" width="560" height="580" frameborder="0"> </iframe>
+<iframe src="https://www.instagram.com/p/CTrw18qgvKo/embed" width="560" height="580" frameborder="0"> </iframe>
 
-<iframe src="https://www.instagram.com/p/CcCPy2lgq-2/?utm_source=ig_embed" width="560" height="1040" frameborder="0"> </iframe>
+<iframe src="https://www.instagram.com/p/CcCPy2lgq-2/embed" width="560" height="1040" frameborder="0"> </iframe>
 
 
 ### Forest Canyon Overlook
@@ -58,16 +58,16 @@ While walking towards the [Forest Canyon Overlook](https://www.nps.gov/places/ro
 ### Alpine Visitor Center
 The [Alpine Visitor Center](https://www.nps.gov/romo/alpine_visitor_center.htm) is located 11,796 feet above sea level. It is almost the highest point of the entire trail ridge road. This is just a view near the parking.
 
-<iframe src="https://www.instagram.com/p/CTn5oPsrs6Z/?utm_source=ig_embed" width="560" height="580" frameborder="0"> </iframe>
+<iframe src="https://www.instagram.com/p/CTn5oPsrs6Z/embed" width="560" height="580" frameborder="0"> </iframe>
 
 And here's a short video:
 
-<iframe src="https://www.instagram.com/p/CbeSXCeAbll/?utm_source=ig_embed" width="560" height="1020" frameborder="0"> </iframe>
+<iframe src="https://www.instagram.com/p/CbeSXCeAbll/embed" width="560" height="1020" frameborder="0"> </iframe>
 
 There is also a panoramic 360 view on top of that area which requires a few minutes of hiking. Here is a picture from the near top stair.
 
 
-<iframe src="https://www.instagram.com/p/CU2sleKgElU/?utm_source=ig_embed" width="560" height="580" frameborder="0"> </iframe>
+<iframe src="https://www.instagram.com/p/CU2sleKgElU/embed" width="560" height="580" frameborder="0"> </iframe>
 
 
 ### Bear Lake
@@ -75,7 +75,7 @@ Based on their survey, the Bear lake section is one of the most popular areas an
 
 First, we visited the Bear lake. It's the closest one from the parking. 
 
-<iframe src="https://www.instagram.com/p/CSIlrsEgY55/?utm_source=ig_embed" width="560" height="580" frameborder="0"> </iframe>
+<iframe src="https://www.instagram.com/p/CSIlrsEgY55/embed" width="560" height="580" frameborder="0"> </iframe>
 
 There are also many other short and long hikes from here.
 
@@ -103,8 +103,9 @@ For more details, watch my vlog on YouTube:
 <br/>
 
 
+That's all for today! Cheers!!! :sunglasses:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0ODQxMzA4MV19
+eyJoaXN0b3J5IjpbLTEzNjg4ODgzNjUsLTY0ODQxMzA4MV19
 -->
