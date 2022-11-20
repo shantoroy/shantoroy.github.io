@@ -28,6 +28,10 @@ Here is a video of the road that leads to the **Chisos Basin Visitor Center**.
 <iframe src="https://www.youtube.com/embed/mG8ypeijwks" width="560" height="315" frameborder="0"> </iframe>
 <br/>
 
+Here, we stopped on the way.
+<iframe src="https://www.instagram.com/p/Cf4xNWjv-M3/embed" width="560" height="500" frameborder="0"> </iframe>
+
+
 The visitor center has exhibits on plants and animals found in the Chisos Basin. There are a few lodges to stay overnight as well. 
 
 There is also a Chisos Basin Campground that is only around a mile hike from the visitor center. All the hikes start from the visitor center in different directions. 
@@ -51,5 +55,5 @@ Check out other links:
 3. [Follow me on Instagram](https://www.instagram.com/shanto.roy.9/)
 4. [Subscribe to my YouTube Channel](https://www.youtube.com/c/ShantoRoy)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NDAwMDAxNV19
+eyJoaXN0b3J5IjpbMTQ1NTE3ODU5NiwxMTc0MDAwMDE1XX0=
 -->
