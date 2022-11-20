@@ -101,10 +101,10 @@ Sometime, I need to embed a youtube video or instagram image. Here's the example
 
 ### Instagram Embedding Snippet
 ```
-<iframe src="https://www.instagram.com/p/CUtm-wTANz2/?utm_source=ig_embed" width="560" height="580" frameborder="0"> </iframe>
+<iframe src="https://www.instagram.com/p/CUtm-wTANz2/embed" width="560" height="580" frameborder="0"> </iframe>
 ```
 #### Output
-<iframe src="https://www.instagram.com/p/CUtm-wTANz2/?utm_source=ig_embed" width="560" height="580" frameborder="0"> </iframe>
+<iframe src="https://www.instagram.com/p/CUtm-wTANz2/embed" width="560" height="580" frameborder="0"> </iframe>
 
 
 ### Giphy Gifs
@@ -160,6 +160,7 @@ If you are looking for more snippets, just go visit this page:
 * https://www.fabriziomusacchio.com/blog/2021-08-11-Minimal_Mistakes_Cheat_Sheet/#via-html
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MTY1NDgzLC01MjA0ODIyMTYsNTU0OT
-UyMzY5LC01NjU0NzA4NjcsLTExNzEwODAyNjRdfQ==
+eyJoaXN0b3J5IjpbNTM4MDQ2NjAxLC04OTE2NTQ4MywtNTIwND
+gyMjE2LDU1NDk1MjM2OSwtNTY1NDcwODY3LC0xMTcxMDgwMjY0
+XX0=
 -->
