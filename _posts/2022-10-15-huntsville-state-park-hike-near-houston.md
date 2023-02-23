@@ -15,6 +15,7 @@ tags:
 toc: false
 toc_label: "Table of Contents"
 toc_icon: "heart"
+excerpt: "Escape the Houston city and explore the beauty of nature at Huntsville State Park located near Houston. In this post, I add some guide to hiking and biking the park's trails covers everything you need to know, including trail maps, trail difficulty, and top sights to see along the way."
 ---
 
 
@@ -37,5 +38,5 @@ In the following video, I have added some aerial shots for your convenience.
 
 Have a great day! Cheers!!!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMzk5MzQ3MF19
+eyJoaXN0b3J5IjpbMTk0MjU5ODc1MiwyMTAzOTkzNDcwXX0=
 -->
