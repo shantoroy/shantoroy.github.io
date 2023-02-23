@@ -1,6 +1,8 @@
 ---
 layout: single
 title: "Coding Interview Resources for Tech Job Preparation"
+seo_title: "coding interview resources for python coders and short-term preparation guide"
+seo_description: "coding interview preparation for Google, Mic"
 header:
   image: "https://live.staticflickr.com/65535/52463977440_2681597f4c_o.png"
   teaser: "https://live.staticflickr.com/65535/52463977440_2681597f4c_o.png"
@@ -46,5 +48,6 @@ Usually, for attending in interview, you may have to use one of the following pl
 3. Leetcode
 4. HireVue
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NDA1ODU3NSwtMjEwOTI4MDc2NF19
+eyJoaXN0b3J5IjpbLTE3NDcxMzk1NzAsMTA0NDA1ODU3NSwtMj
+EwOTI4MDc2NF19
 -->
