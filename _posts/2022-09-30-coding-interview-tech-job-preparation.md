@@ -14,6 +14,7 @@ tags:
 toc: false
 toc_label: "Table of Contents"
 toc_icon: "heart"
+excerpt: "Cracking the coding interview is a crucial step in landing our dream tech job. My blog post covers some useful coding interview resources, including sou practice problems, interview tips, and expert advice to help you nail your next interview."
 ---
 
 Coding interview is one of the most common steps in an tech job interview. Here, I have added a few resources to prepare ourselves in a short time.
@@ -45,5 +46,5 @@ Usually, for attending in interview, you may have to use one of the following pl
 3. Leetcode
 4. HireVue
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDkyODA3NjRdfQ==
+eyJoaXN0b3J5IjpbMTQyMTAxNzgwMCwtMjEwOTI4MDc2NF19
 -->
