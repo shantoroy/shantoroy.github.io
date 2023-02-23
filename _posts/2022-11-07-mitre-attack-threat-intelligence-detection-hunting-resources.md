@@ -16,7 +16,7 @@ tags:
 toc: false
 toc_label: "Table of Contents"
 toc_icon: "heart"
-excerpt: "MITRE ATT&CK is an essential tool for any organization who are concerned about cybersecurity, especially threat intelligence and threat modeling. In this post, I cover the key resources you need to know for effective threat intelligence and hunting, including real-world use cases and expert insights."
+excerpt: "MITRE ATT&CK is an essential tool for any organization who are concerned about cybersecurity, especially threat intelligence and threat modeling. In this post, I cover the key resources, techniques, and tools you need to know for effective threat intelligence and hunting, including real-world use cases."
 ---
 
 
@@ -59,5 +59,5 @@ The `awesome` repositories are pretty good place to start since these curated li
 
 That's all for today. Until next time, cheers! :sunglasses: 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNjEzNDgzOSwxMTg5NzYyNjg0XX0=
+eyJoaXN0b3J5IjpbLTM4NzExOTA1NCwxMTg5NzYyNjg0XX0=
 -->
