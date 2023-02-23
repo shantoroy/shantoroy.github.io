@@ -14,7 +14,7 @@ tags:
 toc: false
 toc_label: "Table of Contents"
 toc_icon: "heart"
-excerpt: "Learn how to build a simple chat application using Python and the ZeroMQ module! Our step-by-step guide will teach you everything you need to know about publisher-subscriber messaging and how to use ZeroMQ to create a real-time chat experience."
+excerpt: "Learn how to build a simple chat application using Python and the ZeroMQ module! Our step-by-step guide will teach you about publisher-subscriber messaging and how to use ZeroMQ to create a real-time chat experience between multiple people."
 ---
 
 
@@ -174,5 +174,5 @@ This is not a full-functional chat application. I just wanted to explore zeroMQ 
 
 That's all for today! Cheers!!! :sunglasses:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIwMTc0MTg5LDkzNzA3NjIzXX0=
+eyJoaXN0b3J5IjpbLTE3MDMyMzIwODgsOTM3MDc2MjNdfQ==
 -->
