@@ -14,6 +14,7 @@ tags:
 toc: false
 toc_label: "Table of Contents"
 toc_icon: "heart"
+excerpt: "I 
 ---
 
 
@@ -74,5 +75,5 @@ In this tutorial, we have seen how to create a drop-down panel in Grafana that o
 
 That's all for today! Cheers!!! :sunglasses:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNDI5MDY4MV19
+eyJoaXN0b3J5IjpbMTI0NDQ0NjUyOSwxNzA0MjkwNjgxXX0=
 -->
