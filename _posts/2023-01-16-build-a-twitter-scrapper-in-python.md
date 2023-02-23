@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Twitter Data Scrapper in Python"
+title: "How to write a Twitter Data Scrapper in Python"
 header:
   image: "https://live.staticflickr.com/65535/52696451758_de672f8380_o.png"
   teaser: "https://live.staticflickr.com/65535/52696451758_de672f8380_o.png"
@@ -15,6 +15,7 @@ tags:
 toc: false
 toc_label: "Table of Contents"
 toc_icon: "heart"
+excerpt: "Twitter is a treasure trove of data, but accessing and analyzing it can be a challenge. Our step-by-step tutorial shows you how to build a custom data scraper using Python, so you can easily collect, store, and analyze Twitter data for any purpose."
 ---
 
 
@@ -98,5 +99,5 @@ for tweet in all_tweets:
 
 That's all for today! Cheers!!! :sunglasses:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NTk2MjY1NV19
+eyJoaXN0b3J5IjpbMTM0MzcwNDE1MywxMTU1OTYyNjU1XX0=
 -->
