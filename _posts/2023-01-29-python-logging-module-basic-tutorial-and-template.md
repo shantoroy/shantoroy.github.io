@@ -14,6 +14,7 @@ tags:
 toc: false
 toc_label: "Table of Contents"
 toc_icon: "heart"
+excerpt: "Logging is a critical component of any Python project, and our easy-to-follow tutorial and template will help you get up to speed quickly. With practical examples and expert insights, you'll learn everything you need to know about implementing effective logging in your Python applications."
 ---
 
 
@@ -128,5 +129,5 @@ In this tutorial, we've explored how to use the Python `logging` module to add l
 
 That's all for today! Have a good day, cheers!!! :sunglasses:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODg2ODg1NjJdfQ==
+eyJoaXN0b3J5IjpbLTE3MDEwNzkwOSwtMTk4ODY4ODU2Ml19
 -->
