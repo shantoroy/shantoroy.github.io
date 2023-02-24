@@ -2,8 +2,8 @@
 layout: single
 title: "Road Trip to the Big Bend National Park from Houston: Part 01 - Santa Elena Canyon"
 excerpt:  "In this post, I will take you through the first part of our journey exploring Santa Elena Canyon, one of the park's most stunning natural wonders. It is located between the borders of USA and Mexico. The hiking is the best attraction although you can take a boat trip too in water seasons."
-seo_title:  Your  meta  title  
-seo_description:  Your  meta  description
+seo_title:  "Road Trip to Big Bend National Park from Houston: Part 01 - Santa Elena Canyon Hike with best Canyon Views"
+seo_description:  "Discover the beauty of Santa Elena Canyon in Big Bend National Park. Read on for stunning photos, full hike videos using my GoPro Hero 8, and insider travel tips!"
 header:
   image: "https://live.staticflickr.com/65535/52512526139_8064d16bd9_o.png"
   teaser: "https://live.staticflickr.com/65535/52512526139_8064d16bd9_o.png"
@@ -74,6 +74,6 @@ Check out other links:
 4. [Subscribe to my YouTube Channel](https://www.youtube.com/c/ShantoRoy)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MDMzMjY1NiwtNTg0OTkxNDg1LDk2Mz
+eyJoaXN0b3J5IjpbLTQwOTUyNDY5NiwtNTg0OTkxNDg1LDk2Mz
 M5NTY0XX0=
 -->
