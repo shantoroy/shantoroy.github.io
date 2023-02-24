@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "PhD/MS Dissertation Latex Template for Students of the College of Natural Sciences and Mathematics- University of Houston"
-excerpt:  Your  blog  post  excerpt  
+excerpt:  "Writing a thesis or dissertation can be daunting in Latex, especially when it comes to formatting, including tables and algorithms or subfigures. Fortunately, the University of Houston's College of Natural Sciences and Mathematics offers a LaTeX template that can make the process much easier. However, it is not designed inIn this blog post, we will guide you through the steps of using the template to write your PhD or MS dissertation."
 seo_title:  Your  meta  title  
 seo_description:  Your  meta  description
 header:
@@ -85,5 +85,5 @@ Please let me know, if I should include anything else.
 
 Once again, you will find the template on [Overleaf](https://www.overleaf.com/read/shdqcsrbbvnz). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MzA5ODkwOCwtNjI5Mzg0NjVdfQ==
+eyJoaXN0b3J5IjpbLTIxMjM1NDEyMzAsLTYyOTM4NDY1XX0=
 -->
