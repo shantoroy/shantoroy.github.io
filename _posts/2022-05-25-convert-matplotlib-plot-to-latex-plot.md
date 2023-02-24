@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "How to Convert Python Matplotlib Plots to Latex Plots (Easiest Way)"
+excerpt:  "Learn how to easily convert your Python Matplotlib plots to LaTeX format using just a few lines of code. Latex plots are better in academic  Save time and effort in creating publication-quality plots for your research papers."
+seo_title:  Your  meta  title  
+seo_description:  Your  meta  description
 header:
   image: "https://live.staticflickr.com/65535/52104303039_044542e267_o.png"
   teaser: "https://live.staticflickr.com/65535/52104303039_044542e267_o.png"
@@ -218,7 +221,7 @@ That's all for today!
 
 <iframe src="https://giphy.com/embed/f9RzoxHizH72k15FKS" width="480" height="268"></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDYwNjk2MTksLTYyNjU4ODkwNSwzNT
-c0MzcwMzMsNjM0Nzc2NDYsMjQwOTg4NzU0LDE5MDI4Mzc3MDBd
-fQ==
+eyJoaXN0b3J5IjpbMTkwOTMwNDYzNywtMTU0NjA2OTYxOSwtNj
+I2NTg4OTA1LDM1NzQzNzAzMyw2MzQ3NzY0NiwyNDA5ODg3NTQs
+MTkwMjgzNzcwMF19
 -->
