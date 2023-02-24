@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Road Trip to the Big Bend National Park from Houston: Part 02 - Chisos Basin Mountains"
+excerpt:  "Explore the Chisos Basin Mountains of the Big Bend National Park in Texas in Part 02 of our road trip series from Houston. Get tips on hiking trails, wildlife spotting, and breathtaking views in this natural wonderland."
+seo_title:  Your  meta  title  
+seo_description:  Your  meta  description
 header:
   image: "https://live.staticflickr.com/65535/52512526139_8064d16bd9_o.png"
   teaser: "https://live.staticflickr.com/65535/52512526139_8064d16bd9_o.png"
@@ -55,5 +58,6 @@ Check out other links:
 3. [Follow me on Instagram](https://www.instagram.com/shanto.roy.9/)
 4. [Subscribe to my YouTube Channel](https://www.youtube.com/c/ShantoRoy)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NTE3ODU5NiwxMTc0MDAwMDE1XX0=
+eyJoaXN0b3J5IjpbLTE3NTMwMTE2OTgsMTQ1NTE3ODU5NiwxMT
+c0MDAwMDE1XX0=
 -->
