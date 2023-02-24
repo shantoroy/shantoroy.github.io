@@ -1,8 +1,11 @@
 ---
 layout: single
 title: "How to Utilize Overleaf Latex platform for Collaboration!!!"
+excerpt:  Your  blog  post  excerpt  
+seo_title:  Your  meta  title  
+seo_description:  Your  meta  description
 header:
-  overlay_image: "https://live.staticflickr.com/65535/51699602895_9f512e632d_o.png"
+  overlay_image: "https://live.staticflickr.com/65535/52012497165_8a03814fd4_o.png"
   teaser: "https://live.staticflickr.com/65535/52012497165_8a03814fd4_o.png"
 categories:
   - Latex
@@ -101,5 +104,5 @@ If you want to find out who is contributing what part and what they have changed
 
 That's all for now. please, let me know if I have missed any important tip that needs to be included in this post.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMzkzNzg2MV19
+eyJoaXN0b3J5IjpbLTE5ODAwMjAxNTYsMjEzMzkzNzg2MV19
 -->
