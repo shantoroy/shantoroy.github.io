@@ -2,7 +2,7 @@
 layout: single
 title: "Summary of the Paper: Survey and Taxonomy of Adversarial Reconnaissance Techniques"
 header:
-  overlay_image: "https://live.staticflickr.com/65535/51699602895_9f512e632d_o.png"
+  image: "https://live.staticflickr.com/65535/51699602895_9f512e632d_o.png"
   teaser: "https://live.staticflickr.com/65535/52008239918_4ec6bc5c4b_o.png"
 categories:
   - Security
@@ -71,6 +71,6 @@ Learning how the cyber reconnaissance work is important for security researchers
 
 I intend to post details of each categories in later posts. Stay tuned and have a good day. Cheers!!!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNzAxNTUyOSwtMTI2MDg3MDk3NSwxMj
-Q1NDUxOTE2XX0=
+eyJoaXN0b3J5IjpbMjcwMTMyMDU2LDEzMjcwMTU1MjksLTEyNj
+A4NzA5NzUsMTI0NTQ1MTkxNl19
 -->
