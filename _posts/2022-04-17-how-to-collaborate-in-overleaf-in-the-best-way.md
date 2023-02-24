@@ -2,8 +2,8 @@
 layout: single
 title: "How to Utilize Overleaf Latex platform for Collaboration!!!"
 excerpt:  "Overleaf is a popular web-based platform for writing and collaborating on LaTeX documents. The platform is widely used extensively in the academic communities. This article provides a comprehensive guide on how to use Overleaf for collaboration and how to utilize its features to make the collaborative writing process easier and more efficient."
-seo_title:  Your  meta  title  
-seo_description:  Your  meta  description
+seo_title:  "A Complete Guide to Collaborating on LaTeX Documents with Overleaf"
+seo_description:  "Looking for an efficient way to collaborate on LaTeX documents with your collaborators? Check out this guide on how to use Overleaf, the most popular web-based LaTeX platform. In this post, I discuss how to make our collaborative writing process smoother and more streamlined. Learn how to utilize Overleaf's features to boost your team's productivity and create high-quality LaTeX documents quickly and easily."
 header:
   image: "https://live.staticflickr.com/65535/52012497165_8a03814fd4_o.png"
   teaser: "https://live.staticflickr.com/65535/52012497165_8a03814fd4_o.png"
@@ -103,5 +103,5 @@ If you want to find out who is contributing what part and what they have changed
 
 That's all for now. please, let me know if I have missed any important tip that needs to be included in this post.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMzI3NDE3OSwyMTMzOTM3ODYxXX0=
+eyJoaXN0b3J5IjpbMzIxMzU1MjM4LDIxMzM5Mzc4NjFdfQ==
 -->
