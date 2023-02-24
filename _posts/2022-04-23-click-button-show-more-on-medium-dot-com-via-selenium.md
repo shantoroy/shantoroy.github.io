@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Web Scrapping: Clicking the 'Show More' Button Multiple times in Medium.com Blog via Selenium"
+excerpt: "Learn how to scrape data from Medium.com blogs by clicking the 'Show More' button multiple times using Selenium in Python. This tutorial covers step-by-step instructions on web scraping and data extraction from those who want to get more data without doing the repetitive task manually."
+seo_title:  Your  meta  title  
+seo_description:  Your  meta  description
 header:
   overlay_image: "https://live.staticflickr.com/65535/51699602895_9f512e632d_o.png"
   teaser: "https://live.staticflickr.com/65535/52023019312_ca3bbdb467_o.png"
@@ -92,5 +95,6 @@ driver.quit()
 
 Let me know if you have any question. Thanks, have a good day!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NzA0MjcxOCwxODkyMzU2OTc2XX0=
+eyJoaXN0b3J5IjpbLTExNTk3MzEyNTQsLTI2NzA0MjcxOCwxOD
+kyMzU2OTc2XX0=
 -->
