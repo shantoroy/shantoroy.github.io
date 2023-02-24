@@ -1,9 +1,9 @@
 ---
 layout: single
 title: "How to Plot Group-plots in Python"
-excerpt:  "Learn how to create beautiful group-plots in Python with this step-by-step guide. With examples using Matplotlib and Pandas, you can master the art of visualizing complex data sets in no time."
-seo_title:  Your  meta  title  
-seo_description:  Your  meta  description
+excerpt:  "Learn how to create beautiful group-plots in Python with this step-by-step guide. With examples using Matplotlib and Pandas, you can master the art of visualizing complex data sets from dataframes in no time."
+seo_title:  "How to Plot Group-Plots in Python: A Step-by-Step Guide"
+seo_description:  "Discover how to create suitable group-plots in Python using Matplotlib and Pandas. Follow our expert tutorial and learn how to visualize complex data sets with ease."
 header:
   image: "https://live.staticflickr.com/65535/52479338640_f66fd4ee41_o.png"
   teaser: "https://live.staticflickr.com/65535/52479338640_f66fd4ee41_o.png"
@@ -170,6 +170,6 @@ plt.savefig('CPU_log.pdf', dpi=300)
 
 That's all for today! Cheers!!!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDE4ODUyOTEsMTU1MTEwODAyNSwxNz
+eyJoaXN0b3J5IjpbLTIwOTM0NTk5MjIsMTU1MTEwODAyNSwxNz
 Y1NTMyNzEwXX0=
 -->
