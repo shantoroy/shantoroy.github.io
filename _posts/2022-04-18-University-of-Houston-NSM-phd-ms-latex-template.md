@@ -5,7 +5,7 @@ excerpt:  "Writing a thesis or dissertation can be daunting in Latex, especially
 seo_title:  "University of Houston: Organized and Modular NSM Dissertation LaTeX Template"
 seo_description:  "Make writing your PhD or MS dissertation easier with the LaTeX template provided by the University of Houston's College of Natural Sciences and Mathematics. In this tutorial, the modular organization will help you use this template to format your thesis with ease."
 header:
-  overlay_image: "https://live.staticflickr.com/65535/51699602895_9f512e632d_o.png"
+  image: "https://live.staticflickr.com/65535/52014195409_effd1f1538_o.png"
   teaser: "https://live.staticflickr.com/65535/52014195409_effd1f1538_o.png"
 categories:
   - Latex
@@ -18,7 +18,6 @@ tags:
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "heart"
-excerpt: "This post includes an organized dissertation template (MS/PhD UH-NSM) with required packages and examples."
 ---
 
 
@@ -85,5 +84,5 @@ Please let me know, if I should include anything else.
 
 Once again, you will find the template on [Overleaf](https://www.overleaf.com/read/shdqcsrbbvnz). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MjMxODUwMCwtNjI5Mzg0NjVdfQ==
+eyJoaXN0b3J5IjpbLTE2Njg0OTUyODQsLTYyOTM4NDY1XX0=
 -->
