@@ -3,7 +3,7 @@ layout: single
 title: "Road Trip to the Big Bend National Park from Houston: Part 02 - Chisos Basin Mountains"
 excerpt:  "Explore the Chisos Basin Mountains of the Big Bend National Park in Texas in Part 02 of our road trip series from Houston. Get tips on hiking trails, wildlife spotting, and breathtaking views in this natural wonderland."
 seo_title:  "Big Bend National Park Road Trip Part 02 - Chisos Basin Mountains | Houston to Big Bend National Park near Marathon and Mexico Border" 
-seo_description:  
+seo_description:  "Check our scenic road trip from Houston to the Big Bend National Park in Texas and discover the popular and widely-hiked Chisos Basin Mountains. With numerous popular hiking trails, this natural wonderland is a must-visit destination for nature lovers, hikers, and back-packers. Check the highlights of Part 02 of our journey."
 header:
   image: "https://live.staticflickr.com/65535/52512526139_8064d16bd9_o.png"
   teaser: "https://live.staticflickr.com/65535/52512526139_8064d16bd9_o.png"
@@ -58,6 +58,6 @@ Check out other links:
 3. [Follow me on Instagram](https://www.instagram.com/shanto.roy.9/)
 4. [Subscribe to my YouTube Channel](https://www.youtube.com/c/ShantoRoy)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MzQ0OTMyMiwxNDU1MTc4NTk2LDExNz
+eyJoaXN0b3J5IjpbMTYxNjYwNTg3OSwxNDU1MTc4NTk2LDExNz
 QwMDAwMTVdfQ==
 -->
