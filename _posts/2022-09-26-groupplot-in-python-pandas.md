@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "How to Plot Group-plots in Python"
+excerpt:  Your  blog  post  excerpt  
+seo_title:  Your  meta  title  
+seo_description:  Your  meta  description
 header:
   image: "https://live.staticflickr.com/65535/52479338640_f66fd4ee41_o.png"
   teaser: "https://live.staticflickr.com/65535/52479338640_f66fd4ee41_o.png"
@@ -167,5 +170,5 @@ plt.savefig('CPU_log.pdf', dpi=300)
 
 That's all for today! Cheers!!!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NTUzMjcxMF19
+eyJoaXN0b3J5IjpbMTU1MTEwODAyNSwxNzY1NTMyNzEwXX0=
 -->
