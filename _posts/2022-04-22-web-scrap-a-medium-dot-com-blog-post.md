@@ -2,8 +2,8 @@
 layout: single
 title: "Web Scrapping: Finding Necessary Contents from a Medium Dot Com Blog Post"
 excerpt:  "Are you tired of manually copying and pasting data from a Medium blog post? In this tutorial, we will learn how to extract the necessary contents from a Medium.com blog post using web scraping techniques, especially the items like post title, author names, blog content, tags, publish dates, number of claps, comments, etc."
-seo_title:  Your  meta  title  
-seo_description:  Your  meta  description
+seo_title:  "Web Scraping: Extracting Necessary Contents from a Medium Dot Com Blog Post using beautifulsoup and requests modules"
+seo_description:  "Learn how to extract the necessary contents including post title, author names, blog content, tags, publish dates, number of claps, comments from a Medium.com blog post using web scraping techniques. Follow this tutorial to automate the process of copying and pasting data from Medium blog posts. Here, we use selenium, beautifulsoup, and requests modules."
 header:
   overlay_image: "https://live.staticflickr.com/65535/51699602895_9f512e632d_o.png"
   teaser: "https://live.staticflickr.com/65535/52024571959_915c770b73_o.png"
@@ -282,5 +282,5 @@ WhalePanda
 
 That's all for today. Chill!!! :sunglasses:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0MDUzMjc1MCw1MTc5NzY3NDZdfQ==
+eyJoaXN0b3J5IjpbNTYzMzYxNDUsNTE3OTc2NzQ2XX0=
 -->
