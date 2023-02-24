@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Symmetric and Asymmetric Key Cryptography Concept in Python"
+excerpt:  "Learn about the difference between symmetric and asymmetric key cryptography in Python with this tutorial. Discover how to use cryptographic algorithms in python to secure your data."
+seo_title:  Your  meta  title  
+seo_description:  Your  meta  description
 header:
   image: "https://live.staticflickr.com/65535/52703382288_65d2aced51_o.png"
   teaser: "https://live.staticflickr.com/65535/52703382288_65d2aced51_o.png"
@@ -267,5 +270,5 @@ You can also read related blog posts:
 5. [Write a Backdoor in Python](https://shantoroy.com/security/simple-backdoor-using-python/)
 6. [I Exploited the Moral of ChatGPT by giving slightly Different Instructions to write Ransomware!](https://medium.com/@shantoroy/i-exploited-the-moral-of-chatgpt-by-giving-slightly-different-instructions-to-write-ransomware-c0bb9cad0a55)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0NTEyMTgyN119
+eyJoaXN0b3J5IjpbMTU5MTEzMjU5NSwtNzQ1MTIxODI3XX0=
 -->
