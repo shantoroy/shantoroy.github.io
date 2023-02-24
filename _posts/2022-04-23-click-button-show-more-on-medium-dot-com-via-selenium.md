@@ -3,7 +3,7 @@ layout: single
 title: "Web Scrapping: Clicking the 'Show More' Button Multiple times in Medium.com Blog via Selenium"
 excerpt: "Learn how to scrape data from Medium.com blogs by clicking the 'Show More' button multiple times using Selenium in Python. This tutorial covers step-by-step instructions on web scraping and data extraction from the popular blogging platform medium.com."
 seo_title:  "Web Scrapping: Clicking the 'Show More' Button Multiple times in Medium.com Blog via Selenium"
-seo_description:  "Learn how to automate the process of clicking the 'Show More' button multiple times in Medium.com blogs with Selenium and Python to get links of all posts upon searching for tags or keywords. Follow this easy-to-follow tutorial to extract more data from this type of dynamic  websites efficiently."
+seo_description:  "Learn how to automate the process of clicking the 'Show More' button multiple times in Medium.com blogs with Selenium and Python to get links of all posts upon searching for tags or keywords. Follow this easy-to-follow tutorial to extract more data from this type of dynamic interactive javascript-based websites like medium blog efficiently."
 header:
   overlay_image: "https://live.staticflickr.com/65535/51699602895_9f512e632d_o.png"
   teaser: "https://live.staticflickr.com/65535/52023019312_ca3bbdb467_o.png"
@@ -95,6 +95,6 @@ driver.quit()
 
 Let me know if you have any question. Thanks, have a good day!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMTU2MjM4MywtMjY3MDQyNzE4LDE4OT
-IzNTY5NzZdfQ==
+eyJoaXN0b3J5IjpbLTE4NTIzODc1NDAsLTI2NzA0MjcxOCwxOD
+kyMzU2OTc2XX0=
 -->
