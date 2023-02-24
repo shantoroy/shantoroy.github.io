@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Summary of the Paper: Survey and Taxonomy of Adversarial Reconnaissance Techniques"
-excerpt:  Your  blog  post  excerpt  
+excerpt:  ""
 seo_title:  Your  meta  title  
 seo_description:  Your  meta  description
 header:
@@ -74,6 +74,6 @@ Learning how the cyber reconnaissance work is important for security researchers
 
 I intend to post details of each categories in later posts. Stay tuned and have a good day. Cheers!!!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNTk0ODU0MCwxMzI3MDE1NTI5LC0xMj
-YwODcwOTc1LDEyNDU0NTE5MTZdfQ==
+eyJoaXN0b3J5IjpbODYxODgyMDE2LDEzMjcwMTU1MjksLTEyNj
+A4NzA5NzUsMTI0NTQ1MTkxNl19
 -->
