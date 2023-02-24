@@ -1,9 +1,9 @@
 ---
 layout: single
 title: "PhD/MS Dissertation Latex Template for Students of the College of Natural Sciences and Mathematics- University of Houston"
-excerpt:  "Writing a thesis or dissertation can be daunting in Latex, especially when it comes to formatting, including tables and algorithms or subfigures. Fortunately, the University of Houston's College of Natural Sciences and Mathematics offers a LaTeX template that can make the process much easier. However, it is not designed inIn this blog post, we will guide you through the steps of using the template to write your PhD or MS dissertation."
-seo_title:  Your  meta  title  
-seo_description:  Your  meta  description
+excerpt:  "Writing a thesis or dissertation can be daunting in Latex, especially when it comes to formatting, including tables and algorithms or subfigures. Fortunately, the University of Houston's College of Natural Sciences and Mathematics offers a LaTeX template that can make the process much easier. However, it is not designed in a modular way. In this blog post, I will guide you through the steps of using the template in a more organized and modular way to write your PhD or MS dissertation."
+seo_title:  "University of Houston: Organized and Modular NSM Dissertation LaTeX Template"
+seo_description:  "Make writing your PhD or MS dissertation easier with the LaTeX template provided by the University of Houston's College of Natural Sciences and Mathematics. Our step-by-step guide will help you use this template to format your thesis with ease."
 header:
   overlay_image: "https://live.staticflickr.com/65535/51699602895_9f512e632d_o.png"
   teaser: "https://live.staticflickr.com/65535/52014195409_effd1f1538_o.png"
@@ -85,5 +85,5 @@ Please let me know, if I should include anything else.
 
 Once again, you will find the template on [Overleaf](https://www.overleaf.com/read/shdqcsrbbvnz). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjM1NDEyMzAsLTYyOTM4NDY1XX0=
+eyJoaXN0b3J5IjpbLTE1MzUyMjI4NzYsLTYyOTM4NDY1XX0=
 -->
