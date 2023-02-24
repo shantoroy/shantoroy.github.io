@@ -5,7 +5,7 @@ excerpt: "Learn how to scrape data from Medium.com blogs by clicking the 'Show M
 seo_title:  "Web Scrapping: Clicking the 'Show More' Button Multiple times in Medium.com Blog via Selenium"
 seo_description:  "Learn how to automate the process of clicking the 'Show More' button multiple times in Medium.com blogs with Selenium and Python to get links of all posts upon searching for tags or keywords. Follow this easy-to-follow tutorial to extract more data from this type of dynamic interactive javascript-based websites like medium blog efficiently."
 header:
-  image: "https://live.staticflickr.com/65535/51699602895_9f512e632d_o.png"
+  image: "https://live.staticflickr.com/65535/52023019312_ca3bbdb467_o.png"
   teaser: "https://live.staticflickr.com/65535/52023019312_ca3bbdb467_o.png"
 categories:
   - WebScrapping
@@ -18,7 +18,6 @@ tags:
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "heart"
-excerpt: "This post explains the way and provides necessary code to enable clicking on the 'show more' button on medium blog site via selenium"
 ---
 
 
@@ -95,6 +94,6 @@ driver.quit()
 
 Let me know if you have any question. Thanks, have a good day!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk1ODk0NDI3LC0yNjcwNDI3MTgsMTg5Mj
+eyJoaXN0b3J5IjpbODYyODQzNzMxLC0yNjcwNDI3MTgsMTg5Mj
 M1Njk3Nl19
 -->
