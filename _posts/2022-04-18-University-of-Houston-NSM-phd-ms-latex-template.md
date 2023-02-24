@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "PhD/MS Dissertation Latex Template for Students of the College of Natural Sciences and Mathematics- University of Houston"
+excerpt:  Your  blog  post  excerpt  
+seo_title:  Your  meta  title  
+seo_description:  Your  meta  description
 header:
   overlay_image: "https://live.staticflickr.com/65535/51699602895_9f512e632d_o.png"
   teaser: "https://live.staticflickr.com/65535/52014195409_effd1f1538_o.png"
@@ -82,5 +85,5 @@ Please let me know, if I should include anything else.
 
 Once again, you will find the template on [Overleaf](https://www.overleaf.com/read/shdqcsrbbvnz). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyOTM4NDY1XX0=
+eyJoaXN0b3J5IjpbLTI2MzA5ODkwOCwtNjI5Mzg0NjVdfQ==
 -->
