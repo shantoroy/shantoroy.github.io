@@ -3,7 +3,7 @@ layout: single
 title: "Visiting the Fort Travis Historic Site at Port Bolivar Texas"
 excerpt:  "Discover the fascinating surrounding of the Fort Travis Historic Site at Port Bolivar Texas through a drone shot. This post provides you on a journey in bird's eye view, exploring the military significance and architectural wonder of this less visited gem near Galveston."
 seo_title:  "Exploring the Fort Travis Historic Site at Port Bolivar Texas: A 4K Bird's Eye View"
-seo_description:  Your  meta  description
+seo_description:  "Join me on a journey through time as I explore the impressive architecture of the Fort Travis Historic Site at Port Bolivar Texas with a few of my friends. You can view its military significance and discover why it's a must-visit destination for history buffs and architecture enthusiasts alike if if live near Houston, Galveston, or anywhere in Texas."
 header:
   image: "https://live.staticflickr.com/65535/52464060363_b86987cb26_o.png"
   teaser: "https://live.staticflickr.com/65535/52464060363_b86987cb26_o.png"
@@ -36,5 +36,5 @@ In the following video, I have added some aerial views for your convenience.
 <iframe src="https://www.youtube.com/embed/_gp5rIHCefA" width="560" height="315" frameborder="0"> </iframe>
 <br/>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjIwNzAyMjAsMTY1NDM4MzYxN119
+eyJoaXN0b3J5IjpbLTIwNTk2NzgyNjAsMTY1NDM4MzYxN119
 -->
