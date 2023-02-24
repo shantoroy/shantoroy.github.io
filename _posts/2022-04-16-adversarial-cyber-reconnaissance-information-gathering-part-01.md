@@ -1,9 +1,9 @@
 ---
 layout: single
 title: "Summary of the Paper: Survey and Taxonomy of Adversarial Reconnaissance Techniques"
-excerpt:  "Adversarial reconnaissance techniques are becoming increasingly sophisticated and challenging to mitigate, making them a major threat to the organizations. In this post, I summarize our paper that surveys and categorizes various adversarial reconnaissance techniques, providing valuable insights into how these attacks are performed from the attacker's."
-seo_title:  Your  meta  title  
-seo_description:  Your  meta  description
+excerpt:  "Adversarial reconnaissance techniques are becoming increasingly sophisticated and challenging to mitigate, making them a major threat to the organizations. In this post, I summarize our paper that surveys and categorizes various adversarial reconnaissance techniques, providing valuable insights into how these attacks are performed from the attacker's point of view."
+seo_title:  "Survey and Taxonomy of Adversarial Reconnaissance Techniques: A Summary of the reputed paper published in the ACM Computing Survey"
+seo_description:  "Discover the various adversarial reconnaissance techniques and their implications for organizations in this summary of my comprehensive first-authored paper. The paper was publi Learn how to detect and prevent these attacks to safeguard your organization's security."
 header:
   image: "https://live.staticflickr.com/65535/52008239918_4ec6bc5c4b_o.png"
   teaser: "https://live.staticflickr.com/65535/52008239918_4ec6bc5c4b_o.png"
@@ -74,6 +74,6 @@ Learning how the cyber reconnaissance work is important for security researchers
 
 I intend to post details of each categories in later posts. Stay tuned and have a good day. Cheers!!!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI1ODUxODc1LDEzMjcwMTU1MjksLTEyNj
-A4NzA5NzUsMTI0NTQ1MTkxNl19
+eyJoaXN0b3J5IjpbLTE2NjU1ODA5MDcsMTMyNzAxNTUyOSwtMT
+I2MDg3MDk3NSwxMjQ1NDUxOTE2XX0=
 -->
