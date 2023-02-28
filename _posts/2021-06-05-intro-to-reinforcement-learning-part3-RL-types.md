@@ -2,8 +2,8 @@
 layout: single
 title: "Introduction to Reinforcement Learning (Part 03: Q-Learning in Python)"
 header:
-  image: "https://live.staticflickr.com/65535/51227976855_8d59f8284f_w.jpg"
-  teaser: "https://live.staticflickr.com/65535/51227976855_8d59f8284f_w.jpg"
+  image: "https://live.staticflickr.com/65535/52718364503_44032e3ab3_o.png"
+  teaser: "https://live.staticflickr.com/65535/52718364503_44032e3ab3_o.png"
 categories:
   - reinforcement-learning
 tags:
@@ -203,5 +203,5 @@ Now, we can check whether we are getting the expected rewards per episode.
 5. [Reward Based Epsilon Decay](https://aakash94.github.io/Reward-Based-Epsilon-Decay/)
 6. [Q – Learning Algorithm with Step by Step Implementation using Python](https://www.analyticsvidhya.com/blog/2021/04/q-learning-algorithm-with-step-by-step-implementation-using-python/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MzMwNDYzOF19
+eyJoaXN0b3J5IjpbLTIwNjI1MTU3MzgsLTQ2MzMwNDYzOF19
 -->
