@@ -65,9 +65,9 @@ Monte Carlo methods are a family of techniques used to estimate the value of a s
 Temporal difference (TD) learning is a technique used to learn the value of a state or action based on the difference between the predicted value and the actual reward received.
 
 
-So, these are some of the basic terminology we should know to learn more about reinforcement learning. In the next tutorial, we will learn, how to code Q-learning in Python.
+So, these are some of the basic terminology we should know to learn more about reinforcement learning. In the next tutorial, we will learn, [how to code Q-learning in Python](https://shantoroy.com/reinforcement-learning/intro-to-reinforcement-learning-part3-RL-types/).
 
 That's all for today! See you in the next post!!! :sunglasses:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDM2NTgxODFdfQ==
+eyJoaXN0b3J5IjpbMTgzMTU2ODExMSwtMTM0MzY1ODE4MV19
 -->
