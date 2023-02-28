@@ -16,6 +16,8 @@ toc_label: "Table of Contents"
 toc_icon: "heart"
 ---
 
+In the previous posts, we have learned the [Basic Concepts](https://shantoroy.com/reinforcement-learning/intro-to-reinforcement-learning-part1-basic-concepts/) and [Key Ter]
+
 Q-learning is a value-based Reinforcement learning where Q-values are used to determine action in a particular state. The Q-values are updated iteratively and the maximum Q-value defines the action-policy at each state.
 
 
@@ -203,5 +205,6 @@ Now, we can check whether we are getting the expected rewards per episode.
 5. [Reward Based Epsilon Decay](https://aakash94.github.io/Reward-Based-Epsilon-Decay/)
 6. [Q – Learning Algorithm with Step by Step Implementation using Python](https://www.analyticsvidhya.com/blog/2021/04/q-learning-algorithm-with-step-by-step-implementation-using-python/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjI1MTU3MzgsLTQ2MzMwNDYzOF19
+eyJoaXN0b3J5IjpbMTEyODQ3NzQ4OCwtMjA2MjUxNTczOCwtND
+YzMzA0NjM4XX0=
 -->
