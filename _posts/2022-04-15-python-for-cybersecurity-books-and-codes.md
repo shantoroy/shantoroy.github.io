@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Cyber Security (in Python) Books, Codes, and other Resource Collection available in GitHub"
+excerpt:  "Looking for a comprehensive collection of Cyber Security resources in Python? From books to codes and everything in between that are availab, this collection has got you covered. Whether you're a beginner or an expert, there's something for everyone."
+seo_title:  Your  meta  title  
+seo_description:  Your  meta  description
 header:
   overlay_image: "https://live.staticflickr.com/65535/51699602895_9f512e632d_o.png"
   teaser: "https://live.staticflickr.com/65535/51878456659_e06c494b01_o.png"
@@ -56,5 +59,6 @@ The first part is primarily listing the renowned "Awesome Collections" available
 
 Please, feel free to let me know if I should include a few other excellent collections. Thanks!!!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NTk3MjkwNCwtMTMxODY4OTgyOV19
+eyJoaXN0b3J5IjpbLTEzODc3OTc1ODYsLTc4NTk3MjkwNCwtMT
+MxODY4OTgyOV19
 -->
