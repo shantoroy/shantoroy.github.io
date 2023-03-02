@@ -2,7 +2,7 @@
 layout: single
 title: "MTB in Texas: Anthills Hike and Bike Trail (Bike Park in Houston!)"
 header:
-  overlay_image: "https://live.staticflickr.com/65535/51699602895_9f512e632d_o.png"
+  image: "https://live.staticflickr.com/65535/51699602895_9f512e632d_o.png"
   teaser: "https://live.staticflickr.com/65535/52006323817_0e5d9a8332_o.png"
 categories:
   - Sports
@@ -42,5 +42,6 @@ I have also covered some other bike trails including the [Green Ridge Trail](htt
 
 Have a good day! Cheers!!!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTIyMzU4MzZdfQ==
+eyJoaXN0b3J5IjpbLTE3NDk0Mjg4NzcsLTEyOTIyMzU4MzZdfQ
+==
 -->
