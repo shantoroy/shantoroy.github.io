@@ -18,7 +18,6 @@ tags:
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "heart"
-excerpt: "This post provides the necessary books and code resources for Hands-on Cyber Security"
 ---
 
 
@@ -59,6 +58,6 @@ The first part is primarily listing the renowned "Awesome Collections" available
 
 Please, feel free to let me know if I should include a few other excellent collections. Thanks!!!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2OTM3NDY0MCwtNzg1OTcyOTA0LC0xMz
-E4Njg5ODI5XX0=
+eyJoaXN0b3J5IjpbLTEzMTg1MjAwMzYsLTc4NTk3MjkwNCwtMT
+MxODY4OTgyOV19
 -->
