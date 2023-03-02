@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "Visiting Corpus Christi Sea Beaches: Whitecap, Mustang-island, and North Beach"
-excerpt:  Your  blog  post  excerpt  
-seo_title:  Your  meta  title  
+excerpt:  "Discover the beautiful sea beaches of Corpus Christi, Texas! From the soft white sands of Whitecap Beach to the awesome dunes of Mustang Island and the family-friendly North Beach, there's something for everyone to enjoy. Read on for tips on planning your trip and the best beach activities to make the most of your visit!"
+seo_title:  "Explore the Best Beaches in Corpus Christi, Texas - Whitecap, Mustang Island, and North Beach"
 seo_description:  Your  meta  description
 header:
   overlay_image: "https://live.staticflickr.com/65535/52007398833_f78a52ec57_o.png"
@@ -11,7 +11,7 @@ categories:
   - Travel
 tags:
   - Travel
-  - Corpus Ch
+  - Corpus Christi
   - Whitecap Beach
   - Mustang-Island
   - North Beach
@@ -52,5 +52,5 @@ Then we took a bath in the North beach. The water is greenish and I guess most a
 
 I will upload a video later on my YouTube channel. Stay tuned for more contents! thanks!!!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxOTc1MzkwOF19
+eyJoaXN0b3J5IjpbMTg3NjQ4NDQ0OV19
 -->
