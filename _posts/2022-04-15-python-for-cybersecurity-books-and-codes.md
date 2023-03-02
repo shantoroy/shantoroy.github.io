@@ -5,7 +5,7 @@ excerpt:  "Looking for a comprehensive collection of Cyber Security resources in
 seo_title:  "Cyber Security (in Python) Books, Codes, and Resource Collection in GitHub"
 seo_description:  "Explore a comprehensive collection of Cyber Security resources in Python, including books, codes, and more, all available on GitHub. Whether you're looking to learn the basics or dive deep into advanced topics, this collection has everything you need to enhance your Cyber Security skills."
 header:
-  overlay_image: "https://live.staticflickr.com/65535/51699602895_9f512e632d_o.png"
+  image: "https://live.staticflickr.com/65535/51878456659_e06c494b01_o.png"
   teaser: "https://live.staticflickr.com/65535/51878456659_e06c494b01_o.png"
 categories:
   - Security
@@ -59,6 +59,6 @@ The first part is primarily listing the renowned "Awesome Collections" available
 
 Please, feel free to let me know if I should include a few other excellent collections. Thanks!!!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc3MzA2NjEyLC03ODU5NzI5MDQsLTEzMT
-g2ODk4MjldfQ==
+eyJoaXN0b3J5IjpbLTk2OTM3NDY0MCwtNzg1OTcyOTA0LC0xMz
+E4Njg5ODI5XX0=
 -->
