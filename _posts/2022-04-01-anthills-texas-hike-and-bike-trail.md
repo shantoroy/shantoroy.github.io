@@ -1,8 +1,11 @@
 ---
 layout: single
 title: "MTB in Texas: Anthills Hike and Bike Trail (Bike Park in Houston!)"
+excerpt:  "If you are looking for a fun and exciting way to get outside and explore nature, mountain biking (MTB) is the perfect activity. Anthills Hike and Bike Trail is one of the most popular bike parks in Houston, offering a thrilling ride for bikers of all levels. In this blog post, I will share my experience (including) about Anthills Hike and Bike Trail and how to make the most out of your MTB experience in Texas."
+seo_title:  Your  meta  title  
+seo_description:  Your  meta  description
 header:
-  image: "https://live.staticflickr.com/65535/51699602895_9f512e632d_o.png"
+  image: "https://live.staticflickr.com/65535/52006323817_0e5d9a8332_o.png"
   teaser: "https://live.staticflickr.com/65535/52006323817_0e5d9a8332_o.png"
 categories:
   - Sports
@@ -15,7 +18,6 @@ tags:
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "heart"
-excerpt: "This post includes some information regarding the Anthills MTB trails. I also included a few videos for your convenience."
 ---
 
 We recently visited the most popular mountain biking trail in Houston. People call it the Anthills hike and bike trail. one thing that I did not know before visiting is, it has a bike park being developed and if you are a true mountain biker you will really like this trail.
@@ -42,6 +44,5 @@ I have also covered some other bike trails including the [Green Ridge Trail](htt
 
 Have a good day! Cheers!!!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDk0Mjg4NzcsLTEyOTIyMzU4MzZdfQ
-==
+eyJoaXN0b3J5IjpbMzgzMTE3MDczLC0xMjkyMjM1ODM2XX0=
 -->
