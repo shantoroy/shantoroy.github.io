@@ -19,7 +19,6 @@ tags:
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "heart"
-excerpt: "This post explains the contents of our recently accepted paper entitled `Survey and Taxonomy of Adversarial Reconnaissance Techniques`"
 ---
 
 
@@ -74,6 +73,6 @@ Learning how the cyber reconnaissance work is important for security researchers
 
 I intend to post details of each categories in later posts. Stay tuned and have a good day. Cheers!!!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQwMjU5NzU4LDEzMjcwMTU1MjksLTEyNj
-A4NzA5NzUsMTI0NTQ1MTkxNl19
+eyJoaXN0b3J5IjpbLTY0MDE3MzIyNyw4NDAyNTk3NTgsMTMyNz
+AxNTUyOSwtMTI2MDg3MDk3NSwxMjQ1NDUxOTE2XX0=
 -->
