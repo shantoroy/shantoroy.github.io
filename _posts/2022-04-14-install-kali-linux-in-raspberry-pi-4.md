@@ -1,13 +1,16 @@
 ---
 layout: single
 title: "Set Up Headless Kali Linux in a Raspberry Pi 4 without Monitor, Keyboard, and Mouse"
+excerpt:  Your  blog  post  excerpt  
+seo_title:  Your  meta  title  
+seo_description:  Your  meta  description
 header:
-  overlay_image: "https://live.staticflickr.com/65535/51699602895_9f512e632d_o.png"
+  image: "https://live.staticflickr.com/65535/51881085549_dd32d6eb18_o.png"
   teaser: "https://live.staticflickr.com/65535/51881085549_dd32d6eb18_o.png"
 categories:
   - Security
 tags:
-  - Kali
+  - Kali Linux
   - Tutorial
   - Raspberry Pi
   - Pentesting
@@ -165,5 +168,5 @@ Cheers! Happy Pentesting!!!
 1. [How to Install Kali Linux on Raspberry Pi 4](https://bughacking.com/how-to-install-kali-linux-on-raspberry-pi-4/)
 2. [Kali Linux Installation on Headless Raspberry Pi](https://medium.com/@defsecone/kali-linux-installation-on-headless-raspberry-pi-1856d9c61983)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNTI4NzM5XX0=
+eyJoaXN0b3J5IjpbLTE0MzQyMDIyNjddfQ==
 -->
