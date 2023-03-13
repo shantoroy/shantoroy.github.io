@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Vlogging Life 02: Devices I use to Capture my Videos"
+excerpt:  "If you're looking to create high-quality videos, having the right equipment is essential. In this post, I'll share the devices I use to capture my videos, including my camera, microphone, and other equipment. Whether you're a YouTuber, a content creator, or just someone who wants to improve their video recording setup, this post is for you. I'll also provide some tips on how to get the best possible video and audio quality."
+seo_title:  Your  meta  title  
+seo_description:  Your  meta  description
 header:
   image: "https://live.staticflickr.com/65535/52479269958_d7ee1f7afa_o.png"
   teaser: "https://live.staticflickr.com/65535/52479269958_d7ee1f7afa_o.png"
@@ -70,5 +73,6 @@ It's always better to carry extra batteries and memory cards. I carry 3 addition
 That's all for today. Have a great day!!!
 Cheers!!! 😎
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjU3MzIwNDQsLTc5MDYwMTI5NF19
+eyJoaXN0b3J5IjpbMTAzNDY3MjI5NCwtMjA2NTczMjA0NCwtNz
+kwNjAxMjk0XX0=
 -->
