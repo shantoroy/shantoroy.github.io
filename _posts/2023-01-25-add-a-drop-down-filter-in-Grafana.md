@@ -73,7 +73,7 @@ Grafana is a powerful data visualization and analytics tool that allows us to cr
 
 In this tutorial, we have seen how to create a drop-down panel in Grafana that offers the unique IDs of a column in a PostgreSQL table and uses the selected ID to deliver graphs based on SQL queries. This type of filter help when we have a lot of data points. 
 
-That's all for today! Cheers!!! :sunglasses:
+That's all for today! Cheers!!! 😎
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE2OTk2OTgxLDE3MDQyOTA2ODFdfQ==
+eyJoaXN0b3J5IjpbLTE1NzgyOTAyMzQsMTcwNDI5MDY4MV19
 -->
