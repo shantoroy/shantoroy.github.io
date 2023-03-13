@@ -15,7 +15,7 @@ tags:
   - Port Bolivar
   - Historic Site
   - DJI Mini 2
-toc: false
+toc: true
 toc_label: "Table of Contents"
 toc_icon: "heart"
 ---
@@ -36,5 +36,6 @@ In the following video, I have added some aerial views for your convenience.
 <iframe src="https://www.youtube.com/embed/_gp5rIHCefA" width="560" height="315" frameborder="0"> </iframe>
 <br/>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTg2NjE0MjAsMTY1NDM4MzYxN119
+eyJoaXN0b3J5IjpbLTg3MDgyOTEwMSwtMTExODY2MTQyMCwxNj
+U0MzgzNjE3XX0=
 -->
