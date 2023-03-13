@@ -11,7 +11,7 @@ tags:
   - Tutorial
   - ZeroMQ
   - Publisher-subscriber
-toc: false
+toc: true
 toc_label: "Table of Contents"
 toc_icon: "heart"
 excerpt: "Learn how to build a simple chat application using Python and the ZeroMQ module! Our step-by-step guide will teach you about publisher-subscriber messaging and how to use ZeroMQ to create a real-time chat experience between multiple people."
@@ -174,5 +174,5 @@ This is not a full-functional chat application. I just wanted to explore zeroMQ 
 
 That's all for today! Cheers!!! 😎
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1ODIwODY5Nyw5MzcwNzYyM119
+eyJoaXN0b3J5IjpbOTUxMzM1MzM4LDkzNzA3NjIzXX0=
 -->
