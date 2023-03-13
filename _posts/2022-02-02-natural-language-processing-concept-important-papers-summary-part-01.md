@@ -1,8 +1,8 @@
 ---
 layout: single
-title: "Necessary Concept Papers of Natural Language Processing (NLP): Part 01"
+title: "Necessary Concept Papers of Natural Language Processing (NLP)"
 header:
-  overlay_image: "https://live.staticflickr.com/65535/51699602895_9f512e632d_o.png"
+  image: "https://live.staticflickr.com/65535/52014583379_0e837e6525_o.png"
   teaser: "https://live.staticflickr.com/65535/52014583379_0e837e6525_o.png"
 categories:
   - NLP
@@ -87,5 +87,5 @@ The method calculates the gradient of the error function with respect to the neu
 
 In the next part, I will add summary of a few state-of-the-art papers.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Nzc1Njg0NTldfQ==
+eyJoaXN0b3J5IjpbMTQ3MzAxMDUyLC0xNDc3NTY4NDU5XX0=
 -->
