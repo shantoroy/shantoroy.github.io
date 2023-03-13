@@ -11,7 +11,7 @@ tags:
   - Tutorial
   - Logging
   - Debug
-toc: false
+toc: true
 toc_label: "Table of Contents"
 toc_icon: "heart"
 excerpt: "Logging is a critical component of any Python project, and here, I write a simple tutorial and example templates to use that will help you to have a head start. With practical examples and insights, you'll learn about implementing effective logging in your Python programs or applications."
@@ -129,5 +129,6 @@ In this tutorial, we've explored how to use the Python `logging` module to add l
 
 That's all for today! Have a good day, cheers!!! 😎
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1ODQ1NjEyNCwtMTk4ODY4ODU2Ml19
+eyJoaXN0b3J5IjpbLTEzOTQ1NDMzNzcsLTE5ODg2ODg1NjJdfQ
+==
 -->
