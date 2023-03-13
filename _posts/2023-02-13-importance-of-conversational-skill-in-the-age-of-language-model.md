@@ -13,7 +13,7 @@ tags:
   - search enginess
   - Google
   - Bing
-toc: false
+toc: true
 toc_label: "Table of Contents"
 toc_icon: "heart"
 excerpt: "As language models become more prevalent, the importance of strong conversational skills has become essential. In this thought-provoking article, I explore why effective communication is essential in the age of AI, and how you can improve your conversational abilities to stand out in a world of chatbots and virtual assistants."
@@ -48,6 +48,6 @@ For myself, previously I had to look into tons of resources to just find one par
 
 <iframe src="https://giphy.com/embed/fF2qKjacyuYPHDMdtW" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/angelrelations-arg-chatgpt-gpt-fF2qKjacyuYPHDMdtW">via GIPHY</a></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjE0NDY3MDQsLTExNDI2NzU2NTVdfQ
+eyJoaXN0b3J5IjpbLTE3MTg3MDMwMjksLTExNDI2NzU2NTVdfQ
 ==
 -->
