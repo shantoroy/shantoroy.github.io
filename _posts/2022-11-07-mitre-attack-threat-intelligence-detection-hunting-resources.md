@@ -57,7 +57,7 @@ So far, these are the most important resources I have found so far. I will keep 
 
 The `awesome` repositories are pretty good place to start since these curated lists present all varieties of resources available out there.
 
-That's all for today. Until next time, cheers! :sunglasses: 
+That's all for today. Until next time, cheers! 😎
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NzExOTA1NCwxMTg5NzYyNjg0XX0=
+eyJoaXN0b3J5IjpbLTExMTk4NDA1NTcsMTE4OTc2MjY4NF19
 -->
