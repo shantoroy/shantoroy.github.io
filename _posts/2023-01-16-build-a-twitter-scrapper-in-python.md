@@ -97,7 +97,8 @@ for tweet in all_tweets:
       print(tweet)
 ```
 
-That's all for today! Cheers!!! :sunglasses:
+That's all for today! Cheers!!! 😎
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY1OTgyMjM5LDExNTU5NjI2NTVdfQ==
+eyJoaXN0b3J5IjpbLTE3MjIyNDc5NTIsOTY1OTgyMjM5LDExNT
+U5NjI2NTVdfQ==
 -->
