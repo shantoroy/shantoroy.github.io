@@ -11,7 +11,7 @@ tags:
   - Dashboard
   - Monitoring
   - PostgreSQL
-toc: false
+toc: true
 toc_label: "Table of Contents"
 toc_icon: "heart"
 excerpt: "I have been managing the backend of an IoT project to handle data and show statuses via Grafana dashboard. In this tutorial, I write a step-by-step tutorial on how to create a new drop-down menu/filter (Query Variable) so that I can select a device and show stas of that one only. My comprehensive tutorial explains how to use PostgreSQL table columns to create grafana filters that will transform the way we visualize and analyze our data."
@@ -75,6 +75,6 @@ In this tutorial, we have seen how to create a drop-down panel in Grafana that o
 
 That's all for today! Cheers!!! 😎
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDA0MTQ1OTgsLTk3MDk5MTcwNiwxNz
-A0MjkwNjgxXX0=
+eyJoaXN0b3J5IjpbLTEyMTUyMTc2OTUsLTE0MDA0MTQ1OTgsLT
+k3MDk5MTcwNiwxNzA0MjkwNjgxXX0=
 -->
