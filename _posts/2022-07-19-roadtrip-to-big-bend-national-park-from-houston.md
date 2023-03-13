@@ -62,7 +62,7 @@ Big Bend is a scenic dry national park and has a lot to offer. In the next posts
 Here's our entire team.
 <iframe src="https://www.instagram.com/p/Cfk6KAztJ-N/embed" width="560" height="580" frameborder="0"> </iframe>
 
-That's all for today! Cheers!!! :sunglasses: 
+That's all for today! Cheers!!! 😎
 
 
 
@@ -74,6 +74,6 @@ Check out other links:
 4. [Subscribe to my YouTube Channel](https://www.youtube.com/c/ShantoRoy)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwOTUyNDY5NiwtNTg0OTkxNDg1LDk2Mz
-M5NTY0XX0=
+eyJoaXN0b3J5IjpbLTE0MTg4ODA1MzMsLTQwOTUyNDY5NiwtNT
+g0OTkxNDg1LDk2MzM5NTY0XX0=
 -->
