@@ -15,7 +15,7 @@ tags:
   - groupplot
   - Pandas
   - Numpy
-toc: false
+toc: true
 toc_label: "Table of Contents"
 toc_icon: "heart"
 ---
@@ -170,6 +170,6 @@ plt.savefig('CPU_log.pdf', dpi=300)
 
 That's all for today! Cheers!!!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDMxMjE3NjUsMTU1MTEwODAyNSwxNz
-Y1NTMyNzEwXX0=
+eyJoaXN0b3J5IjpbMTIzODkzNjEyNCwxNTUxMTA4MDI1LDE3Nj
+U1MzI3MTBdfQ==
 -->
