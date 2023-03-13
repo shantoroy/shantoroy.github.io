@@ -1,8 +1,11 @@
 ---
 layout: single
 title: "Build Your First Mobile App in Python with Kivy: A Simple 'Hello World' Program"
+excerpt:  Your  blog  post  excerpt  
+seo_title:  Your  meta  title  
+seo_description:  Your  meta  description
 header:
-  overlay_image: "https://live.staticflickr.com/65535/51699602895_9f512e632d_o.png"
+  image: "https://live.staticflickr.com/65535/51713840278_c17951a974_o.png"
   teaser: "https://live.staticflickr.com/65535/51713840278_c17951a974_o.png"
 categories:
   - Python
@@ -15,7 +18,6 @@ tags:
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "heart"
-excerpt: "This post introduces the first step of developing mobile application in Python with Kivy Module. We will print 'hello world' on the app."
 ---
 
 
@@ -156,5 +158,5 @@ You will see the following output:
 1. [Getting StartedGetting Started »  Installing Kivy](https://kivy.org/doc/stable/gettingstarted/installation.html#kivy-source-install)
 2. [Kivy Installation on Linux](https://kivy.org/doc/stable/installation/installation-linux.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MDQ5MTgyMl19
+eyJoaXN0b3J5IjpbNzYwNTg3MzcyLDE5NDA0OTE4MjJdfQ==
 -->
