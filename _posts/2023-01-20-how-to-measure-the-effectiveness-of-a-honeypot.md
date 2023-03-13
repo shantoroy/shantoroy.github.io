@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Cyber Deception: Evaluation Metrics for Honeypot Research and Development"
+excerpt:  Your  blog  post  excerpt  
+seo_title:  "Understanding the Evaluation Metrics for Honeypot Research and Development"
+seo_description:  "Honeypots are an effective tool in the field of cybersecurity. In this blog post, I discuss the evaluation metrics for honeypot research and development. I explore the various metrics used for evaluating honeypots, including the detection rate, false positives, and false negatives, among others."
 header:
   image: "https://live.staticflickr.com/65535/52745174878_31b9b78883_o.png"
   teaser: "https://live.staticflickr.com/65535/52745174878_31b9b78883_o.png"
@@ -75,5 +78,5 @@ If conducted human experiments on honeypots, we researchers can measure the foll
 Please let me know in the comments if you have further to add! 
 Best wishes for your research on Honeypots! 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MDk1MDc1MV19
+eyJoaXN0b3J5IjpbLTE3ODc3OTk4ODZdfQ==
 -->
