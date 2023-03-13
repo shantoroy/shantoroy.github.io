@@ -127,7 +127,7 @@ logger.addHandler(stream_handler)
 
 In this tutorial, we've explored how to use the Python `logging` module to add logging capabilities to our code. We've covered the basics of logging with `basicConfig()`, as well as the more advanced techniques of loggers, handlers, and formatters.
 
-That's all for today! Have a good day, cheers!!! :sunglasses:
+That's all for today! Have a good day, cheers!!! 😎
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkyNjUwMDkxLC0xOTg4Njg4NTYyXX0=
+eyJoaXN0b3J5IjpbMjA1ODQ1NjEyNCwtMTk4ODY4ODU2Ml19
 -->
