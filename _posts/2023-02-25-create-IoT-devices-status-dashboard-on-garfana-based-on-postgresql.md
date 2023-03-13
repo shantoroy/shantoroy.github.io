@@ -87,7 +87,7 @@ Here, I was collecting data for four devices, and selected last 24 hours to chec
 You can read my other post related to Grafana dashboards:
 [How to Create a New Drop-Down Menu/Filter in Grafana Based on PostgreSQL Table Column](https://shantoroy.com/monitoring/add-a-drop-down-filter-in-Grafana/)
 
-That's all for today!Cheers!!! :sunglasses:
+That's all for today!Cheers!!! 😎
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NjU2OTMyMl19
+eyJoaXN0b3J5IjpbLTE4MTE0NTIxMjEsLTI2NjU2OTMyMl19
 -->
