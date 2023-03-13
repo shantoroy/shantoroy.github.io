@@ -59,7 +59,8 @@ Email or use of social media marketing can be a good option for influencers. You
 
 In conclusion, integrating advanced language models such as OpenAI's ChatGPT is transforming how people access information and search for what they need. This has significant implications for the advertising industry, specially small businesses like content creators and influencers, who must adapt to these changes and find new ways to reach its target audience. 
 
-Whether through targeted ads within the results provided by the language model or through content marketing; the key is to find new and innovative ways to connect with the target. But as a user, I am definitely happy for not being compelled to browse through links to find desired contents and run into the ads I don't wanna see. :sunglasses:
+Whether through targeted ads within the results provided by the language model or through content marketing; the key is to find new and innovative ways to connect with the target. But as a user, I am definitely happy for not being compelled to browse through links to find desired contents and run into the ads I don't wanna see. 😎
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNTQzMDY3MSwxMzY4ODU2NDM4XX0=
+eyJoaXN0b3J5IjpbLTY4NDgyMTQzOCwtNjM1NDMwNjcxLDEzNj
+g4NTY0MzhdfQ==
 -->
