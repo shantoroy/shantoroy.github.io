@@ -51,7 +51,7 @@ And here is the dashboard, the public document section is available to view for 
 </figure>
 <br/>
 
-You can try taking a look at my [public profile](https://www.authorea.com/users/446514-shanto-roy). There is nothing though. :wink:
+You can try taking a look at my [public profile](https://www.authorea.com/users/446514-shanto-roy). There is nothing though. 
 
 Now, let me add some cons of using this platform:
 
@@ -65,5 +65,5 @@ Anyway, this platform seems to provide a lot of options in the future and still 
 
 These are just my point of view. Whether you agree or disagree, feel free to write your thoughts in the comment section. Thanks. Have a good day.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDc5MDIyMDldfQ==
+eyJoaXN0b3J5IjpbLTI4NDg0NTYyLC0xODA3OTAyMjA5XX0=
 -->
