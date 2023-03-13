@@ -1,9 +1,9 @@
 ---
 layout: single
 title: "Cyber Security Awareness and Best Practices at Personal Level"
-excerpt:  Your  blog  post  excerpt  
-seo_title:  Your  meta  title  
-seo_description:  Your  meta  description
+excerpt:  "Cyber security threats are on the rise, and everyone is vulnerable to attacks. Whether you are an individual, a business owner, or a government agency, it is essential to take measures to secure your digital assets. In this blog post, I will discuss cyber security awareness and best practices at the personal level, including tips on how to protect your devices, personal information, and online accounts."
+seo_title:  "Cyber Security Awareness and Best Practices to Keep Your Personal Data and Online Accounts Safe"
+seo_description:  "Protect your personal data with these cyber security awareness tips and best practices. Learn how to safeguard your devices, online accounts, and personal information against cyber attacks."
 header:
   image: "https://live.staticflickr.com/65535/51651624220_c268312ac6_b.jpg"
   teaser: "https://live.staticflickr.com/65535/51651624220_c268312ac6_b.jpg"
@@ -68,5 +68,5 @@ This post will briefly point out the best practices to keep your information pri
 
 Please let me know if I have missed any point. In the future posts, I will talk more details regarding everyday security.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNDQ5NzcxMl19
+eyJoaXN0b3J5IjpbLTE5ODYwNzAwNTddfQ==
 -->
