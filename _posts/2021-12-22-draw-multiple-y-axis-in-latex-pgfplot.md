@@ -3,7 +3,7 @@ layout: single
 title: "How to Draw Multiple Y-Axis in Latex PGFPlots"
 excerpt:  "Want to plot multiple y-axes on a single LaTeX PGFPlots plot? Check out this tutorial on how to draw multiple y-axes in LaTeX PGFPlots. Whether you are a scientist or a student, this easy-to-follow guide will show you how to create impressive, multi-dimensional plots that are perfect for research papers, presentations, and more."
 seo_title:  "Drawing Multiple Y-Axes in Latex PGFPlots: A Step-by-Step Guide"
-seo_description:  Your  meta  description
+seo_description:  "Learn how to draw multiple y-axes in LaTeX PGFPlots with this comprehensive tutorial. Follow my easy-to-understand instructions and create stunning, multi-dimensional plots for your research papers and presentations. Perfect for scientists, students, and anyone looking to enhance their LaTeX skills."
 header:
   image: "https://live.staticflickr.com/65535/52102245910_94d1a1a625_o.png"
   teaser: "https://live.staticflickr.com/65535/52102245910_94d1a1a625_o.png"
@@ -162,6 +162,6 @@ You can find the outputs in [this Overleaf Project](https://www.overleaf.com/rea
 1. [pgfplots: Legends in multiple y-axis plot overlapping](https://tex.stackexchange.com/questions/42697/pgfplots-legends-in-multiple-y-axis-plot-overlapping)
 2. [Can I draw figure 3 y axis using pgfplot?](https://tex.stackexchange.com/questions/62291/can-i-draw-figure-3-y-axis-using-pgfplot)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNTkxMTA3OSwxMTI3MzkyODA5LC01Nz
-E4NTk2MTBdfQ==
+eyJoaXN0b3J5IjpbNDgzNjM5MTU2LDExMjczOTI4MDksLTU3MT
+g1OTYxMF19
 -->
