@@ -68,7 +68,7 @@ It's always better to carry extra batteries and memory cards. I carry 3 addition
 
 
 That's all for today. Have a great day!!!
-Cheers!!! :sunglasses:
+Cheers!!! 😎
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NDg4MjQwMywtNzkwNjAxMjk0XX0=
+eyJoaXN0b3J5IjpbLTIwNjU3MzIwNDQsLTc5MDYwMTI5NF19
 -->
