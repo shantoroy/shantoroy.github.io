@@ -96,7 +96,7 @@ By the way, currently, I am researching the MITRE ATT&CK framework, which is wid
 
 [MITRE ATT&CK Resources for Threat Intelligence and Hunting](https://shantoroy.com/att&ck/mitre-attack-threat-intelligence-detection-hunting-resources/)
 
-That's all for today! Cheers!!! :sunglasses:
+That's all for today! Cheers!!! 😎
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc0OTY3MDY0XX0=
+eyJoaXN0b3J5IjpbLTk2OTY5NDMxLDU3NDk2NzA2NF19
 -->
