@@ -10,7 +10,7 @@ tags:
   - Grafana
   - Dashboard
   - Monitoring
-  - PostGreSQL
+  - PostgreSQL
 toc: false
 toc_label: "Table of Contents"
 toc_icon: "heart"
@@ -75,5 +75,5 @@ In this tutorial, we have seen how to create a drop-down panel in Grafana that o
 
 That's all for today! Cheers!!! 😎
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzgyOTAyMzQsMTcwNDI5MDY4MV19
+eyJoaXN0b3J5IjpbLTk3MDk5MTcwNiwxNzA0MjkwNjgxXX0=
 -->
