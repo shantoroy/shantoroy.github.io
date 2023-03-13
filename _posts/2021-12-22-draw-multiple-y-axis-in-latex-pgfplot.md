@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Draw Multiple Y-Axis in Latex PGFPlots"
+title: "How to Draw Multiple Y-Axis in Latex PGFPlots"
 header:
   image: "https://live.staticflickr.com/65535/52102245910_94d1a1a625_o.png"
   teaser: "https://live.staticflickr.com/65535/52102245910_94d1a1a625_o.png"
@@ -159,5 +159,5 @@ You can find the outputs in [this Overleaf Project](https://www.overleaf.com/rea
 1. [pgfplots: Legends in multiple y-axis plot overlapping](https://tex.stackexchange.com/questions/42697/pgfplots-legends-in-multiple-y-axis-plot-overlapping)
 2. [Can I draw figure 3 y axis using pgfplot?](https://tex.stackexchange.com/questions/62291/can-i-draw-figure-3-y-axis-using-pgfplot)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MTg1OTYxMF19
+eyJoaXN0b3J5IjpbMTEyNzM5MjgwOSwtNTcxODU5NjEwXX0=
 -->
