@@ -15,7 +15,7 @@ tags:
   - Monitoring
   - PostGreSQL
   - IoT
-toc: false
+toc: true
 toc_label: "Table of Contents"
 toc_icon: "heart"
 ---
@@ -89,5 +89,5 @@ You can read my other post related to Grafana dashboards:
 
 That's all for today!Cheers!!! 😎
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTE0NTIxMjEsLTI2NjU2OTMyMl19
+eyJoaXN0b3J5IjpbMTIwNzkyNTU0LC0yNjY1NjkzMjJdfQ==
 -->
