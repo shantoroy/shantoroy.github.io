@@ -279,8 +279,8 @@ WhalePanda
 ```
 
 
-That's all for today. Chill!!! :sunglasses:
+That's all for today. Chill!!! 😎
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxODM3MzU2LDU2MzM2MTQ1LDUxNzk3Nj
-c0Nl19
+eyJoaXN0b3J5IjpbLTE5MjgyOTA3MTUsNTYzMzYxNDUsNTE3OT
+c2NzQ2XX0=
 -->
