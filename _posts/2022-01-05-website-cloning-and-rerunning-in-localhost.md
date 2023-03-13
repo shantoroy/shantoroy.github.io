@@ -2,10 +2,10 @@
 layout: single
 title: "Cloning an entire Website and Running in the Localhost"
 excerpt:  "Cloning an entire website is a great way to have a backup copy or to test new features and modifications before deploying them on the live site. In this blog post, I will share how to simply clone a website and run it in the localhost environment, step-by-step."
-seo_title:  Your  meta  title  
-seo_description:  Your  meta  description
+seo_title:  "Cloning an Entire Website: A Step-by-Step Guide to Running It in Localhost"
+seo_description:  "Want to have a backup copy of your website or test new features before deployment? Cloning a website and running it in localhost is the solution! In this post, learn how to clone and run a website in a localhost environment with my easy step-by-step guide."
 header:
-  overlay_image: "https://live.staticflickr.com/65535/51699602895_9f512e632d_o.png"
+  image: "https://live.staticflickr.com/65535/51895732364_0b8a245ce8_o.png"
   teaser: "https://live.staticflickr.com/65535/51895732364_0b8a245ce8_o.png"
 categories:
   - Security
@@ -102,5 +102,5 @@ $ docker stop -t 60 <CONTAINER_ID>
 
 That's all! Cheers!!!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU3MTE1NTA3LDE3NjU3NTczMDRdfQ==
+eyJoaXN0b3J5IjpbMTMwMjE3MTE3MSwxNzY1NzU3MzA0XX0=
 -->
