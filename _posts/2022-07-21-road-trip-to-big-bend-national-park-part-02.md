@@ -48,7 +48,7 @@ Here's a view of the **Window**.
 If you have enough time, feel free to hike all other trails, which are quite spectacular, specially the Emory Peak hike.
 It is advised to stay overnight in the lodges and start the hike early in the morning if visited in Summer time.
 
-That's all for today! Cheers!!! :sunglasses: 
+That's all for today! Cheers!!! 😎
 
 
 Check out other links:
@@ -58,6 +58,6 @@ Check out other links:
 3. [Follow me on Instagram](https://www.instagram.com/shanto.roy.9/)
 4. [Subscribe to my YouTube Channel](https://www.youtube.com/c/ShantoRoy)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NjA1NjIwMSwxNDU1MTc4NTk2LDExNz
-QwMDAwMTVdfQ==
+eyJoaXN0b3J5IjpbMTczOTExNTg0NCwtMzQ2MDU2MjAxLDE0NT
+UxNzg1OTYsMTE3NDAwMDAxNV19
 -->
