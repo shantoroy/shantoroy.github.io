@@ -1,9 +1,9 @@
 ---
 layout: single
-title: "Why you should use Latex Plots in your Reports instead of Matplotlib Plots"
-excerpt:  "Looking for a more professional-looking and publication-ready plot for your reports and research papers? Latex plots is the perfect solution for you. With its wide range of customization options and high-quality output, Latex plots provide an efficient and aesthetically pleasing way to visualize your data. Also, it is easy to change from one t"
-seo_title:  Your  meta  title  
-seo_description:  Your  meta  description
+title: "Why you should use Latex Plots in your Academic Reports and Publications instead of Matplotlib Plots"
+excerpt:  "Looking for a more professional-looking and publication-ready plot for your reports and research papers? Latex plots is the perfect solution for you. With its wide range of customization options and high-quality output, Latex plots provide an efficient and aesthetically pleasing way to visualize your data. Also, it is easy to change from one template to another without distorting the plots."
+seo_title:  "Why Latex Plots are a Better Choice than Matplotlib Plots for Academic Reports and Publications"
+seo_description:  "Find out why using Latex plots is a better choice than Matplotlib plots. Learn about the advantages of Latex plots and how they can help you create professional-looking and publication-ready plots for your acad reports and research papers."
 header:
   image: "https://live.staticflickr.com/65535/52104342559_4543d284e9_o.png"
   teaser: "https://live.staticflickr.com/65535/52104342559_4543d284e9_o.png"
@@ -52,5 +52,5 @@ That's all for today! cheers!!!
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMDM0Nzc3NSwtMjMzMDM3OTcwXX0=
+eyJoaXN0b3J5IjpbNzAwMTY2MTkzLC0yMzMwMzc5NzBdfQ==
 -->
