@@ -1,8 +1,8 @@
 ---
 layout: single
-title: "Security Solutions for Enterprise: SIEM, EDR, SOAR"
+title: "A Brief Overview of Security Solutions for Enterprise: SIEM, EDR, SOAR"
 header:
-  overlay_image: "https://live.staticflickr.com/65535/51699602895_9f512e632d_o.png"
+  image: "https://live.staticflickr.com/65535/51711452189_ba18a4a5c2_o.png"
   teaser: "https://live.staticflickr.com/65535/51711452189_ba18a4a5c2_o.png"
 categories:
   - Security
@@ -118,5 +118,5 @@ SOAR is a orchestrated management system for incident response. An example workf
 1. [Security Information and Event Management (SIEM) Solution & it’s importance](https://layots.com/security-information-and-event-management-siem-solution-its-importance/)
 2. [A Beginner's Guide to EDR Security](https://www.fool.com/the-blueprint/edr/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI0ODEyOTE4XX0=
+eyJoaXN0b3J5IjpbLTExNjk2Njc1NjEsNjI0ODEyOTE4XX0=
 -->
