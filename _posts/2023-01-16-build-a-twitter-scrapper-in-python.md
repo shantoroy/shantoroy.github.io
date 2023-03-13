@@ -12,7 +12,7 @@ tags:
   - Twitter
   - tweepy
   - tweety
-toc: false
+toc: true
 toc_label: "Table of Contents"
 toc_icon: "heart"
 excerpt: "Twitter is a popular source of data (tweets), but accessing the tweets can be a challenge. Previously I scraped data from Medium. In this tutorial, I write how to build a custom data scraper using Python, so we can easily collect and store Twitter data for further data analysis."
@@ -99,6 +99,6 @@ for tweet in all_tweets:
 
 That's all for today! Cheers!!! 😎
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjIyNDc5NTIsOTY1OTgyMjM5LDExNT
-U5NjI2NTVdfQ==
+eyJoaXN0b3J5IjpbNjY3ODM0Nzk3LC0xNzIyMjQ3OTUyLDk2NT
+k4MjIzOSwxMTU1OTYyNjU1XX0=
 -->
