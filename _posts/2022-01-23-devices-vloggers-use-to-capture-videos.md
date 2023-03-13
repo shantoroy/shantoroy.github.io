@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Vlogging Life 02: Devices I use to Capture my Videos"
+title: "Vlogging Life 02: Devices Vloggers use to Capture Videos"
 excerpt:  "If you're looking to create high-quality videos, having the right equipment is essential. In this post, I'll share the devices I use to capture my videos, including my action cameras, drones, microphone, and other accessories. Whether you're a YouTuber, a content creator, or just someone who wants to improve their video recording setup, this post is for you."
 seo_title:  "My Video Capture Setup: Devices I Use to Record High-Quality Videos"
 seo_description:  "In this blog post, I discuss the devices I use to capture my videos, including my cameras, microphone, and other accessories. Learn about my setup and tips for recording high-quality videos."
@@ -73,5 +73,5 @@ It's always better to carry extra batteries and memory cards. I carry 3 addition
 That's all for today. Have a great day!!!
 Cheers!!! 😎
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNzMzMjYzNl19
+eyJoaXN0b3J5IjpbLTEwNzIwNzQ4MzhdfQ==
 -->
