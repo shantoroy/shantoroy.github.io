@@ -258,7 +258,7 @@ if __name__ == "__main__":
     print(f"Decrypted: {decrypted}")
 ```
 
-That's all for today! Cheers!!! :sunglasses:
+That's all for today! Cheers!!! 😎
 
 The code is available in [this Github repo](https://github.com/shantoroy/intro-2-cybersecurity-in-python). Feel free to give a star if you like it.
 
@@ -270,5 +270,6 @@ You can also read related blog posts:
 5. [Write a Backdoor in Python](https://shantoroy.com/security/simple-backdoor-using-python/)
 6. [I Exploited the Moral of ChatGPT by giving slightly Different Instructions to write Ransomware!](https://medium.com/@shantoroy/i-exploited-the-moral-of-chatgpt-by-giving-slightly-different-instructions-to-write-ransomware-c0bb9cad0a55)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MjA1NjE4MSwtNzQ1MTIxODI3XX0=
+eyJoaXN0b3J5IjpbLTEzOTQwMzg2OTQsLTg1MjA1NjE4MSwtNz
+Q1MTIxODI3XX0=
 -->
