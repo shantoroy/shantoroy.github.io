@@ -15,7 +15,7 @@ tags:
   - PostgreSQL
   - Database
   - Analytics
-toc: false
+toc: true
 toc_label: "Table of Contents"
 toc_icon: "heart"
 ---
@@ -81,5 +81,6 @@ As a DevOps/SRE/Backend developer, we need to properly monitor the performance o
 
 That's it for today! Cheers!!! 😎
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODM3NDczNCwtMTI1ODE4MjcxXX0=
+eyJoaXN0b3J5IjpbNjM4ODE5MDk1LC0xMzgzNzQ3MzQsLTEyNT
+gxODI3MV19
 -->
