@@ -79,7 +79,7 @@ Overall, these tools can help monitor the performance of a PostgreSQL database a
 
 As a DevOps/SRE/Backend developer, we need to properly monitor the performance of our applications. Especially, if we are using database, monitoring the performance of database is important.
 
-That's it for today! Cheers!!! :sunglasses:
+That's it for today! Cheers!!! 😎
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTgxODI3MV19
+eyJoaXN0b3J5IjpbLTEzODM3NDczNCwtMTI1ODE4MjcxXX0=
 -->
