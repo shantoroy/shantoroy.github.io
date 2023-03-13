@@ -14,7 +14,7 @@ tags:
   - PostgreSQL
   - psycopg2
   - optimization
-toc: false
+toc: true
 toc_label: "Table of Contents"
 toc_icon: "heart"
 ---
@@ -70,5 +70,5 @@ To avoid that error, directly import `pool` from the module and then use it. You
 1. https://pynative.com/psycopg2-python-postgresql-connection-pooling/
 2. https://github.com/psycopg/psycopg2/issues/582
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NTA2MTY1NV19
+eyJoaXN0b3J5IjpbLTMwNDM0NTcwMCwxNzk1MDYxNjU1XX0=
 -->
