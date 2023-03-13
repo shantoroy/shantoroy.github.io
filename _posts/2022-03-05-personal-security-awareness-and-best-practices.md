@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Cyber Security Awareness and Best Practices at Personal Level"
+excerpt:  Your  blog  post  excerpt  
+seo_title:  Your  meta  title  
+seo_description:  Your  meta  description
 header:
   image: "https://live.staticflickr.com/65535/51651624220_c268312ac6_b.jpg"
   teaser: "https://live.staticflickr.com/65535/51651624220_c268312ac6_b.jpg"
@@ -65,5 +68,5 @@ This post will briefly point out the best practices to keep your information pri
 
 Please let me know if I have missed any point. In the future posts, I will talk more details regarding everyday security.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTIwNzA4MDVdfQ==
+eyJoaXN0b3J5IjpbMTIyNDQ5NzcxMl19
 -->
