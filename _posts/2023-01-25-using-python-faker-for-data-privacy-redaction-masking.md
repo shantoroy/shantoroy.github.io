@@ -16,7 +16,7 @@ tags:
   - Data Privacy
   - Data Redaction
   - Data Anonymization
-toc: false
+toc: true
 toc_label: "Table of Contents"
 toc_icon: "heart"
 ---
@@ -314,5 +314,5 @@ For example, if a developer needs to test a feature that displays a user's name 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY2OTQ4NzQzXX0=
+eyJoaXN0b3J5IjpbMTU4NjcyMzk1Ml19
 -->
