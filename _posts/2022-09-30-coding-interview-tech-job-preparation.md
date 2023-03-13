@@ -13,7 +13,7 @@ tags:
   - Resources
   - Coding Interview
   - Tech Job
-toc: false
+toc: true
 toc_label: "Table of Contents"
 toc_icon: "heart"
 excerpt: "Cracking the coding interview is a crucial step in landing our dream tech job. My blog post covers some useful coding interview resources, including source of practice problems, interview tips, cheatsheets in python, and other resources to help you prepare within a very short time."
@@ -48,6 +48,6 @@ Usually, for attending in interview, you may have to use one of the following pl
 3. Leetcode
 4. HireVue
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTk1NDUyNzgsMTA0NDA1ODU3NSwtMj
-EwOTI4MDc2NF19
+eyJoaXN0b3J5IjpbNTYxMjYyODc1LC0xNjE5NTQ1Mjc4LDEwND
+QwNTg1NzUsLTIxMDkyODA3NjRdfQ==
 -->
