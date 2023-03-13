@@ -13,7 +13,7 @@ tags:
   - Google
   - Bing
   - Advertisement
-toc: false
+toc: true
 toc_label: "Table of Contents"
 toc_icon: "heart"
 excerpt: "The integration of language models is transforming the world of search engines and advertising. In this insightful article, I attempt to explore the ways in which AI-powered language models are reshaping (challenging) the advertising landscape. I also look into some practical tips for businesses looking to resolve this issuees."
@@ -61,6 +61,6 @@ In conclusion, integrating advanced language models such as OpenAI's ChatGPT is 
 
 Whether through targeted ads within the results provided by the language model or through content marketing; the key is to find new and innovative ways to connect with the target. But as a user, I am definitely happy for not being compelled to browse through links to find desired contents and run into the ads I don't wanna see. 😎
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NDgyMTQzOCwtNjM1NDMwNjcxLDEzNj
-g4NTY0MzhdfQ==
+eyJoaXN0b3J5IjpbLTU1Nzg1MTA1LC02MzU0MzA2NzEsMTM2OD
+g1NjQzOF19
 -->
