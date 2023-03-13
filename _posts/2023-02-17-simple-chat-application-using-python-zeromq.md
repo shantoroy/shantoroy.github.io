@@ -172,7 +172,7 @@ Note that, here, the subscriber listens for messages from the socket and prints 
 ## Concluding Remarks
 This is not a full-functional chat application. I just wanted to explore zeroMQ and the first thing came to mind was a chat application as this library provides messaging system across distributed systems.
 
-That's all for today! Cheers!!! :sunglasses:
+That's all for today! Cheers!!! 😎
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDMyMzIwODgsOTM3MDc2MjNdfQ==
+eyJoaXN0b3J5IjpbMTY1ODIwODY5Nyw5MzcwNzYyM119
 -->
