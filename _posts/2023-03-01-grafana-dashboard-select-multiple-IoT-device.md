@@ -14,7 +14,7 @@ tags:
   - Dashboard
   - Monitoring
   - PostgreSQL
-toc: false
+toc: true
 toc_label: "Table of Contents"
 toc_icon: "heart"
 ---
@@ -49,5 +49,5 @@ In this tutorial, we have worked on selecting multiple options from the drop-dow
 
 More tutorials to come in the future! Until then, cheers!!! 😎
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMzczMTc0M119
+eyJoaXN0b3J5IjpbMTg2Nzc5OTUwLDE4MjM3MzE3NDNdfQ==
 -->
