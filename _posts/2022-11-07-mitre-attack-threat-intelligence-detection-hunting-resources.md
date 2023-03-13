@@ -13,7 +13,7 @@ tags:
   - Threat Hunting
   - STIX
   - TAXII
-toc: false
+toc: true
 toc_label: "Table of Contents"
 toc_icon: "heart"
 excerpt: "MITRE ATT&CK is an essential tool for any organization who are concerned about cybersecurity, especially threat intelligence and threat modeling. In this post, I cover the key resources, techniques, and tools you need to know for effective threat intelligence and hunting, including real-world use cases."
@@ -59,5 +59,5 @@ The `awesome` repositories are pretty good place to start since these curated li
 
 That's all for today. Until next time, cheers! 😎
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTk4NDA1NTcsMTE4OTc2MjY4NF19
+eyJoaXN0b3J5IjpbMzQyNTY4MjYwLDExODk3NjI2ODRdfQ==
 -->
