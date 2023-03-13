@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "How to Select Multiple Options from Drop-Down Menu/Filter in Grafana Based on PostgreSQL Table Column"
-excerpt:  "In this tutorial, I will show you how to select multiple options from a drop-down menu/filter  in Grafana based on a PostgreSQL table column. This feature is helpful when we want to filter the data based on more than one condition, and it is particularly useful when we have a large dataset."
+title: "How to Select Multiple Options from Drop-Down Menu/Filter (Query Variable) in Grafana Based on PostgreSQL Table Column"
+excerpt:  "In this tutorial, I will show you how to select multiple options from a drop-down menu/filter (Query Variable) in Grafana based on a PostgreSQL table column. This feature is helpful when we want to filter the data based on more than one condition, and it is particularly useful when we have a large dataset."
 seo_title:  "How to Select Multiple Options from Drop-Down Menu/Filter (Query Variable) in Grafana Based on PostgreSQL Table Column"
 seo_description:  "Learn how to filter data in Grafana based on multiple conditions using a drop-down menu/filter (Query Variable). This tutorial covers the steps to create a PostgreSQL table column filter in Grafana, making it easier to analyze large datasets."
 header:
@@ -49,5 +49,5 @@ In this tutorial, we have worked on selecting multiple options from the drop-dow
 
 More tutorials to come in the future! Until then, cheers!!! 😎
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwOTExMjIyN119
+eyJoaXN0b3J5IjpbMTgyMzczMTc0M119
 -->
