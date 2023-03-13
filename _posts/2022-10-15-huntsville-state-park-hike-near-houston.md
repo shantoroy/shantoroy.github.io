@@ -12,7 +12,7 @@ tags:
   - Huntsville
   - Hiking
   - DJI Mini 2
-toc: false
+toc: true
 toc_label: "Table of Contents"
 toc_icon: "heart"
 excerpt: "Escape the Houston city and explore the beauty of nature at Huntsville State Park located near Houston. In this post, I add some guidelines to hiking and biking the park's trails, and a drone shot to give you a better view around the lake along the way."
@@ -38,5 +38,5 @@ In the following video, I have added some aerial shots for your convenience.
 
 Have a great day! Cheers!!!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MTI5MTQyLDIxMDM5OTM0NzBdfQ==
+eyJoaXN0b3J5IjpbMzM1NDY0ODQzLDIxMDM5OTM0NzBdfQ==
 -->
