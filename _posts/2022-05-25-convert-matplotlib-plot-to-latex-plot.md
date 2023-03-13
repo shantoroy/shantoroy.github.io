@@ -16,7 +16,7 @@ tags:
   - Tikz
   - matplotlib
   - pgfplot
-toc: false
+toc: true
 toc_label: "Table of Contents"
 toc_icon: "heart"
 ---
@@ -221,7 +221,7 @@ That's all for today!
 
 <iframe src="https://giphy.com/embed/f9RzoxHizH72k15FKS" width="480" height="268"></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4OTg5Mjc3NCwtMjExNTY3NDcxLC0xNT
-Q2MDY5NjE5LC02MjY1ODg5MDUsMzU3NDM3MDMzLDYzNDc3NjQ2
-LDI0MDk4ODc1NCwxOTAyODM3NzAwXX0=
+eyJoaXN0b3J5IjpbLTE2ODYzMTg0MTksLTIxMTU2NzQ3MSwtMT
+U0NjA2OTYxOSwtNjI2NTg4OTA1LDM1NzQzNzAzMyw2MzQ3NzY0
+NiwyNDA5ODg3NTQsMTkwMjgzNzcwMF19
 -->
