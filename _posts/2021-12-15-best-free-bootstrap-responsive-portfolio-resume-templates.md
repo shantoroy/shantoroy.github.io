@@ -1,9 +1,9 @@
 ---
 layout: single
 title: "Best Five Free Bootstrap Template for Personal Portfolio or Website"
-excerpt:  "Are you searching for a stunning and free Bootstrap template to showcase your personal portfolio or website? Bootstrap is a powerful and widely-used framework that enables developers and designers to create beautiful, responsive, and user-friendly websites. In this post, we have gathered the best five free Bootstrap templates that are perfect for personal portfolios, blogs, or small business websites. These templates are easy to use, customizable, and come with a clean and modern design. So, let's dive in and check out our top picks!"
-seo_title:  Your  meta  title  
-seo_description:  Your  meta  description
+excerpt:  "Are you searching for a stunning and free Bootstrap template to showcase your personal portfolio or website? Bootstrap is a powerful and widely-used framework that enables developers and designers to create beautiful, responsive, and user-friendly websites. In this post, I have gathered the best five free Bootstrap templates that are perfect for personal portfolios, blogs, or small business websites. These templates are easy to use, customizable, and come with a clean and modern design. So, let's dive in and check out my top picks!"
+seo_title:  "Top 5 Free Bootstrap Templates for Personal Portfolio or Website"
+seo_description:  "Looking for a free and responsive Bootstrap template to showcase your personal portfolio or website? Check out my top 5 picks of the best Bootstrap templates that are customizable and easy to use!"
 header:
   image: "https://live.staticflickr.com/65535/52098485927_c14ca376b4_o.png"
   teaser: "https://live.staticflickr.com/65535/52098485927_c14ca376b4_o.png"
@@ -46,6 +46,6 @@ Here is a list of top five my most favorite and suitable bootstrap templates (sp
 
 That's all for today. If you found any other good-looking free templates, please let us know in the comment section. Thanks! 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTExMjMxOTI2LC0xMzM4NDE2MTYsMTc0OD
-Q4MjIyNywtMTA3ODA0ODY4Ml19
+eyJoaXN0b3J5IjpbLTI0MDA1NTU1NSwtMTMzODQxNjE2LDE3ND
+g0ODIyMjcsLTEwNzgwNDg2ODJdfQ==
 -->
