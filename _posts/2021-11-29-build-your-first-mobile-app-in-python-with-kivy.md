@@ -1,9 +1,9 @@
 ---
 layout: single
 title: "Build Your First Mobile App in Python with Kivy: A Simple Hello World Program"
-excerpt:  "Building a mobile app in Python has never been easier with the Kivy framework. This open-source Python library allows developers to create beautiful and functional mobile apps for Android and iOS platforms. In this tutorial, I will walk us through building our first mobile app with Kivy by creating a simple 'Hello World' program."
+excerpt:  "Building a mobile app in Python has never been easier with the Kivy framework. This open-source Python library allows developers to create beautiful and functional mobile apps for Android and iOS platforms. In this tutorial, I will walk us through building our first mobile app with Kivy by creating a simple Hello World program."
 seo_title:  "Build Your First Mobile App in Python with Kivy: A Step-by-Step Guide"
-seo_description:  "Ready to create your first mobile app with Python? Check out this step-by-step guide to building a 'Hello World' app with the Kivy framework. Learn how to design and code a simple app that runs on Android and iOS devices."
+seo_description:  "Ready to create your first mobile app with Python? Check out this step-by-step guide to building a Hello World app with the Kivy framework. Learn how to design and code a simple app that runs on Android and iOS devices."
 header:
   image: "https://live.staticflickr.com/65535/51713840278_c17951a974_o.png"
   teaser: "https://live.staticflickr.com/65535/51713840278_c17951a974_o.png"
@@ -158,6 +158,6 @@ You will see the following output:
 1. [Getting StartedGetting Started »  Installing Kivy](https://kivy.org/doc/stable/gettingstarted/installation.html#kivy-source-install)
 2. [Kivy Installation on Linux](https://kivy.org/doc/stable/installation/installation-linux.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MDk4NjM3OSw3NjA1ODczNzIsMTk0MD
-Q5MTgyMl19
+eyJoaXN0b3J5IjpbMjE0MTIzMDk5OSwyMDcwOTg2Mzc5LDc2MD
+U4NzM3MiwxOTQwNDkxODIyXX0=
 -->
