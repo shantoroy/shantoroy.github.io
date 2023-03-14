@@ -8,6 +8,10 @@ categories:
   - Article
 tags:
   - Research
+  - Documentation
+  - cloud-tools
+  - scientific-writing
+  - publications
 toc: true
 toc_label: "Unique Title"
 toc_icon: "heart" 
@@ -42,5 +46,5 @@ I want to recommend using only [Mendeley](https://www.mendeley.com/) for this pu
 
 These cloud-based tools are on my list to help myself to carry on researches. Do you have any more in mind, please suggest in the comment section.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwODI5MDI5NV19
+eyJoaXN0b3J5IjpbNDA3NTM1OTczXX0=
 -->
