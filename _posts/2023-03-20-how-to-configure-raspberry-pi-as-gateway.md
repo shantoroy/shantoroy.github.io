@@ -180,6 +180,8 @@ sudo ip route add 192.168.5.0/24 via 192.168.6.1
 That's all for today. I hope this tutorial can help you set up testbeds according to your needs if there are multiple networks you are dealing with.
 
 I have made this tutorial to do the routing through Ethernet interfaces since the WiFi interface I use for SSH (for configuration change and troubleshooting from remote location) and internet access only. When I will no longer need outside connection, I can simply disconnect these devices from WiFi and work around a perfect testbed.
+
+You can also read my other related posts
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTQ1MTgyNjldfQ==
+eyJoaXN0b3J5IjpbLTEwNzE1MzU4NjldfQ==
 -->
