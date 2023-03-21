@@ -181,7 +181,11 @@ That's all for today. I hope this tutorial can help you set up testbeds accordin
 
 I have made this tutorial to do the routing through Ethernet interfaces since the WiFi interface I use for SSH (for configuration change and troubleshooting from remote location) and internet access only. When I will no longer need outside connection, I can simply disconnect these devices from WiFi and work around a perfect testbed.
 
-You can also read my other related posts
+You can also read my other related posts:
+* # [ARM Exploitation with Raspberry Pi: Lab Setup](https://shantoroy.com/security/ARM-exploitation-Raspberry-Pi-lab-setup/)
+* # [ARM Exploitation with Raspberry Pi: Basic Stack Overflow](https://shantoroy.com/security/ARM-exploitation-raspberry-pi-stack-overflow/)
+* # [Set Up Headless Kali Linux in a Raspberry Pi 4 without Monitor, Keyboard, and Mouse](https://shantoroy.com/security/install-kali-linux-in-raspberry-pi-4/)
+* # [ARM Exploitation with Raspberry Pi: ARM Ret-to-Libc](https://shantoroy.com/security/ret-to-libc-arm-exploitation-raspberry-pi/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzE1MzU4NjldfQ==
+eyJoaXN0b3J5IjpbNjMyODIzNzkwXX0=
 -->
