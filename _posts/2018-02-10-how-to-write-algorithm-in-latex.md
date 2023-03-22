@@ -203,6 +203,9 @@ The output will look like the following-
 </figure>
 
 
+You can find a comprehensive list of Latex resources in the following post:
+
+[Latex Resources in a Nutshell](https://shantoroy.com/latex/latex-resources-in-a-nutshell/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1Mjg1MzM1NCwxNjUyODUzMzU0XX0=
+eyJoaXN0b3J5IjpbNDc4MDI4NDI5LDE2NTI4NTMzNTRdfQ==
 -->
