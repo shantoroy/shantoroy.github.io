@@ -203,9 +203,20 @@ The output will look like the following-
 </figure>
 
 
+## Related Posts
 You can find a comprehensive list of Latex resources in the following post:
 
 [Latex Resources in a Nutshell](https://shantoroy.com/latex/latex-resources-in-a-nutshell/)
+
+You can find all `Latex` oriented posts of mine in: [https://shantoroy.com/categories/#latex](https://shantoroy.com/categories/#latex)
+
+Some of those are included here.
+* [Add Copyright Notice and Conference Name in IEEE Conference Template](https://shantoroy.com/latex/add-copyright-conference-name/)
+* [Preparing Tables for Publication and Documentation in Latex](https://shantoroy.com/latex/tables-in-latex/)
+* [Creating Bar Charts using Latex PGFPlots](http://shantoroy.com/latex/bar-plots-in-latex-pgfplot/)
+* [How to add subfigure in Latex](https://shantoroy.com/latex/how-to-add-subfig-in-latex/)
+* [How to Write Matrix with Row/Column Labels in Latex](https://shantoroy.com/latex/matrix-labeling-in-latex/)
+* [How to Collaboratively Write a Paper using Overleaf Latex Platform](https://shantoroy.com/latex/how-to-collaborately-write-a-paper-using-latex-overleaf/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc4MDI4NDI5LDE2NTI4NTMzNTRdfQ==
+eyJoaXN0b3J5IjpbMjAyODc0MDcwOSwxNjUyODUzMzU0XX0=
 -->
