@@ -217,6 +217,7 @@ Some of those are included here.
 * [How to add subfigure in Latex](https://shantoroy.com/latex/how-to-add-subfig-in-latex/)
 * [How to Write Matrix with Row/Column Labels in Latex](https://shantoroy.com/latex/matrix-labeling-in-latex/)
 * [How to Collaboratively Write a Paper using Overleaf Latex Platform](https://shantoroy.com/latex/how-to-collaborately-write-a-paper-using-latex-overleaf/)
+* [Itemize, Enumerate, and To-do-list in Latex](https://shantoroy.com/latex/playing-with-latex-itemize-enumerate-fontawesome/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyODc0MDcwOSwxNjUyODUzMzU0XX0=
+eyJoaXN0b3J5IjpbLTEzNzM3MTUyNDcsMTY1Mjg1MzM1NF19
 -->
