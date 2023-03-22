@@ -64,12 +64,13 @@ Some of those are included here.
 * [How to add subfigure in Latex](https://shantoroy.com/latex/how-to-add-subfig-in-latex/)
 * [How to Write Matrix with Row/Column Labels in Latex](https://shantoroy.com/latex/matrix-labeling-in-latex/)
 * [How to Collaboratively Write a Paper using Overleaf Latex Platform](https://shantoroy.com/latex/how-to-collaborately-write-a-paper-using-latex-overleaf/)
+* [Itemize, Enumerate, and To-do-list in Latex](https://shantoroy.com/latex/playing-with-latex-itemize-enumerate-fontawesome/)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzU4MDA5NzIsMTMxNzg1NjA5MywyMD
-E1MTY2Mzg4LC0xOTE1NzE4MjUyLC0xODQxMzY3NjYwLC0xMjQ5
-MTY4OTIxLC04NTA0MTYxMTksLTQzNDkwODk2NSwtMTk4MzA5Nz
-cyMiwyMDAzMzgwNjI2LC0xNjI0MjAzMzI0LDQzMDM5MjkyMl19
+eyJoaXN0b3J5IjpbLTYxMzQzMTA3MiwxMzE3ODU2MDkzLDIwMT
+UxNjYzODgsLTE5MTU3MTgyNTIsLTE4NDEzNjc2NjAsLTEyNDkx
+Njg5MjEsLTg1MDQxNjExOSwtNDM0OTA4OTY1LC0xOTgzMDk3Nz
+IyLDIwMDMzODA2MjYsLTE2MjQyMDMzMjQsNDMwMzkyOTIyXX0=
 
 -->
