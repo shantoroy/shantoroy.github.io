@@ -148,6 +148,7 @@ Some of those are included here.
 * [How to write algorithm in Latex](https://shantoroy.com/latex/how-to-write-algorithm-in-latex/)
 * [How to Write Matrix with Row/Column Labels in Latex](https://shantoroy.com/latex/matrix-labeling-in-latex/)
 * [How to Collaboratively Write a Paper using Overleaf Latex Platform](https://shantoroy.com/latex/how-to-collaborately-write-a-paper-using-latex-overleaf/)
+* [Itemize, Enumerate, and To-do-list in Latex](https://shantoroy.com/latex/playing-with-latex-itemize-enumerate-fontawesome/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NjcyMTY4NV19
+eyJoaXN0b3J5IjpbLTEyMjI4OTkxOTldfQ==
 -->
