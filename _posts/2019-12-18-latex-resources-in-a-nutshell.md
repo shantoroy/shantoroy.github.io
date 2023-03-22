@@ -61,14 +61,15 @@ Some of those are included here.
 * [Preparing Tables for Publication and Documentation in Latex](https://shantoroy.com/latex/tables-in-latex/)
 * [Creating Bar Charts using Latex PGFPlots](http://shantoroy.com/latex/bar-plots-in-latex-pgfplot/)
 * [How to write algorithm in Latex](https://shantoroy.com/latex/how-to-write-algorithm-in-latex/)
-* [How to add subfigure in Latex](https://shantoroy.com/latex/add-subfig-in-latex/)
+* [How to add subfigure in Latex](https://shantoroy.com/latex/how-to-add-subfig-in-latex/)
 * [How to Write Matrix with Row/Column Labels in Latex](https://shantoroy.com/latex/matrix-labeling-in-latex/)
 * [How to Collaboratively Write a Paper using Overleaf Latex Platform](https://shantoroy.com/latex/how-to-collaborately-write-a-paper-using-latex-overleaf/)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNzg1NjA5MywyMDE1MTY2Mzg4LC0xOT
-E1NzE4MjUyLC0xODQxMzY3NjYwLC0xMjQ5MTY4OTIxLC04NTA0
-MTYxMTksLTQzNDkwODk2NSwtMTk4MzA5NzcyMiwyMDAzMzgwNj
-I2LC0xNjI0MjAzMzI0LDQzMDM5MjkyMl19
+eyJoaXN0b3J5IjpbLTE0MzU4MDA5NzIsMTMxNzg1NjA5MywyMD
+E1MTY2Mzg4LC0xOTE1NzE4MjUyLC0xODQxMzY3NjYwLC0xMjQ5
+MTY4OTIxLC04NTA0MTYxMTksLTQzNDkwODk2NSwtMTk4MzA5Nz
+cyMiwyMDAzMzgwNjI2LC0xNjI0MjAzMzI0LDQzMDM5MjkyMl19
+
 -->
