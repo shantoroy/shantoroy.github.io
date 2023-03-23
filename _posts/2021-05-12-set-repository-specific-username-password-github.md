@@ -1,17 +1,15 @@
-
+---
 layout: single
 title: "How to Set Git Repository-specific User Credential Configuration"
 header:
   image: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
   teaser: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
 categories:
-  - Latex
+  - Git
 tags:
-  - Latex
+  - Github
   - Tutorial
   - Overleaf
-  - Tikz
-  - Equation
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "heart"
@@ -48,5 +46,5 @@ git config credential.helper store
 1. [Configure your DVCS username for commits](https://support.atlassian.com/bitbucket-cloud/docs/configure-your-dvcs-username-for-commits/)
 2. [How to set up username and passwords for different git repos?](https://unix.stackexchange.com/questions/335704/how-to-set-up-username-and-passwords-for-different-git-repos)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NjEzNDczMF19
+eyJoaXN0b3J5IjpbLTIwOTE1NTQ2NTIsLTU2NjEzNDczMF19
 -->
