@@ -58,7 +58,7 @@ You can find all `Latex` oriented posts of mine in: [https://shantoroy.com/categ
 
 Some of those are included here.
 * [Add Copyright Notice and Conference Name in IEEE Conference Template](https://shantoroy.com/latex/add-copyright-conference-name/)
-* [Preparing Tables for Publication and Documentation in Latex](https://shantoroy.com/latex/tables-in-latex/)
+* [Preparing Tables for Publication and Documentation in Latex](https://shantoroy.com/latex/how-to-create-tables-in-latex/)
 * [Creating Bar Charts using Latex PGFPlots](http://shantoroy.com/latex/bar-plots-in-latex-pgfplot/)
 * [How to write algorithm in Latex](https://shantoroy.com/latex/how-to-write-algorithm-in-latex/)
 * [How to add subfigure in Latex](https://shantoroy.com/latex/how-to-add-subfig-in-latex/)
@@ -68,9 +68,9 @@ Some of those are included here.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMzQzMTA3MiwxMzE3ODU2MDkzLDIwMT
-UxNjYzODgsLTE5MTU3MTgyNTIsLTE4NDEzNjc2NjAsLTEyNDkx
-Njg5MjEsLTg1MDQxNjExOSwtNDM0OTA4OTY1LC0xOTgzMDk3Nz
-IyLDIwMDMzODA2MjYsLTE2MjQyMDMzMjQsNDMwMzkyOTIyXX0=
-
+eyJoaXN0b3J5IjpbMjQ5MTk3NzMyLC02MTM0MzEwNzIsMTMxNz
+g1NjA5MywyMDE1MTY2Mzg4LC0xOTE1NzE4MjUyLC0xODQxMzY3
+NjYwLC0xMjQ5MTY4OTIxLC04NTA0MTYxMTksLTQzNDkwODk2NS
+wtMTk4MzA5NzcyMiwyMDAzMzgwNjI2LC0xNjI0MjAzMzI0LDQz
+MDM5MjkyMl19
 -->
