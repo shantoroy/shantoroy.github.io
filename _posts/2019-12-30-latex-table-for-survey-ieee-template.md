@@ -23,7 +23,7 @@ You will find the code and output in the [Overleaf Document](https://www.overlea
 
 N.B. I am not discussing basic about latex table in this post. You can find the basic in my other post:
 
-> [Preparing Tables for Publication and Documentation in Latex](http://shantoroy.com/latex/tables-in-latex/)
+> [Preparing Tables for Publication and Documentation in Latex](https://shantoroy.com/latex/how-to-create-tables-in-latex/)
 
 ## Prerequisite 
 Include the following packages and define column type as follows:
@@ -80,6 +80,6 @@ Once again, you will find the code and output in the [Overleaf Document](https:/
 * [Grouping of Aligned Table Columns in Combination with Multicolumn](https://tex.stackexchange.com/questions/262760/grouping-of-aligned-table-columns-in-combination-with-multicolumn-and-a-long-hea)
 * [How Can I Insert a Big Table in IEEE Template](https://tex.stackexchange.com/questions/305411/how-can-i-insert-a-big-table-in-ieee-template)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzgyNjQ4NTUsMjA1NDE2Nzk0OSwtMj
-A3MjY2ODA5MV19
+eyJoaXN0b3J5IjpbMjg2NDU5MjM4LC0xMzc4MjY0ODU1LDIwNT
+QxNjc5NDksLTIwNzI2NjgwOTFdfQ==
 -->
