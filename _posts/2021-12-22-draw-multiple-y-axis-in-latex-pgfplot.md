@@ -154,7 +154,7 @@ You can find the outputs in [this Overleaf Project](https://www.overleaf.com/rea
 
 
 ## My Other Posts on PGFPlots
-1. [Line Plotting using Latex PGFPlots](https://shantoroy.com/latex/line-graph-pgfplots/)
+1. [Line Plotting using Latex PGFPlots](https://shantoroy.com/latex/how-to-draw-line-graph-using-pgfplots-latex/)
 2. [Creating Bar Charts using Latex PGFPlots](https://shantoroy.com/latex/bar-plots-in-latex-pgfplot/)
 3. [Creating Multiple Line plots from CSV file using Latex Tikz and PGFPlot](https://shantoroy.com/latex/multiple-line-plots-using-tikz-pgfplot/)
 
@@ -162,6 +162,6 @@ You can find the outputs in [this Overleaf Project](https://www.overleaf.com/rea
 1. [pgfplots: Legends in multiple y-axis plot overlapping](https://tex.stackexchange.com/questions/42697/pgfplots-legends-in-multiple-y-axis-plot-overlapping)
 2. [Can I draw figure 3 y axis using pgfplot?](https://tex.stackexchange.com/questions/62291/can-i-draw-figure-3-y-axis-using-pgfplot)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgzNjM5MTU2LDExMjczOTI4MDksLTU3MT
-g1OTYxMF19
+eyJoaXN0b3J5IjpbLTIwMTE2MDIzMTAsNDgzNjM5MTU2LDExMj
+czOTI4MDksLTU3MTg1OTYxMF19
 -->
