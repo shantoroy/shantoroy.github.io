@@ -60,6 +60,7 @@ Some of those are included here.
 * [Add Copyright Notice and Conference Name in IEEE Conference Template](https://shantoroy.com/latex/add-copyright-conference-name/)
 * [Preparing Tables for Publication and Documentation in Latex](https://shantoroy.com/latex/how-to-create-tables-in-latex/)
 * [Creating Bar Charts using Latex PGFPlots](http://shantoroy.com/latex/bar-plots-in-latex-pgfplot/)
+* [Line Plotting using Latex PGFPlots](https://shantoroy.com/latex/how-to-draw-line-graph-using-pgfplots-latex/)
 * [How to write algorithm in Latex](https://shantoroy.com/latex/how-to-write-algorithm-in-latex/)
 * [How to add subfigure in Latex](https://shantoroy.com/latex/how-to-add-subfig-in-latex/)
 * [How to Write Matrix with Row/Column Labels in Latex](https://shantoroy.com/latex/matrix-labeling-in-latex/)
@@ -68,9 +69,9 @@ Some of those are included here.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ5MTk3NzMyLC02MTM0MzEwNzIsMTMxNz
-g1NjA5MywyMDE1MTY2Mzg4LC0xOTE1NzE4MjUyLC0xODQxMzY3
-NjYwLC0xMjQ5MTY4OTIxLC04NTA0MTYxMTksLTQzNDkwODk2NS
-wtMTk4MzA5NzcyMiwyMDAzMzgwNjI2LC0xNjI0MjAzMzI0LDQz
-MDM5MjkyMl19
+eyJoaXN0b3J5IjpbLTIxMjQwMTIyNjIsMjQ5MTk3NzMyLC02MT
+M0MzEwNzIsMTMxNzg1NjA5MywyMDE1MTY2Mzg4LC0xOTE1NzE4
+MjUyLC0xODQxMzY3NjYwLC0xMjQ5MTY4OTIxLC04NTA0MTYxMT
+ksLTQzNDkwODk2NSwtMTk4MzA5NzcyMiwyMDAzMzgwNjI2LC0x
+NjI0MjAzMzI0LDQzMDM5MjkyMl19
 -->
