@@ -66,10 +66,11 @@ Some of those are included here.
 * [How to Write Matrix with Row/Column Labels in Latex](https://shantoroy.com/latex/matrix-labeling-in-latex/)
 * [How to Collaboratively Write a Paper using Overleaf Latex Platform](https://shantoroy.com/latex/how-to-collaborately-write-a-paper-using-latex-overleaf/)
 * [Itemize, Enumerate, and To-do-list in Latex](https://shantoroy.com/latex/playing-with-latex-itemize-enumerate-fontawesome/)
+* [Latex Table for Survey in IEEE two-column format](https://shantoroy.com/latex/latex-table-for-survey-ieee-template/)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjQwMTIyNjIsMjQ5MTk3NzMyLC02MT
+eyJoaXN0b3J5IjpbLTExMDkzNjE0NTMsMjQ5MTk3NzMyLC02MT
 M0MzEwNzIsMTMxNzg1NjA5MywyMDE1MTY2Mzg4LC0xOTE1NzE4
 MjUyLC0xODQxMzY3NjYwLC0xMjQ5MTY4OTIxLC04NTA0MTYxMT
 ksLTQzNDkwODk2NSwtMTk4MzA5NzcyMiwyMDAzMzgwNjI2LC0x
