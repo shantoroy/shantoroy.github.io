@@ -34,8 +34,7 @@ toc_icon: "heart"
 ## Vaccine Update
 ### List and Updates of Research Groups
 1. [How Remdesivir, New Hope for Covid-19 Patients, Was Resurrected](https://www.nytimes.com/2020/05/01/health/coronavirus-remdesivir.html)
-2. [**WHO** - DRAFT landscape of COVID-19 candidate vaccines](https://www.who.int/blueprint/priority-diseases/key-action/novel-coronavirus-landscape-ncov.pdf) (April 20, 2020)
-3. [**WHO** - DRAFT landscape of COVID-19 candidate vaccines](https://www.who.int/blueprint/priority-diseases/key-action/Novel-Coronavirus_Landscape_nCoV-4april2020.pdf?ua=1) (April 04, 2020)
+
 
 ## Vaccine Tracker
 1. [**Regulatory Affairs Professionals Society (RAPS)** covid-19-vaccine-tracker](https://www.raps.org/news-and-articles/news-articles/2020/3/covid-19-vaccine-tracker)
@@ -70,7 +69,7 @@ toc_icon: "heart"
 4. [Mathematical Modeling of Epidemic Diseases; A Case Study of the COVID-19 Coronavirus](https://arxiv.org/pdf/2003.11371.pdf)
 5. [The Mathematics of Predicting the Course of the Coronavirus](https://www.wired.com/story/the-mathematics-of-predicting-the-course-of-the-coronavirus/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYyMTk4ODAsMTQ1ODg4MzU5OSw0MTY5OT
-A1NjksMzMyOTk0OTQ3LDE0NTE4Nzk2NzgsLTIxMjA2MzIwNzMs
-LTYzMDQwMDE3OSwtMTE5OTY2MDIwM119
+eyJoaXN0b3J5IjpbLTE1Njc0ODU5NTMsOTYyMTk4ODAsMTQ1OD
+g4MzU5OSw0MTY5OTA1NjksMzMyOTk0OTQ3LDE0NTE4Nzk2Nzgs
+LTIxMjA2MzIwNzMsLTYzMDQwMDE3OSwtMTE5OTY2MDIwM119
 -->
