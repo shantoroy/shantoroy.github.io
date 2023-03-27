@@ -86,9 +86,6 @@ $ sudo mn --topo single,3 --mac --switch ovsk --controller remote
 mininet> pingall
 ```
 
-## References
-* [E: Package 'iproute' has no installation candidate #812](https://github.com/mininet/mininet/issues/812)
-* [Installing RYU SDN controller on Ubuntu 14.04 and running Simple Hub Application](https://ajinkyakadam.bitbucket.io/blogpost/2016/10/31/Install-RYU/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODczMzU4OTZdfQ==
+eyJoaXN0b3J5IjpbLTUxMDU2ODcyNF19
 -->
