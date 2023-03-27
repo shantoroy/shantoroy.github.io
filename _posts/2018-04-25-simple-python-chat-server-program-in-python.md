@@ -29,7 +29,7 @@ Before starting, let's learn a little about socket programming.
 Well, a definition is not enough. For practical implementation we will have to know about the `socket` module of python. And obviously about the methods those will be called in from that module.
 
 ## TCP Socket Stages
-The following diagram [^3] presents the stages of a TCP (connection-oriented) socket.
+The following diagram presents the stages of a TCP (connection-oriented) socket.
 <figure>
   <a href="https://farm1.staticflickr.com/978/26960685907_41839085e6_b.jpg"><img src="https://farm1.staticflickr.com/978/26960685907_41839085e6_b.jpg"></a>
 </figure>
@@ -168,5 +168,5 @@ Save the server side code in a file and name it as `server.py` or anything as yo
 [^2]: Network Socket definition - [techtarget](https://whatis.techtarget.com/definition/sockets)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODYxMzY4NzEsLTY5OTk3MzQ5N119
+eyJoaXN0b3J5IjpbMjk0MzIzMDQsLTY5OTk3MzQ5N119
 -->
