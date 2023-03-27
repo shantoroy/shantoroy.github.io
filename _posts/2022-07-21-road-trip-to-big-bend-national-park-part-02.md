@@ -53,11 +53,11 @@ That's all for today! Cheers!!! 😎
 
 Check out other links:
 
-1. [Devices I use to edit my videos](https://shantoroy.com/vlogging/devices-I-use-to-edit-my-videos/)
-2. [Video Editing Software I use](https://shantoroy.com/vlogging/tools-I-use-to-edit-my-videos/)
+1. [Devices I use to edit my videos](https://shantoroy.com/vlogging/devices-vloggers-use-to-capture-videos/)
+2. [Video Editing Software I use](https://shantoroy.com/vlogging/tools-beginner-vloggers-use-to-edit-videos/)
 3. [Follow me on Instagram](https://www.instagram.com/shanto.roy.9/)
 4. [Subscribe to my YouTube Channel](https://www.youtube.com/c/ShantoRoy)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcxMTY2NDAzLC0zNDYwNTYyMDEsMTQ1NT
-E3ODU5NiwxMTc0MDAwMDE1XX0=
+eyJoaXN0b3J5IjpbLTE5OTkzOTYwMjgsMjcxMTY2NDAzLC0zND
+YwNTYyMDEsMTQ1NTE3ODU5NiwxMTc0MDAwMDE1XX0=
 -->
