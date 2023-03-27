@@ -20,9 +20,8 @@ The graduation period is very important for a student as it is the time s/he sta
 
 In this article, I will recommend 11 things a **Computer Science (CS/CSE)** or **Information Technology (IT)** student should do before completing his graduation. 
 
->"Your time is limited, so don't waste it living someone else's life. Don't let the noise of others' opinions drown out your own inner voice. And most important, have the courage to follow your heart and intuition." - Steve Jobs [^1]
+>"Your time is limited, so don't waste it living someone else's life. Don't let the noise of others' opinions drown out your own inner voice. And most important, have the courage to follow your heart and intuition." - Steve Jobs
 
-[^1]: [6 inspirational success quotes reach highest goals](https://buzz.strayer.edu/success-project/6-inspirational-success-quotes-reach-highest-goals/)
 
 
 ## 1. Master one programming language
@@ -106,5 +105,6 @@ Author, writer, blogger or developer- whoever you are, you need good skills in d
 [Huff]: https://www.huffingtonpost.com
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNTE4Njg4OSwtMTgwNDcyMjIzN119
+eyJoaXN0b3J5IjpbLTIwNDc1MzgyNjAsLTE4MDQ3MjIyMzddfQ
+==
 -->
