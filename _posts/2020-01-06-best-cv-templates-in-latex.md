@@ -29,7 +29,6 @@ Obviosly, `Overleaf` has the best collection CV/resume. You can even publish you
 * [Overleaf CV Templates](https://www.overleaf.com/gallery/tagged/cv)
 * [LatexTemplate CV Collection](https://www.latextemplates.com/cat/curricula-vitae)
 * [10+ LaTeX Resume & CV Templates [Academic & Tech Jobs]](https://zety.com/blog/latex-resume-template)
-* [ShareLatex CV Collection](https://www.sharelatex.com/templates/cv-or-resume/)
 
 
 ## Popular One-page Resume Templates
@@ -55,6 +54,6 @@ Obviosly, `Overleaf` has the best collection CV/resume. You can even publish you
 
 > Choose one you like and start preparing for yourself. Best wishes! :smiley:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM4MjQ0MDQzLDc2OTY3Nzg5OSwtNjg2MT
-g5Nzk5XX0=
+eyJoaXN0b3J5IjpbNTY2NzgwMzksOTM4MjQ0MDQzLDc2OTY3Nz
+g5OSwtNjg2MTg5Nzk5XX0=
 -->
