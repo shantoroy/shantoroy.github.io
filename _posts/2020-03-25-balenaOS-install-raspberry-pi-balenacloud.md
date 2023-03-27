@@ -70,11 +70,32 @@ I added three devices and the dashboard looks like as follows:
 <figure>
 	<a href="https://live.staticflickr.com/65535/49803482718_713ee46128_b.jpg"><img src="https://live.staticflickr.com/65535/49803482718_713ee46128_b.jpg"></a></figure>
 
+You can also read my other posts related to `Raspberry Pi`:
 
+* [Set Static IP Address in Linux/Raspbian OS](https://shantoroy.com/linux/set-static-hostname-linux-mac-windows-raspbian/)
+
+* [How to Configure a Raspberry Pi as Gateways between two Private Local Area Network using Ethernet Interfaces](https://shantoroy.com/raspberry%20pi/how-to-configure-raspberry-pi-as-gateway/)
+
+* [How to fix the Ubuntu Black Screen Issue in a Raspberry Pi after Installation](https://shantoroy.com/ubuntu/ubuntu-HDMI-black-screen-issue-in-raspberry-pi/)
+
+* [Live Video Monitoring using a Raspberry Pi and any Webcam](https://shantoroy.com/raspberry%20pi/live-monitoring-using-raspberry-pi-and-any-webcam/)
+
+* [Set Up Headless Kali Linux in a Raspberry Pi 4 without Monitor, Keyboard, and Mouse](https://shantoroy.com/security/install-kali-linux-in-raspberry-pi-4/)
+
+* [ARM Exploitation with Raspberry Pi: Lab Setup](https://shantoroy.com/security/ARM-exploitation-Raspberry-Pi-lab-setup/)
+
+* [ARM Exploitation with Raspberry Pi: Basic Stack Overflow](https://shantoroy.com/security/ARM-exploitation-raspberry-pi-stack-overflow/)
+
+* [ARM Exploitation with Raspberry Pi: Return Back to Program without Crashing](https://shantoroy.com/security/avoid-segmentation-fault-return-from-shellcode/)
+
+* [ARM Exploitation with Raspberry Pi: ARM Ret-to-Libc](https://shantoroy.com/security/ret-to-libc-arm-exploitation-raspberry-pi/)
+
+
+-   [How to Configure a Raspberry Pi as an OpenFlow Switch: Steps, Issues, and Solutions](https://shantoroy.com/openflow/how-to-configure-raspberry-pi-as-open-flow-switch/)
 
 ## Reference:
 1. [Get started with Raspberry Pi 4 and Python](https://www.balena.io/docs/learn/getting-started/raspberrypi4-64/python/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk0MzIxMzYxLDM5NDMyMTM2MSw2ODU1Mj
-UxNDRdfQ==
+eyJoaXN0b3J5IjpbLTE2MzU0MDIxMTcsMzk0MzIxMzYxLDM5ND
+MyMTM2MSw2ODU1MjUxNDRdfQ==
 -->
