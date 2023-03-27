@@ -1,9 +1,9 @@
 ---
 layout: single
 title: "How to Configure a Raspberry Pi as an OpenFlow Switch: Steps, Issues, and Solutions"
-excerpt:  "Configuring a Raspberry Pi as an OpenFlow switch can be a great way to set up your own network. However, the process can be complex and come with common issues. In this guide, I will provide step-by-step instructions and solutions to help you get started with ease. Whether you're a beginner or an experienced user, you'll be able to configure your Raspberry Pi as an OpenFlow switch and set up your own software-defined (SDN) network including troubleshooting."
+excerpt:  "Configuring a Raspberry Pi as an OpenFlow switch (low cost open flow switch) can be a great way to set up your own network. However, the process can be complex and come with common issues. In this guide, I will provide step-by-step instructions and solutions to help you get started with ease. Whether you're a beginner or an experienced user, you'll be able to configure your Raspberry Pi as an OpenFlow switch and set up your own software-defined (SDN) network including troubleshooting."
 seo_title:  "A Step-by-Step Guide to Configuring a Raspberry Pi as an OpenFlow Switch"
-seo_description:  "Learn how to configure a Raspberry Pi as an OpenFlow switch with this comprehensive guide. Discover common issues, troubleshooting guides, and solutions, and set up your own software-defined (SDN) network."
+seo_description:  "Learn how to configure a Raspberry Pi as an OpenFlow switch with this comprehensive guide. Build your first low cost open flow switch. It can also be a low cost SDN switch. Discover common issues, troubleshooting guides, and solutions, and set up your own software-defined (SDN) network."
 header:
   image: "https://live.staticflickr.com/65535/52763084849_e3ee0ecaf0_o.png"
   teaser: "https://live.staticflickr.com/65535/52763084849_e3ee0ecaf0_o.png"
@@ -176,5 +176,5 @@ Until then, have a great time!
 4. [PiOVS: Raspberry Pi Open vSwitch](https://www.telematika.org/post/piovs-raspberry-pi-open-vswitch/)
 5. [Open vSwitch database connection failure after rebooting](https://stackoverflow.com/questions/28506053/open-vswitch-database-connection-failure-after-rebooting)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzM0ODExNDcsMTEzNDYxNzA1MF19
+eyJoaXN0b3J5IjpbMTU5MDk0MDgzNywxMTM0NjE3MDUwXX0=
 -->
