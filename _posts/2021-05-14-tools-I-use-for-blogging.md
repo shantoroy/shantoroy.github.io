@@ -94,11 +94,11 @@ Maybe, you have find out that I post many Latex tutorials on this blog. For inst
 I also post a lot of tutorials on Python programming language. To provide code snippets, I use [Google Collab](https://colab.research.google.com/) or [Github](https://github.com/), which are also free platforms for code sharing.
 
 ## Donation/Royalty platform -> Buy Me A Coffee
-For taking donation or royalty, I use [Buy Me A Coffee](buymeacoffee.com/) platform where readers can donate a few dollars to support this blog.
+For taking donation or royalty, I use [Buy Me A Coffee](https://buymeacoffee.com/) platform where readers can donate a few dollars to support this blog.
 
 So, that's it for now. Feel free to let me know if you want to set up a blog like me or having some issues doing any steps I mentioned here.
 
 All the best, cheers! :sunglasses:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NzA3OTEzNF19
+eyJoaXN0b3J5IjpbODU2NDEyNTMxLC02OTcwNzkxMzRdfQ==
 -->
