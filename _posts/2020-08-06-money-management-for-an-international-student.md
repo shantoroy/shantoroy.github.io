@@ -70,8 +70,8 @@ As you can see, I am a content creator and run this blog. I also have started a 
 4. Buy wholesale amount from [Costco](https://www.costco.com/)
 5. Find the nearby Dollar shop, for example, Dollar Tree
 6. Buy Used Items from [Good Will](https://www.goodwill.org/)
-7. Buy Amazon products for free (e.g., [Rebatest](https://www.rebatest.com/Product?Uid=406934886&Rid=55679435), [Cashbackbase](https://www.cashbackbase.com/i/mps607blz6), [ShopRebates](https://www.shoprebates.deals/#/?cId=49295), [Review4Life](http://review4life.com/users/reg?refer=1791))
+7. Buy Amazon products for free (e.g., [Rebatest](https://www.rebatest.com/Product?Uid=406934886&Rid=55679435), [Cashbackbase](https://www.cashbackbase.com/i/mps607blz6), [ShopRebates](https://www.shoprebates.deals/#/?cId=49295)
 8. Get deals (e.g., [Rakuten](https://www.rakuten.com/r/STONEH425?eeid=28187), [SlickDeals](https://slickdeals.net/))
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzODY1NTAxMF19
+eyJoaXN0b3J5IjpbMTYyNjQwMDU1OSwtODM4NjU1MDEwXX0=
 -->
