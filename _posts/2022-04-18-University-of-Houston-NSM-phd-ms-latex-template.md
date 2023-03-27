@@ -59,12 +59,12 @@ I have added the `algorithm2e` package for writing an algorithm. Also, added a d
 ### Subfigures
 Added a few codes in the `Evaluation` section to show how to add subfigures in latex. For details, you can check out this post:
 
-[How to add subfigure in Latex](https://shantoroy.com/latex/how-to-add-subfigure-in-latex/).
+[How to add subfigure in Latex](https://shantoroy.com/latex/how-to-add-subfig-in-latex/).
 
 ### PGFPlots
 My professor prefers `pgfplots` over python generated graphs as these graphs can be easily configured if the template is changed. Here, I added necessary packages for latex graphs and provided a few examples as well. The data has been used here is located in the `data` folder. For details, check out my other posts:
 
-* [Line Plotting using Latex PGFPlots](https://shantoroy.com/latex/line-graph-pgfplots/)
+* [Line Plotting using Latex PGFPlots](https://shantoroy.com/latex/how-to-draw-line-graph-using-pgfplots-latex/)
 * [Creating Bar Charts using Latex PGFPlots](https://shantoroy.com/latex/bar-plots-in-latex-pgfplot/)
 * [Creating Multiple Line plots from CSV file using Latex Tikz and PGFPlot](https://shantoroy.com/latex/multiple-line-plots-using-tikz-pgfplot/)
 
@@ -84,5 +84,6 @@ Please let me know, if I should include anything else.
 
 Once again, you will find the template on [Overleaf](https://www.overleaf.com/read/shdqcsrbbvnz). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Njg0OTUyODQsLTYyOTM4NDY1XX0=
+eyJoaXN0b3J5IjpbLTEwNDA1MDkwNDQsLTE2Njg0OTUyODQsLT
+YyOTM4NDY1XX0=
 -->
