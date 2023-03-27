@@ -34,7 +34,6 @@ Obviosly, `Overleaf` has the best collection CV/resume. You can even publish you
 ## Popular One-page Resume Templates
 * [Deedy Resume/CV](https://www.latextemplates.com/template/deedy-resume-cv)
 * [Twenty Seconds Resume/CV](https://www.latextemplates.com/template/twenty-seconds-resumecv)
-* [Aditya Gadepalli's résumé](https://www.overleaf.com/articles/aditya-gadepallis-resume/kzdksnkdcrsr)
 * [Anshul Gupta's Résumé](https://www.overleaf.com/articles/anshul-guptas-resume/qhsyjwgcxkbb)
 * [Jakša Tomović' CV](https://www.overleaf.com/articles/jaksa-tomovic-cv/dxghwbzypcgt)
 * [RITWIK SHUKLA CV](https://www.overleaf.com/articles/ritwik-shukla-cv/wmypdsvknyct)
@@ -47,13 +46,12 @@ Obviosly, `Overleaf` has the best collection CV/resume. You can even publish you
 * [Michael Pollind's CV](https://www.overleaf.com/articles/michael-pollinds-cv/xzffmjvnvxrk)
 * [Aneesh Jain's Resume](https://www.overleaf.com/articles/aneesh-jains-resume/vrdyvspwpjfb)
 * [Rihai Su's CV](https://www.overleaf.com/articles/rihai-sus-cv/dddhfxpphsxc)
-* [Jayeon Yoo's Curriculum Vitae](https://www.overleaf.com/articles/jayeon-yoos-curriculum-vitae/jvsbyvzhzphf)
 * [Vrbsky's resume](https://www.overleaf.com/articles/vrbskys-resume/cvwgyjxfbhcp)
 * [USA STEM CV](https://www.overleaf.com/latex/templates/usa-stem-cv/vhyqqjmwvvjj)
 * [Abhinay Korukonda's Resume](https://www.overleaf.com/articles/abhinay-korukondas-resume/xpghvdncnvng)
 
 > Choose one you like and start preparing for yourself. Best wishes! :smiley:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY2NzgwMzksOTM4MjQ0MDQzLDc2OTY3Nz
-g5OSwtNjg2MTg5Nzk5XX0=
+eyJoaXN0b3J5IjpbLTM4OTQ3Njg4OCw5MzgyNDQwNDMsNzY5Nj
+c3ODk5LC02ODYxODk3OTldfQ==
 -->
