@@ -181,7 +181,7 @@ You can also read my other posts related to `Raspberry Pi`:
 * [ARM Exploitation with Raspberry Pi: Basic Stack Overflow](https://shantoroy.com/security/ARM-exploitation-raspberry-pi-stack-overflow/)
 * [ARM Exploitation with Raspberry Pi: Return Back to Program without Crashing](https://shantoroy.com/security/avoid-segmentation-fault-return-from-shellcode/)
 * [ARM Exploitation with Raspberry Pi: ARM Ret-to-Libc](https://shantoroy.com/security/ret-to-libc-arm-exploitation-raspberry-pi/)
-* 
+* [Build a Balena Cloud using Raspberry Pi](https://shantoroy.com/raspberry%20pi/balenaOS-install-raspberry-pi-balenacloud/)
 
 ## References
 1. [Configuring Raspberry PI as an OpenFlow switch](https://praveennotes.com/2019/02/01/Configuring-Raspberry-PI-as-an-OpenFlow-switch.html)
@@ -190,5 +190,5 @@ You can also read my other posts related to `Raspberry Pi`:
 4. [PiOVS: Raspberry Pi Open vSwitch](https://www.telematika.org/post/piovs-raspberry-pi-open-vswitch/)
 5. [Open vSwitch database connection failure after rebooting](https://stackoverflow.com/questions/28506053/open-vswitch-database-connection-failure-after-rebooting)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA1MzExOTEzLDExMzQ2MTcwNTBdfQ==
+eyJoaXN0b3J5IjpbMTEyNjQ2MDkzLDExMzQ2MTcwNTBdfQ==
 -->
