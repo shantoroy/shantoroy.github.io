@@ -40,7 +40,6 @@ Note that, you will have to install latex environment first before installing th
 * [Awesome LaTeX](https://github.com/egeerardyn/awesome-LaTeX)
 * [Learn LaTeX — A Beginner's Step-By-Step Guide](https://typeset.io/resources/learn-latex-beginners-step-by-step-guide/)
 * [The Comprehensive LaTeX Symbol List](https://tug.ctan.org/info/symbols/comprehensive/symbols-a4.pdf)
-* [LaTeX Command Summary](https://www.ntg.nl/doc/biemesderfer/ltxcrib.pdf)
 
 ## Cheat Sheet
 * [LaTeX cheat sheet](http://wch.github.io/latexsheet/)
@@ -69,7 +68,7 @@ Some of those are included here.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMzIzMTc5MywyNDkxOTc3MzIsLTYxMz
+eyJoaXN0b3J5IjpbLTIwMDk5MzYyMCwyNDkxOTc3MzIsLTYxMz
 QzMTA3MiwxMzE3ODU2MDkzLDIwMTUxNjYzODgsLTE5MTU3MTgy
 NTIsLTE4NDEzNjc2NjAsLTEyNDkxNjg5MjEsLTg1MDQxNjExOS
 wtNDM0OTA4OTY1LC0xOTgzMDk3NzIyLDIwMDMzODA2MjYsLTE2
