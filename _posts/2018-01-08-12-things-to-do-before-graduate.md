@@ -48,7 +48,7 @@ If you already are expert in one sector, that's very good. But, necessarily you 
 And today, hands-on experience is always preferred over just theoratical knowledge in IT arena. Also, entreprenuership skill needs overall knowledge on every other aspects. So, even being a CSE or IT student you need to know the marketing skill as well. Because you have to market not only your product but also your skill.
 
 ## 4. Write a CV/Resume
-Prepare a CV/Resume while continuing in your final year. You can write it using MS Word or Latex. In this case, Latex is my personal favorite. You will find a lot of CV/Resume templates in [`Overleaf`][Overleaf] or [`ShareLatex`][ShareLatex] - two popular cloud based platform. 
+Prepare a CV/Resume while continuing in your final year. You can write it using MS Word or Latex. In this case, Latex is my personal favorite. You will find a lot of CV/Resume templates in [`Overleaf`][Overleaf] - the most popular cloud based platform. 
 
 If you prefer MS word, then you will find some templates for CV/Resume or cover letter in [`Office templates`][t1] or [`Office templates 2`][t2]. Also you can create and customize your CV online using a free platform - [`Hloom`][Hloom].
 
@@ -99,7 +99,6 @@ Author, writer, blogger or developer- whoever you are, you need good skills in d
 [PHP]: https://secure.php.net/
 [MySQL]: https://www.mysql.com
 [Overleaf]: https://www.overleaf.com/gallery/tagged/cv
-[ShareLatex]: https://www.sharelatex.com/templates/cv-or-resume
 [t1]: https://templates.office.com/en-us/CV-resume-TM00002021
 [t2]: https://templates.office.com/en-us/Resumes-and-Cover-Letters
 [Hloom]: http://www.hloom.com/resumes/
@@ -107,5 +106,5 @@ Author, writer, blogger or developer- whoever you are, you need good skills in d
 [Huff]: https://www.huffingtonpost.com
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDQ3MjIyMzddfQ==
+eyJoaXN0b3J5IjpbMTUxNTE4Njg4OSwtMTgwNDcyMjIzN119
 -->
