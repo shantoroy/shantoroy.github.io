@@ -59,9 +59,9 @@ toc_icon: "heart"
 3. [**FEMA** Coronavirus Rumor Control](https://www.fema.gov/coronavirus/rumor-control)
 
 ### Protection
-1. [**WHO** - How to Protect yourself](https://www.who.int/southeastasia/outbreaks-and-emergencies/novel-coronavirus-2019/protective-measures)
-2. [**US - Dept. of Labor (Occupational Safety and Health Administration)**  Covid-19 Control and Prevention](https://www.osha.gov/SLTC/covid-19/controlprevention.html)
-3. [**CDC** - How to Protect Yourself & Others](https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/prevention.html)
+
+1. [**US - Dept. of Labor (Occupational Safety and Health Administration)**  Covid-19 Control and Prevention](https://www.osha.gov/SLTC/covid-19/controlprevention.html)
+2. [**CDC** - How to Protect Yourself & Others](https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/prevention.html)
 
 ## Prediction Models
 1. [Modeling & Forecasting to Improve COVID-19 Response](https://www.vumc.org/health-policy/sites/default/files/public_files/COVID%20Memo%20-%20Modeling.pdf)
@@ -70,7 +70,7 @@ toc_icon: "heart"
 4. [Mathematical Modeling of Epidemic Diseases; A Case Study of the COVID-19 Coronavirus](https://arxiv.org/pdf/2003.11371.pdf)
 5. [The Mathematics of Predicting the Course of the Coronavirus](https://www.wired.com/story/the-mathematics-of-predicting-the-course-of-the-coronavirus/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1ODg4MzU5OSw0MTY5OTA1NjksMzMyOT
-k0OTQ3LDE0NTE4Nzk2NzgsLTIxMjA2MzIwNzMsLTYzMDQwMDE3
-OSwtMTE5OTY2MDIwM119
+eyJoaXN0b3J5IjpbOTYyMTk4ODAsMTQ1ODg4MzU5OSw0MTY5OT
+A1NjksMzMyOTk0OTQ3LDE0NTE4Nzk2NzgsLTIxMjA2MzIwNzMs
+LTYzMDQwMDE3OSwtMTE5OTY2MDIwM119
 -->
