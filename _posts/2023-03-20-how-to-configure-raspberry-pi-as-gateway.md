@@ -186,7 +186,6 @@ You can also read my other posts related to `Raspberry Pi`:
 
 * [Set Static IP Address in Linux/Raspbian OS](https://shantoroy.com/linux/set-static-hostname-linux-mac-windows-raspbian/)
 
-* [How to Configure a Raspberry Pi as Gateways between two Private Local Area Network using Ethernet Interfaces](https://shantoroy.com/raspberry%20pi/how-to-configure-raspberry-pi-as-gateway/)
 
 * [How to fix the Ubuntu Black Screen Issue in a Raspberry Pi after Installation](https://shantoroy.com/ubuntu/ubuntu-HDMI-black-screen-issue-in-raspberry-pi/)
 
@@ -206,5 +205,5 @@ You can also read my other posts related to `Raspberry Pi`:
 
 -   [How to Configure a Raspberry Pi as an OpenFlow Switch: Steps, Issues, and Solutions](https://shantoroy.com/openflow/how-to-configure-raspberry-pi-as-open-flow-switch/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MjY3MTM5NSwtMTczODA0OTUwXX0=
+eyJoaXN0b3J5IjpbLTEzMDc3NjEzNDYsLTE3MzgwNDk1MF19
 -->
