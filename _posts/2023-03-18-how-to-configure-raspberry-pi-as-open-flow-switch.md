@@ -21,7 +21,9 @@ toc_label: "Table of Contents"
 toc_icon: "heart"
 ---
 
+Buying an open flow switch can cost you a few hundred dollars. However, we can build a low-cost open flow switch from the scratch.
 
+To build a low-cost open flow switch, we will need a Raspberry Pi and a 
 
 There are many tutorials that discuss how to configure a Raspberry Pi as an Open Flow Switch. However, following the same steps can make you face many issues, which I have faced earlier while working on a project.
 
@@ -176,5 +178,5 @@ Until then, have a great time!
 4. [PiOVS: Raspberry Pi Open vSwitch](https://www.telematika.org/post/piovs-raspberry-pi-open-vswitch/)
 5. [Open vSwitch database connection failure after rebooting](https://stackoverflow.com/questions/28506053/open-vswitch-database-connection-failure-after-rebooting)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MDk0MDgzNywxMTM0NjE3MDUwXX0=
+eyJoaXN0b3J5IjpbLTk4NjY3Njc2MCwxMTM0NjE3MDUwXX0=
 -->
