@@ -167,7 +167,6 @@ Save the server side code in a file and name it as `server.py` or anything as yo
 
 [^2]: Network Socket definition - [techtarget](https://whatis.techtarget.com/definition/sockets)
 
-[^3]: Introduction to Socket Programming - [Communication Networks-University of Kansas](https://www.ittc.ku.edu/~jpgs/courses/intronets/lecture-lab-socket-intronets-display.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5OTk3MzQ5N119
+eyJoaXN0b3J5IjpbLTExODYxMzY4NzEsLTY5OTk3MzQ5N119
 -->
