@@ -87,8 +87,7 @@ A process that involves automating all the process of compiling source code of a
 
 ## References
 1. [What is the difference between Sysadmin and DevOps Engineer?](https://devops.stackexchange.com/questions/157/what-is-the-difference-between-sysadmin-and-devops-engineer)
-2. [DevOps and Sysadmin: What’s the Difference?](https://venturi-group.com/devops-and-sysadmin-whats-the-difference/)
 3. [What is AWS DevOps and Tools You Need to Develop a Production-Grade Web App](https://www.simplilearn.com/what-is-aws-devops-article)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NTI3MTIyMV19
+eyJoaXN0b3J5IjpbMTQ5NjM2MDg1OF19
 -->
