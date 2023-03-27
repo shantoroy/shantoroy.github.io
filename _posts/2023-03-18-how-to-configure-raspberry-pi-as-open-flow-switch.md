@@ -171,7 +171,11 @@ I hope, now, you can configure a Raspberry Pi to act as an Open Flow Switch with
 
 Until then, have a great time!
 
-You can also read my other posts r
+You can also read my other posts related to `Raspberry Pi`:
+* [Set Static IP Address in Linux/Raspbian OS](https://shantoroy.com/linux/set-static-hostname-linux-mac-windows-raspbian/)
+* [How to Configure a Raspberry Pi as Gateways between two Private Local Area Network using Ethernet Interfaces](https://shantoroy.com/raspberry%20pi/how-to-configure-raspberry-pi-as-gateway/)
+* [How to fix the Ubuntu Black Screen Issue in a Raspberry Pi after Installation](https://shantoroy.com/ubuntu/ubuntu-HDMI-black-screen-issue-in-raspberry-pi/)
+* [Live Video Monitoring using a Raspberry Pi and any Webcam](https://shantoroy.com/raspberry%20pi/live-monitoring-using-raspberry-pi-and-any-webcam/)
 
 ## References
 1. [Configuring Raspberry PI as an OpenFlow switch](https://praveennotes.com/2019/02/01/Configuring-Raspberry-PI-as-an-OpenFlow-switch.html)
@@ -180,5 +184,5 @@ You can also read my other posts r
 4. [PiOVS: Raspberry Pi Open vSwitch](https://www.telematika.org/post/piovs-raspberry-pi-open-vswitch/)
 5. [Open vSwitch database connection failure after rebooting](https://stackoverflow.com/questions/28506053/open-vswitch-database-connection-failure-after-rebooting)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MTQ5ODI2OCwxMTM0NjE3MDUwXX0=
+eyJoaXN0b3J5IjpbMTc0NzEzODg3NCwxMTM0NjE3MDUwXX0=
 -->
