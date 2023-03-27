@@ -171,6 +171,8 @@ I hope, now, you can configure a Raspberry Pi to act as an Open Flow Switch with
 
 Until then, have a great time!
 
+You can also read my other posts r
+
 ## References
 1. [Configuring Raspberry PI as an OpenFlow switch](https://praveennotes.com/2019/02/01/Configuring-Raspberry-PI-as-an-OpenFlow-switch.html)
 2. [Converting a Raspberry Pi to a OpenFlow Switch](https://sumitrokgp.wordpress.com/2017/05/18/converting-a-raspberry-pi-to-a-openflow-switch/)
@@ -178,5 +180,5 @@ Until then, have a great time!
 4. [PiOVS: Raspberry Pi Open vSwitch](https://www.telematika.org/post/piovs-raspberry-pi-open-vswitch/)
 5. [Open vSwitch database connection failure after rebooting](https://stackoverflow.com/questions/28506053/open-vswitch-database-connection-failure-after-rebooting)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkyNTI2MzQ3LDExMzQ2MTcwNTBdfQ==
+eyJoaXN0b3J5IjpbLTk3MTQ5ODI2OCwxMTM0NjE3MDUwXX0=
 -->
