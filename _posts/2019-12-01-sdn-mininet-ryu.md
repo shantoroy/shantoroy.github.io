@@ -87,7 +87,8 @@ mininet> pingall
 ```
 
 ## References
-
-* [Install Mininet and Ryu Controller](http://ernie55ernie.github.io/mininet/ryu/python/2019/03/25/install-mininet-and-ryu-controller.html)
 * [E: Package 'iproute' has no installation candidate #812](https://github.com/mininet/mininet/issues/812)
 * [Installing RYU SDN controller on Ubuntu 14.04 and running Simple Hub Application](https://ajinkyakadam.bitbucket.io/blogpost/2016/10/31/Install-RYU/)
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTEwODczMzU4OTZdfQ==
+-->
