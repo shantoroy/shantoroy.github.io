@@ -172,10 +172,8 @@ $ wget https://www.openvswitch.org/releases/openvswitch-2.17.1.tar.gz
 $ tar -xvzf openvswitch-2.17.1.tar.gz
 ```
 
-Let's install the updated version of linux headers
-```bash
-$ sudo apt install raspberrypi-kernel-headers
-```
+
+
 and then do the rest.
 ```bash
 $ cd openvswitch-2.17.1
@@ -260,7 +258,7 @@ You can also read my other posts related to `Raspberry Pi`:
 4. [PiOVS: Raspberry Pi Open vSwitch](https://www.telematika.org/post/piovs-raspberry-pi-open-vswitch/)
 5. [Open vSwitch database connection failure after rebooting](https://stackoverflow.com/questions/28506053/open-vswitch-database-connection-failure-after-rebooting)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MjYyODk4MywtMTkxNDIyNzUxMCwtMT
+eyJoaXN0b3J5IjpbLTYwOTY0OTQxOSwtMTkxNDIyNzUxMCwtMT
 gyMTU3MzI0OSw0NTg1NjE5MjIsMTQzNTg0NDM0OSwtMjExNDc5
 OTE4OSwxMTI2NDYwOTMsMTEzNDYxNzA1MF19
 -->
