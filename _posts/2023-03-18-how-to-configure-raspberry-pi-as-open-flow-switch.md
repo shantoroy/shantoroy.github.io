@@ -158,7 +158,7 @@ $ apt search linux-headers
 ```
 And we see, there is nothing less than `5.10+` version. But, that's an issue as from [the official source](https://docs.openvswitch.org/en/latest/faq/releases/), the maximum support version is $5.8$.
 
-However, I find build error for anything greater than version 5. The error is similar to the one reported in [this stackoverflow thread](https://stackoverflow.com/questions/71918528/compile-openvswitch-in-odroid-xu4-has-error) 
+However, I find build error for anything greater than version 5. The error is similar to the one reported in [this stackoverflow thread](https://stackoverflow.com/questions/71918528/compile-openvswitch-in-odroid-xu4-has-error). We must install a version **4.9 or less**. 
 
 Now, let's look at the following link to find updated versions. And voila! It also states supporting linux kernel associated with each version.
 
@@ -192,12 +192,12 @@ $ tar -xvzf openvswitch-2.17.1.tar.gz
 and then do the rest.
 ```bash
 $ cd openvswitch-2.17.1
-$ ./configure --with-linux=/lib/modules/5.7.19-v7/build
+$ ./configure --with-linux=/lib/modules/4.9.0-6-rpi/build
 $ make
 $ make install
 ```
 
-Note that, I had to install linux header version `<5.8` to support openvswitch `2.17.1` version. The installation of earlier version is manual and I will add a seperate post for that.
+Note that, I had to install linux header version `<5.8` to support openvswitch `2.17.1` version. The installation of earlier version is manual and I will add a seperate post for that. In practice, it supports any version 
 
 
 Now, to make `modprobe` work, we need to restart the raspberry pi. When rebooted, let's do the following:
@@ -277,7 +277,7 @@ You can also read my other posts related to `Raspberry Pi`:
 5. [Open vSwitch database connection failure after rebooting](https://stackoverflow.com/questions/28506053/open-vswitch-database-connection-failure-after-rebooting)
 6. [[Official] Open vSwitch Releases](https://docs.openvswitch.org/en/latest/faq/releases/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ0MjI5MTk3LDQyMzg1NDkzOCwtMTMyMj
+eyJoaXN0b3J5IjpbNzk3NDU2MjY2LDQyMzg1NDkzOCwtMTMyMj
 U0ODI3MywtMTkxNDIyNzUxMCwtMTgyMTU3MzI0OSw0NTg1NjE5
 MjIsMTQzNTg0NDM0OSwtMjExNDc5OTE4OSwxMTI2NDYwOTMsMT
 EzNDYxNzA1MF19
