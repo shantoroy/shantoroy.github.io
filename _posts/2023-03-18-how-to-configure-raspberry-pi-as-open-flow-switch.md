@@ -138,6 +138,13 @@ configure: error: Linux kernel in /lib/modules/5.15.76+/build is version 5.15.76
 ```
 Now, we get errors again.
 
+Later I tried installing a generic updated version using the following command:
+
+```bash
+$ sudo apt install raspberrypi-kernel-headers
+```
+and it installed 6.1.19
+
 ### Check for available linux headers
 We can check for the available linux headers using the following command:
 ```bash
@@ -258,7 +265,7 @@ You can also read my other posts related to `Raspberry Pi`:
 4. [PiOVS: Raspberry Pi Open vSwitch](https://www.telematika.org/post/piovs-raspberry-pi-open-vswitch/)
 5. [Open vSwitch database connection failure after rebooting](https://stackoverflow.com/questions/28506053/open-vswitch-database-connection-failure-after-rebooting)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwOTY0OTQxOSwtMTkxNDIyNzUxMCwtMT
-gyMTU3MzI0OSw0NTg1NjE5MjIsMTQzNTg0NDM0OSwtMjExNDc5
-OTE4OSwxMTI2NDYwOTMsMTEzNDYxNzA1MF19
+eyJoaXN0b3J5IjpbNzU0NzI2NjcsLTE5MTQyMjc1MTAsLTE4Mj
+E1NzMyNDksNDU4NTYxOTIyLDE0MzU4NDQzNDksLTIxMTQ3OTkx
+ODksMTEyNjQ2MDkzLDExMzQ2MTcwNTBdfQ==
 -->
