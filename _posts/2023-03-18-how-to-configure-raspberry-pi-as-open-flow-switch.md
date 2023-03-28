@@ -156,7 +156,7 @@ We can check for the available linux headers using the following command:
 ```bash
 $ apt search linux-headers
 ```
-And we see, there is nothing less than `5+` version.
+And we see, there is nothing less than `5.10+` version.
 
 Now, let's look at the following link to find updated versions. And voila! It also states supporting linux kernel associated with each version.
 
@@ -271,7 +271,8 @@ You can also read my other posts related to `Raspberry Pi`:
 4. [PiOVS: Raspberry Pi Open vSwitch](https://www.telematika.org/post/piovs-raspberry-pi-open-vswitch/)
 5. [Open vSwitch database connection failure after rebooting](https://stackoverflow.com/questions/28506053/open-vswitch-database-connection-failure-after-rebooting)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjI1NDgyNzMsLTE5MTQyMjc1MTAsLT
-E4MjE1NzMyNDksNDU4NTYxOTIyLDE0MzU4NDQzNDksLTIxMTQ3
-OTkxODksMTEyNjQ2MDkzLDExMzQ2MTcwNTBdfQ==
+eyJoaXN0b3J5IjpbLTE2NzE1ODIyNTgsLTEzMjI1NDgyNzMsLT
+E5MTQyMjc1MTAsLTE4MjE1NzMyNDksNDU4NTYxOTIyLDE0MzU4
+NDQzNDksLTIxMTQ3OTkxODksMTEyNjQ2MDkzLDExMzQ2MTcwNT
+BdfQ==
 -->
