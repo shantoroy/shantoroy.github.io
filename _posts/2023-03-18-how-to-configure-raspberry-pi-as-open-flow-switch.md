@@ -158,7 +158,7 @@ $ apt search linux-headers
 ```
 And we see, there is nothing less than `5.10+` version. But, that's an issue as from [the official source](https://docs.openvswitch.org/en/latest/faq/releases/), the maximum support version is $5.8$.
 
-However, I find build error for anything greater than version 5. 
+However, I find build error for anything greater than version 5. The error is similar to the one reported in [this stackoverflow thread](https://stackoverflow.com/questions/71918528/compile-openvswitch-in-odroid-xu4-has-error) 
 
 Now, let's look at the following link to find updated versions. And voila! It also states supporting linux kernel associated with each version.
 
@@ -277,8 +277,8 @@ You can also read my other posts related to `Raspberry Pi`:
 5. [Open vSwitch database connection failure after rebooting](https://stackoverflow.com/questions/28506053/open-vswitch-database-connection-failure-after-rebooting)
 6. [[Official] Open vSwitch Releases](https://docs.openvswitch.org/en/latest/faq/releases/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0MTkwNzEyNyw0MjM4NTQ5MzgsLTEzMj
-I1NDgyNzMsLTE5MTQyMjc1MTAsLTE4MjE1NzMyNDksNDU4NTYx
-OTIyLDE0MzU4NDQzNDksLTIxMTQ3OTkxODksMTEyNjQ2MDkzLD
-ExMzQ2MTcwNTBdfQ==
+eyJoaXN0b3J5IjpbMzQ0MjI5MTk3LDQyMzg1NDkzOCwtMTMyMj
+U0ODI3MywtMTkxNDIyNzUxMCwtMTgyMTU3MzI0OSw0NTg1NjE5
+MjIsMTQzNTg0NDM0OSwtMjExNDc5OTE4OSwxMTI2NDYwOTMsMT
+EzNDYxNzA1MF19
 -->
