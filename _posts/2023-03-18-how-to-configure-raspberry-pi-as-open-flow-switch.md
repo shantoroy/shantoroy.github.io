@@ -82,7 +82,11 @@ python3-simplejson-dbg - simple, fast, extensible JSON encoder/decoder for Pytho
 ```
 so, we see, there is a package available named `python3-simplejson`. So, we need to change `python-simplejson` to `python3-simplejson`.
 
-
+Since, there is `qt5` available now, let's search like the following:
+```bash
+root@raspberrypi:~# apt-cache search python3-pyqt5
+```
+Well, it has a long matching result and means it is available.
 
 
 ### Fix Linux Headers
@@ -229,6 +233,6 @@ You can also read my other posts related to `Raspberry Pi`:
 4. [PiOVS: Raspberry Pi Open vSwitch](https://www.telematika.org/post/piovs-raspberry-pi-open-vswitch/)
 5. [Open vSwitch database connection failure after rebooting](https://stackoverflow.com/questions/28506053/open-vswitch-database-connection-failure-after-rebooting)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY1MDMxMTIwLC0yMTE0Nzk5MTg5LDExMj
-Y0NjA5MywxMTM0NjE3MDUwXX0=
+eyJoaXN0b3J5IjpbMTQzNTg0NDM0OSwtMjExNDc5OTE4OSwxMT
+I2NDYwOTMsMTEzNDYxNzA1MF19
 -->
