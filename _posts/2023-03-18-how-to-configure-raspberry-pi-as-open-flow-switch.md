@@ -165,7 +165,7 @@ $ tar -xvzf openvswitch-2.17.1.tar.gz
 
 Let's install the following version of linux headers
 ```bash
-$ apt-get install linux-headers-4.9.0-6-rpi
+$ ls 
 ```
 and then do the rest.
 ```bash
@@ -251,7 +251,7 @@ You can also read my other posts related to `Raspberry Pi`:
 4. [PiOVS: Raspberry Pi Open vSwitch](https://www.telematika.org/post/piovs-raspberry-pi-open-vswitch/)
 5. [Open vSwitch database connection failure after rebooting](https://stackoverflow.com/questions/28506053/open-vswitch-database-connection-failure-after-rebooting)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTQyMjc1MTAsLTE4MjE1NzMyNDksND
-U4NTYxOTIyLDE0MzU4NDQzNDksLTIxMTQ3OTkxODksMTEyNjQ2
-MDkzLDExMzQ2MTcwNTBdfQ==
+eyJoaXN0b3J5IjpbMTc0MTgwMzE1NCwtMTkxNDIyNzUxMCwtMT
+gyMTU3MzI0OSw0NTg1NjE5MjIsMTQzNTg0NDM0OSwtMjExNDc5
+OTE4OSwxMTI2NDYwOTMsMTEzNDYxNzA1MF19
 -->
