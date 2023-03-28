@@ -83,26 +83,26 @@ python3-simplejson-dbg - simple, fast, extensible JSON encoder/decoder for Pytho
 so, we see, there is a package available named `python3-simplejson`. So, we need to change `python-simplejson` to `python3-simplejson`.
 
 Since, there is `qt5` available now, let's search like the following:
-```bash
+```sh
 root@raspberrypi:~# apt-cache search python3-pyqt5
 ```
 Well, it has a long matching result and means it is available.
 
 For `twisted`, I did the following at first:
-```bash
+```sh
 root@raspberrypi:~# apt-cache search twisted-conch
 ```
 There is nothing. So, again I shortened the name:
 
-```bash
+```sh
 root@raspberrypi:~# apt-cache search twisted
 ```
 Now, I get a long matching list and I find `python3-twisted` available out there.
 
 So, let's finalize the whole dependency installation line like the following:
 
-```bash
-root@raspberrypi:~# apt-get install python-simplejson python-qt4 libssl-dev python-twisted-conch automake autoconf gcc uml-utilities libtool build-essential pkg-config
+```sh
+root@raspberrypi:~# apt-get install python3-simplejson python3-pyqt5 libssl-dev python3-twisted automake autoconf gcc uml-utilities libtool build-essential pkg-config
 ```
 
 
@@ -250,7 +250,7 @@ You can also read my other posts related to `Raspberry Pi`:
 4. [PiOVS: Raspberry Pi Open vSwitch](https://www.telematika.org/post/piovs-raspberry-pi-open-vswitch/)
 5. [Open vSwitch database connection failure after rebooting](https://stackoverflow.com/questions/28506053/open-vswitch-database-connection-failure-after-rebooting)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjE2OTc5NTYsNDU4NTYxOTIyLDE0Mz
+eyJoaXN0b3J5IjpbLTE4MjE1NzMyNDksNDU4NTYxOTIyLDE0Mz
 U4NDQzNDksLTIxMTQ3OTkxODksMTEyNjQ2MDkzLDExMzQ2MTcw
 NTBdfQ==
 -->
