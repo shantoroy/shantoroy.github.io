@@ -156,7 +156,7 @@ We can check for the available linux headers using the following command:
 ```bash
 $ apt search linux-headers
 ```
-And we see, there is nothing less than `5.10+` version.
+And we see, there is nothing less than `5.10+` version. But, that's an issue as from [the official source](https://docs.openvswitch.org/en/latest/faq/releases/), the maximum support version is $5.8$.
 
 Now, let's look at the following link to find updated versions. And voila! It also states supporting linux kernel associated with each version.
 
@@ -270,9 +270,10 @@ You can also read my other posts related to `Raspberry Pi`:
 3. [Install OVS (Openvswitch) in Raspberry-Pi](https://techflow360.com/install-ovs-openvswitch-in-raspberry-pi/)
 4. [PiOVS: Raspberry Pi Open vSwitch](https://www.telematika.org/post/piovs-raspberry-pi-open-vswitch/)
 5. [Open vSwitch database connection failure after rebooting](https://stackoverflow.com/questions/28506053/open-vswitch-database-connection-failure-after-rebooting)
+6. [[Official] Open vSwitch Releases](https://docs.openvswitch.org/en/latest/faq/releases/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzE1ODIyNTgsLTEzMjI1NDgyNzMsLT
-E5MTQyMjc1MTAsLTE4MjE1NzMyNDksNDU4NTYxOTIyLDE0MzU4
-NDQzNDksLTIxMTQ3OTkxODksMTEyNjQ2MDkzLDExMzQ2MTcwNT
-BdfQ==
+eyJoaXN0b3J5IjpbNDQyNjA3MzYzLC0xMzIyNTQ4MjczLC0xOT
+E0MjI3NTEwLC0xODIxNTczMjQ5LDQ1ODU2MTkyMiwxNDM1ODQ0
+MzQ5LC0yMTE0Nzk5MTg5LDExMjY0NjA5MywxMTM0NjE3MDUwXX
+0=
 -->
