@@ -44,6 +44,16 @@ $ tar -xvzf openvswitch-2.5.2.tar.gz
 Now, let's install dependencies
 ```bash
 $ apt-get install python-simplejson python-qt4 libssl-dev python-twisted-conch automake autoconf gcc uml-utilities libtool build-essential pkg-config
+```
+and we get the following errors:
+
+```
+E: Unable to locate package python-simplejson
+E: Unable to locate package python-qt4
+E: Unable to locate package python-twisted-conch
+```
+and let's try to install linux headers
+```
 $ apt-get install linux-headers-3.10-3-rpi
 ```
 
@@ -191,6 +201,6 @@ You can also read my other posts related to `Raspberry Pi`:
 4. [PiOVS: Raspberry Pi Open vSwitch](https://www.telematika.org/post/piovs-raspberry-pi-open-vswitch/)
 5. [Open vSwitch database connection failure after rebooting](https://stackoverflow.com/questions/28506053/open-vswitch-database-connection-failure-after-rebooting)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTQ3OTkxODksMTEyNjQ2MDkzLDExMz
-Q2MTcwNTBdfQ==
+eyJoaXN0b3J5IjpbNjE3MzE0MTE1LC0yMTE0Nzk5MTg5LDExMj
+Y0NjA5MywxMTM0NjE3MDUwXX0=
 -->
