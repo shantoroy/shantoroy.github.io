@@ -99,7 +99,7 @@ root@raspberrypi:~# apt-cache search twisted
 ```
 Now, I get a long matching list and I find `python3-twisted` available out there.
 
-So, let's finalize the whole dependency installation line like the following:
+**So, let's finalize the whole dependency installation line like the following**:
 
 ```sh
 root@raspberrypi:~# apt-get install python3-simplejson python3-pyqt5 libssl-dev python3-twisted automake autoconf gcc uml-utilities libtool build-essential pkg-config
@@ -113,6 +113,7 @@ If the right compatible linux header is not there, we may run into issues when c
 $ cd openvswitch-2.5.2
 $ ./configure --with-linux=/lib/modules/3.10-3-rpi/build
 ```
+And we get error as this version does not exist today.
 ### Updated Linux Header Version Issues
 If we have issues, let's first check the installed versions
 ```bash
@@ -250,7 +251,7 @@ You can also read my other posts related to `Raspberry Pi`:
 4. [PiOVS: Raspberry Pi Open vSwitch](https://www.telematika.org/post/piovs-raspberry-pi-open-vswitch/)
 5. [Open vSwitch database connection failure after rebooting](https://stackoverflow.com/questions/28506053/open-vswitch-database-connection-failure-after-rebooting)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjE1NzMyNDksNDU4NTYxOTIyLDE0Mz
-U4NDQzNDksLTIxMTQ3OTkxODksMTEyNjQ2MDkzLDExMzQ2MTcw
-NTBdfQ==
+eyJoaXN0b3J5IjpbLTE5MTQyMjc1MTAsLTE4MjE1NzMyNDksND
+U4NTYxOTIyLDE0MzU4NDQzNDksLTIxMTQ3OTkxODksMTEyNjQ2
+MDkzLDExMzQ2MTcwNTBdfQ==
 -->
