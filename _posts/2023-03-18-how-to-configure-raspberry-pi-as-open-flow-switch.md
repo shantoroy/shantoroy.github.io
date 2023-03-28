@@ -88,6 +88,16 @@ root@raspberrypi:~# apt-cache search python3-pyqt5
 ```
 Well, it has a long matching result and means it is available.
 
+For `twisted`, I did the following at first:
+```bash
+root@raspberrypi:~# apt-cache search twisted-conch
+```
+There is nothing. So, again I shortened the name:
+
+```bash
+
+```
+
 
 ### Fix Linux Headers
 If the right compatible linux header is not there, we may run into issues when configuring the `openvswitch`.
@@ -233,6 +243,6 @@ You can also read my other posts related to `Raspberry Pi`:
 4. [PiOVS: Raspberry Pi Open vSwitch](https://www.telematika.org/post/piovs-raspberry-pi-open-vswitch/)
 5. [Open vSwitch database connection failure after rebooting](https://stackoverflow.com/questions/28506053/open-vswitch-database-connection-failure-after-rebooting)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNTg0NDM0OSwtMjExNDc5OTE4OSwxMT
-I2NDYwOTMsMTEzNDYxNzA1MF19
+eyJoaXN0b3J5IjpbLTMwMjEzNjM4OSwxNDM1ODQ0MzQ5LC0yMT
+E0Nzk5MTg5LDExMjY0NjA5MywxMTM0NjE3MDUwXX0=
 -->
