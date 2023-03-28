@@ -56,6 +56,16 @@ and let's try to install linux headers
 ```
 $ apt-get install linux-headers-3.10-3-rpi
 ```
+then we get this error
+
+```
+E: Unable to locate package linux-headers-3.10-3-rpi
+E: Couldn't find any package by glob 'linux-headers-3.10-3-rpi'
+E: Couldn't find any package by regex 'linux-headers-3.10-3-rpi'
+```
+
+### Fix Dependency Installation
+We can use the following 
 
 ### Fix Linux Headers
 If the right compatible linux header is not there, we may run into issues when configuring the `openvswitch`.
@@ -201,6 +211,6 @@ You can also read my other posts related to `Raspberry Pi`:
 4. [PiOVS: Raspberry Pi Open vSwitch](https://www.telematika.org/post/piovs-raspberry-pi-open-vswitch/)
 5. [Open vSwitch database connection failure after rebooting](https://stackoverflow.com/questions/28506053/open-vswitch-database-connection-failure-after-rebooting)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE3MzE0MTE1LC0yMTE0Nzk5MTg5LDExMj
-Y0NjA5MywxMTM0NjE3MDUwXX0=
+eyJoaXN0b3J5IjpbLTEzMDI0NDA3NTgsLTIxMTQ3OTkxODksMT
+EyNjQ2MDkzLDExMzQ2MTcwNTBdfQ==
 -->
