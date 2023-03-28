@@ -190,10 +190,12 @@ $ tar -xvzf openvswitch-2.17.1.tar.gz
 and then do the rest.
 ```bash
 $ cd openvswitch-2.17.1
-$ ./configure --with-linux=/lib/modules/4.9.0-6-rpi/build
+$ ./configure --with-linux=/lib/modules/5.7.19-v7/build
 $ make
 $ make install
 ```
+
+Note that, I had to install linux header version `<5.8` to support open
 
 
 Now, to make `modprobe` work, we need to restart the raspberry pi. When rebooted, let's do the following:
@@ -273,7 +275,7 @@ You can also read my other posts related to `Raspberry Pi`:
 5. [Open vSwitch database connection failure after rebooting](https://stackoverflow.com/questions/28506053/open-vswitch-database-connection-failure-after-rebooting)
 6. [[Official] Open vSwitch Releases](https://docs.openvswitch.org/en/latest/faq/releases/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExOTYwNzcyOSwtMTMyMjU0ODI3MywtMT
+eyJoaXN0b3J5IjpbLTM0MzMwMzI0OCwtMTMyMjU0ODI3MywtMT
 kxNDIyNzUxMCwtMTgyMTU3MzI0OSw0NTg1NjE5MjIsMTQzNTg0
 NDM0OSwtMjExNDc5OTE4OSwxMTI2NDYwOTMsMTEzNDYxNzA1MF
 19
