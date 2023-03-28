@@ -64,8 +64,23 @@ E: Couldn't find any package by glob 'linux-headers-3.10-3-rpi'
 E: Couldn't find any package by regex 'linux-headers-3.10-3-rpi'
 ```
 
+
 ### Fix Dependency Installation
-We can use the following 
+We can use the following command to find if something is available:
+
+```bash
+root@raspberrypi:~# apt-cache search simplejson
+```
+and we get the following:
+```
+golang-github-bitly-go-simplejson-dev - Golang library to interact with arbitrary JSON
+python-jsonpickle-doc - Python library for serializing object graphs into JSON (documentation)
+python-simplejson-doc - simple, fast, extensible JSON encoder/decoder for Python - documentation
+python3-jsonpickle - Python library for serializing object graphs into JSON (Python 3)
+python3-simplejson - simple, fast, extensible JSON encoder/decoder for Python 3.x
+python3-simplejson-dbg - simple, fast, extensible JSON encoder/decoder for Python 3.x - debug symbols
+```
+so, we see
 
 ### Fix Linux Headers
 If the right compatible linux header is not there, we may run into issues when configuring the `openvswitch`.
@@ -211,6 +226,6 @@ You can also read my other posts related to `Raspberry Pi`:
 4. [PiOVS: Raspberry Pi Open vSwitch](https://www.telematika.org/post/piovs-raspberry-pi-open-vswitch/)
 5. [Open vSwitch database connection failure after rebooting](https://stackoverflow.com/questions/28506053/open-vswitch-database-connection-failure-after-rebooting)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDI0NDA3NTgsLTIxMTQ3OTkxODksMT
-EyNjQ2MDkzLDExMzQ2MTcwNTBdfQ==
+eyJoaXN0b3J5IjpbLTYxMDc0MTQ4MCwtMjExNDc5OTE4OSwxMT
+I2NDYwOTMsMTEzNDYxNzA1MF19
 -->
