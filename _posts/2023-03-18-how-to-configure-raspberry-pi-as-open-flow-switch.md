@@ -158,6 +158,8 @@ $ apt search linux-headers
 ```
 And we see, there is nothing less than `5.10+` version. But, that's an issue as from [the official source](https://docs.openvswitch.org/en/latest/faq/releases/), the maximum support version is $5.8$.
 
+However, I find build error for anything greater than version 5. 
+
 Now, let's look at the following link to find updated versions. And voila! It also states supporting linux kernel associated with each version.
 
 https://docs.openvswitch.org/en/latest/faq/releases/
@@ -275,8 +277,8 @@ You can also read my other posts related to `Raspberry Pi`:
 5. [Open vSwitch database connection failure after rebooting](https://stackoverflow.com/questions/28506053/open-vswitch-database-connection-failure-after-rebooting)
 6. [[Official] Open vSwitch Releases](https://docs.openvswitch.org/en/latest/faq/releases/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIzODU0OTM4LC0xMzIyNTQ4MjczLC0xOT
-E0MjI3NTEwLC0xODIxNTczMjQ5LDQ1ODU2MTkyMiwxNDM1ODQ0
-MzQ5LC0yMTE0Nzk5MTg5LDExMjY0NjA5MywxMTM0NjE3MDUwXX
-0=
+eyJoaXN0b3J5IjpbMTM0MTkwNzEyNyw0MjM4NTQ5MzgsLTEzMj
+I1NDgyNzMsLTE5MTQyMjc1MTAsLTE4MjE1NzMyNDksNDU4NTYx
+OTIyLDE0MzU4NDQzNDksLTIxMTQ3OTkxODksMTEyNjQ2MDkzLD
+ExMzQ2MTcwNTBdfQ==
 -->
