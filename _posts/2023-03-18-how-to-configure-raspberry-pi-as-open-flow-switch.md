@@ -29,7 +29,8 @@ There are many tutorials that discuss how to configure a Raspberry Pi as an Open
 
 In this blog post I will note down the entire process that works with the latest version changes and compatibility issues. I will also show how I tried to troubeshoot the issues and eventually reached to solutions.
 
-## Download Openvswitch
+## Version Mismatch Issues
+### Download Openvswitch
 Let's first download openvswitch
 ```bash
 $ wget http://openvswitch.org/releases/openvswitch-2.5.2.tar.gz
@@ -39,14 +40,14 @@ and unzip
 $ tar -xvzf openvswitch-2.5.2.tar.gz
 ```
 
-## Install Dependencies
+### Install Dependencies
 Now, let's install dependencies
 ```bash
 $ apt-get install python-simplejson python-qt4 libssl-dev python-twisted-conch automake autoconf gcc uml-utilities libtool build-essential pkg-config
 $ apt-get install linux-headers-3.10-3-rpi
 ```
 
-## Fix Linux Headers
+### Fix Linux Headers
 If the right compatible linux header is not there, we may run into issues when configuring the `openvswitch`.
 
 ```bash
@@ -79,7 +80,7 @@ Now, let's look at the following link to find updated versions. And voila! It al
 
 https://docs.openvswitch.org/en/latest/faq/releases/
 
-### Another Try
+## Another Try
 The following is what I tried later. 
 ```bash
 $ wget http://openvswitch.org/releases/openvswitch-3.0.0.tar.gz
@@ -190,5 +191,6 @@ You can also read my other posts related to `Raspberry Pi`:
 4. [PiOVS: Raspberry Pi Open vSwitch](https://www.telematika.org/post/piovs-raspberry-pi-open-vswitch/)
 5. [Open vSwitch database connection failure after rebooting](https://stackoverflow.com/questions/28506053/open-vswitch-database-connection-failure-after-rebooting)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNjQ2MDkzLDExMzQ2MTcwNTBdfQ==
+eyJoaXN0b3J5IjpbLTIxMTQ3OTkxODksMTEyNjQ2MDkzLDExMz
+Q2MTcwNTBdfQ==
 -->
