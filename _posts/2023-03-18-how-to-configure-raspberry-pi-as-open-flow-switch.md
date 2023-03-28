@@ -122,6 +122,14 @@ $ ls /lib/modules/
 ```
 
 These are recent versions available after we installed linux headers.
+
+However, we get the following error:
+
+```
+configure: error: source dir /lib/modules/5.15.84+/build doesn't exist
+```
+as there is no `build` directory within any of these folders.
+
 Now, let's check with one of these:
 ```bash
 $ ./configure --with-linux=/lib/modules/5.15.76+/build
@@ -252,7 +260,7 @@ You can also read my other posts related to `Raspberry Pi`:
 4. [PiOVS: Raspberry Pi Open vSwitch](https://www.telematika.org/post/piovs-raspberry-pi-open-vswitch/)
 5. [Open vSwitch database connection failure after rebooting](https://stackoverflow.com/questions/28506053/open-vswitch-database-connection-failure-after-rebooting)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTA3NjA5NzYsLTE5MTQyMjc1MTAsLT
-E4MjE1NzMyNDksNDU4NTYxOTIyLDE0MzU4NDQzNDksLTIxMTQ3
-OTkxODksMTEyNjQ2MDkzLDExMzQ2MTcwNTBdfQ==
+eyJoaXN0b3J5IjpbMTc0MjYyODk4MywtMTkxNDIyNzUxMCwtMT
+gyMTU3MzI0OSw0NTg1NjE5MjIsMTQzNTg0NDM0OSwtMjExNDc5
+OTE4OSwxMTI2NDYwOTMsMTEzNDYxNzA1MF19
 -->
