@@ -197,7 +197,9 @@ $ make
 $ make install
 ```
 
-Note that, I had to install linux header version `<5.8` to support openvswitch `2.17.1` version. The installation of earlier version is manual and I will add a seperate post for that. In practice, it supports any version 
+Note that, I had to install linux header version `<5.8` to support openvswitch `2.17.1` version. The installation of earlier version is manual and I will add a seperate post for that. In practice, it supports any version of **4.9 or less**.
+
+I am writing another blog post on how to manually install an earlier version. I will add the link here when I am done.
 
 
 Now, to make `modprobe` work, we need to restart the raspberry pi. When rebooted, let's do the following:
@@ -277,8 +279,8 @@ You can also read my other posts related to `Raspberry Pi`:
 5. [Open vSwitch database connection failure after rebooting](https://stackoverflow.com/questions/28506053/open-vswitch-database-connection-failure-after-rebooting)
 6. [[Official] Open vSwitch Releases](https://docs.openvswitch.org/en/latest/faq/releases/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk3NDU2MjY2LDQyMzg1NDkzOCwtMTMyMj
-U0ODI3MywtMTkxNDIyNzUxMCwtMTgyMTU3MzI0OSw0NTg1NjE5
-MjIsMTQzNTg0NDM0OSwtMjExNDc5OTE4OSwxMTI2NDYwOTMsMT
-EzNDYxNzA1MF19
+eyJoaXN0b3J5IjpbLTQzNjEwMjM3Nyw0MjM4NTQ5MzgsLTEzMj
+I1NDgyNzMsLTE5MTQyMjc1MTAsLTE4MjE1NzMyNDksNDU4NTYx
+OTIyLDE0MzU4NDQzNDksLTIxMTQ3OTkxODksMTEyNjQ2MDkzLD
+ExMzQ2MTcwNTBdfQ==
 -->
