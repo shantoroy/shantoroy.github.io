@@ -194,7 +194,7 @@ and then do the rest.
 $ cd openvswitch-2.17.1
 $ ./configure --with-linux=/lib/modules/4.9.0-6-rpi/build
 $ make
-$ make install
+$ sudo make install
 ```
 
 Note that, I had to install linux header version `<5.8` to support openvswitch `2.17.1` version. The installation of earlier version is manual and I will add a seperate post for that. In practice, it supports any version of **4.9 or less**.
@@ -279,8 +279,8 @@ You can also read my other posts related to `Raspberry Pi`:
 5. [Open vSwitch database connection failure after rebooting](https://stackoverflow.com/questions/28506053/open-vswitch-database-connection-failure-after-rebooting)
 6. [[Official] Open vSwitch Releases](https://docs.openvswitch.org/en/latest/faq/releases/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNjEwMjM3Nyw0MjM4NTQ5MzgsLTEzMj
-I1NDgyNzMsLTE5MTQyMjc1MTAsLTE4MjE1NzMyNDksNDU4NTYx
-OTIyLDE0MzU4NDQzNDksLTIxMTQ3OTkxODksMTEyNjQ2MDkzLD
-ExMzQ2MTcwNTBdfQ==
+eyJoaXN0b3J5IjpbOTQ1NTQwNDc4LC00MzYxMDIzNzcsNDIzOD
+U0OTM4LC0xMzIyNTQ4MjczLC0xOTE0MjI3NTEwLC0xODIxNTcz
+MjQ5LDQ1ODU2MTkyMiwxNDM1ODQ0MzQ5LC0yMTE0Nzk5MTg5LD
+ExMjY0NjA5MywxMTM0NjE3MDUwXX0=
 -->
