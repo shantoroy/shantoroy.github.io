@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Jekyll SEO: How to Find and Fix 404 Error on a Jekyll (Minimal Mistakes) Blog Website"
-excerpt: "Your blog post excerpt"
+excerpt: "If you're a Jekyll blogger and struggling with 404 errors on your blog website, there is a way to fix this issue. Broken links and missing pages can frustrate your readers, and harm your search engine rankings. But fear not, there is a solution. In this blog post, I'll show you how to use Google Analytics and Console to find broken links and enable redirection to fix those 404 errors in your Jekyll (Minimal Mistakes) blog website."
 seo_title: "Your meta title"
 seo_description: "Your meta description"
 header:
@@ -127,5 +127,5 @@ You can also read related posts:
 4. [Minimal Mistakes Cheat Sheet: Code Snippets I use to Blog using Jekyll and the Minimal Mistakes Theme](https://shantoroy.com/jekyll/code-snippets-I-use-for-blogging-in-minimal-mistakes/)
 5. [Tools and Platforms I use for Blogging](https://shantoroy.com/blog/tools-I-use-for-blogging/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODEwNTc3Nzc2XX0=
+eyJoaXN0b3J5IjpbLTEwMjQyNTU4NzhdfQ==
 -->
