@@ -3,7 +3,7 @@ layout: single
 title: "Preparing  Tables  for  Publication  and  Documentation  in  Latex"
 redirect_from:
   - /latex/tables-in-latex/
-  - /post/123456789/my-amazing-post/
+  - /latex/how-to-create-tables-in-latex/
 header:
   image: "https://live.staticflickr.com/65535/49211373397_8de8c1daa4_h.jpg"
   teaser: "https://live.staticflickr.com/65535/49211373397_8de8c1daa4_h.jpg"
@@ -198,5 +198,5 @@ Once again, all the codes are available in the [overleaf document](https://www.o
 
 Cheers!!! :smiley::sunglasses::v:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNTc5MjI2MSwtMzM3NjM5NDU5XX0=
+eyJoaXN0b3J5IjpbMzk2NjA5NzUyLC0zMzc2Mzk0NTldfQ==
 -->
