@@ -2,7 +2,7 @@
 layout: single
 title: "Line Plotting using Latex PGFPlots"
 redirect_from:
-  - /latex/line-graph-pgfplots
+  - /latex/line-graph-pgfplots/
   - /latex/how-to-draw-line-graph-using-pgfplots-latex/
 header:
   image: "https://live.staticflickr.com/65535/49274059347_9de083b1a5_h.jpg"
@@ -198,5 +198,5 @@ The following example has two subplots-
 * [tikz or pgfplots- plotting a trigonometric function](https://tex.stackexchange.com/questions/361915/tikz-or-pgfplots-plotting-a-trigonometric-function-cos-sin-tan)
 * [How to plot sinx and cosx with tikz](https://tex.stackexchange.com/questions/16232/how-to-plot-fx-sinx-kx-cosx-and-ux-x%C2%B2-with-tikz)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3OTEyOTE2Ml19
+eyJoaXN0b3J5IjpbLTk3NTI1NTc2MSwtOTc5MTI5MTYyXX0=
 -->
