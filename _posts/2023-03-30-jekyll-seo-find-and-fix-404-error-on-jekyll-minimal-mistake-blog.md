@@ -1,9 +1,9 @@
 ---
 layout: single
 title: "Jekyll SEO: How to Find and Fix 404 Error on a Jekyll (Minimal Mistakes) Blog Website"
-excerpt: "If you're a Jekyll blogger and struggling with 404 errors on your blog website, there is a way to fix this issue. Broken links and missing pages can frustrate your readers, and harm your search engine rankings. But fear not, there is a solution. In this blog post, I'll show you how to use Google Analytics and Console to find broken links and enable redirection to fix those 404 errors in your Jekyll (Minimal Mistakes) blog website."
-seo_title: "Your meta title"
-seo_description: "Your meta description"
+excerpt: "If you're a Jekyll blogger and struggling with 404 errors on your blog website, there is a way to fix this issue. Broken links and missing pages can frustrate your readers, and harm your search engine rankings. But fear not, there is a solution. In this blog post, I'll show you how to use Google Analytics and Console to find broken links and enable redirection to fix those 404 errors in your Jekyll (Minimal Mistakes) blog website. Redirection 301 is the best solution and here I show how to do that in Jekyll site."
+seo_title: "Jekyll SEO: How to Find and Fix 404 Error on a Jekyll (Minimal Mistakes) Blog Website"
+seo_description: "Struggling with 404 errors on your Jekyll (Minimal Mistakes) blog website? This blog post shows you how to find issues using Google Analytics/console and enable redirection to fix broken links. Keep your readers happy and improve your search engine rankings with these simple steps. I used Redirection 301 to fix the issue."
 header:
   image: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
   teaser: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
@@ -14,7 +14,9 @@ tags:
   - mmistakes
   - Minimal Mistakes
   - github-pages
-  - 404
+  - SEO
+  - search engine optimization
+  - redirection 301
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "heart"
@@ -127,5 +129,5 @@ You can also read related posts:
 4. [Minimal Mistakes Cheat Sheet: Code Snippets I use to Blog using Jekyll and the Minimal Mistakes Theme](https://shantoroy.com/jekyll/code-snippets-I-use-for-blogging-in-minimal-mistakes/)
 5. [Tools and Platforms I use for Blogging](https://shantoroy.com/blog/tools-I-use-for-blogging/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjQyNTU4NzhdfQ==
+eyJoaXN0b3J5IjpbMTc3OTk3MzA0NF19
 -->
