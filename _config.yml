@@ -244,6 +244,7 @@ plugins:
   - jekyll-include-cache
   - jekyll-archives
   - jekyll-seo-tag
+  - jekyll-redirect-from
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -254,6 +255,7 @@ whitelist:
   - jekyll-include-cache
   - jekyll-archives
   - jekyll-seo-tag
+  - jekyll-redirect-from
 
 
 # Archives
