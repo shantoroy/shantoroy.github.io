@@ -2,7 +2,7 @@
 layout: single
 title: "How to add subfigure in Latex"
 redirect_from:
-  - /latex/tables-in-latex/
+  - /latex/add-subfig-in-latex/
   - /latex/how-to-add-subfig-in-latex/
 header: 
   image: "https://farm5.staticflickr.com/4618/39005424665_7933a838e6_b.jpg"
@@ -154,5 +154,5 @@ Some of those are included here.
 * [How to Collaboratively Write a Paper using Overleaf Latex Platform](https://shantoroy.com/latex/how-to-collaborately-write-a-paper-using-latex-overleaf/)
 * [Itemize, Enumerate, and To-do-list in Latex](https://shantoroy.com/latex/playing-with-latex-itemize-enumerate-fontawesome/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYzMzk1NjZdfQ==
+eyJoaXN0b3J5IjpbMTY0MzAwNDkyMV19
 -->
