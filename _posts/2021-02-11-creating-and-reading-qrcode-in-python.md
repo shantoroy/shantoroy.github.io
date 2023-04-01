@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Creating and Reading QR Code in Python: A Simple Python Class using `qrcode` and `opencv` module"
+excerpt:  "QR codes are becoming increasingly popular in many applications, from tracking inventory to sharing contact information. In this post, we'll explore how to create and read QR codes using a simple Python class that leverages the `qrcode` and `opencv` modules. With this class, you can easily generate QR codes from text or URLs, and then decode them with your computer's camera."
+seo_title:  "Creating and Reading QR Code in Python: A Simple Python Class using `qrcode` and `opencv` module"
+seo_description:  "Learn how to create and read QR codes in Python using a simple Python class that leverages the `qrcode` and `opencv` modules. This post will show you how to generate QR codes from text or URLs, and decode them with your computer's camera."
 header:
   image: "https://live.staticflickr.com/65535/51686080612_afb4e84885_o.png"
   teaser: "https://live.staticflickr.com/65535/51686080612_afb4e84885_o.png"
@@ -131,5 +134,5 @@ This is another data
 
 That's it for today. Until next post, Cheers!!! 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3Nzg2NzU4M119
+eyJoaXN0b3J5IjpbMTcwOTc0MTkwNywtNzc3ODY3NTgzXX0=
 -->
