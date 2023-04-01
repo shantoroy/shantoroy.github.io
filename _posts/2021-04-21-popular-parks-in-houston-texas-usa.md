@@ -2,8 +2,8 @@
 layout: single
 title: "Pouplar Parks in Houston for Walking, Running, and Biking"
 excerpt:  "Discover the most popular parks in Houston for walking, running, and biking. Whether you are looking for a peaceful stroll, a scenic bike ride, or a challenging trail run, Houston has plenty of options to offer. From Memorial Park's expansive trails to Buffalo Bayou Park's stunning views, this guide will help you find the perfect park for your outdoor adventures in the city."
-seo_title:  Your  meta  title  
-seo_description:  Your  meta  description
+seo_title:  "Top Parks in Houston for Walking, Running, and Biking | Houston Outdoor Adventures"
+seo_description:  "Looking for a great park for walking, running, or biking in Houston? Check out our guide to the most popular parks in the city, including Memorial Park, Buffalo Bayou Park, Hermann Park, and more. Find the perfect place for your next outdoor adventure today!"
 header:
   image: "https://live.staticflickr.com/65535/51699602895_9f512e632d_o.png"
   teaser: "https://live.staticflickr.com/65535/52010068120_8e3bbfcefd_o.png"
@@ -73,7 +73,10 @@ The following three videos cover some trails of the Anthills. checkout my other 
 <br/>
 
 
+### Huntsville State Park
+It is a state park and almost an hour and half driving distance away from houst
+
 I will keep adding other parks after exploring and having some nice shots. Have a good day, cheers!!!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mzc2MjM2NjhdfQ==
+eyJoaXN0b3J5IjpbLTExNDQ3ODgyMl19
 -->
