@@ -1,6 +1,9 @@
 ---
 layout: single
-title: How to install Open Stack cloud in Cent OS or Red Hat Linux
+title: "How to install Open Stack cloud in Cent OS or Red Hat Linux"
+excerpt:  Your  blog  post  excerpt  
+seo_title:  Your  meta  title  
+seo_description:  Your  meta  description
 header: 
   image: "https://farm5.staticflickr.com/4714/39193500724_2d5c375b4c_b.jpg"
   teaser: "https://farm5.staticflickr.com/4714/39193500724_2d5c375b4c_b.jpg"
@@ -174,3 +177,6 @@ Find the credentials under the home directory in `keystonerc_admin` file.
 
 As you are using a `Self-Signed Certificate` issued by an **untrusted Certificate Authority**, your browser will show an error.
 Accepting the error, login to the dashboard with the default user admin and the password set on `CONFIG_KEYSTONE_ADMIN_PW` parameter which was set while editing the packstack answer file.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTc1ODQzNTk2NV19
+-->
