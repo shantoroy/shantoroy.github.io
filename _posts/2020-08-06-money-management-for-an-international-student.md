@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Money Management for an International Student in USA"
+excerpt:  "Managing finances can be challenging for anyone, but as an international student studying in the USA, it can be particularly daunting. In this blog post, I'll cover some essential tips and tricks for managing your finances while studying abroad, including budgeting, saving money, and handling expenses. I'll also provide resources and tools to help you track your spending and manage your money effectively." 
+seo_title:  Your  meta  title  
+seo_description:  Your  meta  description
 header:
   image: "https://live.staticflickr.com/65535/52009558630_53c0e20fd0_o.png"
   teaser: "https://live.staticflickr.com/65535/52009558630_53c0e20fd0_o.png"
@@ -73,5 +76,6 @@ As you can see, I am a content creator and run this blog. I also have started a 
 7. Buy Amazon products for free (e.g., [Rebatest](https://www.rebatest.com/Product?Uid=406934886&Rid=55679435), [Cashbackbase](https://www.cashbackbase.com/i/mps607blz6), [ShopRebates](https://www.shoprebates.deals/#/?cId=49295)
 8. Get deals (e.g., [Rakuten](https://www.rakuten.com/r/STONEH425?eeid=28187), [SlickDeals](https://slickdeals.net/))
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNjQwMDU1OSwtODM4NjU1MDEwXX0=
+eyJoaXN0b3J5IjpbLTE0MTk3MzIzMzMsMTYyNjQwMDU1OSwtOD
+M4NjU1MDEwXX0=
 -->
