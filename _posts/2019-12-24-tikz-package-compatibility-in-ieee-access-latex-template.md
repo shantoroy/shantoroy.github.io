@@ -2,8 +2,8 @@
 layout: single
 title: "[solved] `tikz` package causing error in IEEE Access template"
 excerpt:  "If you are working on a LaTeX document using the IEEE Access template and have run into an error caused by the `tikz` package, you are not alone. In this blog post, we will discuss the reason behind this error and provide a simple solution to fix it. I'll also provide some background information on the IEEE Access template and how to use it. So, let's get started!"
-seo_title:  Your  meta  title  
-seo_description:  Your  meta  description
+seo_title:  "[Solved] Tikz Package Causing Error in IEEE Access Template"  
+seo_description:  "Are you facing an error while using the `tikz` package in your LaTeX document using the IEEE Access template? Don't worry, we have got you covered. Read this blog post to learn the reason behind the error and how to fix it. Also, get some useful insights on the IEEE Access template and its usage."
 header:
   image: "https://live.staticflickr.com/65535/49273391188_54c1ce853b_h.jpg"
   teaser: "https://live.staticflickr.com/65535/49273391188_54c1ce853b_h.jpg"
@@ -42,8 +42,25 @@ The solutions available in the net have several issues and I had a tough time fi
 Now, you are all set. Once again, you can access and download the modified files from the modified [Overleaf IEEE Access Template](https://www.overleaf.com/read/gkvjydqjnjdn).
 
 ## Reference
-[# tikz package causing error in IEEE access template](https://tex.stackexchange.com/questions/440422/tikz-package-causing-error-in-ieee-access-template)
+* [tikz package causing error in IEEE access template](https://tex.stackexchange.com/questions/440422/tikz-package-causing-error-in-ieee-access-template)
+
+
+## Related Posts on Latex
+* [Add Copyright Notice and Conference Name in IEEE Conference Template](https://shantoroy.com/latex/add-copyright-conference-name/)
+* [Preparing Tables for Publication and Documentation in Latex](https://shantoroy.com/latex/how-to-create-tables-in-latex/)
+* [Creating Bar Charts using Latex PGFPlots](https://shantoroy.com/latex/bar-plots-in-latex-pgfplot/)
+* [How to write an algorithm in Latex](https://shantoroy.com/latex/how-to-write-algorithm-in-latex/)
+* [How to add subfigure in Latex](https://shantoroy.com/latex/how-to-add-subfig-in-latex/)
+* [How to Write Matrix with Row/Column Labels in Latex](https://shantoroy.com/latex/matrix-labeling-in-latex/)
+* [How to Collaboratively Write a Paper using Overleaf Latex Platform](https://shantoroy.com/latex/how-to-collaborately-write-a-paper-using-latex-overleaf/)
+* [Itemize, Enumerate, and To-do-list in Latex](https://shantoroy.com/latex/playing-with-latex-itemize-enumerate-fontawesome/)
+* [Latex Table for Survey in IEEE two-column format](https://shantoroy.com/latex/latex-table-for-survey-ieee-template/)
+* [Line Plotting using Latex PGFPlots](https://shantoroy.com/latex/how-to-draw-line-graph-using-pgfplots-latex/)
+* [How to add Codes in Latex:  `listings`  package for code documentation](https://shantoroy.com/latex/how-to-add-codes-in-latex-listing-package/)
+* [Bibliography management with Bibtex in Latex](https://shantoroy.com/latex/bibliography-management-with-bibtex/)
+* [Creating Multiple Line plots from CSV file using Latex Tikz and PGFPlot](https://shantoroy.com/latex/multiple-line-plots-using-tikz-pgfplot/)
+* [How to Draw a Literature Survey Taxonomy Tree in Latex](https://shantoroy.com/latex/Draw-literature-survey-tree-in-latex/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNjU2ODAxMiw3MDU5NDczLDIxMzk0Mj
+eyJoaXN0b3J5IjpbMTIyMjAxMDc2MCw3MDU5NDczLDIxMzk0Mj
 I4MjMsMjA1NDkwOTgzMSwtMTI4MzYyNjUyNl19
 -->
