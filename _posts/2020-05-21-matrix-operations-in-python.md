@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Matrix Operations in Python Numpy"
+excerpt:  "Learn how to perform matrix operations like addition, subtraction, multiplication, inverse, transpose, and more using Python's NumPy library. This tutorial will cover the basics of NumPy arrays and how to use them for matrix manipulation."
+seo_title:  "Matrix Operations in Python Numpy - A Beginner's Guide"
+seo_description:  "Want to perform matrix operations in Python? Learn how to do it using NumPy - the most popular numerical computing library in Python. This tutorial covers the basics of NumPy arrays and how to use them for matrix manipulation, including addition, subtraction, multiplication, inverse, transpose, and more."
 header:
   image: "https://live.staticflickr.com/65535/51665439656_9c1e063572_b.jpg"
   teaser: "https://live.staticflickr.com/65535/51665439656_9c1e063572_b.jpg"
@@ -213,6 +216,6 @@ print(T)
 1. [Python Matrices and NumPy Arrays](https://www.programiz.com/python-programming/matrix)
 2. [Matrix manipulation in Python](https://www.geeksforgeeks.org/matrix-manipulation-python/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk3NjQxODM2LDE2NDM3NzgzMTIsMTYxNz
-c0MjkxXX0=
+eyJoaXN0b3J5IjpbNDc5NzEwNzAzLDY5NzY0MTgzNiwxNjQzNz
+c4MzEyLDE2MTc3NDI5MV19
 -->
