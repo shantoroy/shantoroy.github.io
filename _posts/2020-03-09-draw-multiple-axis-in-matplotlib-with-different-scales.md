@@ -2,7 +2,7 @@
 layout: single
 title: "How to Draw Multiple Axis in Matplotlib with different Scales (Value Range)"
 header:
-  overlay_image: "https://live.staticflickr.com/65535/51699602895_9f512e632d_o.png"
+  image: "https://live.staticflickr.com/65535/51699602895_9f512e632d_o.png"
   teaser: "https://live.staticflickr.com/65535/52094166609_1f861b6c70_o.png"
 categories:
   - Python
@@ -161,5 +161,5 @@ plt.savefig("pyplot_multiple_y-axis.png", dpi=300)
 
 That's all for today. Cheers!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMjYyOTg1OV19
+eyJoaXN0b3J5IjpbLTcxNzM1NTk1MCwxNzMyNjI5ODU5XX0=
 -->
