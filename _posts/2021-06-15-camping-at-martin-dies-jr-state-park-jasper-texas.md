@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Camping and Biking at Martin Dies, Jr. State Park, Jasper, TX"
+excerpt:  "Discover the beauty of Martin Dies, Jr. State Park located in Jasper, TX, where camping and biking enthusiasts can experience the great outdoors. With its huge forests, sparkling waters, and diverse wildlife, this state park offers a scenic getaway from the mundane city life. Whether you're looking for a weekend adventure or a week-long escape, Martin Dies, Jr. State Park has everything you need for a memorable camping and biking experience."
+seo_title:  Your  meta  title  
+seo_description:  Your  meta  description
 header:
   image: "https://live.staticflickr.com/65535/51253165860_fb875f1bc0_b.jpg"
   teaser: "https://live.staticflickr.com/65535/51253165860_fb875f1bc0_b.jpg"
@@ -38,6 +41,6 @@ If you want to check my camping item checklist, please feel free to check my oth
 
 Thanks! Cheers!!!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE4NjA3MzY2LC0yMDExNzI3OTk0LC0yMT
-A1OTI1MjM1XX0=
+eyJoaXN0b3J5IjpbLTIxMDg1OTkxNjIsOTE4NjA3MzY2LC0yMD
+ExNzI3OTk0LC0yMTA1OTI1MjM1XX0=
 -->
