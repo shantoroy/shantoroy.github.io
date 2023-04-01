@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Things to do after installing Ubuntu for a Computer Science Students"
+excerpt:  "Are you a computer science student who just installed Ubuntu on your machine? Here are some essential things you should do to set up your development environment, customize your system, and get the most out of your Ubuntu experience."
+seo_title:  "Essential Things to Do After Installing Ubuntu for Computer Science Students"
+seo_description:  Your  meta  description
 header:
   image: "https://live.staticflickr.com/65535/49211373302_5b79643345_h.jpg"
   teaser: "https://live.staticflickr.com/65535/49211373302_5b79643345_h.jpg"
@@ -261,22 +264,13 @@ For other needs, it is wise to use online tools. Most of the tools are available
 [# Best Cloud-based Tools for Authors/ Scientific Content Writers](http://shantoroy.com/article/best-tools-for-authors/)
 
 
-## References
-* [Top 10 Things to do after Installing Ubuntu-18.04](https://www.linuxtechi.com/top10-things-after-installing-ubuntu-18-04/)
-* [Things to do after Installing Ubuntu 18.04](https://itsfoss.com/things-to-do-after-installing-ubuntu-18-04/)
-* [Install PyCharm in Ubuntu](https://www.rosehosting.com/blog/how-to-install-pycharm-on-ubuntu-16-04/)
-* [Install Systemback in Ubuntu](https://www.linuxbabe.com/ubuntu/install-systemback-ubuntu-18-04-bionic-18-10)
-* [bat- a cat clone with syntax highlighting](https://www.tecmint.com/bat-a-cat-clone-with-syntax-highlighting/)
-* [Install Docker - Official Documentation](https://docs.docker.com/install/linux/docker-ce/ubuntu/#uninstall-old-versions)
-* [Install Git on Ubuntu](https://linuxize.com/post/how-to-install-git-on-ubuntu-18-04/)
-* [Install VSCode on Ubuntu 18.04](https://linuxize.com/post/how-to-install-visual-studio-code-on-ubuntu-18-04/)
-* [Install Virtualbox on Ubuntu 18.04](https://linuxize.com/post/how-to-install-virtualbox-on-ubuntu-18-04/)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNjY0MjAwMiwxNzYyMTcwMTQ0LC01MD
-c1NjA2NTQsMTE1MDQ2ODg4OSwtMzc3ODI1MTc0LC03NTEzNTUx
-NDcsLTE4ODUwMDA2MzYsMTc4ODkzMDI4OCwyOTE5ODc2NTIsMT
-IxNTMzNTU0MywxMzg0Nzc4MTQ1LC0yNzEyNDYzMzYsLTE0MjUw
-NjkzMDksNTU5NDk3MjAwLDEyMDczMzc3NDgsMTc5MzE3OTk2My
-wxMDU5MzI1NDY0LDE2MTA0MDc2MjMsLTYzMTk0MTE2MCw4MzA4
-NTYzMDNdfQ==
+eyJoaXN0b3J5IjpbLTE0MTM1MTAwNDMsMTEyNjY0MjAwMiwxNz
+YyMTcwMTQ0LC01MDc1NjA2NTQsMTE1MDQ2ODg4OSwtMzc3ODI1
+MTc0LC03NTEzNTUxNDcsLTE4ODUwMDA2MzYsMTc4ODkzMDI4OC
+wyOTE5ODc2NTIsMTIxNTMzNTU0MywxMzg0Nzc4MTQ1LC0yNzEy
+NDYzMzYsLTE0MjUwNjkzMDksNTU5NDk3MjAwLDEyMDczMzc3ND
+gsMTc5MzE3OTk2MywxMDU5MzI1NDY0LDE2MTA0MDc2MjMsLTYz
+MTk0MTE2MF19
 -->
