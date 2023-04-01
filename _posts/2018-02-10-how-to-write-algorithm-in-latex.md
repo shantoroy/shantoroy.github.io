@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "How to write algorithm in Latex"
+excerpt:  "Learn how to write algorithms in Latex using the algorithmicx package. This package provides an easy-to-use and flexible environment for writing algorithms with customizable formatting options. With Latex, you can create professional-looking algorithms for your research papers, theses, or technical reports." 
+seo_title:  "How to Write Algorithm in Latex: A Comprehensive Guide"
+seo_description:  "Want to write algorithms in Latex? Discover the algorithmicx package, a powerful tool for creating professional-looking algorithms for research papers, theses, or technical reports. In this guide, learn how to write algorithms in Latex with customizable formatting options."
 header:
   image: "https://farm5.staticflickr.com/4662/40356609652_d977cf85a9_b.jpg"
   teaser: "https://farm5.staticflickr.com/4662/40356609652_d977cf85a9_b.jpg"
@@ -220,6 +223,6 @@ Some of those are included here.
 * [How to Collaboratively Write a Paper using Overleaf Latex Platform](https://shantoroy.com/latex/how-to-collaborately-write-a-paper-using-latex-overleaf/)
 * [Itemize, Enumerate, and To-do-list in Latex](https://shantoroy.com/latex/playing-with-latex-itemize-enumerate-fontawesome/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjI4MzkwODEsMTM0MDU2OTgwNSwxNj
-UyODUzMzU0XX0=
+eyJoaXN0b3J5IjpbNjQ1OTc4MTMxLC0xOTIyODM5MDgxLDEzND
+A1Njk4MDUsMTY1Mjg1MzM1NF19
 -->
