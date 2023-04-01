@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Bibliography management with Bibtex in Latex"
+excerpt:  Your  blog  post  excerpt  
+seo_title:  Your  meta  title  
+seo_description:  Your  meta  description
 header:
   image: "https://live.staticflickr.com/65535/49353529713_7567417ff3_b.jpg"
   teaser: "https://live.staticflickr.com/65535/49353529713_7567417ff3_b.jpg"
@@ -89,10 +92,12 @@ In this post, we will learn how to manage bibliography using BibTex in Latex. Th
 * [Latex Table for Survey in IEEE two-column format](https://shantoroy.com/latex/latex-table-for-survey-ieee-template/)
 * [Line Plotting using Latex PGFPlots](https://shantoroy.com/latex/how-to-draw-line-graph-using-pgfplots-latex/)
 * [How to add Codes in Latex:  `listings`  package for code documentation](https://shantoroy.com/latex/how-to-add-codes-in-latex-listing-package/)
+* [Creating Multiple Line plots from CSV file using Latex Tikz and PGFPlot](https://shantoroy.com/latex/multiple-line-plots-using-tikz-pgfplot/)
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MDk0MzExLC0xMjExMTQ4NDg2LC0xOT
-Q5NDEzOTU0LC0xNTg1OTMzMzk5LDEzOTIzNTMwNzEsNTA3MDY3
-OTAwXX0=
+eyJoaXN0b3J5IjpbLTczNjczOTQzNCwtMTIxMTE0ODQ4NiwtMT
+k0OTQxMzk1NCwtMTU4NTkzMzM5OSwxMzkyMzUzMDcxLDUwNzA2
+NzkwMF19
 -->
