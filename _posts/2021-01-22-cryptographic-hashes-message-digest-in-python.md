@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Cryptographic Hashes and Message Digest in Python"
+excerpt:  "Learn about cryptographic hashes and message digests in Python, and how they are used to ensure the integrity of data. This blog post will cover the basics of hash functions, how to implement them in Python, and how to use them to verify data integrity."
+seo_title:  "Cryptographic Hashes and Message Digest in Python"
+seo_description:  "Learn about cryptographic hashes and message digests in Python, and how they are used to ensure the integrity of data. This blog post will cover the basics of hash functions, how to implement them in Python, and how to use them to verify data integrity."
 header:
   image: "https://live.staticflickr.com/65535/51697235355_8a0b24e338_o.png"
   teaser: "https://live.staticflickr.com/65535/51697235355_8a0b24e338_o.png"
@@ -182,5 +185,6 @@ Until another post, cheers!!! :sunglasses:
 1. [hashlib - Secure hashes and message digests](https://docs.python.org/3/library/hashlib.html)
 2. [`Crypto.Hash` package](https://pycryptodome.readthedocs.io/en/latest/src/hash/hash.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNzY0MTA0LC05OTA3MTg3MF19
+eyJoaXN0b3J5IjpbMTY2MzgzMjcxLDIxMzc2NDEwNCwtOTkwNz
+E4NzBdfQ==
 -->
