@@ -4,6 +4,9 @@ title: "Line Plotting using Latex PGFPlots"
 redirect_from:
   - /latex/line-graph-pgfplots/
   - /latex/how-to-draw-line-graph-using-pgfplots-latex/
+excerpt:  "If you are a researcher or a student looking for a way to create high-quality line plots for your scientific documents, then you might want to consider using LaTeX with PGFPlots. In this blog post, I will cover the basics of line plotting using PGFPlots, including how to create simple line plots, add labels, change the axis scale, and customize the style of your plots. This post will also show you how to create more complex plots like multiple lines, error bars, and shaded regions. With the help of this guide, you will be able to create professional-looking line plots that will impress your readers."
+seo_title:  "A Beginner's Guide to Line Plotting using LaTeX PGFPlots" 
+seo_description:  Your  meta  description
 header:
   image: "https://live.staticflickr.com/65535/49274059347_9de083b1a5_h.jpg"
   teaser: "https://live.staticflickr.com/65535/49274059347_9de083b1a5_h.jpg"
@@ -209,12 +212,11 @@ The following example has two subplots-
 * [How to Collaboratively Write a Paper using Overleaf Latex Platform](https://shantoroy.com/latex/how-to-collaborately-write-a-paper-using-latex-overleaf/)
 * [Itemize, Enumerate, and To-do-list in Latex](https://shantoroy.com/latex/playing-with-latex-itemize-enumerate-fontawesome/)
 * [Latex Table for Survey in IEEE two-column format](https://shantoroy.com/latex/latex-table-for-survey-ieee-template/)
-* [Line Plotting using Latex PGFPlots](https://shantoroy.com/latex/how-to-draw-line-graph-using-pgfplots-latex/)
 * [How to add Codes in Latex:  `listings`  package for code documentation](https://shantoroy.com/latex/how-to-add-codes-in-latex-listing-package/)
 * [Bibliography management with Bibtex in Latex](https://shantoroy.com/latex/bibliography-management-with-bibtex/)
 * [Creating Multiple Line plots from CSV file using Latex Tikz and PGFPlot](https://shantoroy.com/latex/multiple-line-plots-using-tikz-pgfplot/)
 * [How to Draw a Literature Survey Taxonomy Tree in Latex](https://shantoroy.com/latex/Draw-literature-survey-tree-in-latex/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIzNTI1MjM2LC05NzUyNTU3NjEsLTk3OT
-EyOTE2Ml19
+eyJoaXN0b3J5IjpbLTY4NDQ1ODA1MSwtOTc1MjU1NzYxLC05Nz
+kxMjkxNjJdfQ==
 -->
