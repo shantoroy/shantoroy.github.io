@@ -1,6 +1,9 @@
 ---
 layout: single
-title: "Creating Bar Charts using Latex PGFPlots"
+title: "How to Create Bar Charts using Latex PGFPlots"
+excerpt:  "In this tutorial, we'll learn how to create beautiful bar charts using the PGFPlots package in Latex. Bar charts are useful for representing discrete data with rectangular bars of various heights, with each bar representing a category or group. We'll start with a basic example and then gradually add customization options such as colors, legends, axis labels, and more."
+seo_title:  "How to Create Bar Charts using Latex PGFPlots"
+seo_description:  "Learn how to create stunning bar charts in Latex using the PGFPlots package. This tutorial covers the basics of bar chart creation, along with customization options such as colors, legends, axis labels, and more."
 header:
   image: "https://live.staticflickr.com/65535/49149608331_427d999f03_h.jpg"
   teaser: "https://live.staticflickr.com/65535/49149608331_427d999f03_h.jpg"
@@ -184,5 +187,5 @@ Happy Documentation and writing papers.
 * [PgfPlots creating bar chart from csv](https://tex.stackexchange.com/questions/364076/pgfplots-creating-bar-chart-from-csv)
 * [How to plot the first n rows of a table using pgfplots?](https://tex.stackexchange.com/questions/199376/how-to-plot-the-first-n-rows-of-a-table-using-pgfplots)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NzYyODc2OV19
+eyJoaXN0b3J5IjpbNzg1OTA4ODhdfQ==
 -->
