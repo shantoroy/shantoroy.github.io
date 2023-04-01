@@ -1,9 +1,9 @@
 ---
 layout: single
 title: "How to install Open Stack cloud in Cent OS or Red Hat Linux"
-excerpt:  Your  blog  post  excerpt  
-seo_title:  Your  meta  title  
-seo_description:  Your  meta  description
+excerpt:  "OpenStack is a popular cloud computing platform that allows users to manage large pools of storage, compute, and networking resources. If you're looking to install OpenStack on your CentOS or Red Hat Linux system, this guide will walk you through the process step-by-step. From preparing your system and configuring network settings to installing OpenStack packages and launching instances, you'll learn everything you need to get started with this powerful cloud computing platform."
+seo_title:  How to Install OpenStack Cloud on CentOS or Red Hat Linux
+seo_description:  Learn how to install and configure OpenStack on your CentOS or Red Hat Linux system in this comprehensive guide. From preparing your system to launching instances, I'll walk you through every step of the process.
 header: 
   image: "https://farm5.staticflickr.com/4714/39193500724_2d5c375b4c_b.jpg"
   teaser: "https://farm5.staticflickr.com/4714/39193500724_2d5c375b4c_b.jpg"
@@ -19,6 +19,12 @@ toc: true
 toc_label: "Table of Contents"
 toc_icon: "heart" 
 ---
+
+OpenStack is a widely used open-source cloud computing platform that allows users to manage large pools of computing, storage, and networking resources throughout a datacenter. 
+
+Installing OpenStack on a Linux-based operating system like CentOS or Red Hat Enterprise Linux can be a complex task for users who are new to the platform. 
+
+In this blog post, I will guide you through the installation process of OpenStack on CentOS or Red Hat Linux step by step.
 
 ## Pre-Requisite 
 To check out how to install CentOS/Red Hat in your PC you can visit following tutorials created by [Tecmint][tec] -
@@ -178,5 +184,5 @@ Find the credentials under the home directory in `keystonerc_admin` file.
 As you are using a `Self-Signed Certificate` issued by an **untrusted Certificate Authority**, your browser will show an error.
 Accepting the error, login to the dashboard with the default user admin and the password set on `CONFIG_KEYSTONE_ADMIN_PW` parameter which was set while editing the packstack answer file.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1ODQzNTk2NV19
+eyJoaXN0b3J5IjpbMTY1NzgxOTEyNV19
 -->
