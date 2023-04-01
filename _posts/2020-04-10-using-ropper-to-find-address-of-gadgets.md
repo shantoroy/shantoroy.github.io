@@ -1,6 +1,9 @@
 ---
 layout: single
-title: "Using Ropper to find ROP Gadgets"
+title: "Using Ropper to find ROP Gadgets: A Beginner's Guide"
+excerpt:  "If you're into exploit development, you've probably heard of Return Oriented Programming (ROP). ROP gadgets are small code snippets that can be chained together to build an exploit payload. Finding these gadgets manually can be a tedious and error-prone process. In this tutorial, we'll show you how to use Ropper, a Python-based tool, to quickly and automatically search for ROP gadgets in a binary file."
+seo_title:  "Using Ropper to Find ROP Gadgets: A Beginner's Guide"
+seo_description:  "Discover how to simplify your ROP gadget hunting with Ropper, a powerful tool that automates the process of finding gadgets in binary files. This tutorial provides step-by-step instructions for using Ropper to search for ROP gadgets, helping you streamline your exploit development workflow and create more effective payloads. Whether you're a seasoned hacker or just getting started with ROP, this guide will help you get the most out of this essential tool."
 header:
   image: "https://live.staticflickr.com/65535/49852909896_7baa2438ae_z.jpg"
   teaser: "https://live.staticflickr.com/65535/49852909896_7baa2438ae_z.jpg"
@@ -172,6 +175,6 @@ pi@raspberrypi:~/exploitation/mprotect $ ropper --file /bin/ls --search "pop"
 * * [ARM Exploitation with Raspberry Pi: Return Back to Program without Crashing](https://shantoroy.com/security/avoid-segmentation-fault-return-from-shellcode/)
 * [ARM Exploitation with Raspberry Pi: Introduction to Return Oriented Programming (ROP)](https://shantoroy.com/security/simple-rop-arm-exploitation-return-oriented-programming/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTk5Nzg0NzUsLTI5NDM4MzAsMjU4Mj
-M0MzgxXX0=
+eyJoaXN0b3J5IjpbMjA2NTE0ODcwNiwtMjk0MzgzMCwyNTgyMz
+QzODFdfQ==
 -->
