@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "How to Set Git Repository-specific User Credential Configuration"
+excerpt:  "Setting up Git credentials is an essential step in securing your Git repository. However, you may encounter situations where you need to use different user credentials for different Git repositories. This blog post will guide you through the process of setting up user credentials configuration for specific Git repositories using Git command line and Git config file. Whether you are working with multiple Git repositories or sharing your computer with other users, this tutorial will help you manage your Git credentials effectively."
+seo_title:  "How to Set Git Repository-specific User Credential Configuration | Git Tips"
+seo_description:  "Learn how to set up user credentials configuration for specific Git repositories using Git command line and Git config file."
 header:
   image: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
   teaser: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
@@ -46,5 +49,6 @@ git config credential.helper store
 1. [Configure your DVCS username for commits](https://support.atlassian.com/bitbucket-cloud/docs/configure-your-dvcs-username-for-commits/)
 2. [How to set up username and passwords for different git repos?](https://unix.stackexchange.com/questions/335704/how-to-set-up-username-and-passwords-for-different-git-repos)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTE1NTQ2NTIsLTU2NjEzNDczMF19
+eyJoaXN0b3J5IjpbLTE0ODA3ODIyMDEsLTIwOTE1NTQ2NTIsLT
+U2NjEzNDczMF19
 -->
