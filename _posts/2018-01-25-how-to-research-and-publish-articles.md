@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "How to research on a field and publish an article"
+excerpt:  "Researching and publishing an article in a particular field requires a certain set of skills and knowledge. This blog post provides a step-by-step guide on how to conduct research in a field, identify suitable journals or conferences, and prepare an article for submission. Additionally, it offers helpful tips on how to optimize your article for publication and increase your chances of acceptance." 
+seo_title:  "How to Research on a Field and Publish an Article: A Step-by-Step Guide"
+seo_description:  "Learn how to conduct research in a field, identify suitable journals or conferences, and prepare an article for submission. Get helpful tips on optimizing your article for publication and increasing your chances of acceptance. Read this step-by-step guide to master the art of research and publishing."
 header: 
   image: "https://farm5.staticflickr.com/4760/26054298618_d203a1dfc2_b.jpg"
   teaser: "https://farm5.staticflickr.com/4760/26054298618_d203a1dfc2_b.jpg"
@@ -112,5 +115,5 @@ Complete the registration process and wait. In case of conference papers, you wi
 
 Good luck!!! :)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzAzNDcyMDBdfQ==
+eyJoaXN0b3J5IjpbLTY4NzkyODAsLTE5MzAzNDcyMDBdfQ==
 -->
