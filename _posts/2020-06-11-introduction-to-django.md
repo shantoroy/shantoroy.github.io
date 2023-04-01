@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Introduction to django with Creating a Simple `helloworld` App"
+excerpt:  "If you are new to web development, Django can be a great starting point for building robust web applications. In this tutorial, you will learn the basics of Django by creating a simple 'helloworld' app. We will cover topics such as creating a project, setting up a virtual environment, and creating views and URLs. By the end of this tutorial, you will have a working Django app that can be expanded upon to build more complex web applications." 
+seo_title:  "Introduction to Django with Creating a Simple 'helloworld' App"
+seo_description:  "Get started with web development using Django by following this step-by-step tutorial to create a simple 'helloworld' app. Learn about creating projects, virtual environments, views, and URLs with Python's popular web framework, Django. By the end of this tutorial, you'll have a solid foundation to build more advanced web applications with Django."
 header:
   image: "https://live.staticflickr.com/65535/49993827911_e3d3c300d6_c.jpg"
   teaser: "https://live.staticflickr.com/65535/49993827911_e3d3c300d6_c.jpg"
@@ -161,5 +164,6 @@ Now, reload the browser page and it will work just fine.
 1. [Watch me build a real startup with Python and JavaScript | Web Development | Build A Startup #1](https://www.youtube.com/watch?v=UyQn0BhVqNU)
 2. [Making a Hello World App with Django | Web Development | Build a Startup #2](https://www.youtube.com/watch?v=h7rvyDK70FA)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc2NzkxNjE1LC01NjkzNjE5NDldfQ==
+eyJoaXN0b3J5IjpbLTE0NjUzMzQ0NTEsNDc2NzkxNjE1LC01Nj
+kzNjE5NDldfQ==
 -->
