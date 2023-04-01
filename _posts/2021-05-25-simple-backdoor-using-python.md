@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Write a Simple Backdoor in Python"
+excerpt:  "Backdoors are one of the most common types of malware used by hackers to gain access to a target system. In this tutorial, I will teach you how to write a simple backdoor in Python for educational purposes. Backdoors are typically designed to bypass security measures and provide a means for unauthorized access to a system. By following the steps in this tutorial, you will learn how backdoors work and the techniques used to create them. We will start by establishing a connection, creating a shell, and running remote commands on the target machine."
+seo_title:  "Learn How Backdoor Works Through Writing a Simple Backdoor in Python"
+seo_description:  "In this tutorial, you will learn the basics of backdoors and how they work by writing a simple backdoor in Python. I will cover topics such as establishing a connection, creating a shell, and running remote commands on the target machine. By the end of this tutorial, you will have a better understanding of how backdoors work and the techniques used to create them."
 header:
   image: "https://live.staticflickr.com/65535/51222794626_b02e736eb2_z.jpg"
   teaser: "https://live.staticflickr.com/65535/51222794626_b02e736eb2_z.jpg"
@@ -276,7 +279,7 @@ Have a good day! Cheers!!!
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NzU0NDM3NiwtMTU5NjE2MjQ0OCwyMD
-M5OTI4NzMxLC0xODgwMzU3NDI1LDc5NDUzNzQ1MCwxOTY0NTkw
-ODIwXX0=
+eyJoaXN0b3J5IjpbLTE0NzE3MDIzODUsLTE1OTYxNjI0NDgsMj
+AzOTkyODczMSwtMTg4MDM1NzQyNSw3OTQ1Mzc0NTAsMTk2NDU5
+MDgyMF19
 -->
