@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Movies Related to the Life of Earlier Scientists or Mathematicians"
+excerpt:  "The life stories of scientists and mathematicians have always fascinated people, and Hollywood has taken notice. Many movies have been made based on the lives of famous scientists and mathematicians, depicting their struggles, triumphs, and contributions to society. This post provides a list of movies related to the life of earlier scientists or mathematicians that are worth watching. Whether you're a student or a seasoned professional, these movies are a great way to learn more about the lives of these remarkable individuals."
+seo_title:  "8 Inspiring Movies about the Lives of Famous Scientists and Mathematicians"
+seo_description:  "Looking for some inspiring movies to watch? Check out our list of 8 movies about the lives of famous scientists and mathematicians. Learn about their struggles, triumphs, and contributions to science and mathematics. Whether you're a science buff or just looking for an interesting movie to watch, you won't be disappointed with our recommendations."
 header:
   image: "https://live.staticflickr.com/65535/51648664816_15e0502967_b.jpg"
   teaser: "https://live.staticflickr.com/65535/51648664816_15e0502967_b.jpg"
@@ -57,5 +60,5 @@ IMDB Rating: 6.7/10
 
 Please let me know if I have missed any..!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3Mzk4NTM5MF19
+eyJoaXN0b3J5IjpbLTY3NTI0MTc1MywyMDczOTg1MzkwXX0=
 -->
