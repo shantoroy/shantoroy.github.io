@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Data Science Work Environment setup on Linux/Mac"
+excerpt:  "If you’re new to Data Science or just looking for a better setup for your work environment, then this post is for you. In this tutorial, I will guide you on how to set up your Data Science work environment on Linux or Mac."
+seo_title:  "Data Science Work Environment setup on Linux/Mac: A Complete Guide"
+seo_description:  "Looking for a better setup for your Data Science work environment? In this tutorial, I will guide you on how to set up your Data Science work environment on Linux or Mac, step by step. Get started now!"
 header:
   image: "https://live.staticflickr.com/65535/49155021077_42b4a1bc81_h.jpg"
   teaser: "https://live.staticflickr.com/65535/49155021077_42b4a1bc81_h.jpg"
@@ -138,3 +141,6 @@ R> IRkernel::installspec(name = 'ir33', displayname = 'R 3.3')
 * [Install JupyterLab](https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html)
 * [How to Add Julia to Jupyter Notebook](https://datatofish.com/add-julia-to-jupyter/)
 * [Native R kernel for Jupyter](https://github.com/IRkernel/IRkernel)
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE1MjEwNTIxNzVdfQ==
+-->
