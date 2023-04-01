@@ -6,7 +6,7 @@ redirect_from:
   - /latex/how-to-draw-line-graph-using-pgfplots-latex/
 excerpt:  "If you are a researcher or a student looking for a way to create high-quality line plots for your scientific documents, then you might want to consider using LaTeX with PGFPlots. In this blog post, I will cover the basics of line plotting using PGFPlots, including how to create simple line plots, add labels, change the axis scale, and customize the style of your plots. This post will also show you how to create more complex plots like multiple lines, error bars, and shaded regions. With the help of this guide, you will be able to create professional-looking line plots that will impress your readers."
 seo_title:  "A Beginner's Guide to Line Plotting using LaTeX PGFPlots" 
-seo_description:  Your  meta  description
+seo_description:  "Learn how to create high-quality line plots using LaTeX with PGFPlots. This guide covers everything from creating simple line plots to more complex plots with multiple lines, error bars, and shaded regions."
 header:
   image: "https://live.staticflickr.com/65535/49274059347_9de083b1a5_h.jpg"
   teaser: "https://live.staticflickr.com/65535/49274059347_9de083b1a5_h.jpg"
@@ -217,6 +217,6 @@ The following example has two subplots-
 * [Creating Multiple Line plots from CSV file using Latex Tikz and PGFPlot](https://shantoroy.com/latex/multiple-line-plots-using-tikz-pgfplot/)
 * [How to Draw a Literature Survey Taxonomy Tree in Latex](https://shantoroy.com/latex/Draw-literature-survey-tree-in-latex/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NDQ1ODA1MSwtOTc1MjU1NzYxLC05Nz
-kxMjkxNjJdfQ==
+eyJoaXN0b3J5IjpbLTIwMTM0MDcwNTUsLTk3NTI1NTc2MSwtOT
+c5MTI5MTYyXX0=
 -->
