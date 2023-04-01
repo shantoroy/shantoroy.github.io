@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Short Introduction to Git Commands and Github for Beginners"
+excerpt:  Your  blog  post  excerpt  
+seo_title:  Your  meta  title  
+seo_description:  Your  meta  description
 header:
   image: "https://live.staticflickr.com/65535/51233648279_e97dd9a2b8_w.jpg"
   teaser: "https://live.staticflickr.com/65535/51233648279_e97dd9a2b8_w.jpg"
@@ -195,6 +198,7 @@ Now, let's create a repository in Github, create a local directory where we will
 
 That's it for today. You should be able to use Git commands and Github based on today's short directions. I will add some other deatils in a separate post. Stay tuned!!!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MTk5NTQyOCwtMTY3MDU1MzIyOCwtMT
-c1NDcxOTU3NSwxNzE5Njk2MDM0LDM3MjEzNDgxM119
+eyJoaXN0b3J5IjpbMTg5NTc3MzgzOSwxNzcxOTk1NDI4LC0xNj
+cwNTUzMjI4LC0xNzU0NzE5NTc1LDE3MTk2OTYwMzQsMzcyMTM0
+ODEzXX0=
 -->
