@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Email Template: Writing Emails to Professors (Higher Study Abroad)"
+excerpt:  "Writing emails to professors can be a daunting task, especially when it comes to asking for a recommendation letter, inquiring about research opportunities, or expressing interest in a graduate program. The tone, content, and structure of the email can play a significant role in determining the response from the professor. In this post, I provide a useful email template for writing effective emails to professors for higher study abroad."
+seo_title:  "Email Template: Writing Effective Emails to Professors for Higher Study Abroad"
+seo_description:  "Writing emails to professors can be intimidating, but with the right email template, you can increase your chances of getting a positive response. This post provides a helpful email template for writing effective emails to professors for higher study abroad, including requesting a recommendation letter, inquiring about research opportunities, and expressing interest in a graduate program."
 header:
   image: "https://live.staticflickr.com/65535/51508803747_740242b69a_b.jpg"
   teaser: "https://live.staticflickr.com/65535/51508803747_740242b69a_b.jpg"
@@ -106,8 +109,8 @@ That's it for today. Cheers!
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMjkyOTI3MSwxMjEyMjE5Mjg4LC0xOD
-c3MTM1OTc5LC0xMjMwODMwMTM0LC0xMjk0MDcxNDAzLDg3MTI5
-Nzc5NSwtMTE2NTE1NjU1LDE0OTQwODE3MjEsODU4NTc3NTI3LC
-01Njc0MTA0ODFdfQ==
+eyJoaXN0b3J5IjpbLTE5NDIxNjQ2NDcsMTIxMjIxOTI4OCwtMT
+g3NzEzNTk3OSwtMTIzMDgzMDEzNCwtMTI5NDA3MTQwMyw4NzEy
+OTc3OTUsLTExNjUxNTY1NSwxNDk0MDgxNzIxLDg1ODU3NzUyNy
+wtNTY3NDEwNDgxXX0=
 -->
