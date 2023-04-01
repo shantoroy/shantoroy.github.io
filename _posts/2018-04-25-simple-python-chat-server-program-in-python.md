@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "A simple Half-Duplex Chatting program in Python"
+excerpt:  "Have you ever wanted to create a simple chatting program in Python? Maybe for a small project or to learn about networking and communication protocols. Look no further than this tutorial, where we will walk through the steps to create a half-duplex chatting program using Python's socket module. In this program, two users can chat back and forth, taking turns sending and receiving messages. With just a few lines of code, you'll have a functional chatting program to use and learn from."
+seo_title:  "Learn to Create a Half-Duplex Chatting Program in Python"
+seo_description:  "Want to create a simple chatting program in Python? Follow this tutorial to learn how to make a half-duplex chatting program using Python's socket module. Two users can chat back and forth, taking turns sending and receiving messages. With just a few lines of code, you'll have a functional chatting program to use and learn from."
 header: 
   image: "https://farm1.staticflickr.com/980/41781019432_d3614829b6_b.jpg"
   teaser: "https://farm1.staticflickr.com/980/41781019432_d3614829b6_b.jpg"
@@ -168,5 +171,6 @@ Save the server side code in a file and name it as `server.py` or anything as yo
 [^2]: Network Socket definition - [techtarget](https://whatis.techtarget.com/definition/sockets)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk0MzIzMDQsLTY5OTk3MzQ5N119
+eyJoaXN0b3J5IjpbLTE4MTI5NzkyOTQsMjk0MzIzMDQsLTY5OT
+k3MzQ5N119
 -->
