@@ -1,8 +1,11 @@
 ---
 layout: single
 title: "How to Draw Multiple Axis in Matplotlib with different Scales (Value Range)"
+excerpt:  "Matplotlib is a powerful data visualization library in Python. It allows you to create a wide range of charts and graphs, including multiple axis charts with different value ranges. In this tutorial, I'll walk you through the steps to draw multiple axis charts with different scales using Matplotlib."
+seo_title:  "Drawing Multiple Axis in Matplotlib with Different Scales | Python Data Visualization"
+seo_description:  "Learn how to draw multiple axis charts with different scales using Matplotlib, a powerful data visualization library in Python. Follow my step-by-step tutorial to create impressive visualizations that clearly convey your data."
 header:
-  image: "https://live.staticflickr.com/65535/51699602895_9f512e632d_o.png"
+  image: "https://live.staticflickr.com/65535/52094166609_1f861b6c70_o.png"
   teaser: "https://live.staticflickr.com/65535/52094166609_1f861b6c70_o.png"
 categories:
   - Python
@@ -15,7 +18,6 @@ tags:
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "heart"
-excerpt: "This post includes python code snippets (and fix for the official documentation) for plotting multiple axis in matplotlib with different scales or range"
 ---
 
 
@@ -161,5 +163,5 @@ plt.savefig("pyplot_multiple_y-axis.png", dpi=300)
 
 That's all for today. Cheers!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNzM1NTk1MCwxNzMyNjI5ODU5XX0=
+eyJoaXN0b3J5IjpbLTEwNDgxODk3NDEsMTczMjYyOTg1OV19
 -->
