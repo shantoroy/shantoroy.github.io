@@ -2,8 +2,8 @@
 layout: single
 title: "Creating Bar Charts using Python Matplotlib"
 excerpt:  "Bar charts are one of the most commonly used visualizations in data science. They are great for displaying categorical data and comparing values between different groups. In this tutorial, we will explore how to create bar charts using Python's Matplotlib library. I will cover the basic syntax of creating a simple bar chart, customizing the appearance of the chart, and creating grouped bar charts to compare multiple sets of data. Whether you are a beginner or an experienced data scientist, this tutorial will provide you with the knowledge you need to create effective bar charts in Python."
-seo_title:  Your  meta  title  
-seo_description:  Your  meta  description
+seo_title:  "How to Create Bar Charts using Python Matplotlib: A Step-by-Step Guide"
+seo_description:  "Learn how to create bar charts in Python using Matplotlib. This step-by-step guide will show you how to create bar charts from scratch, customize their appearance, and communicate your data effectively."
 header:
   image: "https://live.staticflickr.com/65535/49138218397_179201690d_h.jpg"
   teaser: "https://live.staticflickr.com/65535/49138218397_179201690d_h.jpg"
@@ -18,6 +18,9 @@ toc: true
 toc_label: "Table of Contents"
 toc_icon: "heart"
 ---
+Bar charts are a popular type of graph used to visualize categorical data. They are simple yet powerful tools for data exploration and communication. 
+
+In this blog post, we will explore how to create bar charts using Python Matplotlib.
 
 ## Python Bar Plots
 `Matplotlib` is the most usual package for creating graphs using python language. Here, in this tutorial we will see a few examples of python bar plots using `matplotlib` package.
@@ -235,5 +238,5 @@ The output should look like following:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NTQ1MTE1MiwtNzQ0MDcwMjZdfQ==
+eyJoaXN0b3J5IjpbMTQyNDc3NjI0NSwtNzQ0MDcwMjZdfQ==
 -->
