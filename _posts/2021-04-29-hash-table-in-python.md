@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Hash Tables Concept and Implementation in Python"
+excerpt:  "Hash tables are one of the most efficient data structures for storing and retrieving data. In this post, I will discuss the concept of hash tables and how they work, along with a Python implementation."
+seo_title:  Your  meta  title  
+seo_description:  Your  meta  description
 header:
   image: "https://live.staticflickr.com/65535/51653692227_af82a634a0_b.jpg"
   teaser: "https://live.staticflickr.com/65535/51653692227_af82a634a0_b.jpg"
@@ -133,5 +136,5 @@ This is all for today. Feel free to let me know if I have missed anything to inc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MDU2OTEwNSwtNDM5NTQyMzQ3XX0=
+eyJoaXN0b3J5IjpbNDYxNDEzNTc1LC00Mzk1NDIzNDddfQ==
 -->
