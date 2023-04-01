@@ -4,6 +4,9 @@ title: "Preparing  Tables  for  Publication  and  Documentation  in  Latex"
 redirect_from:
   - /latex/tables-in-latex/
   - /latex/how-to-create-tables-in-latex/
+excerpt:  "Tables are a vital component of scientific documentation and publishing, and it's essential to create them with precision and care. In this post, we'll explore how to prepare tables for publication and documentation in LaTeX, the document preparation system favored by many scientists and researchers. I'll cover everything from basic table creation to advanced formatting techniques, including merging cells, coloring cells, and aligning table columns. Whether you're writing a research paper, thesis, or technical report, this guide will help you produce professional-quality tables that are suitable for publication."
+seo_title:  "Preparing Tables for Publication and Documentation in Latex"
+seo_description:  "Learn how to prepare tables for publication and documentation in LaTeX, the document preparation system favored by many scientists and researchers. Our guide covers everything from basic table creation to advanced formatting techniques, including merging cells, coloring cells, and aligning table columns. Whether you're writing a research paper, thesis, or technical report, this guide will help you produce professional-quality tables that are suitable for publication."
 header:
   image: "https://live.staticflickr.com/65535/49211373397_8de8c1daa4_h.jpg"
   teaser: "https://live.staticflickr.com/65535/49211373397_8de8c1daa4_h.jpg"
@@ -198,5 +201,5 @@ Once again, all the codes are available in the [overleaf document](https://www.o
 
 Cheers!!! :smiley::sunglasses::v:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk2NjA5NzUyLC0zMzc2Mzk0NTldfQ==
+eyJoaXN0b3J5IjpbLTEwNTA0ODQ5MzEsLTMzNzYzOTQ1OV19
 -->
