@@ -1,9 +1,9 @@
 ---
 layout: single
 title: "Bibliography management with Bibtex in Latex"
-excerpt:  Your  blog  post  excerpt  
-seo_title:  Your  meta  title  
-seo_description:  Your  meta  description
+excerpt:  "Bibliography management is an essential aspect of academic writing, particularly when you have to reference a large number of sources. Bibtex is a widely-used software tool for managing bibliographies and citations in Latex documents. In this blog post, I will explore how to use Bibtex to create and manage a bibliography in a Latex document." 
+seo_title:  "Bibliography Management with Bibtex in Latex: A Comprehensive Guide"
+seo_description:  "Learn how to manage and create a bibliography in a Latex document using Bibtex. Our comprehensive guide will help you get started with Bibtex, from importing references to formatting your bibliography in your preferred citation style."
 header:
   image: "https://live.staticflickr.com/65535/49353529713_7567417ff3_b.jpg"
   teaser: "https://live.staticflickr.com/65535/49353529713_7567417ff3_b.jpg"
@@ -97,7 +97,7 @@ In this post, we will learn how to manage bibliography using BibTex in Latex. Th
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNjczOTQzNCwtMTIxMTE0ODQ4NiwtMT
-k0OTQxMzk1NCwtMTU4NTkzMzM5OSwxMzkyMzUzMDcxLDUwNzA2
-NzkwMF19
+eyJoaXN0b3J5IjpbODEzMTMwNTI0LC0xMjExMTQ4NDg2LC0xOT
+Q5NDEzOTU0LC0xNTg1OTMzMzk5LDEzOTIzNTMwNzEsNTA3MDY3
+OTAwXX0=
 -->
