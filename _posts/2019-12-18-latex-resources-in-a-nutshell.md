@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Important Latex Resources in a Nutshell"
+excerpt:  "If you are a beginner in LaTeX or even an experienced user, you might find it difficult to keep track of all the resources available out there. This blog post aims to provide you with a curated list of some of the most important and useful LaTeX resources that you should keep handy. From beginner tutorials and reference guides to package documentation and LaTeX editors, this post covers everything you need to know about LaTeX."
+seo_title:  "Important LaTeX Resources: A Comprehensive List for Beginners and Experts"
+seo_description: "Are you struggling to keep track of all the LaTeX resources available? Check out this comprehensive list of important LaTeX resources, including beginner tutorials, reference guides, package documentation, and LaTeX editors. Whether you're a beginner or an experienced user, this post has everything you need to know about LaTeX."
 header:
   image: "https://live.staticflickr.com/65535/49236199717_2f17584491_h.jpg"
   og_image: "https://live.staticflickr.com/65535/49236199717_2f17584491_h.jpg"
@@ -65,12 +68,17 @@ Some of those are included here.
 * [How to Collaboratively Write a Paper using Overleaf Latex Platform](https://shantoroy.com/latex/how-to-collaborately-write-a-paper-using-latex-overleaf/)
 * [Itemize, Enumerate, and To-do-list in Latex](https://shantoroy.com/latex/playing-with-latex-itemize-enumerate-fontawesome/)
 * [Latex Table for Survey in IEEE two-column format](https://shantoroy.com/latex/latex-table-for-survey-ieee-template/)
+* [Line Plotting using Latex PGFPlots](https://shantoroy.com/latex/how-to-draw-line-graph-using-pgfplots-latex/)
+* [How to add Codes in Latex:  `listings`  package for code documentation](https://shantoroy.com/latex/how-to-add-codes-in-latex-listing-package/)
+* [Bibliography management with Bibtex in Latex](https://shantoroy.com/latex/bibliography-management-with-bibtex/)
+* [Creating Multiple Line plots from CSV file using Latex Tikz and PGFPlot](https://shantoroy.com/latex/multiple-line-plots-using-tikz-pgfplot/)
+* [How to Draw a Literature Survey Taxonomy Tree in Latex](https://shantoroy.com/latex/Draw-literature-survey-tree-in-latex/)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjEwMjcwNzk4LDI0OTE5NzczMiwtNjEzND
-MxMDcyLDEzMTc4NTYwOTMsMjAxNTE2NjM4OCwtMTkxNTcxODI1
-MiwtMTg0MTM2NzY2MCwtMTI0OTE2ODkyMSwtODUwNDE2MTE5LC
-00MzQ5MDg5NjUsLTE5ODMwOTc3MjIsMjAwMzM4MDYyNiwtMTYy
-NDIwMzMyNCw0MzAzOTI5MjJdfQ==
+eyJoaXN0b3J5IjpbLTc4MjEyNDYyNCwyNDkxOTc3MzIsLTYxMz
+QzMTA3MiwxMzE3ODU2MDkzLDIwMTUxNjYzODgsLTE5MTU3MTgy
+NTIsLTE4NDEzNjc2NjAsLTEyNDkxNjg5MjEsLTg1MDQxNjExOS
+wtNDM0OTA4OTY1LC0xOTgzMDk3NzIyLDIwMDMzODA2MjYsLTE2
+MjQyMDMzMjQsNDMwMzkyOTIyXX0=
 -->
