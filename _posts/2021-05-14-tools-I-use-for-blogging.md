@@ -1,8 +1,11 @@
 ---
 layout: single
 title: "Tools and Platforms I use for Blogging"
+excerpt:  "If you're looking to start or improve your blogging game, it's important to have the right tools and platforms at your disposal. From content creation to website design and analytics tracking, this post covers the tools and platforms I use to make my blogging process more efficient and effective."
+seo_title:  "My Essential Tools and Platforms for Blogging Success"
+seo_description: "Discover the must-have tools and platforms for bloggers to improve their content creation, website design, and analytics tracking. Learn about the tools and platforms used by a successful blogger to streamline their blogging process and achieve blogging success."
 header:
-  overlay_image: "https://live.staticflickr.com/65535/51699602895_9f512e632d_o.png"
+  image: "https://live.staticflickr.com/65535/51710858986_92031e9eb2_o.png"
   teaser: "https://live.staticflickr.com/65535/51710858986_92031e9eb2_o.png"
 categories:
   - Blog
@@ -100,5 +103,5 @@ So, that's it for now. Feel free to let me know if you want to set up a blog lik
 
 All the best, cheers! :sunglasses:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU2NDEyNTMxLC02OTcwNzkxMzRdfQ==
+eyJoaXN0b3J5IjpbLTczMjc3MzI0NiwtNjk3MDc5MTM0XX0=
 -->
