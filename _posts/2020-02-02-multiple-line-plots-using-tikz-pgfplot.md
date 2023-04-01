@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Creating Multiple Line plots from CSV file using Latex Tikz and PGFPlot"
+excerpt:  If you need to create line plots from a CSV file, LaTeX TikZ and PGFPlot offer powerful tools to help you achieve this task with ease. In this blog post, I'll show you how to create multiple line plots from a CSV file and customize them to your liking using these tools. You'll also learn how to add labels, change the axis scales, and adjust the plot appearance to create professional-looking plots. Whether you're a beginner or an experienced LaTeX user, this guide will help you create stunning line plots in no time.
+seo_title:  Your  meta  title  
+seo_description:  Your  meta  description
 header:
   image: "https://live.staticflickr.com/65535/51232995681_568b5ea17b_w.jpg"
   teaser: "https://live.staticflickr.com/65535/51232995681_568b5ea17b_w.jpg"
@@ -100,6 +103,6 @@ That's it for today! Cheers!!!
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNTcxMjMwNCwtMTg0MzM3NTE4MSwxND
-U5MDEzMzMyXX0=
+eyJoaXN0b3J5IjpbLTEzMjI2MTA3NTUsLTE4NDMzNzUxODEsMT
+Q1OTAxMzMzMl19
 -->
