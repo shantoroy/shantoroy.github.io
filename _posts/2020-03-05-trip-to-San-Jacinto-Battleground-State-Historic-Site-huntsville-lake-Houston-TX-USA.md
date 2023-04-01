@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Hangouts near Houston: San Jacinto Battleground and Huntsville Lake"
+excerpt:  "Looking for a weekend getaway near Houston? Look no further than the San Jacinto Battleground and Huntsville Lake! Explore the historic site of the Battle of San Jacinto, take a hike or bike ride through the park, and enjoy fishing or boating on the lake."
+seo_title:  "Hangouts near Houston: San Jacinto Battleground and Huntsville Lake"
+seo_description:  "Discover the San Jacinto Battleground and Huntsville Lake, two perfect weekend getaways near Houston. Explore the historic site of the Battle of San Jacinto, go hiking, biking, fishing or boating in the park, and make the most of your time outside. Read on for tips and recommendations."
 header:
   image: "https://live.staticflickr.com/65535/51223015653_d51e3fae43_c.jpg"
   teaser: "https://live.staticflickr.com/65535/51223015653_d51e3fae43_c.jpg"
@@ -45,5 +48,6 @@ The following video presents a few moments of that excellent afternoon.
 
 P.S. I just started learning video editing and the qualities are not that good. Please, feel free to check my other new videos on my YouTube channel. Thanks.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MjI4MTE1LC02NTIzNDMzMTFdfQ==
+eyJoaXN0b3J5IjpbLTE1OTYwNzUzOTcsMTk2MjI4MTE1LC02NT
+IzNDMzMTFdfQ==
 -->
