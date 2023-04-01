@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Introduction to Reinforcement Learning (Part 01: Basic Concepts)"
+excerpt:  "Reinforcement learning is a subfield of machine learning that focuses on training agents to make sequential decisions in an environment. In this introductory blog post, I cover the basic concepts of reinforcement learning, including the environment, agent, states, actions, rewards, and episodes. I also provide examples of how reinforcement learning can be applied in different domains, such as robotics, game playing, and recommendation systems."  
+seo_title:  Your  meta  title  
+seo_description:  Your  meta  description
 header:
   image: "https://live.staticflickr.com/65535/51227976855_8d59f8284f_w.jpg"
   teaser: "https://live.staticflickr.com/65535/51227976855_8d59f8284f_w.jpg"
@@ -155,11 +158,11 @@ In the next tutorial, we will learn some additional concepts and other glossarie
 * [Introduction to Reinforcement Learning-Datacamp](https://www.datacamp.com/community/tutorials/introduction-reinforcement-learning)
 * [Introduction to Reinforcement Learning- Joshua Achiam](https://github.com/jachiam/rl-intro/blob/master/Presentation/rl_intro.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2NTk3MjE2LC0xNjgyNDIwMjI4LC0xNT
-AyNTYxNjI2LDE5NzQ2NDEzMjUsLTI0MzIyMzQ0NCwtMTU3MzMy
-MjYwMCwxNjQ0MDkzOTgyLDUxNDc3ODk3NSwxNzIxODgxODIyLC
-03MTExODE1NjEsLTE5MjU3ODcxNTMsNjk0NTM1NDE1LDE2ODIz
-NzkyMjEsMTY5OTY1MjUzNyw2OTgxMzg5NDYsLTE5Njc2NzE4MT
-gsNjk4MTM4OTQ2LC02NTE3ODQ5MzAsNDI4MTA4NjQ4LC0zMDYz
-MTYwNzVdfQ==
+eyJoaXN0b3J5IjpbLTE1NjAxMDg0OTMsLTE2ODI0MjAyMjgsLT
+E1MDI1NjE2MjYsMTk3NDY0MTMyNSwtMjQzMjIzNDQ0LC0xNTcz
+MzIyNjAwLDE2NDQwOTM5ODIsNTE0Nzc4OTc1LDE3MjE4ODE4Mj
+IsLTcxMTE4MTU2MSwtMTkyNTc4NzE1Myw2OTQ1MzU0MTUsMTY4
+MjM3OTIyMSwxNjk5NjUyNTM3LDY5ODEzODk0NiwtMTk2NzY3MT
+gxOCw2OTgxMzg5NDYsLTY1MTc4NDkzMCw0MjgxMDg2NDgsLTMw
+NjMxNjA3NV19
 -->
