@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Simple and Short Interesting Python Code Snippets for your Projects"
+excerpt:  "If you're looking for some interesting and useful Python code snippets to use in your projects, look no further. In this blog post, we've compiled a list of simple and short Python code snippets that you can use to make your projects more efficient and effective. Whether you're a beginner or an experienced developer, these snippets are sure to come in handy."
+seo_title:  "Simple and Short Interesting Python Code Snippets for your Projects" 
+seo_description:  "Looking for some useful Python code snippets for your projects? Check out this blog post for a list of simple and short Python code snippets that you can use to make your projects more efficient and effective."
 header:
   image: "https://live.staticflickr.com/65535/51716722206_4eba6e6d3b_o.png"
   teaser: "https://live.staticflickr.com/65535/51716722206_4eba6e6d3b_o.png"
@@ -14,7 +17,6 @@ tags:
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "heart"
-excerpt: "This post provides a few short interesting code snippets that you can use for your Python Projects."
 ---
 
 Here, in this post, I have added a few necessary code snippets that we might need to use for our Python projects. Most of the codes are self-explanatory with variable names or comments. That's why, I am ignoring adding additional descriptions, for now, will add later.
@@ -228,5 +230,5 @@ That's it for now, I will keep updating this post by adding more code snippets.
 
 Have a good day! :sunglasses:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDQ4NDE0NDIsNTU1NDMwNTQ3XX0=
+eyJoaXN0b3J5IjpbMTg2MTgwNjI1MSw1NTU0MzA1NDddfQ==
 -->
