@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Creating Bar Charts using Python Matplotlib"
+excerpt:  "Bar charts are one of the most commonly used visualizations in data science. They are great for displaying categorical data and comparing values between different groups. In this tutorial, we will explore how to create bar charts using Python's Matplotlib library. I will cover the basic syntax of creating a simple bar chart, customizing the appearance of the chart, and creating grouped bar charts to compare multiple sets of data. Whether you are a beginner or an experienced data scientist, this tutorial will provide you with the knowledge you need to create effective bar charts in Python."
+seo_title:  Your  meta  title  
+seo_description:  Your  meta  description
 header:
   image: "https://live.staticflickr.com/65535/49138218397_179201690d_h.jpg"
   teaser: "https://live.staticflickr.com/65535/49138218397_179201690d_h.jpg"
@@ -232,5 +235,5 @@ The output should look like following:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0NDA3MDI2XX0=
+eyJoaXN0b3J5IjpbLTg5NTQ1MTE1MiwtNzQ0MDcwMjZdfQ==
 -->
