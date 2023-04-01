@@ -1,8 +1,11 @@
 ---
 layout: single
 title: "Vulnerable Code Analysis Practices and Solutions: A Tutorial Series by Harsh Bothra"
+excerpt:  "If you're interested in learning how to analyze vulnerable code, you'll want to check out this tutorial series by Harsh Bothra. In the series, he covers various practices and solutions for identifying and addressing security issues in code."
+seo_title:  "Vulnerable Code Analysis Practices and Solutions: A Tutorial Series by Harsh Bothra"
+seo_description: 
 header:
-  overlay_image: "https://live.staticflickr.com/65535/51699602895_9f512e632d_o.png"
+  image: "https://live.staticflickr.com/65535/51895478088_f53e124850_o.png"
   teaser: "https://live.staticflickr.com/65535/51895478088_f53e124850_o.png"
 categories:
   - Security
@@ -16,7 +19,6 @@ tags:
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "heart"
-excerpt: "This post provides the links of an excellent resource on Vulnerable Code Analysis Practices and Solutions. The practice code snippets are posted on twitter and then the solutions are provided in a github repo."
 ---
 
 
@@ -30,5 +32,5 @@ I have just started going through the resources. I guess almost all of the code 
 
 I will post the details later in another post after I finish looking at the whole resource. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzA5ODMzMTFdfQ==
+eyJoaXN0b3J5IjpbNjY2NDA1MjEzXX0=
 -->
