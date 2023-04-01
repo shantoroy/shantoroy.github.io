@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Build a Balena Cloud using Raspberry Pi"
+excerpt:  "Have you ever wanted to create your own cloud service, but didn't want to pay for a subscription or worry about privacy concerns? Look no further than building your own Balena cloud using a Raspberry Pi! In this tutorial, you'll learn how to set up a personal cloud storage and computing platform using Balena, a popular platform for building IoT applications. With just a few simple steps, you'll have your very own cloud server up and running in no time."
+seo_title:  "Build a Balena Cloud using Raspberry Pi: A Beginner's Guide"
+seo_description:  "Learn how to create your own cloud service using a Raspberry Pi and Balena, a popular platform for building IoT applications. With this step-by-step guide, you'll be able to set up your own personal cloud storage and computing platform quickly and easily."
 header:
   image: "https://live.staticflickr.com/65535/49803481683_3b7c3e3447_b.jpg"
   teaser: "https://live.staticflickr.com/65535/49803481683_3b7c3e3447_b.jpg"
@@ -96,6 +99,6 @@ You can also read my other posts related to `Raspberry Pi`:
 ## Reference:
 1. [Get started with Raspberry Pi 4 and Python](https://www.balena.io/docs/learn/getting-started/raspberrypi4-64/python/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzU0MDIxMTcsMzk0MzIxMzYxLDM5ND
-MyMTM2MSw2ODU1MjUxNDRdfQ==
+eyJoaXN0b3J5IjpbMTYxNTQwNzUxNywtMTYzNTQwMjExNywzOT
+QzMjEzNjEsMzk0MzIxMzYxLDY4NTUyNTE0NF19
 -->
