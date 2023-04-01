@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Itemize, Enumerate, and To-do-list in Latex"
+excerpt:  Your  blog  post  excerpt  
+seo_title:  Your  meta  title  
+seo_description:  Your  meta  description
 header:
   image: "https://live.staticflickr.com/65535/51648791820_873f7cea50_b.jpg"
   teaser: "https://live.staticflickr.com/65535/51648791820_873f7cea50_b.jpg"
@@ -94,5 +97,5 @@ And then-
 
 That's all. Cheers!!!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzQ4MTY3OTBdfQ==
+eyJoaXN0b3J5IjpbOTI1OTUxMjUzLC0xNzc0ODE2NzkwXX0=
 -->
