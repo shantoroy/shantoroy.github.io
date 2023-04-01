@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Amazon Web Service: Launch an AWS EC2 Instance"
+excerpt:  "In this blog post, we will guide you on how to launch an Amazon Web Service (AWS) Elastic Compute Cloud (EC2) instance. AWS EC2 is a popular cloud computing service that provides resizable compute capacity in the cloud. With EC2, you can quickly scale your computing capacity up or down as your needs change, and pay only for the capacity you actually use."
+seo_title:  "Amazon Web Service: Launch an AWS EC2 Instance"
+seo_description:  "Learn how to launch an Amazon Web Service (AWS) Elastic Compute Cloud (EC2) instance with our step-by-step guide. AWS EC2 is a flexible cloud computing service that lets you scale your compute capacity up or down as your needs change. Get started today and only pay for what you use."
 header:
   image: "https://live.staticflickr.com/65535/51256840514_4e8b205c6d_b.jpg"
   teaser: "https://live.staticflickr.com/65535/51256840514_4e8b205c6d_b.jpg"
@@ -102,5 +105,6 @@ $ scp -i ~/aws-keys/reverse-proxy-aws.pem\
 
 This is how, you can launch AWS instances. Later, in some other posts, I will show how to host your applications in an AWS instance. Till then, Cheers!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMTY0NTIwLC0yMTMwMDEyOTgwXX0=
+eyJoaXN0b3J5IjpbLTgyMDg2OTIwNCwyMTIxNjQ1MjAsLTIxMz
+AwMTI5ODBdfQ==
 -->
