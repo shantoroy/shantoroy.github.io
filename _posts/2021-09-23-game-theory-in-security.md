@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "A Comprehensive Overview of Game Theory in Cyber Security"
+excerpt:  "In today's digital age, game theory is becoming an essential tool for understanding cyber security. Game theory allows security professionals to model the interactions between attackers and defenders in various security scenarios. In this blog post, we'll provide a comprehensive overview of game theory in cyber security, including key concepts, applications, and real-world examples."
+seo_title:  "Game Theory in Cyber Security: A Comprehensive Overview"
+seo_description:  "Learn about the importance of game theory in cyber security, and how it can help you better understand the interactions between attackers and defenders. Discover key concepts, applications, and real-world examples in this comprehensive overview."
 header:
   image: "https://live.staticflickr.com/65535/51647825732_3f23aa12a4_b.jpg"
   teaser: "https://live.staticflickr.com/65535/51647825732_3f23aa12a4_b.jpg"
@@ -94,5 +97,5 @@ In Nash games, players can change strategies at any point. However, in Stackelbe
 2. [Game theory and security](https://www.slideserve.com/mariel/game-theory-and-security)
 3. [An introduction to Game Theory](https://www.slideshare.net/paultraf/an-introduction-to-game-theory)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ2MzA3OTldfQ==
+eyJoaXN0b3J5IjpbLTc3OTU3ODE2NywzNDYzMDc5OV19
 -->
