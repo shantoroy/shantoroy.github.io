@@ -1,6 +1,9 @@
 ---
 layout: single
-title: "12 things to do before completing graduation in CSE/IT"
+title: "12 things to do before completing graduation in Computer Science or Related Fields"
+excerpt:  "Are you a computer science or related fields student approaching graduation? It's time to start thinking about what you need to do before completing your degree. From building your professional network to polishing your resume, there are many steps you can take to set yourself up for success. In this post, we'll outline 12 essential things you should do before completing your graduation."
+seo_title:  "12 Things to Do Before Completing Graduation in Computer Science or Related Fields"
+seo_description:  "As a computer science or related fields student, there are many things you can do to prepare yourself for post-graduation success. In this blog post, we'll outline 12 essential steps to take before completing your degree, from networking to gaining experience to perfecting your resume."
 header: 
   image: "https://farm5.staticflickr.com/4654/24859362187_2c62340d96_b.jpg"
   teaser: "https://farm5.staticflickr.com/4654/24859362187_2c62340d96_b.jpg"
@@ -105,6 +108,5 @@ Author, writer, blogger or developer- whoever you are, you need good skills in d
 [Huff]: https://www.huffingtonpost.com
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDc1MzgyNjAsLTE4MDQ3MjIyMzddfQ
-==
+eyJoaXN0b3J5IjpbNzU4MTU1MDUsLTE4MDQ3MjIyMzddfQ==
 -->
