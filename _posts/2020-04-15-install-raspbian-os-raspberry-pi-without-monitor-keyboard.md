@@ -2,8 +2,8 @@
 layout: single
 title: "Install Raspbian OS in Raspberry Pi without Keyboard and Monitor"
 excerpt:  "In this tutorial, I'll show you how to install Raspbian OS in Raspberry Pi without using a keyboard and monitor. This method is useful when you don't have access to a keyboard and monitor, or when you want to do a headless installation. By following the steps in this guide, you'll be able to install Raspbian OS on your Raspberry Pi using your laptop or desktop computer."
-seo_title:  Your  meta  title  
-seo_description:  Your  meta  description
+seo_title:  "Install Raspbian OS in Raspberry Pi without Keyboard and Monitor"
+seo_description:  "Learn how to install Raspbian OS in Raspberry Pi without using a keyboard and monitor. This headless installation method is perfect for those who don't have access to a keyboard and monitor, or want to avoid the hassle of using them. Follow this step-by-step guide to install Raspbian OS on your Raspberry Pi using your laptop or desktop computer."
 header:
   image: "https://live.staticflickr.com/65535/49799517663_f7285ba01d_h.jpg"
   teaser: "https://live.staticflickr.com/65535/49799517663_f7285ba01d_h.jpg"
@@ -101,6 +101,6 @@ You can also read my other posts related to `Raspberry Pi`:
 
 -   [How to Configure a Raspberry Pi as an OpenFlow Switch: Steps, Issues, and Solutions](https://shantoroy.com/openflow/how-to-configure-raspberry-pi-as-open-flow-switch/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc0NDY3MzUzLDE4NTAxNzc0MTQsLTEyNz
-YwMDUzODgsLTEzNjY2MDcwMTJdfQ==
+eyJoaXN0b3J5IjpbLTcxMzg0MjkxNywxODUwMTc3NDE0LC0xMj
+c2MDA1Mzg4LC0xMzY2NjA3MDEyXX0=
 -->
