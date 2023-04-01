@@ -2,8 +2,8 @@
 layout: single
 title: "How to Convert PCAP files to CSV for Network Traffic Analysis"
 excerpt:  "In this tutorial, you'll learn how to convert PCAP files to CSV format for network traffic analysis using Python. You'll see how to use the tshark library to parse PCAP files and convert them to CSV files that can be easily analyzed with tools like pandas."
-seo_title:  Your  meta  title  
-seo_description:  Your  meta  description
+seo_title:  "Convert PCAP Files to CSV for Network Traffic Analysis in Python"
+seo_description:  "Learn how to use Python to convert PCAP files to CSV for easy network traffic analysis. Use the command line interface to parse PCAP files and create CSV files that can be analyzed in Excel or pandas."
 header:
   image: "https://live.staticflickr.com/65535/51206509290_743874dcd9_c.jpg"
   teaser: "https://live.staticflickr.com/65535/51206509290_743874dcd9_c.jpg"
@@ -128,7 +128,7 @@ That's all Folks, cheers!
 2. [tshark man page](https://www.wireshark.org/docs/man-pages/tshark.html)
 3. [Splitting PCAP Files with tcpdump](https://support.metageek.com/hc/en-us/articles/115000910348-Splitting-PCAP-Files-with-tcpdump)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcxMDIwMzk4LDExNTg4NDY1NDMsMTk3Nz
+eyJoaXN0b3J5IjpbNTI1MjM1OTI3LDExNTg4NDY1NDMsMTk3Nz
 E3NzU4NywtOTg3ODcyMTY1LDg5ODIwNDY2LC00NTMyNTk2Njcs
 MTE2ODU0Mjk0MywxMDc3NDQzMjg4LC03MjczNzYwNDcsNTQwOD
 YxOTY0LDEwODExNDAzNDMsMjY4MjQ5MDBdfQ==
