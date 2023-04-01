@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "[solved] `tikz` package causing error in IEEE Access template"
+excerpt:  "If you are working on a LaTeX document using the IEEE Access template and have run into an error caused by the `tikz` package, you are not alone. In this blog post, we will discuss the reason behind this error and provide a simple solution to fix it. I'll also provide some background information on the IEEE Access template and how to use it. So, let's get started!"
+seo_title:  Your  meta  title  
+seo_description:  Your  meta  description
 header:
   image: "https://live.staticflickr.com/65535/49273391188_54c1ce853b_h.jpg"
   teaser: "https://live.staticflickr.com/65535/49273391188_54c1ce853b_h.jpg"
@@ -41,6 +44,6 @@ Now, you are all set. Once again, you can access and download the modified files
 ## Reference
 [# tikz package causing error in IEEE access template](https://tex.stackexchange.com/questions/440422/tikz-package-causing-error-in-ieee-access-template)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA1OTQ3MywyMTM5NDIyODIzLDIwNTQ5MD
-k4MzEsLTEyODM2MjY1MjZdfQ==
+eyJoaXN0b3J5IjpbMTkwNjU2ODAxMiw3MDU5NDczLDIxMzk0Mj
+I4MjMsMjA1NDkwOTgzMSwtMTI4MzYyNjUyNl19
 -->
