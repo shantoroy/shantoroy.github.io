@@ -1,8 +1,11 @@
 ---
 layout: single
 title: "Colorado Tour 2021 (Day 01): Tour Plans and Travel Journal"
+excerpt:  Your  blog  post  excerpt  
+seo_title:  Your  meta  title  
+seo_description:  Your  meta  description
 header:
-  overlay_image: "https://live.staticflickr.com/65535/51699602895_9f512e632d_o.png"
+  image: "https://live.staticflickr.com/65535/51699602895_9f512e632d_o.png"
   teaser: "https://live.staticflickr.com/65535/52009565686_a3cd3b4e03_o.png"
 categories:
   - Sports
@@ -92,6 +95,6 @@ Check out Day 02 details in the other post:
 
 [Colorado Tour 2021 (Day 02): The Rocky Mountain National Park](https://shantoroy.com/sports/colorado-road-trip-plan-travel-guide-day-02/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Njg0MzEwNDQsMTg4MzUwODc5NSwxOD
-QwNDQyNTA2XX0=
+eyJoaXN0b3J5IjpbNTcxNzY5OTM0LDE4ODM1MDg3OTUsMTg0MD
+Q0MjUwNl19
 -->
