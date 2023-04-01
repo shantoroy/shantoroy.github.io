@@ -2,7 +2,7 @@
 layout: single
 title: "Simple and Short Interesting Python Code Snippets for your Projects"
 header:
-  overlay_image: "https://live.staticflickr.com/65535/51699602895_9f512e632d_o.png"
+  image: "https://live.staticflickr.com/65535/51716722206_4eba6e6d3b_o.png"
   teaser: "https://live.staticflickr.com/65535/51716722206_4eba6e6d3b_o.png"
 categories:
   - Python
@@ -228,5 +228,5 @@ That's it for now, I will keep updating this post by adding more code snippets.
 
 Have a good day! :sunglasses:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU1NDMwNTQ3XX0=
+eyJoaXN0b3J5IjpbLTE4MDQ4NDE0NDIsNTU1NDMwNTQ3XX0=
 -->
