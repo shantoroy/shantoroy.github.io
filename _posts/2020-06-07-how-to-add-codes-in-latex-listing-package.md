@@ -1,9 +1,9 @@
 ---
 layout: single
 title: "How to add Codes in Latex: `listings` package for code documentation"
-excerpt:  ""
-seo_title:  Your  meta  title  
-seo_description:  Your  meta  description
+excerpt:  "If you're writing a document that requires code snippets, you'll need to use a package that supports code formatting in LaTeX. One such package is `listings`. This package is easy to use and provides a variety of options for formatting code. In this post, I'll walk you through the steps of adding code snippets to your LaTeX document using the `listings` package."
+seo_title:  "How to Add Code Snippets to LaTeX using the `listings` Package"
+seo_description:  Learn how to easily format and add code snippets to your LaTeX document using the `listings` package. Follow our step-by-step guide to use the package and make your code look professional and polished.
 header:
   image: "https://live.staticflickr.com/65535/51214156890_330427f781_c.jpg"
   teaser: "https://live.staticflickr.com/65535/51214156890_330427f781_c.jpg"
@@ -173,6 +173,6 @@ That's it for today! Cheers!!!
 * [Latex Table for Survey in IEEE two-column format](https://shantoroy.com/latex/latex-table-for-survey-ieee-template/)
 * [Line Plotting using Latex PGFPlots](https://shantoroy.com/latex/how-to-draw-line-graph-using-pgfplots-latex/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNTg3NzQ3NiwxODAxNTc4ODE3LC0xNz
+eyJoaXN0b3J5IjpbLTE0OTI0Mzk5MSwxODAxNTc4ODE3LC0xNz
 A5MjgzMTI3LC0xNTI5NDA0MTY3XX0=
 -->
