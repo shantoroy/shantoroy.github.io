@@ -39,6 +39,7 @@ People can face another issue that sometimes page numbers are missing at the bot
 
 You can also simply copy my template project in [Overleaf](https://www.overleaf.com/read/jfyggffthwqk) or download from there for offline use. 
 
+## Related Posts
 Read my other Latex-related Blog posts!
 * [Add Copyright Notice and Conference Name in IEEE Conference Template](https://shantoroy.com/latex/add-copyright-conference-name/)
 
@@ -60,6 +61,6 @@ Read my other Latex-related Blog posts!
 
 * [Line Plotting using Latex PGFPlots](https://shantoroy.com/latex/how-to-draw-line-graph-using-pgfplots-latex/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MTEyOTExNSwyMDQzNDA1ODk0LDE5Nj
+eyJoaXN0b3J5IjpbMTg5OTIzOTQwMywyMDQzNDA1ODk0LDE5Nj
 k0Nzc3MzQsNDM1NDY1MzY3XX0=
 -->
