@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Introduction to Reinforcement Learning (Part 02: Glossaries)"
+excerpt:  "In this second part of our Reinforcement Learning series, we will introduce you to some of the fundamental glossaries and concepts that you need to know before diving deeper into Reinforcement Learning. With the help of these terms, you will be able to comprehend RL better and have a better understanding of the concepts that we will be discussing in the upcoming posts."
+seo_title:  Your  meta  title  
+seo_description:  Your  meta  description
 header:
   image: "https://live.staticflickr.com/65535/52718364503_44032e3ab3_o.png"
   teaser: "https://live.staticflickr.com/65535/52718364503_44032e3ab3_o.png"
@@ -69,5 +72,5 @@ So, these are some of the basic terminology we should know to learn more about r
 
 That's all for today! See you in the next post!!! :sunglasses:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMTU2ODExMSwtMTM0MzY1ODE4MV19
+eyJoaXN0b3J5IjpbMjIwNzUxOCwtMTM0MzY1ODE4MV19
 -->
