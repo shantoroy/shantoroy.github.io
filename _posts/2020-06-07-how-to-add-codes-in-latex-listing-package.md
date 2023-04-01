@@ -155,7 +155,21 @@ That's it for today! Cheers!!!
 * [LaTeX/Source Code Listings](https://en.wikibooks.org/wiki/LaTeX/Source_Code_Listings)
 * [Code listing](https://www.overleaf.com/learn/latex/Code_listing)
 * [How to highlight Python syntax in LaTeX Listings \lstinputlistings command](https://tex.stackexchange.com/questions/83882/how-to-highlight-python-syntax-in-latex-listings-lstinputlistings-command)
+
+
+## Related Other Posts (Latex)
+
+* [Add Copyright Notice and Conference Name in IEEE Conference Template](https://shantoroy.com/latex/add-copyright-conference-name/)
+* [Preparing Tables for Publication and Documentation in Latex](https://shantoroy.com/latex/how-to-create-tables-in-latex/)
+* [Creating Bar Charts using Latex PGFPlots](https://shantoroy.com/latex/bar-plots-in-latex-pgfplot/)
+* [How to write an algorithm in Latex](https://shantoroy.com/latex/how-to-write-algorithm-in-latex/)
+* [How to add subfigure in Latex](https://shantoroy.com/latex/how-to-add-subfig-in-latex/)
+* [How to Write Matrix with Row/Column Labels in Latex](https://shantoroy.com/latex/matrix-labeling-in-latex/)
+* [How to Collaboratively Write a Paper using Overleaf Latex Platform](https://shantoroy.com/latex/how-to-collaborately-write-a-paper-using-latex-overleaf/)
+* [Itemize, Enumerate, and To-do-list in Latex](https://shantoroy.com/latex/playing-with-latex-itemize-enumerate-fontawesome/)
+* [Latex Table for Survey in IEEE two-column format](https://shantoroy.com/latex/latex-table-for-survey-ieee-template/)
+* [Line Plotting using Latex PGFPlots](https://shantoroy.com/latex/how-to-draw-line-graph-using-pgfplots-latex/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMTU3ODgxNywtMTcwOTI4MzEyNywtMT
-UyOTQwNDE2N119
+eyJoaXN0b3J5IjpbMTUzODYwOTcwMSwxODAxNTc4ODE3LC0xNz
+A5MjgzMTI3LC0xNTI5NDA0MTY3XX0=
 -->
