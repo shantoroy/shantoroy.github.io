@@ -114,9 +114,10 @@ That's it for today! Cheers!!!
 * [Latex Table for Survey in IEEE two-column format](https://shantoroy.com/latex/latex-table-for-survey-ieee-template/)
 * [Line Plotting using Latex PGFPlots](https://shantoroy.com/latex/how-to-draw-line-graph-using-pgfplots-latex/)
 * [How to add Codes in Latex:  `listings`  package for code documentation](https://shantoroy.com/latex/how-to-add-codes-in-latex-listing-package/)
+* [Bibliography management with Bibtex in Latex](https://shantoroy.com/latex/bibliography-management-with-bibtex/)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNDk0Mzc4NiwtMTg0MzM3NTE4MSwxND
+eyJoaXN0b3J5IjpbMTI5MzE5NzExOSwtMTg0MzM3NTE4MSwxND
 U5MDEzMzMyXX0=
 -->
