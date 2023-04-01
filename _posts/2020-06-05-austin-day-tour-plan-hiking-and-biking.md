@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Austin Day-long Tour: Hiking, Biking, and Other Places to Visit"
+excerpt:  "Looking for an exciting day-long tour in Austin? Look no further! This article covers a variety of outdoor activities that will take you on a hiking, biking, and sightseeing adventure. From the stunning views at Austin 360 to the refreshing waters at Bull Creek, there's something for everyone to enjoy. Explore Zilker Park and Lady Bird Lake, hike up to the top of Mount Bonnel for panoramic views, and end your day with a breathtaking sunset at Oasis on Lake Travis."
+seo_title:  "Austin Day-long Tour: Hiking, Biking, and Sightseeing"
+seo_description:  "Discover the best outdoor activities in Austin, including hiking, biking, and sightseeing at places like Austin 360, Bull Creek, Zilker Park/Lady Bird Lake, Mount Bonnel, and Oasis on Lake Travis. Don't miss out on the breathtaking views and refreshing waters of these top destinations for an unforgettable day-long adventure!"
 header:
   image: "https://live.staticflickr.com/65535/51233856439_291da04e77_w.jpg"
   teaser: "https://live.staticflickr.com/65535/51233856439_291da04e77_w.jpg"
@@ -43,5 +46,6 @@ Austin is really cool for hiking and biking. There are so many hiking and biking
 - [GoPro Accessories Bundle](https://amzn.to/3hRHDcA)
 - [Car Bicycle Rack](https://amzn.to/32Xrb6r)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NzA0MzEzNCw0MjgxMTg5Nl19
+eyJoaXN0b3J5IjpbMTM4MDMyOTA4NCwtNjU3MDQzMTM0LDQyOD
+ExODk2XX0=
 -->
