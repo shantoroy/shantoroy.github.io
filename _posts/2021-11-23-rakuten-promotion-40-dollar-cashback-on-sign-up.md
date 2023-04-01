@@ -2,7 +2,7 @@
 layout: single
 title: "Rakuten Earn 40 Dollar Cashback Offer on Sign Up"
 header:
-  overlay_image: "https://live.staticflickr.com/65535/51699602895_9f512e632d_o.png"
+  image: "https://live.staticflickr.com/65535/51702878069_15985a2037_o.png"
   teaser: "https://live.staticflickr.com/65535/51702878069_15985a2037_o.png"
 categories:
   - Offer
@@ -14,7 +14,6 @@ tags:
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "heart"
-excerpt: "This post provides a Rakuten Referrel Link that earns you 40 Dollar Cashback if you shop from selected stores."
 ---
 
 
@@ -37,6 +36,6 @@ Apart from the current offer, you can always get some cashbacks if you have a Ra
 
 Have a good day and shop unlimited during this holiday season.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NjM0MjAyMywxNDgwMDA3NzM5LC0zMj
-M5NzU0NjZdfQ==
+eyJoaXN0b3J5IjpbLTE0MDk0MzU5NjAsMTQ4NjM0MjAyMywxND
+gwMDA3NzM5LC0zMjM5NzU0NjZdfQ==
 -->
