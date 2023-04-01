@@ -1,6 +1,9 @@
 ---
 layout: single
-title: "Latex Table for Survey in IEEE two-column format"
+title: "Latex Table for Literature Survey in Research Survey Papers"
+excerpt:  Your  blog  post  excerpt  
+seo_title:  Your  meta  title  
+seo_description:  Your  meta  description
 header:
   image: "https://live.staticflickr.com/65535/49301962946_8eef420816_h.jpg"
   teaser: "https://live.staticflickr.com/65535/49301962946_8eef420816_h.jpg"
@@ -80,6 +83,6 @@ Once again, you will find the code and output in the [Overleaf Document](https:/
 * [Grouping of Aligned Table Columns in Combination with Multicolumn](https://tex.stackexchange.com/questions/262760/grouping-of-aligned-table-columns-in-combination-with-multicolumn-and-a-long-hea)
 * [How Can I Insert a Big Table in IEEE Template](https://tex.stackexchange.com/questions/305411/how-can-i-insert-a-big-table-in-ieee-template)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg2NDU5MjM4LC0xMzc4MjY0ODU1LDIwNT
-QxNjc5NDksLTIwNzI2NjgwOTFdfQ==
+eyJoaXN0b3J5IjpbLTE4MzM4OTA1NTQsLTEzNzgyNjQ4NTUsMj
+A1NDE2Nzk0OSwtMjA3MjY2ODA5MV19
 -->
