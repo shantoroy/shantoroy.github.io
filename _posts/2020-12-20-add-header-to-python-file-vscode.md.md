@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Add Custom Headers to Python Files in Seconds using VSCode Editor"
+excerpt: "Adding custom headers to your Python files is an excellent way to provide critical information about your code, such as author name, creation date, and copyright information. But typing these headers manually in every file can be a tedious task. In this blog post, I'll show you how to add custom headers to your Python files quickly using the VSCode editor."
+seo_title:  "Add Custom Headers to Python Files in Seconds using VSCode Editor"
+seo_description:  Your  meta  description
 header:
   image: "https://live.staticflickr.com/65535/51234195440_2488a7d7f5_w.jpg"
   teaser: "https://live.staticflickr.com/65535/51234195440_2488a7d7f5_w.jpg"
@@ -78,5 +81,6 @@ In a python file, start typing `header` and the whole snippet will appear. Press
 </figure>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDU4NTQ5OCwxNTQ1OTQxMDEyXX0=
+eyJoaXN0b3J5IjpbMTgxNDgzMjQwNCwtMTM0NTg1NDk4LDE1ND
+U5NDEwMTJdfQ==
 -->
