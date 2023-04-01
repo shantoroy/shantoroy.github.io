@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Create your first Flask (Python) `Hello World` App in 5 minutes"
+excerpt:  Your  blog  post  excerpt  
+seo_title:  Your  meta  title  
+seo_description:  Your  meta  description
 header:
   image: "https://live.staticflickr.com/65535/51207015303_8ef57cac63_c.jpg"
   teaser: "https://live.staticflickr.com/65535/51207015303_8ef57cac63_c.jpg"
@@ -99,6 +102,6 @@ That's it! Cheers!!! :sunglasses:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDQzOTk2MzIsMTI2NDc4NDAzNiwtNj
-M2OTM1NTg4XX0=
+eyJoaXN0b3J5IjpbNjk5NjE1ODA1LDEyNjQ3ODQwMzYsLTYzNj
+kzNTU4OF19
 -->
