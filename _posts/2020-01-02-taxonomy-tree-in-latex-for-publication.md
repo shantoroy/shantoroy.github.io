@@ -1,6 +1,9 @@
 ---
 layout: single
-title: "Draw a Taxonomy Tree in Latex using Tikz for Publication"
+title: "How to Draw a Taxonomy Tree in Latex using Tikz for Publication"
+excerpt:  "Creating a taxonomy tree is essential for scientific research papers, dissertations, or reports. A well-organized taxonomy tree provides a comprehensive and clear visualization of the classification of objects or concepts. In this blog post, I will use Tikz and PGFPlots to draw a taxonomy tree in Latex."
+seo_title:  "How to Draw a Taxonomy Tree in Latex using Tikz for Publication"
+seo_description:  "Learn how to create a taxonomy tree in Latex using Tikz and PGFPlots for publication. Follow our step-by-step guide and produce a clear visualization of the classification of objects or concepts in your research paper or report."
 header:
   image: "https://live.staticflickr.com/65535/49322225972_9fd2532e24_h.jpg"
   teaser: "https://live.staticflickr.com/65535/49322225972_9fd2532e24_h.jpg"
@@ -141,7 +144,7 @@ That's all folks. Cheers!!! :smiley:
 * [Bibliography management with Bibtex in Latex](https://shantoroy.com/latex/bibliography-management-with-bibtex/)
 * [Creating Multiple Line plots from CSV file using Latex Tikz and PGFPlot](https://shantoroy.com/latex/multiple-line-plots-using-tikz-pgfplot/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI3MDYwMjIwLC0xMzQ5OTU5NjM4LC02Nz
-MyMTUyODIsLTI2MDI4MzYzMCwtNTI2MjQzNjEsMjQ2OTQzMTA2
-LDk5NjU2Nzk0NV19
+eyJoaXN0b3J5IjpbODE2NTU0OTM0LDUyNzA2MDIyMCwtMTM0OT
+k1OTYzOCwtNjczMjE1MjgyLC0yNjAyODM2MzAsLTUyNjI0MzYx
+LDI0Njk0MzEwNiw5OTY1Njc5NDVdfQ==
 -->
