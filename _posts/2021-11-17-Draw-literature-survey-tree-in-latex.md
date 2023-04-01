@@ -1,9 +1,9 @@
 ---
 layout: single
 title: "How to Draw a Literature Survey Taxonomy Tree in Latex"
-excerpt:  Your  blog  post  excerpt  
-seo_title:  Your  meta  title  
-seo_description:  Your  meta  description
+excerpt:  "In academic writing, a literature survey is an essential component for presenting a comprehensive review of a topic. A taxonomy tree can be used to visually represent the relationships between different papers, authors, and themes in the field. In this blog post, I will show how to draw a literature survey taxonomy tree in LaTeX, which is a powerful tool for typesetting high-quality scientific documents."
+seo_title:  "How to Draw a Literature Survey Taxonomy Tree in LaTeX - A Step-by-Step Guide"
+seo_description:  "Learn how to draw a literature survey taxonomy tree in LaTeX, a powerful tool for typesetting scientific documents. This step-by-step guide will show you how to visually represent the relationships between entities in your field using a taxonomy tree."
 header:
   image: "https://live.staticflickr.com/65535/52103583338_6325627e1f_o.png"
   teaser: "https://live.staticflickr.com/65535/52103583338_6325627e1f_o.png"
@@ -93,5 +93,5 @@ Then under the `\begin{forest}...\end{forest}` environment, all you need to do i
 You can also check out my other post:
 [Draw a Taxonomy Tree in Latex using Tikz for Publication](https://shantoroy.com/latex/taxonomy-tree-in-latex-for-publication/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5Mjg2NTMyMywxMDc1MjI0MjQyXX0=
+eyJoaXN0b3J5IjpbMTYxNTEyOTU2NiwxMDc1MjI0MjQyXX0=
 -->
