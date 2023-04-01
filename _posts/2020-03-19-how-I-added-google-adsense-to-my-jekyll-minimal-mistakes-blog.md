@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Google Adsense in Jekyll Static Site or Minimal Mistakes Blog Theme"
+excerpt:  "If you're running a Jekyll static site or a blog using the Minimal Mistakes theme, you may be wondering how to incorporate Google Adsense to monetize your site. In this tutorial, I'll walk you through the process of setting up Google Adsense on your Jekyll or Minimal Mistakes site, and show you how to add ad units to your posts."
+seo_title:  "How to Add Google Adsense to Jekyll Static Site or Minimal Mistakes Blog Theme"
+seo_description:  "Learn how to monetize your Jekyll static site or blog built with the Minimal Mistakes theme by adding Google Adsense. This tutorial will guide you through the steps to set up and add ad units to your posts."
 header:
   image: "https://live.staticflickr.com/65535/51703105884_43aa3f4b4d_o.png"
   teaser: "https://live.staticflickr.com/65535/51703105884_43aa3f4b4d_o.png"
@@ -15,7 +18,6 @@ tags:
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "heart"
-excerpt: "This post explains the way of setting up your minimal mistakes theme blog so that you can optimize your site using Google Adsense."
 ---
 
 
@@ -80,5 +82,5 @@ If you want to know how to track your website or blog using `Google Analytics`, 
 Keep growing your audience and earning some passive money. 
 Happy blogging!!! :sunglasses:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA1MjE2NDg3XX0=
+eyJoaXN0b3J5IjpbLTE2ODI2ODE4MTJdfQ==
 -->
