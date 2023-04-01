@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Learning JavaScript Basic Syntax in a few minutes for Python Programmers"
+excerpt:  "Are you a Python programmer looking to quickly learn the basics of JavaScript syntax? Look no further! This beginner-friendly tutorial will guide you through the key syntax differences between Python and JavaScript, including variables, functions, loops, and more."
+seo_title:  "Learn JavaScript Syntax for Python Programmers: A Quick Tutorial"
+seo_description:  "Are you a Python programmer who wants to quickly learn the basics of JavaScript syntax? This beginner-friendly tutorial will guide you through the key syntax differences between Python and JavaScript, including variables, functions, loops, and more. Get up to speed with JavaScript in just a few minutes!"
 header:
   image: "https://live.staticflickr.com/65535/51710532826_e84ae3159c_o.png"
   teaser: "https://live.staticflickr.com/65535/51710532826_e84ae3159c_o.png"
@@ -255,5 +258,5 @@ So, if you are a python programmer, it will take only a couple of minutes to get
 
 Have a good day, chill!!! :sunglasses:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNDgwNjI0MiwtODQxODA3ODIyXX0=
+eyJoaXN0b3J5IjpbLTE5NzQ3OTA3NiwtODQxODA3ODIyXX0=
 -->
