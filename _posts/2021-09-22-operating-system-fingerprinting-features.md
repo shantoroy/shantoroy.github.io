@@ -1,8 +1,11 @@
 ---
 layout: single
 title: "Operating System Fingerprinting Features in Captured Network Packets"
+excerpt:  "Operating System Fingerprinting is a process of identifying the type of operating system running on a remote machine by analyzing the packets captured on the network. It can be useful for network administrators, security researchers, and attackers. In this blog post, we will explore the different features used for operating system fingerprinting in captured network packets."
+seo_title:  "Operating System Fingerprinting Features in Captured Network Packets"
+seo_description:  Your  meta  description
 header:
-  overlay_image: "https://live.staticflickr.com/65535/51699602895_9f512e632d_o.png"
+  image: "https://live.staticflickr.com/65535/52009031863_eb80d101d5_o.png"
   teaser: "https://live.staticflickr.com/65535/52009031863_eb80d101d5_o.png"
 categories:
   - Security
@@ -13,7 +16,6 @@ tags:
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "heart"
-excerpt: "This post presents the features widely used for operating system fingerprinting."
 ---
 
 
@@ -49,5 +51,5 @@ If you want to learn more about fingerprinting tools and processes, go through t
 ## References
 1. [A Deception Based Approach for Defeating OS and Service Fingerprinting](https://ieeexplore.ieee.org/document/7346842)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2OTQ2OTgxN119
+eyJoaXN0b3J5IjpbMTQyNjY1ODY1MCwtOTY5NDY5ODE3XX0=
 -->
