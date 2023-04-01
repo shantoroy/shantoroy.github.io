@@ -1,6 +1,9 @@
 ---
 layout: single
-title: "Things to do after arriving USA for Higher Studies"
+title: "Things to do after arriving USA for Higher Studies as an International Student"
+excerpt:  "Are you an international student who has just arrived in the USA for higher studies? Congratulations! Now that you've made it here, it's time to get yourself acclimated to the country and get started with your academic journey. But where do you begin? In this blog post, I'll cover the important things you need to do after arriving in the USA to ensure a smooth transition into your academic life."
+seo_title:  "Things to Do After Arriving in the USA for Higher Studies: An International Student's Guide"
+seo_description:  "As an international student, arriving in a new country can be overwhelming. In this blog post, I provide a comprehensive guide to help you navigate your new surroundings and prepare for your academic journey in the USA. Learn about important things to do such as setting up a bank account, getting a SIM card, finding housing, and more. Read on for our top tips on making the most of your time as an international student in the USA."
 header:
   image: "https://live.staticflickr.com/65535/49211149676_69ee4e35b9_h.jpg"
   teaser: "https://live.staticflickr.com/65535/49211149676_69ee4e35b9_h.jpg"
@@ -119,5 +122,6 @@ _________
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NDg4MTgyLC0yMTI3NzQxMDgwXX0=
+eyJoaXN0b3J5IjpbLTgwNzgwMzY4NiwxMDQ0ODgxODIsLTIxMj
+c3NDEwODBdfQ==
 -->
