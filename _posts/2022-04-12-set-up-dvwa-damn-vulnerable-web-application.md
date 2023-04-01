@@ -1,6 +1,9 @@
 ---
 layout: single
-title: " Learning Web Application Vulnerabilities (Part 01): Installing Damn Vulnerable Web Application (DVWA)"
+title: "Learning Web Application Vulnerabilities: Installing Damn Vulnerable Web Application (DVWA)"
+excerpt:  "If you're interested in learning web application vulnerabilities, installing Damn Vulnerable Web Application (DVWA) is a great way to get started. DVWA is a PHP/MySQL web application that contains multiple vulnerabilities intentionally placed to help users learn and practice identifying and exploiting them. In this article, I'll walk you through the installation process of DVWA on your local machine and show you how to use it to improve your understanding of web application security."
+seo_title:  Your  meta  title  
+seo_description:  Your  meta  description
 header:
   image: "https://live.staticflickr.com/65535/52007423566_8be9641575_o.png"
   teaser: "https://live.staticflickr.com/65535/52007423566_8be9641575_o.png"
@@ -16,7 +19,6 @@ tags:
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "heart"
-excerpt: "This post provide a summary of how to install DVWA, which is a popular platform to learn web vulnerabilities."
 ---
 
 I will post a series tutorial of web application vulnerabilities and how to learn about these vulnerabilities through practice. Throughout the series we will learn about the common vulnerabilities including Cross-site scripting, SQL injections, etc.
@@ -62,5 +64,5 @@ That's all for today. I will post the next tutorials as early as possible.
 
 Till then, cheers!!!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTExOTIwMDQ3LDQ1NTUyMTY0OV19
+eyJoaXN0b3J5IjpbMTk4MTMxNDMyNCw0NTU1MjE2NDldfQ==
 -->
