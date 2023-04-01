@@ -3,7 +3,7 @@ layout: single
 title: "Things to do after installing Ubuntu for a Computer Science Students"
 excerpt:  "Are you a computer science student who just installed Ubuntu on your machine? Here are some essential things you should do to set up your development environment, customize your system, and get the most out of your Ubuntu experience."
 seo_title:  "Essential Things to Do After Installing Ubuntu for Computer Science Students"
-seo_description:  Your  meta  description
+seo_description:  "If you're a computer science student who has just installed Ubuntu, don't miss out on these essential steps to set up your system for optimal performance. Learn how to customize your environment, install necessary tools, and more in this guide."
 header:
   image: "https://live.staticflickr.com/65535/49211373302_5b79643345_h.jpg"
   teaser: "https://live.staticflickr.com/65535/49211373302_5b79643345_h.jpg"
@@ -266,11 +266,11 @@ For other needs, it is wise to use online tools. Most of the tools are available
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTM1MTAwNDMsMTEyNjY0MjAwMiwxNz
-YyMTcwMTQ0LC01MDc1NjA2NTQsMTE1MDQ2ODg4OSwtMzc3ODI1
-MTc0LC03NTEzNTUxNDcsLTE4ODUwMDA2MzYsMTc4ODkzMDI4OC
-wyOTE5ODc2NTIsMTIxNTMzNTU0MywxMzg0Nzc4MTQ1LC0yNzEy
-NDYzMzYsLTE0MjUwNjkzMDksNTU5NDk3MjAwLDEyMDczMzc3ND
-gsMTc5MzE3OTk2MywxMDU5MzI1NDY0LDE2MTA0MDc2MjMsLTYz
-MTk0MTE2MF19
+eyJoaXN0b3J5IjpbNDA2MTcyNDMsMTEyNjY0MjAwMiwxNzYyMT
+cwMTQ0LC01MDc1NjA2NTQsMTE1MDQ2ODg4OSwtMzc3ODI1MTc0
+LC03NTEzNTUxNDcsLTE4ODUwMDA2MzYsMTc4ODkzMDI4OCwyOT
+E5ODc2NTIsMTIxNTMzNTU0MywxMzg0Nzc4MTQ1LC0yNzEyNDYz
+MzYsLTE0MjUwNjkzMDksNTU5NDk3MjAwLDEyMDczMzc3NDgsMT
+c5MzE3OTk2MywxMDU5MzI1NDY0LDE2MTA0MDc2MjMsLTYzMTk0
+MTE2MF19
 -->
