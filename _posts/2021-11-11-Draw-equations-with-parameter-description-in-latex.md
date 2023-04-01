@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "How to Draw Equations with Parameter Description in Latex using Tikz"
+excerpt:  "If you're looking to create professional-looking equations with clear parameter descriptions, then using Tikz in Latex can be a great solution. In this tutorial, I'll walk you through the process of drawing equations with parameter descriptions using Tikz in Latex, so you can easily and clearly display mathematical equations in your documents."
+seo_title:  "How to Draw Equations with Parameter Description in Latex using Tikz"
+seo_description:  "Learn how to create clear and professional-looking equations with parameter descriptions in Latex using Tikz. This tutorial will walk you through the process step-by-step, so you can easily display mathematical equations in your documents."
 header:
   image: "https://live.staticflickr.com/65535/52102560767_07df211900_o.png"
   teaser: "https://live.staticflickr.com/65535/52102560767_07df211900_o.png"
@@ -88,5 +91,6 @@ You can also check out my other posts:
 * [Mathematics Documentation in Latex](https://shantoroy.com/latex/mathematics-numerical-analysis-in-latex/)
 * [Latex Resources in a Nutshell](https://shantoroy.com/latex/latex-resources-in-a-nutshell/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM1NjgwNTExLDIzMjg5MzI5XX0=
+eyJoaXN0b3J5IjpbLTIxMjY4NjMzNDMsMjM1NjgwNTExLDIzMj
+g5MzI5XX0=
 -->
