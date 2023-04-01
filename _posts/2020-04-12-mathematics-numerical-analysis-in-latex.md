@@ -1,6 +1,9 @@
 ---
 layout: single
-title: "Mathematics Documentation in Latex"
+title: "Mathematics Documentation in Latex: How to Properly use Math Environments and Symbols"
+excerpt:  Your  blog  post  excerpt  
+seo_title:  Your  meta  title  
+seo_description:  Your  meta  description
 header:
   image: "https://live.staticflickr.com/65535/49814118206_a5cf091236_b.jpg"
   teaser: "https://live.staticflickr.com/65535/49814118206_a5cf091236_b.jpg"
@@ -90,5 +93,6 @@ Please check this [Overleaf Document](https://www.overleaf.com/read/kyqrmhfcnrwx
 1. [UnicodeMath: A Nearly Plain-Text Encoding of Mathematics](http://www.unicode.org/notes/tn28/UTN28-PlainTextMath-v3.1.pdf)
 2. [LaTeX Math in MicroSoft Office](https://docs.microsoft.com/en-us/archive/blogs/murrays/latex-math-in-office)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTM1NjA5MjRdfQ==
+eyJoaXN0b3J5IjpbLTE4ODQ5NzA5MzEsLTE3NTM1NjA5MjRdfQ
+==
 -->
