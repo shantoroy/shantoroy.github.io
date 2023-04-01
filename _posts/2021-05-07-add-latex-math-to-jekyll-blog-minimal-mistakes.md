@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "How to Add Latex Math to Jekyll-based Theme- Minimal Mistakes"
+excerpt:  "Learn how to add LaTeX math equations to Jekyll-based theme Minimal Mistakes with just a few easy steps! This tutorial will guide you through the process, allowing you to seamlessly integrate math equations into your blog posts."
+seo_title:  "How to Add LaTeX Math Equations to Jekyll-based Theme - Minimal Mistakes"
+seo_description:  "Are you struggling to add LaTeX math equations to your Jekyll-based blog posts? Look no further than this step-by-step tutorial on integrating math equations into your Minimal Mistakes theme. Discover how easy it can be to create professional-looking math formulas on your blog!"
 header:
   image: "https://live.staticflickr.com/65535/51227438353_7a68113b99_w.jpg"
   teaser: "https://live.staticflickr.com/65535/49316271662_9c8b200cb6_h.jpg"
@@ -81,5 +84,5 @@ That's it! Have a good day.
 - [Building a Personal Site with Jekyll & Minimal Mistakes](http://www.pwills.com/posts/2017/12/20/website.html)
 - [Add Latex Support for Minimal Mistakes](https://sort-care.github.io/Latex-on-Blog/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTQ4MjA0OSwtOTMyMTUyODYxXX0=
+eyJoaXN0b3J5IjpbLTE4MDk0Nzk0MDksLTkzMjE1Mjg2MV19
 -->
