@@ -194,8 +194,21 @@ Once again, you can check the outputs in this [Overleaf Document](https://www.ov
 1. [Labels and captions of a matrix](https://tex.stackexchange.com/questions/388138/labels-and-captions-of-a-matrix)
 2. [Labeling the Dimensions of a Matrix](https://tex.stackexchange.com/questions/416635/labeling-the-dimensions-of-a-matrix)
 3. [Matrix with column and row headings (duplicate)](https://tex.stackexchange.com/questions/423621/matrix-with-column-and-row-headings)
+
+
+## Related Posts on Latex
+* [Add Copyright Notice and Conference Name in IEEE Conference Template](https://shantoroy.com/latex/add-copyright-conference-name/)
+* [Preparing Tables for Publication and Documentation in Latex](https://shantoroy.com/latex/how-to-create-tables-in-latex/)
+* [Creating Bar Charts using Latex PGFPlots](https://shantoroy.com/latex/bar-plots-in-latex-pgfplot/)
+* [How to write an algorithm in Latex](https://shantoroy.com/latex/how-to-write-algorithm-in-latex/)
+* [How to add subfigure in Latex](https://shantoroy.com/latex/how-to-add-subfig-in-latex/)
+* [How to Collaboratively Write a Paper using Overleaf Latex Platform](https://shantoroy.com/latex/how-to-collaborately-write-a-paper-using-latex-overleaf/)
+* [Itemize, Enumerate, and To-do-list in Latex](https://shantoroy.com/latex/playing-with-latex-itemize-enumerate-fontawesome/)
+* [Latex Table for Survey in IEEE two-column format](https://shantoroy.com/latex/latex-table-for-survey-ieee-template/)
+* [Line Plotting using Latex PGFPlots](https://shantoroy.com/latex/how-to-draw-line-graph-using-pgfplots-latex/)
+* [How to add Codes in Latex:  `listings`  package for code documentation](https://shantoroy.com/latex/how-to-add-codes-in-latex-listing-package/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNDI1NzM1NCwxOTYwNTM1MzUzLDEzNj
+eyJoaXN0b3J5IjpbMTgyMjA5OTIxMywxOTYwNTM1MzUzLDEzNj
 kyODAyMSwxODEwMzA2MzgsMTk4MzEzNDU3OCwtMTA0MDQyNjA0
 Niw4NjM3MDg0MTFdfQ==
 -->
