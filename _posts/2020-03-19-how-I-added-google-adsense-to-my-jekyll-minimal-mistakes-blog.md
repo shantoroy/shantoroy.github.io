@@ -2,7 +2,7 @@
 layout: single
 title: "Google Adsense in Jekyll Static Site or Minimal Mistakes Blog Theme"
 header:
-  overlay_image: "https://live.staticflickr.com/65535/51699602895_9f512e632d_o.png"
+  image: "https://live.staticflickr.com/65535/51703105884_43aa3f4b4d_o.png"
   teaser: "https://live.staticflickr.com/65535/51703105884_43aa3f4b4d_o.png"
 categories:
   - jekyll
@@ -80,5 +80,5 @@ If you want to know how to track your website or blog using `Google Analytics`, 
 Keep growing your audience and earning some passive money. 
 Happy blogging!!! :sunglasses:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NzAwODA3XX0=
+eyJoaXN0b3J5IjpbMzA1MjE2NDg3XX0=
 -->
