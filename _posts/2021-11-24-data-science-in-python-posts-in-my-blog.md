@@ -2,7 +2,7 @@
 layout: single
 title: "Collection of `Data Science in Python` Posts in my Blog"
 header:
-  overlay_image: "https://live.staticflickr.com/65535/51699602895_9f512e632d_o.png"
+  image: "https://live.staticflickr.com/65535/51702265701_5d63b11031_o.png"
   teaser: "https://live.staticflickr.com/65535/51702265701_5d63b11031_o.png"
 categories:
   - Python
@@ -41,6 +41,6 @@ I will keep adding related posts and include here for your reference.
 
 Happy Learning!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDkwMDM5NjgsMTIzNDYwMDU2OCwtMT
-Y0NDgwODYxOSwxNTYxODEzODI1XX0=
+eyJoaXN0b3J5IjpbLTE5ODI5MDE1ODIsLTE2NDkwMDM5NjgsMT
+IzNDYwMDU2OCwtMTY0NDgwODYxOSwxNTYxODEzODI1XX0=
 -->
