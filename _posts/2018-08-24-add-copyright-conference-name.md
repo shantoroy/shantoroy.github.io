@@ -1,6 +1,9 @@
 ---
 layout: single
-title: "Add Copyright Notice and Conference Name in IEEE Conference Template"
+title: "How to Add Copyright Notice and Conference Name in IEEE Conference Latex Template"
+excerpt:  "If you're using the IEEE conference format to submit your research paper, you may want to add a copyright notice and conference name to your document. In this tutorial, we'll show you how to add these elements to your IEEE conference paper using LaTeX. We'll walk you through the process step by step and provide code examples to help you get started."
+seo_title:  "How to Add Copyright Notice and Conference Name in IEEE Conference LaTeX Template"
+seo_description:  "Learn how to add a copyright notice and conference name to your IEEE conference paper using LaTeX. Follow this step-by-step guide with code examples to customize your paper and meet the formatting requirements."
 header: 
   image: "https://farm5.staticflickr.com/4833/44165377060_0353fbcc5c_b.jpg"
   teaser: "https://farm5.staticflickr.com/4833/44165377060_0353fbcc5c_b.jpg"
@@ -107,5 +110,5 @@ The output will look like the following-
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDI2MzM2ODZdfQ==
+eyJoaXN0b3J5IjpbMzQ2NDMwNDE2LC0xNjAyNjMzNjg2XX0=
 -->
