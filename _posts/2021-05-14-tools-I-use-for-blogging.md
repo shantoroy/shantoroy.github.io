@@ -21,7 +21,6 @@ tags:
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "heart"
-excerpt: "This post lists the common tools and platforms I use for blogging."
 ---
 
 
@@ -103,5 +102,5 @@ So, that's it for now. Feel free to let me know if you want to set up a blog lik
 
 All the best, cheers! :sunglasses:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMjc3MzI0NiwtNjk3MDc5MTM0XX0=
+eyJoaXN0b3J5IjpbLTE0NDc2MTY5MTAsLTY5NzA3OTEzNF19
 -->
