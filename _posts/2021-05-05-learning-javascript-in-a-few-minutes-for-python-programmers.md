@@ -2,7 +2,7 @@
 layout: single
 title: "Learning JavaScript Basic Syntax in a few minutes for Python Programmers"
 header:
-  overlay_image: "https://live.staticflickr.com/65535/51699602895_9f512e632d_o.png"
+  image: "https://live.staticflickr.com/65535/51710532826_e84ae3159c_o.png"
   teaser: "https://live.staticflickr.com/65535/51710532826_e84ae3159c_o.png"
 categories:
   - Python
@@ -255,5 +255,5 @@ So, if you are a python programmer, it will take only a couple of minutes to get
 
 Have a good day, chill!!! :sunglasses:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MTgwNzgyMl19
+eyJoaXN0b3J5IjpbLTgzNDgwNjI0MiwtODQxODA3ODIyXX0=
 -->
