@@ -2,8 +2,8 @@
 layout: single
 title: "Password Cracking through Dictionary Attack in Python"
 excerpt:  "Password cracking is an essential skill for ethical hackers and security researchers. One of the most straightforward ways to crack a password is by using a dictionary attack. In this blog post, you will learn how to perform a dictionary attack on password-protected files using Python."
-seo_title:  Your  meta  title  
-seo_description:  Your  meta  description
+seo_title:  "Password Cracking through Dictionary Attack in Python"
+seo_description:  "Learn how to perform a dictionary attack on password-protected files using Python. This blog post will teach you the essential skills for ethical hackers and security researchers to crack a password through a dictionary attack."
 header:
   image: "https://live.staticflickr.com/65535/51209883741_aa1454127a_c.jpg"
   teaser: "https://live.staticflickr.com/65535/51209883741_aa1454127a_c.jpg"
@@ -141,7 +141,7 @@ That's all for today, cheers!
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NzE1NTc5NywxNjYxNDY3NzU1LDEyOD
+eyJoaXN0b3J5IjpbMTIxMjcwMjk4NSwxNjYxNDY3NzU1LDEyOD
 M2MjM0ODksLTE1NTExMjA1OTMsNDUxNTA5NjQ1LDk1MjQ2ODI3
 MCw3MjUzNjMxNDIsNzU4ODA0NDgxLDE3ODA4NTc5MDhdfQ==
 -->
