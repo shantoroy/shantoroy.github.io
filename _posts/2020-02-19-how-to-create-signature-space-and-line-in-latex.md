@@ -2,7 +2,7 @@
 layout: single
 title: "How to add a Signature line and Space in Latex"
 header:
-  overlay_image: "https://live.staticflickr.com/65535/51699602895_9f512e632d_o.png"
+  image: "https://live.staticflickr.com/65535/51887360931_5dfb39dbd7_o.png"
   teaser: "https://live.staticflickr.com/65535/51887360931_5dfb39dbd7_o.png"
 categories:
   - Latex
@@ -14,7 +14,6 @@ tags:
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "heart"
-excerpt: "This post explains how to add a Signature line and Space in any Latex Document"
 ---
 
 
@@ -45,5 +44,5 @@ University of Houston
 
 That's all, cheers!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU3Mjc4ODA3XX0=
+eyJoaXN0b3J5IjpbMTAyODIyNTIzLDM1NzI3ODgwN119
 -->
