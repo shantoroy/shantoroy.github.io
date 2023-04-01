@@ -1,9 +1,9 @@
 ---
 layout: single
 title: "Write a Reverse Proxy  Server in Python: Part 2 (Server Pool)"
-excerpt:  "In this second part of our "Write a Reverse Proxy Server in Python" tutorial series, we will be discussing how to create a server pool to handle requests. By having a pool of servers, you can distribute the workload across multiple servers, increasing the overall capacity and performance of your reverse proxy. We will be using Python and the Flask web framework to build the server pool, which will be able to handle multiple servers and their respective ports."
-seo_title:  Your  meta  title  
-seo_description:  Your  meta  description
+excerpt:  "In this second part of our, Write a Reverse Proxy Server in Python, tutorial series, we will be discussing how to create a server pool to handle requests. By having a pool of servers, you can distribute the workload across multiple servers, increasing the overall capacity and performance of your reverse proxy. We will be using Python and the Flask web framework to build the server pool, which will be able to handle multiple servers and their respective ports."
+seo_title:  "Write a Reverse Proxy Server in Python: Part 2 (Server Pool)"
+seo_description:  "Learn how to create a server pool for your reverse proxy server in Python using the Flask web framework. Distribute your workload across multiple servers to improve performance and capacity. Part 2 of our, Write a Reverse Proxy Server in Python, tutorial series."
 header:
   image: "https://live.staticflickr.com/65535/51223565529_111260e908_w.jpg"
   teaser: "https://live.staticflickr.com/65535/51223565529_111260e908_w.jpg"
@@ -190,6 +190,6 @@ The whole tutorial series is listed here:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTc1NDc4OTUsODQ5NjcwMzAwLDUwMj
-AzMjU3MiwtMTI1NTA1NzM4MywtMjE0NDY5Mzc5OV19
+eyJoaXN0b3J5IjpbMTY0MjY2ODUzOCw4NDk2NzAzMDAsNTAyMD
+MyNTcyLC0xMjU1MDU3MzgzLC0yMTQ0NjkzNzk5XX0=
 -->
