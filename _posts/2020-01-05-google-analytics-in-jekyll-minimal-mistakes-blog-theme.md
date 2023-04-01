@@ -1,8 +1,11 @@
 ---
 layout: single
 title: "Google Analytics in Minimal Mistakes Blog Theme"
+excerpt:  Your  blog  post  excerpt  
+seo_title:  Your  meta  title  
+seo_description:  Your  meta  description
 header:
-  overlay_image: "https://live.staticflickr.com/65535/51699602895_9f512e632d_o.png"
+  image: "https://live.staticflickr.com/65535/51702645308_89b0e0fe5a_o.png"
   teaser: "https://live.staticflickr.com/65535/51702645308_89b0e0fe5a_o.png"
 categories:
   - jekyll
@@ -15,7 +18,6 @@ tags:
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "heart"
-excerpt: "This post explains the way of setting up your minimal mistakes theme blog so that you can optimize your site using Google Analytics."
 ---
 
 
@@ -67,6 +69,6 @@ If you want to read how to add `Google Adsense` in minimal mistakes theme, feel 
 1. https://github.com/mmistakes/minimal-mistakes/issues/85
 2. https://mmistakes.github.io/minimal-mistakes/docs/configuration/#seo-social-sharing-and-analytics-settings
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNzg3ODYzLC0zOTI5ODM3MzEsLTE4ND
-UxNTM4MDZdfQ==
+eyJoaXN0b3J5IjpbLTExNDAzNjAzNTcsLTgzNzg3ODYzLC0zOT
+I5ODM3MzEsLTE4NDUxNTM4MDZdfQ==
 -->
