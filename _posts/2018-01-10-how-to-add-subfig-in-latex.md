@@ -1,9 +1,12 @@
 ---
 layout: single
-title: "How to add subfigure in Latex"
+title: "How to add subfigure in Latex: : Step-by-Step Tutorial with Examples"
 redirect_from:
   - /latex/add-subfig-in-latex/
   - /latex/how-to-add-subfig-in-latex/
+excerpt:  "Subfigures in LaTeX are a great way to add multiple images to a document while maintaining proper placement and referencing. However, they can be a bit tricky to implement. In this tutorial, I will show you how to add subfigures in LaTeX using the subcaption package, and provide examples to help you get started."
+seo_title:  "How to Add Subfigure in Latex: Step-by-Step Tutorial with Examples"
+seo_description:  "Want to add multiple images in your LaTeX document without causing any formatting issues? Learn how to add subfigure in Latex using the subcaption package. Our step-by-step tutorial with examples will guide you through the process."
 header: 
   image: "https://farm5.staticflickr.com/4618/39005424665_7933a838e6_b.jpg"
   teaser: "https://farm5.staticflickr.com/4618/39005424665_7933a838e6_b.jpg"
@@ -154,5 +157,5 @@ Some of those are included here.
 * [How to Collaboratively Write a Paper using Overleaf Latex Platform](https://shantoroy.com/latex/how-to-collaborately-write-a-paper-using-latex-overleaf/)
 * [Itemize, Enumerate, and To-do-list in Latex](https://shantoroy.com/latex/playing-with-latex-itemize-enumerate-fontawesome/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MzAwNDkyMV19
+eyJoaXN0b3J5IjpbLTQ0OTQ0Nzg4NSwxNjQzMDA0OTIxXX0=
 -->
