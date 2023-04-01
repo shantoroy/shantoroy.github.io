@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Useful Functions of Python Itertools Module"
+excerpt:  "Python itertools module is a powerful library to create fast and efficient iterators. It provides a set of functions for working with iterators and can be used to simplify complex problems into smaller, manageable chunks. In this blog post, I will explore some of the most useful functions of the Python itertools module." 
+seo_title: "Mastering Python Iterators with itertools Module: A Comprehensive Guide"
+seo_description:  "Discover the power of the Python itertools module and learn how to create fast and efficient iterators. Explore some of the most useful functions of the itertools module to simplify complex problems into smaller, manageable chunks."
 header:
   image: "https://live.staticflickr.com/65535/51665428921_00a40a1374_b.jpg"
   teaser: "https://live.staticflickr.com/65535/51665428921_00a40a1374_b.jpg"
@@ -132,5 +135,5 @@ This function is useful for writing the simplest round-robin function in just tw
 
 There are some other useful functions too. I included only the most common ones here. For more details, checkout the [Official Documentation](https://docs.python.org/3/library/itertools.html#itertools.islice).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NDA3ODI2MF19
+eyJoaXN0b3J5IjpbLTIwMTY4MDAxNTIsLTM0NDA3ODI2MF19
 -->
