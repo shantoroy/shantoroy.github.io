@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Best Motivational Mountain Climbing Documentaries: My Own Favorites"
+excerpt:  "If you're looking for some inspiration and motivation to conquer your own personal mountains, then watching mountain climbing documentaries is a great way to start. In this post, I'm sharing my own favorite documentaries that feature some of the most challenging and inspiring mountain climbing expeditions in the world. From the unforgiving heights of Mount Everest to the dangerous and unpredictable peaks of K2, these films will leave you awestruck and inspired."
+seo_title:  "Best Motivational Mountain Climbing Documentaries: My Own Favorites"
+seo_description:  "Looking for inspiration and motivation to conquer your own personal mountains? Check out this list of the best mountain climbing documentaries featuring some of the most challenging and inspiring expeditions in the world, including Mount Everest and K2. Get ready to be awestruck and inspired."
 header:
   image: "https://live.staticflickr.com/65535/51678947033_43b15bd9d2_o.png"
   teaser: "https://live.staticflickr.com/65535/51678947033_43b15bd9d2_o.png"
@@ -94,5 +97,5 @@ This documentary movie is about the boldest solos of an introvert versatile clim
 
 Please let me know if I have missed any..!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNjc3NDA0OSw4NTI2MTA3MDZdfQ==
+eyJoaXN0b3J5IjpbMTgwMjYzMjk0MCw4NTI2MTA3MDZdfQ==
 -->
