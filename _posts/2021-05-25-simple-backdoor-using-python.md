@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Write a Backdoor in Python"
+title: "Write a Simple Backdoor in Python"
 header:
   image: "https://live.staticflickr.com/65535/51222794626_b02e736eb2_z.jpg"
   teaser: "https://live.staticflickr.com/65535/51222794626_b02e736eb2_z.jpg"
@@ -276,7 +276,7 @@ Have a good day! Cheers!!!
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2OTc1NTk4MCwtMTU5NjE2MjQ0OCwyMD
+eyJoaXN0b3J5IjpbLTU5NzU0NDM3NiwtMTU5NjE2MjQ0OCwyMD
 M5OTI4NzMxLC0xODgwMzU3NDI1LDc5NDUzNzQ1MCwxOTY0NTkw
 ODIwXX0=
 -->
