@@ -123,8 +123,25 @@ That's all folks. Cheers!!! :smiley:
 1. [edge from parent (dashed) makes nodes themselves dashed?](https://tex.stackexchange.com/questions/350252/edge-from-parentdashed-makes-nodes-themselves-dashed)
 2. [Trees Examples](http://www.texample.net/tikz/examples/feature/trees/)
 3. [TikZ and pgf](https://www.bu.edu/math/files/2013/08/tikzpgfmanual.pdf)
+
+
+## Related other posts on Latex
+
+* [Add Copyright Notice and Conference Name in IEEE Conference Template](https://shantoroy.com/latex/add-copyright-conference-name/)
+* [Preparing Tables for Publication and Documentation in Latex](https://shantoroy.com/latex/how-to-create-tables-in-latex/)
+* [Creating Bar Charts using Latex PGFPlots](https://shantoroy.com/latex/bar-plots-in-latex-pgfplot/)
+* [How to write an algorithm in Latex](https://shantoroy.com/latex/how-to-write-algorithm-in-latex/)
+* [How to add subfigure in Latex](https://shantoroy.com/latex/how-to-add-subfig-in-latex/)
+* [How to Write Matrix with Row/Column Labels in Latex](https://shantoroy.com/latex/matrix-labeling-in-latex/)
+* [How to Collaboratively Write a Paper using Overleaf Latex Platform](https://shantoroy.com/latex/how-to-collaborately-write-a-paper-using-latex-overleaf/)
+* [Itemize, Enumerate, and To-do-list in Latex](https://shantoroy.com/latex/playing-with-latex-itemize-enumerate-fontawesome/)
+* [Latex Table for Survey in IEEE two-column format](https://shantoroy.com/latex/latex-table-for-survey-ieee-template/)
+* [Line Plotting using Latex PGFPlots](https://shantoroy.com/latex/how-to-draw-line-graph-using-pgfplots-latex/)
+* [How to add Codes in Latex:  `listings`  package for code documentation](https://shantoroy.com/latex/how-to-add-codes-in-latex-listing-package/)
+* [Bibliography management with Bibtex in Latex](https://shantoroy.com/latex/bibliography-management-with-bibtex/)
+* [Creating Multiple Line plots from CSV file using Latex Tikz and PGFPlot](https://shantoroy.com/latex/multiple-line-plots-using-tikz-pgfplot/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDk5NTk2MzgsLTY3MzIxNTI4MiwtMj
-YwMjgzNjMwLC01MjYyNDM2MSwyNDY5NDMxMDYsOTk2NTY3OTQ1
-XX0=
+eyJoaXN0b3J5IjpbNTI3MDYwMjIwLC0xMzQ5OTU5NjM4LC02Nz
+MyMTUyODIsLTI2MDI4MzYzMCwtNTI2MjQzNjEsMjQ2OTQzMTA2
+LDk5NjU2Nzk0NV19
 -->
