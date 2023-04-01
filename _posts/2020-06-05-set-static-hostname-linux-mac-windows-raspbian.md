@@ -1,6 +1,9 @@
 ---
 layout: single
-title: "Set Static IP Address in Linux/Raspbian OS"
+title: "How to Set Static IP Address in Linux/Raspbian OS"
+excerpt:  "Are you tired of your IP address changing every time you restart your Linux/Raspbian OS? Setting up a static IP address can make your life much easier! In this tutorial, we'll walk you through the steps of setting up a static IP address on your Linux/Raspbian machine."
+seo_title:  Your  meta  title  
+seo_description:  Your  meta  description
 header:
   image: "https://live.staticflickr.com/65535/51228020554_0a011cd6ca_w.jpg"
   teaser: "https://live.staticflickr.com/65535/51228020554_0a011cd6ca_w.jpg"
@@ -76,7 +79,7 @@ static domain_name_servers=192.168.1.1
 
 That's all for today! Cheers!!!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMDk2NjE3Niw4MjI2NzE0NzQsLTQ4MT
-Q5NDQ0LC0xNzI5ODk2ODI5LDczODkxMjk1NSwyMDI1NTA4Mjc0
-XX0=
+eyJoaXN0b3J5IjpbMTcxMDEzNDU0LDE5MTA5NjYxNzYsODIyNj
+cxNDc0LC00ODE0OTQ0NCwtMTcyOTg5NjgyOSw3Mzg5MTI5NTUs
+MjAyNTUwODI3NF19
 -->
