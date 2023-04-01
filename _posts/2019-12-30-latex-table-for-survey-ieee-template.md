@@ -1,9 +1,9 @@
 ---
 layout: single
-title: "Latex Table for Literature Survey in Research Survey Papers"
-excerpt:  Your  blog  post  excerpt  
-seo_title:  Your  meta  title  
-seo_description:  Your  meta  description
+title: "Example Template of Latex Table for Literature Survey in Research Survey Papers"
+excerpt:  "If you're writing a research survey paper, a well-organized and properly formatted literature survey table is a must-have. A literature survey table summarizes the key characteristics of the surveyed papers in a concise and easy-to-read format. In this post, we'll walk you through the process of creating a literature survey table in LaTeX, including how to define the table's structure, how to populate it with data, and how to add captions and labels."
+seo_title:  "Latex Table for Literature Survey in Research Survey Papers"
+seo_description:  "Learn how to create a literature survey table in LaTeX for your research survey paper. I'll cover the table structure, data population, and how to add captions and labels for an organized and easy-to-read format. This post provides a nice template for your next survey work."
 header:
   image: "https://live.staticflickr.com/65535/49301962946_8eef420816_h.jpg"
   teaser: "https://live.staticflickr.com/65535/49301962946_8eef420816_h.jpg"
@@ -83,6 +83,6 @@ Once again, you will find the code and output in the [Overleaf Document](https:/
 * [Grouping of Aligned Table Columns in Combination with Multicolumn](https://tex.stackexchange.com/questions/262760/grouping-of-aligned-table-columns-in-combination-with-multicolumn-and-a-long-hea)
 * [How Can I Insert a Big Table in IEEE Template](https://tex.stackexchange.com/questions/305411/how-can-i-insert-a-big-table-in-ieee-template)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzM4OTA1NTQsLTEzNzgyNjQ4NTUsMj
-A1NDE2Nzk0OSwtMjA3MjY2ODA5MV19
+eyJoaXN0b3J5IjpbMTMyNjUwODIzMiwtMTM3ODI2NDg1NSwyMD
+U0MTY3OTQ5LC0yMDcyNjY4MDkxXX0=
 -->
