@@ -38,7 +38,28 @@ People can face another issue that sometimes page numbers are missing at the bot
 ```
 
 You can also simply copy my template project in [Overleaf](https://www.overleaf.com/read/jfyggffthwqk) or download from there for offline use. 
+
+Read my other Latex-related Blog posts!
+* [Add Copyright Notice and Conference Name in IEEE Conference Template](https://shantoroy.com/latex/add-copyright-conference-name/)
+
+* [Preparing Tables for Publication and Documentation in Latex](https://shantoroy.com/latex/how-to-create-tables-in-latex/)
+
+* [Creating Bar Charts using Latex PGFPlots](https://shantoroy.com/latex/bar-plots-in-latex-pgfplot/)
+
+* [How to write an algorithm in Latex](https://shantoroy.com/latex/how-to-write-algorithm-in-latex/)
+
+* [How to add subfigure in Latex](https://shantoroy.com/latex/how-to-add-subfig-in-latex/)
+
+* [How to Write Matrix with Row/Column Labels in Latex](https://shantoroy.com/latex/matrix-labeling-in-latex/)
+
+* [How to Collaboratively Write a Paper using Overleaf Latex Platform](https://shantoroy.com/latex/how-to-collaborately-write-a-paper-using-latex-overleaf/)
+
+* [Itemize, Enumerate, and To-do-list in Latex](https://shantoroy.com/latex/playing-with-latex-itemize-enumerate-fontawesome/)
+
+* [Latex Table for Survey in IEEE two-column format](https://shantoroy.com/latex/latex-table-for-survey-ieee-template/)
+
+* [Line Plotting using Latex PGFPlots](https://shantoroy.com/latex/how-to-draw-line-graph-using-pgfplots-latex/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MzQwNTg5NCwxOTY5NDc3NzM0LDQzNT
-Q2NTM2N119
+eyJoaXN0b3J5IjpbMTk0MTEyOTExNSwyMDQzNDA1ODk0LDE5Nj
+k0Nzc3MzQsNDM1NDY1MzY3XX0=
 -->
