@@ -40,12 +40,14 @@ Austin is really cool for hiking and biking. There are so many hiking and biking
 ## Youtube Video
 <iframe src="https://www.youtube.com/embed/tH8E0fWxKZM" width="560" height="315" frameborder="0"> </iframe>
 
+<iframe src="https://www.youtube.com/embed/SgCvYhZAsZ8" width="560" height="315" frameborder="0"> </iframe>
+
 ## Gears
 - [GoPro Hero 8 Black Bundle](https://amzn.to/2EwLxtQ)
 - [GoPro Chest Mount](https://amzn.to/33TZGtx)
 - [GoPro Accessories Bundle](https://amzn.to/3hRHDcA)
 - [Car Bicycle Rack](https://amzn.to/32Xrb6r)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MDMyOTA4NCwtNjU3MDQzMTM0LDQyOD
-ExODk2XX0=
+eyJoaXN0b3J5IjpbLTE0MTgxMTcxMDIsLTY1NzA0MzEzNCw0Mj
+gxMTg5Nl19
 -->
