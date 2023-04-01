@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "How to Enable Facebook Comments Plugin in Jekyll Blog Posts"
+excerpt:  "Are you looking to integrate Facebook comments on your Jekyll blog? This blog post will guide you through the steps required to enable Facebook comments plugin in Jekyll. By following these steps, you can easily integrate the Facebook commenting system into your Jekyll blog and allow your readers to share their thoughts and feedback on your blog posts. So, let's get started!"
+seo_title:  "How to Enable Facebook Comments Plugin in Jekyll Blog Posts"
+seo_description:  "Learn how to easily integrate the Facebook commenting system into your Jekyll blog and allow your readers to share their thoughts and feedback on your blog posts. Follow these steps to enable Facebook comments plugin in Jekyll."
 header:
   image: "https://live.staticflickr.com/65535/49316271662_9c8b200cb6_h.jpg"
   teaser: "https://live.staticflickr.com/65535/49316271662_9c8b200cb6_h.jpg"
@@ -72,6 +75,6 @@ Now, you are good to go. Cheers!!!
 * [Comments Moderation using Facebook Comment Plugin](https://developers.facebook.com/docs/plugins/comments)
 * [Comments Plugin Moderation Tool not working](https://stackoverflow.com/questions/9120814/comments-plugin-moderation-tool-not-working)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NTIyMzM2OCwxOTUxMDg1OTA1LDIwNT
-U0NjA2MjVdfQ==
+eyJoaXN0b3J5IjpbMTg2MDE4Mzc2OCwxODc1MjIzMzY4LDE5NT
+EwODU5MDUsMjA1NTQ2MDYyNV19
 -->
