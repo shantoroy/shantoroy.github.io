@@ -1,9 +1,9 @@
 ---
 layout: single
 title: "Create your first Flask (Python) `Hello World` App in 5 minutes"
-excerpt:  Your  blog  post  excerpt  
-seo_title:  Your  meta  title  
-seo_description:  Your  meta  description
+excerpt:  "Looking for a quick and easy way to create your first web application using Flask? This beginner-friendly tutorial will guide you through the process of building a simple `Hello World` app in just 5 minutes! You'll learn the basic concepts of Flask, how to set up your development environment, and how to run and test your new app."
+seo_title:  "Create Your First Flask (Python) `Hello World` App in 5 Minutes"
+seo_description:  "Learn how to create your first web application using Flask in just 5 minutes! This step-by-step tutorial will guide you through the process of building a simple "Hello World" app. Perfect for beginners, you'll learn the basics of Flask, setting up your development environment, running and testing your app, and more. Start building your own Flask app today!"
 header:
   image: "https://live.staticflickr.com/65535/51207015303_8ef57cac63_c.jpg"
   teaser: "https://live.staticflickr.com/65535/51207015303_8ef57cac63_c.jpg"
@@ -102,6 +102,6 @@ That's it! Cheers!!! :sunglasses:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk5NjE1ODA1LDEyNjQ3ODQwMzYsLTYzNj
-kzNTU4OF19
+eyJoaXN0b3J5IjpbLTE1NTA0ODk3NDUsMTI2NDc4NDAzNiwtNj
+M2OTM1NTg4XX0=
 -->
