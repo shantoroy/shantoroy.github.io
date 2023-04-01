@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Download a Subfolder or File from a Github Repository"
+excerpt:  "Learn how to download a specific subfolder or file from a Github repository without having to clone the entire repository. This post explains two easy methods to download the required subfolder or file directly from Github using either the Github Desktop application or the command line interface (CLI). Save time and disk space by only downloading the necessary files you need to work with!"
+seo_title:  "Downloading Specific Subfolder or File from Github Repository"
+seo_description:  "Want to download only a specific subfolder or file from a Github repository? Learn how to do it easily using either Github Desktop or the command line interface (CLI) in this step-by-step guide. Save time and disk space by only downloading the files you need."
 header:
   image: "https://live.staticflickr.com/65535/51648277541_7c90766f9e_b.jpg"
   teaser: "https://live.staticflickr.com/65535/51648277541_7c90766f9e_b.jpg"
@@ -63,5 +66,5 @@ That's it for today! Cheers!!!
 1. https://stackoverflow.com/questions/7106012/download-a-single-folder-or-directory-from-a-github-repo
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNDQ1MTEwNV19
+eyJoaXN0b3J5IjpbMTY4NjIwMjYxMiwxMDE0NDUxMTA1XX0=
 -->
