@@ -3,7 +3,7 @@ layout: single
 title: "Vulnerable Code Analysis Practices and Solutions: A Tutorial Series by Harsh Bothra"
 excerpt:  "If you're interested in learning how to analyze vulnerable code, you'll want to check out this tutorial series by Harsh Bothra. In the series, he covers various practices and solutions for identifying and addressing security issues in code."
 seo_title:  "Vulnerable Code Analysis Practices and Solutions: A Tutorial Series by Harsh Bothra"
-seo_description: 
+seo_description: "Learn about vulnerable code analysis with this tutorial series by Harsh Bothra. Discover best practices and solutions for identifying and fixing security issues in code."
 header:
   image: "https://live.staticflickr.com/65535/51895478088_f53e124850_o.png"
   teaser: "https://live.staticflickr.com/65535/51895478088_f53e124850_o.png"
@@ -32,5 +32,5 @@ I have just started going through the resources. I guess almost all of the code 
 
 I will post the details later in another post after I finish looking at the whole resource. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY2NDA1MjEzXX0=
+eyJoaXN0b3J5IjpbLTIwOTU5MjM1MzZdfQ==
 -->
