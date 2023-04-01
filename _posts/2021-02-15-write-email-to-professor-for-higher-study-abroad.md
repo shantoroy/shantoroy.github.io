@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Writing Emails to Professors (Higher Study Abroad)"
+title: "Email Template: Writing Emails to Professors (Higher Study Abroad)"
 header:
   image: "https://live.staticflickr.com/65535/51508803747_740242b69a_b.jpg"
   teaser: "https://live.staticflickr.com/65535/51508803747_740242b69a_b.jpg"
@@ -106,8 +106,8 @@ That's it for today. Cheers!
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjA0MjQzLDEyMTIyMTkyODgsLTE4Nz
-cxMzU5NzksLTEyMzA4MzAxMzQsLTEyOTQwNzE0MDMsODcxMjk3
-Nzk1LC0xMTY1MTU2NTUsMTQ5NDA4MTcyMSw4NTg1Nzc1MjcsLT
-U2NzQxMDQ4MV19
+eyJoaXN0b3J5IjpbLTcxMjkyOTI3MSwxMjEyMjE5Mjg4LC0xOD
+c3MTM1OTc5LC0xMjMwODMwMTM0LC0xMjk0MDcxNDAzLDg3MTI5
+Nzc5NSwtMTE2NTE1NjU1LDE0OTQwODE3MjEsODU4NTc3NTI3LC
+01Njc0MTA0ODFdfQ==
 -->
