@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Best Cloud-based Tools for Authors or Scientific Content Writers"
+excerpt:  "As an author or scientific content writer, you need tools that can help you to write, edit and publish content with ease. Cloud-based tools offer several advantages over traditional desktop software, such as easy collaboration, accessibility from anywhere, and automatic backups. In this post, we'll explore some of the best cloud-based tools for authors and scientific content writers, including their features and benefits."
+seo_title:  "Best Cloud-Based Tools for Authors or Scientific Content Writers"
+seo_description:  "Discover the best cloud-based tools for authors and scientific content writers, including their features and benefits, in this comprehensive guide. Improve your writing workflow and streamline your content creation process today."
 header: 
   image: "https://farm1.staticflickr.com/954/41751189022_78a89cfd6f_b.jpg"
   teaser: "https://farm1.staticflickr.com/954/41751189022_78a89cfd6f_b.jpg"
@@ -46,5 +49,5 @@ I want to recommend using only [Mendeley](https://www.mendeley.com/) for this pu
 
 These cloud-based tools are on my list to help myself to carry on researches. Do you have any more in mind, please suggest in the comment section.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mjc5MTE2NDIsNDA3NTM1OTczXX0=
+eyJoaXN0b3J5IjpbLTE3Mjk4ODg5NzMsNDA3NTM1OTczXX0=
 -->
