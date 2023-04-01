@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Best Cloud-based Tools for Authors/ Scientific Content Writers"
+title: "Best Cloud-based Tools for Authors or Scientific Content Writers"
 header: 
   image: "https://farm1.staticflickr.com/954/41751189022_78a89cfd6f_b.jpg"
   teaser: "https://farm1.staticflickr.com/954/41751189022_78a89cfd6f_b.jpg"
@@ -46,5 +46,5 @@ I want to recommend using only [Mendeley](https://www.mendeley.com/) for this pu
 
 These cloud-based tools are on my list to help myself to carry on researches. Do you have any more in mind, please suggest in the comment section.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MDM0MzA4Niw0MDc1MzU5NzNdfQ==
+eyJoaXN0b3J5IjpbLTE0Mjc5MTE2NDIsNDA3NTM1OTczXX0=
 -->
