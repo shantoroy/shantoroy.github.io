@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Fixing Wordpress Theme Installation Issue in macOS"
+excerpt: "" 
+seo_title:  Your  meta  title  
+seo_description:  Your  meta  description
 header:
   overlay_image: "https://live.staticflickr.com/65535/51699602895_9f512e632d_o.png"
   teaser: "https://live.staticflickr.com/65535/52010965276_faf5ae76ef_o.png"
@@ -37,5 +40,6 @@ $ sudo chmod -R g+w htdocs
 
 Once you allow `write` permission for the folder, you are good to go. Try installing themes now and that should work properly.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTIzMTY1NTJdfQ==
+eyJoaXN0b3J5IjpbLTE3NjExODAxNzUsLTE2MTIzMTY1NTJdfQ
+==
 -->
