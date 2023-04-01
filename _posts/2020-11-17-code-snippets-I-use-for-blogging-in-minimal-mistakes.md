@@ -3,7 +3,7 @@ layout: single
 title: "Minimal Mistakes Cheat Sheet: Code Snippets I use to Blog using Jekyll and the Minimal Mistakes Theme"
 excerpt:  "Looking for a cheat sheet to improve your Jekyll-based blog using the Minimal Mistakes theme? In this blog post, I share some code snippets that I use to enhance my blogging experience, from adding posts from social medias and text formatting to adding syntax highlighting to code snippets."
 seo_title:  "Minimal Mistakes Cheat Sheet: Code Snippets I use to Blog using Jekyll and the Minimal Mistakes Theme"
-seo_description:  
+seo_description:  "Looking to enhance your Jekyll-based blog using the Minimal Mistakes theme? Check out this cheat sheet, which features code snippets for adding posts from social medias, text formatting, adding syntax highlighting to code snippets, and more!"
 header:
   image: "https://live.staticflickr.com/65535/52099493299_0bbdfc4b68_o.png"
   teaser: "https://live.staticflickr.com/65535/52099493299_0bbdfc4b68_o.png"
@@ -163,7 +163,7 @@ If you are looking for more snippets, just go visit this page:
 * https://www.fabriziomusacchio.com/blog/2021-08-11-Minimal_Mistakes_Cheat_Sheet/#via-html
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1OTYyMzc5NiwtNjA1OTQwODQzLDUzOD
-A0NjYwMSwtODkxNjU0ODMsLTUyMDQ4MjIxNiw1NTQ5NTIzNjks
-LTU2NTQ3MDg2NywtMTE3MTA4MDI2NF19
+eyJoaXN0b3J5IjpbLTEwMzU4ODUyOTQsLTYwNTk0MDg0Myw1Mz
+gwNDY2MDEsLTg5MTY1NDgzLC01MjA0ODIyMTYsNTU0OTUyMzY5
+LC01NjU0NzA4NjcsLTExNzEwODAyNjRdfQ==
 -->
