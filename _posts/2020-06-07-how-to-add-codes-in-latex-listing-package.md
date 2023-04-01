@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "How to add Codes in Latex: `listings` package for code documentation"
+excerpt:  ""
+seo_title:  Your  meta  title  
+seo_description:  Your  meta  description
 header:
   image: "https://live.staticflickr.com/65535/51214156890_330427f781_c.jpg"
   teaser: "https://live.staticflickr.com/65535/51214156890_330427f781_c.jpg"
@@ -170,6 +173,6 @@ That's it for today! Cheers!!!
 * [Latex Table for Survey in IEEE two-column format](https://shantoroy.com/latex/latex-table-for-survey-ieee-template/)
 * [Line Plotting using Latex PGFPlots](https://shantoroy.com/latex/how-to-draw-line-graph-using-pgfplots-latex/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzODYwOTcwMSwxODAxNTc4ODE3LC0xNz
+eyJoaXN0b3J5IjpbMTYwNTg3NzQ3NiwxODAxNTc4ODE3LC0xNz
 A5MjgzMTI3LC0xNTI5NDA0MTY3XX0=
 -->
