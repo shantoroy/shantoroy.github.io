@@ -1,9 +1,9 @@
 ---
 layout: single
 title: "Basic Cryptographic Operations (Encryption and Decryption) in Python"
-excerpt:  
-seo_title:  Your  meta  title  
-seo_description:  Your  meta  description
+excerpt:  "Learn the basics of cryptography and explore the process of encryption and decryption using Python. This tutorial covers the essential concepts of symmetric-key and asymmetric-key cryptography, along with practical examples of how to encrypt and decrypt data in Python."
+seo_title:  "Basic Cryptographic Operations (Encryption and Decryption) in Python"
+seo_description:  "Discover how to perform basic cryptographic operations using Python, including encryption and decryption. This guide covers the key concepts of symmetric-key and asymmetric-key cryptography and provides examples of how to implement these techniques in your Python projects."
 header:
   image: "https://live.staticflickr.com/65535/51697584980_255eb49bb7_o.png"
   teaser: "https://live.staticflickr.com/65535/51697584980_255eb49bb7_o.png"
@@ -130,5 +130,5 @@ Decrypted Text: b'this is a test'
 2. [Pycrypto Example: Encryption And Decryption In Python](https://appdividend.com/2020/06/16/pycrypto-example-encryption-and-decryption-in-python/)
 3. [Python Encryption and Decryption with PyCryptodome](https://nitratine.net/blog/post/python-encryption-and-decryption-with-pycryptodome/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTQ1MjQzMTUsNTYwNTAyMDY2XX0=
+eyJoaXN0b3J5IjpbLTYzNDExMzI5LDU2MDUwMjA2Nl19
 -->
