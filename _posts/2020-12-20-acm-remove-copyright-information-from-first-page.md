@@ -1,6 +1,9 @@
 ---
 layout: single
-title: "Remove Copyright Information from the ACM sigconf template"
+title: "How to Remove Copyright Information from the ACM sigconf template"
+excerpt:  "Are you tired of manually removing the ACM sigconf template's copyright information from your research papers or latex documents like reports or homeworks? This can be a tedious task, especially when you need to prepare multiple documents for different conferences or purposes. Fortunately, there is an easy way to remove it."
+seo_title:  ""
+seo_description:  Your  meta  description
 header:
   image: "https://live.staticflickr.com/65535/51205458808_32b32577cb_c.jpg"
   teaser: "https://live.staticflickr.com/65535/51205458808_32b32577cb_c.jpg"
@@ -61,6 +64,6 @@ Read my other Latex-related Blog posts!
 
 * [Line Plotting using Latex PGFPlots](https://shantoroy.com/latex/how-to-draw-line-graph-using-pgfplots-latex/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5OTIzOTQwMywyMDQzNDA1ODk0LDE5Nj
+eyJoaXN0b3J5IjpbMTY4OTAxNjIzMiwyMDQzNDA1ODk0LDE5Nj
 k0Nzc3MzQsNDM1NDY1MzY3XX0=
 -->
