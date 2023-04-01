@@ -1,9 +1,9 @@
 ---
 layout: single
 title: "Short Introduction to Git Commands and Github for Beginners"
-excerpt:  Your  blog  post  excerpt  
-seo_title:  Your  meta  title  
-seo_description:  Your  meta  description
+excerpt:  "Are you new to Git and Github and feeling overwhelmed by all the commands and features? This beginner's guide is here to help you get started with the basics of Git and Github in simple and easy-to-understand terms. From setting up a repository to committing changes and pushing them to Github, this post will cover all the essential commands and concepts to get you on your way to becoming a Git pro!"
+seo_title:  "Short Introduction to Git Commands and Github for Beginners"
+seo_description:  "Are you new to Git and Github? This beginner's guide will introduce you to the basics of Git commands and Github in simple and easy-to-understand terms. From setting up a repository to committing changes and pushing them to Github, learn all the essential commands and concepts to become a Git pro!"
 header:
   image: "https://live.staticflickr.com/65535/51233648279_e97dd9a2b8_w.jpg"
   teaser: "https://live.staticflickr.com/65535/51233648279_e97dd9a2b8_w.jpg"
@@ -13,6 +13,7 @@ tags:
   - Github
   - Git
   - Git Commands
+  - Gitlab
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "heart"
@@ -198,7 +199,7 @@ Now, let's create a repository in Github, create a local directory where we will
 
 That's it for today. You should be able to use Git commands and Github based on today's short directions. I will add some other deatils in a separate post. Stay tuned!!!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NTc3MzgzOSwxNzcxOTk1NDI4LC0xNj
-cwNTUzMjI4LC0xNzU0NzE5NTc1LDE3MTk2OTYwMzQsMzcyMTM0
-ODEzXX0=
+eyJoaXN0b3J5IjpbNzEwOTc3NjYsMTc3MTk5NTQyOCwtMTY3MD
+U1MzIyOCwtMTc1NDcxOTU3NSwxNzE5Njk2MDM0LDM3MjEzNDgx
+M119
 -->
