@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "SSH Remote Login without Password in Linux/Mac"
+title: "How to SSH Remote Login without Password in Linux/Mac"
 header:
   image: "https://live.staticflickr.com/65535/49853015493_7ff7d6881c_z.jpg"
   teaser: "https://live.staticflickr.com/65535/49853015493_7ff7d6881c_z.jpg"
@@ -70,6 +70,6 @@ That's all!!!
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTkyMjA3MzEsOTE3NzI2NjMzLC01MT
-g3NTMyMTYsLTI1NjI5Mjc0MywxODAzMzA3NjA2XX0=
+eyJoaXN0b3J5IjpbMTM2MzczMDA1Niw5MTc3MjY2MzMsLTUxOD
+c1MzIxNiwtMjU2MjkyNzQzLDE4MDMzMDc2MDZdfQ==
 -->
