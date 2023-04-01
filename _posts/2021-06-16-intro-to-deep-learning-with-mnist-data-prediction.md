@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Introduction to Deep Learning in Python (Keras and Tensorflow) using the MNIST Dataset"
+excerpt:  "In this post, we will introduce you to deep learning in Python using Keras and Tensorflow with the popular MNIST dataset. We will walk you through the steps of building and training a simple neural network, and show you how to evaluate its performance. You will learn the fundamentals of deep learning, including convolutional and recurrent neural networks (CNNs and RNNs) and backpropagation, and how to apply them to real-world problems."
+seo_title:  "Introduction to Deep Learning in Python (Keras and Tensorflow) with MNIST Dataset"
+seo_description:  Your  meta  description
 header:
   image: "https://live.staticflickr.com/65535/51255187292_17ae375815_b.jpg"
   teaser: "https://live.staticflickr.com/65535/51255187292_17ae375815_b.jpg"
@@ -223,6 +226,6 @@ For now, the post is very short. I will keep adding contents and details over ti
 * [Recurrent Neural Networks - Deep Learning basics with Python, TensorFlow and Keras p.7](https://pythonprogramming.net/recurrent-neural-network-deep-learning-python-tensorflow-keras/)
 * [Image Classification in 10 Minutes with MNIST Dataset](https://towardsdatascience.com/image-classification-in-10-minutes-with-mnist-dataset-54c35b77a38d)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyODQyNjI4MywtNTkyMzA3NjQwLDExMD
-Q0OTg0MzksLTE5OTcwMDc0NDZdfQ==
+eyJoaXN0b3J5IjpbMjM3MDk3MDE5LC01OTIzMDc2NDAsMTEwND
+Q5ODQzOSwtMTk5NzAwNzQ0Nl19
 -->
