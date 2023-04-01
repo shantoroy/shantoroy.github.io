@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "How to install Jekyll with the Minimal Mistakes Theme in macOS"
+excerpt:  Your  blog  post  excerpt  
+seo_title:  Your  meta  title  
+seo_description:  Your  meta  description
 header:
   image: "https://live.staticflickr.com/65535/52104048713_44e91fe733_o.png"
   teaser: "https://live.staticflickr.com/65535/52104048713_44e91fe733_o.png"
@@ -101,5 +104,5 @@ bundle exec jekyll serve
 
 That's all! Cheers!!! :sunglasses:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI5MTAwNTEwXX0=
+eyJoaXN0b3J5IjpbMTI5MTA1MTkyMSw2MjkxMDA1MTBdfQ==
 -->
