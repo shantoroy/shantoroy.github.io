@@ -2,8 +2,8 @@
 layout: single
 title: "Python Programming: Useful Tips and Tricks with Short Code Snippets"
 excerpt:  "Are you looking for some useful Python tips and tricks that can help you write better code? Look no further! In this post, we have compiled a list of some of the most useful Python tips and tricks along with short code snippets to help you improve your Python programming skills. From creating generators and using the "with" statement to unpacking sequences and manipulating strings, these tips and tricks will save you time and help you write more efficient Python code."
-seo_title:  Your  meta  title  
-seo_description:  Your  meta  description
+seo_title:  "Python Programming: Useful Tips and Tricks with Short Code Snippets"
+seo_description:  "Want to improve your Python programming skills? Check out these useful tips and tricks with short code snippets to help you write better and more efficient Python code, including creating generators, using the "with" statement, unpacking sequences, and manipulating strings."
 header:
   image: "https://live.staticflickr.com/65535/51647090362_457bcd966b_b.jpg"
   teaser: "https://live.staticflickr.com/65535/51647090362_457bcd966b_b.jpg"
@@ -13,6 +13,7 @@ tags:
   - Python
   - Tutorial
   - tips and tricks
+  - code snippets
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "heart"
@@ -247,6 +248,6 @@ sorted_dict = {k:v for k,v in sorted(my_dict.items(), key=lambda item: item[1])}
 	# runtime: 0.0002 sec
 	```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MzE0MjA5MiwyMTY1MjUwNDEsODQ5ND
+eyJoaXN0b3J5IjpbLTc3MTg4NDg4OCwyMTY1MjUwNDEsODQ5ND
 YxMTY5XX0=
 -->
