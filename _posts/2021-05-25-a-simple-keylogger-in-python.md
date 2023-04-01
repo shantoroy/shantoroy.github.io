@@ -1,6 +1,9 @@
 ---
 layout: single
-title: "A Basic Keylogger in Python"
+title: "Write A Basic Keylogger in Python"
+excerpt:  "Want to understand how keyloggers work? This blog post will guide you through writing a basic keylogger in Python. Keyloggers can be useful tools for monitoring computer activity, but they can also be used maliciously to steal sensitive information. By building a keylogger yourself, you can gain a deeper understanding of how they function and how to protect against them."
+seo_title:  "Learn How Keyloggers Work Through Writing a Basic Keylogger in Python" 
+seo_description:  Your  meta  description
 header:
   image: "https://live.staticflickr.com/65535/51211036232_6916bf5c10_c.jpg"
   teaser: "https://live.staticflickr.com/65535/51211036232_6916bf5c10_c.jpg"
@@ -130,7 +133,7 @@ That's it! Thanks for being with me. Cheers!
 * [Design a Keylogger in Python](https://www.tutorialspoint.com/design-a-keylogger-in-python)
 * [How to Make a Keylogger in Python](https://www.thepythoncode.com/article/write-a-keylogger-python)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMjEzNzM5OCwtMTM2OTg2NTg2LDE3OT
+eyJoaXN0b3J5IjpbLTcwODExMjk3NiwtMTM2OTg2NTg2LDE3OT
 E2NTU2MzgsLTE2NDc4MzE0OCwtNzQzNzk1MDc4LDEzMDIzMzE4
 MzZdfQ==
 -->
