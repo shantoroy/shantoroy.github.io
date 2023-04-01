@@ -1,8 +1,11 @@
 ---
 layout: single
 title: "Colorado Tour 2021 (Day 02): The Rocky Mountain National Park"
+excerpt:  "In this blog post, we take you on a journey through our second day in Colorado where we visit the picturesque Rocky Mountain National Park. From stunning views of the mountains to sightings of native wildlife, we share our experience of exploring the beauty of the park."
+seo_title:  Your  meta  title  
+seo_description:  Your  meta  description
 header:
-  overlay_image: "https://live.staticflickr.com/65535/51699602895_9f512e632d_o.png"
+  image: "https://live.staticflickr.com/65535/52009565686_a3cd3b4e03_o.png"
   teaser: "https://live.staticflickr.com/65535/52009565686_a3cd3b4e03_o.png"
 categories:
   - Sports
@@ -21,7 +24,6 @@ tags:
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "heart"
-excerpt: "This post includes the detail plan of the second day of our Colorado Trip in August 2021. We visited the Rocky Mountain National Park on this day."
 ---
 
 
@@ -111,5 +113,6 @@ Find details of Day 01 here:
 [Colorado Tour 2021 (Day 01): Tour Plans and Travel Journal](https://shantoroy.com/sports/colorado-road-trip-plan-travel-guide-day-01/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkwMDEzMTI3LC02NDg0MTMwODFdfQ==
+eyJoaXN0b3J5IjpbMjExODk1NzA0MiwyOTAwMTMxMjcsLTY0OD
+QxMzA4MV19
 -->
