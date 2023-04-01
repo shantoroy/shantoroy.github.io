@@ -1,9 +1,9 @@
 ---
 layout: single
 title: "Itemize, Enumerate, and To-do-list in Latex"
-excerpt:  Your  blog  post  excerpt  
-seo_title:  Your  meta  title  
-seo_description:  Your  meta  description
+excerpt:  "Learn how to make lists in Latex using the itemize, enumerate, and to-do-list environments. These are essential tools for organizing and presenting information in a clear and concise manner. Whether you're writing a research paper, a thesis, or simply taking notes, this tutorial will help you master the art of list-making in Latex."
+seo_title:  "Itemize, Enumerate, and To-do-list in Latex: A Comprehensive Guide"
+seo_description:  "Organize your text with ease using the itemize, enumerate, and to-do-list environments in Latex. From research papers to notes, this comprehensive guide will teach you the basics of list-making in Latex."
 header:
   image: "https://live.staticflickr.com/65535/51648791820_873f7cea50_b.jpg"
   teaser: "https://live.staticflickr.com/65535/51648791820_873f7cea50_b.jpg"
@@ -97,5 +97,6 @@ And then-
 
 That's all. Cheers!!!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI1OTUxMjUzLC0xNzc0ODE2NzkwXX0=
+eyJoaXN0b3J5IjpbLTIwMTI2Mzk5NjMsLTE3NzQ4MTY3OTBdfQ
+==
 -->
