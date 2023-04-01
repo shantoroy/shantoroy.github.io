@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Passive Operating System Fingerprinting by Analyzing PCAP files"
+excerpt:  "Passive operating system fingerprinting is a critical skill for any network security professional. By analyzing PCAP files, it is possible to identify the operating systems used on different devices on a network, allowing for more targeted and effective security measures. In this guide, we will explore the tools and techniques used to perform passive OS fingerprinting, including the analysis of network traffic using Wireshark, Tcpdump, and other popular tools. I will also discuss the details of network traffic analysis, discussing the common challenges and best practices for identifying operating systems accurately. Whether you are an experienced network administrator or just getting started in the field, this guide is a must-read for anyone interested in network security and PCAP analysis."
+seo_title:  "Passive Operating System Fingerprinting using PCAP Analysis"
+seo_description:  "Learn how to perform passive operating system fingerprinting by analyzing PCAP files in this comprehensive guide. Discover the key tools and techniques used in the process and gain insights into the art of network traffic analysis."
 header:
   image: "https://live.staticflickr.com/65535/51205416268_12b5776516_c.jpg"
   teaser: "https://live.staticflickr.com/65535/51205416268_12b5776516_c.jpg"
@@ -87,5 +90,6 @@ That's it, have fun, cheers!
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MzkyODc3MCwtMTM5OTY1MzM1MF19
+eyJoaXN0b3J5IjpbMTQyMzg0ODIyNCwtNDYzOTI4NzcwLC0xMz
+k5NjUzMzUwXX0=
 -->
