@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Write a Reverse Proxy  Server in Python: Part 4 (Shell Script for Automation)"
+excerpt:  "In this tutorial series, we have been exploring the implementation of a reverse proxy server in Python. In Part 4, we will create a shell script for automation, which will help us in running the reverse proxy server with ease. By automating the process, we can easily configure and start the server on different machines. We will be using the argparse module to parse command-line arguments. Stay tuned to learn how to simplify the reverse proxy server setup process!"
+seo_title:  "Write a Reverse Proxy Server in Python: Part 4 (Automation with a Shell Script)"
+seo_description:  "Learn how to automate the reverse proxy server setup process by creating a shell script in Python. This tutorial will guide you through using the argparse module to parse command-line arguments and simplify the configuration and startup process. Follow along with our series to implement a reverse proxy server in Python!"
 header:
   image: "https://live.staticflickr.com/65535/51236536118_0418e6819c_w.jpg"
   teaser: "https://live.staticflickr.com/65535/51236536118_0418e6819c_w.jpg"
@@ -171,7 +174,7 @@ The whole tutorial series is listed here:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzY5ODMzNDgsNTQwMjM5MTE3LDY2MD
-IwMzA2NCwtMjAzNDAwMTEzMSwtMTg1MDAxNzY5NCwxNjA2NjI1
-Mjc5XX0=
+eyJoaXN0b3J5IjpbLTMwMzA0NzM5MiwtMTY3Njk4MzM0OCw1ND
+AyMzkxMTcsNjYwMjAzMDY0LC0yMDM0MDAxMTMxLC0xODUwMDE3
+Njk0LDE2MDY2MjUyNzldfQ==
 -->
