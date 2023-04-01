@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Best Motivational Mountain Climbing Documentaries"
+title: "Best Motivational Mountain Climbing Documentaries: My Own Favorites"
 header:
   image: "https://live.staticflickr.com/65535/51678947033_43b15bd9d2_o.png"
   teaser: "https://live.staticflickr.com/65535/51678947033_43b15bd9d2_o.png"
@@ -94,5 +94,5 @@ This documentary movie is about the boldest solos of an introvert versatile clim
 
 Please let me know if I have missed any..!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUyNjEwNzA2XX0=
+eyJoaXN0b3J5IjpbMjAxNjc3NDA0OSw4NTI2MTA3MDZdfQ==
 -->
