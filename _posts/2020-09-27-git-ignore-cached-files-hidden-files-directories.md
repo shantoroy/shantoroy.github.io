@@ -1,8 +1,11 @@
 ---
 layout: single
 title: "How to git-ignore Cached Code files and all Hidden Directories Recursively in a Git Repository!"
+excerpt:  Your  blog  post  excerpt  
+seo_title:  Your  meta  title  
+seo_description:  Your  meta  description
 header:
-  overlay_image: "https://live.staticflickr.com/65535/51699602895_9f512e632d_o.png"
+  image: "https://live.staticflickr.com/65535/51699602895_9f512e632d_o.png"
   teaser: "https://live.staticflickr.com/65535/52025139285_52e38b859f_o.png"
 categories:
   - Git
@@ -65,5 +68,6 @@ Now, if you do `git add --all`, it will not automatically include these particul
 2. https://unix.stackexchange.com/questions/123233/recursively-delete-hidden-directory-its-files
 3. [.gitignore all the .DS_Store files in every folder and subfolder](https://stackoverflow.com/questions/18393498/gitignore-all-the-ds-store-files-in-every-folder-and-subfolder)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjE3ODA1NTgsNzI0OTI2OF19
+eyJoaXN0b3J5IjpbNDc3NTU3NzgsLTExNjE3ODA1NTgsNzI0OT
+I2OF19
 -->
