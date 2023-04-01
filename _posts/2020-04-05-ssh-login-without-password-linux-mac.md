@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "How to SSH Remote Login without Password in Linux/Mac"
+excerpt:  "If you're tired of constantly entering your password when logging into a remote server via SSH, there is a better way. In this blog post, I'll show you how to set up SSH key authentication, so you can log in to your remote server without typing in your password every time."
+seo_title:  "How to SSH Remote Login without Password in Linux/Mac"
+seo_description:  Learn how to set up SSH key authentication to log in to your remote server without a password in Linux and Mac, and streamline your remote server access. Say goodbye to the hassle of typing in your password every time with this simple SSH setup guide.
 header:
   image: "https://live.staticflickr.com/65535/49853015493_7ff7d6881c_z.jpg"
   teaser: "https://live.staticflickr.com/65535/49853015493_7ff7d6881c_z.jpg"
@@ -70,6 +73,6 @@ That's all!!!
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MzczMDA1Niw5MTc3MjY2MzMsLTUxOD
+eyJoaXN0b3J5IjpbLTMxODc2NjU2NSw5MTc3MjY2MzMsLTUxOD
 c1MzIxNiwtMjU2MjkyNzQzLDE4MDMzMDc2MDZdfQ==
 -->
