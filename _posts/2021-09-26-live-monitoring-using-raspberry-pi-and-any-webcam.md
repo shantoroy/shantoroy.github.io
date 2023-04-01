@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Live Video Monitoring using a Raspberry Pi and any Webcam"
+excerpt:  "Are you interested in setting up a live video monitoring system using a Raspberry Pi and any webcam? With this tutorial, you'll learn how to set up a simple video streaming solution that can be accessed remotely. You will also learn how to use motion detection to trigger email notifications. Get started today and keep an eye on your home, office, or other property with this DIY solution."
+seo_title:  "Live Video Monitoring using a Raspberry Pi and any Webcam"
+seo_description:  "Learn how to set up a live video monitoring system using a Raspberry Pi and any webcam with this easy-to-follow tutorial. Monitor your property remotely and receive email notifications with motion detection."
 header:
   image: "https://live.staticflickr.com/65535/51699602895_9f512e632d_o.png"
   teaser: "https://live.staticflickr.com/65535/51881564712_cc98a50055_o.png"
@@ -130,6 +133,6 @@ You can also read my other posts related to `Raspberry Pi`:
 ## References
 1. [How to Make Raspberry Pi Webcam Server and Stream Live Video || Motion + Webcam + Raspberry Pi](https://www.instructables.com/How-to-Make-Raspberry-Pi-Webcam-Server-and-Stream-/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM1MDY3OTA0LC0xMzAzNDIyMDcyLDEzOT
-EzNTU5NzBdfQ==
+eyJoaXN0b3J5IjpbLTE5Nzc3OTQ2MjYsLTEzMDM0MjIwNzIsMT
+M5MTM1NTk3MF19
 -->
