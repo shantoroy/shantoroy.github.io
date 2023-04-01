@@ -2,8 +2,8 @@
 layout: single
 title: "Write a Simple Virus in Python"
 excerpt:  "Have you ever wondered how viruses work? What if you could learn about viruses by writing your own simple, harmless virus in Python? In this blog post, I will walk you through the process of creating a basic virus in Python and explain the underlying concepts that make it work. You'll learn about viruses, how they spread, and how to write code that can replicate itself. Don't worry, this virus is harmless and created purely for educational purposes."
-seo_title:  Your  meta  title  
-seo_description:  Your  meta  description
+seo_title:  "Learn How Virus Works Through Writing a Simple Harmless Virus in Python"
+seo_description:  "Discover how viruses work by writing a simple, harmless virus in Python. This blog post will guide you through the process of creating your own virus while explaining the key concepts behind it. Learn about virus replication, spreading, and more in this educational and informative post."
 header:
   image: "https://live.staticflickr.com/65535/51221326129_1df153df24_c.jpg"
   teaser: "https://live.staticflickr.com/65535/51221326129_1df153df24_c.jpg"
@@ -247,6 +247,6 @@ Have a good day! Cheers!!!
 1. [Viruses – From Newbie to pro](https://www.geeksforgeeks.org/viruses-from-newbie-to-pro/)
 2. [os- Miscellaneous operating system interfaces](https://docs.python.org/3/library/os.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMTQzMTAzLDE2MzY4NDQ5OTMsMjA0Mj
+eyJoaXN0b3J5IjpbODE3OTg4NTk1LDE2MzY4NDQ5OTMsMjA0Mj
 c4NDc5NywtNjY1NTgzNzY5XX0=
 -->
