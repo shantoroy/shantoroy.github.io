@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Write a Reverse Proxy  Server in Python: Part 1 (Reverse Proxy Server)"
+excerpt:  "In this tutorial, you will learn how to write a reverse proxy server in Python. Reverse proxies are used to distribute traffic across multiple servers or to hide the identity of the server. We will start by building the reverse proxy server, which will listen on a specified port and forward incoming requests to one of the backend servers."
+seo_title:  "Write a Reverse Proxy Server in Python: Part 1 (Reverse Proxy Server)"
+seo_description:  "Learn how to build a reverse proxy server in Python. In this tutorial, I will cover the basics of a reverse proxy and write a reverse proxy server that listens on a specified port and forwards incoming requests to one of the backend servers. Follow this step-by-step guide to create your own reverse proxy server in Python."
 header:
   image: "https://live.staticflickr.com/65535/51222794636_14a21deed5_w.jpg"
   teaser: "https://live.staticflickr.com/65535/51222794636_14a21deed5_w.jpg"
@@ -263,7 +266,7 @@ The whole tutorial series is listed here:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NzIxNTc2OCw2MTI1NTg5MDgsMTkyMj
+eyJoaXN0b3J5IjpbMTY0NDc5NzAxNyw2MTI1NTg5MDgsMTkyMj
 E5MjA5OSwxMTYxMDI4Mjg4LC0xMjk0MTI2NzQzLC0xNTE1MjI3
 OTI1LC0xMDg2NDM4MTYsNjMxODI5NDEzXX0=
 -->
