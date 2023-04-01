@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Object Detection from Images and Counting Objects in Python using OpenCV and CVLib"
+excerpt:  "Learn how to detect objects from images and count them using Python! In this tutorial, we will show you how to use OpenCV and CVLib to perform object detection on images. This post will walk you through each step of the process, including installing the necessary libraries, loading the image, detecting objects, and counting them. You'll also learn some useful techniques for filtering out unwanted objects and optimizing your object detection algorithm." 
+seo_title:  "Object Detection from Images and Counting Objects in Python"
+seo_description:  "Learn how to use OpenCV and CVLib to detect objects from images and count them in Python! This tutorial walks you through the process of installing necessary libraries, loading images, detecting objects, and filtering out unwanted objects."
 header:
   image: "https://live.staticflickr.com/65535/51687913575_dc02a1466e_o.png"
   teaser: "https://live.staticflickr.com/65535/51687913575_dc02a1466e_o.png"
@@ -63,5 +66,5 @@ In a later tutorial we will see how to detect objects from a live feed.
 
 Till then Cheers! :sunglasses:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NDQwNTg2N119
+eyJoaXN0b3J5IjpbMTU0OTQ5NTczMywxMDU0NDA1ODY3XX0=
 -->
