@@ -1,9 +1,9 @@
 ---
 layout: single
 title: "Write a Reverse Proxy  Server in Python: Part 3 (Client-side Script)"
-excerpt:  "In this third part of the "Write a Reverse Proxy Server in Python" series, we'll cover the client-side script implementation. The client-side script is the script that the end-user interacts with when they try to access the resources on the backend server."
-seo_title:  Your  meta  title  
-seo_description:  Your  meta  description
+excerpt:  "In this third part of the, Write a Reverse Proxy Server in Python, series, we'll cover the client-side script implementation. The client-side script is the script that the end-user interacts with when they try to access the resources on the backend server."
+seo_title:  "Write a Reverse Proxy Server in Python: Part 3 (Client-side Script)"
+seo_description:  "In this post, we'll discuss the implementation of the client-side script in the, Write a Reverse Proxy Server in Python, series. The client-side script is the interface through which end-users access the resources on the backend server. Read on to learn more about writing a reverse proxy server in Python."
 header:
   image: "https://live.staticflickr.com/65535/51223565539_e5e45f3896_w.jpg"
   teaser: "https://live.staticflickr.com/65535/51223565539_e5e45f3896_w.jpg"
@@ -135,7 +135,7 @@ The whole tutorial series is listed here:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTU1NTE3NTEsMTQ0MzIyODI5MSwtMT
-g4Njc1NjUwLC0xOTIxMjc5MzcyLC0yMDgwODc4OTA3LC0yMTI2
-NDc4MTg0LDE2ODExMTk5NjUsLTU4MDUzNTY3OV19
+eyJoaXN0b3J5IjpbMTU2MDMzNjc0NywxNDQzMjI4MjkxLC0xOD
+g2NzU2NTAsLTE5MjEyNzkzNzIsLTIwODA4Nzg5MDcsLTIxMjY0
+NzgxODQsMTY4MTExOTk2NSwtNTgwNTM1Njc5XX0=
 -->
