@@ -1,6 +1,9 @@
 ---
 layout: single
-title: "How to Write Matrix with Row/Column Labels in Latex"
+title: "How to Write Matrix with Row or Column Labels in Latex"
+excerpt:  "Writing matrices with row/column labels is a common requirement in scientific and technical documents. LaTeX provides several ways to accomplish this, and in this post, I will discuss some of the most popular ones. I will also provide code snippets and examples to help you get started."
+seo_title:  "How to Write Matrix with Row/Column Labels in LaTeX: Complete Guide"
+seo_description: "Writing matrices with row/column labels is easy in LaTeX. In this post, I will discuss different methods to accomplish this task, including the use of `matrix` and `bmatrix` environments, and the `array` package. I will provide code snippets and examples to help you write matrices with labels like a pro."
 header:
   image: "https://live.staticflickr.com/65535/51663858257_8c17ded63f_b.jpg"
   teaser: "https://live.staticflickr.com/65535/51663858257_8c17ded63f_b.jpg"
@@ -192,7 +195,7 @@ Once again, you can check the outputs in this [Overleaf Document](https://www.ov
 2. [Labeling the Dimensions of a Matrix](https://tex.stackexchange.com/questions/416635/labeling-the-dimensions-of-a-matrix)
 3. [Matrix with column and row headings (duplicate)](https://tex.stackexchange.com/questions/423621/matrix-with-column-and-row-headings)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MDUzNTM1MywxMzY5MjgwMjEsMTgxMD
-MwNjM4LDE5ODMxMzQ1NzgsLTEwNDA0MjYwNDYsODYzNzA4NDEx
-XX0=
+eyJoaXN0b3J5IjpbLTkyNDI1NzM1NCwxOTYwNTM1MzUzLDEzNj
+kyODAyMSwxODEwMzA2MzgsMTk4MzEzNDU3OCwtMTA0MDQyNjA0
+Niw4NjM3MDg0MTFdfQ==
 -->
