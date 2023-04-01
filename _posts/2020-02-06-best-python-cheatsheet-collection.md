@@ -2,7 +2,7 @@
 layout: single
 title: "A Curated list of Python Cheatsheets Collections"
 excerpt:  "Python is a powerful and versatile programming language that is widely used in a variety of fields, including data science, machine learning, web development, and more. As you learn Python, it can be helpful to have a cheatsheet handy that summarizes the most important concepts, syntax, and libraries. In this post, I've curated a list of the best Python cheatsheet collections out there, so you can easily find the resources you need to master this popular language."
-seo_title:  "A Curated List of Python Cheatsheets Collections: Find the Best Resources to Master Python"
+seo_title:  "A Curated List of Python Cheatsheets Collections- Find the Best Resources to Master Python"
 seo_description:  "Looking for the best Python cheatsheet collections? Check out our curated list of top resources for mastering Python programming language. Find cheatsheets that cover important concepts, syntax, and libraries for data science, machine learning, web development, and more."
 header:
   image: "https://live.staticflickr.com/65535/52479261660_2769d81bc2_o.png"
@@ -43,5 +43,6 @@ I find [Cheatography](https://cheatography.com/) as the primary resource of chea
 That's all for today! Have a great day!!!
 Cheers!!! :sunglasses:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA1NTU1NDQyLC0yMDUzOTU5NTgxXX0=
+eyJoaXN0b3J5IjpbMjE4NjIwMDY5LDMwNTU1NTQ0MiwtMjA1Mz
+k1OTU4MV19
 -->
