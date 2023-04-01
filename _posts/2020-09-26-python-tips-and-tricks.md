@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Python Programming: Useful Tips and Tricks"
+excerpt:  "In this blog post, I will share some useful Python programming tips and tricks to help you write more efficient and effective code. Whether you're a beginner or an experienced Python programmer, these tips can help you improve your coding skills and increase your productivity. I'll cover topics like code optimization, debugging, data structures, and more."
+seo_title:  Your  meta  title  
+seo_description:  Your  meta  description
 header:
   image: "https://live.staticflickr.com/65535/51647090362_457bcd966b_b.jpg"
   teaser: "https://live.staticflickr.com/65535/51647090362_457bcd966b_b.jpg"
@@ -244,5 +247,5 @@ sorted_dict = {k:v for k,v in sorted(my_dict.items(), key=lambda item: item[1])}
 	# runtime: 0.0002 sec
 	```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ5NDYxMTY5XX0=
+eyJoaXN0b3J5IjpbMjE2NTI1MDQxLDg0OTQ2MTE2OV19
 -->
