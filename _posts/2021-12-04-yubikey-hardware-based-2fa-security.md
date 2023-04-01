@@ -2,8 +2,8 @@
 layout: single
 title: "YubiKey: A Hardware-based Two-factor Authentication Security Tool"
 excerpt:  "YubiKey is a small, portable hardware-based security key that adds an extra layer of protection to our online accounts. It is a two-factor authentication (2FA) tool that provides a more secure way of logging into our online accounts. YubiKey can be used with a variety of online services, including Google, Facebook, Dropbox, and more. This post explains what YubiKey is, how it works, and why it is beneficial. If you want to enhance your online security and protect your sensitive data from unauthorized access, YubiKey is the solution for you."  
-seo_title:  Your  meta  title  
-seo_description:  Your  meta  description
+seo_title:  "YubiKey: Enhance Your Online Security with This Hardware-based Two-factor Authentication Tool"
+seo_description:  "Learn about YubiKey, a hardware-based security key that adds an extra layer of protection to your online accounts. This post explains what YubiKey is, how it works, and why it is beneficial. It also highlights the key features of YubiKey and its compatibility with various online services."
 header:
   image: "https://live.staticflickr.com/65535/51725279518_fa654f4994_o.png"
   teaser: "https://live.staticflickr.com/65535/51725279518_fa654f4994_o.png"
@@ -47,5 +47,5 @@ You can [find it at Amazon.com](https://www.amazon.com/Yubico-YubiKey-USB-Authen
 You can follow the company in [Twitter](https://twitter.com/Yubico) or [LinkedIn](https://www.linkedin.com/company/yubico/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NzgzNzg5NCw0OTI2NTE5MjZdfQ==
+eyJoaXN0b3J5IjpbMTQxMzA4NTkyNiw0OTI2NTE5MjZdfQ==
 -->
