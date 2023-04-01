@@ -2,8 +2,8 @@
 layout: single
 title: "Introduction to Reinforcement Learning (Part 03: Q-Learning in Python)"
 excerpt:  "Reinforcement Learning is an exciting and powerful technique used in artificial intelligence and machine learning. In this tutorial, we will dive into Q-Learning, one of the most popular algorithms used in Reinforcement Learning. We will learn how to implement the Q-Learning algorithm in Python and apply it to solve various problems."
-seo_title:  Your  meta  title  
-seo_description:  Your  meta  description
+seo_title:  "Introduction to Reinforcement Learning (Part 03: Q-Learning in Python)"
+seo_description:  "Learn about Q-Learning, one of the most popular algorithms used in Reinforcement Learning, in this tutorial. We will explore how to implement the Q-Learning algorithm in Python and apply it to solve various problems."
 header:
   image: "https://live.staticflickr.com/65535/52718364503_44032e3ab3_o.png"
   teaser: "https://live.staticflickr.com/65535/52718364503_44032e3ab3_o.png"
@@ -208,6 +208,6 @@ Now, we can check whether we are getting the expected rewards per episode.
 5. [Reward Based Epsilon Decay](https://aakash94.github.io/Reward-Based-Epsilon-Decay/)
 6. [Q – Learning Algorithm with Step by Step Implementation using Python](https://www.analyticsvidhya.com/blog/2021/04/q-learning-algorithm-with-step-by-step-implementation-using-python/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NjQxNDMxMiwxNjk1MzUwODMwLC0yMD
+eyJoaXN0b3J5IjpbMTEyMDE4MzgyMiwxNjk1MzUwODMwLC0yMD
 YyNTE1NzM4LC00NjMzMDQ2MzhdfQ==
 -->
