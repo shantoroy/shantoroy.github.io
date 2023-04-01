@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Machine Learning: Multiclass Classification Template for any Classification Dataset"
+excerpt:  "Are you struggling with classifying multiple types of objects in your machine learning project? This can be a challenging task, especially when working with complex datasets. In this tutorial, we provide a multiclass classification template that can be applied to any classification dataset, using popular machine learning algorithms such as Support Vector Machines (SVM), Random Forest, K-Nearest Neighbors (KNN), and others. We also include code examples and step-by-step instructions for implementing this template in Python, making it easy for you to adapt it to your specific project needs."
+seo_title:  Your  meta  title  
+seo_description:  Your  meta  description
 header:
   image: "https://live.staticflickr.com/65535/51237631257_b822eb6470_w.jpg"
   teaser: "https://live.staticflickr.com/65535/51237631257_b822eb6470_w.jpg"
@@ -257,6 +260,6 @@ Thanks everyone! Have a nice day!!!
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODQ0ODg5MDUsMTI5MjY0NzEzMSwtMT
+eyJoaXN0b3J5IjpbLTE4OTEwMzAyMDgsMTI5MjY0NzEzMSwtMT
 cwNzk0MDQyMV19
 -->
