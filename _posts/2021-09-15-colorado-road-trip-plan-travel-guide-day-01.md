@@ -1,9 +1,9 @@
 ---
 layout: single
 title: "Colorado Tour 2021 (Day 01): Tour Plans and Travel Journal"
-excerpt:  Your  blog  post  excerpt  
-seo_title:  Your  meta  title  
-seo_description:  Your  meta  description
+excerpt:  "Join me as I embark on a journey to explore the stunning state of Colorado. In this travel blog post, I will take you through my tour plans for Day 01 and share my travel journal, including the highlights of my journey, the challenges I faced, and the experiences that made my first day in Colorado unforgettable. This post includes the detail plan of the very first day of our Colorado Trip in August 2021"
+seo_title:  "Colorado Tour 2021 (Day 01): Tour Plans and Travel Journal"
+seo_description:  "Follow my adventure as I explore Colorado and share my tour plans and travel journal for Day 01. Discover the highlights of my journey, the challenges I faced, and the unforgettable experiences that made my first day in Colorado an adventure of a lifetime."
 header:
   image: "https://live.staticflickr.com/65535/51699602895_9f512e632d_o.png"
   teaser: "https://live.staticflickr.com/65535/52009565686_a3cd3b4e03_o.png"
@@ -21,7 +21,6 @@ tags:
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "heart"
-excerpt: "This post includes the detail plan of the very first day of our Colorado Trip in August 2021"
 ---
 
 Recently, we visited Colorado and it was one of the best trip of my life. Here, in this series, I will cover the details of the trip day-by-day.
@@ -95,6 +94,6 @@ Check out Day 02 details in the other post:
 
 [Colorado Tour 2021 (Day 02): The Rocky Mountain National Park](https://shantoroy.com/sports/colorado-road-trip-plan-travel-guide-day-02/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcxNzY5OTM0LDE4ODM1MDg3OTUsMTg0MD
-Q0MjUwNl19
+eyJoaXN0b3J5IjpbMTU0OTk4Mjk1MiwxODgzNTA4Nzk1LDE4ND
+A0NDI1MDZdfQ==
 -->
