@@ -1,9 +1,9 @@
 ---
 layout: single
 title: "Google Analytics in Minimal Mistakes Blog Theme"
-excerpt:  Your  blog  post  excerpt  
-seo_title:  Your  meta  title  
-seo_description:  Your  meta  description
+excerpt:  "Want to track the performance of your Minimal Mistakes blog? Google Analytics is a powerful tool that can help you to measure your website's traffic, engagement, and more. In this tutorial, you will learn how to set up Google Analytics in your Minimal Mistakes blog, track your blog's performance, and gain insights into your audience's behavior."
+seo_title:  "Google Analytics in Minimal Mistakes Blog Theme"
+seo_description:  "Learn how to add Google Analytics to your Minimal Mistakes blog theme and track your website's performance, traffic, and audience behavior. This tutorial will guide you through the process of setting up Google Analytics and using its features to gain insights into your blog's performance."
 header:
   image: "https://live.staticflickr.com/65535/51702645308_89b0e0fe5a_o.png"
   teaser: "https://live.staticflickr.com/65535/51702645308_89b0e0fe5a_o.png"
@@ -69,6 +69,6 @@ If you want to read how to add `Google Adsense` in minimal mistakes theme, feel 
 1. https://github.com/mmistakes/minimal-mistakes/issues/85
 2. https://mmistakes.github.io/minimal-mistakes/docs/configuration/#seo-social-sharing-and-analytics-settings
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDAzNjAzNTcsLTgzNzg3ODYzLC0zOT
-I5ODM3MzEsLTE4NDUxNTM4MDZdfQ==
+eyJoaXN0b3J5IjpbMTcyNzU2NjQ4LC04Mzc4Nzg2MywtMzkyOT
+gzNzMxLC0xODQ1MTUzODA2XX0=
 -->
