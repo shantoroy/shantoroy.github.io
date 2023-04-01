@@ -2,7 +2,7 @@
 layout: single
 title: " Learning Web Application Vulnerabilities (Part 01): Installing Damn Vulnerable Web Application (DVWA)"
 header:
-  overlay_image: "https://live.staticflickr.com/65535/51699602895_9f512e632d_o.png"
+  image: "https://live.staticflickr.com/65535/52007423566_8be9641575_o.png"
   teaser: "https://live.staticflickr.com/65535/52007423566_8be9641575_o.png"
 categories:
   - Security
@@ -62,5 +62,5 @@ That's all for today. I will post the next tutorials as early as possible.
 
 Till then, cheers!!!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU1NTIxNjQ5XX0=
+eyJoaXN0b3J5IjpbOTExOTIwMDQ3LDQ1NTUyMTY0OV19
 -->
