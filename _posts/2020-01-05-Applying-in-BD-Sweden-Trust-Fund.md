@@ -2,8 +2,8 @@
 layout: single
 title: "How to Apply for the Bangladesh-Sweden Trust Fund for a Travel Grant (BD students only)"
 excerpt:  "Are you a student in Bangladesh who's looking for opportunities to travel abroad? The Bangladesh-Sweden Trust Fund for Research and Development (BSTF) offers travel grants to Bangladeshi students who want to attend conferences, workshops, or training programs outside of Bangladesh. In this post, I'll walk you through the steps to apply for a travel grant from the BSTF, including eligibility criteria, application requirements, and deadlines."
-seo_title:  Your  meta  title  
-seo_description:  Your  meta  description
+seo_title:  "How to Apply for the Bangladesh-Sweden Trust Fund for a Travel Grant (BD students only)"
+seo_description:  "Are you a student in Bangladesh looking to attend a conference or training program outside of the country? The Bangladesh-Sweden Trust Fund for Research and Development (BSTF) offers travel grants to Bangladeshi students. In this post, I'll show you how to apply for a travel grant from the BSTF, including eligibility criteria, application requirements, and deadlines."
 header:
   image: "https://live.staticflickr.com/65535/51227320076_544aa0f944_w.jpg"
   teaser: "https://live.staticflickr.com/65535/51227320076_544aa0f944_w.jpg"
@@ -62,7 +62,7 @@ it did not pay any travel allowance to Mr. <Your Name> for his visit to the Unit
 Please let me know if you need more information.
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NjI2NDQwMywtNjU4MjEyMzM5LDEyNj
+eyJoaXN0b3J5IjpbMTE3MDgxMTI2MywtNjU4MjEyMzM5LDEyNj
 cxNjg3OTAsMTMyMjA5OTgwNywxNDczMjYyOTU1LC04MDkwNzk0
 MTQsMTc1MzY4Njc4N119
 -->
