@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "A curated list of Python Cheatsheets Collections"
+excerpt:  Your  blog  post  excerpt  
+seo_title:  Your  meta  title  
+seo_description:  Your  meta  description
 header:
   image: "https://live.staticflickr.com/65535/52479261660_2769d81bc2_o.png"
   teaser: "https://live.staticflickr.com/65535/52479261660_2769d81bc2_o.png"
@@ -40,5 +43,5 @@ I find [Cheatography](https://cheatography.com/) as the primary resource of chea
 That's all for today! Have a great day!!!
 Cheers!!! :sunglasses:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTM5NTk1ODFdfQ==
+eyJoaXN0b3J5IjpbMTEyNTYwNDE1MCwtMjA1Mzk1OTU4MV19
 -->
