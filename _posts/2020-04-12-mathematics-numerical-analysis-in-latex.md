@@ -1,9 +1,9 @@
 ---
 layout: single
 title: "Mathematics Documentation in Latex: How to Properly use Math Environments and Symbols"
-excerpt:  Your  blog  post  excerpt  
-seo_title:  Your  meta  title  
-seo_description:  Your  meta  description
+excerpt:  "If you're writing mathematical documents, Latex is a great tool for creating professional-looking equations and symbols. However, it can be overwhelming to use if you're not familiar with its syntax and math environments. In this post, I'll guide you through the basics of math environments, symbols, and how to use them properly to create clear and concise mathematical documents in Latex. I also provided some resource links to follow."
+seo_title:  "Mathematics Documentation in Latex: A Guide to Using Math Environments and Symbols"
+seo_description:  "Learn how to properly use math environments and symbols in Latex for creating professional-looking mathematical documents. This guide covers the basics of Latex syntax for math, including how to use math environments, symbols, and more."
 header:
   image: "https://live.staticflickr.com/65535/49814118206_a5cf091236_b.jpg"
   teaser: "https://live.staticflickr.com/65535/49814118206_a5cf091236_b.jpg"
@@ -93,6 +93,5 @@ Please check this [Overleaf Document](https://www.overleaf.com/read/kyqrmhfcnrwx
 1. [UnicodeMath: A Nearly Plain-Text Encoding of Mathematics](http://www.unicode.org/notes/tn28/UTN28-PlainTextMath-v3.1.pdf)
 2. [LaTeX Math in MicroSoft Office](https://docs.microsoft.com/en-us/archive/blogs/murrays/latex-math-in-office)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODQ5NzA5MzEsLTE3NTM1NjA5MjRdfQ
-==
+eyJoaXN0b3J5IjpbNzE0Mzg1ODE0LC0xNzUzNTYwOTI0XX0=
 -->
