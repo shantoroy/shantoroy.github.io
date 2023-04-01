@@ -163,7 +163,15 @@ pi@raspberrypi:~/exploitation/mprotect $ ropper --file /bin/ls --search "pop"
 
 ## References:
 1. [https://github.com/sashs/Ropper](https://github.com/sashs/Ropper)
+
+
+## Full ARM Exploitation Series
+* [ARM Exploitation with Raspberry Pi: Lab Setup](https://shantoroy.com/security/ARM-exploitation-Raspberry-Pi-lab-setup/)
+* [ARM Exploitation with Raspberry Pi: Basic Stack Overflow](https://shantoroy.com/security/ARM-exploitation-raspberry-pi-stack-overflow/)
+* [ARM Exploitation with Raspberry Pi: ARM Ret-to-Libc](https://shantoroy.com/security/ret-to-libc-arm-exploitation-raspberry-pi/)
+* * [ARM Exploitation with Raspberry Pi: Return Back to Program without Crashing](https://shantoroy.com/security/avoid-segmentation-fault-return-from-shellcode/)
+* [ARM Exploitation with Raspberry Pi: Introduction to Return Oriented Programming (ROP)](https://shantoroy.com/security/simple-rop-arm-exploitation-return-oriented-programming/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NjU3OTkxOCwtMjk0MzgzMCwyNTgyMz
-QzODFdfQ==
+eyJoaXN0b3J5IjpbLTEzOTk5Nzg0NzUsLTI5NDM4MzAsMjU4Mj
+M0MzgxXX0=
 -->
