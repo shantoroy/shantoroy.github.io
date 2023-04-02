@@ -35,7 +35,7 @@ In this post, I will go through the steps to install a specific linux header in 
 2. Extract the source code to the `/usr/src` directory
 
 	```bash
-	$ sudo cp linux-4.9.y-stable.zip /usr/src/
+	$ sudo cp linux-rpi-4.9.y-stable.zip /usr/src/
 	$ cd /usr/src/
 	```
 	```bash
@@ -118,5 +118,5 @@ You can also read my other posts related to `Raspberry Pi`:
 
 *  [How to Configure a Raspberry Pi as an OpenFlow Switch: Steps, Issues, and Solutions](https://shantoroy.com/openflow/how-to-configure-raspberry-pi-as-open-flow-switch/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NTIxNjUyOV19
+eyJoaXN0b3J5IjpbMjA5Nzg0NDAxNSwxMDU1MjE2NTI5XX0=
 -->
