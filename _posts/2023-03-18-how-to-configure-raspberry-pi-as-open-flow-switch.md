@@ -203,7 +203,7 @@ I have written another blog post on how to manually install an earlier version. 
 [How to Install Specific Version of Linux Header in a Raspberry Pi](https://shantoroy.com/raspberry%20pi/install-specific-version-of-linux-header/)
 
 
-Now, to make `modprobe` work, we need to restart the raspberry pi. When rebooted, let's do the following:
+Now, to make `modprobe` work, we need to **restart** the raspberry pi. When rebooted, let's do the following:
 ```bash
 $ su
 $ cd openvswitch-2.17.1/datapath/linux/
@@ -280,8 +280,9 @@ You can also read my other posts related to `Raspberry Pi`:
 5. [Open vSwitch database connection failure after rebooting](https://stackoverflow.com/questions/28506053/open-vswitch-database-connection-failure-after-rebooting)
 6. [[Official] Open vSwitch Releases](https://docs.openvswitch.org/en/latest/faq/releases/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE1ODAxNjEwLDk0NTU0MDQ3OCwtNDM2MT
-AyMzc3LDQyMzg1NDkzOCwtMTMyMjU0ODI3MywtMTkxNDIyNzUx
-MCwtMTgyMTU3MzI0OSw0NTg1NjE5MjIsMTQzNTg0NDM0OSwtMj
-ExNDc5OTE4OSwxMTI2NDYwOTMsMTEzNDYxNzA1MF19
+eyJoaXN0b3J5IjpbMTM0NDE2MDQ1OCw4MTU4MDE2MTAsOTQ1NT
+QwNDc4LC00MzYxMDIzNzcsNDIzODU0OTM4LC0xMzIyNTQ4Mjcz
+LC0xOTE0MjI3NTEwLC0xODIxNTczMjQ5LDQ1ODU2MTkyMiwxND
+M1ODQ0MzQ5LC0yMTE0Nzk5MTg5LDExMjY0NjA5MywxMTM0NjE3
+MDUwXX0=
 -->
