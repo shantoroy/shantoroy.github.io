@@ -47,6 +47,14 @@ OpenFlow switches allow network administrators to centralize network management 
     ``` 
     
     Replace "bridge_name" with the name of your bridge and "eth0" with the name of your Ethernet interface.
+
+3. To display the OpenFlow ports for the bridge, you can run the following command:
+
+	```bash
+	sudo ovs-ofctl show bridge_name
+	``` 
+
+	This command will output the OpenFlow ports for each physical port on the bridge, along with the port number assigned by OpenFlow. You can then use these port numbers in your OpenFlow rules.
     
 3.  Configure the IP address of your Raspberry Pi's bridge interface:
 
@@ -179,5 +187,5 @@ You can also read my other posts related to `Raspberry Pi`:
 * [ARM Exploitation with Raspberry Pi: Introduction to Return Oriented Programming (ROP)](https://shantoroy.com/security/simple-rop-arm-exploitation-return-oriented-programming/)
 * [Using Ropper to find ROP Gadgets](https://shantoroy.com/security/using-ropper-to-find-address-of-gadgets/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMDA1NjkzMV19
+eyJoaXN0b3J5IjpbLTE1MDI2MjM3LDE3MzAwNTY5MzFdfQ==
 -->
