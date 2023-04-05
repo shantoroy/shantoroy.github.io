@@ -249,7 +249,7 @@ $ ./ovs_script.sh
 
 ```bash
 $ /usr/local/share/openvswitch/scripts/ovs-ctl --system-id start
-$ ./ovs_script.sh
+$ sudo ./ovs_script.sh
 ```
 And we just configured a Raspberry Pi to act as an Open Flow Switch.
 
@@ -280,9 +280,9 @@ You can also read my other posts related to `Raspberry Pi`:
 5. [Open vSwitch database connection failure after rebooting](https://stackoverflow.com/questions/28506053/open-vswitch-database-connection-failure-after-rebooting)
 6. [[Official] Open vSwitch Releases](https://docs.openvswitch.org/en/latest/faq/releases/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NDE2MDQ1OCw4MTU4MDE2MTAsOTQ1NT
-QwNDc4LC00MzYxMDIzNzcsNDIzODU0OTM4LC0xMzIyNTQ4Mjcz
-LC0xOTE0MjI3NTEwLC0xODIxNTczMjQ5LDQ1ODU2MTkyMiwxND
-M1ODQ0MzQ5LC0yMTE0Nzk5MTg5LDExMjY0NjA5MywxMTM0NjE3
-MDUwXX0=
+eyJoaXN0b3J5IjpbLTU5MTQ5NTc4OSwxMzQ0MTYwNDU4LDgxNT
+gwMTYxMCw5NDU1NDA0NzgsLTQzNjEwMjM3Nyw0MjM4NTQ5Mzgs
+LTEzMjI1NDgyNzMsLTE5MTQyMjc1MTAsLTE4MjE1NzMyNDksND
+U4NTYxOTIyLDE0MzU4NDQzNDksLTIxMTQ3OTkxODksMTEyNjQ2
+MDkzLDExMzQ2MTcwNTBdfQ==
 -->
