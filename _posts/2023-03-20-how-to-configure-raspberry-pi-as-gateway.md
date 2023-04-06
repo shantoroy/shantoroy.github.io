@@ -161,6 +161,12 @@ To make routing happen between both end devices, we will have to run the followi
 $ sudo sysctl net.ipv4.ip_forward=1
 ```
 
+also, set up NAT (Network Address Translation) on the Raspberry Pi to allow traffic from the honeypot network to access the Internet via the real network.
+```bash
+sudo iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+sudo iptables-save | sudo tee /etc/iptables/rules.v4
+```
+
 Now, you should be able to ping each devices. 
 
 Note that, if the gateways are not properly set up and ping does not work, you can additionally do the following:
@@ -168,13 +174,16 @@ Note that, if the gateways are not properly set up and ping does not work, you c
 Add static routes on each of the two Raspberry Pis to enable them to communicate with each other. On the Raspberry Pi with IP address 192.168.5.10, add a static route for the 192.168.6.0/24 subnet by running the following command:
 
 ```bash
-sudo ip route add 192.168.6.0/24 via 192.168.5.1
+$ sudo ip route add 192.168.6.0/24 via 192.168.5.1
 ```
 Similarly, on the Raspberry Pi with IP address 192.168.6.10, add a static route for the 192.168.5.0/24 subnet by running the following command:
 
 ```bash
-sudo ip route add 192.168.5.0/24 via 192.168.6.1
+$ sudo ip route add 192.168.5.0/24 via 192.168.6.1
 ```
+
+
+
 
 ## Concluding Remarks
 That's all for today. I hope this tutorial can help you set up testbeds according to your needs if there are multiple networks you are dealing with.
@@ -205,5 +214,5 @@ You can also read my other posts related to `Raspberry Pi`:
 
 -   [How to Configure a Raspberry Pi as an OpenFlow Switch: Steps, Issues, and Solutions](https://shantoroy.com/openflow/how-to-configure-raspberry-pi-as-open-flow-switch/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDc3NjEzNDYsLTE3MzgwNDk1MF19
+eyJoaXN0b3J5IjpbLTYyNzgwNTUzMywtMTczODA0OTUwXX0=
 -->
