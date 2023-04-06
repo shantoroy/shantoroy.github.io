@@ -35,7 +35,7 @@ OpenFlow switches allow network administrators to centralize network management 
 1.  Configure Open vSwitch by creating a bridge using the following command:
     
     ```bash
-    sudo ovs-vsctl add-br bridge_name
+    $ sudo ovs-vsctl add-br bridge_name
     ``` 
     
     Replace "bridge_name" with the name you want to give your bridge.
@@ -73,7 +73,7 @@ OpenFlow switches allow network administrators to centralize network management 
 5.  Assign a name to the port that connects the two Raspberry Pi's. You can use the following command to assign a name to the port:
 
     ```bash
-    sudo ovs-vsctl set interface <port_name> ofport_request=<port_number>
+    $ sudo ovs-vsctl set interface <port_name> ofport_request=<port_number>
     ``` 
     
     Replace "<port_name>" with a name you want to assign to the port, and "<port_number>" with a unique port number you want to assign to the port.
@@ -81,7 +81,7 @@ OpenFlow switches allow network administrators to centralize network management 
 2.  To deactivate the port, you can use the following command:
 
     ```bash
-    sudo ovs-ofctl mod-port bridge_name <port_name> down
+    $ sudo ovs-ofctl mod-port bridge_name <port_name> down
     ``` 
     
     Replace "bridge_name" with the name of the bridge that the port is attached to, and "<port_name>" with the name you assigned to the port in step 1.
@@ -89,14 +89,14 @@ OpenFlow switches allow network administrators to centralize network management 
 3.  To reactivate the port, you can use the following command:
 
     ```bash
-    sudo ovs-ofctl mod-port bridge_name <port_name> up
+    $ sudo ovs-ofctl mod-port bridge_name <port_name> up
     ```
 
 ## Adding Flow Rules
 1.  We can use the `ovs-ofctl` command to add flow rules to the switch. The syntax for the command is as follows:
 
 	```bash
-	$ ovs-ofctl add-flow <bridge> <flow>
+	$ sudo ovs-ofctl add-flow <bridge> <flow>
 	``` 
 
 	Where `<bridge>` is the name of the OpenFlow switch, and `<flow>` is the flow rule that you want to add.
@@ -104,7 +104,7 @@ OpenFlow switches allow network administrators to centralize network management 
 	Here is an example of a flow rule that forwards all incoming packets to port 2:
 
 	```bash
-	$ ovs-ofctl add-flow br0 in_port=1,actions=output:2
+	$ sudo ovs-ofctl add-flow br0 in_port=1,actions=output:2
 	``` 
 
 	This command adds a flow rule to the switch `br0` that matches incoming packets on port 1 and forwards them to port 2.
@@ -112,7 +112,7 @@ OpenFlow switches allow network administrators to centralize network management 
 2.  We can also use the `ovs-appctl` command to view the current flow rules on the switch:
 
 	```bash
-	ovs-appctl ofproto/trace <bridge> <flow>
+	$ sudo ovs-appctl ofproto/trace <bridge> <flow>
 	``` 
 
 	Where `<bridge>` is the name of the OpenFlow switch, and `<flow>` is the flow rule that you want to trace. This command will display the flow of the packet through the switch and show which flow rules match the packet.
@@ -124,13 +124,13 @@ You can check if an Ethernet cable is connected to one of the Ethernet ports on 
 1.  Install `ethtool` if it's not already installed on your Raspberry Pi. You can use the following command to install it:
 
     ```bash
-    sudo apt-get install ethtool
+    $ sudo apt-get install ethtool
     ``` 
     
 2.  Run the following command to check the link status of the Ethernet port:
 
     ```bash
-    sudo ethtool eth0
+    $ sudo ethtool eth0
     ``` 
     
     Replace "eth0" with the name of the Ethernet interface that you want to check.
@@ -192,6 +192,6 @@ You can also read my other posts related to `Raspberry Pi`:
 * [ARM Exploitation with Raspberry Pi: Introduction to Return Oriented Programming (ROP)](https://shantoroy.com/security/simple-rop-arm-exploitation-return-oriented-programming/)
 * [Using Ropper to find ROP Gadgets](https://shantoroy.com/security/using-ropper-to-find-address-of-gadgets/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNTcwOTc4OCwtMTUwMjYyMzcsMTczMD
+eyJoaXN0b3J5IjpbMTYwNzcxMzAwMSwtMTUwMjYyMzcsMTczMD
 A1NjkzMV19
 -->
