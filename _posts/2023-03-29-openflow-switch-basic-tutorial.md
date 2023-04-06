@@ -43,7 +43,7 @@ OpenFlow switches allow network administrators to centralize network management 
 2.  Add your Raspberry Pi's Ethernet interface to the bridge using the following command:
 
     ```bash
-    sudo ovs-vsctl add-port bridge_name eth0
+    $ sudo ovs-vsctl add-port bridge_name eth0
     ``` 
     
     Replace "bridge_name" with the name of your bridge and "eth0" with the name of your Ethernet interface.
@@ -51,7 +51,7 @@ OpenFlow switches allow network administrators to centralize network management 
 3. To display the OpenFlow ports for the bridge, you can run the following command:
 
 	```bash
-	sudo ovs-ofctl show bridge_name
+	$ sudo ovs-ofctl show bridge_name
 	``` 
 
 	This command will output the OpenFlow ports for each physical port on the bridge, along with the port number assigned by OpenFlow. You can then use these port numbers in your OpenFlow rules.
@@ -59,10 +59,15 @@ OpenFlow switches allow network administrators to centralize network management 
 3.  Configure the IP address of your Raspberry Pi's bridge interface:
 
     ```bash
-    sudo ifconfig bridge_name <IP_address> netmask <subnet_mask>
+    $ sudo ifconfig bridge_name <IP_address> netmask <subnet_mask>
     ``` 
     
     Replace "bridge_name" with the name of your bridge, and "<IP_address>" and "<subnet_mask>" with your desired IP address and subnet mask.
+    
+	or create a virtual interface using the following command
+	```bash
+	$ sudo ip addr add 192.168.1.1/24 dev mybridge
+	```
     
 4.  Test your Open vSwitch configuration by pinging a device on your network from your Raspberry Pi.
 5.  Assign a name to the port that connects the two Raspberry Pi's. You can use the following command to assign a name to the port:
@@ -187,5 +192,6 @@ You can also read my other posts related to `Raspberry Pi`:
 * [ARM Exploitation with Raspberry Pi: Introduction to Return Oriented Programming (ROP)](https://shantoroy.com/security/simple-rop-arm-exploitation-return-oriented-programming/)
 * [Using Ropper to find ROP Gadgets](https://shantoroy.com/security/using-ropper-to-find-address-of-gadgets/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDI2MjM3LDE3MzAwNTY5MzFdfQ==
+eyJoaXN0b3J5IjpbMTQyNTcwOTc4OCwtMTUwMjYyMzcsMTczMD
+A1NjkzMV19
 -->
