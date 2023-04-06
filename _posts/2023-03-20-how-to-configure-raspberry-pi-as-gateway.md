@@ -161,6 +161,17 @@ To make routing happen between both end devices, we will have to run the followi
 $ sudo sysctl net.ipv4.ip_forward=1
 ```
 
+or do it like the following:
+1.  Enable IP forwarding on the Raspberry Pi by editing the /etc/sysctl.conf file and uncommenting the following line:
+
+    `net.ipv4.ip_forward=1` 
+    
+2.  Save and exit the file, then apply the changes by running the following command:
+
+    ```bash
+    $ sudo sysctl -p
+    ```
+
 also, set up NAT (Network Address Translation) on the Raspberry Pi to allow traffic from the honeypot network to access the Internet via the real network.
 ```bash
 $ sudo mkdir /etc/iptables
@@ -216,5 +227,6 @@ You can also read my other posts related to `Raspberry Pi`:
 
 -   [How to Configure a Raspberry Pi as an OpenFlow Switch: Steps, Issues, and Solutions](https://shantoroy.com/openflow/how-to-configure-raspberry-pi-as-open-flow-switch/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTY2NzEyNTcsLTE3MzgwNDk1MF19
+eyJoaXN0b3J5IjpbLTE1NDk3ODQ3NDUsLTEwMTY2NzEyNTcsLT
+E3MzgwNDk1MF19
 -->
