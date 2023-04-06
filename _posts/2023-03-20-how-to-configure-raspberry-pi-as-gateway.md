@@ -163,8 +163,10 @@ $ sudo sysctl net.ipv4.ip_forward=1
 
 also, set up NAT (Network Address Translation) on the Raspberry Pi to allow traffic from the honeypot network to access the Internet via the real network.
 ```bash
-sudo iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
-sudo iptables-save | sudo tee /etc/iptables/rules.v4
+$ sudo mkdir /etc/iptables
+$ sudo touch /etc/iptables/rules.v4
+$ sudo iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+$ sudo iptables-save | sudo tee /etc/iptables/rules.v4
 ```
 
 Now, you should be able to ping each devices. 
@@ -214,5 +216,5 @@ You can also read my other posts related to `Raspberry Pi`:
 
 -   [How to Configure a Raspberry Pi as an OpenFlow Switch: Steps, Issues, and Solutions](https://shantoroy.com/openflow/how-to-configure-raspberry-pi-as-open-flow-switch/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNzgwNTUzMywtMTczODA0OTUwXX0=
+eyJoaXN0b3J5IjpbLTEwMTY2NzEyNTcsLTE3MzgwNDk1MF19
 -->
