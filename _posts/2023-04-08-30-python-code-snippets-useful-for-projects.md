@@ -231,6 +231,9 @@ You can also read my other posts in python:
 6. [Python ZeroMQ Module: A Simple Publisher-Subscriber Chat Application](https://shantoroy.com/python/simple-chat-application-using-python-zeromq/)
 7. [Python Logging: Basic Tutorial and Template](https://shantoroy.com/python/python-logging-module-basic-tutorial-and-template/)
 8. [Creating and Reading QR Code in Python: A Simple Python Class using  `qrcode`  and  `opencv`  module](https://shantoroy.com/python/creating-and-reading-qrcode-in-python/)
+9. [A Curated list of Python Cheatsheets Collections](https://shantoroy.com/python/best-python-cheatsheet-collection/)
+10. [How to write a Twitter Data Scrapper in Python](https://shantoroy.com/python/build-a-twitter-scrapper-in-python/) 
+11. [Useful Functions of Python Itertools Module](https://shantoroy.com/python/python-itertools-useful-functions/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMTQ4NDI4Nyw4MjM5NTcwNTldfQ==
+eyJoaXN0b3J5IjpbLTc3MjExMDkzMiw4MjM5NTcwNTldfQ==
 -->
