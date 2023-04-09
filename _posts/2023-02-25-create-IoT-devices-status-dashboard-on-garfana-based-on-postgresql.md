@@ -85,9 +85,12 @@ Alright! Let's run the query and we will get something like the following.
 Here, I was collecting data for four devices, and selected last 24 hours to check which were online and which were offline during this period. You can choose any period from current menu and figure out the status of each device.
 
 You can read my other post related to Grafana dashboards:
-[How to Create a New Drop-Down Menu/Filter in Grafana Based on PostgreSQL Table Column](https://shantoroy.com/monitoring/add-a-drop-down-filter-in-Grafana/)
+
+1. [How to Create a New Drop-Down Menu/Filter (Query Variable) in Grafana Based on PostgreSQL Table Column](https://shantoroy.com/monitoring/add-a-drop-down-filter-in-Grafana/)
+2. [How to Select Multiple Options from Drop-Down Menu/Filter (Query Variable) in Grafana Based on PostgreSQL Table Column](https://shantoroy.com/monitoring/grafana-dashboard-select-multiple-IoT-device/)
+3. [How to Create a Grafana Dashboard to Present individual Device Analysis using Individual Panels](https://shantoroy.com/latex/grafana-dashboard-to-show-all-iot-device-analysis/)
 
 That's all for today!Cheers!!! 😎
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNzkyNTU0LC0yNjY1NjkzMjJdfQ==
+eyJoaXN0b3J5IjpbLTEwNjc4NDAwLC0yNjY1NjkzMjJdfQ==
 -->
