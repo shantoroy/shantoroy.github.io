@@ -234,6 +234,9 @@ You can also read my other posts in python:
 9. [A Curated list of Python Cheatsheets Collections](https://shantoroy.com/python/best-python-cheatsheet-collection/)
 10. [How to write a Twitter Data Scrapper in Python](https://shantoroy.com/python/build-a-twitter-scrapper-in-python/) 
 11. [Useful Functions of Python Itertools Module](https://shantoroy.com/python/python-itertools-useful-functions/)
+12. [Collection of  `Data Science in Python`  Posts in my Blog](https://shantoroy.com/python/data-science-in-python-posts-in-my-blog/)
+13. [Introduction to Deep Learning in Python (Keras and Tensorflow) using the MNIST Dataset](https://shantoroy.com/machine-learning/intro-to-deep-learning-with-mnist-data-prediction/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MjExMDkzMiw4MjM5NTcwNTldfQ==
+eyJoaXN0b3J5IjpbLTI0MjAxMDgwMiwtNzcyMTEwOTMyLDgyMz
+k1NzA1OV19
 -->
