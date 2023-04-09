@@ -226,7 +226,11 @@ You can also read my other posts in python:
 1. [Machine Learning: Multiclass Classification Template for any Classification Dataset](https://shantoroy.com/machine-learning/machine-learning-multiclass-classification-template/)
 2. [Cyber Security (in Python) Books, Codes, and other Resource Collection available on GitHub](https://shantoroy.com/security/python-for-cybersecurity-books-and-codes/)
 3. [Write a Reverse Proxy Server in Python: Part 1 (Reverse Proxy Server)](https://shantoroy.com/network/write-a-reverse-proxy-server-in-python/)
-4. 
+4. [Add Custom Headers to Python Files in Seconds using VSCode Editor](https://shantoroy.com/tutorial/add-header-to-python-file-vscode.md/)
+5. [How to Write a RESTful API using Python Flask to fetch data from PostgreSQL Database](https://shantoroy.com/python/python-api-using-flask-to-run-postgresql-query/)
+6. [Python ZeroMQ Module: A Simple Publisher-Subscriber Chat Application](https://shantoroy.com/python/simple-chat-application-using-python-zeromq/)
+7. [Python Logging: Basic Tutorial and Template](https://shantoroy.com/python/python-logging-module-basic-tutorial-and-template/)
+8. # [Creating and Reading QR Code in Python: A Simple Python Class using  `qrcode`  and  `opencv`  module](https://shantoroy.com/python/creating-and-reading-qrcode-in-python/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTI4OTU2ODIsODIzOTU3MDU5XX0=
+eyJoaXN0b3J5IjpbMjA3ODM3Mzk4Miw4MjM5NTcwNTldfQ==
 -->
