@@ -74,7 +74,12 @@ Grafana is a powerful data visualization and analytics tool that allows us to cr
 In this tutorial, we have seen how to create a drop-down panel in Grafana that offers the unique IDs of a column in a PostgreSQL table and uses the selected ID to deliver graphs based on SQL queries. This type of filter help when we have a lot of data points. 
 
 That's all for today! Cheers!!! 😎
+
+You can also read my other posts on Grafana
+* [How to Create a Dashboard on Grafana showing IoT Device Status](https://shantoroy.com/monitoring/create-IoT-devices-status-dashboard-on-garfana-based-on-postgresql/)
+* [How to Select Multiple Options from Drop-Down Menu/Filter (Query Variable) in Grafana Based on PostgreSQL Table Column](https://shantoroy.com/monitoring/grafana-dashboard-select-multiple-IoT-device/)
+* [How to Create a Grafana Dashboard to Present individual Device Analysis using Individual Panels](https://shantoroy.com/latex/grafana-dashboard-to-show-all-iot-device-analysis/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTUyMTc2OTUsLTE0MDA0MTQ1OTgsLT
-k3MDk5MTcwNiwxNzA0MjkwNjgxXX0=
+eyJoaXN0b3J5IjpbLTQ0NDI2MjgwLC0xNDAwNDE0NTk4LC05Nz
+A5OTE3MDYsMTcwNDI5MDY4MV19
 -->
