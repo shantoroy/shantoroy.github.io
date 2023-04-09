@@ -28,21 +28,21 @@ A python cheatsheet is always handy in a situation when we need to remember cert
 In the following, I list a few collection of Python Cheatsheets:
 
 
-1. https://betterprogramming.pub/10-must-have-python-cheatsheets-2b74e8097bc3
+1. [https://betterprogramming.pub/10-must-have-python-cheatsheets-2b74e8097bc3](https://betterprogramming.pub/10-must-have-python-cheatsheets-2b74e8097bc3)
 
-2. https://github.com/dennyzhang/cheatsheet-python-A4/blob/master/cheatsheet-python-A4.pdf
+2. [https://github.com/dennyzhang/cheatsheet-python-A4/blob/master/cheatsheet-python-A4.pdf](https://github.com/dennyzhang/cheatsheet-python-A4/blob/master/cheatsheet-python-A4.pdf)
 
-3. https://gto76.github.io/python-cheatsheet/
+3. [https://gto76.github.io/python-cheatsheet/](https://gto76.github.io/python-cheatsheet/)
 
-4. https://geekflare.com/python-cheat-sheets/
+4. [https://geekflare.com/python-cheat-sheets/](https://geekflare.com/python-cheat-sheets/)
 
-5. https://cheatography.com/tag/python/
+5. [https://cheatography.com/tag/python/](https://cheatography.com/tag/python/)
 
 I find [Cheatography](https://cheatography.com/) as the primary resource of cheatsheets for any language or topic out there. It includes cheatsheets of programming languages, databases, tools, DevOps, Markup, Frameworks, and different useful topics.
 
 That's all for today! Have a great day!!!
 Cheers!!! :sunglasses:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE4NjIwMDY5LDMwNTU1NTQ0MiwtMjA1Mz
-k1OTU4MV19
+eyJoaXN0b3J5IjpbLTIxMDY1MjEwODgsMjE4NjIwMDY5LDMwNT
+U1NTQ0MiwtMjA1Mzk1OTU4MV19
 -->
