@@ -221,6 +221,12 @@ toc_icon: "heart"
 	   ```
 
 That's all for today! Cheers!!!
+
+You can also read my other posts in python:
+1. [Machine Learning: Multiclass Classification Template for any Classification Dataset](https://shantoroy.com/machine-learning/machine-learning-multiclass-classification-template/)
+2. [Cyber Security (in Python) Books, Codes, and other Resource Collection available on GitHub](https://shantoroy.com/security/python-for-cybersecurity-books-and-codes/)
+3. [Write a Reverse Proxy Server in Python: Part 1 (Reverse Proxy Server)](https://shantoroy.com/network/write-a-reverse-proxy-server-in-python/)
+4. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIzOTU3MDU5XX0=
+eyJoaXN0b3J5IjpbLTEyNTI4OTU2ODIsODIzOTU3MDU5XX0=
 -->
