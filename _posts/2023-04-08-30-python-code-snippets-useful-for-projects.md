@@ -230,7 +230,7 @@ You can also read my other posts in python:
 5. [How to Write a RESTful API using Python Flask to fetch data from PostgreSQL Database](https://shantoroy.com/python/python-api-using-flask-to-run-postgresql-query/)
 6. [Python ZeroMQ Module: A Simple Publisher-Subscriber Chat Application](https://shantoroy.com/python/simple-chat-application-using-python-zeromq/)
 7. [Python Logging: Basic Tutorial and Template](https://shantoroy.com/python/python-logging-module-basic-tutorial-and-template/)
-8. # [Creating and Reading QR Code in Python: A Simple Python Class using  `qrcode`  and  `opencv`  module](https://shantoroy.com/python/creating-and-reading-qrcode-in-python/)
+8. [Creating and Reading QR Code in Python: A Simple Python Class using  `qrcode`  and  `opencv`  module](https://shantoroy.com/python/creating-and-reading-qrcode-in-python/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3ODM3Mzk4Miw4MjM5NTcwNTldfQ==
+eyJoaXN0b3J5IjpbLTYzMTQ4NDI4Nyw4MjM5NTcwNTldfQ==
 -->
