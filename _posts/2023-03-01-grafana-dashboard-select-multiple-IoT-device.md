@@ -48,6 +48,13 @@ Grafana is a powerful data visualization and analytics tool that allows us to cr
 In this tutorial, we have worked on selecting multiple options from the drop-down menu/filter. Grafana is a pretty cool tool for monitoring and instant data analysis or visualization. 
 
 More tutorials to come in the future! Until then, cheers!!! 😎
+
+
+You can also read:
+1. [How to Create a Dashboard on Grafana showing IoT Device Status](https://shantoroy.com/monitoring/create-IoT-devices-status-dashboard-on-garfana-based-on-postgresql/)
+2. [How to Create a New Drop-Down Menu/Filter (Query Variable) in Grafana Based on PostgreSQL Table Column](https://shantoroy.com/monitoring/add-a-drop-down-filter-in-Grafana/)
+3. [How to Create a Grafana Dashboard to Present individual Device Analysis using Individual Panels](https://shantoroy.com/latex/grafana-dashboard-to-show-all-iot-device-analysis/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2Nzc5OTUwLDE4MjM3MzE3NDNdfQ==
+eyJoaXN0b3J5IjpbLTE1NDg0NjEzMywxODY3Nzk5NTAsMTgyMz
+czMTc0M119
 -->
