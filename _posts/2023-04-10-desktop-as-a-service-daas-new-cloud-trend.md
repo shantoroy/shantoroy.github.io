@@ -94,7 +94,11 @@ As, maybe we will not see DaaS trend growing at a personal or individual level. 
 And they do not need to get these services from other cloud providers. If they have their own data centers, it is feasible that they can make their own private DaaS.
 
 
-Read my other blo
+Read my other blog posts on Cloud Computing:
+* [How to install Open Stack cloud in Cent OS or Red Hat Linux](https://shantoroy.com/cloud/install-openstack-in-centos-redhat/)
+* [Build a Balena Cloud using Raspberry Pi](https://shantoroy.com/raspberry%20pi/balenaOS-install-raspberry-pi-balenacloud/)
+* [Amazon Web Service: Launch an AWS EC2 Instance](https://shantoroy.com/cloud/launch-an-amazon-web-service-ec2-instance/)
+* [Best Cloud-based Tools for Authors or Scientific Content Writers](https://shantoroy.com/article/best-tools-for-authors/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDY2NjAwMjRdfQ==
+eyJoaXN0b3J5IjpbLTY4NDcxMTcxMF19
 -->
