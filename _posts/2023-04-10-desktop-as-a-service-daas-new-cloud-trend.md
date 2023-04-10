@@ -92,6 +92,9 @@ I think the primary benefit is security. DaaS providers typically employ robust 
 As, maybe we will not see DaaS trend growing at a personal or individual level. However, we will see the companies using DaaS for their business. 
 
 And they do not need to get these services from other cloud providers. If they have their own data centers, it is feasible that they can make their own private DaaS.
+
+
+Read my other blo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NDIxMjc5MV19
+eyJoaXN0b3J5IjpbLTEzNDY2NjAwMjRdfQ==
 -->
