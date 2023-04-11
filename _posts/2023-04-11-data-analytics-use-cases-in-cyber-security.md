@@ -66,7 +66,7 @@ Data analytics can also be used to identify new market opportunities, optimize m
 11.  **Insider Threat Detection:** Insider threat is a serious threat for organizations as it gives attacker the physical access to organization's network. Data analytics can be used to monitor employee activity and detect insider threats by analyzing user behavior and identifying patterns that could indicate malicious intent.
     
 12.  **Network Traffic Analysis:** Data analytics can be used to analyze network traffic data to identify unusual activity, such as data exfiltration or lateral movement by an attacker. I have previously analyzed PCAP files. If you want learn details, check my following posts:
-	[How to Convert PCAP files to CSV for Network Traffic Analysis](https://shantoroy.com/networking/convert-pcap-to-csv-using-tshark/)
+	[How to Convert PCAP files to CSV for Network Traffic Analysis](https://shantoroy.com/networking/convert-pcap-to-csv-using-tshark/),
 	[Passive Operating System Fingerprinting by Analyzing PCAP files](https://shantoroy.com/security/operating-system-fingerprinting/)
     
     
@@ -89,5 +89,5 @@ You can also read related posts on my blog or Medium:
 * [Cyber Security Awareness and Best Practices at Personal Level](https://shantoroy.com/security/personal-security-awareness-and-best-practices/)
 * [How to Avoid Phone/Email Scams!](https://medium.com/@shantoroy/how-to-avoid-phone-email-scams-fb7294f0701f)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODk2Nzg0NTBdfQ==
+eyJoaXN0b3J5IjpbMTc5NDgzNDUzNiwtMTU4OTY3ODQ1MF19
 -->
