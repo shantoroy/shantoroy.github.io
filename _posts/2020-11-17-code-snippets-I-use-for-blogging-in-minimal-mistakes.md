@@ -127,18 +127,7 @@ Sometime, I need to embed a youtube video or instagram image. Here's the example
 <script src="https://gist.github.com/shantoroy/9bb4da0b2a281e3c91cc836045b6c74d.js"></script>
 
 
-## Smileys
-Sometimes, I like to use smileys in my sentences and here's how you can add in your posts.
-```
-:sunglasses: 
-:wink:
-:smiley:
-```
 
-#### Output
-:sunglasses: 
-:wink:
-:smiley:
 
 ## Other Minimal Mistakes Blogs
 Here are a few other blogs that are using the `Minimal Mistakes` theme. You can get inspiration by looking at how people are prefering this template for publishing their blogs.
@@ -163,7 +152,7 @@ If you are looking for more snippets, just go visit this page:
 * https://www.fabriziomusacchio.com/blog/2021-08-11-Minimal_Mistakes_Cheat_Sheet/#via-html
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzU4ODUyOTQsLTYwNTk0MDg0Myw1Mz
-gwNDY2MDEsLTg5MTY1NDgzLC01MjA0ODIyMTYsNTU0OTUyMzY5
-LC01NjU0NzA4NjcsLTExNzEwODAyNjRdfQ==
+eyJoaXN0b3J5IjpbMTU0NjY5MjYxMCwtNjA1OTQwODQzLDUzOD
+A0NjYwMSwtODkxNjU0ODMsLTUyMDQ4MjIxNiw1NTQ5NTIzNjks
+LTU2NTQ3MDg2NywtMTE3MTA4MDI2NF19
 -->
