@@ -63,11 +63,11 @@ To avoid adding a particular named file or directory, for example., to ignore`.D
 Now, if you do `git add --all`, it will not automatically include these particular directories created again while working in the local machine.
 
 ## References
-1. https://stackoverflow.com/questions/8021441/how-to-ignore-all-hidden-directories-files-recursively-in-a-git-repository
+1. [How to ignore all hidden directories/files recursively in a git repository?](https://stackoverflow.com/questions/8021441/how-to-ignore-all-hidden-directories-files-recursively-in-a-git-repository)
 
-2. https://unix.stackexchange.com/questions/123233/recursively-delete-hidden-directory-its-files
+2. [Recursively delete hidden directory & its files?](https://unix.stackexchange.com/questions/123233/recursively-delete-hidden-directory-its-files)
 3. [.gitignore all the .DS_Store files in every folder and subfolder](https://stackoverflow.com/questions/18393498/gitignore-all-the-ds-store-files-in-every-folder-and-subfolder)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzk5MjkxNzQsLTExNjE3ODA1NTgsNz
-I0OTI2OF19
+eyJoaXN0b3J5IjpbMTUwNTM1ODcxMiwtMjAzOTkyOTE3NCwtMT
+E2MTc4MDU1OCw3MjQ5MjY4XX0=
 -->
