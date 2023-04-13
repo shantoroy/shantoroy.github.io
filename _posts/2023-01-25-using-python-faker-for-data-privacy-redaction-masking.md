@@ -76,6 +76,7 @@ print(paragraph)
 ```
 
 
+
 ```py
 from faker import Faker
 
@@ -314,5 +315,5 @@ For example, if a developer needs to test a feature that displays a user's name 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NjcyMzk1Ml19
+eyJoaXN0b3J5IjpbODA2MjI0NjYsMTU4NjcyMzk1Ml19
 -->
