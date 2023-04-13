@@ -99,7 +99,22 @@ By focusing on key concepts and principles such as SLOs, error budgets, automati
 
 So, that's all for today. See you in the next post of `#100daysofSRE` tomorrow! 🫡
 
-Follow me on [Medium](https://medium.com/@shantoroy).
+
+___
+
+___
+
+Thank you for reading my blog post! 🙏
+
+If you enjoyed it and would like to stay updated on my latest content and plans for next week, be sure to subscribe to my newsletter on Substack. 👇
+
+Once a week, I'll be sharing the latest weekly updates on my published articles, along with other news, content and resources. Enter your email below to subscribe and join the conversation! ✍️
+
+
+<iframe src="https://shantoroy.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+
+I am also writing on Medium. You can [follow me here](https://medium.com/@shantoroy). 👉
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTMzNjUzMjZdfQ==
+eyJoaXN0b3J5IjpbLTIwNTcwMDMyNzIsLTE0NTMzNjUzMjZdfQ
+==
 -->
