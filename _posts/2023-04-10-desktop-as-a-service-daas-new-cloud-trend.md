@@ -8,7 +8,7 @@ header:
   image: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
   teaser: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
 categories:
-  - Could
+  - Cloud
 tags:
   - Cloud
   - DaaS
@@ -100,5 +100,5 @@ Read my other blog posts on Cloud Computing:
 * [Amazon Web Service: Launch an AWS EC2 Instance](https://shantoroy.com/cloud/launch-an-amazon-web-service-ec2-instance/)
 * [Best Cloud-based Tools for Authors or Scientific Content Writers](https://shantoroy.com/article/best-tools-for-authors/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NDcxMTcxMF19
+eyJoaXN0b3J5IjpbLTYxNjE2NjQxOCwtNjg0NzExNzEwXX0=
 -->
