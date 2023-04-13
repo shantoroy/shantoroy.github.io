@@ -1,9 +1,9 @@
 ---
 layout: single
 title: "#100daysofSRE (Day 02): History of SRE and its Evolution"
-excerpt: "Your blog post excerpt"
-seo_title: "Your meta title"
-seo_description: "Your meta description"
+excerpt: "Site Reliability Engineering (SRE) is a relatively new field that has gained tremendous popularity in recent years. It was first introduced by Google in 2003 to address the challenges of running large-scale web services. Since then, SRE has evolved to become a key component of modern software engineering practices. To understand the present and future of SRE, it is essential to learn about its history and evolution. This #100daysofSRE (Day 02) blog post will take you on a journey through the early days of SRE, the pioneers who shaped it, and the key concepts that define it. We will also explore the challenges and opportunities that lie ahead for SRE practitioners."
+seo_title: "A Brief History of Site Reliability Engineering (SRE) and its Evolution | #100daysofSRE (Day 02)"
+seo_description: "Discover the history and evolution of Site Reliability Engineering (SRE) in this #100daysofSRE (Day 02) blog post. Learn about the pioneers, key concepts, and challenges of SRE."
 header:
   image: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
   teaser: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
@@ -91,5 +91,5 @@ Once a week, I'll be sharing the latest weekly updates on my published articles,
 
 I am also writing on Medium. You can [follow me here](https://medium.com/@shantoroy). 👉
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzA3ODI1ODBdfQ==
+eyJoaXN0b3J5IjpbLTIxMjU2NjgwOV19
 -->
