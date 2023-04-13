@@ -268,11 +268,36 @@ This code defines a method `changeAddress` that is responsible for changing any 
             
         return self.text
 ```
-The `changeEmail()` method changes the email to a believable one. Well, you may be surprised to see the length of the code. 
 
-We can literally generate a fake email with a couple lines of codes. However, within a text, it should be believable. For example, Mike should not have `Emily293@example.com` email.
 
-What I did here is track the last person in corresponding or earlier sentence and use his name in the email address.
+
+
+This code is a method named `changeEmail` that belongs to a larger class. The purpose of this method is to replace any email addresses in the text with fake email addresses, while also trying to infer the name of the person associated with the email address and including that name in the fake email address if possible.
+
+Here is an explanation of how the code works:
+
+1.  The method starts by splitting the input text into individual sentences using the `sent_tokenize` function from the `nltk` library.
+    
+2.  Next, the method initializes two empty lists: `names` and `new_sentence_list`. `names` will be used to keep track of any person names that are identified in the text, while `new_sentence_list` will store the updated sentences with fake email addresses.
+    
+3.  A regular expression pattern is defined to match email addresses. This pattern is then used to find all email addresses in each sentence.
+    
+4.  The method then iterates through each sentence, and for each sentence, it tokenizes the text into individual words using the `word_tokenize` function from `nltk`, and then tags each word with its part of speech using the `pos_tag` function from `nltk`.
+    
+5.  The `ne_chunk` function from `nltk` is then used to extract named entities from the tagged tokens. In particular, the method looks for any entities that are labeled as "PERSON", which would correspond to person names.
+    
+6.  For each identified person name, the method adds it to the `names` list.
+    
+7.  If any email addresses were found in the sentence, the method checks if the `names` list is non-empty. If it is, then the method tries to infer the first name of the person associated with the email address (by taking the last name in the `names` list and assuming that it corresponds to the person's last name), and generates a fake email address using that first name and a random number as a prefix. If the last name in the `names` list contains the string "USA", then the method assumes that the person's name was not correctly identified and tries to use the second-to-last name in the list instead.
+    
+8.  If the `names` list is empty, or if the email address could not be associated with a person name for some reason, then the method generates a completely random fake email address using the `fake.email()` function from the `faker` library.
+    
+9.  The updated sentence with the fake email address is then added to the `new_sentence_list`.
+    
+10.  After iterating through all sentences, the method joins the updated sentences back into a single string and returns it.
+    
+
+Overall, this method uses a combination of regular expressions and natural language processing techniques to identify email addresses and person names in the input text, and then generates fake email addresses using a combination of the identified names and random numbers.
 
 ### Change Mobile Number
 ```py
@@ -343,5 +368,5 @@ For example, if a developer needs to test a feature that displays a user's name 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ5NTE2NTkxLDE1ODY3MjM5NTJdfQ==
+eyJoaXN0b3J5IjpbMjAzMTYxNjI5NCwxNTg2NzIzOTUyXX0=
 -->
