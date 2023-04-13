@@ -8,13 +8,12 @@ header:
   image: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
   teaser: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
 categories:
-  - Latex
+  - Monitoring
 tags:
-  - Latex
-  - Tutorial
-  - Overleaf
-  - Tikz
-  - Equation
+  - Grafana
+  - Dashboard
+  - Monitoring
+  - PostgreSQL
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "heart"
@@ -68,5 +67,5 @@ So, that's all for today! Cheers!!!
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzY3MDg3MDhdfQ==
+eyJoaXN0b3J5IjpbMTAyNjU2ODY5MywtMTc3NjcwODcwOF19
 -->
