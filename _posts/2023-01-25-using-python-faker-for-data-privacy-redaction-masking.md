@@ -106,6 +106,9 @@ Here, we used `Faker` to change the credit card number and mobile number.
 Okay, now let's get back to our target code.
 
 ## Customized Target Code
+Our primary intention is not only develop a code that replaces sensitive data with fake data, but also make it more believable.
+
+
 ### Change Date in Text
 ```py
 	@staticmethod
@@ -322,5 +325,5 @@ For example, if a developer needs to test a feature that displays a user's name 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTk4NTk0NzUsMTU4NjcyMzk1Ml19
+eyJoaXN0b3J5IjpbOTM0ODk1OTQxLDE1ODY3MjM5NTJdfQ==
 -->
