@@ -121,6 +121,7 @@ By intentionally introducing controlled failures into a system, organizations ca
 
 ## References
 * [Why SREs Need to Embrace Chaos Engineering](https://www.xmatters.com/blog/why-sres-need-to-embrace-chaos-engineering/)
+* [Site Reliability Engineering (SRE) and the Chaos testing methodology](https://devopsartisan.ro.digital/blog/site-reliability-engineering-and-the-chaos-testing-methodology)
 * 
 
 ___
@@ -137,6 +138,6 @@ Once a week (typically, Sunday), I'll be sharing the latest weekly updates on my
 
 I am also writing on Medium. You can [follow me here](https://medium.com/@shantoroy).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE2MDQ3MDQ4LDE2MTA0MDY4MywyMDc5MT
-U3ODM5XX0=
+eyJoaXN0b3J5IjpbLTE2OTM2NzUyODAsMTYxMDQwNjgzLDIwNz
+kxNTc4MzldfQ==
 -->
