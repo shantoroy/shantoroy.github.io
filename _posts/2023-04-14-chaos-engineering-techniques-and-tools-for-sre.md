@@ -118,7 +118,7 @@ While chaos engineering may be a relatively new concept, it's already proving to
 
 By intentionally introducing controlled failures into a system, organizations can identify weaknesses, improve resilience, and gain greater confidence in their systems.
 
-Btw, you can navigate to the best resource out there: [Awesome Chaos Engineering](https://github.com/dastergon/awesome-chaos-engineering) to explore furth
+Btw, you can navigate to the best resource out there: [Awesome Chaos Engineering](https://github.com/dastergon/awesome-chaos-engineering) to explore further.
 
 
 ## References
@@ -126,6 +126,8 @@ Btw, you can navigate to the best resource out there: [Awesome Chaos Engineering
 * [Site Reliability Engineering (SRE) and the Chaos testing methodology](https://devopsartisan.ro.digital/blog/site-reliability-engineering-and-the-chaos-testing-methodology)
 * [SRE and Chaos Engineering](https://chethansp.medium.com/sre-and-chaos-engineering-50b381d1679c)
 * [Understanding chaos engineering and resilience](https://learn.microsoft.com/en-us/azure/chaos-studio/chaos-studio-chaos-engineering-overview)
+* [Chaos Engineering: the history, principles, and practice](https://www.gremlin.com/community/tutorials/chaos-engineering-the-history-principles-and-practice/)
+* [Chaos Engineering: A cheat sheet]()
 
 ___
 
@@ -141,6 +143,6 @@ Once a week (typically, Sunday), I'll be sharing the latest weekly updates on my
 
 I am also writing on Medium. You can [follow me here](https://medium.com/@shantoroy).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTc5Nzk4NjksMTYxMDQwNjgzLDIwNz
-kxNTc4MzldfQ==
+eyJoaXN0b3J5IjpbLTk5MzU1NjMzMywxNjEwNDA2ODMsMjA3OT
+E1NzgzOV19
 -->
