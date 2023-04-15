@@ -86,7 +86,7 @@ There are several techniques and tools used in chaos engineering that can help e
 5.  **Canary Testing:** Canary testing is a technique that involves releasing a new feature or change to a small group of users before releasing it to the entire user base. This technique helps to identify any issues or problems before the changes are released to the entire user base.
 
  
- ### Chaos Engineering Tools
+### Chaos Engineering Tools
  
 The Chaos Toolkit is an open-source tool that helps to automate the chaos engineering process. The tool allows engineers to create scenarios and inject faults into the system to test its resilience.
     
@@ -133,5 +133,5 @@ Once a week (typically, Sunday), I'll be sharing the latest weekly updates on my
 
 I am also writing on Medium. You can [follow me here](https://medium.com/@shantoroy).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNTIzMTk3OSwyMDc5MTU3ODM5XX0=
+eyJoaXN0b3J5IjpbMTYxMDQwNjgzLDIwNzkxNTc4MzldfQ==
 -->
