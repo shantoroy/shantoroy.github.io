@@ -127,7 +127,8 @@ Btw, you can navigate to the best resource out there: [Awesome Chaos Engineering
 * [SRE and Chaos Engineering](https://chethansp.medium.com/sre-and-chaos-engineering-50b381d1679c)
 * [Understanding chaos engineering and resilience](https://learn.microsoft.com/en-us/azure/chaos-studio/chaos-studio-chaos-engineering-overview)
 * [Chaos Engineering: the history, principles, and practice](https://www.gremlin.com/community/tutorials/chaos-engineering-the-history-principles-and-practice/)
-* [Chaos Engineering: A cheat sheet]()
+* [Chaos Engineering: A cheat sheet](https://www.techrepublic.com/article/chaos-engineering-a-cheat-sheet/)
+* [Chaos Engineering — Part 1](https://medium.com/the-cloud-architect/chaos-engineering-ab0cc9fbd12a)
 
 ___
 
@@ -143,6 +144,6 @@ Once a week (typically, Sunday), I'll be sharing the latest weekly updates on my
 
 I am also writing on Medium. You can [follow me here](https://medium.com/@shantoroy).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MzU1NjMzMywxNjEwNDA2ODMsMjA3OT
-E1NzgzOV19
+eyJoaXN0b3J5IjpbOTgyNzgwMzgsMTYxMDQwNjgzLDIwNzkxNT
+c4MzldfQ==
 -->
