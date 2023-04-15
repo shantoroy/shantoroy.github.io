@@ -129,6 +129,7 @@ Btw, you can navigate to the best resource out there: [Awesome Chaos Engineering
 * [Chaos Engineering: the history, principles, and practice](https://www.gremlin.com/community/tutorials/chaos-engineering-the-history-principles-and-practice/)
 * [Chaos Engineering: A cheat sheet](https://www.techrepublic.com/article/chaos-engineering-a-cheat-sheet/)
 * [Chaos Engineering — Part 1](https://medium.com/the-cloud-architect/chaos-engineering-ab0cc9fbd12a)
+* [chatGPT](https://chat.openai.com/)
 
 ___
 
@@ -144,6 +145,6 @@ Once a week (typically, Sunday), I'll be sharing the latest weekly updates on my
 
 I am also writing on Medium. You can [follow me here](https://medium.com/@shantoroy).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgyNzgwMzgsMTYxMDQwNjgzLDIwNzkxNT
-c4MzldfQ==
+eyJoaXN0b3J5IjpbMTA4NTMyNDk3LDE2MTA0MDY4MywyMDc5MT
+U3ODM5XX0=
 -->
