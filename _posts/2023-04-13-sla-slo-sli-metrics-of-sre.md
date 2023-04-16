@@ -25,7 +25,7 @@ It's the third day of the `#100dayschallenge`, and today I will talk about three
 
 So, I have planned the  [contents for next 100 days](https://medium.com/@shantoroy/learning-about-site-reliability-engineering-with-the-100daysofsre-challenge-66380323c0d1), and I will be posting one blog post each and everyday under the hashtag  `#100daysofSRE`. ✌️
 
-I hope you tag along and shre valuable feedback as I grow my knowledge and share my findings. 🙌
+I hope you tag along and share valuable feedback as I grow my knowledge and share my findings. 🙌
 
 Alright! Let’s begin…
 
@@ -91,5 +91,5 @@ Once a week, I'll be sharing the latest weekly updates on my published articles,
 
 I am also writing on Medium. You can [follow me here](https://medium.com/@shantoroy).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjYzNDM3ODNdfQ==
+eyJoaXN0b3J5IjpbMTQ5NTYyMjQwMCwtMjA2NjM0Mzc4M119
 -->
