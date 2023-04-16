@@ -103,7 +103,7 @@ Provisioning tools are used to automate the provision of new infrastructure reso
 ### Deployment Automation Tools
 Deployment automation tools are used to automate the deployment process of new applications and services. These tools help SREs to reduce the risk of human error and ensure consistent deployment across different environments. Examples of deployment automation tools include Jenkins, Travis CI, and CircleCI.
 
-The key to automation fo SREs to scale their operations. As infrastructure becomes more complex and the number of services increases, it becomes more difficult to manage everything manually. Automation tools help SREs to manage larger environments, while ensuring consistent and reliable operations.
+The key to automation for SREs is to help engineers scale their operations. As infrastructure becomes more complex and the number of services increases, it becomes more difficult to manage everything manually. These automation tools help SREs to manage larger environments, while ensuring consistent and reliable operations.
 
 
 ## Top 10 Skills Required to Master Automation for SRE
@@ -147,5 +147,5 @@ Once a week (typically, Sunday), I'll be sharing the latest weekly updates on my
 
 I am also writing on Medium. You can [follow me here](https://medium.com/@shantoroy).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE0Mzk4ODYxLDc5MTU3MDE5Ml19
+eyJoaXN0b3J5IjpbMTM2OTI0MjEwMSw3OTE1NzAxOTJdfQ==
 -->
