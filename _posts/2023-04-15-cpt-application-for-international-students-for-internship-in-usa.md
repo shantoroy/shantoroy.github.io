@@ -109,6 +109,7 @@ ___
 ___
 
 So, that's all for today! If you already received and accepted an offer letter, congratulations and all the best!
+<iframe src="https://giphy.com/embed/jJQC2puVZpTMO4vUs0" width="480" height="400" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/jJQC2puVZpTMO4vUs0">via GIPHY</a></p>
 
 
 ___
@@ -125,5 +126,5 @@ Once a week, I'll be sharing the latest weekly updates on my published articles,
 
 I am also writing on Medium. You can [follow me here](https://medium.com/@shantoroy).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjU3MTg0MzldfQ==
+eyJoaXN0b3J5IjpbLTE5Mjk2NjEyNTFdfQ==
 -->
