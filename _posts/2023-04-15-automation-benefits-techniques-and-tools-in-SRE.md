@@ -91,11 +91,19 @@ Many of these abovementioned tools are used for the same purpose. The choice of 
 
 We can categorize these tools as follows:
 
-### Configuration Management Tools: 
+### Configuration Management Tools
 Configuration management tools manage and automate configuration changes across servers and other infrastructure components. Examples of configuration management tools include Puppet, Chef, and Ansible.
-Monitoring and Alerting Tools: Monitoring and alerting tools are essential for SREs to identify and resolve issues before they become critical. Examples of monitoring tools include Prometheus, Nagios, and Zabbix. These tools allow SREs to set up automated alerts for events such as service failures, network latency, and system resource utilization.
-Provisioning Tools: Provisioning tools are used to automate the provision of new infrastructure resources, such as servers, virtual machines, and containers. Examples of provisioning tools include Terraform, CloudFormation, and OpenStack.
-Deployment Automation Tools: Deployment automation tools are used to automate the deployment process of new applications and services. These tools help SREs to reduce the risk of human error and ensure consistent deployment across different environments. Examples of deployment automation tools include Jenkins, Travis CI, and CircleCI.
+
+### Monitoring and Alerting Tools
+Monitoring and alerting tools are essential for SREs to identify and resolve issues before they become critical. Examples of monitoring tools include Prometheus, Nagios, and Zabbix. These tools allow SREs to set up automated alerts for events such as service failures, network latency, and system resource utilization.
+
+### Provisioning Tools
+Provisioning tools are used to automate the provision of new infrastructure resources, such as servers, virtual machines, and containers. Examples of provisioning tools include Terraform, CloudFormation, and OpenStack.
+
+### Deployment Automation Tools
+Deployment automation tools are used to automate the deployment process of new applications and services. These tools help SREs to reduce the risk of human error and ensure consistent deployment across different environments. Examples of deployment automation tools include Jenkins, Travis CI, and CircleCI.
+
+The key to automation fo SREs to scale their operations. As infrastructure becomes more complex and the number of services increases, it becomes more difficult to manage everything manually. Automation tools help SREs to manage larger environments, while ensuring consistent and reliable operations.
 
 
 ## Top 10 Skills Required to Master Automation for SRE
@@ -139,5 +147,5 @@ Once a week (typically, Sunday), I'll be sharing the latest weekly updates on my
 
 I am also writing on Medium. You can [follow me here](https://medium.com/@shantoroy).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0Nzc4NzA0Niw3OTE1NzAxOTJdfQ==
+eyJoaXN0b3J5IjpbNDE0Mzk4ODYxLDc5MTU3MDE5Ml19
 -->
