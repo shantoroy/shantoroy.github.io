@@ -29,7 +29,7 @@ It's the fourth day of the `#100dayschallenge`, and today I will talk about Chao
 
 So, I have planned the  [contents for next 100 days](https://medium.com/@shantoroy/learning-about-site-reliability-engineering-with-the-100daysofsre-challenge-66380323c0d1), and I will be posting one blog post each and everyday under the hashtag  `#100daysofSRE`. ✌️
 
-I hope you tag along and shre valuable feedback as I grow my knowledge and share my findings. 🙌
+I hope you tag along and share valuable feedback as I grow my knowledge and share my findings. 🙌
 
 Alright! Let’s begin…
 
@@ -145,6 +145,6 @@ Once a week (typically, Sunday), I'll be sharing the latest weekly updates on my
 
 I am also writing on Medium. You can [follow me here](https://medium.com/@shantoroy).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NTMyNDk3LDE2MTA0MDY4MywyMDc5MT
-U3ODM5XX0=
+eyJoaXN0b3J5IjpbLTE0OTIwMTAwNTQsMTA4NTMyNDk3LDE2MT
+A0MDY4MywyMDc5MTU3ODM5XX0=
 -->
