@@ -116,6 +116,9 @@ Additionally, following the above-mentioned best practices can help teams mainta
 
 ## References
 * [Incident communication best practices](https://www.atlassian.com/incident-management/incident-communication)
+* [How to communicate effectively during an IT incident](https://www.manageengine.com/academy/incident-communication-plan.html)
+* [Communication is the Key to Effective Incident Management](https://riskonnect.com/business-continuity-management/communication-is-the-key-to-effective-incident-management/)
+* [# A Guide to Incident Communications]()
 * 
 
 ___
@@ -132,5 +135,5 @@ Once a week, I'll be sharing the latest weekly updates on my published articles,
 
 I am also writing on Medium. You can [follow me here](https://medium.com/@shantoroy).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NTE0Mzg5LDYzNzA1NDAzNl19
+eyJoaXN0b3J5IjpbMTUwMDU0MDI5Niw2MzcwNTQwMzZdfQ==
 -->
