@@ -114,6 +114,10 @@ Documentation is the key to success and proper response to furture incidents. Do
 Additionally, following the above-mentioned best practices can help teams maintain clear and effective communication.
 
 
+## References
+* [Incident communication best practices](https://www.atlassian.com/incident-management/incident-communication)
+* 
+
 ___
 
 ___
@@ -128,5 +132,5 @@ Once a week, I'll be sharing the latest weekly updates on my published articles,
 
 I am also writing on Medium. You can [follow me here](https://medium.com/@shantoroy).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM3MDU0MDM2XX0=
+eyJoaXN0b3J5IjpbMTE3NTE0Mzg5LDYzNzA1NDAzNl19
 -->
