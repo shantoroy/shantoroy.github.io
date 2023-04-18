@@ -120,7 +120,9 @@ Additionally, following the above-mentioned best practices can help teams mainta
 * [Communication is the Key to Effective Incident Management](https://riskonnect.com/business-continuity-management/communication-is-the-key-to-effective-incident-management/)
 * [A Guide to Incident Communications](https://www.pagerduty.com/resources/learn/a-guide-to-incident-communications/)
 * [A Guide to Effective Incident Management Communications](https://resources.sei.cmu.edu/asset_files/Handbook/2021_002_001_651819.pdf)
-* [Incident response: How to implement a communication plan]()
+* [Incident response: How to implement a communication plan](https://www.techtarget.com/searchsecurity/tip/Incident-response-How-to-implement-a-communication-plan)
+* [OpenAI ChatGPT](https://chat.openai.com/chat)
+* [Google Bard](https://bard.google.com/)
 
 ___
 
@@ -136,5 +138,5 @@ Once a week, I'll be sharing the latest weekly updates on my published articles,
 
 I am also writing on Medium. You can [follow me here](https://medium.com/@shantoroy).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA1NDY0MTQ5LDYzNzA1NDAzNl19
+eyJoaXN0b3J5IjpbMTI5MTM0NDA0Miw2MzcwNTQwMzZdfQ==
 -->
