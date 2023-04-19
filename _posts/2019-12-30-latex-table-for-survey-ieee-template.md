@@ -84,7 +84,7 @@ Once again, you will find the code and output in the [Overleaf Document](https:/
 * [How Can I Insert a Big Table in IEEE Template](https://tex.stackexchange.com/questions/305411/how-can-i-insert-a-big-table-in-ieee-template)
 
 
-## Latex
+## Latex-related Posts
 You can find a comprehensive list of Latex resources in the following post:
 
 [Latex Resources in a Nutshell](https://shantoroy.com/latex/latex-resources-in-a-nutshell/)
@@ -114,6 +114,6 @@ You can find all `Latex` oriented posts of mine in: [https://shantoroy.com/categ
 * [How to Convert Python Matplotlib Plots to Latex Plots (Easiest Way) for Academic Papers](https://shantoroy.com/latex/convert-matplotlib-plot-to-latex-plot/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM3OTU5NzI5LC0xMzc4MjY0ODU1LDIwNT
-QxNjc5NDksLTIwNzI2NjgwOTFdfQ==
+eyJoaXN0b3J5IjpbMTQ5NTgzMDgxOCwtMTM3ODI2NDg1NSwyMD
+U0MTY3OTQ5LC0yMDcyNjY4MDkxXX0=
 -->
