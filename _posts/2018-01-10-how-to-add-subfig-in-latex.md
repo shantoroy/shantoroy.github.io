@@ -145,6 +145,9 @@ You can find a comprehensive list of Latex resources in the following post:
 
 [Latex Resources in a Nutshell](https://shantoroy.com/latex/latex-resources-in-a-nutshell/)
 
+If you are a new Latex user, check out this post:
+[20 Most Common Mistakes Made by New Latex Users](https://shantoroy.com/latex/common-mistakes-made-by-new-latex-typesetting-users/)
+
 You can find all `Latex` oriented posts of mine in: [https://shantoroy.com/categories/#latex](https://shantoroy.com/categories/#latex)
 
 Some of those are included here.
@@ -157,5 +160,5 @@ Some of those are included here.
 * [How to Collaboratively Write a Paper using Overleaf Latex Platform](https://shantoroy.com/latex/how-to-collaborately-write-a-paper-using-latex-overleaf/)
 * [Itemize, Enumerate, and To-do-list in Latex](https://shantoroy.com/latex/playing-with-latex-itemize-enumerate-fontawesome/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0OTQ0Nzg4NSwxNjQzMDA0OTIxXX0=
+eyJoaXN0b3J5IjpbLTEzMDM4NzIyMzYsMTY0MzAwNDkyMV19
 -->
