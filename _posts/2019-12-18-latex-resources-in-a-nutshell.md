@@ -38,6 +38,7 @@ Note that, you will have to install latex environment first before installing th
 ## Quick Learn
 * [Learn Latex in 30 Minutes ](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes)
 * [Latex Quick Guide](https://www.resurchify.com/latex_tutorial/latex_quick_guide.php)
+* [20 Most Common Mistakes Made by New Latex Users](https://shantoroy.com/latex/common-mistakes-made-by-new-latex-typesetting-users/)
 
 ## Useful Complete resources
 * [Awesome LaTeX](https://github.com/egeerardyn/awesome-LaTeX)
@@ -76,9 +77,9 @@ Some of those are included here.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MjEyNDYyNCwyNDkxOTc3MzIsLTYxMz
-QzMTA3MiwxMzE3ODU2MDkzLDIwMTUxNjYzODgsLTE5MTU3MTgy
-NTIsLTE4NDEzNjc2NjAsLTEyNDkxNjg5MjEsLTg1MDQxNjExOS
-wtNDM0OTA4OTY1LC0xOTgzMDk3NzIyLDIwMDMzODA2MjYsLTE2
-MjQyMDMzMjQsNDMwMzkyOTIyXX0=
+eyJoaXN0b3J5IjpbMTkwNzM2Mzg5MywtNzgyMTI0NjI0LDI0OT
+E5NzczMiwtNjEzNDMxMDcyLDEzMTc4NTYwOTMsMjAxNTE2NjM4
+OCwtMTkxNTcxODI1MiwtMTg0MTM2NzY2MCwtMTI0OTE2ODkyMS
+wtODUwNDE2MTE5LC00MzQ5MDg5NjUsLTE5ODMwOTc3MjIsMjAw
+MzM4MDYyNiwtMTYyNDIwMzMyNCw0MzAzOTI5MjJdfQ==
 -->
