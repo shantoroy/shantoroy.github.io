@@ -92,6 +92,8 @@ Then under the `\begin{forest}...\end{forest}` environment, all you need to do i
 
 You can also check out my other post:
 [Draw a Taxonomy Tree in Latex using Tikz for Publication](https://shantoroy.com/latex/taxonomy-tree-in-latex-for-publication/).
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNTEyOTU2NiwxMDc1MjI0MjQyXX0=
+eyJoaXN0b3J5IjpbMzg5MDkyNzk0LDEwNzUyMjQyNDJdfQ==
 -->
