@@ -130,6 +130,15 @@ That's all folks. Cheers!!! :smiley:
 
 ## Related other posts on Latex
 
+You can find a comprehensive list of Latex resources in the following post:
+
+[Latex Resources in a Nutshell](https://shantoroy.com/latex/latex-resources-in-a-nutshell/)
+
+If you are a new Latex user, check out this post:
+[20 Most Common Mistakes Made by New Latex Users](https://shantoroy.com/latex/common-mistakes-made-by-new-latex-typesetting-users/)
+
+You can find all `Latex` oriented posts of mine in: [https://shantoroy.com/categories/#latex](https://shantoroy.com/categories/#latex)
+
 * [Add Copyright Notice and Conference Name in IEEE Conference Template](https://shantoroy.com/latex/add-copyright-conference-name/)
 * [Preparing Tables for Publication and Documentation in Latex](https://shantoroy.com/latex/how-to-create-tables-in-latex/)
 * [Creating Bar Charts using Latex PGFPlots](https://shantoroy.com/latex/bar-plots-in-latex-pgfplot/)
@@ -144,7 +153,7 @@ That's all folks. Cheers!!! :smiley:
 * [Bibliography management with Bibtex in Latex](https://shantoroy.com/latex/bibliography-management-with-bibtex/)
 * [Creating Multiple Line plots from CSV file using Latex Tikz and PGFPlot](https://shantoroy.com/latex/multiple-line-plots-using-tikz-pgfplot/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE2NTU0OTM0LDUyNzA2MDIyMCwtMTM0OT
-k1OTYzOCwtNjczMjE1MjgyLC0yNjAyODM2MzAsLTUyNjI0MzYx
-LDI0Njk0MzEwNiw5OTY1Njc5NDVdfQ==
+eyJoaXN0b3J5IjpbMTU5ODYxMjkxNCw1MjcwNjAyMjAsLTEzND
+k5NTk2MzgsLTY3MzIxNTI4MiwtMjYwMjgzNjMwLC01MjYyNDM2
+MSwyNDY5NDMxMDYsOTk2NTY3OTQ1XX0=
 -->
