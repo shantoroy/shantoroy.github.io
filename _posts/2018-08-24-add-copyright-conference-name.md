@@ -110,6 +110,14 @@ The output will look like the following-
 
 
 ## Related Posts
+You can find a comprehensive list of Latex resources in the following post:
+
+[Latex Resources in a Nutshell](https://shantoroy.com/latex/latex-resources-in-a-nutshell/)
+
+If you are a new Latex user, check out this post:
+[20 Most Common Mistakes Made by New Latex Users](https://shantoroy.com/latex/common-mistakes-made-by-new-latex-typesetting-users/)
+
+You can find all `Latex` oriented posts of mine in: [https://shantoroy.com/categories/#latex](https://shantoroy.com/categories/#latex)
 
 * [20 Most Common Mistakes Made by New Latex Users](https://shantoroy.com/latex/common-mistakes-made-by-new-latex-typesetting-users/)
 * [Important Latex Resources in a Nutshell](https://shantoroy.com/latex/latex-resources-in-a-nutshell/)
@@ -130,6 +138,6 @@ The output will look like the following-
 * [How to Convert Python Matplotlib Plots to Latex Plots (Easiest Way) for Academic Papers](https://shantoroy.com/latex/convert-matplotlib-plot-to-latex-plot/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODA5MTExMjAsLTEzMDMxOTkxMzQsLT
-E2MDI2MzM2ODZdfQ==
+eyJoaXN0b3J5IjpbMTg0MzM2MzA5OCwtMTMwMzE5OTEzNCwtMT
+YwMjYzMzY4Nl19
 -->
