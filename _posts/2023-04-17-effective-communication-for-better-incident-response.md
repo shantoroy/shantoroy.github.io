@@ -24,7 +24,7 @@ toc_icon: "heart"
 
 Hi there!!! 👋
 
-It's the sixth day of the `#100dayschallenge`, and today I will explore how to effectively communicate and related best practices. 
+It's the seventh day of the `#100dayschallenge`, and today I will explore how to effectively communicate and related best practices. 
 
 Effective communication is crucial during incidents because it enables all stakeholders to remain informed, coordinated, and ultimately focused on resolving the issue. 
 
@@ -138,5 +138,6 @@ Once a week, I'll be sharing the latest weekly updates on my published articles,
 
 I am also writing on Medium. You can [follow me here](https://medium.com/@shantoroy).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MTM0NDA0Miw2MzcwNTQwMzZdfQ==
+eyJoaXN0b3J5IjpbLTM2MzcwNzE2OSwxMjkxMzQ0MDQyLDYzNz
+A1NDAzNl19
 -->
