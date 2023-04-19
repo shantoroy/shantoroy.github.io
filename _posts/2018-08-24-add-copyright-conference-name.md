@@ -109,6 +109,9 @@ The output will look like the following-
 </figure>
 
 
+## Related Posts
+
+* [20 Most Common Mistakes Made by New Latex Users](https://shantoroy.com/latex/common-mistakes-made-by-new-latex-typesetting-users/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ2NDMwNDE2LC0xNjAyNjMzNjg2XX0=
+eyJoaXN0b3J5IjpbLTY3MjgyNzU4MSwtMTYwMjYzMzY4Nl19
 -->
