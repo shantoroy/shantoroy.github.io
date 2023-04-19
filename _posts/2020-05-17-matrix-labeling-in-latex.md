@@ -197,6 +197,15 @@ Once again, you can check the outputs in this [Overleaf Document](https://www.ov
 
 
 ## Related Posts on Latex
+You can find a comprehensive list of Latex resources in the following post:
+
+[Latex Resources in a Nutshell](https://shantoroy.com/latex/latex-resources-in-a-nutshell/)
+
+If you are a new Latex user, check out this post:
+[20 Most Common Mistakes Made by New Latex Users](https://shantoroy.com/latex/common-mistakes-made-by-new-latex-typesetting-users/)
+
+You can find all `Latex` oriented posts of mine in: [https://shantoroy.com/categories/#latex](https://shantoroy.com/categories/#latex)
+
 * [Add Copyright Notice and Conference Name in IEEE Conference Template](https://shantoroy.com/latex/add-copyright-conference-name/)
 * [Preparing Tables for Publication and Documentation in Latex](https://shantoroy.com/latex/how-to-create-tables-in-latex/)
 * [Creating Bar Charts using Latex PGFPlots](https://shantoroy.com/latex/bar-plots-in-latex-pgfplot/)
@@ -208,7 +217,7 @@ Once again, you can check the outputs in this [Overleaf Document](https://www.ov
 * [Line Plotting using Latex PGFPlots](https://shantoroy.com/latex/how-to-draw-line-graph-using-pgfplots-latex/)
 * [How to add Codes in Latex:  `listings`  package for code documentation](https://shantoroy.com/latex/how-to-add-codes-in-latex-listing-package/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMjA5OTIxMywxOTYwNTM1MzUzLDEzNj
-kyODAyMSwxODEwMzA2MzgsMTk4MzEzNDU3OCwtMTA0MDQyNjA0
-Niw4NjM3MDg0MTFdfQ==
+eyJoaXN0b3J5IjpbMTQ0ODI4OTM3LDE4MjIwOTkyMTMsMTk2MD
+UzNTM1MywxMzY5MjgwMjEsMTgxMDMwNjM4LDE5ODMxMzQ1Nzgs
+LTEwNDA0MjYwNDYsODYzNzA4NDExXX0=
 -->
