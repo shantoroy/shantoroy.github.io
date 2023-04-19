@@ -203,6 +203,15 @@ The following example has two subplots-
 
 
 ## Related posts on Latex
+You can find a comprehensive list of Latex resources in the following post:
+
+[Latex Resources in a Nutshell](https://shantoroy.com/latex/latex-resources-in-a-nutshell/)
+
+If you are a new Latex user, check out this post:
+[20 Most Common Mistakes Made by New Latex Users](https://shantoroy.com/latex/common-mistakes-made-by-new-latex-typesetting-users/)
+
+You can find all `Latex` oriented posts of mine in: [https://shantoroy.com/categories/#latex](https://shantoroy.com/categories/#latex)
+
 * [Add Copyright Notice and Conference Name in IEEE Conference Template](https://shantoroy.com/latex/add-copyright-conference-name/)
 * [Preparing Tables for Publication and Documentation in Latex](https://shantoroy.com/latex/how-to-create-tables-in-latex/)
 * [Creating Bar Charts using Latex PGFPlots](https://shantoroy.com/latex/bar-plots-in-latex-pgfplot/)
@@ -217,6 +226,6 @@ The following example has two subplots-
 * [Creating Multiple Line plots from CSV file using Latex Tikz and PGFPlot](https://shantoroy.com/latex/multiple-line-plots-using-tikz-pgfplot/)
 * [How to Draw a Literature Survey Taxonomy Tree in Latex](https://shantoroy.com/latex/Draw-literature-survey-tree-in-latex/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTM0MDcwNTUsLTk3NTI1NTc2MSwtOT
-c5MTI5MTYyXX0=
+eyJoaXN0b3J5IjpbMzI3MjY2NzQxLC05NzUyNTU3NjEsLTk3OT
+EyOTE2Ml19
 -->
