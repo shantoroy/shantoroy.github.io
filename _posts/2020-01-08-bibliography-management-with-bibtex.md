@@ -81,6 +81,14 @@ In this post, we will learn how to manage bibliography using BibTex in Latex. Th
 
 
 ## Related posts on Latex
+You can find a comprehensive list of Latex resources in the following post:
+
+[Latex Resources in a Nutshell](https://shantoroy.com/latex/latex-resources-in-a-nutshell/)
+
+If you are a new Latex user, check out this post:
+[20 Most Common Mistakes Made by New Latex Users](https://shantoroy.com/latex/common-mistakes-made-by-new-latex-typesetting-users/)
+
+You can find all `Latex` oriented posts of mine in: [https://shantoroy.com/categories/#latex](https://shantoroy.com/categories/#latex)
 * [Add Copyright Notice and Conference Name in IEEE Conference Template](https://shantoroy.com/latex/add-copyright-conference-name/)
 * [Preparing Tables for Publication and Documentation in Latex](https://shantoroy.com/latex/how-to-create-tables-in-latex/)
 * [Creating Bar Charts using Latex PGFPlots](https://shantoroy.com/latex/bar-plots-in-latex-pgfplot/)
@@ -97,7 +105,7 @@ In this post, we will learn how to manage bibliography using BibTex in Latex. Th
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODEzMTMwNTI0LC0xMjExMTQ4NDg2LC0xOT
-Q5NDEzOTU0LC0xNTg1OTMzMzk5LDEzOTIzNTMwNzEsNTA3MDY3
-OTAwXX0=
+eyJoaXN0b3J5IjpbLTE1NzAwNTg1NTQsLTEyMTExNDg0ODYsLT
+E5NDk0MTM5NTQsLTE1ODU5MzMzOTksMTM5MjM1MzA3MSw1MDcw
+Njc5MDBdfQ==
 -->
