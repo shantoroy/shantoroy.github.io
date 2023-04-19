@@ -115,7 +115,6 @@ The output will look like the following-
 * [Important Latex Resources in a Nutshell](https://shantoroy.com/latex/latex-resources-in-a-nutshell/)
 * [How to write an algorithm in Latex](https://shantoroy.com/latex/how-to-write-algorithm-in-latex/)
 * [How to add subfigure in Latex](https://shantoroy.com/latex/how-to-add-subfig-in-latex/)
-* [Add Copyright Notice and Conference Name in IEEE Conference Template](https://shantoroy.com/latex/add-copyright-conference-name/)
 * [Preparing Tables for Publication and Documentation in Latex](https://shantoroy.com/latex/how-to-create-tables-in-latex/)
 * [Creating Bar Charts using Latex PGFPlots](https://shantoroy.com/latex/bar-plots-in-latex-pgfplot/)
 
@@ -131,6 +130,6 @@ The output will look like the following-
 * [How to Convert Python Matplotlib Plots to Latex Plots (Easiest Way) for Academic Papers](https://shantoroy.com/latex/convert-matplotlib-plot-to-latex-plot/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDMxOTkxMzQsLTE2MDI2MzM2ODZdfQ
-==
+eyJoaXN0b3J5IjpbLTE0ODA5MTExMjAsLTEzMDMxOTkxMzQsLT
+E2MDI2MzM2ODZdfQ==
 -->
