@@ -180,6 +180,35 @@ The second subplot includes logarithmic scale.
 Happy Documentation and writing papers.
 
 
+## Related Posts
+You can find a comprehensive list of Latex resources in the following post:
+
+[Latex Resources in a Nutshell](https://shantoroy.com/latex/latex-resources-in-a-nutshell/)
+
+If you are a new Latex user, check out this post:
+[20 Most Common Mistakes Made by New Latex Users](https://shantoroy.com/latex/common-mistakes-made-by-new-latex-typesetting-users/)
+
+You can find all `Latex` oriented posts of mine in: [https://shantoroy.com/categories/#latex](https://shantoroy.com/categories/#latex)
+
+
+* [How to write an algorithm in Latex](https://shantoroy.com/latex/how-to-write-algorithm-in-latex/)
+* [How to add subfigure in Latex](https://shantoroy.com/latex/how-to-add-subfig-in-latex/)
+* [Add Copyright Notice and Conference Name in IEEE Conference Template](https://shantoroy.com/latex/add-copyright-conference-name/)
+* [Preparing Tables for Publication and Documentation in Latex](https://shantoroy.com/latex/how-to-create-tables-in-latex/)
+* [Creating Bar Charts using Latex PGFPlots](https://shantoroy.com/latex/bar-plots-in-latex-pgfplot/)
+
+* [How to Write Matrix with Row/Column Labels in Latex](https://shantoroy.com/latex/matrix-labeling-in-latex/)
+* [How to Collaboratively Write a Paper using Overleaf Latex Platform](https://shantoroy.com/latex/how-to-collaborately-write-a-paper-using-latex-overleaf/)
+* [Itemize, Enumerate, and To-do-list in Latex](https://shantoroy.com/latex/playing-with-latex-itemize-enumerate-fontawesome/)
+* [Latex Table for Survey in IEEE two-column format](https://shantoroy.com/latex/latex-table-for-survey-ieee-template/)
+* [Line Plotting using Latex PGFPlots](https://shantoroy.com/latex/how-to-draw-line-graph-using-pgfplots-latex/)
+* [How to add Codes in Latex:  `listings`  package for code documentation](https://shantoroy.com/latex/how-to-add-codes-in-latex-listing-package/)
+* [Bibliography management with Bibtex in Latex](https://shantoroy.com/latex/bibliography-management-with-bibtex/)
+* [Creating Multiple Line plots from CSV file using Latex Tikz and PGFPlot](https://shantoroy.com/latex/multiple-line-plots-using-tikz-pgfplot/)
+* [How to Draw a Literature Survey Taxonomy Tree in Latex](https://shantoroy.com/latex/Draw-literature-survey-tree-in-latex/)
+* [How to Convert Python Matplotlib Plots to Latex Plots (Easiest Way) for Academic Papers](https://shantoroy.com/latex/convert-matplotlib-plot-to-latex-plot/)
+
+
 ## References
 
 * [Having y-axis in log scale base 2 using pgfplots](https://tex.stackexchange.com/questions/132703/having-y-axis-in-log-scale-base-2-using-pgfplots)
@@ -187,5 +216,5 @@ Happy Documentation and writing papers.
 * [PgfPlots creating bar chart from csv](https://tex.stackexchange.com/questions/364076/pgfplots-creating-bar-chart-from-csv)
 * [How to plot the first n rows of a table using pgfplots?](https://tex.stackexchange.com/questions/199376/how-to-plot-the-first-n-rows-of-a-table-using-pgfplots)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg1OTA4ODhdfQ==
+eyJoaXN0b3J5IjpbMTc2NTY1MTQxMF19
 -->
