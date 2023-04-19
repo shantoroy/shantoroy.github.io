@@ -119,8 +119,7 @@ If you are a new Latex user, check out this post:
 
 You can find all `Latex` oriented posts of mine in: [https://shantoroy.com/categories/#latex](https://shantoroy.com/categories/#latex)
 
-* [20 Most Common Mistakes Made by New Latex Users](https://shantoroy.com/latex/common-mistakes-made-by-new-latex-typesetting-users/)
-* [Important Latex Resources in a Nutshell](https://shantoroy.com/latex/latex-resources-in-a-nutshell/)
+
 * [How to write an algorithm in Latex](https://shantoroy.com/latex/how-to-write-algorithm-in-latex/)
 * [How to add subfigure in Latex](https://shantoroy.com/latex/how-to-add-subfig-in-latex/)
 * [Preparing Tables for Publication and Documentation in Latex](https://shantoroy.com/latex/how-to-create-tables-in-latex/)
@@ -138,6 +137,6 @@ You can find all `Latex` oriented posts of mine in: [https://shantoroy.com/categ
 * [How to Convert Python Matplotlib Plots to Latex Plots (Easiest Way) for Academic Papers](https://shantoroy.com/latex/convert-matplotlib-plot-to-latex-plot/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MzM2MzA5OCwtMTMwMzE5OTEzNCwtMT
-YwMjYzMzY4Nl19
+eyJoaXN0b3J5IjpbODY4ODkyNzI4LC0xMzAzMTk5MTM0LC0xNj
+AyNjMzNjg2XX0=
 -->
