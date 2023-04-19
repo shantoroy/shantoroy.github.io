@@ -161,6 +161,14 @@ That's it for today! Cheers!!!
 
 
 ## Related Other Posts (Latex)
+You can find a comprehensive list of Latex resources in the following post:
+
+[Latex Resources in a Nutshell](https://shantoroy.com/latex/latex-resources-in-a-nutshell/)
+
+If you are a new Latex user, check out this post:
+[20 Most Common Mistakes Made by New Latex Users](https://shantoroy.com/latex/common-mistakes-made-by-new-latex-typesetting-users/)
+
+You can find all `Latex` oriented posts of mine in: [https://shantoroy.com/categories/#latex](https://shantoroy.com/categories/#latex)
 
 * [Add Copyright Notice and Conference Name in IEEE Conference Template](https://shantoroy.com/latex/add-copyright-conference-name/)
 * [Preparing Tables for Publication and Documentation in Latex](https://shantoroy.com/latex/how-to-create-tables-in-latex/)
@@ -173,6 +181,6 @@ That's it for today! Cheers!!!
 * [Latex Table for Survey in IEEE two-column format](https://shantoroy.com/latex/latex-table-for-survey-ieee-template/)
 * [Line Plotting using Latex PGFPlots](https://shantoroy.com/latex/how-to-draw-line-graph-using-pgfplots-latex/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTI0Mzk5MSwxODAxNTc4ODE3LC0xNz
-A5MjgzMTI3LC0xNTI5NDA0MTY3XX0=
+eyJoaXN0b3J5IjpbNTAwMjc0NzUsMTgwMTU3ODgxNywtMTcwOT
+I4MzEyNywtMTUyOTQwNDE2N119
 -->
