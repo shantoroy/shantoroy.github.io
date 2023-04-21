@@ -60,7 +60,7 @@ I'm also adding an example mapping of some popular services here:
 | Media | Elemental MediaLive, MediaConvert | Media Services | Cloud Video Intelligence |
 
 
-## Bonus
+## Bonus Free Tutorials Links
 While writing the post, I found some free materials posted by `Linuxopsys` on twitter:
 
 * Linux → [https://www.netacad.com/courses/os-it/ndg-linux-essentials](https://www.netacad.com/courses/os-it/ndg-linux-essentials) 
@@ -79,5 +79,5 @@ Thought, it would be worth sharing!
 That's all for today, guys! Cheers!!!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjcxNjIzNDddfQ==
+eyJoaXN0b3J5IjpbMTc1MTM5MTE4NSw2NzE2MjM0N119
 -->
