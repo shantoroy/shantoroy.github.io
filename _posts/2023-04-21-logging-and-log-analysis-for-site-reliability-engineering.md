@@ -1,9 +1,9 @@
 ---
 layout: single
-title: "#100daysofSRE (Day 11): Logging and Log Analysis in Site Reliability Engineering: Techniques, Tools, and Best Practices"
-excerpt: "Your blog post excerpt"
+title: "#100daysofSRE (Day 11): Logging and Log Analysis in Site Reliability Engineering- Techniques, Tools, and Best Practices"
+excerpt: "In the world of Site Reliability Engineering (SRE), logging and log analysis play a critical role in ensuring reliable and performant systems. However, collecting and analyzing logs at scale can be a daunting task. In this post, we will explore the various techniques, tools, and best practices for logging and log analysis in SRE. We cover topics such as structured logging, log aggregation, real-time log processing, and more."
 seo_title: "#100daysofSRE (Day 11): Techniques, Tools, and Best Practices for Logging and Log Analysis in Site Reliability Engineering"
-seo_description: "Your meta description"
+seo_description: "In this post, we explore the importance of logging and log analysis in Site Reliability Engineering (SRE) and discuss the techniques, tools, and best practices for effective log management. From setting up logging infrastructure to performing log analysis and alerting, we cover everything you need to know about logging in SRE. Join us for day 11 of #100daysofSRE!"
 header:
   image: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
   teaser: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
@@ -147,5 +147,5 @@ Once a week, I'll be sharing the latest weekly updates on my published articles,
 
 I am also writing on Medium. You can [follow me here](https://medium.com/@shantoroy).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyOTIwNDg1OV19
+eyJoaXN0b3J5IjpbOTM2OTcyNzAzXX0=
 -->
