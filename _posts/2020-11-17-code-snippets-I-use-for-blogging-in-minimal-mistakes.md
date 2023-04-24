@@ -131,8 +131,8 @@ Sometime, I need to embed a youtube video or instagram image. Here's the example
 
 ## Other Minimal Mistakes Blogs
 Here are a few other blogs that are using the `Minimal Mistakes` theme. You can get inspiration by looking at how people are prefering this template for publishing their blogs.
-1. https://www.gurucharan.in/blog/blogging-as-a-developer/
-2. https://www.cross-validated.com/Personal-website-with-Minimal-Mistakes-Jekyll-Theme-HOWTO-Part-IV/
+1. [https://www.gurucharan.in/blog/blogging-as-a-developer/](https://www.gurucharan.in/blog/blogging-as-a-developer/)
+2. [https://www.cross-validated.com/Personal-website-with-Minimal-Mistakes-Jekyll-Theme-HOWTO-Part-IV/](https://www.cross-validated.com/Personal-website-with-Minimal-Mistakes-Jekyll-Theme-HOWTO-Part-IV/)
 ([Github](https://github.com/k-bosko/k-bosko.github.io))
 
 
@@ -149,12 +149,20 @@ Here are a few other blogs that are using the `Minimal Mistakes` theme. You can 
 
 ## CheatSheet/Help
 If you are looking for more snippets, just go visit this page:
-* https://www.fabriziomusacchio.com/blog/2021-08-11-Minimal_Mistakes_Cheat_Sheet/#via-html
+* [https://www.fabriziomusacchio.com/blog/2021-08-11-Minimal_Mistakes_Cheat_Sheet/#via-html](https://www.fabriziomusacchio.com/blog/2021-08-11-Minimal_Mistakes_Cheat_Sheet/#via-html)
 
 
-
+## Related Posts on Jekyll/ Minimal Mistakes
+* [Google Adsense in Jekyll Static Site or Minimal Mistakes Blog Theme](https://shantoroy.com/jekyll/how-I-added-google-adsense-to-my-jekyll-minimal-mistakes-blog/)
+* [Google Analytics in Minimal Mistakes Blog Theme](https://shantoroy.com/jekyll/google-analytics-in-jekyll-minimal-mistakes-blog-theme/)
+* [How to Enable Facebook Comments Plugin in Jekyll Blog Posts](https://shantoroy.com/jekyll/facebook-comment-plugin-jekyll-minimal-mistakes-blog-posts/)
+* [Jekyll SEO: How to Find and Fix 404 Error on a Jekyll (Minimal Mistakes) Blog Website](https://shantoroy.com/jekyll/jekyll-seo-find-and-fix-404-error-on-jekyll-minimal-mistake-blog/)
+* [Medium: How to Effectively Perform Search Engine Optimization to a Jekyll (Minimal Mistakes) Blog Post Header](https://medium.com/@shantoroy/how-to-effectively-perform-search-engine-optimization-to-a-jekyll-minimal-mistakes-blog-post-9c3a17865eca)
+* [How to Add Latex Math to Jekyll-based Theme- Minimal Mistakes](https://shantoroy.com/jekyll/add-latex-math-to-jekyll-blog-minimal-mistakes/)
+* [Tools and Platforms I use for Blogging](https://shantoroy.com/blog/tools-I-use-for-blogging/)
+* [How to install Jekyll with the Minimal Mistakes Theme in macOS](https://shantoroy.com/blogging/install-jekyll-minimal-mistakes-in-macos/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzMxODg2NDIsMTU0NjY5MjYxMCwtNj
-A1OTQwODQzLDUzODA0NjYwMSwtODkxNjU0ODMsLTUyMDQ4MjIx
-Niw1NTQ5NTIzNjksLTU2NTQ3MDg2NywtMTE3MTA4MDI2NF19
+eyJoaXN0b3J5IjpbMTY3ODQzMDMzNSwxNTQ2NjkyNjEwLC02MD
+U5NDA4NDMsNTM4MDQ2NjAxLC04OTE2NTQ4MywtNTIwNDgyMjE2
+LDU1NDk1MjM2OSwtNTY1NDcwODY3LC0xMTcxMDgwMjY0XX0=
 -->
