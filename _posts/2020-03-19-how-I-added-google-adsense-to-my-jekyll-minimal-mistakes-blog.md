@@ -80,7 +80,19 @@ If you want to know how to track your website or blog using `Google Analytics`, 
 [Google Analytics in Minimal Mistakes Blog Theme](https://shantoroy.com/jekyll/google-analytics-in-jekyll-minimal-mistakes-blog-theme/)
 
 Keep growing your audience and earning some passive money. 
-Happy blogging!!! :sunglasses:
+Happy blogging!!!
+
+
+## Related Posts on Jekyll/ Minimal Mistakes
+
+* [Google Analytics in Minimal Mistakes Blog Theme](https://shantoroy.com/jekyll/google-analytics-in-jekyll-minimal-mistakes-blog-theme/)
+* [How to Enable Facebook Comments Plugin in Jekyll Blog Posts](https://shantoroy.com/jekyll/facebook-comment-plugin-jekyll-minimal-mistakes-blog-posts/)
+* [Minimal Mistakes Cheat Sheet: Code Snippets I use to Blog using Jekyll and the Minimal Mistakes Theme](https://shantoroy.com/jekyll/code-snippets-I-use-for-blogging-in-minimal-mistakes/)
+* [Jekyll SEO: How to Find and Fix 404 Error on a Jekyll (Minimal Mistakes) Blog Website](https://shantoroy.com/jekyll/jekyll-seo-find-and-fix-404-error-on-jekyll-minimal-mistake-blog/)
+* [Medium: How to Effectively Perform Search Engine Optimization to a Jekyll (Minimal Mistakes) Blog Post Header](https://medium.com/@shantoroy/how-to-effectively-perform-search-engine-optimization-to-a-jekyll-minimal-mistakes-blog-post-9c3a17865eca)
+* [How to Add Latex Math to Jekyll-based Theme- Minimal Mistakes](https://shantoroy.com/jekyll/add-latex-math-to-jekyll-blog-minimal-mistakes/)
+* [Tools and Platforms I use for Blogging](https://shantoroy.com/blog/tools-I-use-for-blogging/)
+* [How to install Jekyll with the Minimal Mistakes Theme in macOS](https://shantoroy.com/blogging/install-jekyll-minimal-mistakes-in-macos/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODI2ODE4MTJdfQ==
+eyJoaXN0b3J5IjpbLTE3MTUyNzgzNzJdfQ==
 -->
