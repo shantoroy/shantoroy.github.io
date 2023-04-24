@@ -77,8 +77,8 @@ If you want to read how to add `Google Adsense` in minimal mistakes theme, feel 
 
 ## References
 1. [https://github.com/mmistakes/minimal-mistakes/issues/85](https://github.com/mmistakes/minimal-mistakes/issues/85)
-2. (https://mmistakes.github.io/minimal-mistakes/docs/configuration/#seo-social-sharing-and-analytics-settings
+2. [SEO Social Sharing and Analytics Settings](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#seo-social-sharing-and-analytics-settings)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODg3NDI4MjQsLTgzNzg3ODYzLC0zOT
-I5ODM3MzEsLTE4NDUxNTM4MDZdfQ==
+eyJoaXN0b3J5IjpbLTY4ODU5NTY2NywtODM3ODc4NjMsLTM5Mj
+k4MzczMSwtMTg0NTE1MzgwNl19
 -->
