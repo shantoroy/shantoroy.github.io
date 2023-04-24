@@ -70,11 +70,21 @@ comments:
 Now, you are good to go. Cheers!!!
 
 
+## Related Posts on Jekyll/ Minimal Mistakes
+* [Google Adsense in Jekyll Static Site or Minimal Mistakes Blog Theme](https://shantoroy.com/jekyll/how-I-added-google-adsense-to-my-jekyll-minimal-mistakes-blog/)
+* [Google Analytics in Minimal Mistakes Blog Theme](https://shantoroy.com/jekyll/google-analytics-in-jekyll-minimal-mistakes-blog-theme/)
+* [Minimal Mistakes Cheat Sheet: Code Snippets I use to Blog using Jekyll and the Minimal Mistakes Theme](https://shantoroy.com/jekyll/code-snippets-I-use-for-blogging-in-minimal-mistakes/)
+* [Jekyll SEO: How to Find and Fix 404 Error on a Jekyll (Minimal Mistakes) Blog Website](https://shantoroy.com/jekyll/jekyll-seo-find-and-fix-404-error-on-jekyll-minimal-mistake-blog/)
+* [Medium: How to Effectively Perform Search Engine Optimization to a Jekyll (Minimal Mistakes) Blog Post Header](https://medium.com/@shantoroy/how-to-effectively-perform-search-engine-optimization-to-a-jekyll-minimal-mistakes-blog-post-9c3a17865eca)
+* [How to Add Latex Math to Jekyll-based Theme- Minimal Mistakes](https://shantoroy.com/jekyll/add-latex-math-to-jekyll-blog-minimal-mistakes/)
+* [Tools and Platforms I use for Blogging](https://shantoroy.com/blog/tools-I-use-for-blogging/)
+* [How to install Jekyll with the Minimal Mistakes Theme in macOS](https://shantoroy.com/blogging/install-jekyll-minimal-mistakes-in-macos/)
+
 
 ## References
 * [Comments Moderation using Facebook Comment Plugin](https://developers.facebook.com/docs/plugins/comments)
 * [Comments Plugin Moderation Tool not working](https://stackoverflow.com/questions/9120814/comments-plugin-moderation-tool-not-working)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NDAwNDc2OCwxODc1MjIzMzY4LDE5NT
-EwODU5MDUsMjA1NTQ2MDYyNV19
+eyJoaXN0b3J5IjpbLTE1NTk4ODIzNywxNTk0MDA0NzY4LDE4Nz
+UyMjMzNjgsMTk1MTA4NTkwNSwyMDU1NDYwNjI1XX0=
 -->
