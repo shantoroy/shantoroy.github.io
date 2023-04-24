@@ -151,8 +151,10 @@ Here are a few other blogs that are using the `Minimal Mistakes` theme. You can 
 If you are looking for more snippets, just go visit this page:
 * https://www.fabriziomusacchio.com/blog/2021-08-11-Minimal_Mistakes_Cheat_Sheet/#via-html
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NjY5MjYxMCwtNjA1OTQwODQzLDUzOD
-A0NjYwMSwtODkxNjU0ODMsLTUyMDQ4MjIxNiw1NTQ5NTIzNjks
-LTU2NTQ3MDg2NywtMTE3MTA4MDI2NF19
+eyJoaXN0b3J5IjpbLTIxMzMxODg2NDIsMTU0NjY5MjYxMCwtNj
+A1OTQwODQzLDUzODA0NjYwMSwtODkxNjU0ODMsLTUyMDQ4MjIx
+Niw1NTQ5NTIzNjksLTU2NTQ3MDg2NywtMTE3MTA4MDI2NF19
 -->
