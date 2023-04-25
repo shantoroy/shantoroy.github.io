@@ -2,7 +2,7 @@
 layout: single
 title: "Vlogging Life 01: Tools Beginner Vloggers use to Edit Videos"
 excerpt:  "As a beginner vlogger, video editing can be an overwhelming task, especially when you are not familiar with the available tools. However, with the right tools, editing can be enjoyable and fun. In this blog post, I'll discuss some of the essential tools beginner vloggers use to edit their videos."
-
+redirect_from: /vlogging/tools-I-use-to-edit-my-videos/
 seo_title:  "Beginner Vloggers: Essential Tools for Video Editing"
 seo_description:  "Are you a beginner vlogger struggling with video editing? Discover the essential tools beginner vloggers use to edit their videos in this blog post. Learn about the tools and start creating engaging content for your vlog."
 header:
@@ -95,5 +95,5 @@ Happy vlogging!
 
 <iframe src="https://giphy.com/embed/FvYiO8OO1MWNHbBp2I" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/60secdocs-tattoo-tattoos-inked-FvYiO8OO1MWNHbBp2I"></a></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMDUyNzE1NV19
+eyJoaXN0b3J5IjpbMTY0NDY0OTg1NF19
 -->
