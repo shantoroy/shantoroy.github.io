@@ -25,29 +25,31 @@ Python is a popular programming language used by developers for building differe
 
 When starting a new Python project, it's important to have certain files in place to ensure that the project is organized, maintainable, and can be easily shared with others.
 
-## Com
+## Common Files
 Here are some common files that are typically included in a Python project:
 
-1.  `README.md`: A file containing information about the project and its usage. If placed in GitHub or GitLab, it's usually the first file someone will see when visiting the project's repository.
+### `README.md`
+ A file containing information about the project and its usage. If placed in GitHub or GitLab, it's usually the first file someone will see when visiting the project's repository.
 
 	This file contains information about the project such as its purpose, installation instructions, usage instructions, and other relevant details. An example may look like as follows:
 
-	```markdown
-	# Project Name
+```markdown
+# Project Name
 
-	This project does X, Y, and Z.
+This project does X, Y, and Z.
 
-	## Installation
+## Installation
 
-	To install the project, do the following:
+To install the project, do the following:
 
-	1. Clone the repository using `git clone https://<github_URL>`
-	2. Install the dependencies using `pip install -r requirements.txt`
-	3. Run the project using `python app.py`
-	```
+1. Clone the repository using `git clone https://<github_URL>`
+2. Install the dependencies using `pip install -r requirements.txt`
+3. Run the project using `python app.py`
+```
 
     
-2.  `requirements.txt`: A file listing all the dependencies required for the project to run. This file is often used in combination with package managers like pip.
+###  `requirements.txt`
+A file listing all the dependencies required for the project to run. This file is often used in combination with package managers like pip.
 
 	This file contains a list of dependencies and their versions that the project requires to run. You can generate this file using the `pip freeze > requirements.txt` command. A typical file looks like as follows.
 
@@ -68,7 +70,9 @@ Here are some common files that are typically included in a Python project:
 	```
 	
     This example is based on a Flask-based API for MQTT device authentication and data response. 
-3.  `setup.py`: A file used to define the project, its metadata, and dependencies for building and distributing the project. Example contents may include:
+
+###  `setup.py`
+A file used to define the project, its metadata, and dependencies for building and distributing the project. Example contents may include:
 
 	```py
 	from setuptools import setup, find_packages
@@ -89,7 +93,8 @@ Here are some common files that are typically included in a Python project:
 	)
 	```
     
-4.  `LICENSE`: A file specifying the license under which the project is distributed. An example file may include the following contents:
+###  `LICENSE`
+A file specifying the license under which the project is distributed. An example file may include the following contents:
 	```
 	MIT License
 
@@ -116,7 +121,7 @@ Here are some common files that are typically included in a Python project:
 
 	In this example, the license is the MIT License, which is a permissive license that allows others to use, copy, modify, and distribute the software. The license also includes a warranty disclaimer and liability limitation clause.
     
-5.  `main.py`: A file containing the main code for the project. Or if it's an app, the file name could be `app.py`. A typical structure is as follows:
+7.  `main.py`: A file containing the main code for the project. Or if it's an app, the file name could be `app.py`. A typical structure is as follows:
 	```py
 	import custom_class
 
@@ -128,7 +133,7 @@ Here are some common files that are typically included in a Python project:
 	    main()
 	```
     
-6.  `config.py`: A file containing configuration variables for the project. A typical file looks like as follows:
+8.  `config.py`: A file containing configuration variables for the project. A typical file looks like as follows:
 	```py
 	import os
 
@@ -149,7 +154,7 @@ Here are some common files that are typically included in a Python project:
 	```
 	The reason for using this file is to hide sensitive information from the scripts and it is a good practice to use this file.
     
-7.  `utils.py`: A file containing utility functions (or classes) that can be used across the project. For example,
+9.  `utils.py`: A file containing utility functions (or classes) that can be used across the project. For example,
 	```py
 	import hashlib
 
@@ -172,7 +177,7 @@ Here are some common files that are typically included in a Python project:
 	        print(f'Time taken: {self.elapsed_time:.2f} seconds')
 	```
     
-8.  `test/`: A directory containing unit tests for the project. For example, a unit test for a function could be as follows:
+10.  `test/`: A directory containing unit tests for the project. For example, a unit test for a function could be as follows:
 	```py
 	import unittest
 
@@ -196,7 +201,7 @@ Here are some common files that are typically included in a Python project:
 	    unittest.main()
 	```
     
-9.  `.gitignore`: A file specifying files and directories that should be ignored by Git. 
+11.  `.gitignore`: A file specifying files and directories that should be ignored by Git. 
 
 	Example contents
 	```git
@@ -207,12 +212,12 @@ Here are some common files that are typically included in a Python project:
 	.*
 	!/.gitignore
 	```
-10.  `docs/`: A directory containing documentation for the project.
+12.  `docs/`: A directory containing documentation for the project.
     
-11.  `scripts/`: A directory containing scripts for running common tasks such as data processing, model training, or deploying the application.
+13.  `scripts/`: A directory containing scripts for running common tasks such as data processing, model training, or deploying the application.
    
     
-12.  `dockerfile`: A file defining the containerization of the application. An example docker file for running an API looks like as follows:
+14.  `dockerfile`: A file defining the containerization of the application. An example docker file for running an API looks like as follows:
 
 		```docker
 		# Use an official Python runtime as a parent image
@@ -296,5 +301,5 @@ Cheers!
 1. [How to write a Twitter Data Scrapper in Python](https://shantoroy.com/python/build-a-twitter-scrapper-in-python/) 
 2. [Cloning an entire Website and Running in the Localhost](https://shantoroy.com/security/website-cloning-and-rerunning-in-localhost/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5Mjc0NzY1NF19
+eyJoaXN0b3J5IjpbLTEwNzE5NjUwNjNdfQ==
 -->
