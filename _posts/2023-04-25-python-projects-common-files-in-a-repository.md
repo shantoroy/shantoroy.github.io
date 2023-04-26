@@ -31,7 +31,7 @@ Here are some common files that are typically included in a Python project:
 ### `README.md`
  A file containing information about the project and its usage. If placed in GitHub or GitLab, it's usually the first file someone will see when visiting the project's repository.
 
-	This file contains information about the project such as its purpose, installation instructions, usage instructions, and other relevant details. An example may look like as follows:
+This file contains information about the project such as its purpose, installation instructions, usage instructions, and other relevant details. An example may look like as follows:
 
 ```markdown
 # Project Name
@@ -51,133 +51,136 @@ To install the project, do the following:
 ###  `requirements.txt`
 A file listing all the dependencies required for the project to run. This file is often used in combination with package managers like pip.
 
-	This file contains a list of dependencies and their versions that the project requires to run. You can generate this file using the `pip freeze > requirements.txt` command. A typical file looks like as follows.
+This file contains a list of dependencies and their versions that the project requires to run. You can generate this file using the `pip freeze > requirements.txt` command. A typical file looks like as follows.
 
-	```
-	click==8.1.3
-	Flask==2.2.3
-	Flask-MQTT==1.1.1
-	itsdangerous==2.1.2
-	Jinja2==3.1.2
-	MarkupSafe==2.1.2
-	paho-mqtt==1.6.1
-	postgres==4.0
-	psycopg2-binary==2.9.6
-	psycopg2-pool==1.1
-	PyJWT==2.6.0
-	pytz==2023.3
-	Werkzeug==2.2.3
-	```
+```
+click==8.1.3
+Flask==2.2.3
+Flask-MQTT==1.1.1
+itsdangerous==2.1.2
+Jinja2==3.1.2
+MarkupSafe==2.1.2
+paho-mqtt==1.6.1
+postgres==4.0
+psycopg2-binary==2.9.6
+psycopg2-pool==1.1
+PyJWT==2.6.0
+pytz==2023.3
+Werkzeug==2.2.3
+```
 	
-    This example is based on a Flask-based API for MQTT device authentication and data response. 
+   This example is based on a Flask-based API for MQTT device authentication and data response. 
 
 ###  `setup.py`
 A file used to define the project, its metadata, and dependencies for building and distributing the project. Example contents may include:
 
-	```py
-	from setuptools import setup, find_packages
+```py
+from setuptools import setup, find_packages
 
-	setup(
-	    name='<project_name>',
-	    version='v1',
-	    author='<your_name>',
-	    author_email='<your_email>@example.com',
-	    packages=find_packages(),
-	    install_requires=[
-	        'Flask>=2.0.2',
-	        'SQLAlchemy>=1.4.23',
-	        'PyJWT>=2.0.0',
-	        'psycopg2-pool>=1.0',
-	        'pytest>=6.2.5',
-	    ],
-	)
-	```
+setup(
+    name='<project_name>',
+    version='v1',
+    author='<your_name>',
+    author_email='<your_email>@example.com',
+    packages=find_packages(),
+    install_requires=[
+        'Flask>=2.0.2',
+        'SQLAlchemy>=1.4.23',
+        'PyJWT>=2.0.0',
+        'psycopg2-pool>=1.0',
+        'pytest>=6.2.5',
+    ],
+)
+```
     
 ###  `LICENSE`
 A file specifying the license under which the project is distributed. An example file may include the following contents:
-	```
-	MIT License
+```
+MIT License
 
-	Copyright (c) [year] [author]
+Copyright (c) [year] [author]
 
-	Permission is hereby granted, free of charge, to any person obtaining a copy
-	of this software and associated documentation files (the "Software"), to deal
-	in the Software without restriction, including without limitation the rights
-	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-	copies of the Software, and to permit persons to whom the Software is
-	furnished to do so, subject to the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-	The above copyright notice and this permission notice shall be included in all
-	copies or substantial portions of the Software.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-	SOFTWARE.
-	```
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
 
 	In this example, the license is the MIT License, which is a permissive license that allows others to use, copy, modify, and distribute the software. The license also includes a warranty disclaimer and liability limitation clause.
     
-7.  `main.py`: A file containing the main code for the project. Or if it's an app, the file name could be `app.py`. A typical structure is as follows:
-	```py
-	import custom_class
+###  `main.py`
+A file containing the main code for the project. Or if it's an app, the file name could be `app.py`. A typical structure is as follows:
+```py
+import custom_class
 
-	def main():
-		custom_obj = custom_class()
-	    # Your code here...
+def main():
+	custom_obj = custom_class()
+    # Your code here...
 
-	if __name__ == '__main__':
-	    main()
-	```
+if __name__ == '__main__':
+    main()
+```
     
-8.  `config.py`: A file containing configuration variables for the project. A typical file looks like as follows:
-	```py
-	import os
+### `config.py`
+A file containing configuration variables for the project. A typical file looks like as follows:
+```py
+import os
 
-	# Database configuration
-	DB_HOST = os.getenv('DB_HOST', 'localhost')
-	DB_PORT = os.getenv('DB_PORT', '5432')
-	DB_NAME = os.getenv('DB_NAME', 'mydatabase')
-	DB_USER = os.getenv('DB_USER', 'myuser')
-	DB_PASSWORD = os.getenv('DB_PASSWORD', 'mypassword')
+# Database configuration
+DB_HOST = os.getenv('DB_HOST', 'localhost')
+DB_PORT = os.getenv('DB_PORT', '5432')
+DB_NAME = os.getenv('DB_NAME', 'mydatabase')
+DB_USER = os.getenv('DB_USER', 'myuser')
+DB_PASSWORD = os.getenv('DB_PASSWORD', 'mypassword')
 
-	# API keys
-	API_KEY_1 = 'myapikey1'
-	API_KEY_2 = os.getenv('API_KEY_2')
+# API keys
+API_KEY_1 = 'myapikey1'
+API_KEY_2 = os.getenv('API_KEY_2')
 
-	# Other settings
-	DEBUG = True
-	SECRET_KEY = 'mysupersecretkey'
-	```
+# Other settings
+DEBUG = True
+SECRET_KEY = 'mysupersecretkey'
+```
 	The reason for using this file is to hide sensitive information from the scripts and it is a good practice to use this file.
     
-9.  `utils.py`: A file containing utility functions (or classes) that can be used across the project. For example,
-	```py
-	import hashlib
+###  `utils.py`
+A file containing utility functions (or classes) that can be used across the project. For example,
+```py
+import hashlib
 
-	def hash_password(password):
-	    """Hashes a password using the SHA-256 algorithm."""
-	    salt = 'mysalt'  # TODO: Generate a unique salt for each user
-	    password = password.encode('utf-8')
-	    salt = salt.encode('utf-8')
-	    return hashlib.sha256(password + salt).hexdigest()
+def hash_password(password):
+    """Hashes a password using the SHA-256 algorithm."""
+    salt = 'mysalt'  # TODO: Generate a unique salt for each user
+    password = password.encode('utf-8')
+    salt = salt.encode('utf-8')
+    return hashlib.sha256(password + salt).hexdigest()
 
-	class Timer:
-	    """A simple timer that can be used to measure the time taken by a block of code."""
+class Timer:
+    """A simple timer that can be used to measure the time taken by a block of code."""
 
-	    def __enter__(self):
-	        self.start_time = time.time()
+    def __enter__(self):
+        self.start_time = time.time()
 
-	    def __exit__(self, exc_type, exc_value, traceback):
-	        self.end_time = time.time()
-	        self.elapsed_time = self.end_time - self.start_time
-	        print(f'Time taken: {self.elapsed_time:.2f} seconds')
-	```
+    def __exit__(self, exc_type, exc_value, traceback):
+        self.end_time = time.time()
+        self.elapsed_time = self.end_time - self.start_time
+        print(f'Time taken: {self.elapsed_time:.2f} seconds')
+```
     
-10.  `test/`: A directory containing unit tests for the project. For example, a unit test for a function could be as follows:
+11.  `test/`: A directory containing unit tests for the project. For example, a unit test for a function could be as follows:
 	```py
 	import unittest
 
@@ -201,7 +204,7 @@ A file specifying the license under which the project is distributed. An example
 	    unittest.main()
 	```
     
-11.  `.gitignore`: A file specifying files and directories that should be ignored by Git. 
+12.  `.gitignore`: A file specifying files and directories that should be ignored by Git. 
 
 	Example contents
 	```git
@@ -212,12 +215,12 @@ A file specifying the license under which the project is distributed. An example
 	.*
 	!/.gitignore
 	```
-12.  `docs/`: A directory containing documentation for the project.
+13.  `docs/`: A directory containing documentation for the project.
     
-13.  `scripts/`: A directory containing scripts for running common tasks such as data processing, model training, or deploying the application.
+14.  `scripts/`: A directory containing scripts for running common tasks such as data processing, model training, or deploying the application.
    
     
-14.  `dockerfile`: A file defining the containerization of the application. An example docker file for running an API looks like as follows:
+15.  `dockerfile`: A file defining the containerization of the application. An example docker file for running an API looks like as follows:
 
 		```docker
 		# Use an official Python runtime as a parent image
@@ -301,5 +304,5 @@ Cheers!
 1. [How to write a Twitter Data Scrapper in Python](https://shantoroy.com/python/build-a-twitter-scrapper-in-python/) 
 2. [Cloning an entire Website and Running in the Localhost](https://shantoroy.com/security/website-cloning-and-rerunning-in-localhost/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzE5NjUwNjNdfQ==
+eyJoaXN0b3J5IjpbMTk1OTg3MDIxMV19
 -->
