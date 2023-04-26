@@ -119,7 +119,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-	In this example, the license is the MIT License, which is a permissive license that allows others to use, copy, modify, and distribute the software. The license also includes a warranty disclaimer and liability limitation clause.
+In this example, the license is the MIT License, which is a permissive license that allows others to use, copy, modify, and distribute the software. The license also includes a warranty disclaimer and liability limitation clause.
     
 ###  `main.py`
 A file containing the main code for the project. Or if it's an app, the file name could be `app.py`. A typical structure is as follows:
@@ -154,7 +154,7 @@ API_KEY_2 = os.getenv('API_KEY_2')
 DEBUG = True
 SECRET_KEY = 'mysupersecretkey'
 ```
-	The reason for using this file is to hide sensitive information from the scripts and it is a good practice to use this file.
+The reason for using this file is to hide sensitive information from the scripts and it is a good practice to use this file.
     
 ###  `utils.py`
 A file containing utility functions (or classes) that can be used across the project. For example,
@@ -180,31 +180,33 @@ class Timer:
         print(f'Time taken: {self.elapsed_time:.2f} seconds')
 ```
     
-11.  `test/`: A directory containing unit tests for the project. For example, a unit test for a function could be as follows:
-	```py
-	import unittest
+###  `test/`
+A directory containing unit tests for the project. For example, a unit test for a function could be as follows:
+```py
+import unittest
 
-	# example function
-	def add_numbers(x, y):
-	    """Adds two numbers together."""
-	    return x + y
+# example function
+def add_numbers(x, y):
+    """Adds two numbers together."""
+    return x + y
 
-	class TestAddNumbers(unittest.TestCase):
+class TestAddNumbers(unittest.TestCase):
 
-	    def test_add_numbers(self):
-	        self.assertEqual(add_numbers(2, 3), 5)
-	        self.assertEqual(add_numbers(-1, 1), 0)
-	        self.assertEqual(add_numbers(0, 0), 0)
+    def test_add_numbers(self):
+        self.assertEqual(add_numbers(2, 3), 5)
+        self.assertEqual(add_numbers(-1, 1), 0)
+        self.assertEqual(add_numbers(0, 0), 0)
 
-	    def test_add_numbers_type_error(self):
-	        with self.assertRaises(TypeError):
-	            add_numbers('2', 3)
+    def test_add_numbers_type_error(self):
+        with self.assertRaises(TypeError):
+            add_numbers('2', 3)
 
-	if __name__ == '__main__':
-	    unittest.main()
-	```
+if __name__ == '__main__':
+    unittest.main()
+```
     
-12.  `.gitignore`: A file specifying files and directories that should be ignored by Git. 
+###  `.gitignore`
+A file specifying files and directories that should be ignored by Git. 
 
 	Example contents
 	```git
@@ -215,40 +217,43 @@ class Timer:
 	.*
 	!/.gitignore
 	```
-13.  `docs/`: A directory containing documentation for the project.
+### `docs/`
+A directory containing documentation for the project.
     
-14.  `scripts/`: A directory containing scripts for running common tasks such as data processing, model training, or deploying the application.
+### `scripts/`
+A directory containing scripts for running common tasks such as data processing, model training, or deploying the application.
    
     
-15.  `dockerfile`: A file defining the containerization of the application. An example docker file for running an API looks like as follows:
+### `dockerfile`
+A file defining the containerization of the application. An example docker file for running an API looks like as follows:
 
-		```docker
-		# Use an official Python runtime as a parent image
-		FROM python:3.9-slim-buster
+```docker
+# Use an official Python runtime as a parent image
+FROM python:3.9-slim-buster
 
-		# Set the working directory to /app
-		WORKDIR /app
+# Set the working directory to /app
+WORKDIR /app
 
-		# Copy the current directory contents into the container at /app
-		COPY . /app
+# Copy the current directory contents into the container at /app
+COPY . /app
 
-		# Install any needed packages specified in requirements.txt
-		RUN pip install --trusted-host pypi.python.org -r requirements.txt
+# Install any needed packages specified in requirements.txt
+RUN pip install --trusted-host pypi.python.org -r requirements.txt
 
-		# Make port 5000 available to the world outside this container
-		EXPOSE 7000
+# Make port 5000 available to the world outside this container
+EXPOSE 7000
 
-		# Define environment variables
-		ENV FLASK_APP=app.py
-		ENV FLASK_RUN_HOST=0.0.0.0
+# Define environment variables
+ENV FLASK_APP=app.py
+ENV FLASK_RUN_HOST=0.0.0.0
 
-		# Run the command to start the API
-		CMD ["flask", "run"]
+# Run the command to start the API
+CMD ["flask", "run"]
 
-		# example usage
-		# docker build -t my-api .
-		# docker run -p 7000:7000 my-api
-		```
+# example usage
+# docker build -t my-api .
+# docker run -p 7000:7000 my-api
+```
 
 So, that's all for today!
 
@@ -304,5 +309,5 @@ Cheers!
 1. [How to write a Twitter Data Scrapper in Python](https://shantoroy.com/python/build-a-twitter-scrapper-in-python/) 
 2. [Cloning an entire Website and Running in the Localhost](https://shantoroy.com/security/website-cloning-and-rerunning-in-localhost/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1OTg3MDIxMV19
+eyJoaXN0b3J5IjpbMTY3MTQ1MjgyNF19
 -->
