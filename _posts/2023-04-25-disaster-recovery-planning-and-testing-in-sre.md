@@ -22,7 +22,7 @@ toc_icon: "heart"
 
 Hi there!!! 👋
 
-It's the 14th day of the `#100dayschallenge`, and today I will discuss  disaster recover planning and testing in SRE.
+It's the 15th day of the `#100dayschallenge`, and today I will discuss  disaster recover planning and testing in SRE.
 
 Disaster recovery planning is a critical aspect of any business's IT strategy. During unexpected outage or disaster, the cost of downtime can be significant, resulting in lost revenue, unsatisfactory customer experience, and reputational damage. 
 
@@ -137,5 +137,5 @@ Once a week, I'll be sharing the latest weekly updates on my published articles,
 
 I am also writing on Medium. You can [follow me here](https://medium.com/@shantoroy).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM5MjYyMjE3XX0=
+eyJoaXN0b3J5IjpbLTk5NDU0NzUxMF19
 -->
