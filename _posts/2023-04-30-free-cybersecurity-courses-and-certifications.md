@@ -69,6 +69,7 @@ Have a good day!
 Check out my other posts on free resources:
 
 * [Cyber Security (in Python) Books, Codes, and other Resource Collection available on GitHub](https://shantoroy.com/security/python-for-cybersecurity-books-and-codes/)
+* [Certified Ethical Hacker (CEH) Certifications Notes, Cheatsheet, and Exam Questions Collection on Github](https://shantoroy.com/security/security-certifications-study-material-on-github/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDA0NDM3NzldfQ==
+eyJoaXN0b3J5IjpbMjQ5NjQ0NjAzXX0=
 -->
