@@ -1,9 +1,9 @@
 ---
 layout: single
 title: "#100daysofSRE (Day 19): Simplifying Log Analysis with Linux Sed Command: Basic and Templates"
-excerpt: "Your blog post excerpt"
+excerpt: "In site reliability engineering, log analysis is a crucial aspect of maintaining system availability and identifying potential issues. However, analyzing logs manually can be time-consuming and error-prone. In this post, we explore how to simplify log analysis with the Linux sed command. We cover the basics of the sed command and provide templates for common use cases in SRE, such as filtering logs, searching for specific patterns, and extracting relevant information."
 seo_title: "Simplifying Log Analysis with Linux Sed Command: Basic and Templates"
-seo_description: "Your meta description"
+seo_description: "In this post, we explore how to simplify log analysis with the Linux sed command. We cover the basics of the sed command and provide templates for common use cases in site reliability engineering."
 header:
   image: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
   teaser: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
@@ -331,5 +331,5 @@ Once a week, I'll be sharing the latest weekly updates on my published articles,
 
 I am also writing on Medium. You can [follow me here](https://medium.com/@shantoroy).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjY1MzEyMTVdfQ==
+eyJoaXN0b3J5IjpbNDcyOTA3NDM1XX0=
 -->
