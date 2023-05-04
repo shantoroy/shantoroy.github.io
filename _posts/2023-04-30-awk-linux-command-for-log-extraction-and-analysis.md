@@ -26,7 +26,7 @@ Hi there!!! 👋
 
 It's the 20th day of the `#100dayschallenge`, and today I will discuss  the linux `awk` command for log extraction and analysis in SRE.
 
-...
+Log files are a critical source of information for monitoring and troubleshooting these systems. However, analyzing and extracting useful information from these logs can be a challenging and time-consuming task. This is where "awk" comes in handy. With its powerful text processing capabilities, "awk" can help you filter, extract, and manipulate log data to identify patterns, troubleshoot issues, and optimize system performance.
 
 So, I have planned the  [contents for next 100 days](https://medium.com/@shantoroy/learning-about-site-reliability-engineering-with-the-100daysofsre-challenge-66380323c0d1), and I will be posting one blog post each and everyday under the hashtag  `#100daysofSRE`. ✌️
 
@@ -252,5 +252,6 @@ Once a week, I'll be sharing the latest weekly updates on my published articles,
 
 I am also writing on Medium. You can [follow me here](https://medium.com/@shantoroy).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzOTc4ODU2OSwxOTI4Njg0NTkzXX0=
+eyJoaXN0b3J5IjpbMTU1Njc4MDk2NSwxMjM5Nzg4NTY5LDE5Mj
+g2ODQ1OTNdfQ==
 -->
