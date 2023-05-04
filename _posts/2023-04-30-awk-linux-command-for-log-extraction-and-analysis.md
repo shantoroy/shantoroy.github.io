@@ -81,7 +81,7 @@ I hope you tag along and share valuable feedback as I grow my knowledge and shar
 	$ awk '{print $1}' /var/log/syslog
 	``` 
 
-This command prints the first field of each line in the syslog file.
+	This command prints the first field of each line in the syslog file.
 
 2.  Filtering out specific lines from a log file:
 
@@ -89,7 +89,7 @@ This command prints the first field of each line in the syslog file.
 	$ awk '!/error/' /var/log/syslog
 	``` 
 
-This command prints all lines from the syslog file except those that contain the word "error".
+	This command prints all lines from the syslog file except those that contain the word "error".
 
 3.  Counting the number of occurrences of a specific pattern in a log file:
 
@@ -97,7 +97,7 @@ This command prints all lines from the syslog file except those that contain the
 	$ awk '/error/{count++} END{print count}' /var/log/syslog
 	``` 
 
-This command counts the number of lines in the syslog file that contain the word "error".
+	This command counts the number of lines in the syslog file that contain the word "error".
 
 4.  Summing a specific field in a log file:
 
@@ -105,7 +105,7 @@ This command counts the number of lines in the syslog file that contain the word
 	$ awk '{sum+=$1} END{print sum}' /var/log/syslog
 	``` 
 
-This command sums up the first field of each line in the syslog file and prints the total.
+	This command sums up the first field of each line in the syslog file and prints the total.
 
 5.  Filtering based on a range of values:
 
@@ -113,7 +113,7 @@ This command sums up the first field of each line in the syslog file and prints 
 	$ awk '$1 >= 100 && $1 <= 200 {print}' /var/log/syslog
 	``` 
 
-This command prints all lines from the syslog file where the first field is between 100 and 200.
+	This command prints all lines from the syslog file where the first field is between 100 and 200.
 
 6.  Formatting output:
 
@@ -121,7 +121,7 @@ This command prints all lines from the syslog file where the first field is betw
 	$ awk '{printf "IP Address: %s, Port: %s\n", $1, $2}' /var/log/apache/access.log
 	``` 
 
-This command prints the IP address and port number from the Apache access log file in a formatted way.
+	This command prints the IP address and port number from the Apache access log file in a formatted way.
 
 7.  Calculating the average of a field:
 
@@ -129,7 +129,7 @@ This command prints the IP address and port number from the Apache access log fi
 	$ awk '{sum+=$1} END{print sum/NR}' /var/log/syslog
 	``` 
 
-This command calculates the average of the first field in the syslog file.
+	This command calculates the average of the first field in the syslog file.
 
 8.  Sorting based on a specific field:
 
@@ -137,7 +137,7 @@ This command calculates the average of the first field in the syslog file.
 	$ awk '{print $2, $1}' /var/log/auth.log | sort
 	``` 
 
-This command prints the second and first fields of each line in the auth log file and sorts them alphabetically by the second field.
+	This command prints the second and first fields of each line in the auth log file and sorts them alphabetically by the second field.
 
 9.  Joining log files based on a common field:
 
@@ -145,7 +145,7 @@ This command prints the second and first fields of each line in the auth log fil
 	$ awk 'NR==FNR{a[$1]=$2 FS $3; next}{print $0, a[$1]}' file1 file2
 	``` 
 
-This command joins two log files based on a common field (the first field in this example).
+	This command joins two log files based on a common field (the first field in this example).
 
 10.  Extracting unique values from a specific field:
 
@@ -252,6 +252,6 @@ Once a week, I'll be sharing the latest weekly updates on my published articles,
 
 I am also writing on Medium. You can [follow me here](https://medium.com/@shantoroy).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1Njc4MDk2NSwxMjM5Nzg4NTY5LDE5Mj
-g2ODQ1OTNdfQ==
+eyJoaXN0b3J5IjpbNzMzOTYxMTgxLDE1NTY3ODA5NjUsMTIzOT
+c4ODU2OSwxOTI4Njg0NTkzXX0=
 -->
