@@ -24,7 +24,7 @@ toc_icon: "heart"
 ---
 Hi there!!! 👋
 
-It's the 20th day of the `#100dayschallenge`, and today I will discuss  ... in SRE.
+It's the 20th day of the `#100dayschallenge`, and today I will discuss  the linux `awk` command for log extraction and analysis in SRE.
 
 ...
 
@@ -252,5 +252,5 @@ Once a week, I'll be sharing the latest weekly updates on my published articles,
 
 I am also writing on Medium. You can [follow me here](https://medium.com/@shantoroy).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyODY4NDU5M119
+eyJoaXN0b3J5IjpbMTIzOTc4ODU2OSwxOTI4Njg0NTkzXX0=
 -->
