@@ -24,6 +24,8 @@ toc_icon: "heart"
 
 In research articles, we need to add subfigures often. To create subfigure in latex, you can use both `\begin{minipage}...\end{minipage}` and `\begin{subfigure}...\end{subfigure}` block to insert subfigures or sub-images. Subfigurs are generally inserted horizontally in one or multiple rows. Here, some example codes with output screenshots are provided in the following.
 
+
+
 ## Add subfigures horizontally
 The following code puts two subfigures in a figure portion-
 
@@ -88,6 +90,19 @@ So, applying the code the output should look like this-
 <figure>
 	<a href="https://farm5.staticflickr.com/4658/39612703392_1bf583c3ed_b.jpg"><img src="https://farm5.staticflickr.com/4658/39612703392_1bf583c3ed_b.jpg"></a>
 </figure>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1099218700412995"
+     crossorigin="anonymous"></script>
+<!-- horizontal_ad -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1099218700412995"
+     data-ad-slot="7013535065"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Add multiple subfigures in multiple rows
 
@@ -160,5 +175,5 @@ Some of those are included here.
 * [How to Collaboratively Write a Paper using Overleaf Latex Platform](https://shantoroy.com/latex/how-to-collaborately-write-a-paper-using-latex-overleaf/)
 * [Itemize, Enumerate, and To-do-list in Latex](https://shantoroy.com/latex/playing-with-latex-itemize-enumerate-fontawesome/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDM4NzIyMzYsMTY0MzAwNDkyMV19
+eyJoaXN0b3J5IjpbMTMxMjQ2MDM2NiwxNjQzMDA0OTIxXX0=
 -->
