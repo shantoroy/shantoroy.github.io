@@ -81,6 +81,19 @@ The output will look like the following-
 </figure>
 
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1099218700412995"
+     crossorigin="anonymous"></script>
+<!-- horizontal_ad -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1099218700412995"
+     data-ad-slot="7013535065"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ## Code using `algorithm2e` package
 
 ```latex
@@ -226,6 +239,6 @@ Some of those are included here.
 * [How to Collaboratively Write a Paper using Overleaf Latex Platform](https://shantoroy.com/latex/how-to-collaborately-write-a-paper-using-latex-overleaf/)
 * [Itemize, Enumerate, and To-do-list in Latex](https://shantoroy.com/latex/playing-with-latex-itemize-enumerate-fontawesome/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MDA0Nzk1NCwtMTkyMjgzOTA4MSwxMz
-QwNTY5ODA1LDE2NTI4NTMzNTRdfQ==
+eyJoaXN0b3J5IjpbODY2OTM2MTEyLC0xOTIyODM5MDgxLDEzND
+A1Njk4MDUsMTY1Mjg1MzM1NF19
 -->
