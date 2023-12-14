@@ -5,8 +5,8 @@ excerpt: "In site reliability engineering, log analysis is a crucial aspect of m
 seo_title: "Simplifying Log Analysis with Linux Sed Command: Basic and Templates"
 seo_description: "In this post, we explore how to simplify log analysis with the Linux sed command. We cover the basics of the sed command and provide templates for common use cases in site reliability engineering."
 header:
-  image: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
-  teaser: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
+  image: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
+  teaser: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
 categories:
   - SRE
 tags:
@@ -331,5 +331,5 @@ Once a week, I'll be sharing the latest weekly updates on my published articles,
 
 I am also writing on Medium. You can [follow me here](https://medium.com/@shantoroy).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDcyOTA3NDM1XX0=
+eyJoaXN0b3J5IjpbLTE3OTYzOTMxNzcsNDcyOTA3NDM1XX0=
 -->
