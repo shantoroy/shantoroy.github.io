@@ -5,8 +5,8 @@ excerpt: "Your blog post excerpt"
 seo_title: "Your meta title"
 seo_description: "Your meta description"
 header:
-  image: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
-  teaser: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
+  image: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
+  teaser: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
 categories:
   - SRE
 tags:
@@ -118,5 +118,5 @@ Once a week, I'll be sharing the latest weekly updates on my published articles,
 
 I am also writing on Medium. You can [follow me here](https://medium.com/@shantoroy).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNDk0MDY0Nl19
+eyJoaXN0b3J5IjpbLTMxMzk5MTI2NiwtNjI0OTQwNjQ2XX0=
 -->
