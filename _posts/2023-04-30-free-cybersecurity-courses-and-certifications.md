@@ -5,8 +5,8 @@ excerpt: "If you are interested in cyber security and want to develop your skill
 seo_title: "Free Cyber Security Courses and Certifications to Boost Your Skills"
 seo_description: "Looking to improve your skills in cyber security? Check out this list of free online courses and certifications that cover a wide range of topics such as network security, cryptography, ethical hacking, and more. Whether you are just starting out in the field or looking to expand your knowledge, these resources will help you take your career to the next level."
 header:
-  image: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
-  teaser: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
+  image: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
+  teaser: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
 categories:
   - security
 tags:
@@ -71,5 +71,5 @@ Check out my other posts on free resources:
 * [Cyber Security (in Python) Books, Codes, and other Resource Collection available on GitHub](https://shantoroy.com/security/python-for-cybersecurity-books-and-codes/)
 * [Certified Ethical Hacker (CEH) Certifications Notes, Cheatsheet, and Exam Questions Collection on Github](https://shantoroy.com/security/security-certifications-study-material-on-github/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ5NjQ0NjAzXX0=
+eyJoaXN0b3J5IjpbLTE4NzEzMTU1MjksMjQ5NjQ0NjAzXX0=
 -->
