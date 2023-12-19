@@ -221,7 +221,7 @@ The output will look like the following-
 If you find this post helpful, and want to support this blog, you can
 <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="shantoroy" data-color="#FFDD00" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script> or
 
-<div style="width: 300px; height: 200px;">
+<div style="width: 200px; height: 150px;">
 <form action="https://www.paypal.com/donate" method="post" target="_top">
 <input type="hidden" name="business" value="Q9F45GULUSYMY" />
 <input type="hidden" name="no_recurring" value="0" />
@@ -253,7 +253,7 @@ Some of those are included here.
 * [How to Collaboratively Write a Paper using Overleaf Latex Platform](https://shantoroy.com/latex/how-to-collaborately-write-a-paper-using-latex-overleaf/)
 * [Itemize, Enumerate, and To-do-list in Latex](https://shantoroy.com/latex/playing-with-latex-itemize-enumerate-fontawesome/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzczMTY4MjYyLDE1MjQ4OTU4MzUsNzU1Mz
-IxNDQ3LDEwNTI1MjA2MTAsODY2OTM2MTEyLC0xOTIyODM5MDgx
-LDEzNDA1Njk4MDUsMTY1Mjg1MzM1NF19
+eyJoaXN0b3J5IjpbMTg2OTc1ODUyOSwzNzMxNjgyNjIsMTUyND
+g5NTgzNSw3NTUzMjE0NDcsMTA1MjUyMDYxMCw4NjY5MzYxMTIs
+LTE5MjI4MzkwODEsMTM0MDU2OTgwNSwxNjUyODUzMzU0XX0=
 -->
