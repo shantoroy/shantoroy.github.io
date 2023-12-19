@@ -18,6 +18,7 @@ So, whether you want to improve your skills, learn something new, or connect wit
 In case any of my posts help you solve your problem, and you want to thank/support me for that, you can
 <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="shantoroy" data-color="#FFDD00" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script> or
 
+<div style="width: 300px; height: 200px;">
 <form action="https://www.paypal.com/donate" method="post" target="_top">
 <input type="hidden" name="business" value="Q9F45GULUSYMY" />
 <input type="hidden" name="no_recurring" value="0" />
@@ -25,7 +26,7 @@ In case any of my posts help you solve your problem, and you want to thank/suppo
 <input type="hidden" name="currency_code" value="USD" />
 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
 <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
-</form>
+</form></div>
 
 ## About Myself
 I love learning, researching, exploring new things, and creating new hobbies. I have been working as a Research Assistant and enrolled as a Ph.D. student at the Department of Computer Science, University of Houston since September 2019. My primary research interest is in Cyber Security, Data Science & ML, Cloud-IoT ecosystem security, etc. Currently, I am researching Adversarial Reconnaissance, Cyber Deception, and IoT Remote Attestation under the supervision of Dr. Omprakash Gnawali in the Networked Systems Laboratory and Dr. Aron Laszka in the Resilient Network and Systems Lab.
