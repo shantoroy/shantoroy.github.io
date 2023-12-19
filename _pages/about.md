@@ -18,7 +18,7 @@ So, whether you want to improve your skills, learn something new, or connect wit
 In case any of my posts help you solve your problem, and you want to thank/support me for that, you can
 <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="shantoroy" data-color="#FFDD00" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script> or
 
-<div style="width: 300px; height: 200px;">
+<div style="width: 200px; height: 150px;">
 <form action="https://www.paypal.com/donate" method="post" target="_top">
 <input type="hidden" name="business" value="Q9F45GULUSYMY" />
 <input type="hidden" name="no_recurring" value="0" />
