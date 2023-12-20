@@ -5,8 +5,8 @@ excerpt: "If you're working with data that changes over time, you need a timeser
 seo_title: "Timeseries Database Usage Cheatsheet and Templates in Python: InfluxDB, PostgreSQL, and Prometheus"
 seo_description: "Looking for a comprehensive timeseries database usage cheatsheet and templates in Python? Check out this post that includes templates for InfluxDB, PostgreSQL, and Prometheus. Learn how to collect and store timeseries data efficiently and effectively for your timeseries data-based applications."
 header:
-  image: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
-  teaser: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
+  image: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
+  teaser: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
 categories:
   - Python
 tags:
@@ -157,5 +157,5 @@ Once a week, I'll be sharing the latest weekly updates on my published articles,
 
 I am also writing on Medium. You can [follow me here](https://medium.com/@shantoroy).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTY0MTM1NDRdfQ==
+eyJoaXN0b3J5IjpbLTU0NTM0NzA1MiwtMTgxNjQxMzU0NF19
 -->
