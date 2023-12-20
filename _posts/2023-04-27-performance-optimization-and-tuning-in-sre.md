@@ -5,8 +5,8 @@ excerpt: "In SRE, performance optimization and tuning are crucial for ensuring s
 seo_title: "Techniques, Tools, and Best Practices for Performance Optimization and Tuning in Site Reliability Engineering"
 seo_description: "In this blog post, we will explore the importance of performance optimization and tuning in SRE and provide tips and best practices to improve the performance of your systems. We will discuss techniques such as profiling, load testing, and caching, and highlight some common issues. Join me on #100daysofSRE (Day 17) and learn how to optimize and tune your systems for better performance."
 header:
-  image: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
-  teaser: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
+  image: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
+  teaser: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
 categories:
   - SRE
 tags:
@@ -115,5 +115,5 @@ Once a week, I'll be sharing the latest weekly updates on my published articles,
 
 I am also writing on Medium. You can [follow me here](https://medium.com/@shantoroy).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzEzMDk2MjNdfQ==
+eyJoaXN0b3J5IjpbLTI2MzQ0MjIyNywtMjEzMTMwOTYyM119
 -->
