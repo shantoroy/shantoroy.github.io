@@ -5,8 +5,8 @@ excerpt: "In the world of Site Reliability Engineering (SRE), logging and log an
 seo_title: "#100daysofSRE (Day 11): Techniques, Tools, and Best Practices for Logging and Log Analysis in Site Reliability Engineering"
 seo_description: "In this post, we explore the importance of logging and log analysis in Site Reliability Engineering (SRE) and discuss the techniques, tools, and best practices for effective log management. From setting up logging infrastructure to performing log analysis and alerting, we cover everything you need to know about logging in SRE. Join us for day 11 of #100daysofSRE!"
 header:
-  image: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
-  teaser: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
+  image: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
+  teaser: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
 categories:
   - SRE
 tags:
@@ -147,5 +147,5 @@ Once a week, I'll be sharing the latest weekly updates on my published articles,
 
 I am also writing on Medium. You can [follow me here](https://medium.com/@shantoroy).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM2OTcyNzAzXX0=
+eyJoaXN0b3J5IjpbLTE5MjQ5MDg0NSw5MzY5NzI3MDNdfQ==
 -->
