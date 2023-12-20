@@ -84,7 +84,18 @@ Please let me know, if I should include anything else.
 
 Once again, you will find the template on [Overleaf](https://www.overleaf.com/read/shdqcsrbbvnz). 
 
+If you find this post helpful, and want to support this blog, you can
+<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="shantoroy" data-color="#FFDD00" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script> or
 
+<div style="width: 300px; height: 200px;">
+<form action="https://www.paypal.com/donate" method="post" target="_top">
+<input type="hidden" name="business" value="Q9F45GULUSYMY" />
+<input type="hidden" name="no_recurring" value="0" />
+<input type="hidden" name="item_name" value="I appreciate your support! 😊" />
+<input type="hidden" name="currency_code" value="USD" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form></div>
 
 ## Latex-related Posts
 You can find a comprehensive list of Latex resources in the following post:
@@ -116,6 +127,6 @@ You can find all `Latex` oriented posts of mine in: [https://shantoroy.com/categ
 * [How to Convert Python Matplotlib Plots to Latex Plots (Easiest Way) for Academic Papers](https://shantoroy.com/latex/convert-matplotlib-plot-to-latex-plot/)
 * [How to Draw Equations with Parameter Description in Latex using Tikz](https://shantoroy.com/latex/Draw-equations-with-parameter-description-in-latex/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNDg4ODEwMiwtMTY2ODQ5NTI4NCwtNj
-I5Mzg0NjVdfQ==
+eyJoaXN0b3J5IjpbLTEyMDU5OTUxMzAsMTEwNDg4ODEwMiwtMT
+Y2ODQ5NTI4NCwtNjI5Mzg0NjVdfQ==
 -->
