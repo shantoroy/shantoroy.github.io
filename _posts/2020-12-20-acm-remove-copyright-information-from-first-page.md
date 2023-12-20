@@ -43,6 +43,19 @@ People can face another issue that sometimes page numbers are missing at the bot
 
 You can also simply copy my template project in [Overleaf](https://www.overleaf.com/read/jfyggffthwqk) or download from there for offline use. 
 
+If you find this post helpful, and want to support this blog, you can
+<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="shantoroy" data-color="#FFDD00" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script> or
+
+<div style="width: 300px; height: 200px;">
+<form action="https://www.paypal.com/donate" method="post" target="_top">
+<input type="hidden" name="business" value="Q9F45GULUSYMY" />
+<input type="hidden" name="no_recurring" value="0" />
+<input type="hidden" name="item_name" value="I appreciate your support! 😊" />
+<input type="hidden" name="currency_code" value="USD" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form></div>
+
 ## Related Posts
 Read my other Latex-related Blog posts!
 * [Add Copyright Notice and Conference Name in IEEE Conference Template](https://shantoroy.com/latex/add-copyright-conference-name/)
@@ -65,6 +78,6 @@ Read my other Latex-related Blog posts!
 
 * [Line Plotting using Latex PGFPlots](https://shantoroy.com/latex/how-to-draw-line-graph-using-pgfplots-latex/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODgwOTU1MDYsMjA0MzQwNTg5NCwxOT
-Y5NDc3NzM0LDQzNTQ2NTM2N119
+eyJoaXN0b3J5IjpbLTE0ODQzMzUzODIsLTE5ODgwOTU1MDYsMj
+A0MzQwNTg5NCwxOTY5NDc3NzM0LDQzNTQ2NTM2N119
 -->
