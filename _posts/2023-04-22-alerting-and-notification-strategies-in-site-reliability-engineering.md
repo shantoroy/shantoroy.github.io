@@ -5,8 +5,8 @@ excerpt: "In this blog post, I'll dive into the topic of alerting and notificati
 seo_title: "#100daysofSRE (Day 12): Alerting and Notification Strategies and Best Practices in SRE"
 seo_description: "Learn about alerting and notification strategies in Site Reliability Engineering (SRE) in this blog post. I'll cover best practices, techniques, and tools for effective alerting and notification in SRE, helping SRE teams to identify and mitigate issues before they cause major outages."
 header:
-  image: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
-  teaser: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
+  image: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
+  teaser: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
 categories:
   - SRE
 tags:
@@ -128,5 +128,5 @@ Once a week, I'll be sharing the latest weekly updates on my published articles,
 
 I am also writing on Medium. You can [follow me here](https://medium.com/@shantoroy).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NzcwMTIyNV19
+eyJoaXN0b3J5IjpbNTEwODg4MTczLDE3Njc3MDEyMjVdfQ==
 -->
