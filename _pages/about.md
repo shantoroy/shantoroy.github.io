@@ -29,29 +29,29 @@ In case any of my posts help you solve your problem, and you want to thank/suppo
 </form></div>
 
 ## About Myself
-I love learning, researching, exploring new things, and creating new hobbies. I have been working as a Research Assistant and enrolled as a Ph.D. student at the Department of Computer Science, University of Houston since September 2019. My primary research interest is in Cyber Security, Data Science & ML, Cloud-IoT ecosystem security, etc. Currently, I am researching Adversarial Reconnaissance, Cyber Deception, and IoT Remote Attestation under the supervision of Dr. Omprakash Gnawali in the Networked Systems Laboratory and Dr. Aron Laszka in the Resilient Network and Systems Lab.
+I love learning, researching, exploring new things, and creating new hobbies. I have worked as a Research/Teaching Assistant and enrolled as a Ph.D. student at the Department of Computer Science, University of Houston, since September 2019. My primary research interests are Cyber Security, Data Science & ML, Cloud-IoT ecosystem security, etc. Currently, I am researching Adversarial Reconnaissance, Cyber Deception, and IoT Remote Attestation under the supervision of Dr. Omprakash Gnawali in the Networked Systems Laboratory and Dr. Aron Laszka in the Resilient Network and Systems Lab.
 
-Before joining UH, I worked as a lecturer in the Dept. of CSE, Green University of Bangladesh. I like to collaborate with other researchers and together we have been working on projects and publications. I also have hands-on experience in Network and System Administration and attended RHCSA, RHCE, Openstack, CCNA, etc vendor courses, and certification tests. I intend to gather more knowledge that covers the topics of DevSecOps and Site Reliability Engineering (SRE).
+Before joining UH, I worked as a lecturer in the Dept. of CSE, Green University of Bangladesh. I like to collaborate with other researchers; we have been working on projects and publications together. I also have hands-on experience in Network and System Administration and attended RHCSA, RHCE, OpenStack, CCNA, etc., vendor courses and certification tests. I intend to gather more knowledge covering the DevSecOps and Site Reliability Engineering (SRE) topics.
 
 ### ACADEMIC SUMMARY
 - Research Interest → Cyber Security, Data Analytics, Cloud-IoT Secure Frameworks
 - No. of Publications → >20 
-- Research and Teaching experience → almost 8 years (2016-Present)
+- Research and Teaching experience → almost nine years (2016-Present)
 
 ### INDUSTRIAL COMPETENCIES
 - Linux Server Administration (Red Hat Linux)
 - Network Management (Cisco R&S)
 - Cloud (OpenStack)
-- No. of Certification → 03 (Red Hat and OpenStack)
+- No. Of Certification → 03 (Red Hat and OpenStack)
 
 
 
 ## Contact
 Shanto Roy\\
-Teaching/Research Assistant and Ph.D. Student,\\
+Teaching/Research Assistant and Ph.D. Candidate,\\
 Department of Computer Science\\
 University of Houston\\
-E-mail (official) : sroy10@uh.edu
+E-mail (official): sroy10@uh.edu
 
 You can also find me in:
 
