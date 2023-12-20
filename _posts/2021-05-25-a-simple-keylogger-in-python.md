@@ -126,14 +126,25 @@ I will post details on how to send message via email or send an attachment with 
 
 That's it! Thanks for being with me. Cheers!
 
+If you find this post helpful, and want to support this blog, you can
+<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="shantoroy" data-color="#FFDD00" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script> or
 
+<div style="width: 300px; height: 200px;">
+<form action="https://www.paypal.com/donate" method="post" target="_top">
+<input type="hidden" name="business" value="Q9F45GULUSYMY" />
+<input type="hidden" name="no_recurring" value="0" />
+<input type="hidden" name="item_name" value="I appreciate your support! 😊" />
+<input type="hidden" name="currency_code" value="USD" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form></div>
 
 ## References
 * [pynput: Handling the keyboard](https://pynput.readthedocs.io/en/latest/keyboard.html)
 * [Design a Keylogger in Python](https://www.tutorialspoint.com/design-a-keylogger-in-python)
 * [How to Make a Keylogger in Python](https://www.thepythoncode.com/article/write-a-keylogger-python)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODgwNDk1MDcsLTEzNjk4NjU4NiwxNz
-kxNjU1NjM4LC0xNjQ3ODMxNDgsLTc0Mzc5NTA3OCwxMzAyMzMx
-ODM2XX0=
+eyJoaXN0b3J5IjpbLTE1NjY0MTUxMDcsLTE0ODgwNDk1MDcsLT
+EzNjk4NjU4NiwxNzkxNjU1NjM4LC0xNjQ3ODMxNDgsLTc0Mzc5
+NTA3OCwxMzAyMzMxODM2XX0=
 -->
