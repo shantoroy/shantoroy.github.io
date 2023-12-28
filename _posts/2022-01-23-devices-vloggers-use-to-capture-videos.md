@@ -73,7 +73,7 @@ It's always better to carry extra batteries and memory cards. I carry 3 addition
 That's all for today. Have a great day!!!
 Cheers!!! 😎
 
-Also check out my [Most Essential Hiking Gears](https://digitalnomadgoals.com/hiking-gears/), [].
+Also check out my [Most Essential Hiking Gears](https://digitalnomadgoals.com/hiking-gears/), [Vlogging Gears](https://digitalnomadgoals.com/vlogging-gears/), and [Tech Essentials](https://digitalnomadgoals.com/tech-essentials/).
 
 
 ## Final Notes
@@ -95,5 +95,5 @@ I have started posting my travel diary on a new travel blog [Digital Nomad Goals
 #### India
 * [# How to Plan an Awesome Darjeeling-Sikkim Tour in India](https://digitalnomadgoals.com/how-to-plan-an-awesome-darjeeling-sikkim-tour-in-india/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3OTU4NDA3OV19
+eyJoaXN0b3J5IjpbMTg2NTM4NzU2MF19
 -->
