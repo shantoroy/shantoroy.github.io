@@ -128,7 +128,7 @@ Not everything is necessary. Items depend mostly on the camping site, weather, a
 * Dry Bag
 * Whistle
 
-Please, feel free to let me know if you want me to include some other items here. Thanks.
+Please, feel free to let me know if you want me to include some other items here. Thanks. Also check out my [Most Essential Hiking Gears](https://digitalnomadgoals.com/hiking-gears/).
 
 
 ## Final Notes
@@ -150,6 +150,6 @@ I have started posting my travel diary on a new travel blog [Digital Nomad Goals
 #### India
 * [# How to Plan an Awesome Darjeeling-Sikkim Tour in India](https://digitalnomadgoals.com/how-to-plan-an-awesome-darjeeling-sikkim-tour-in-india/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3OTAxMzc1MiwtMjI3MjA2MzYsMTQ4MD
+eyJoaXN0b3J5IjpbLTE2MDQyNjA5NywtMjI3MjA2MzYsMTQ4MD
 Q1MDc1OF19
 -->
