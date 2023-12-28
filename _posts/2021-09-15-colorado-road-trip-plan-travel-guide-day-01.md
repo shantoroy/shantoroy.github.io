@@ -93,7 +93,29 @@ That's all for today! Cheers!!!
 Check out Day 02 details in the other post:
 
 [Colorado Tour 2021 (Day 02): The Rocky Mountain National Park](https://shantoroy.com/sports/colorado-road-trip-plan-travel-guide-day-02/)
+
+Also check out my [Most Essential Hiking Gears](https://digitalnomadgoals.com/hiking-gears/).
+
+
+## Final Notes
+I have started posting my travel diary on a new travel blog [Digital Nomad Goals](https://digitalnomadgoals.com). Read my stories there. Here's a few examples:
+
+#### Visit USA
+* [# Zion National Park is a Hiking Paradise: How to Plan Hiking](https://digitalnomadgoals.com/zion-national-park-is-a-hiking-paradise-how-to-plan-hiking/)
+* [# Rocky Mountain National Park (RMNP): Heart of the Colorado Rockies](https://digitalnomadgoals.com/rocky-mountain-national-park-rmnp-heart-of-the-colorado-rockies/)
+* [# Utah & Arizona: How to Plan the Grand Circle Road Trip](https://digitalnomadgoals.com/utah-arizona-how-to-plan-the-grand-circle-road-trip/)
+* [# Telluride, Colorado: How to Plan a 3-Day Adventure Trip](https://digitalnomadgoals.com/telluride-colorado-how-we-planned-our-3-day-adventure-trip/)
+* [# How I Visited Four National Parks in One Day](https://digitalnomadgoals.com/how-i-visited-four-national-parks-in-one-day/)
+* [# Pikes Peak and Mount Evans: Driving to the 14K Summits](https://digitalnomadgoals.com/pikes-peak-and-mount-evans-the-14k-summits-that-you-can-reach-driving/)
+* [# Santa Elena Canyon: The Best Hike at the Big Bend National Park](https://digitalnomadgoals.com/santa-elena-canyon-the-best-hike-at-the-big-bend-national-park/)
+#### Visit Bangladesh
+* [# Top 10 Things to Know Before Visiting Beautiful Bangladesh](https://digitalnomadgoals.com/top-10-things-to-know-before-visiting-beautiful-bangladesh/)
+* [# Bandarban: Places to Visit in the Hill Districts of Beautiful Bangladesh](https://digitalnomadgoals.com/bandarban-places-to-visit-in-the-hill-districts-of-beautiful-bangladesh/)
+* [# Khagrachori: Places to Visit in the Hill Districts of Beautiful Bangladesh](https://digitalnomadgoals.com/khagrachori-places-to-visit-in-the-hill-districts-of-beautiful-bangladesh/)
+* [# Rangamati: Places to Visit in the Hill Districts of Beautiful Bangladesh](https://digitalnomadgoals.com/rangamati-places-to-visit-in-the-hill-districts-of-beautiful-bangladesh/)
+#### India
+* [# How to Plan an Awesome Darjeeling-Sikkim Tour in India](https://digitalnomadgoals.com/how-to-plan-an-awesome-darjeeling-sikkim-tour-in-india/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0OTk4Mjk1MiwxODgzNTA4Nzk1LDE4ND
-A0NDI1MDZdfQ==
+eyJoaXN0b3J5IjpbLTU4ODg5OTQ5LDE4ODM1MDg3OTUsMTg0MD
+Q0MjUwNl19
 -->
