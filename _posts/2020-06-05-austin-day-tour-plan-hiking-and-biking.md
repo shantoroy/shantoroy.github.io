@@ -44,7 +44,7 @@ Austin is really cool for hiking and biking. There are so many hiking and biking
 
 ## Gears
 - [GoPro Hero 8 Black Bundle](https://amzn.to/3NJZJjk)
-- [Car Bicycle Rack](https://amzn.to/32Xrb6r)
+- [Car Bicycle Rack](https://amzn.to/3GZMLdF)
 
 ## Final Notes
 I have started posting my travel diary on a new travel blog [Digital Nomad Goals](https://digitalnomadgoals.com). Read my stories there. Here's a few examples:
@@ -65,6 +65,6 @@ I have started posting my travel diary on a new travel blog [Digital Nomad Goals
 #### India
 * [# How to Plan an Awesome Darjeeling-Sikkim Tour in India](https://digitalnomadgoals.com/how-to-plan-an-awesome-darjeeling-sikkim-tour-in-india/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNjUyOTQzLC02NTcwNDMxMzQsNDI4MT
-E4OTZdfQ==
+eyJoaXN0b3J5IjpbLTE1NDQ1MzEzOSwtNjU3MDQzMTM0LDQyOD
+ExODk2XX0=
 -->
