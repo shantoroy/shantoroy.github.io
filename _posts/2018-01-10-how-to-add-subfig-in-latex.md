@@ -155,8 +155,9 @@ So, applying the code the output should look like this-
 </figure>
 
 If you find this post helpful, and want to support this blog, you can
-<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="shantoroy" data-color="#FFDD00" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script> or
+<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="shantoroy" data-color="#FFDD00" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script> 
 
+[![Support via PayPal](https://cdn.jsdelivr.net/gh/twolfson/paypal-github-button@1.0.0/dist/button.svg)](https://www.paypal.me/shantoroy)
 
 <form action="https://www.paypal.com/donate" method="post" target="_blank">
 <input type="hidden" name="business" value="Q9F45GULUSYMY" />
@@ -188,7 +189,7 @@ Some of those are included here.
 * [How to Collaboratively Write a Paper using Overleaf Latex Platform](https://shantoroy.com/latex/how-to-collaborately-write-a-paper-using-latex-overleaf/)
 * [Itemize, Enumerate, and To-do-list in Latex](https://shantoroy.com/latex/playing-with-latex-itemize-enumerate-fontawesome/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMzI0MTY3LDQ4NDAyMTQyLDEwMTYyMT
-EyMDAsMTc4NTI5MDEwOSwxMTYyMDczOTAzLDIwMDk4NDE3NDks
-MTMxMjQ2MDM2NiwxNjQzMDA0OTIxXX0=
+eyJoaXN0b3J5IjpbLTE1NjQ3NTIwMzEsMjAwMzI0MTY3LDQ4ND
+AyMTQyLDEwMTYyMTEyMDAsMTc4NTI5MDEwOSwxMTYyMDczOTAz
+LDIwMDk4NDE3NDksMTMxMjQ2MDM2NiwxNjQzMDA0OTIxXX0=
 -->
