@@ -158,10 +158,10 @@ If you find this post helpful, and want to support this blog, you can
 <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="shantoroy" data-color="#FFDD00" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script> or
 
 <div>
-<form action="https://www.paypal.com/donate" method="post" target="_top">
+<form action="https://www.paypal.com/donate" method="post" target="_blank">
 <input type="hidden" name="business" value="Q9F45GULUSYMY" />
 <input type="hidden" name="no_recurring" value="0" />
-<input type="hidden" name="item_name" value="I appreciate your support! 😊" />
+<input type="hidden" name="item_name" value="I appreciate your support!" />
 <input type="hidden" name="currency_code" value="USD" />
 <input type="image" src="https://cdn.jsdelivr.net/gh/twolfson/paypal-github-button@1.0.0/dist/button.svg" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
 
@@ -189,7 +189,7 @@ Some of those are included here.
 * [How to Collaboratively Write a Paper using Overleaf Latex Platform](https://shantoroy.com/latex/how-to-collaborately-write-a-paper-using-latex-overleaf/)
 * [Itemize, Enumerate, and To-do-list in Latex](https://shantoroy.com/latex/playing-with-latex-itemize-enumerate-fontawesome/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg0MDIxNDIsMTAxNjIxMTIwMCwxNzg1Mj
-kwMTA5LDExNjIwNzM5MDMsMjAwOTg0MTc0OSwxMzEyNDYwMzY2
-LDE2NDMwMDQ5MjFdfQ==
+eyJoaXN0b3J5IjpbMTkwNzgxNzMwNiw0ODQwMjE0MiwxMDE2Mj
+ExMjAwLDE3ODUyOTAxMDksMTE2MjA3MzkwMywyMDA5ODQxNzQ5
+LDEzMTI0NjAzNjYsMTY0MzAwNDkyMV19
 -->
