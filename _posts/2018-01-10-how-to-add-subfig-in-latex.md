@@ -164,7 +164,7 @@ If you find this post helpful, and want to support this blog, you can
 <input type="hidden" name="item_name" value="I appreciate your support! 😊" />
 <input type="hidden" name="currency_code" value="USD" />
 <input type="image" src="https://cdn.jsdelivr.net/gh/twolfson/paypal-github-button@1.0.0/dist/button.svg" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+
 </form>
 </div>
 
@@ -189,7 +189,7 @@ Some of those are included here.
 * [How to Collaboratively Write a Paper using Overleaf Latex Platform](https://shantoroy.com/latex/how-to-collaborately-write-a-paper-using-latex-overleaf/)
 * [Itemize, Enumerate, and To-do-list in Latex](https://shantoroy.com/latex/playing-with-latex-itemize-enumerate-fontawesome/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNjIxMTIwMCwxNzg1MjkwMTA5LDExNj
-IwNzM5MDMsMjAwOTg0MTc0OSwxMzEyNDYwMzY2LDE2NDMwMDQ5
-MjFdfQ==
+eyJoaXN0b3J5IjpbNDg0MDIxNDIsMTAxNjIxMTIwMCwxNzg1Mj
+kwMTA5LDExNjIwNzM5MDMsMjAwOTg0MTc0OSwxMzEyNDYwMzY2
+LDE2NDMwMDQ5MjFdfQ==
 -->
