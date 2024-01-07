@@ -23,10 +23,12 @@ Rakuten is the best platform to earn cashback while shopping online worldwide. I
 
 Rakuten provides the 30 dollar cashback offer if you shop something from selected stores with minimum 30 dollar. Last year, I bought a Nike shoe and received the 30 dollar cashback.
 
+<figure>
 <a href="www.rakuten.com/r/STONEH425?eeid=44971" target="_blank">
   <img src="/assets/images
 /Rakuten-Promotion-Banner.png" alt="Rakuten Promotion get 30 dollar" width="100%">
 </a>
+</figure>
 
 If you want to earn 30 dollar cashback after spending 30 dollar on selected shops, just sign up using my referrel link:
 
@@ -41,6 +43,7 @@ Apart from the current offer, you can always get some cashbacks if you have a Ra
 
 Have a good day and shop unlimited during this holiday season.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mjk3Mjk3MjgsLTE0MDk0MzU5NjAsMT
-Q4NjM0MjAyMywxNDgwMDA3NzM5LC0zMjM5NzU0NjZdfQ==
+eyJoaXN0b3J5IjpbLTE0NTE4MDYyMjksLTE4Mjk3Mjk3MjgsLT
+E0MDk0MzU5NjAsMTQ4NjM0MjAyMywxNDgwMDA3NzM5LC0zMjM5
+NzU0NjZdfQ==
 -->
