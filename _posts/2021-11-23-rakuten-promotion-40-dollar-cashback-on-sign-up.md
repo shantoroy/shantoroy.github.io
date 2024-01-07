@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Rakuten Earn 40 Dollar Cashback Offer on Sign Up"
+title: "Rakuten Earn 30 Dollar Cashback Offer on Sign Up"
 header:
   image: "https://live.staticflickr.com/65535/51702878069_15985a2037_o.png"
   teaser: "https://live.staticflickr.com/65535/51702878069_15985a2037_o.png"
@@ -36,6 +36,6 @@ Apart from the current offer, you can always get some cashbacks if you have a Ra
 
 Have a good day and shop unlimited during this holiday season.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDk0MzU5NjAsMTQ4NjM0MjAyMywxND
-gwMDA3NzM5LC0zMjM5NzU0NjZdfQ==
+eyJoaXN0b3J5IjpbLTE3NTkyNjQ1MDUsLTE0MDk0MzU5NjAsMT
+Q4NjM0MjAyMywxNDgwMDA3NzM5LC0zMjM5NzU0NjZdfQ==
 -->
