@@ -91,18 +91,13 @@ So, applying the code the output should look like this-
 	<a href="https://farm5.staticflickr.com/4658/39612703392_1bf583c3ed_b.jpg"><img src="https://farm5.staticflickr.com/4658/39612703392_1bf583c3ed_b.jpg"></a>
 </figure>
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1099218700412995"
-     crossorigin="anonymous"></script>
-<!-- horizontal_ad -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-1099218700412995"
-     data-ad-slot="7013535065"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
+<figure>
+<a href="https://www.rakuten.com/r/STONEH425?eeid=44971" target="_blank">
+  <img src="/assets/images
+/Rakuten-Promotion-Banner.png" alt="Rakuten Promotion get 30 dollar" width="100%">
+</a>
+</figure>
 
 ## Add multiple subfigures in multiple rows
 
@@ -190,8 +185,8 @@ Some of those are included here.
 * [How to Collaboratively Write a Paper using Overleaf Latex Platform](https://shantoroy.com/latex/how-to-collaborately-write-a-paper-using-latex-overleaf/)
 * [Itemize, Enumerate, and To-do-list in Latex](https://shantoroy.com/latex/playing-with-latex-itemize-enumerate-fontawesome/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMzkzNzYxMCwtMjg1MDE1NDE0LC0xNT
-Y0NzUyMDMxLDIwMDMyNDE2Nyw0ODQwMjE0MiwxMDE2MjExMjAw
-LDE3ODUyOTAxMDksMTE2MjA3MzkwMywyMDA5ODQxNzQ5LDEzMT
-I0NjAzNjYsMTY0MzAwNDkyMV19
+eyJoaXN0b3J5IjpbMTc2MTk2MzczOSwyMTAzOTM3NjEwLC0yOD
+UwMTU0MTQsLTE1NjQ3NTIwMzEsMjAwMzI0MTY3LDQ4NDAyMTQy
+LDEwMTYyMTEyMDAsMTc4NTI5MDEwOSwxMTYyMDczOTAzLDIwMD
+k4NDE3NDksMTMxMjQ2MDM2NiwxNjQzMDA0OTIxXX0=
 -->
