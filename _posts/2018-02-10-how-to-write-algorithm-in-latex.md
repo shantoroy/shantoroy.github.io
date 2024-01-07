@@ -81,18 +81,13 @@ The output will look like the following-
 </figure>
 
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1099218700412995"
-     crossorigin="anonymous"></script>
-<!-- horizontal_ad -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-1099218700412995"
-     data-ad-slot="7013535065"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
+<figure>
+<a href="https://www.rakuten.com/r/STONEH425?eeid=44971" target="_blank">
+  <img src="/assets/images
+/Rakuten-Promotion-Banner.png" alt="Rakuten Promotion get 30 dollar" width="100%">
+</a>
+</figure>
 
 ## Code using `algorithm2e` package
 
@@ -253,7 +248,8 @@ Some of those are included here.
 * [How to Collaboratively Write a Paper using Overleaf Latex Platform](https://shantoroy.com/latex/how-to-collaborately-write-a-paper-using-latex-overleaf/)
 * [Itemize, Enumerate, and To-do-list in Latex](https://shantoroy.com/latex/playing-with-latex-itemize-enumerate-fontawesome/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2OTc1ODUyOSwzNzMxNjgyNjIsMTUyND
-g5NTgzNSw3NTUzMjE0NDcsMTA1MjUyMDYxMCw4NjY5MzYxMTIs
-LTE5MjI4MzkwODEsMTM0MDU2OTgwNSwxNjUyODUzMzU0XX0=
+eyJoaXN0b3J5IjpbLTk4OTIyNjA5NCwxODY5NzU4NTI5LDM3Mz
+E2ODI2MiwxNTI0ODk1ODM1LDc1NTMyMTQ0NywxMDUyNTIwNjEw
+LDg2NjkzNjExMiwtMTkyMjgzOTA4MSwxMzQwNTY5ODA1LDE2NT
+I4NTMzNTRdfQ==
 -->
