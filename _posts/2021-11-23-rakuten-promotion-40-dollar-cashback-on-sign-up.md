@@ -19,11 +19,11 @@ toc_icon: "heart"
 
 Hi there! 
 
-Rakuten is the best platform to earn cashback while shopping online worldwide. In fact I received up to $100\%$ cashbacks after doing a number of online shopping.
+Rakuten is the best platform to earn cashback while shopping online worldwide. In fact I received up to 100\% cashbacks after doing a number of online shopping.
 
-Each year, during thanksgiving and Christmas, Rakuten provides the $40$ dollar cashback offer if you shop something from selected stores with minimum $40$ dollar. Last year, I bought a Nike shoe and received the $40$ dollar cashback.
+Each year, during thanksgiving and Christmas, Rakuten provides the 30 dollar cashback offer if you shop something from selected stores with minimum 30 dollar. Last year, I bought a Nike shoe and received the 30 dollar cashback.
 
-If you want to earn $40$ dollar cashback after spending $40$ dollar on selected shops, just sign up using my referrel link:
+If you want to earn 30 dollar cashback after spending 30 dollar on selected shops, just sign up using my referrel link:
 
 https://www.rakuten.com/r/STONEH425?eeid=28187
 
@@ -36,6 +36,6 @@ Apart from the current offer, you can always get some cashbacks if you have a Ra
 
 Have a good day and shop unlimited during this holiday season.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTkyNjQ1MDUsLTE0MDk0MzU5NjAsMT
-Q4NjM0MjAyMywxNDgwMDA3NzM5LC0zMjM5NzU0NjZdfQ==
+eyJoaXN0b3J5IjpbOTQxNjMyMjY0LC0xNDA5NDM1OTYwLDE0OD
+YzNDIwMjMsMTQ4MDAwNzczOSwtMzIzOTc1NDY2XX0=
 -->
