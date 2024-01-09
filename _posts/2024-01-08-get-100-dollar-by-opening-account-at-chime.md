@@ -20,7 +20,7 @@ toc_label: "Table of Contents"
 toc_icon: "heart"
 ---
 
-Are you looking for a fresh start in the world of banking? Or are you tired of the endless fees and restrictions that traditional banks often come with? Well, you're in luck!
+Are you looking for a fresh start in the world of banking? Or are you tired of the endless fees and restrictions that traditional banks often come with? Well, you're in luck! By the way, this app only works for US resident
 
   
 
@@ -76,5 +76,5 @@ Cheers to more innovative banking and a free $100 bonus in your pocket!
 
 Happy Banking!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTY0MzA2MDldfQ==
+eyJoaXN0b3J5IjpbLTE4ODE5MzMyOF19
 -->
