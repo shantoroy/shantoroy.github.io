@@ -114,6 +114,17 @@ It's not done yet although. You need to find the reviewers comments and read the
 Complete the registration process and wait. In case of conference papers, you will have to present the paper either through oral or poster presentation. Then it will take up to a few months to have the paper available in corresponding digital libraries. In case of journals, no presentation is required. You just have to wait till the manuscript is published.
 
 Good luck!!! :)
+
+
+### Promotions and Referrals (US Residents Only)
+* **Chime:** Open a Checking account at Chime using [my referral link](https://chime.com/r/shantoroy) and get $100 after your employer deposit paycheck of minimum $200 within the first 45 days. 
+* **Rakuten:** Get $30 after you spend $30 at Rakuten select stores after you use [my referral link](www.rakuten.com/r/STONEH425?eeid=44971) to open an account. 
+* **Chase Freedom Credit Card:** Earn $200 cash back with Chase Freedom Unlimited or Chase Freedom Flex credit card. I can be rewarded if you apply using [my referral link](https://www.referyourchasecard.com/18o/E7MB03IG12) and are approved for the card.
+
+* **Chase Checking Account:** Get $200 when you open a checking account using [my referral link](https://accounts.chase.com/raf/share/2564396166) after your first salary is deposited. 
+* **Discover:** Earn $50 cash back with Discover when you apply using [my referral link](https://refer.discover.com/s/SHANTO10) and are approved for the card.
+* **Amex Blue Cash Preferred:** Earn $250 as statement credit when you spend $3000 in first six months. Apply using [my referral link](https://americanexpress.com/en-us/referral/SHANTRzUOO?XL=MIANS).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NzkyODAsLTE5MzAzNDcyMDBdfQ==
+eyJoaXN0b3J5IjpbMTQ1OTIyNTUyNCwtNjg3OTI4MCwtMTkzMD
+M0NzIwMF19
 -->
