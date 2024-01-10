@@ -114,7 +114,7 @@ You can find all `Latex` oriented posts of mine in: [https://shantoroy.com/categ
 * [How to Convert Python Matplotlib Plots to Latex Plots (Easiest Way) for Academic Papers](https://shantoroy.com/latex/convert-matplotlib-plot-to-latex-plot/)
 
 
-### Promotions and Referrals (US Residents Only)
+## Promotions and Referrals (US Residents Only)
 * **Chime:** Open a Checking account at Chime using [my referral link](https://chime.com/r/shantoroy) and get $100 after your employer deposit paycheck of minimum $200 within the first 45 days. 
 * **Rakuten:** Get $30 after you spend $30 at Rakuten select stores after you use [my referral link](www.rakuten.com/r/STONEH425?eeid=44971) to open an account. 
 * **Chase Freedom Credit Card:** Earn $200 cash back with Chase Freedom Unlimited or Chase Freedom Flex credit card. I can be rewarded if you apply using [my referral link](https://www.referyourchasecard.com/18o/E7MB03IG12) and are approved for the card.
@@ -123,6 +123,6 @@ You can find all `Latex` oriented posts of mine in: [https://shantoroy.com/categ
 * **Discover:** Earn $50 cash back with Discover when you apply using [my referral link](https://refer.discover.com/s/SHANTO10) and are approved for the card.
 * **Amex Blue Cash Preferred:** Earn $250 as statement credit when you spend $3000 in first six months. Apply using [my referral link](https://americanexpress.com/en-us/referral/SHANTRzUOO?XL=MIANS).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkxNjA1NzIwLDE0OTU4MzA4MTgsLTEzNz
-gyNjQ4NTUsMjA1NDE2Nzk0OSwtMjA3MjY2ODA5MV19
+eyJoaXN0b3J5IjpbMTcyMDA3NTIxMywxNDk1ODMwODE4LC0xMz
+c4MjY0ODU1LDIwNTQxNjc5NDksLTIwNzI2NjgwOTFdfQ==
 -->
