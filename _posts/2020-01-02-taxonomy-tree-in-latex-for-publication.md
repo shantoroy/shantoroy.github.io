@@ -152,8 +152,18 @@ You can find all `Latex` oriented posts of mine in: [https://shantoroy.com/categ
 * [How to add Codes in Latex:  `listings`  package for code documentation](https://shantoroy.com/latex/how-to-add-codes-in-latex-listing-package/)
 * [Bibliography management with Bibtex in Latex](https://shantoroy.com/latex/bibliography-management-with-bibtex/)
 * [Creating Multiple Line plots from CSV file using Latex Tikz and PGFPlot](https://shantoroy.com/latex/multiple-line-plots-using-tikz-pgfplot/)
+
+
+## Promotions and Referrals (US Residents Only)
+* **Chime:** Open a Checking account at Chime using [my referral link](https://chime.com/r/shantoroy) and get $100 after your employer deposit paycheck of minimum $200 within the first 45 days. 
+* **Rakuten:** Get $30 after you spend $30 at Rakuten select stores after you use [my referral link](www.rakuten.com/r/STONEH425?eeid=44971) to open an account. 
+* **Chase Freedom Credit Card:** Earn $200 cash back with Chase Freedom Unlimited or Chase Freedom Flex credit card. I can be rewarded if you apply using [my referral link](https://www.referyourchasecard.com/18o/E7MB03IG12) and are approved for the card.
+
+* **Chase Checking Account:** Get $200 when you open a checking account using [my referral link](https://accounts.chase.com/raf/share/2564396166) after your first salary is deposited. 
+* **Discover:** Earn $50 cash back with Discover when you apply using [my referral link](https://refer.discover.com/s/SHANTO10) and are approved for the card.
+* **Amex Blue Cash Preferred:** Earn $250 as statement credit when you spend $3000 in first six months. Apply using [my referral link](https://americanexpress.com/en-us/referral/SHANTRzUOO?XL=MIANS).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5ODYxMjkxNCw1MjcwNjAyMjAsLTEzND
-k5NTk2MzgsLTY3MzIxNTI4MiwtMjYwMjgzNjMwLC01MjYyNDM2
-MSwyNDY5NDMxMDYsOTk2NTY3OTQ1XX0=
+eyJoaXN0b3J5IjpbMTA5MjUyMzQ3MSwxNTk4NjEyOTE0LDUyNz
+A2MDIyMCwtMTM0OTk1OTYzOCwtNjczMjE1MjgyLC0yNjAyODM2
+MzAsLTUyNjI0MzYxLDI0Njk0MzEwNiw5OTY1Njc5NDVdfQ==
 -->
