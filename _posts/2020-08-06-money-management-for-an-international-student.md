@@ -75,7 +75,17 @@ As you can see, I am a content creator and run this blog. I also have started a 
 6. Buy Used Items from [Good Will](https://www.goodwill.org/)
 7. Buy Amazon products for free (e.g., [Rebatest](https://www.rebatest.com/Product?Uid=406934886&Rid=55679435), [Cashbackbase](https://www.cashbackbase.com/i/mps607blz6), [ShopRebates](https://www.shoprebates.deals/#/?cId=49295)
 8. Get deals (e.g., [Rakuten](https://www.rakuten.com/r/STONEH425?eeid=28187), [SlickDeals](https://slickdeals.net/))
+
+---
+## Promotions and Referrals (US Residents Only)
+* **Chime:** Open a Checking account at Chime using [my referral link](https://chime.com/r/shantoroy) and get $100 after your employer deposit paycheck of minimum $200 within the first 45 days. 
+* **Rakuten:** Get $30 after you spend $30 at Rakuten select stores after you use [my referral link](www.rakuten.com/r/STONEH425?eeid=44971) to open an account. 
+* **Chase Freedom Credit Card:** Earn $200 cash back with Chase Freedom Unlimited or Chase Freedom Flex credit card. I can be rewarded if you apply using [my referral link](https://www.referyourchasecard.com/18o/E7MB03IG12) and are approved for the card.
+
+* **Chase Checking Account:** Get $200 when you open a checking account using [my referral link](https://accounts.chase.com/raf/share/2564396166) after your first salary is deposited. 
+* **Discover:** Earn $50 cash back with Discover when you apply using [my referral link](https://refer.discover.com/s/SHANTO10) and are approved for the card.
+* **Amex Blue Cash Preferred:** Earn $250 as statement credit when you spend $3000 in first six months. Apply using [my referral link](https://americanexpress.com/en-us/referral/SHANTRzUOO?XL=MIANS).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTM4NTIzMjksMTYyNjQwMDU1OSwtOD
-M4NjU1MDEwXX0=
+eyJoaXN0b3J5IjpbMjA3MDUxMDE1MywtMTM1Mzg1MjMyOSwxNj
+I2NDAwNTU5LC04Mzg2NTUwMTBdfQ==
 -->
