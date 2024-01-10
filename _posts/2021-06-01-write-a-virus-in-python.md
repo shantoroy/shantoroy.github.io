@@ -259,7 +259,17 @@ If you find this post helpful, and want to support this blog, you can
 ## References
 1. [Viruses – From Newbie to pro](https://www.geeksforgeeks.org/viruses-from-newbie-to-pro/)
 2. [os- Miscellaneous operating system interfaces](https://docs.python.org/3/library/os.html)
+
+---
+## Promotions and Referrals (US Residents Only)
+* **Chime:** Open a Checking account at Chime using [my referral link](https://chime.com/r/shantoroy) and get $100 after your employer deposit paycheck of minimum $200 within the first 45 days. 
+* **Rakuten:** Get $30 after you spend $30 at Rakuten select stores after you use [my referral link](www.rakuten.com/r/STONEH425?eeid=44971) to open an account. 
+* **Chase Freedom Credit Card:** Earn $200 cash back with Chase Freedom Unlimited or Chase Freedom Flex credit card. I can be rewarded if you apply using [my referral link](https://www.referyourchasecard.com/18o/E7MB03IG12) and are approved for the card.
+
+* **Chase Checking Account:** Get $200 when you open a checking account using [my referral link](https://accounts.chase.com/raf/share/2564396166) after your first salary is deposited. 
+* **Discover:** Earn $50 cash back with Discover when you apply using [my referral link](https://refer.discover.com/s/SHANTO10) and are approved for the card.
+* **Amex Blue Cash Preferred:** Earn $250 as statement credit when you spend $3000 in first six months. Apply using [my referral link](https://americanexpress.com/en-us/referral/SHANTRzUOO?XL=MIANS).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg3NTE4NTc1LDgxNzk4ODU5NSwxNjM2OD
-Q0OTkzLDIwNDI3ODQ3OTcsLTY2NTU4Mzc2OV19
+eyJoaXN0b3J5IjpbMTI5NDkzNjE2MSw4MTc5ODg1OTUsMTYzNj
+g0NDk5MywyMDQyNzg0Nzk3LC02NjU1ODM3NjldfQ==
 -->
