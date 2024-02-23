@@ -118,7 +118,7 @@ redirect_from: /latex/add-subfig-in-latex/
 
 
 ## Concluding Remarks
-Overall, using a 301 redirect to fix old URL issues that lead to a 404 error is an important part of website maintenance. It helps to retain SEO value, improve the user experience, and fix broken links.
+Overall, using a 301 redirect to fix old URL issues that lead to a 404 error is an important part of website maintenance. It helps to retain SEO value, improve the user experience, and fix broken links. You can check some list of good SEO tools on [Softo](https://www.softo.org/).
 
 That's all for today. Cheers!!!
 
@@ -130,5 +130,6 @@ You can also read related posts:
 5. [Tools and Platforms I use for Blogging](https://shantoroy.com/blog/tools-I-use-for-blogging/)
 6. [How to Effectively Perform Search Engine Optimization to a Jekyll (Minimal Mistakes) Blog Post Header](https://medium.com/@shantoroy/how-to-effectively-perform-search-engine-optimization-to-a-jekyll-minimal-mistakes-blog-post-9c3a17865eca)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDgxMjY3NDMsMTc3OTk3MzA0NF19
+eyJoaXN0b3J5IjpbMTYxMjc0MjU0OSwtMTc0ODEyNjc0MywxNz
+c5OTczMDQ0XX0=
 -->
