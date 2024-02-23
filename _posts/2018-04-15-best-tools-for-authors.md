@@ -47,7 +47,7 @@ Sometimes generating a table in latex requires a lot of hassles. In this case, I
 ### Tools for organizing literature documents and references
 I want to recommend using only [Mendeley](https://www.mendeley.com/) for this purpose. It is free to use and has a desktop version as well. You can create folders here and keep documents there. All the necessary information is collected by itself from online. It's easy to create notes, tags as well as to organize according to author names, journals, years etc. It also provides an easier reference management system. In a word it's almost all in one. You might have heard the names of [Zotero](https://www.zotero.org), and [Docear](http://www.docear.org); they are quite good as `Mendeley` is but don't provide online storage service.
 
-These cloud-based tools are on my list to help myself to carry on researches. You can find a list of good online tools on [](https://www.utilities-online.info/) Do you have any more in mind, please suggest in the comment section.
+These cloud-based tools are on my list to help myself to carry on researches. You can find a list of good online tools on [utilities-online](https://www.utilities-online.info/). If you have any more in mind, please suggest in the comment section.
 
 ## Promotions and Referrals (US Residents Only)
 * **Chime:** Open a Checking account at Chime using [my referral link](https://chime.com/r/shantoroy) and get $100 after your employer deposit paycheck of minimum $200 within the first 45 days. 
@@ -58,6 +58,6 @@ These cloud-based tools are on my list to help myself to carry on researches. Yo
 * **Discover:** Earn $50 cash back with Discover when you apply using [my referral link](https://refer.discover.com/s/SHANTO10) and are approved for the card.
 * **Amex Blue Cash Preferred:** Earn $250 as statement credit when you spend $3000 in first six months. Apply using [my referral link](https://americanexpress.com/en-us/referral/SHANTRzUOO?XL=MIANS).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2Nzk5NTEwNCwtMTcyOTg4ODk3Myw0MD
+eyJoaXN0b3J5IjpbLTIzMDEyOTcwOCwtMTcyOTg4ODk3Myw0MD
 c1MzU5NzNdfQ==
 -->
