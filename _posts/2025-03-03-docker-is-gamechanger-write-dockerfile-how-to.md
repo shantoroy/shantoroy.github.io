@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "#100daysofSRE (Day 23): Modernize and Containerize your Applications or Microservices"
+title: "#100daysofSRE (Day 23): Modernize and Containerize your Applications or Microservices using Docker"
 excerpt: "Docker has revolutionized the way we deploy and manage applications by providing lightweight, portable containers. In this post, we'll explore why Docker is better than traditional VMs and walk through how to write a `Dockerfile` to containerize applications efficiently."
 seo_title: "Why Docker is Better Than VMs & Writing Your First Dockerfile"
 seo_description: "Learn why Docker is a game-changer compared to traditional virtual machines and how to write a Dockerfile with practical examples. Ideal for SREs, DevOps, and developers looking to simplify deployments."
@@ -118,5 +118,6 @@ Open your browser and visit:
 ```  
 You should see `"Hello, Docker!"` displayed.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM2OTg1NjU0LDE2MjMxMzc0ODldfQ==
+eyJoaXN0b3J5IjpbLTExMzA0MjUxMzIsNTM2OTg1NjU0LDE2Mj
+MxMzc0ODldfQ==
 -->
