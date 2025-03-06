@@ -73,46 +73,41 @@ This log captures kernel-related events, which can be useful when diagnosing har
 
 2. **Extract all timestamps of kernel panics**
 
-bash
-grep 'Kernel panic' /var/log/kern.log | awk '{print $1, $2, $3}'` 
+	```bash
+	grep 'Kernel panic' /var/log/kern.log | awk '{print $1, $2, $3}'
+	``` 
 
 ----------
 
-## 4. `/var/log/dmesg`
+## `/var/log/dmesg`
 
 The `dmesg` log provides system boot logs and hardware-related messages.
 
-### **Check for disk-related issues**
+1. **Check for disk-related issues**
 
-bash
+	```bash
+	dmesg | grep -i 'disk'
+	``` 
 
-CopyEdit
+2. **Find out when the system last rebooted**
 
-`dmesg | grep -i 'disk'` 
-
-### **Find out when the system last rebooted**
-
-bash
-
-CopyEdit
-
-`dmesg | grep -i 'systemd' | head -n 5` 
+	```bash
+	dmesg | grep -i 'systemd' | head -n 5
+	``` 
 
 ----------
 
-## 5. `/var/log/httpd/access.log` (or `/var/log/nginx/access.log`)
+## `/var/log/httpd/access.log` (or `/var/log/nginx/access.log`)
 
 This log captures all HTTP requests for Apache or Nginx web servers.
 
-### **Find the most requested URLs**
+1. **Find the most requested URLs**
 
-bash
+	```bash
+	awk '{print $7}' /var/log/nginx/access.log | sort | uniq -c | sort -nr | head -10
+	``` 
 
-CopyEdit
-
-`awk '{print $7}' /var/log/nginx/access.log | sort | uniq -c | sort -nr | head -10` 
-
-### **Find all requests from a specific IP**
+2. **Find all requests from a specific IP**
 
 bash
 
@@ -172,5 +167,5 @@ The `/var/log/` directory is a goldmine of information that can help SREs quickl
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NDY1NzYwNV19
+eyJoaXN0b3J5IjpbMTM4MDEyMjEyM119
 -->
