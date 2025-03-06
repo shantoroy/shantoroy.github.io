@@ -1,4 +1,4 @@
-``---
+---
 layout: single
 title: "#100daysofSRE (Day 22): Essential `/var/log` Files for SREs and How to Analyze Them"
 excerpt: "As a Site Reliability Engineer, logs are your best friend when troubleshooting issues. The `/var/log/` directory stores critical system and application logs that help diagnose performance bottlenecks, security incidents, and failures. In this post, we'll explore key log files and show how to extract important insights using `grep`, `sed`, and `awk`."
@@ -161,5 +161,5 @@ By using tools like `grep`, `sed`, and `awk`, we can efficiently parse log files
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3Mzk1NjQ2XX0=
+eyJoaXN0b3J5IjpbLTIwNjA2OTY4OTgsMTI3Mzk1NjQ2XX0=
 -->
