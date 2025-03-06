@@ -21,9 +21,12 @@ toc_label: "Table of Contents"
 toc_icon: "heart"
 ---
 
-## Introduction
 
-Docker has transformed how applications are packaged, shipped, and run by introducing **containers**—lightweight, portable environments that encapsulate everything an application needs to run. But how does Docker compare to traditional Virtual Machines (VMs), and why should SREs and DevOps engineers prefer it?
+Docker has transformed how applications are packaged, shipped, and run by introducing **containers**—lightweight, portable environments that encapsulate everything an application needs to run. 
+
+It al
+
+But how does Docker compare to traditional Virtual Machines (VMs), and why should SREs and DevOps engineers prefer it?
 
 In this post, we'll discuss **why Docker is better than VMs**, and then we'll **write a Dockerfile from scratch** to containerize a simple application.
 
@@ -98,7 +101,22 @@ CMD ["python", "app.py"]
 
 1️⃣ **Build the Docker image**
 
+```bash
+docker build -t flask-app .
 ```
+
+2️⃣ **Run the container**
+
+```bash
+docker run -d -p 5000:5000 flask-app
+``` 
+
+3️⃣ **Access the application**  
+Open your browser and visit:  
+```
+👉 http://localhost:5000
+```  
+You should see `"Hello, Docker!"` displayed.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNTcxODMzLDE2MjMxMzc0ODldfQ==
+eyJoaXN0b3J5IjpbMTAwMDE0OTkwOCwxNjIzMTM3NDg5XX0=
 -->
