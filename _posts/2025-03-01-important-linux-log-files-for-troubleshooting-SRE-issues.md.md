@@ -30,31 +30,30 @@ In this post, we'll cover essential log files and provide useful `grep`, `sed`, 
 
 This is the most comprehensive system log, capturing general system events, startup logs, kernel messages, and more.
 
-### **Find all logs related to a specific service (e.g., `nginx`)**
-```bash
-grep 'nginx' /var/log/syslog
-``` 
+1. **Find all logs related to a specific service (e.g., `nginx`)**
+	```bash
+	grep 'nginx' /var/log/syslog
+	``` 
 
-### **Find logs generated in the last hour**
+2. **Find logs generated in the last hour**
 
-```bash
-`awk '$0 ~ strftime("%b %d %H", systime()-3600)' /var/log/syslog` 
+	```bash
+	awk '$0 ~ strftime("%b %d %H", systime()-3600)' /var/log/syslog
+	``` 
 
 ----------
 
-## 2. `/var/log/auth.log` (or `/var/log/secure` in RHEL-based distros)
+## `/var/log/auth.log` (or `/var/log/secure` in RHEL-based distros)
 
 This log tracks authentication-related events, including SSH login attempts and sudo usage.
 
-### **Find all failed SSH login attempts**
+1. **Find all failed SSH login attempts**
 
-bash
+	```bash
+	grep 'Failed password' /var/log/auth.log
+	``` 
 
-CopyEdit
-
-`grep 'Failed password' /var/log/auth.log` 
-
-### **List all unique users who have logged in**
+2. **List all unique users who have logged in**
 
 bash
 
@@ -180,5 +179,5 @@ The `/var/log/` directory is a goldmine of information that can help SREs quickl
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTE4NTU3NjVdfQ==
+eyJoaXN0b3J5IjpbNDMzNzE2ODkyXX0=
 -->
