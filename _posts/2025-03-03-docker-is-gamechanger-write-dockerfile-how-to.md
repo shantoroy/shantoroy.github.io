@@ -66,7 +66,39 @@ def hello():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
+```
 
+### **Step 2: Create a Dockerfile**
+
+Inside the same directory, create a file named `Dockerfile` (no file extension) and add the following:
+
+```docker
+# Use the official Python image as the base
+FROM python:3.9-slim
+
+# Set the working directory inside the container
+WORKDIR /app
+
+# Copy the application files into the container
+COPY app.py .
+
+# Install Flask (required to run the app)
+RUN pip install flask
+
+# Expose port 5000 to the host
+EXPOSE 5000
+
+# Command to run the application
+CMD ["python", "app.py"]
+
+```
+
+
+### **Step 3: Build and Run the Docker Container**
+
+1️⃣ **Build the Docker image**
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMzEzNzQ4OV19
+eyJoaXN0b3J5IjpbMTUyNTcxODMzLDE2MjMxMzc0ODldfQ==
 -->
