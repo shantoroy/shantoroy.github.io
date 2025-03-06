@@ -109,55 +109,45 @@ This log captures all HTTP requests for Apache or Nginx web servers.
 
 2. **Find all requests from a specific IP**
 
-bash
-
-CopyEdit
-
-`grep '192.168.1.100' /var/log/nginx/access.log` 
+	```bash
+	grep '192.168.1.100' /var/log/nginx/access.log
+	``` 
 
 ----------
 
-## 6. `/var/log/httpd/error.log` (or `/var/log/nginx/error.log`)
+## `/var/log/httpd/error.log` (or `/var/log/nginx/error.log`)
 
 This log records web server errors and can be helpful for debugging.
 
-### **Find all 500 Internal Server Errors**
+1. **Find all 500 Internal Server Errors**
 
-bash
+	```bash
+	grep '500' /var/log/nginx/error.log
+	``` 
 
-CopyEdit
+2. **Extract timestamps of the last 10 errors**
 
-`grep '500' /var/log/nginx/error.log` 
-
-### **Extract timestamps of the last 10 errors**
-
-bash
-
-CopyEdit
-
-`grep -i 'error' /var/log/nginx/error.log | tail -n 10 | awk '{print $1, $2}'` 
+	```bash
+	grep -i 'error' /var/log/nginx/error.log | tail -n 10 | awk '{print $1, $2}'
+	``` 
 
 ----------
 
-## 7. `/var/log/maillog` (or `/var/log/mail.log`)
+## `/var/log/maillog` (or `/var/log/mail.log`)
 
 This log captures email-related activities, useful when troubleshooting mail servers.
 
-### **Find all emails sent to a specific recipient**
+1. **Find all emails sent to a specific recipient**
 
-bash
+	```bash
+	grep 'to=<user@example.com>' /var/log/maillog
+	``` 
 
-CopyEdit
+2. **Check for email delivery failures**
 
-`grep 'to=<user@example.com>' /var/log/maillog` 
-
-### **Check for email delivery failures**
-
-bash
-
-CopyEdit
-
-`grep -i 'failed' /var/log/maillog` 
+	```bash
+	grep -i 'failed' /var/log/maillog
+	``` 
 
 ----------
 
@@ -167,5 +157,5 @@ The `/var/log/` directory is a goldmine of information that can help SREs quickl
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MDEyMjEyM119
+eyJoaXN0b3J5IjpbLTIxMjA3NDQ2MDNdfQ==
 -->
