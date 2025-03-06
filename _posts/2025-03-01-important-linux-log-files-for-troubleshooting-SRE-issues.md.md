@@ -153,9 +153,13 @@ This log captures email-related activities, useful when troubleshooting mail ser
 
 ## Conclusion
 
-The `/var/log/` directory is a goldmine of information that can help SREs quickly diagnose and resolve issues. By using tools like `grep`, `sed`, and `awk`, you can efficiently parse log files and extract valuable insights.
+The `/var/log/` directory is a good source of information that can help SREs quickly diagnose and resolve issues. 
+
+If there are 3rd party tools or agents that are running on the host, there are separate log files for these tools as well.
+
+By using tools like `grep`, `sed`, and `awk`, we can efficiently parse log files and extract valuable insights.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjA3NDQ2MDNdfQ==
+eyJoaXN0b3J5IjpbMTI3Mzk1NjQ2XX0=
 -->
