@@ -24,7 +24,7 @@ toc_icon: "heart"
 
 Docker has transformed how applications are packaged, shipped, and run by introducing **containers**—lightweight, portable environments that encapsulate everything an application needs to run. 
 
-It al
+It also solves the major issue of running an application on different machines. Docker provides the same portability option so that you can run your application on Linux, Windows, or whatever platform you want to!
 
 But how does Docker compare to traditional Virtual Machines (VMs), and why should SREs and DevOps engineers prefer it?
 
@@ -118,5 +118,5 @@ Open your browser and visit:
 ```  
 You should see `"Hello, Docker!"` displayed.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMDE0OTkwOCwxNjIzMTM3NDg5XX0=
+eyJoaXN0b3J5IjpbOTUzNjc2ODc0LDE2MjMxMzc0ODldfQ==
 -->
