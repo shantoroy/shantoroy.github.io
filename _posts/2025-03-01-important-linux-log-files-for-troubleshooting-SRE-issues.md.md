@@ -55,33 +55,26 @@ This log tracks authentication-related events, including SSH login attempts and 
 
 2. **List all unique users who have logged in**
 
-bash
-
-CopyEdit
-
-`awk '/session opened/ {print $NF}' /var/log/auth.log | sort | uniq` 
+	```bash
+	awk '/session opened/ {print $NF}' /var/log/auth.log | sort | uniq
+	``` 
 
 ----------
 
-## 3. `/var/log/kern.log`
+## `/var/log/kern.log`
 
 This log captures kernel-related events, which can be useful when diagnosing hardware or kernel-related issues.
 
-### **Find kernel-related errors**
+1. **Find kernel-related errors**
+
+	```bash
+	grep -i 'error' /var/log/kern.log
+	``` 
+
+2. **Extract all timestamps of kernel panics**
 
 bash
-
-CopyEdit
-
-`grep -i 'error' /var/log/kern.log` 
-
-### **Extract all timestamps of kernel panics**
-
-bash
-
-CopyEdit
-
-`grep 'Kernel panic' /var/log/kern.log | awk '{print $1, $2, $3}'` 
+grep 'Kernel panic' /var/log/kern.log | awk '{print $1, $2, $3}'` 
 
 ----------
 
@@ -179,5 +172,5 @@ The `/var/log/` directory is a goldmine of information that can help SREs quickl
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMzNzE2ODkyXX0=
+eyJoaXN0b3J5IjpbMjA4NDY1NzYwNV19
 -->
