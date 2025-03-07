@@ -46,11 +46,11 @@ Use **multi-stage builds** to install dependencies in a temporary container and 
 - Limit unnecessary package installations  
 - Remove sensitive files right after the setup  
 
-### 🎯 3. **Dependency Handling**  
+### 3. **Dependency Handling**  
 Some **legacy apps require older dependencies**. Using a compatible base image and carefully installing necessary packages is key.
 
-### 🛠 4. **Process Management**  
-Legacy apps might use multiple processes. Using **supervisord** or process managers ensures proper startup.
+### 4. **Process Management**  
+Legacy apps might use multiple processes. Using **supervisord** or process managers ensures proper startup. If you want to know more about supervisor applications/processes, check my [other blog post]()
 
 ---
 
@@ -111,5 +111,5 @@ COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 CMD ["supervisord", "-c", "/etc/supervisor/conf.d/supervisord.conf"]
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NzU4NTI4N119
+eyJoaXN0b3J5IjpbMjA5OTE2NTYzMV19
 -->
