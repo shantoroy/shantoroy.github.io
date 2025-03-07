@@ -112,7 +112,7 @@ CMD ["supervisord", "-c", "/etc/supervisor/conf.d/supervisord.conf"]
 ```
 
 
-## 🔍 Breaking Down the Key Enhancements
+## Breaking Down the Key Enhancements
 
 ### 1. **Multi-Stage Build to Reduce Image Size**
 
@@ -234,5 +234,5 @@ Therefore, building **a production-ready Dockerfile for legacy applications** re
 Hope, that helps! In the upcoming days, we will learn more about containerized applications in production.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcxMjY2NDkxXX0=
+eyJoaXN0b3J5IjpbMTgzNTczMTYyM119
 -->
