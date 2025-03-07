@@ -190,51 +190,41 @@ Some legacy applications require **older versions of dependencies** that conflic
 
 #### **Installing Python Packages in a Virtual Environment**
 
-dockerfile
-
-CopyEdit
-
-`RUN python -m venv /opt/venv && \
-    /opt/venv/bin/pip install --no-cache-dir -r requirements.txt` 
+```dockerfile
+RUN python -m venv /opt/venv && \
+    /opt/venv/bin/pip install --no-cache-dir -r requirements.txt
+``` 
 
 ✅ Ensures dependencies don’t interfere with system packages  
 ✅ Keeps the final image clean
 
 ----------
 
-## 🚀 Running the Production Container
+## Running the Production Container
 
 ### **1️⃣ Build the Image**
 
-bash
-
-CopyEdit
-
-`docker build -t mylegacyapp .` 
+```bash
+docker build -t mylegacyapp .
+``` 
 
 ### **2️⃣ Run the Container**
 
-bash
-
-CopyEdit
-
-`docker run -d -p 8080:8080 mylegacyapp` 
+```bash
+docker run -d -p 8080:8080 mylegacyapp
+``` 
 
 ### **3️⃣ Check Running Processes**
 
-bash
-
-CopyEdit
-
-`docker exec -it <container_id> supervisorctl status` 
+```bash
+docker exec -it <container_id> supervisorctl status
+``` 
 
 ### **4️⃣ Tail Logs**
 
-bash
-
-CopyEdit
-
-`docker logs -f <container_id>` 
+```bash
+docker logs -f <container_id>
+``` 
 
 ----------
 
@@ -247,8 +237,8 @@ Therefore, building **a production-ready Dockerfile for legacy applications** re
 ✅ **Non-root execution** for better security  
 ✅ **Process managers** like `supervisord` for multi-process apps
 
-Hope, that helps! In the upcoming days, we will learn more about
+Hope, that helps! In the upcoming days, we will learn more about containerized applications in production.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NjU0Njc1Ml19
+eyJoaXN0b3J5IjpbMTU1MDI3OTAzMl19
 -->
