@@ -179,21 +179,17 @@ CopyEdit
 Docker containers **run as root by default**, which is a security risk.  
 We create directories and assign them to a **non-root user**.
 
-dockerfile
-
-CopyEdit
-
-`RUN mkdir -p /app/data /app/logs && \
+```dockerfile
+RUN mkdir -p /app/data /app/logs && \
     useradd -m appuser && \
-    chown -R appuser:appuser /app/data /app/logs /app/src /usr/local/share/nltk_data` 
+    chown -R appuser:appuser /app/data /app/logs /app/src /usr/local/share/nltk_data
+``` 
 
 Then, we **switch to the non-root user**:
 
-dockerfile
-
-CopyEdit
-
-`USER appuser` 
+```dockerfile
+USER appuser
+``` 
 
 **Why?**  
 ✅ Reduces the risk of privilege escalation attacks.  
@@ -203,12 +199,10 @@ CopyEdit
 
 ### 🔄 6. Exposing a Port & Running the App
 
-dockerfile
-
-CopyEdit
-
-`EXPOSE 8000
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]` 
+```dockerfile
+EXPOSE 8000
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+``` 
 
 **Why?**  
 ✅ Defines the application’s network port for external access.  
@@ -220,27 +214,21 @@ CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]`
 
 ### **1️⃣ Build the Docker Image**
 
-bash
-
-CopyEdit
-
-`docker build -t myapp .` 
+```bash
+`docker build -t myapp .
+``` 
 
 ### **2️⃣ Run the Container**
 
-bash
-
-CopyEdit
-
-`docker run -d -p 8000:8000 myapp` 
+```bash
+docker run -d -p 8000:8000 myapp
+``` 
 
 ### **3️⃣ Check Logs**
 
-bash
-
-CopyEdit
-
-`docker logs -f <container_id>` 
+```bash
+docker logs -f <container_id>
+``` 
 
 ----------
 
@@ -249,5 +237,5 @@ CopyEdit
 This **intermediate-level Dockerfile** follows best practices to improve **efficiency, security, and maintainability**.  
 By using **layer caching, environment variables, a non-root user, and optimized dependency installation**, we build **leaner and more secure** Docker images.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzU2NTg4NzddfQ==
+eyJoaXN0b3J5IjpbLTIwNzExMjAwNTFdfQ==
 -->
