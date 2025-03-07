@@ -101,11 +101,8 @@ CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
 Many applications require external libraries (e.g., `libxml2-dev`, `libxslt1-dev`, `poppler-utils`, `tesseract-ocr`).  
 We install them in a **single RUN command** to minimize the number of layers.
 
-dockerfile
-
-CopyEdit
-
-`RUN apt-get update && apt-get install -y \
+```dockerfile
+RUN apt-get update && apt-get install -y \
     build-essential \
     libmagic1 \
     file \
@@ -117,7 +114,8 @@ CopyEdit
     libxml2-dev \
     libxslt1-dev \
     python3-dev \
-    && rm -rf /var/lib/apt/lists/*` 
+    && rm -rf /var/lib/apt/lists/*
+``` 
 
 **Why?**  
 ✅ Installs all dependencies in one go to reduce image size.  
@@ -125,16 +123,14 @@ CopyEdit
 
 ----------
 
-### 📦 2. Optimizing Python Dependency Installation
+### 2. Optimizing Python Dependency Installation
 
 To leverage **Docker layer caching**, we **copy `requirements.txt` first** and install dependencies before copying the source code.
 
-dockerfile
-
-CopyEdit
-
-`COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt` 
+```dockerfile
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+``` 
 
 **Why?**  
 ✅ If `requirements.txt` doesn’t change, Docker reuses cached layers, speeding up builds.  
@@ -142,15 +138,13 @@ RUN pip install --no-cache-dir -r requirements.txt`
 
 ----------
 
-### 🌍 3. Setting Up Environment Variables
+### 3. Setting Up Environment Variables
 
 We use environment variables to define paths for external resources.
 
-dockerfile
-
-CopyEdit
-
-`ENV NLTK_DATA=/usr/local/share/nltk_data` 
+```dockerfile
+ENV NLTK_DATA=/usr/local/share/nltk_data
+``` 
 
 **Why?**  
 ✅ Makes configurations flexible without modifying the code.  
@@ -158,15 +152,13 @@ CopyEdit
 
 ----------
 
-### 📥 4. Downloading External Resources (NLTK Example)
+### 4. Downloading External Resources (NLTK Example)
 
 Some applications rely on external data (e.g., NLTK datasets).
 
-dockerfile
-
-CopyEdit
-
-`RUN python -m nltk.downloader -d /usr/local/share/nltk_data all` 
+```dockerfile
+RUN python -m nltk.downloader -d /usr/local/share/nltk_data all
+``` 
 
 **Why?**  
 ✅ Ensures the necessary data is available inside the container.  
@@ -174,7 +166,7 @@ CopyEdit
 
 ----------
 
-### 🔐 5. Creating Directories & Setting Permissions
+### 5. Creating Directories & Setting Permissions
 
 Docker containers **run as root by default**, which is a security risk.  
 We create directories and assign them to a **non-root user**.
@@ -197,7 +189,7 @@ USER appuser
 
 ----------
 
-### 🔄 6. Exposing a Port & Running the App
+### 6. Exposing a Port & Running the App
 
 ```dockerfile
 EXPOSE 8000
@@ -210,7 +202,7 @@ CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
 
 ----------
 
-## 🚀 Running the Docker Container
+## Running the Docker Container
 
 ### **1️⃣ Build the Docker Image**
 
@@ -237,5 +229,5 @@ docker logs -f <container_id>
 This **intermediate-level Dockerfile** follows best practices to improve **efficiency, security, and maintainability**.  
 By using **layer caching, environment variables, a non-root user, and optimized dependency installation**, we build **leaner and more secure** Docker images.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzExMjAwNTFdfQ==
+eyJoaXN0b3J5IjpbODQ1MjYwOTg2XX0=
 -->
