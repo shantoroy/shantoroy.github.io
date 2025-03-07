@@ -200,7 +200,7 @@ This should show:
 ```text
 Name                    Command               State           Ports
 ------------------------------------------------------------------------------
-myapp_backend_1     uvicorn main:app --host ...   Up       0.0.0.0:5000->5000/tcp
+myapp_backend_1     uvicorn main:app --host ...    Up       0.0.0.0:5000->5000/tcp
 myapp_frontend_1    npm start                      Up       0.0.0.0:3000->3000/tcp
 myapp_db_1          docker-entrypoint.sh postgres  Up       0.0.0.0:5432->5432/tcp
 ``` 
@@ -269,5 +269,5 @@ Docker Compose makes **multi-container applications** easy to manage.
 By using `docker-compose.yml`, SREs, DevOps engineers, and developers can **quickly spin up full application stacks**, making their workflow much more efficient. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA3OTg1OTJdfQ==
+eyJoaXN0b3J5IjpbLTE3MTE1MTQ5MzZdfQ==
 -->
