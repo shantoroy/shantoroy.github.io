@@ -55,11 +55,11 @@ We can define everything in a `docker-compose.yml` file and deploy with **one co
 
 ###  3. **Handles Networking Automatically**
 
-Each service gets its own **hostname**, so instead of using **IP addresses**, services can communicate via container names.
+Each service gets its own **hostname**, so instead of using **IP addresses**, services can communicate via container names. It can be automatic or manual network setup.
 
 ### 4. **Easily Scalable**
 
-Need **more backend instances**? Just scale up:
+Need **more backend instances**? We have a solution and we can just scale up accordingly:
 
 ```bash
 docker-compose up --scale backend=3
@@ -269,5 +269,5 @@ Docker Compose makes **multi-container applications** easy to manage.
 By using `docker-compose.yml`, SREs, DevOps engineers, and developers can **quickly spin up full application stacks**, making their workflow much more efficient. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg0MTkwMDMzXX0=
+eyJoaXN0b3J5IjpbMzA3OTg1OTJdfQ==
 -->
