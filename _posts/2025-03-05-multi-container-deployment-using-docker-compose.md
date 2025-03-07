@@ -84,10 +84,7 @@ We will set up: ✅ **Frontend** (React)
 #### **`backend/Dockerfile`**
 
 dockerfile
-
-CopyEdit
-
-`FROM python:3.10-slim
+FROM python:3.10-slim
 
 WORKDIR /app
 
@@ -97,44 +94,38 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . /app
 
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "5000"]` 
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "5000"]
+``` 
 
 #### **`backend/requirements.txt`**
 
-text
-
-CopyEdit
-
-`fastapi
+```text
+fastapi
 uvicorn
-psycopg2` 
+psycopg2
+``` 
 
 #### **`backend/main.py`**
 
-python
-
-CopyEdit
-
-`from fastapi import FastAPI
+```python
+from fastapi import FastAPI
 import psycopg2
 
 app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"message": "Hello from FastAPI!"}` 
+    return {"message": "Hello from FastAPI!"}
+``` 
 
 ----------
 
-### 📌 **Step 2: Define the Frontend (React)**
+### **Step 2: Define the Frontend (React)**
 
 #### **`frontend/Dockerfile`**
 
-dockerfile
-
-CopyEdit
-
-`FROM node:18-alpine
+```dockerfile
+FROM node:18-alpine
 
 WORKDIR /app
 
@@ -144,11 +135,12 @@ RUN npm install
 
 COPY . .
 
-CMD ["npm", "start"]` 
+CMD ["npm", "start"]
+``` 
 
 ----------
 
-### 📌 **Step 3: Define the Docker Compose File**
+### **Step 3: Define the Docker Compose File**
 
 #### **`docker-compose.yml`**
 
@@ -280,5 +272,5 @@ Docker Compose makes **multi-container applications** easy to manage.
 By using `docker-compose.yml`, SREs, DevOps engineers, and developers can **quickly spin up full application stacks**, making their workflow much more efficient. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTIwODA4NV19
+eyJoaXN0b3J5IjpbMTAxMjE4NTU0M119
 -->
