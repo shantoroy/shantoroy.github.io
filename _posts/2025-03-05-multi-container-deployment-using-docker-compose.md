@@ -35,45 +35,42 @@ In this guide, we'll explore **how Docker Compose works** and set up a **full-st
 
 ## ⚡ Why Docker Compose?
 
-### 🔹 1. **Simplifies Multi-Container Management**
+###  1. **Simplifies Multi-Container Management**
 Instead of running multiple `docker run` commands, Compose lets you **define everything in one file** and bring up the entire stack with:
 ```bash
 docker-compose up -d
 ```
 
-### 🔹 2. **Defines Services in a Single YAML File**
+###  2. **Defines Services in a Single YAML File**
 
 Instead of running:
 
-bash
-
-CopyEdit
-
-`docker run -d -p 5000:5000 backend
+```bash
+docker run -d -p 5000:5000 backend
 docker run -d -p 3000:3000 frontend
-docker run -d -p 5432:5432 postgres` 
+docker run -d -p 5432:5432 postgres
+``` 
 
-You define everything in a `docker-compose.yml` file and deploy with **one command**.
+We can define everything in a `docker-compose.yml` file and deploy with **one command**.
 
-### 🔹 3. **Handles Networking Automatically**
+###  3. **Handles Networking Automatically**
 
 Each service gets its own **hostname**, so instead of using **IP addresses**, services can communicate via container names.
 
-### 🔹 4. **Easily Scalable**
+### 4. **Easily Scalable**
 
 Need **more backend instances**? Just scale up:
 
-bash
-
-CopyEdit
-
-`docker-compose up --scale backend=3` 
+```bash
+docker-compose up --scale backend=3
+``` 
 
 ----------
 
-## 🏗 Example: Full-Stack Application with Docker Compose
+## Example Full-Stack Application with Docker Compose
 
-We will set up: ✅ **Frontend** (React)  
+Here, we will set up: 
+✅ **Frontend** (React)  
 ✅ **Backend** (FastAPI)  
 ✅ **Database** (PostgreSQL)
 
@@ -83,7 +80,7 @@ We will set up: ✅ **Frontend** (React)
 
 #### **`backend/Dockerfile`**
 
-dockerfile
+```dockerfile
 FROM python:3.10-slim
 
 WORKDIR /app
@@ -272,5 +269,5 @@ Docker Compose makes **multi-container applications** easy to manage.
 By using `docker-compose.yml`, SREs, DevOps engineers, and developers can **quickly spin up full application stacks**, making their workflow much more efficient. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMjE4NTU0M119
+eyJoaXN0b3J5IjpbNzg0MTkwMDMzXX0=
 -->
