@@ -268,8 +268,8 @@ Docker Compose makes **multi-container applications** easy to manage.
 
 By using `docker-compose.yml`, SREs, DevOps engineers, and developers can **quickly spin up full application stacks**, making their workflow much more efficient. 
 
-I have been building some cool multi-container applications and testing different devops/sre tools using docker-compose. You can check out my GitHub. One of those projects is a [AI Chatbot]()
+I have been building some cool multi-container applications and testing different devops/sre tools using docker-compose. You can check out my GitHub. One of those projects is a [AI Chatbot](https://github.com/shantoroy/rag-chatbot-python-fullstack-template) which utilizes RAG to retrieve information and shows on a chat when asked.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2OTUwNTA0XX0=
+eyJoaXN0b3J5IjpbNzMwNDk1NTY0XX0=
 -->
