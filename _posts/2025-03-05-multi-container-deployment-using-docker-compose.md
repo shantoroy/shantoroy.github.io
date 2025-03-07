@@ -152,11 +152,8 @@ CMD ["npm", "start"]`
 
 #### **`docker-compose.yml`**
 
-yaml
-
-CopyEdit
-
-`version: "3.8"
+```yaml
+version: "3.8"
 
 services:
   backend:
@@ -188,51 +185,44 @@ services:
       - pgdata:/var/lib/postgresql/data
 
 volumes:
-  pgdata:` 
+  pgdata:
+``` 
 
 ----------
 
-## 🚀 Running the Full-Stack Application
+##  Running the Full-Stack Application
 
-### 🏗 **1. Build and Start Services**
+### **1. Build and Start Services**
 
 Run the following command to start the services in detached mode:
 
-bash
+```bash
+docker-compose up -d
+``` 
 
-CopyEdit
+### **2. Check Running Containers**
 
-`docker-compose up -d` 
-
-### 🔍 **2. Check Running Containers**
-
-bash
-
-CopyEdit
-
-`docker-compose ps` 
+```bash
+docker-compose ps
+``` 
 
 This should show:
 
-text
-
-CopyEdit
-
- `Name                    Command               State           Ports
+```text
+Name                    Command               State           Ports
 ------------------------------------------------------------------------------
 myapp_backend_1     uvicorn main:app --host ...   Up       0.0.0.0:5000->5000/tcp
 myapp_frontend_1    npm start                      Up       0.0.0.0:3000->3000/tcp
-myapp_db_1          docker-entrypoint.sh postgres  Up       0.0.0.0:5432->5432/tcp` 
+myapp_db_1          docker-entrypoint.sh postgres  Up       0.0.0.0:5432->5432/tcp
+``` 
 
-### 🛠 **3. Test the Backend**
+### **3. Test the Backend**
 
 Run:
 
-bash
-
-CopyEdit
-
-`curl http://localhost:5000/` 
+```bash
+curl http://localhost:5000/
+``` 
 
 Expected output:
 
@@ -290,5 +280,5 @@ Docker Compose makes **multi-container applications** easy to manage.
 By using `docker-compose.yml`, SREs, DevOps engineers, and developers can **quickly spin up full application stacks**, making their workflow much more efficient. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDI3NDY4NTNdfQ==
+eyJoaXN0b3J5IjpbLTExOTIwODA4NV19
 -->
