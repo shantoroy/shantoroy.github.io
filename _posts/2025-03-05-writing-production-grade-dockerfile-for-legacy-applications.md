@@ -114,7 +114,7 @@ CMD ["supervisord", "-c", "/etc/supervisor/conf.d/supervisord.conf"]
 
 ## 🔍 Breaking Down the Key Enhancements
 
-### 🎯 1. **Multi-Stage Build to Reduce Image Size**
+### 1. **Multi-Stage Build to Reduce Image Size**
 
 In the first stage (`builder`), we:  
 ✅ Install build dependencies like `gcc` and `build-essential`  
@@ -126,17 +126,15 @@ In the final image, we:
 
 ----------
 
-### 🔒 2. **Security Best Practices**
+### 2. **Security Best Practices**
 
 #### **a) Non-Root User for Execution**
 
-dockerfile
-
-CopyEdit
-
-`RUN useradd -m appuser && \
+```dockerfile
+RUN useradd -m appuser && \
     chown -R appuser:appuser /app/src
-USER appuser` 
+USER appuser
+``` 
 
 ✅ Prevents privilege escalation attacks
 
@@ -146,30 +144,25 @@ USER appuser`
 
 Instead of `apt-get install -y <everything>`, we **only install what’s necessary**.
 
-dockerfile
-
-CopyEdit
-
-`RUN apt-get update && apt-get install -y libpq5 \
-    && rm -rf /var/lib/apt/lists/*` 
+```dockerfile
+RUN apt-get update && apt-get install -y libpq5 \
+    && rm -rf /var/lib/apt/lists/*
+``` 
 
 ✅ Reduces image size  
 ✅ Limits security vulnerabilities
 
 ----------
 
-### 🔄 3. **Using a Process Manager (Supervisord)**
+### 3. **Using a Process Manager (Supervisord)**
 
 Legacy apps might need **multiple services running inside one container**.  
 Instead of relying on `CMD ["python", "app.py"]`, we use **supervisord** to handle multiple processes.
 
 #### **Supervisord Configuration (`supervisord.conf`)**
 
-ini
-
-CopyEdit
-
-`[supervisord]
+```ini
+[supervisord]
 nodaemon=true
 
 [program:app]
@@ -177,14 +170,15 @@ command=python /app/src/main.py
 autostart=true
 autorestart=true
 stderr_logfile=/var/log/app.err.log
-stdout_logfile=/var/log/app.out.log` 
+stdout_logfile=/var/log/app.out.log
+``` 
 
 ✅ Ensures app **restarts** if it crashes  
 ✅ Captures logs in `/var/log/app.out.log`
 
 ----------
 
-### 📦 4. **Handling Legacy Dependencies**
+### 4. **Handling Legacy Dependencies**
 
 Some legacy applications require **older versions of dependencies** that conflict with newer ones.
 
@@ -240,5 +234,5 @@ Therefore, building **a production-ready Dockerfile for legacy applications** re
 Hope, that helps! In the upcoming days, we will learn more about containerized applications in production.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MDI3OTAzMl19
+eyJoaXN0b3J5IjpbNTcxMjY2NDkxXX0=
 -->
