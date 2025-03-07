@@ -94,9 +94,9 @@ WORKDIR /app/src
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
 ```
 
-## 🔍 Breaking Down the Key Improvements
+## Breaking Down the Key Improvements
 
-### 🛠 1. Installing System Dependencies
+### 1. Installing System Dependencies
 
 Many applications require external libraries (e.g., `libxml2-dev`, `libxslt1-dev`, `poppler-utils`, `tesseract-ocr`).  
 We install them in a **single RUN command** to minimize the number of layers.
@@ -154,7 +154,7 @@ ENV NLTK_DATA=/usr/local/share/nltk_data
 
 ### 4. Downloading External Resources (NLTK Example)
 
-Some applications rely on external data (e.g., NLTK datasets).
+Some applications rely on external data. For example, if you are developing a chatbot or AI agent, you may need to install or download NLTK datasets.
 
 ```dockerfile
 RUN python -m nltk.downloader -d /usr/local/share/nltk_data all
@@ -229,5 +229,5 @@ docker logs -f <container_id>
 This **intermediate-level Dockerfile** follows best practices to improve **efficiency, security, and maintainability**.  
 By using **layer caching, environment variables, a non-root user, and optimized dependency installation**, we build **leaner and more secure** Docker images.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ1MjYwOTg2XX0=
+eyJoaXN0b3J5IjpbMTA2NzE4MTA2MV19
 -->
