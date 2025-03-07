@@ -34,7 +34,8 @@ In this post, we'll write an **intermediate-level Dockerfile** that:
 
 ---
 
-## 🚀 The Improved Dockerfile
+## An Improved Dockerfile
+We can define different things on dockerfile to set up and configure thperfect environment.
 
 Here’s a **structured Dockerfile** that follows best practices:
 
@@ -91,7 +92,8 @@ WORKDIR /app/src
 
 # Run the application
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzUwNzAxOTZdfQ==
+eyJoaXN0b3J5IjpbLTk2OTEyODEyXX0=
 -->
