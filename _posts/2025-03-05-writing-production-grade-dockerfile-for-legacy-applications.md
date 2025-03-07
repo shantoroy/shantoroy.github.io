@@ -24,7 +24,8 @@ toc_icon: "heart"
 
 
 When running **legacy applications** in **production**, a standard Dockerfile won't be enough.  
-You need to ensure:  
+
+We need to ensure extra features such as:  
 ✅ **Security** – Running non-root, minimizing attack surfaces  
 ✅ **Performance** – Optimized layer caching, removing unnecessary files  
 ✅ **Compatibility** – Handling older dependencies without breaking the system  
@@ -35,15 +36,15 @@ In this guide, we’ll build a **production-grade Dockerfile** optimized for leg
 
 ---
 
-## ⚡ Key Considerations for Production
+## Key Considerations for Production
 
-### 🔒 1. **Minimize Image Size**  
-Use **multi-stage builds** to install dependencies in a temporary container and copy only necessary artifacts.
+### 1. **Minimize Image Size**  
+Use **multi-stage builds** to install dependencies in a temporary container and copy only necessary artifacts. It also ensures optimality and additional security.
 
-### 🛡 2. **Security Best Practices**  
+### 2. **Security Best Practices**  
 - Avoid running as `root`  
 - Limit unnecessary package installations  
-- Remove sensitive files after setup  
+- Remove sensitive files right after the setup  
 
 ### 🎯 3. **Dependency Handling**  
 Some **legacy apps require older dependencies**. Using a compatible base image and carefully installing necessary packages is key.
@@ -110,5 +111,5 @@ COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 CMD ["supervisord", "-c", "/etc/supervisor/conf.d/supervisord.conf"]
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzAzMTc2MThdfQ==
+eyJoaXN0b3J5IjpbMTA3NzU4NTI4N119
 -->
