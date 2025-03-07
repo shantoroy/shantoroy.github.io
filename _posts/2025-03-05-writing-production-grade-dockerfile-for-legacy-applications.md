@@ -50,13 +50,13 @@ Use **multi-stage builds** to install dependencies in a temporary container and 
 Some **legacy apps require older dependencies**. Using a compatible base image and carefully installing necessary packages is key.
 
 ### 4. **Process Management**  
-Legacy apps might use multiple processes. Using **supervisord** or process managers ensures proper startup. If you want to know more about supervisor applications/processes, check my [other blog post]()
+Legacy apps might use multiple processes. Using **supervisord** or process managers ensures proper startup. If you want to know more about supervisor applications/processes, check my [other blog post](https://shantoroy.com/sre/supervisor-program-running-in-linux/).
 
 ---
 
-## 🔥 The Advanced Production-Ready Dockerfile
+## The Advanced Production-Ready Dockerfile
 
-### 🏗 **Multi-Stage Build for Legacy Python App**
+###  **Multi-Stage Build for an example Legacy Python Application**
 
 ```dockerfile
 # Stage 1: Build dependencies
@@ -109,7 +109,8 @@ EXPOSE 8080
 COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 
 CMD ["supervisord", "-c", "/etc/supervisor/conf.d/supervisord.conf"]
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5OTE2NTYzMV19
+eyJoaXN0b3J5IjpbLTQ0NjA1MjU2MF19
 -->
