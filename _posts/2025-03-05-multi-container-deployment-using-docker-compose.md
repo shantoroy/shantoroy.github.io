@@ -225,7 +225,7 @@ Open **http://localhost:3000** in your browser.
 
 ----------
 
-## 🎯 Advanced Docker Compose Features
+## Advanced Docker Compose Features
 
 ### **1. Scaling Services**
 
@@ -268,6 +268,8 @@ Docker Compose makes **multi-container applications** easy to manage.
 
 By using `docker-compose.yml`, SREs, DevOps engineers, and developers can **quickly spin up full application stacks**, making their workflow much more efficient. 
 
+I have been building some cool multi-container applications and 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTE1MTQ5MzZdfQ==
+eyJoaXN0b3J5IjpbMjA5MzIzOTU5Nl19
 -->
