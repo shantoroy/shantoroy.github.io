@@ -239,12 +239,16 @@ CopyEdit
 ----------
 
 ## Conclusion
+In summary, on production level images, we consider more optimal runtime and enhanced security and reliability.
 
-Building **a production-ready Dockerfile for legacy applications** requires: ✅ **Multi-stage builds** to reduce image size  
+Therefore, building **a production-ready Dockerfile for legacy applications** requires: 
+✅ **Multi-stage builds** to reduce image size  
 ✅ **Minimal dependencies** to reduce attack surface  
 ✅ **Non-root execution** for better security  
 ✅ **Process managers** like `supervisord` for multi-process apps
 
+Hope, that helps! In the upcoming days, we will learn more about
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNDYyNTQ4Ml19
+eyJoaXN0b3J5IjpbMTM0NjU0Njc1Ml19
 -->
