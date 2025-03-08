@@ -282,12 +282,13 @@ docker system prune -a
 
 ## Conclusion
 
-Docker Compose makes **creating a penetration testing lab** easy, fast, and repeatable.  
+Docker Compose makes **creating a penetration testing lab** easy, fast, and repeatable.  So, the primary benefits we have here are:
 ✅ **No need for VirtualBox or VMWare**  
 ✅ **Easily add/remove services**  
 ✅ **Networking is automatically configured**
 
+Again, containerization makes the use of running 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDY1OTM0OTAsMzM0MjEwNjI0LDM0MT
-IzNTgxOV19
+eyJoaXN0b3J5IjpbLTE1MzQ0ODQ5ODksLTEwNDY1OTM0OTAsMz
+M0MjEwNjI0LDM0MTIzNTgxOV19
 -->
