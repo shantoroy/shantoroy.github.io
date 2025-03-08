@@ -112,6 +112,9 @@ networks:
       config:
         - subnet: 192.168.1.0/24
 ``` 
+----------
+
+
 
 ----------
 
@@ -210,5 +213,5 @@ Docker Compose makes **creating a penetration testing lab** easy, fast, and repe
 ✅ **Networking is automatically configured**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQxMjM1ODE5XX0=
+eyJoaXN0b3J5IjpbMjA0NzY2NzM5MywzNDEyMzU4MTldfQ==
 -->
