@@ -51,7 +51,176 @@ Test if Docker is working:
 ```bash
 docker --version
 docker-compose --version
+```
+
+### 📌 **Step 2: Create the `docker-compose.yml` File**
+
+Create a directory for the lab:
+
+bash
+
+CopyEdit
+
+`mkdir hacking-lab && cd hacking-lab` 
+
+Create a `docker-compose.yml` file:
+
+yaml
+
+CopyEdit
+
+`version: "3.8"
+
+services:
+  kali:
+    image: kalilinux/kali-rolling
+    container_name: kali
+    tty: true
+    stdin_open: true
+    networks:
+      hacknet:
+        ipv4_address: 192.168.1.100
+    command: ["/bin/bash"]
+
+  metasploitable:
+    image: tleemcjr/metasploitable2
+    container_name: metasploitable
+    restart: always
+    networks:
+      hacknet:
+        ipv4_address: 192.168.1.101
+
+  dvwa:
+    image: vulnerables/web-dvwa
+    container_name: dvwa
+    restart: always
+    ports:
+      - "8081:80"
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+    networks:
+      hacknet:
+        ipv4_address: 192.168.1.102
+
+  juice-shop:
+    image: bkimminich/juice-shop
+    container_name: juice-shop
+    restart: always
+    ports:
+      - "3000:3000"
+    networks:
+      hacknet:
+        ipv4_address: 192.168.1.103
+
+networks:
+  hacknet:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 192.168.1.0/24` 
+
+----------
+
+## 🚀 Running the Hacking Lab
+
+### 🏗 **1. Start All Containers**
+
+Run:
+
+bash
+
+CopyEdit
+
+`docker-compose up -d` 
+
+### 🔍 **2. Verify Running Containers**
+
+bash
+
+CopyEdit
+
+`docker ps` 
+
+Expected output:
+
+text
+
+CopyEdit
+
+`CONTAINER ID   IMAGE                      PORTS                   NAMES
+abc12345       kalilinux/kali-rolling      -                      kali
+xyz67890       tleemcjr/metasploitable2    -                      metasploitable
+mno45678       vulnerables/web-dvwa       0.0.0.0:8081->80/tcp    dvwa
+pqr98765       bkimminich/juice-shop      0.0.0.0:3000->3000/tcp  juice-shop` 
+
+----------
+
+## 🛠 Testing the Hacking Lab
+
+### **1. Access the Kali Linux Container**
+
+Run:
+
+```bash
+docker exec -it kali /bin/bash
+``` 
+
+Now you're inside a **fully functional Kali Linux** environment.
+
+Install tools:
+
+```bash
+apt update && apt install -y nmap metasploit-framework sqlmap
+``` 
+
+### **2. Scan Metasploitable2 with Nmap**
+
+From inside the Kali container, run:
+
+```bash
+nmap -A 192.168.1.101
+``` 
+
+This will reveal open ports and services.
+
+### **3. Test DVWA**
+
+Open **http://localhost:8081** in your browser.  
+Use:
+
+-   **Username**: `admin`
+-   **Password**: `password`
+
+###  **4. Test OWASP Juice Shop**
+
+Open **http://localhost:3000** in your browser.
+
+----------
+
+## Stopping and Cleaning Up
+
+###  Stop the lab
+
+```bash
+docker-compose down
+``` 
+
+### Remove volumes and images
+
+```bash
+docker-compose down -v
+docker system prune -a
+``` 
+
+----------
+
+## Conclusion
+
+Docker Compose makes **creating a penetration testing lab** easy, fast, and repeatable.  
+✅ **No need for VirtualBox or VMWare**  
+✅ **Easily add/remove services**  
+✅ **Networking is automatically configured**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTIyODc4NTBdfQ==
+eyJoaXN0b3J5IjpbLTE2MzY3NDU5OTNdfQ==
 -->
