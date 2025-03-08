@@ -114,7 +114,81 @@ networks:
 ``` 
 ----------
 
+## Details of Vulnerable Systems
+### **1. DVWA (Damn Vulnerable Web Application)**  
+**Website:** [https://dvwa.co.uk](https://dvwa.co.uk/)  
 
+#### **Overview:**  
+DVWA is a **deliberately vulnerable PHP/MySQL web application** designed for security professionals and students to practice web application security. It contains multiple security flaws categorized by difficulty levels (**low, medium, high, and impossible**) to help users learn and mitigate common vulnerabilities.
+
+#### **Common Vulnerabilities in DVWA:**  
+- **SQL Injection (SQLi)** – Exploit database queries  
+- **Cross-Site Scripting (XSS)** – Inject and execute JavaScript  
+- **Command Injection** – Execute system commands  
+- **File Inclusion (LFI/RFI)** – Read or execute files on the server  
+- **Broken Authentication** – Exploit weak login mechanisms  
+- **Security Misconfiguration** – Discover misconfigured settings  
+- **CSRF (Cross-Site Request Forgery)** – Perform unauthorized actions  
+
+#### **How to Use:**  
+- Install using **XAMPP, Docker, or a local LAMP/WAMP stack**  
+- Default credentials: `admin` / `password`  
+- Use Burp Suite, SQLMap, and other tools to test vulnerabilities  
+
+---
+
+### **2. Metasploitable**  
+**Website:** [https://docs.rapid7.com/metasploit/metasploitable-2/](https://docs.rapid7.com/metasploit/metasploitable-2/)  
+
+#### **Overview:**  
+Metasploitable is an **intentionally vulnerable Linux virtual machine (VM)** created by Rapid7 for security testing and Metasploit framework practice. It provides a **realistic attack surface** with various services running on open ports.
+
+#### **Common Vulnerabilities in Metasploitable:**  
+- **Outdated software versions** (Apache, MySQL, Samba, etc.)  
+- **Weak SSH and FTP credentials**  
+- **Misconfigured database services (PostgreSQL, MySQL)**  
+- **Vulnerable web applications (DVWA, Mutillidae, WebDAV, PHPMyAdmin)**  
+- **Exploitable network services (Telnet, RMI, VSFTPD, etc.)**  
+- **Remote Code Execution (RCE) opportunities**  
+
+#### **How to Use:**  
+- Download the VM and run it in **VirtualBox or VMware**  
+- Scan with `nmap` to identify open ports and services  
+- Use Metasploit (`msfconsole`) to exploit vulnerabilities  
+- Practice privilege escalation and post-exploitation techniques  
+
+---
+
+### **3. OWASP Juice Shop**  
+**Website:** [https://owasp.org/www-project-juice-shop/](https://owasp.org/www-project-juice-shop/)  
+
+#### **Overview:**  
+Juice Shop is a **modern, intentionally vulnerable web application** developed using **Node.js, Angular, and Express.js**. It is an **OWASP project** that helps security enthusiasts learn web security concepts through a **CTF-style challenge interface**.
+
+#### **Common Vulnerabilities in Juice Shop:**  
+- **Injection attacks** (SQLi, NoSQLi, XSS)  
+- **Broken Authentication & Authorization** (IDOR, OAuth issues)  
+- **Cross-Site Scripting (XSS) & CSRF**  
+- **Security misconfiguration** (Exposed logs, misused JWT tokens)  
+- **Insecure storage of sensitive data**  
+- **Business logic flaws**  
+
+#### **How to Use:**  
+- Run via **Docker (`docker run -p 3000:3000 bkimminich/juice-shop`)**  
+- Access at `http://localhost:3000`  
+- Solve challenges through hacking techniques (injection, brute force, IDOR, etc.)  
+- Get hints and track progress using the built-in scoreboard  
+
+---
+
+### **Comparison Table**
+| Feature           | DVWA | Metasploitable | Juice Shop |
+|------------------|------|---------------|------------|
+| Web-based | ✅ | ✅ (Has web apps) | ✅ |
+| Vulnerable Services | ❌ | ✅ (SSH, FTP, MySQL, etc.) | ❌ |
+| Security Levels | ✅ (Low, Medium, High, Impossible) | ❌ | ❌ |
+| Programming Language | PHP, MySQL | Various (Linux OS, services) | Node.js, Angular |
+| Best For | Web security testing | Metasploit practice, OS security | Modern web app security, CTF challenges |
 
 ----------
 
@@ -213,5 +287,5 @@ Docker Compose makes **creating a penetration testing lab** easy, fast, and repe
 ✅ **Networking is automatically configured**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NzY2NzM5MywzNDEyMzU4MTldfQ==
+eyJoaXN0b3J5IjpbMzM0MjEwNjI0LDM0MTIzNTgxOV19
 -->
