@@ -57,20 +57,13 @@ docker-compose --version
 
 Create a directory for the lab:
 
-bash
-
-CopyEdit
-
-`mkdir hacking-lab && cd hacking-lab` 
+```bash
+mkdir hacking-lab && cd hacking-lab
+``` 
 
 Create a `docker-compose.yml` file:
 
-yaml
-
-CopyEdit
-
-`version: "3.8"
-
+```yaml
 services:
   kali:
     image: kalilinux/kali-rolling
@@ -117,41 +110,36 @@ networks:
     driver: bridge
     ipam:
       config:
-        - subnet: 192.168.1.0/24` 
+        - subnet: 192.168.1.0/24
+``` 
 
 ----------
 
-## 🚀 Running the Hacking Lab
+## Running the Hacking Lab
 
-### 🏗 **1. Start All Containers**
+###  **1. Start All Containers**
 
 Run:
 
-bash
+```bash
+docker-compose up -d
+``` 
 
-CopyEdit
+### **2. Verify Running Containers**
 
-`docker-compose up -d` 
-
-### 🔍 **2. Verify Running Containers**
-
-bash
-
-CopyEdit
-
-`docker ps` 
+```bash
+docker ps
+``` 
 
 Expected output:
 
-text
-
-CopyEdit
-
-`CONTAINER ID   IMAGE                      PORTS                   NAMES
+```text
+CONTAINER ID   IMAGE                      PORTS                   NAMES
 abc12345       kalilinux/kali-rolling      -                      kali
 xyz67890       tleemcjr/metasploitable2    -                      metasploitable
 mno45678       vulnerables/web-dvwa       0.0.0.0:8081->80/tcp    dvwa
-pqr98765       bkimminich/juice-shop      0.0.0.0:3000->3000/tcp  juice-shop` 
+pqr98765       bkimminich/juice-shop      0.0.0.0:3000->3000/tcp  juice-shop
+``` 
 
 ----------
 
@@ -222,5 +210,5 @@ Docker Compose makes **creating a penetration testing lab** easy, fast, and repe
 ✅ **Networking is automatically configured**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzY3NDU5OTNdfQ==
+eyJoaXN0b3J5IjpbMzQxMjM1ODE5XX0=
 -->
