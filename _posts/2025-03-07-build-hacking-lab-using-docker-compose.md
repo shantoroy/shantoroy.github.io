@@ -287,8 +287,10 @@ Docker Compose makes **creating a penetration testing lab** easy, fast, and repe
 ✅ **Easily add/remove services**  
 ✅ **Networking is automatically configured**
 
-Again, containerization makes the use of running 
+Again, containerization makes the use of running a lab like this significantly easier and lighter where setting up the same on a virtualbox would consume significantly more resources from your computer.
+
+Also, it's significantly easier to remove the services here and additional networking conf
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzQ0ODQ5ODksLTEwNDY1OTM0OTAsMz
-M0MjEwNjI0LDM0MTIzNTgxOV19
+eyJoaXN0b3J5IjpbLTIyOTEzNTU5NCwtMTA0NjU5MzQ5MCwzMz
+QyMTA2MjQsMzQxMjM1ODE5XX0=
 -->
