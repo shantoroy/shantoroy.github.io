@@ -40,6 +40,8 @@ Using **Docker Compose**, we can quickly spin up:
 - **Isolated Environment** – No risk to your main system
 - **Networking Made Easy** – All machines can communicate within a virtual network
 
+Well, if we use virtualb
+
 ---
 
 ##  Setting Up the Hacking Lab
@@ -280,7 +282,7 @@ docker system prune -a
 
 ----------
 
-## Conclusion
+## Final Thoughts
 
 Docker Compose makes **creating a penetration testing lab** easy, fast, and repeatable.  So, the primary benefits we have here are:
 ✅ **No need for VirtualBox or VMWare**  
@@ -289,8 +291,8 @@ Docker Compose makes **creating a penetration testing lab** easy, fast, and repe
 
 Again, containerization makes the use of running a lab like this significantly easier and lighter where setting up the same on a virtualbox would consume significantly more resources from your computer.
 
-Also, it's significantly easier to remove the services here and additional networking conf
+Also, it's significantly easier to remove the services here and additional networking configurations is not required at all making it significantly hasslefree.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyOTEzNTU5NCwtMTA0NjU5MzQ5MCwzMz
-QyMTA2MjQsMzQxMjM1ODE5XX0=
+eyJoaXN0b3J5IjpbLTExNDA3OTA1NzEsLTEwNDY1OTM0OTAsMz
+M0MjEwNjI0LDM0MTIzNTgxOV19
 -->
