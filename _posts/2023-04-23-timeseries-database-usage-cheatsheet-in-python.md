@@ -137,13 +137,10 @@ push_to_gateway('localhost:9091', job='job_name', registry=registry)
 Note that this code assumes that you have a Prometheus server running on `localhost:9091` and that you have defined a job named `job_name` in your Prometheus configuration file. 
 
 
----
 
 ---
 
 So, that's all for today! cheers!!!
-
-___
 
 ___
 
@@ -157,5 +154,6 @@ Once a week, I'll be sharing the latest weekly updates on my published articles,
 
 I am also writing on Medium. You can [follow me here](https://medium.com/@shantoroy).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NTM0NzA1MiwtMTgxNjQxMzU0NF19
+eyJoaXN0b3J5IjpbLTEwNDUwNDIxMjYsLTU0NTM0NzA1MiwtMT
+gxNjQxMzU0NF19
 -->
