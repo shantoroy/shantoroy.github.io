@@ -182,6 +182,7 @@ Juice Shop is a **modern, intentionally vulnerable web application** developed u
 ---
 
 ### **Comparison Table**
+
 | Feature           | DVWA | Metasploitable | Juice Shop |
 |------------------|------|---------------|------------|
 | Web-based | ✅ | ✅ (Has web apps) | ✅ |
@@ -287,5 +288,6 @@ Docker Compose makes **creating a penetration testing lab** easy, fast, and repe
 ✅ **Networking is automatically configured**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM0MjEwNjI0LDM0MTIzNTgxOV19
+eyJoaXN0b3J5IjpbLTEwNDY1OTM0OTAsMzM0MjEwNjI0LDM0MT
+IzNTgxOV19
 -->
