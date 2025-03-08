@@ -40,7 +40,9 @@ Using **Docker Compose**, we can quickly spin up:
 - **Isolated Environment** – No risk to your main system
 - **Networking Made Easy** – All machines can communicate within a virtual network
 
-Well, if we use virtualb
+Well, if we use virtualbox to set up the same lab, it would take a lot of efforts setting up the environments. First, you have to download the images, install on virtualbox or vmware, and then install the images.
+
+Finally, we had to configure the machines and networking. Most of all, virtua
 
 ---
 
@@ -293,6 +295,6 @@ Again, containerization makes the use of running a lab like this significantly e
 
 Also, it's significantly easier to remove the services here and additional networking configurations is not required at all making it significantly hasslefree.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDA3OTA1NzEsLTEwNDY1OTM0OTAsMz
+eyJoaXN0b3J5IjpbLTE3NTU2NDQ2ODAsLTEwNDY1OTM0OTAsMz
 M0MjEwNjI0LDM0MTIzNTgxOV19
 -->
