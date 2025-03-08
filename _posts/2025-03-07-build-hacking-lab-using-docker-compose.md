@@ -225,7 +225,7 @@ pqr98765       bkimminich/juice-shop      0.0.0.0:3000->3000/tcp  juice-shop
 
 ----------
 
-## 🛠 Testing the Hacking Lab
+## Testing the Hacking Lab
 
 ### **1. Access the Kali Linux Container**
 
@@ -295,6 +295,6 @@ Again, containerization makes the use of running a lab like this significantly e
 
 Also, it's significantly easier to remove the services here and additional networking configurations is not required at all making it significantly hasslefree.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzODc2OTUyNiwtMTA0NjU5MzQ5MCwzMz
-QyMTA2MjQsMzQxMjM1ODE5XX0=
+eyJoaXN0b3J5IjpbOTIxMDA5NDcsMTEzODc2OTUyNiwtMTA0Nj
+U5MzQ5MCwzMzQyMTA2MjQsMzQxMjM1ODE5XX0=
 -->
