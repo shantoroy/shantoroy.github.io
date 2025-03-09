@@ -37,82 +37,66 @@ In this post, we explore how **Docker Compose** simplifies the deployment of an 
 
 ## 🏗️ System Architecture
 User ───────────────▶ Chainlit UI Documents (txt/md/pdf) │ │ │ │ Query │ │ Retrieve │ │ Documents ▼ ▼ FastAPI ◄─────────── RAG Model ◄─────── Local Ollama Backend │ │ │ └─────────────────────┘ Return Answer
+```
 
-yaml
+The chatbot takes a user’s query, retrieves relevant information from stored documents, and generates a response using a local LLM.
 
-CopyEdit
-
- ``The chatbot takes a user’s query, retrieves relevant information from stored documents, and generates a response using a local LLM.
 
 --- 
-## 🚀 Why Use Docker Compose?
+##  Getting Started
 
-- ✅ **Multi-container orchestration** – Easily manage the **frontend, backend, and LLM services** in one file.
-- ✅ **Consistent environments** – No dependency issues across different machines.
-- ✅ **Scalability** – Future extensions like **database storage, caching, or monitoring** are easy.
-- ✅ **Fast deployment** – Just run `docker-compose up -d` and your chatbot is ready!
-
---- 
-## 🔧 Getting Started
-
-### 📌 Prerequisites
+###  Prerequisites
 
 - **Docker & Docker Compose**
 - **Ollama (for running local models)**
 - **Python 3.10+**
 
 --- 
-### 📌 Step 1: Install Ollama
+###  Step 1: Install Ollama
 
 Ollama is required to run local LLM models efficiently.
 
-#### 🖥️ **MacOS**
+#### **MacOS**
 ```bash
 brew install ollama
-brew services start ollama`` 
+brew services start ollama
+``` 
 
-#### 🖥️ **Linux**
+####  **Linux**
 
-bash
+```bash
+curl -fsSL https://ollama.com/install.sh | sh
+``` 
 
-CopyEdit
-
-`curl -fsSL https://ollama.com/install.sh | sh` 
-
-#### 🖥️ **Windows**
+####  **Windows**
 
 Download and install Ollama from the **[official Ollama website](https://ollama.com)**.
 
 ----------
 
-### 📌 Step 2: Download Required LLM Models
+### Step 2: Download Required LLM Models
 
 Run the following commands to ensure you have the required models:
 
-bash
-
-CopyEdit
-
-`ollama run mistral
-ollama run nomic-embed-text` 
+```bash
+ollama run mistral
+ollama run nomic-embed-text
+``` 
 
 These models handle **document embeddings** and **language generation** for accurate responses.
 
 ----------
 
-### 📌 Step 3: Clone the Chatbot Repository
+###  Step 3: Clone the Chatbot Repository
 
-bash
-
-CopyEdit
-
-```git clone https://github.com/shantoroy/rag-chatbot-python-fullstack-template.git
+```bash
+git clone https://github.com/shantoroy/rag-chatbot-python-fullstack-template.git
 cd rag-chatbot-python-fullstack-template
 ``` 
 
 ----------
 
-### 📌 Step 4: Configure the Environment
+###  Step 4: Configure the Environment
 
 Copy `.env.example` to `.env` and modify it as needed.
 
@@ -122,7 +106,7 @@ cp .env.example .env
 
 ----------
 
-### 📌 Step 5: Deploy with Docker Compose
+###  Step 5: Deploy with Docker Compose
 
 **Build and start the containers:**
 
@@ -194,5 +178,5 @@ Deploying an **AI Chatbot** using **Docker Compose** makes it **easier to manage
 💡 **Leverages local LLMs for privacy and performance**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTEzMDIxXX0=
+eyJoaXN0b3J5IjpbLTE4OTYwNDM3MzJdfQ==
 -->
