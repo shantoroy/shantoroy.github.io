@@ -243,7 +243,7 @@ The backend dockerfile is a bit challenging since it requires many prerequisites
 
 First, we need to install necessary linux packages installed. Then we install necessary modules from the requirements.txt file. Then we have to download `nltk` packages or libraries and set the environment variables.
 
-On this project, I'm keeping the documents under backend. But, you can declare a separate volume space to store the documents you want your model to go thro
+On this project, I'm keeping the documents under backend. But, you can declare a separate volume space to store the documents you want your model to go through. You can define that volume on the docker-compose file.
 
 ```dockerfile
 FROM python:3.10-slim
@@ -339,5 +339,5 @@ Deploying an **AI Chatbot** using **Docker Compose** makes it **easier to manage
 
 Please, check out the whole project on my [Github Repository](https://github.com/shantoroy/rag-chatbot-python-fullstack-template/tree/main).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNjAyMDc2Ml19
+eyJoaXN0b3J5IjpbLTIxMzM3Njg0NDRdfQ==
 -->
