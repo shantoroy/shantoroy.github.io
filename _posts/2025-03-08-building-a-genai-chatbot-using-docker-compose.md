@@ -168,7 +168,7 @@ rag-chatbot-python-fullstack-template/
 ## Docker Compose File
 I included the backend and the frontend on the docker-compose file. Now, I was running this on my macbook pro and I heard somewhere that the ollama models cannot utilize the GPUs if run within a container.
 
-So, here, you'll not see ollama service on the dockerfile. But, you can actually run or test it on container. Ollama is properly optimized to run on personal computers. So, 
+So, here, you'll not see ollama service on the dockerfile. But, you can actually run or test it on container. Ollama is properly optimized to run on personal computers. So, shouldn't be an issue.
 
 ```dockerfile
 services:
@@ -229,6 +229,7 @@ Deploying an **AI Chatbot** using **Docker Compose** makes it **easier to manage
 💡 **Works on any system with Docker installed**  
 💡 **Leverages local LLMs for privacy and performance**
 
+Please, check out the whole project on my [Github Repository](https://github.com/shantoroy/rag-chatbot-python-fullstack-template/tree/main).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDA3NTE4NjldfQ==
+eyJoaXN0b3J5IjpbMjY0NDgzMzc3XX0=
 -->
