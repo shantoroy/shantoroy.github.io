@@ -33,7 +33,11 @@ In this post, we explore how **Docker Compose** simplifies the deployment of an 
 - Utilizes **FastAPI** for a high-performance backend
 - Is **fully containerized**, making it easy to deploy
 
-Since 
+Since this project is quite big, I'll not go through the frontend or backend codes. I'll just go through how I utilized docker-compose to build and run the project efficiently on my macbook pro.
+
+Please, check out the whole project on my [Github Repository](https://github.com/shantoroy/rag-chatbot-python-fullstack-template/tree/main).
+
+
 ---
 
 ##  System Architecture
@@ -237,5 +241,5 @@ Deploying an **AI Chatbot** using **Docker Compose** makes it **easier to manage
 
 Please, check out the whole project on my [Github Repository](https://github.com/shantoroy/rag-chatbot-python-fullstack-template/tree/main).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MDAwMjM0NF19
+eyJoaXN0b3J5IjpbLTEyMzAxNTc2MjBdfQ==
 -->
