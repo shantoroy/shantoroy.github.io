@@ -35,8 +35,20 @@ In this post, we explore how **Docker Compose** simplifies the deployment of an 
 
 ---
 
-## 🏗️ System Architecture
-User ───────────────▶ Chainlit UI Documents (txt/md/pdf) │ │ │ │ Query │ │ Retrieve │ │ Documents ▼ ▼ FastAPI ◄─────────── RAG Model ◄─────── Local Ollama Backend │ │ │ └─────────────────────┘ Return Answer
+##  System Architecture
+```
+        
+User ───────────────▶ Chainlit UI       Documents (txt/md/pdf)
+                           │                     │
+                           │                     │
+                    Query  │                     │ Retrieve
+                           │                     │ Documents
+                           ▼                     ▼
+                       FastAPI ◄───────────  RAG Model ◄─────── Local Ollama
+                       Backend                   │
+                           │                     │
+                           └─────────────────────┘
+                                Return Answer
 ```
 
 The chatbot takes a user’s query, retrieves relevant information from stored documents, and generates a response using a local LLM.
@@ -153,6 +165,44 @@ rag-chatbot-python-fullstack-template/
 
 ----------
 
+## Docker Compose File
+I in
+
+```dockerfile
+services:
+
+  backend:
+    build:
+      context: .
+      dockerfile: docker/backend.Dockerfile
+    environment:
+      - OLLAMA_URL=http://host.docker.internal:11434
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./documents:/app/documents
+    user: "${UID:-1000}:${GID:-1000}"
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: .
+      dockerfile: docker/frontend.Dockerfile
+    ports:
+      - "8505:8505"
+    environment:
+      - BACKEND_URL=http://backend:8000
+      - CHAINLIT_AUTH_SECRET=${CHAINLIT_AUTH_SECRET}
+    volumes:
+      - ./frontend/src:/app/frontend/src
+      - ./frontend/public:/app/frontend/public
+    depends_on:
+      - backend
+    restart: unless-stopped
+```
+
+----------
+
 ## Stopping & Cleaning Up
 
 To stop the chatbot services:
@@ -178,5 +228,5 @@ Deploying an **AI Chatbot** using **Docker Compose** makes it **easier to manage
 💡 **Leverages local LLMs for privacy and performance**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTYwNDM3MzJdfQ==
+eyJoaXN0b3J5IjpbLTQ1MzY0MjU1Nl19
 -->
