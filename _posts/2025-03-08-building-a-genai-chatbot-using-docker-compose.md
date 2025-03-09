@@ -106,8 +106,9 @@ bash
 
 CopyEdit
 
-`git clone https://github.com/shantoroy/rag-chatbot-python-fullstack-template.git
-cd rag-chatbot-python-fullstack-template` 
+```git clone https://github.com/shantoroy/rag-chatbot-python-fullstack-template.git
+cd rag-chatbot-python-fullstack-template
+``` 
 
 ----------
 
@@ -115,11 +116,9 @@ cd rag-chatbot-python-fullstack-template`
 
 Copy `.env.example` to `.env` and modify it as needed.
 
-bash
-
-CopyEdit
-
-`cp .env.example .env` 
+```bash
+cp .env.example .env
+``` 
 
 ----------
 
@@ -127,16 +126,14 @@ CopyEdit
 
 **Build and start the containers:**
 
-bash
-
-CopyEdit
-
-`docker-compose build
-docker-compose up -d` 
+```bash
+docker-compose build
+docker-compose up -d
+``` 
 
 ----------
 
-## 🎯 How It Works
+## How It Works
 
 Once the containers are running:
 
@@ -147,13 +144,10 @@ Once the containers are running:
 
 ----------
 
-## 📂 Project Structure
+## Project Structure
 
-plaintext
-
-CopyEdit
-
-`rag-chatbot-python-fullstack-template/
+```plaintext
+rag-chatbot-python-fullstack-template/
 ├── backend/
 │   ├── model.py          # RAG model implementation
 │   └── api.py            # FastAPI backend
@@ -170,28 +164,25 @@ CopyEdit
 │   └── test_file_2.md
 ├── .env.example          # Example file, rename to .env
 ├── docker-compose.yml    # Service orchestration
-└── README.md` 
+└── README.md
+``` 
 
 ----------
 
-## 🛑 Stopping & Cleaning Up
+## Stopping & Cleaning Up
 
 To stop the chatbot services:
 
-bash
-
-CopyEdit
-
-`docker-compose down` 
+```bash
+docker-compose down
+``` 
 
 To remove all associated containers, volumes, and images:
 
-bash
-
-CopyEdit
-
-`docker-compose down -v
-docker system prune -a` 
+```bash
+docker-compose down -v
+docker system prune -a
+``` 
 
 ----------
 
@@ -203,5 +194,5 @@ Deploying an **AI Chatbot** using **Docker Compose** makes it **easier to manage
 💡 **Leverages local LLMs for privacy and performance**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NzAzNjM2OF19
+eyJoaXN0b3J5IjpbLTEwOTEzMDIxXX0=
 -->
