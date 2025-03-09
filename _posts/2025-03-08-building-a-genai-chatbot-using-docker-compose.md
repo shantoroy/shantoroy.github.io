@@ -218,6 +218,9 @@ services:
 ## Dockerfiles
 
 ### Frontend Dockerfile
+The frontend dockerfile is fairly simple. You install requirements, copy the codes, and run the frontend based on chainlit.
+
+
 ```dockerfile
 FROM python:3.10-slim
 
@@ -330,5 +333,5 @@ Deploying an **AI Chatbot** using **Docker Compose** makes it **easier to manage
 
 Please, check out the whole project on my [Github Repository](https://github.com/shantoroy/rag-chatbot-python-fullstack-template/tree/main).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MjQxNjYwOF19
+eyJoaXN0b3J5IjpbOTg4NDk1NjY3XX0=
 -->
