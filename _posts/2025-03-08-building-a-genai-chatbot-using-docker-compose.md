@@ -141,7 +141,7 @@ Once the containers are running:
 ----------
 
 ## Project Structure
-
+I wanted to have the project as structured as possible. So, you'll find the backend and frontend application/api codes on 
 ```plaintext
 rag-chatbot-python-fullstack-template/
 ├── backend/
@@ -231,5 +231,5 @@ Deploying an **AI Chatbot** using **Docker Compose** makes it **easier to manage
 
 Please, check out the whole project on my [Github Repository](https://github.com/shantoroy/rag-chatbot-python-fullstack-template/tree/main).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY0NDgzMzc3XX0=
+eyJoaXN0b3J5IjpbMTI1NTYzMjIwNV19
 -->
