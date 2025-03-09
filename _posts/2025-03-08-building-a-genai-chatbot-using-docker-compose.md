@@ -241,7 +241,9 @@ CMD ["chainlit", "run", "frontend/app.py", "--host", "0.0.0.0", "--port", "8505"
 ### Backend Dockerfile
 The backend dockerfile is a bit challenging since it requires many prerequisites steps to run the underlying natural language processing tasks. 
 
-First, we need to install necessary linux packages installed. Then we install necessary modules from the requirements.txt file. Then we have to 
+First, we need to install necessary linux packages installed. Then we install necessary modules from the requirements.txt file. Then we have to download `nltk` packages or libraries and set the environment variables.
+
+On this project, I'm keeping the documents under backend. But, you can declare a separate volume space to store the documents you want your model to go thro
 
 ```dockerfile
 FROM python:3.10-slim
@@ -337,5 +339,5 @@ Deploying an **AI Chatbot** using **Docker Compose** makes it **easier to manage
 
 Please, check out the whole project on my [Github Repository](https://github.com/shantoroy/rag-chatbot-python-fullstack-template/tree/main).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMTcyMjU5NV19
+eyJoaXN0b3J5IjpbLTUwNjAyMDc2Ml19
 -->
