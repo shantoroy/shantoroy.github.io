@@ -33,6 +33,7 @@ In this post, we explore how **Docker Compose** simplifies the deployment of an 
 - Utilizes **FastAPI** for a high-performance backend
 - Is **fully containerized**, making it easy to deploy
 
+Since 
 ---
 
 ##  System Architecture
@@ -145,6 +146,8 @@ I wanted to have the project as structured as possible. So, you'll find the back
 
 The folder `docker` includes the Dockerfiles for the backend and the frontend. Since, both backend and frontend is developed in python, there are two requirements.txt files under the folder `requirements`.
 
+This is a RAG-based AI chatbot and I've added functionalities to add three types of files under the `documents` folder: txt files, pdf files, and markdown files.
+
 ```plaintext
 rag-chatbot-python-fullstack-template/
 ├── backend/
@@ -234,5 +237,5 @@ Deploying an **AI Chatbot** using **Docker Compose** makes it **easier to manage
 
 Please, check out the whole project on my [Github Repository](https://github.com/shantoroy/rag-chatbot-python-fullstack-template/tree/main).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNDIzNTk1MF19
+eyJoaXN0b3J5IjpbMTE2MDAwMjM0NF19
 -->
