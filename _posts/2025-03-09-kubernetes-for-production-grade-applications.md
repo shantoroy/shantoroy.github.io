@@ -104,7 +104,7 @@ $ kubectl expose deployment my-app --type=LoadBalancer --port=80
 $ minikube service my-app
 ``` 
 
-### Option 02: Running Minikube using docker
+### Option 02: Testing Minikube inside docker
 Running **Minikube** inside a **Docker container** is not straightforward because Minikube itself requires a virtualization layer (such as Docker, VirtualBox, or KVM) to create a Kubernetes cluster. However, you can run Minikube inside a Docker container using the **none** driver, which runs Kubernetes components directly on the host.
 
 Here's a **Dockerfile** that sets up a containerized environment to run Minikube using Docker as the driver:
@@ -227,6 +227,6 @@ Kubernetes is **revolutionizing IT infrastructure** by shifting organizations fr
 When I first develop a backend or frontend, docker-compose is my go-to solution. You will find many docker-compose projects on my [GitHub](https://github.com/shantoroy). However, when it comes to production, we definitely need to use Kubernetes. I have collected some templates from high-starred github repos and putting in one on [Kubernetes Template Collections](https://github.com/shantoroy/kubernetes-yaml-templates). 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY1NTI5MzM2LDE1MjkyNjA0MTUsMTcwNz
-Y3MTA2NV19
+eyJoaXN0b3J5IjpbLTI1MzMzNTg1NywxNTI5MjYwNDE1LDE3MD
+c2NzEwNjVdfQ==
 -->
