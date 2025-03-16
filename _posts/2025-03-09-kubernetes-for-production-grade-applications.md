@@ -108,6 +108,9 @@ minikube service my-app`
 
 ## 🎯 When Should You Use Kubernetes?
 
+
+## 🎯 When Should You Use Kubernetes?
+
 Scenario
 
 Use Docker Compose 🐳
@@ -161,5 +164,5 @@ Auto-Scaling Required
 ✅ **Enterprises trust Kubernetes for mission-critical workloads.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMjA3MDE0NF19
+eyJoaXN0b3J5IjpbMTcwNzY3MTA2NV19
 -->
