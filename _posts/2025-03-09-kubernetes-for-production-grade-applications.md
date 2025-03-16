@@ -22,7 +22,7 @@ toc: true
 toc_label: "Table of Contents"
 toc_icon: "cloud"
 ---
-So far until now, we have learned how docker-compose
+So far until now, we have learned how docker-compose can be a go-to tool for deploying and testing containerized applications locally. However, when it comes to enterprise production, we don't use docker-compose. In this post we will learn how Kubernetes replaces docker-compose 
 
 Kubernetes (K8s) is an **open-source container orchestration platform** designed to **automate the deployment, scaling, and management of containerized applications**.
 
@@ -155,5 +155,5 @@ Kubernetes is **revolutionizing IT infrastructure** by shifting organizations fr
 ✅ **Enterprises trust Kubernetes for mission-critical workloads.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNzE1Njk1MywxNzA3NjcxMDY1XX0=
+eyJoaXN0b3J5IjpbLTU4MzQzNzUzOCwxNzA3NjcxMDY1XX0=
 -->
