@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "#100daysofSRE (Day 29): Introduction to Kubernetes – Why It’s Better for Production"
+title: "#100daysofSRE (Day 29): Kubernetes over Docker-compose – Why It’s Better for Production"
 excerpt: "Learn why Kubernetes is the go-to solution for production deployments, replacing Docker Compose with enterprise-grade scalability, reliability, and automation."
 seo_title: "Introduction to Kubernetes – Why It’s Better for Production"
 seo_description: "Discover why Kubernetes is preferred over Docker Compose for enterprise deployments. Learn how it enhances scalability, fault tolerance, and automation."
@@ -22,7 +22,7 @@ toc: true
 toc_label: "Table of Contents"
 toc_icon: "cloud"
 ---
-So far until now, we have learned how docker-compose can be a go-to tool for deploying and testing containerized applications locally. However, when it comes to enterprise production, we don't use docker-compose. In this post we will learn how Kubernetes replaces docker-compose 
+So far until now, we have learned how docker-compose can be a go-to tool for deploying and testing containerized applications locally. However, when it comes to enterprise production, we don't use docker-compose. In this post we will learn how Kubernetes replaces docker-compose for enterprise-level production-grade deployment.
 
 Kubernetes (K8s) is an **open-source container orchestration platform** designed to **automate the deployment, scaling, and management of containerized applications**.
 
@@ -155,5 +155,5 @@ Kubernetes is **revolutionizing IT infrastructure** by shifting organizations fr
 ✅ **Enterprises trust Kubernetes for mission-critical workloads.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MzQzNzUzOCwxNzA3NjcxMDY1XX0=
+eyJoaXN0b3J5IjpbLTE1MzE0MzI4NTUsMTcwNzY3MTA2NV19
 -->
