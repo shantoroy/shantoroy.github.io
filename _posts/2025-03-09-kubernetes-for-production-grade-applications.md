@@ -90,20 +90,18 @@ You can install a lightweight Kubernetes cluster on your local machine using **M
 
 ### **1️⃣ Install Minikube**
 ```bash
-curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
-sudo install minikube-linux-amd64 /usr/local/bin/minikube
-minikube start
+$ curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+$ sudo install minikube-linux-amd64 /usr/local/bin/minikube
+$ minikube start
 ```
 
 ### **2️⃣ Deploy a Sample Application**
 
-bash
-
-CopyEdit
-
-`kubectl create deployment my-app --image=nginx
-kubectl expose deployment my-app --type=LoadBalancer --port=80
-minikube service my-app` 
+```bash
+$ kubectl create deployment my-app --image=nginx
+$ kubectl expose deployment my-app --type=LoadBalancer --port=80
+$ minikube service my-app
+``` 
 
 ----------
 
@@ -154,6 +152,8 @@ Kubernetes is **revolutionizing IT infrastructure** by shifting organizations fr
 ✅ **It’s cloud-native and supports multi-cloud & hybrid-cloud deployments.**  
 ✅ **Enterprises trust Kubernetes for mission-critical workloads.**
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzE0MzI4NTUsMTcwNzY3MTA2NV19
+eyJoaXN0b3J5IjpbLTEzMjk0NDEyNTAsMTcwNzY3MTA2NV19
 -->
