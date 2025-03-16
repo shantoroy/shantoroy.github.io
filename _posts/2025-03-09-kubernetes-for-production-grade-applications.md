@@ -85,6 +85,7 @@ With tools like **Kubernetes RBAC (Role-Based Access Control), Istio (Service Me
 ---
 
 ## Getting Started with Kubernetes Locally
+### Option 01: Running Minikube on Host
 
 You can install a lightweight Kubernetes cluster on your local machine using **Minikube** or **Kind**.
 
@@ -102,6 +103,8 @@ $ kubectl create deployment my-app --image=nginx
 $ kubectl expose deployment my-app --type=LoadBalancer --port=80
 $ minikube service my-app
 ``` 
+
+### Option 02
 
 ----------
 
@@ -155,5 +158,6 @@ Kubernetes is **revolutionizing IT infrastructure** by shifting organizations fr
 When I first develop a backend or frontend, docker-compose is my go-to solution. You will find many docker-compose projects on my [GitHub](https://github.com/shantoroy). However, when it comes to production, we definitely need to use Kubernetes. I have collected some templates from high-starred github repos and putting in one on [Kubernetes Template Collections](https://github.com/shantoroy/kubernetes-yaml-templates). 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyOTI2MDQxNSwxNzA3NjcxMDY1XX0=
+eyJoaXN0b3J5IjpbMTExOTMxOTE5OCwxNTI5MjYwNDE1LDE3MD
+c2NzEwNjVdfQ==
 -->
