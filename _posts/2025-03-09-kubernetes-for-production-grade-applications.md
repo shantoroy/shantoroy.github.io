@@ -152,8 +152,8 @@ Kubernetes is **revolutionizing IT infrastructure** by shifting organizations fr
 ✅ **It’s cloud-native and supports multi-cloud & hybrid-cloud deployments.**  
 ✅ **Enterprises trust Kubernetes for mission-critical workloads.**
 
-
+When I first develop a backend or frontend, docker-compose is my go-to solution. You will find many docker-compose projects on my GitHub. However, when it comes to production, we definitely need to use Kubernetes
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjk0NDEyNTAsMTcwNzY3MTA2NV19
+eyJoaXN0b3J5IjpbNTMwODQxMTU3LDE3MDc2NzEwNjVdfQ==
 -->
