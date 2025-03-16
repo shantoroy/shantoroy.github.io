@@ -104,7 +104,76 @@ $ kubectl expose deployment my-app --type=LoadBalancer --port=80
 $ minikube service my-app
 ``` 
 
-### Option 02
+### Option 02: Running Minikube using docker
+Running **Minikube** inside a **Docker container** is not straightforward because Minikube itself requires a virtualization layer (such as Docker, VirtualBox, or KVM) to create a Kubernetes cluster. However, you can run Minikube inside a Docker container using the **none** driver, which runs Kubernetes components directly on the host.
+
+Here's a **Dockerfile** that sets up a containerized environment to run Minikube using Docker as the driver:
+
+----------
+
+#### **Dockerfile for Running Minikube**
+
+```dockerfile
+FROM ubuntu:22.04
+
+# Set environment variables
+ENV KUBECTL_VERSION=v1.27.3 \
+    MINIKUBE_VERSION=v1.30.1
+
+# Install dependencies
+RUN apt-get update && apt-get install -y \
+    curl \
+    ca-certificates \
+    conntrack \
+    iptables \
+    socat \
+    ebtables \
+    ethtool \
+    sudo \
+    docker.io \
+    && apt-get clean
+
+# Install kubectl
+RUN curl -Lo /usr/local/bin/kubectl https://dl.k8s.io/release/${KUBECTL_VERSION}/bin/linux/amd64/kubectl && \
+    chmod +x /usr/local/bin/kubectl
+
+# Install Minikube
+RUN curl -Lo /usr/local/bin/minikube https://storage.googleapis.com/minikube/releases/${MINIKUBE_VERSION}/minikube-linux-amd64 && \
+    chmod +x /usr/local/bin/minikube
+
+# Create a non-root user
+RUN useradd -m minikube && echo "minikube:minikube" | chpasswd && adduser minikube sudo
+USER minikube
+WORKDIR /home/minikube
+
+# Start Minikube inside the container
+CMD ["minikube", "start", "--driver=docker"]
+``` 
+
+----------
+
+#### **Build & Run Instructions**
+
+1.  **Build the Docker image**
+    
+    ```sh
+    docker build -t minikube-container .
+    ``` 
+    
+2.  **Run the container with proper privileges**
+    
+    ```sh
+    docker run --privileged -v /var/run/docker.sock:/var/run/docker.sock -it minikube-container
+    ``` 
+    
+
+
+#### **Explanation**
+
+-   **Installs Minikube and kubectl**: Necessary for running Kubernetes.
+-   **Uses Docker as a driver**: Minikube will run its Kubernetes cluster inside Docker.
+-   **Non-root user setup**: Helps prevent permission issues.
+-   **Maps Docker socket (`/var/run/docker.sock`)**: Allows Minikube to create Docker containers inside the host.
 
 ----------
 
@@ -158,6 +227,6 @@ Kubernetes is **revolutionizing IT infrastructure** by shifting organizations fr
 When I first develop a backend or frontend, docker-compose is my go-to solution. You will find many docker-compose projects on my [GitHub](https://github.com/shantoroy). However, when it comes to production, we definitely need to use Kubernetes. I have collected some templates from high-starred github repos and putting in one on [Kubernetes Template Collections](https://github.com/shantoroy/kubernetes-yaml-templates). 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExOTMxOTE5OCwxNTI5MjYwNDE1LDE3MD
-c2NzEwNjVdfQ==
+eyJoaXN0b3J5IjpbNjY1NTI5MzM2LDE1MjkyNjA0MTUsMTcwNz
+Y3MTA2NV19
 -->
