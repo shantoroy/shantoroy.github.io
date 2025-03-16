@@ -62,7 +62,7 @@ While **Docker Compose** is great for local development, **Kubernetes** is the p
 For companies running **thousands of microservices**, Kubernetes makes scaling effortless with **Horizontal Pod Autoscaling (HPA)**.
 
 Example:
-- **[Netflix](https://netflixtechblog.com/kubernetes-and-kernel-panics-ed620b9c6225), [Uber](https://www.uber.com/blog/odin-stateful-platform/), and Airbnb** use Kubernetes to manage **thousands of microservices** across cloud regions.
+- **[Netflix](https://netflixtechblog.com/kubernetes-and-kernel-panics-ed620b9c6225), [Uber](https://www.uber.com/blog/odin-stateful-platform/), and [Airbnb](https://medium.com/airbnb-engineering/apache-flink-on-kubernetes-84425d66ee11)** use Kubernetes to manage **thousands of microservices** across cloud regions.
 
 ### **2️⃣ Built-In High Availability**
 Kubernetes runs applications in **multiple replicas** across different nodes, ensuring **zero downtime** even if a node fails.
@@ -155,5 +155,5 @@ Kubernetes is **revolutionizing IT infrastructure** by shifting organizations fr
 When I first develop a backend or frontend, docker-compose is my go-to solution. You will find many docker-compose projects on my [GitHub](https://github.com/shantoroy). However, when it comes to production, we definitely need to use Kubernetes. I have collected some templates from high-starred github repos and putting in one on [Kubernetes Template Collections](https://github.com/shantoroy/kubernetes-yaml-templates). 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAzNjY2MDQsMTcwNzY3MTA2NV19
+eyJoaXN0b3J5IjpbLTk5MjQ2ODQ4NCwxNzA3NjcxMDY1XX0=
 -->
