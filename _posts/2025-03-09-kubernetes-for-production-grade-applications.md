@@ -88,14 +88,14 @@ With tools like **Kubernetes RBAC (Role-Based Access Control), Istio (Service Me
 
 You can install a lightweight Kubernetes cluster on your local machine using **Minikube** or **Kind**.
 
-### **1️⃣ Install Minikube**
+* **Install Minikube**
 ```bash
 $ curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
 $ sudo install minikube-linux-amd64 /usr/local/bin/minikube
 $ minikube start
 ```
 
-### **2️⃣ Deploy a Sample Application**
+* **Deploy a Sample Application**
 
 ```bash
 $ kubectl create deployment my-app --image=nginx
@@ -155,5 +155,5 @@ Kubernetes is **revolutionizing IT infrastructure** by shifting organizations fr
 When I first develop a backend or frontend, docker-compose is my go-to solution. You will find many docker-compose projects on my [GitHub](https://github.com/shantoroy). However, when it comes to production, we definitely need to use Kubernetes. I have collected some templates from high-starred github repos and putting in one on [Kubernetes Template Collections](https://github.com/shantoroy/kubernetes-yaml-templates). 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MjQ2ODQ4NCwxNzA3NjcxMDY1XX0=
+eyJoaXN0b3J5IjpbMTUyOTI2MDQxNSwxNzA3NjcxMDY1XX0=
 -->
