@@ -80,6 +80,209 @@ Minikube is an excellent tool to **practice Kubernetes operations** in a local e
 kubectl create deployment nginx --image=nginx --replicas=2
 ```
 
+2️⃣ Expose the deployment as a **NodePort** service
+
+sh
+
+CopyEdit
+
+`kubectl expose deployment nginx --type=NodePort --port=80` 
+
+3️⃣ Get the external service URL using Minikube
+
+sh
+
+CopyEdit
+
+`minikube service nginx --url` 
+
+4️⃣ Open the application in a browser
+
+sh
+
+CopyEdit
+
+`minikube service nginx` 
+
+----------
+
+### **Scenario 2: Scale an Application Dynamically**
+
+**Goal**: Scale the Nginx deployment from 2 to 5 replicas.
+
+#### **Steps**:
+
+1️⃣ Check current pods
+
+sh
+
+CopyEdit
+
+`kubectl get pods` 
+
+2️⃣ Scale deployment
+
+sh
+
+CopyEdit
+
+`kubectl scale deployment nginx --replicas=5` 
+
+3️⃣ Verify the scaling
+
+sh
+
+CopyEdit
+
+`kubectl get pods` 
+
+----------
+
+### **Scenario 3: Rolling Update & Rollback**
+
+**Goal**: Update the Nginx version and roll it back if something goes wrong.
+
+#### **Steps**:
+
+1️⃣ Check the current deployment
+
+sh
+
+CopyEdit
+
+`kubectl get deployments` 
+
+2️⃣ Update the deployment to use **nginx:1.23**
+
+sh
+
+CopyEdit
+
+`kubectl set image deployment/nginx nginx=nginx:1.23` 
+
+3️⃣ Check the rollout status
+
+sh
+
+CopyEdit
+
+`kubectl rollout status deployment/nginx` 
+
+4️⃣ If the new version is unstable, rollback
+
+sh
+
+CopyEdit
+
+`kubectl rollout undo deployment/nginx` 
+
+----------
+
+### **Scenario 4: Debugging a Failing Pod**
+
+**Goal**: Troubleshoot a pod that is stuck in `CrashLoopBackOff`.
+
+#### **Steps**:
+
+1️⃣ List pods and find the problematic one
+
+sh
+
+CopyEdit
+
+`kubectl get pods` 
+
+2️⃣ Check pod logs
+
+sh
+
+CopyEdit
+
+`kubectl logs <pod-name>` 
+
+3️⃣ Describe the pod for detailed information
+
+sh
+
+CopyEdit
+
+`kubectl describe pod <pod-name>` 
+
+4️⃣ Get into the pod’s shell (if running)
+
+sh
+
+CopyEdit
+
+`kubectl exec -it <pod-name> -- /bin/sh` 
+
+5️⃣ Delete and restart the pod
+
+sh
+
+CopyEdit
+
+`kubectl delete pod <pod-name>` 
+
+----------
+
+### **Scenario 5: Deploying a Multi-Tier App with Minikube**
+
+**Goal**: Deploy a **frontend and backend** in Kubernetes.
+
+#### **Steps**:
+
+1️⃣ Deploy a **backend API**
+
+sh
+kubectl create deployment backend --image=python:3.10-slim
+``` 
+
+2️⃣ Expose backend via a **ClusterIP**
+
+```sh
+kubectl expose deployment backend --port=5000 --type=ClusterIP
+``` 
+
+3️⃣ Deploy a **React frontend**
+
+```sh
+kubectl create deployment frontend --image=node:18-alpine
+``` 
+
+4️⃣ Expose frontend as a **LoadBalancer**
+
+```sh
+kubectl expose deployment frontend --port=3000 --type=LoadBalancer
+``` 
+
+5️⃣ Get the service URL
+
+```sh
+minikube service frontend
+``` 
+
+**Now you have a full-stack app running in Kubernetes!**
+
+----------
+
+## Remarks
+
+Minikube is a powerful tool for **learning and testing Kubernetes commands** in a local environment. By practicing these **scenario-based tasks**, you can become comfortable with **real-world Kubernetes operations** before deploying in production.
+
+✅ **Key Takeaways**
+
+-   Minikube helps you **test Kubernetes locally**.
+-   You can create, scale, and troubleshoot applications easily.
+-   Kubernetes commands allow **rolling updates, service exposure, and debugging** in a structured way.
+
+🚀 **Next Steps**
+
+-   Try deploying **stateful applications** with **Persistent Volumes**.
+-   Experiment with **Ingress controllers** in Minikube.
+-   Learn about **Kubernetes Helm Charts** for app deployment automation.
+
+🔗 **Stay tuned for more Kubernetes posts in the #100DaysOfSRE series!**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzM0NDE5NTFdfQ==
+eyJoaXN0b3J5IjpbNTE0OTY3MzIxXX0=
 -->
