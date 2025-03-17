@@ -118,23 +118,20 @@ sh
 
 CopyEdit
 
-`kubectl get pods` 
+`kubectl get pods
+` 
 
 2️⃣ Scale deployment
 
-sh
-
-CopyEdit
-
-`kubectl scale deployment nginx --replicas=5` 
+```sh
+kubectl scale deployment nginx --replicas=5
+``` 
 
 3️⃣ Verify the scaling
 
-sh
-
-CopyEdit
-
-`kubectl get pods` 
+```sh
+kubectl get pods
+``` 
 
 ----------
 
@@ -146,35 +143,27 @@ CopyEdit
 
 1️⃣ Check the current deployment
 
-sh
-
-CopyEdit
-
-`kubectl get deployments` 
+```sh
+kubectl get deployments
+``` 
 
 2️⃣ Update the deployment to use **nginx:1.23**
 
-sh
-
-CopyEdit
-
-`kubectl set image deployment/nginx nginx=nginx:1.23` 
+```sh
+kubectl set image deployment/nginx nginx=nginx:1.23
+``` 
 
 3️⃣ Check the rollout status
 
-sh
-
-CopyEdit
-
-`kubectl rollout status deployment/nginx` 
+```sh
+kubectl rollout status deployment/nginx
+``` 
 
 4️⃣ If the new version is unstable, rollback
 
-sh
-
-CopyEdit
-
-`kubectl rollout undo deployment/nginx` 
+```sh
+kubectl rollout undo deployment/nginx
+``` 
 
 ----------
 
@@ -186,43 +175,33 @@ CopyEdit
 
 1️⃣ List pods and find the problematic one
 
-sh
-
-CopyEdit
-
-`kubectl get pods` 
+```sh
+kubectl get pods
+``` 
 
 2️⃣ Check pod logs
 
-sh
-
-CopyEdit
-
-`kubectl logs <pod-name>` 
+```sh
+kubectl logs <pod-name>
+``` 
 
 3️⃣ Describe the pod for detailed information
 
-sh
-
-CopyEdit
-
-`kubectl describe pod <pod-name>` 
+```sh
+kubectl describe pod <pod-name>
+``` 
 
 4️⃣ Get into the pod’s shell (if running)
 
-sh
-
-CopyEdit
-
-`kubectl exec -it <pod-name> -- /bin/sh` 
+```sh
+kubectl exec -it <pod-name> -- /bin/sh
+``` 
 
 5️⃣ Delete and restart the pod
 
-sh
-
-CopyEdit
-
-`kubectl delete pod <pod-name>` 
+```sh
+kubectl delete pod <pod-name>
+``` 
 
 ----------
 
@@ -234,7 +213,7 @@ CopyEdit
 
 1️⃣ Deploy a **backend API**
 
-sh
+```sh
 kubectl create deployment backend --image=python:3.10-slim
 ``` 
 
@@ -284,5 +263,5 @@ Minikube is a powerful tool for **learning and testing Kubernetes commands** in 
 
 🔗 **Stay tuned for more Kubernetes posts in the #100DaysOfSRE series!**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE0OTY3MzIxXX0=
+eyJoaXN0b3J5IjpbLTc4OTgyODI5Nl19
 -->
