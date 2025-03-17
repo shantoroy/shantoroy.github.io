@@ -82,27 +82,21 @@ kubectl create deployment nginx --image=nginx --replicas=2
 
 2️⃣ Expose the deployment as a **NodePort** service
 
-sh
-
-CopyEdit
-
-`kubectl expose deployment nginx --type=NodePort --port=80` 
+```sh
+kubectl expose deployment nginx --type=NodePort --port=80
+``` 
 
 3️⃣ Get the external service URL using Minikube
 
-sh
-
-CopyEdit
-
-`minikube service nginx --url` 
+```sh
+minikube service nginx --url
+``` 
 
 4️⃣ Open the application in a browser
 
-sh
-
-CopyEdit
-
-`minikube service nginx` 
+```sh
+minikube service nginx
+``` 
 
 ----------
 
@@ -114,12 +108,9 @@ CopyEdit
 
 1️⃣ Check current pods
 
-sh
-
-CopyEdit
-
-`kubectl get pods
-` 
+```sh
+kubectl get pods
+``` 
 
 2️⃣ Scale deployment
 
@@ -241,27 +232,29 @@ kubectl expose deployment frontend --port=3000 --type=LoadBalancer
 minikube service frontend
 ``` 
 
-**Now you have a full-stack app running in Kubernetes!**
+**Now we have a full-stack app running in Kubernetes!**
 
 ----------
 
 ## Remarks
 
-Minikube is a powerful tool for **learning and testing Kubernetes commands** in a local environment. By practicing these **scenario-based tasks**, you can become comfortable with **real-world Kubernetes operations** before deploying in production.
+Minikube is a powerful tool for **learning and testing Kubernetes commands** in a local environment. 
 
-✅ **Key Takeaways**
+By practicing these **scenario-based tasks**, we can become comfortable with **real-world Kubernetes operations** before deploying in production.
+
+**Key Takeaways**
 
 -   Minikube helps you **test Kubernetes locally**.
 -   You can create, scale, and troubleshoot applications easily.
 -   Kubernetes commands allow **rolling updates, service exposure, and debugging** in a structured way.
 
-🚀 **Next Steps**
+**Next Steps**
 
 -   Try deploying **stateful applications** with **Persistent Volumes**.
 -   Experiment with **Ingress controllers** in Minikube.
 -   Learn about **Kubernetes Helm Charts** for app deployment automation.
 
-🔗 **Stay tuned for more Kubernetes posts in the #100DaysOfSRE series!**
+**Stay tuned for more Kubernetes posts in the #100DaysOfSRE series!**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4OTgyODI5Nl19
+eyJoaXN0b3J5IjpbLTE5NTMzMTk2MzJdfQ==
 -->
