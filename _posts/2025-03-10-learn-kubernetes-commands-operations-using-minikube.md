@@ -21,13 +21,16 @@ toc_icon: "rocket"
 ---
 
 
-Minikube is an excellent tool to **practice Kubernetes operations** in a local environment. This post provides a **cheatsheet** of essential commands followed by **scenario-based examples** to simulate real-world Kubernetes tasks.  
+Minikube is an excellent tool to **practice Kubernetes operations** in a local environment. 
+
+This post provides a **cheatsheet** of essential commands followed by **scenario-based examples** to simulate real-world Kubernetes tasks.  
 
 ---
 
 ##  Kubernetes Command Cheatsheet  
 
 ### 🔹 Minikube Management  
+
 | Task                     | Command |
 |--------------------------|---------|
 | Start Minikube cluster   | `minikube start` |
@@ -37,6 +40,7 @@ Minikube is an excellent tool to **practice Kubernetes operations** in a local e
 | Open Minikube dashboard  | `minikube dashboard` |
 
 ### 🔹 Cluster & Node Information  
+
 | Task                          | Command |
 |--------------------------------|---------|
 | View cluster information       | `kubectl cluster-info` |
@@ -44,6 +48,7 @@ Minikube is an excellent tool to **practice Kubernetes operations** in a local e
 | Describe a node                 | `kubectl describe node <node-name>` |
 
 ### 🔹 Managing Pods  
+
 | Task                           | Command |
 |---------------------------------|---------|
 | List all running pods          | `kubectl get pods` |
@@ -53,6 +58,7 @@ Minikube is an excellent tool to **practice Kubernetes operations** in a local e
 | Delete a pod                    | `kubectl delete pod <pod-name>` |
 
 ### 🔹 Managing Deployments  
+
 | Task                               | Command |
 |------------------------------------|---------|
 | List all deployments               | `kubectl get deployments` |
@@ -61,6 +67,7 @@ Minikube is an excellent tool to **practice Kubernetes operations** in a local e
 | Undo a deployment rollback          | `kubectl rollout undo deployment <deployment-name>` |
 
 ### 🔹 Exposing Services  
+
 | Task                                    | Command |
 |----------------------------------------|---------|
 | List all services                      | `kubectl get services` |
@@ -256,5 +263,5 @@ By practicing these **scenario-based tasks**, we can become comfortable with **r
 
 **Stay tuned for more Kubernetes posts in the #100DaysOfSRE series!**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTMzMTk2MzJdfQ==
+eyJoaXN0b3J5IjpbOTI4Njc0OTU0XX0=
 -->
