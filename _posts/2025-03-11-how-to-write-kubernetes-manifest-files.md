@@ -274,7 +274,7 @@ metadata:
 
 ----------
 
-##  Step 3: Deploy the Application on Minikube
+##  Deploy the Application on Minikube
 
 1️⃣ **Start Minikube**
 
@@ -306,7 +306,7 @@ kubectl get all -n myapp
 minikube service frontend -n myapp
 ``` 
 
-**Now you have deployed your full-stack app on Minikube!**
+**Now we have deployed your full-stack app on Minikube!**
 
 ----------
 
@@ -315,7 +315,7 @@ minikube service frontend -n myapp
  **Key Takeaways**  
 ✅ **Docker-Compose** is great for local development.  
 ✅ **Kubernetes manifests** provide scalability, high availability, and production readiness.  
-✅ Minikube helps you **test Kubernetes locally** before deploying to the cloud.
+✅ Minikube helps us **test Kubernetes locally** before deploying to the cloud.
 
 **Next Steps**
 
@@ -324,5 +324,5 @@ minikube service frontend -n myapp
 -   Use **Helm Charts** to manage deployment configurations
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTk0NDE0NTJdfQ==
+eyJoaXN0b3J5IjpbNzEwNzI4ODkzXX0=
 -->
