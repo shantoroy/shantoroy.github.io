@@ -30,7 +30,8 @@ Many developers start their containerized applications using **Docker-Compose**,
 
 ---
 
-##  Step 1: Docker-Compose Setup
+##  Docker-Compose Setup
+Well, in my previous posts, we have already seen how to set up docker-compose to deploy a full-stack appl
 
 Here’s how you would define your **docker-compose.yml** for a simple Python backend, frontend, and a PostgreSQL database.
 
@@ -71,13 +72,11 @@ services:
     command: ["npx", "http-server", "-p", "3000"]
 ```
 
-📌 **How to run this?**
+ **How to run this?**
 
-sh
-
-CopyEdit
-
-`docker-compose up -d` 
+```sh
+docker-compose up -d
+``` 
 
 This works great in development, but **for production, we need Kubernetes**.
 
@@ -324,5 +323,5 @@ minikube service frontend -n myapp
 -   Use **Helm Charts** to manage deployment configurations
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNDYxNzcyOF19
+eyJoaXN0b3J5IjpbLTEyNzE2Mjg5MjRdfQ==
 -->
