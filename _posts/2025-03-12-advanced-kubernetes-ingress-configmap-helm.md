@@ -61,39 +61,47 @@ CopyEdit
 
 Update `/etc/hosts` (Linux/macOS) to map `myapp.local` to Minikube’s IP:
 
-sh
-
-CopyEdit
-
-`echo  "$(minikube ip) myapp.local" | sudo tee -a /etc/hosts` 
+```sh
+echo  "$(minikube ip) myapp.local" | sudo tee -a /etc/hosts
+``` 
 
 Now, visit **http://myapp.local/** for the frontend and **http://myapp.local/backend** for the backend!
 
 ----------
 
-## 📌 Step 2: Use ConfigMaps & Secrets for Secure Configuration
+##  Step 2: Use ConfigMaps & Secrets for Secure Configuration
 
 Instead of **hardcoding** environment variables, we will use **ConfigMaps** and **Secrets**.
 
 ### **Create a ConfigMap for Database URL**
 
-📌 **configmap.yaml**
+ **configmap.yaml**
 
-yaml
-
-CopyEdit
-
-`apiVersion:  v1  kind:  ConfigMap  metadata:  name:  app-config  namespace:  myapp  data:  DATABASE_URL:  "postgresql://user:password@postgres:5432/mydatabase"` 
+```yaml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+  namespace: myapp
+data:
+  DATABASE_URL: "postgresql://user:password@postgres:5432/mydatabase"
+``` 
 
 ### **Create a Secret for Database Credentials**
 
-📌 **secret.yaml**
+ **secret.yaml**
 
-yaml
-
-CopyEdit
-
-`apiVersion:  v1  kind:  Secret  metadata:  name:  db-secret  namespace:  myapp  type:  Opaque  data:  POSTGRES_USER:  dXNlcg==  # Base64 encoded 'user'  POSTGRES_PASSWORD:  cGFzc3dvcmQ=  # Base64 encoded 'password'` 
+```yaml
+apiVersion: v1
+kind: Secret
+metadata:
+  name: db-secret
+  namespace: myapp
+type: Opaque
+data:
+  POSTGRES_USER: dXNlcg==  # Base64 encoded 'user'
+  POSTGRES_PASSWORD: cGFzc3dvcmQ=  # Base64 encoded 'password'
+``` 
 
 ### **Modify Backend Deployment to Use ConfigMap & Secret**
 
@@ -237,5 +245,5 @@ helm uninstall myapp
  **Stay tuned for more Kubernetes posts in the #100DaysOfSRE series!**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA3NDk1MTQzXX0=
+eyJoaXN0b3J5IjpbMTkyNTg1OTA0OV19
 -->
