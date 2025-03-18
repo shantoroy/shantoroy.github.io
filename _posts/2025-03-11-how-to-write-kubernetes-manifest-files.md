@@ -83,8 +83,9 @@ This works great in development, but **for production, we need Kubernetes**.
 ----------
 
 ##  Convert Docker-Compose to Kubernetes Manifest Files
+The major config difference between docker-compose and kubernetes is, we write everything on a single manifest file when using docker-compose. 
 
-We need to create **Kubernetes YAML files** for each component:
+However, on Kubernetes, we need to create **Kubernetes YAML files** for each component:
 
 ✅ **Deployments** (for backend, frontend, database)  
 ✅ **Services** (to expose them inside Kubernetes)  
@@ -323,5 +324,5 @@ minikube service frontend -n myapp
 -   Use **Helm Charts** to manage deployment configurations
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NDM2MTQwMF19
+eyJoaXN0b3J5IjpbMTM2NzExODk2OF19
 -->
