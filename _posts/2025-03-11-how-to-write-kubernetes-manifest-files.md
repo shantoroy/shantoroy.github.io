@@ -31,9 +31,9 @@ Many developers start their containerized applications using **Docker-Compose**,
 ---
 
 ##  Docker-Compose Setup
-Well, in my previous posts, we have already seen how to set up docker-compose to deploy a full-stack appl
+Well, in my previous posts, we have already seen how to set up docker-compose to deploy a full-stack service. Let's revise that first before we start learning how to write kubernetes manifest files.
 
-Here’s how you would define your **docker-compose.yml** for a simple Python backend, frontend, and a PostgreSQL database.
+Here’s how we can define our **docker-compose.yml** for a simple Python backend, frontend, and a PostgreSQL database.
 
 ### **docker-compose.yml**
 ```yaml
@@ -82,7 +82,7 @@ This works great in development, but **for production, we need Kubernetes**.
 
 ----------
 
-##  Step 2: Convert Docker-Compose to Kubernetes Manifest Files
+##  Convert Docker-Compose to Kubernetes Manifest Files
 
 We need to create **Kubernetes YAML files** for each component:
 
@@ -323,5 +323,5 @@ minikube service frontend -n myapp
 -   Use **Helm Charts** to manage deployment configurations
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzE2Mjg5MjRdfQ==
+eyJoaXN0b3J5IjpbLTg0NDM2MTQwMF19
 -->
