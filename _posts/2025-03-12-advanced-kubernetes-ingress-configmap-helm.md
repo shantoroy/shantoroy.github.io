@@ -184,7 +184,8 @@ Manually managing Kubernetes YAML files is **tedious**. Instead, we can use **He
 ### **Install Helm**
 
 ```sh
-brew install helm # macOS choco install kubernetes-helm # Windows
+brew install helm # macOS 
+choco install kubernetes-helm # Windows
 ``` 
 
 ### **Create a Helm Chart**
@@ -266,5 +267,5 @@ helm uninstall myapp
  **Stay tuned for more Kubernetes posts in the #100DaysOfSRE series!**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDAyNzIzMl19
+eyJoaXN0b3J5IjpbLTEwMTgxNDg4NzgsLTE4MDAyNzIzMl19
 -->
