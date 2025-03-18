@@ -97,54 +97,101 @@ CopyEdit
 
 ### **Modify Backend Deployment to Use ConfigMap & Secret**
 
-📌 **backend-deployment.yaml**
+ **backend-deployment.yaml**
 
-yaml
-
-CopyEdit
-
-`apiVersion:  apps/v1  kind:  Deployment  metadata:  name:  backend  namespace:  myapp  spec:  replicas:  1  selector:  matchLabels:  app:  backend  template:  metadata:  labels:  app:  backend  spec:  containers:  -  name:  backend  image:  python:3.10  env:  -  name:  DATABASE_URL  valueFrom:  configMapKeyRef:  name:  app-config  key:  DATABASE_URL  -  name:  POSTGRES_USER  valueFrom:  secretKeyRef:  name:  db-secret  key:  POSTGRES_USER  -  name:  POSTGRES_PASSWORD  valueFrom:  secretKeyRef:  name:  db-secret  key:  POSTGRES_PASSWORD  ports:  -  containerPort:  5000` 
+```yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backend
+  namespace: myapp
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: backend
+  template:
+    metadata:
+      labels:
+        app: backend
+    spec:
+      containers:
+      - name: backend
+        image: python:3.10
+        env:
+        - name: DATABASE_URL
+          valueFrom:
+            configMapKeyRef:
+              name: app-config
+              key: DATABASE_URL
+        - name: POSTGRES_USER
+          valueFrom:
+            secretKeyRef:
+              name: db-secret
+              key: POSTGRES_USER
+        - name: POSTGRES_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: db-secret
+              key: POSTGRES_PASSWORD
+        ports:
+        - containerPort: 5000
+``` 
 
 ### **Apply ConfigMaps & Secrets**
 
-sh
-
-CopyEdit
-
-`kubectl apply -f configmap.yaml
+```sh
+kubectl apply -f configmap.yaml
 kubectl apply -f secret.yaml
-kubectl apply -f backend-deployment.yaml` 
+kubectl apply -f backend-deployment.yaml
+``` 
 
 ----------
 
-## 📌 Step 3: Use Helm Charts for Deployment Management
+##  Step 3: Use Helm Charts for Deployment Management
 
 Manually managing Kubernetes YAML files is **tedious**. Instead, we can use **Helm**, the package manager for Kubernetes.
 
 ### **Install Helm**
 
-sh
-
-CopyEdit
-
-`brew install helm # macOS choco install kubernetes-helm # Windows` 
+```sh
+brew install helm # macOS choco install kubernetes-helm # Windows
+``` 
 
 ### **Create a Helm Chart**
 
-sh
-
-CopyEdit
-
-`helm create myapp-chart` 
+```sh
+helm create myapp-chart
+``` 
 
 ### **Modify Helm Chart to Deploy the App**
 
 Inside `myapp-chart/values.yaml`, update the service and deployment values.
 
-📌 **myapp-chart/values.yaml**
+ **myapp-chart/values.yaml**
 
 ```yaml
-backend:  image:  python:3.10  service:  type:  ClusterIP  port:  5000  frontend:  image:  node:18  service:  type:  ClusterIP  port:  3000  database:  image:  postgres:15  service:  type:  ClusterIP  port:  5432  env:  POSTGRES_USER:  user  POSTGRES_PASSWORD:  password  POSTGRES_DB:  mydatabase
+backend:
+  image: python:3.10
+  service:
+    type: ClusterIP
+    port: 5000
+
+frontend:
+  image: node:18
+  service:
+    type: ClusterIP
+    port: 3000
+
+database:
+  image: postgres:15
+  service:
+    type: ClusterIP
+    port: 5432
+  env:
+    POSTGRES_USER: user
+    POSTGRES_PASSWORD: password
+    POSTGRES_DB: mydatabase
 ``` 
 
 ### **Deploy the Application using Helm**
@@ -190,5 +237,5 @@ helm uninstall myapp
  **Stay tuned for more Kubernetes posts in the #100DaysOfSRE series!**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NTkwNzYzMl19
+eyJoaXN0b3J5IjpbNzA3NDk1MTQzXX0=
 -->
