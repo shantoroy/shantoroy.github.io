@@ -41,21 +41,42 @@ minikube addons enable ingress
 
 ### **Define an Ingress Resource**
 
-📌 **ingress.yaml**
+ **ingress.yaml**
 
-yaml
-
-CopyEdit
-
-`apiVersion:  networking.k8s.io/v1  kind:  Ingress  metadata:  name:  myapp-ingress  namespace:  myapp  annotations:  nginx.ingress.kubernetes.io/rewrite-target:  /  spec:  rules:  -  host:  myapp.local  http:  paths:  -  path:  /backend  pathType:  Prefix  backend:  service:  name:  backend  port:  number:  5000  -  path:  /  pathType:  Prefix  backend:  service:  name:  frontend  port:  number:  3000` 
+```yaml
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: myapp-ingress
+  namespace: myapp
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /
+spec:
+  rules:
+  - host: myapp.local
+    http:
+      paths:
+      - path: /backend
+        pathType: Prefix
+        backend:
+          service:
+            name: backend
+            port:
+              number: 5000
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: frontend
+            port:
+              number: 3000
+``` 
 
 ### **Apply the Ingress Configuration**
 
-sh
-
-CopyEdit
-
-`kubectl apply -f ingress.yaml` 
+```sh
+kubectl apply -f ingress.yaml
+``` 
 
 ### **Test the Ingress**
 
@@ -245,5 +266,5 @@ helm uninstall myapp
  **Stay tuned for more Kubernetes posts in the #100DaysOfSRE series!**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNTg1OTA0OV19
+eyJoaXN0b3J5IjpbLTE4MDAyNzIzMl19
 -->
