@@ -71,8 +71,165 @@ services:
     command: ["npx", "http-server", "-p", "3000"]
 ```
 
+📌 **How to run this?**
 
+sh
+
+CopyEdit
+
+`docker-compose up -d` 
+
+This works great in development, but **for production, we need Kubernetes**.
+
+----------
+
+## 📌 Step 2: Convert Docker-Compose to Kubernetes Manifest Files
+
+We need to create **Kubernetes YAML files** for each component:
+
+✅ **Deployments** (for backend, frontend, database)  
+✅ **Services** (to expose them inside Kubernetes)  
+✅ **Persistent Volume for PostgreSQL**
+
+### **Project Structure**
+
+cpp
+
+CopyEdit
+
+`k8s-app/
+│── db/
+│   ├── db-deployment.yaml
+│   ├── db-service.yaml
+│── backend/
+│   ├── backend-deployment.yaml
+│   ├── backend-service.yaml
+│── frontend/
+│   ├── frontend-deployment.yaml
+│   ├── frontend-service.yaml
+│── namespace.yaml` 
+
+----------
+
+### **Database Deployment (PostgreSQL)**
+
+📌 **db/db-deployment.yaml**
+
+yaml
+
+CopyEdit
+
+`apiVersion:  apps/v1  kind:  Deployment  metadata:  name:  postgres  namespace:  myapp  spec:  replicas:  1  selector:  matchLabels:  app:  postgres  template:  metadata:  labels:  app:  postgres  spec:  containers:  -  name:  postgres  image:  postgres:15  env:  -  name:  POSTGRES_USER  value:  "user"  -  name:  POSTGRES_PASSWORD  value:  "password"  -  name:  POSTGRES_DB  value:  "mydatabase"  ports:  -  containerPort:  5432` 
+
+📌 **db/db-service.yaml**
+
+yaml
+
+CopyEdit
+
+`apiVersion:  v1  kind:  Service  metadata:  name:  postgres  namespace:  myapp  spec:  selector:  app:  postgres  ports:  -  protocol:  TCP  port:  5432  targetPort:  5432` 
+
+----------
+
+### **Backend Deployment**
+
+📌 **backend/backend-deployment.yaml**
+
+yaml
+
+CopyEdit
+
+`apiVersion:  apps/v1  kind:  Deployment  metadata:  name:  backend  namespace:  myapp  spec:  replicas:  1  selector:  matchLabels:  app:  backend  template:  metadata:  labels:  app:  backend  spec:  containers:  -  name:  backend  image:  python:3.10  env:  -  name:  DATABASE_URL  value:  "postgresql://user:password@postgres:5432/mydatabase"  ports:  -  containerPort:  5000  command: ["python", "-m", "http.server", "5000"]` 
+
+📌 **backend/backend-service.yaml**
+
+yaml
+
+CopyEdit
+
+`apiVersion:  v1  kind:  Service  metadata:  name:  backend  namespace:  myapp  spec:  selector:  app:  backend  ports:  -  protocol:  TCP  port:  5000  targetPort:  5000` 
+
+----------
+
+### **Frontend Deployment**
+
+📌 **frontend/frontend-deployment.yaml**
+
+yaml
+
+CopyEdit
+
+`apiVersion:  apps/v1  kind:  Deployment  metadata:  name:  frontend  namespace:  myapp  spec:  replicas:  1  selector:  matchLabels:  app:  frontend  template:  metadata:  labels:  app:  frontend  spec:  containers:  -  name:  frontend  image:  node:18  ports:  -  containerPort:  3000  command: ["npx", "http-server", "-p", "3000"]` 
+
+📌 **frontend/frontend-service.yaml**
+
+yaml
+
+CopyEdit
+
+`apiVersion:  v1  kind:  Service  metadata:  name:  frontend  namespace:  myapp  spec:  selector:  app:  frontend  ports:  -  protocol:  TCP  port:  3000  targetPort:  3000  type:  NodePort` 
+
+----------
+
+### **Namespace File**
+
+📌 **namespace.yaml**
+
+```yaml
+apiVersion:  v1  kind:  Namespace  metadata:  name:  myapp
+``` 
+
+----------
+
+##  Step 3: Deploy the Application on Minikube
+
+1️⃣ **Start Minikube**
+
+```sh
+minikube start
+``` 
+
+2️⃣ **Apply Kubernetes manifests**
+
+```sh
+kubectl apply -f namespace.yaml
+kubectl apply -f db/db-deployment.yaml
+kubectl apply -f db/db-service.yaml
+kubectl apply -f backend/backend-deployment.yaml
+kubectl apply -f backend/backend-service.yaml
+kubectl apply -f frontend/frontend-deployment.yaml
+kubectl apply -f frontend/frontend-service.yaml
+``` 
+
+3️⃣ **Check the status**
+
+```sh
+kubectl get all -n myapp
+``` 
+
+4️⃣ **Get frontend service URL**
+
+```sh
+minikube service frontend -n myapp
+``` 
+
+**Now you have deployed your full-stack app on Minikube!**
+
+----------
+
+## Remarks
+
+ **Key Takeaways**  
+✅ **Docker-Compose** is great for local development.  
+✅ **Kubernetes manifests** provide scalability, high availability, and production readiness.  
+✅ Minikube helps you **test Kubernetes locally** before deploying to the cloud.
+
+**Next Steps**
+
+-   Add a **Kubernetes Ingress Controller**
+-   Implement **ConfigMaps & Secrets** for better security
+-   Use **Helm Charts** to manage deployment configurations
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzIwNzY1ODRdfQ==
+eyJoaXN0b3J5IjpbMjA5MjgzNzU0OV19
 -->
