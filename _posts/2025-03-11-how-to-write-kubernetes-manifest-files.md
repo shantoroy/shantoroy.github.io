@@ -83,7 +83,7 @@ This works great in development, but **for production, we need Kubernetes**.
 
 ----------
 
-## 📌 Step 2: Convert Docker-Compose to Kubernetes Manifest Files
+##  Step 2: Convert Docker-Compose to Kubernetes Manifest Files
 
 We need to create **Kubernetes YAML files** for each component:
 
@@ -93,11 +93,8 @@ We need to create **Kubernetes YAML files** for each component:
 
 ### **Project Structure**
 
-cpp
-
-CopyEdit
-
-`k8s-app/
+```text
+k8s-app/
 │── db/
 │   ├── db-deployment.yaml
 │   ├── db-service.yaml
@@ -107,27 +104,60 @@ CopyEdit
 │── frontend/
 │   ├── frontend-deployment.yaml
 │   ├── frontend-service.yaml
-│── namespace.yaml` 
+│── namespace.yaml
+``` 
 
 ----------
 
 ### **Database Deployment (PostgreSQL)**
 
-📌 **db/db-deployment.yaml**
+ **db/db-deployment.yaml**
 
-yaml
+```yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: postgres
+  namespace: myapp
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: postgres
+  template:
+    metadata:
+      labels:
+        app: postgres
+    spec:
+      containers:
+      - name: postgres
+        image: postgres:15
+        env:
+        - name: POSTGRES_USER
+          value: "user"
+        - name: POSTGRES_PASSWORD
+          value: "password"
+        - name: POSTGRES_DB
+          value: "mydatabase"
+        ports:
+        - containerPort: 5432
+``` 
 
-CopyEdit
+ **db/db-service.yaml**
 
-`apiVersion:  apps/v1  kind:  Deployment  metadata:  name:  postgres  namespace:  myapp  spec:  replicas:  1  selector:  matchLabels:  app:  postgres  template:  metadata:  labels:  app:  postgres  spec:  containers:  -  name:  postgres  image:  postgres:15  env:  -  name:  POSTGRES_USER  value:  "user"  -  name:  POSTGRES_PASSWORD  value:  "password"  -  name:  POSTGRES_DB  value:  "mydatabase"  ports:  -  containerPort:  5432` 
-
-📌 **db/db-service.yaml**
-
-yaml
-
-CopyEdit
-
-`apiVersion:  v1  kind:  Service  metadata:  name:  postgres  namespace:  myapp  spec:  selector:  app:  postgres  ports:  -  protocol:  TCP  port:  5432  targetPort:  543
+```yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: postgres
+  namespace: myapp
+spec:
+  selector:
+    app: postgres
+  ports:
+    - protocol: TCP
+      port: 5432
+      targetPort: 5432
 ``` 
 
 ----------
@@ -294,5 +324,5 @@ minikube service frontend -n myapp
 -   Use **Helm Charts** to manage deployment configurations
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MDQ1MzIxOF19
+eyJoaXN0b3J5IjpbMTMwNDYxNzcyOF19
 -->
