@@ -92,7 +92,7 @@ However, on Kubernetes, we need to create **Kubernetes YAML files** for each com
 ✅ **Persistent Volume for PostgreSQL**
 
 ### **Project Structure**
-
+So, this is what a similar full-stack service with three components project structure would look like if we wanna deploy on Kubernetes.
 ```text
 k8s-app/
 │── db/
@@ -324,5 +324,5 @@ minikube service frontend -n myapp
 -   Use **Helm Charts** to manage deployment configurations
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NzExODk2OF19
+eyJoaXN0b3J5IjpbLTIwMTk0NDE0NTJdfQ==
 -->
