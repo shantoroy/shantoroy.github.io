@@ -127,36 +127,87 @@ yaml
 
 CopyEdit
 
-`apiVersion:  v1  kind:  Service  metadata:  name:  postgres  namespace:  myapp  spec:  selector:  app:  postgres  ports:  -  protocol:  TCP  port:  5432  targetPort:  5432` 
+`apiVersion:  v1  kind:  Service  metadata:  name:  postgres  namespace:  myapp  spec:  selector:  app:  postgres  ports:  -  protocol:  TCP  port:  5432  targetPort:  543
+``` 
 
 ----------
 
 ### **Backend Deployment**
 
-📌 **backend/backend-deployment.yaml**
+ **backend/backend-deployment.yaml**
 
-yaml
+```yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backend
+  namespace: myapp
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: backend
+  template:
+    metadata:
+      labels:
+        app: backend
+    spec:
+      containers:
+      - name: backend
+        image: python:3.10
+        env:
+        - name: DATABASE_URL
+          value: "postgresql://user:password@postgres:5432/mydatabase"
+        ports:
+        - containerPort: 5000
+        command: ["python", "-m", "http.server", "5000"]
+``` 
 
-CopyEdit
+ **backend/backend-service.yaml**
 
-`apiVersion:  apps/v1  kind:  Deployment  metadata:  name:  backend  namespace:  myapp  spec:  replicas:  1  selector:  matchLabels:  app:  backend  template:  metadata:  labels:  app:  backend  spec:  containers:  -  name:  backend  image:  python:3.10  env:  -  name:  DATABASE_URL  value:  "postgresql://user:password@postgres:5432/mydatabase"  ports:  -  containerPort:  5000  command: ["python", "-m", "http.server", "5000"]` 
-
-📌 **backend/backend-service.yaml**
-
-yaml
-
-CopyEdit
-
-`apiVersion:  v1  kind:  Service  metadata:  name:  backend  namespace:  myapp  spec:  selector:  app:  backend  ports:  -  protocol:  TCP  port:  5000  targetPort:  5000` 
+```yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: backend
+  namespace: myapp
+spec:
+  selector:
+    app: backend
+  ports:
+    - protocol: TCP
+      port: 5000
+      targetPort: 5000
+``` 
 
 ----------
 
 ### **Frontend Deployment**
 
-📌 **frontend/frontend-deployment.yaml**
+ **frontend/frontend-deployment.yaml**
 
 ```yaml
-apiVersion:  apps/v1  kind:  Deployment  metadata:  name:  frontend  namespace:  myapp  spec:  replicas:  1  selector:  matchLabels:  app:  frontend  template:  metadata:  labels:  app:  frontend  spec:  containers:  -  name:  frontend  image:  node:18  ports:  -  containerPort:  3000  command: ["npx", "http-server", "-p", "3000"]
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: frontend
+  namespace: myapp
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: frontend
+  template:
+    metadata:
+      labels:
+        app: frontend
+    spec:
+      containers:
+      - name: frontend
+        image: node:18
+        ports:
+        - containerPort: 3000
+        command: ["npx", "http-server", "-p", "3000"]
 ``` 
 
  **frontend/frontend-service.yaml**
@@ -243,5 +294,5 @@ minikube service frontend -n myapp
 -   Use **Helm Charts** to manage deployment configurations
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIyNTI3ODk5XX0=
+eyJoaXN0b3J5IjpbMTk2MDQ1MzIxOF19
 -->
