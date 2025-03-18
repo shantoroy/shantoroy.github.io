@@ -155,28 +155,40 @@ CopyEdit
 
 📌 **frontend/frontend-deployment.yaml**
 
-yaml
+```yaml
+apiVersion:  apps/v1  kind:  Deployment  metadata:  name:  frontend  namespace:  myapp  spec:  replicas:  1  selector:  matchLabels:  app:  frontend  template:  metadata:  labels:  app:  frontend  spec:  containers:  -  name:  frontend  image:  node:18  ports:  -  containerPort:  3000  command: ["npx", "http-server", "-p", "3000"]
+``` 
 
-CopyEdit
+ **frontend/frontend-service.yaml**
 
-`apiVersion:  apps/v1  kind:  Deployment  metadata:  name:  frontend  namespace:  myapp  spec:  replicas:  1  selector:  matchLabels:  app:  frontend  template:  metadata:  labels:  app:  frontend  spec:  containers:  -  name:  frontend  image:  node:18  ports:  -  containerPort:  3000  command: ["npx", "http-server", "-p", "3000"]` 
+```yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: frontend
+  namespace: myapp
+spec:
+  selector:
+    app: frontend
+  ports:
+    - protocol: TCP
+      port: 3000
+      targetPort: 3000
+  type: NodePort
 
-📌 **frontend/frontend-service.yaml**
-
-yaml
-
-CopyEdit
-
-`apiVersion:  v1  kind:  Service  metadata:  name:  frontend  namespace:  myapp  spec:  selector:  app:  frontend  ports:  -  protocol:  TCP  port:  3000  targetPort:  3000  type:  NodePort` 
+``` 
 
 ----------
 
 ### **Namespace File**
 
-📌 **namespace.yaml**
+ **namespace.yaml**
 
 ```yaml
-apiVersion:  v1  kind:  Namespace  metadata:  name:  myapp
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: myapp
 ``` 
 
 ----------
@@ -231,5 +243,5 @@ minikube service frontend -n myapp
 -   Use **Helm Charts** to manage deployment configurations
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MjgzNzU0OV19
+eyJoaXN0b3J5IjpbNzIyNTI3ODk5XX0=
 -->
