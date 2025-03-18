@@ -7,13 +7,22 @@ toc: false
 ---
 
 ## About the Blog
-Welcome to my blog! Here, you will find diverse topics that reflect my interests and passions. From Python programming to Cyber Security, from research to data science in Python, from travel to career and personal development, higher studies, and lifestyle, this blog reflects my experiences and insights.
+Welcome to my tech blog! This space is dedicated to sharing insights, experiences, and practical knowledge on Site Reliability Engineering (SRE), DevOps, Cloud Computing, System Administration, AI/ML, and Infrastructure Automation.
 
-As a lover of technology and a lifelong learner, I constantly explore new ideas and push the boundaries of what is possible. Through my blog, I hope to share my knowledge and enthusiasm with others who share my interests. Whether you are a seasoned professional or just getting started, you will find something here to inspire and inform you.
+Originally, this blog covered a wide range of topics, including Cybersecurity, IoT, LaTeX, Python, and research methodologies. While those remain a part of my journey, my recent focus has shifted towards modern software infrastructure, automation, and reliability engineering—the backbone of today’s scalable and resilient systems.
 
-In addition to sharing my thoughts and experiences, I also believe in building a community of like-minded individuals who can learn from one another. That is why I encourage you to leave comments and engage in discussions on the topics covered in this blog. Together, we can create a vibrant, supportive community that helps everyone achieve their goals and aspirations.
+Here, you'll find in-depth tutorials, best practices, troubleshooting guides, and hands-on experiments covering:
+✔ CI/CD pipelines (GitHub Actions, ArgoCD, Terraform)
+✔ Kubernetes, Docker, and Infrastructure as Code
+✔ Observability with Prometheus & Grafana
+✔ Cloud platforms (AWS, GCP, Azure)
+✔ AI/ML applications in Ops & Automation
 
-So, whether you want to improve your skills, learn something new, or connect with others who share your interests, I invite you to join me on this journey. Thank you for visiting my blog, and I look forward to sharing my experiences with you!
+Whether you are an experienced engineer, a DevOps enthusiast, or someone exploring cloud-native technologies, this blog aims to provide valuable insights and real-world applications to enhance your expertise.
+
+I believe in continuous learning and knowledge sharing, and I encourage discussions, feedback, and collaboration. Feel free to engage, share your thoughts, or reach out for meaningful conversations.
+
+🚀 Let’s build, automate, and scale together!
 
 In case any of my posts help you solve your problem, and you want to thank/support me for that, you can
 <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="shantoroy" data-color="#FFDD00" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script> or
@@ -29,32 +38,23 @@ In case any of my posts help you solve your problem, and you want to thank/suppo
 </form></div>
 
 ## About Myself
-I love learning, researching, exploring new things, and creating new hobbies. I have worked as a Research/Teaching Assistant and enrolled as a Ph.D. student at the Department of Computer Science, University of Houston, since September 2019. My primary research interests are Cyber Security, Data Science & ML, Cloud-IoT ecosystem security, etc. Currently, I am researching Adversarial Reconnaissance, Cyber Deception, and IoT Remote Attestation under the supervision of Dr. Omprakash Gnawali in the Networked Systems Laboratory and Dr. Aron Laszka in the Resilient Network and Systems Lab.
+I am a Site Reliability Engineer at Charles Schwab, leveraging my expertise in cloud infrastructure, automation, and security to enhance system reliability and operational efficiency. My work focuses on incident management, observability, vulnerability compliance, and infrastructure automation, ensuring seamless and scalable services.
 
-Before joining UH, I worked as a lecturer in the Dept. of CSE, Green University of Bangladesh. I like to collaborate with other researchers; we have been working on projects and publications together. I also have hands-on experience in Network and System Administration and attended RHCSA, RHCE, OpenStack, CCNA, etc., vendor courses and certification tests. I intend to gather more knowledge covering the DevSecOps and Site Reliability Engineering (SRE) topics.
+Previously, I was a Ph.D. researcher and teaching assistant in Cyber Security at the University of Houston, where I worked on Adversarial Reconnaissance, Cyber Deception, and IoT Security. I have hands-on experience in Linux system administration, network security, and cloud technologies, with multiple Red Hat and cloud certifications.
 
-### ACADEMIC SUMMARY
-- Research Interest → Cyber Security, Data Analytics, Cloud-IoT Secure Frameworks
-- No. of Publications → >20 
-- Research and Teaching experience → almost nine years (2016-Present)
-
-### INDUSTRIAL COMPETENCIES
-- Linux Server Administration (Red Hat Linux)
-- Network Management (Cisco R&S)
-- Cloud (OpenStack)
-- No. Of Certification → 03 (Red Hat and OpenStack)
+See more details at [My Online Resume](https://shantoroy.com/resume/)
 
 
 
 ## Contact
 Shanto Roy\\
-Teaching/Research Assistant and Ph.D. Candidate,\\
-Department of Computer Science\\
-University of Houston\\
-E-mail (official): sroy10@uh.edu
+Site Reliability Engineer, Charles Schwab
+MS and Ph.D., Computer Science, University of Houston\\
+E-mail: roy@shantoroy.com
 
 You can also find me in:
 
+* [Linktree](https://linktr.ee/shantoroy)
 * [Medium](https://medium.com/@shantoroy)
 * [LinkedIn][LinkedIn]
 * [ResearchGate][ResearchGate]
@@ -63,6 +63,7 @@ You can also find me in:
 * [Orcid][Orcid]
 * [Instagram][Instagram]
 * [YouTube](https://www.youtube.com/c/ShantoRoy)
+* [Credly](credly.com/users/shantoroy)
 
 [ResearchGate]: https://www.researchgate.net/profile/Shanto_Roy2
 [Academia]: https://juniv.academia.edu/ShantoRoy
