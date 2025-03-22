@@ -44,16 +44,13 @@ minikube addons enable grafana
 
 Check running pods:
 
-sh
-
-CopyEdit
-
-`kubectl get pods -n monitoring
+```sh
+kubectl get pods -n monitoring
 ``` 
 
 ----------
 
-## 📌 Step 2: Access Prometheus & Grafana
+##  Step 2: Access Prometheus & Grafana
 
 ### **Access Prometheus Dashboard**
 
@@ -216,5 +213,5 @@ Prometheus will now trigger an **alert** if **CPU usage exceeds 50%** for **2 mi
 🔹 **Day 35**: Building a Kubernetes CI/CD Pipeline
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTU0MTgwMV19
+eyJoaXN0b3J5IjpbLTEwMDg0OTEzNTFdfQ==
 -->
