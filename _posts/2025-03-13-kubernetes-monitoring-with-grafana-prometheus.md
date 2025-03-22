@@ -161,25 +161,37 @@ CopyEdit
 
 ----------
 
-## 📌 Step 6: Set Up Alerts with Prometheus Alertmanager
+##  Step 6: Set Up Alerts with Prometheus Alertmanager
 
 Define an **Alert Rule**:
 
-📌 **alert-rules.yaml**
+ **alert-rules.yaml**
 
-yaml
-
-CopyEdit
-
-`apiVersion:  monitoring.coreos.com/v1  kind:  PrometheusRule  metadata:  name:  high-cpu-alert  namespace:  monitoring  spec:  groups:  -  name:  instance-rules  rules:  -  alert:  HighCPUUsage  expr:  rate(container_cpu_usage_seconds_total[2m])  >  0.5  for:  2m  labels:  severity:  critical  annotations:  summary:  "High CPU Usage Detected"  description:  "CPU usage is above 50% for more than 2 minutes."` 
+```yaml
+apiVersion: monitoring.coreos.com/v1
+kind: PrometheusRule
+metadata:
+  name: high-cpu-alert
+  namespace: monitoring
+spec:
+  groups:
+  - name: instance-rules
+    rules:
+    - alert: HighCPUUsage
+      expr: rate(container_cpu_usage_seconds_total[2m]) > 0.5
+      for: 2m
+      labels:
+        severity: critical
+      annotations:
+        summary: "High CPU Usage Detected"
+        description: "CPU usage is above 50% for more than 2 minutes."
+``` 
 
 Apply it:
 
-sh
-
-CopyEdit
-
-`kubectl apply -f alert-rules.yaml` 
+```sh
+kubectl apply -f alert-rules.yaml
+``` 
 
 Prometheus will now trigger an **alert** if **CPU usage exceeds 50%** for **2 minutes**.
 
@@ -187,16 +199,16 @@ Prometheus will now trigger an **alert** if **CPU usage exceeds 50%** for **2 mi
 
 ## Remarks
 
-🚀 **Key Takeaways**  
+ **Key Takeaways**  
 ✅ **Prometheus collects metrics** from Kubernetes workloads  
 ✅ **Grafana visualizes metrics** in real-time dashboards  
 ✅ **ServiceMonitors configure scraping rules** for Prometheus  
 ✅ **Alerts notify teams** when performance degrades
 
-📌 **What’s Next?**  
+ **What’s Next?**  
 🔹 **Day 34**: Automating Kubernetes Deployments with ArgoCD & GitOps  
 🔹 **Day 35**: Building a Kubernetes CI/CD Pipeline
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MTQzOTE3NV19
+eyJoaXN0b3J5IjpbMjAxMDcyMzY4NV19
 -->
