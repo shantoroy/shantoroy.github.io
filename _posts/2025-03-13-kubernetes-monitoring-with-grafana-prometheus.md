@@ -162,7 +162,7 @@ curl http://backend:8000/metrics
 
 Now we can see real-time Kubernetes metrics!
 
-Please, note that there are already many pre-built Grafana
+Please, note that there are already many pre-built Grafana monitoring dashboard templates available. You can access those using ID.
 
 ----------
 
@@ -215,5 +215,5 @@ Prometheus will now trigger an **alert** if **CPU usage exceeds 50%** for **2 mi
 🔹 **Day 35**: Building a Kubernetes CI/CD Pipeline
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MzMxNDE4N119
+eyJoaXN0b3J5IjpbLTQyNTA1ODk2XX0=
 -->
