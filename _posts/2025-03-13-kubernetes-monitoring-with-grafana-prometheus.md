@@ -164,6 +164,11 @@ Now we can see real-time Kubernetes metrics!
 
 Please, note that Grafana provides a variety of **prebuilt dashboard templates** that you can import and use directly. These templates are often available in the [Grafana Dashboards library](https://grafana.com/grafana/dashboards/) or shared by the community.
 
+Some other example dashboards for Kubernetes are:
+-   [Kubernetes Cluster Monitoring](https://grafana.com/grafana/dashboards/315)  - ID:  `315`
+    
+-   [Kubernetes Node Monitoring](https://grafana.com/grafana/dashboards/6417)  - ID:  `6417`
+
 ----------
 
 ##  Step 6: Set Up Alerts with Prometheus Alertmanager
@@ -215,5 +220,5 @@ Prometheus will now trigger an **alert** if **CPU usage exceeds 50%** for **2 mi
 🔹 **Day 35**: Building a Kubernetes CI/CD Pipeline
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MTA0MTczOCwtNDI1MDU4OTZdfQ==
+eyJoaXN0b3J5IjpbLTEzODc4NTg1ODIsLTQyNTA1ODk2XX0=
 -->
