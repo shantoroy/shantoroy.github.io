@@ -111,37 +111,31 @@ By default, Prometheus expects an endpoint like **/metrics** to collect data. Le
 
 📌 **backend/app.py**
 
-python
-
-CopyEdit
-
-`from flask import Flask from prometheus_client import start_http_server, Counter
+```python
+from flask import Flask from prometheus_client import start_http_server, Counter
 
 app = Flask(__name__)
 REQUESTS = Counter('http_requests_total', 'Total number of HTTP requests') @app.route("/") def  home():
     REQUESTS.inc() return  "Hello, Kubernetes Monitoring!"  if __name__ == "__main__":
-    start_http_server(8000) # Expose metrics on /metrics app.run(host="0.0.0.0", port=5000)` 
+    start_http_server(8000) # Expose metrics on /metrics app.run(host="0.0.0.0", port=5000)
+``` 
 
 Rebuild and restart the backend:
 
-sh
-
-CopyEdit
-
-`docker build -t my-backend .
-kubectl rollout restart deployment backend` 
+```sh
+docker build -t my-backend .
+kubectl rollout restart deployment backend
+``` 
 
 Verify metrics:
 
-sh
-
-CopyEdit
-
-`curl http://backend:8000/metrics` 
+```sh
+curl http://backend:8000/metrics
+``` 
 
 ----------
 
-## 📌 Step 5: Visualize Metrics in Grafana
+## Step 5: Visualize Metrics in Grafana
 
 ### **Import Prometheus as a Data Source**
 
@@ -157,17 +151,17 @@ CopyEdit
 2.  Use **ID: 3119 (Kubernetes Cluster Monitoring)**
 3.  Click **Load** and **Import**
 
-🎉 **Now you can see real-time Kubernetes metrics!**
+Now we can see real-time Kubernetes metrics!
 
 ----------
 
 ##  Step 6: Set Up Alerts with Prometheus Alertmanager
 
-Define an **Alert Rule**:
+Well, now, let's define an **Alert Rule**:
 
- **alert-rules.yaml**
 
 ```yaml
+# alert-rules.yaml
 apiVersion: monitoring.coreos.com/v1
 kind: PrometheusRule
 metadata:
@@ -210,5 +204,5 @@ Prometheus will now trigger an **alert** if **CPU usage exceeds 50%** for **2 mi
 🔹 **Day 35**: Building a Kubernetes CI/CD Pipeline
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMDcyMzY4NV19
+eyJoaXN0b3J5IjpbNTgxNjE2MjgxXX0=
 -->
