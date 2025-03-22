@@ -162,6 +162,8 @@ curl http://backend:8000/metrics
 
 Now we can see real-time Kubernetes metrics!
 
+Please, note that there are already many pre-built Grafana
+
 ----------
 
 ##  Step 6: Set Up Alerts with Prometheus Alertmanager
@@ -213,5 +215,5 @@ Prometheus will now trigger an **alert** if **CPU usage exceeds 50%** for **2 mi
 🔹 **Day 35**: Building a Kubernetes CI/CD Pipeline
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDg0OTEzNTFdfQ==
+eyJoaXN0b3J5IjpbLTU0MzMxNDE4N119
 -->
