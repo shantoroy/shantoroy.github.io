@@ -48,7 +48,8 @@ sh
 
 CopyEdit
 
-`kubectl get pods -n monitoring` 
+`kubectl get pods -n monitoring
+``` 
 
 ----------
 
@@ -58,11 +59,9 @@ CopyEdit
 
 Forward the Prometheus service to your local machine:
 
-sh
-
-CopyEdit
-
-`kubectl port-forward -n monitoring svc/prometheus-k8s 9090:9090` 
+```sh
+kubectl port-forward -n monitoring svc/prometheus-k8s 9090:9090
+``` 
 
 Now, open **http://localhost:9090** in your browser.
 
@@ -70,54 +69,67 @@ Now, open **http://localhost:9090** in your browser.
 
 Forward Grafana service:
 
-sh
-
-CopyEdit
-
-`kubectl port-forward -n monitoring svc/grafana 3000:3000` 
+```sh
+kubectl port-forward -n monitoring svc/grafana 3000:3000
+``` 
 
 Now, open **http://localhost:3000**  
 (Default login: **admin / prom-operator**)
 
 ----------
 
-## 📌 Step 3: Configure Prometheus to Collect Metrics
+##  Step 3: Configure Prometheus to Collect Metrics
 
 Prometheus scrapes metrics from Kubernetes using **ServiceMonitors**. Let’s define one.
 
-📌 **prometheus-servicemonitor.yaml**
+ **prometheus-servicemonitor.yaml**
 
-yaml
-
-CopyEdit
-
-`apiVersion:  monitoring.coreos.com/v1  kind:  ServiceMonitor  metadata:  name:  myapp-monitor  namespace:  myapp  spec:  selector:  matchLabels:  app:  backend  endpoints:  -  port:  http  interval:  15s` 
+```yaml
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  name: myapp-monitor
+  namespace: myapp
+spec:
+  selector:
+    matchLabels:
+      app: backend
+  endpoints:
+  - port: http
+    interval: 15s
+``` 
 
 Apply it:
 
-sh
-
-CopyEdit
-
-`kubectl apply -f prometheus-servicemonitor.yaml` 
+```sh
+kubectl apply -f prometheus-servicemonitor.yaml
+``` 
 
 Now, Prometheus will **scrape metrics** every **15 seconds** from the **backend service**.
 
 ----------
 
-## 📌 Step 4: Expose Application Metrics
+##  Step 4: Expose Application Metrics
 
 By default, Prometheus expects an endpoint like **/metrics** to collect data. Let’s modify our **backend** to expose metrics.
 
-📌 **backend/app.py**
+**backend/app.py**
 
 ```python
-from flask import Flask from prometheus_client import start_http_server, Counter
+from flask import Flask
+from prometheus_client import start_http_server, Counter
 
 app = Flask(__name__)
-REQUESTS = Counter('http_requests_total', 'Total number of HTTP requests') @app.route("/") def  home():
-    REQUESTS.inc() return  "Hello, Kubernetes Monitoring!"  if __name__ == "__main__":
-    start_http_server(8000) # Expose metrics on /metrics app.run(host="0.0.0.0", port=5000)
+REQUESTS = Counter('http_requests_total', 'Total number of HTTP requests')
+
+@app.route("/")
+def home():
+    REQUESTS.inc()
+    return "Hello, Kubernetes Monitoring!"
+
+if __name__ == "__main__":
+    start_http_server(8000)  # Expose metrics on /metrics
+    app.run(host="0.0.0.0", port=5000)
 ``` 
 
 Rebuild and restart the backend:
@@ -204,5 +216,5 @@ Prometheus will now trigger an **alert** if **CPU usage exceeds 50%** for **2 mi
 🔹 **Day 35**: Building a Kubernetes CI/CD Pipeline
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgxNjE2MjgxXX0=
+eyJoaXN0b3J5IjpbLTEzOTU0MTgwMV19
 -->
