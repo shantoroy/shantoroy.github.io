@@ -266,9 +266,17 @@ Now, the app is restored to version `2`.
 ✅ **Auto-sync eliminates manual `kubectl apply` commands**  
 ✅ **Rollback instantly using ArgoCD commands**
 
+While GitHub Actions and Argo CD are a great combination, here are some alternatives:
+
+-   **Jenkins + Argo CD**: Use Jenkins for CI and Argo CD for CD.
+    
+-   **GitLab CI/CD + Argo CD**: Use GitLab CI/CD for CI and Argo CD for CD.
+    
+-   **Tekton + Argo CD**: Use Tekton for CI and Argo CD for CD.
+
  **What’s Next?**  
 🔹 **Day 35**: Kubernetes CI/CD Pipeline with GitHub Actions & ArgoCD  
 🔹 **Day 36**: Securing Kubernetes Workloads with Network Policies
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDc2NTU3MzRdfQ==
+eyJoaXN0b3J5IjpbNzEyMjYyOTk0LC0xMjA3NjU1NzM0XX0=
 -->
