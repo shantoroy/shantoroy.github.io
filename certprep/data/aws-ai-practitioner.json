@@ -1,0 +1,388 @@
+[
+    {
+        "id": 1,
+        "text": "Which AWS service provides pre-trained AI models for applications without requiring machine learning expertise?",
+        "options": [
+            { "id": "a", "text": "Amazon SageMaker" },
+            { "id": "b", "text": "Amazon Rekognition" },
+            { "id": "c", "text": "AWS Lambda" },
+            { "id": "d", "text": "Amazon Lex" }
+        ],
+        "correctAnswers": ["b", "d"],
+        "explanation": "Amazon Rekognition (for image and video analysis) and Amazon Lex (for building conversational chatbots) provide pre-trained AI models that can be integrated into applications without requiring deep ML expertise. SageMaker is used for custom model training, while Lambda is a serverless computing service.",
+        "multipleSelect": true
+    },
+    {
+        "id": 2,
+        "text": "Which AWS service enables developers to build, train, and deploy machine learning models at scale?",
+        "options": [
+            { "id": "a", "text": "Amazon Polly" },
+            { "id": "b", "text": "Amazon SageMaker" },
+            { "id": "c", "text": "AWS Glue" },
+            { "id": "d", "text": "Amazon Comprehend" }
+        ],
+        "correctAnswers": ["b"],
+        "explanation": "Amazon SageMaker is a fully managed service that enables developers to build, train, and deploy ML models at scale. Amazon Polly converts text to speech, AWS Glue is a data integration service, and Amazon Comprehend is used for natural language processing.",
+        "multipleSelect": false
+    },
+    {
+        "id": 3,
+        "text": "Which of the following AWS services can be used for automated speech recognition (ASR)?",
+        "options": [
+            { "id": "a", "text": "Amazon Transcribe" },
+            { "id": "b", "text": "Amazon Polly" },
+            { "id": "c", "text": "Amazon Rekognition" },
+            { "id": "d", "text": "AWS DeepLens" }
+        ],
+        "correctAnswers": ["a"],
+        "explanation": "Amazon Transcribe is an AWS service that provides automated speech recognition (ASR). Amazon Polly is used for text-to-speech, Rekognition is for image and video analysis, and AWS DeepLens is a deep learning-enabled camera.",
+        "multipleSelect": false
+    },
+    {
+        "id": 4,
+        "text": "Which AWS AI service is specifically designed for automated document processing and text extraction?",
+        "options": [
+            { "id": "a", "text": "Amazon Textract" },
+            { "id": "b", "text": "Amazon Comprehend" },
+            { "id": "c", "text": "Amazon Rekognition" },
+            { "id": "d", "text": "Amazon Polly" }
+        ],
+        "correctAnswers": ["a"],
+        "explanation": "Amazon Textract is used for automated document processing and text extraction. Amazon Comprehend is for NLP tasks, Amazon Rekognition is for image/video analysis, and Amazon Polly is for text-to-speech conversion.",
+        "multipleSelect": false
+    },
+    {
+        "id": 5,
+        "text": "Which AWS service allows developers to build, test, and deploy chatbots using natural language understanding?",
+        "options": [
+            { "id": "a", "text": "Amazon Lex" },
+            { "id": "b", "text": "Amazon Comprehend" },
+            { "id": "c", "text": "AWS Lambda" },
+            { "id": "d", "text": "Amazon Rekognition" }
+        ],
+        "correctAnswers": ["a"],
+        "explanation": "Amazon Lex allows developers to build, test, and deploy conversational chatbots using natural language understanding (NLU). Amazon Comprehend is for NLP, AWS Lambda is for serverless computing, and Rekognition is for image analysis.",
+        "multipleSelect": false
+    },
+    {
+        "id": 6,
+        "text": "Which AWS service is used for real-time video analytics powered by AI/ML?",
+        "options": [
+            { "id": "a", "text": "AWS Panorama" },
+            { "id": "b", "text": "AWS DeepLens" },
+            { "id": "c", "text": "Amazon Rekognition Video" },
+            { "id": "d", "text": "Amazon Comprehend" }
+        ],
+        "correctAnswers": ["a", "c"],
+        "explanation": "AWS Panorama is used for real-time video analytics at the edge, and Amazon Rekognition Video is for video analysis. AWS DeepLens is a deep learning-enabled camera, and Amazon Comprehend is for NLP.",
+        "multipleSelect": true
+    },
+    {
+        "id": 7,
+        "text": "Which AWS AI service can perform sentiment analysis on customer feedback?",
+        "options": [
+            { "id": "a", "text": "Amazon Rekognition" },
+            { "id": "b", "text": "Amazon Comprehend" },
+            { "id": "c", "text": "Amazon Polly" },
+            { "id": "d", "text": "AWS Glue" }
+        ],
+        "correctAnswers": ["b"],
+        "explanation": "Amazon Comprehend performs sentiment analysis on customer feedback using NLP. Rekognition is for image analysis, Polly is for text-to-speech, and Glue is a data integration service.",
+        "multipleSelect": false
+    },
+    {
+        "id": 8,
+        "text": "Which AWS AI service is best suited for implementing an image classification model with pre-trained AI capabilities?",
+        "options": [
+            { "id": "a", "text": "Amazon Rekognition" },
+            { "id": "b", "text": "AWS DeepLens" },
+            { "id": "c", "text": "Amazon SageMaker" },
+            { "id": "d", "text": "Amazon Comprehend" }
+        ],
+        "correctAnswers": ["a"],
+        "explanation": "Amazon Rekognition provides pre-trained AI capabilities for image classification. DeepLens allows custom deep learning models, SageMaker is for custom ML training, and Comprehend is for NLP.",
+        "multipleSelect": false
+    },
+    {
+        "id": 9,
+        "text": "Which AWS service provides an interactive coding environment for data science and ML development?",
+        "options": [
+            { "id": "a", "text": "Amazon QuickSight" },
+            { "id": "b", "text": "AWS Glue" },
+            { "id": "c", "text": "Amazon SageMaker Studio" },
+            { "id": "d", "text": "AWS Lambda" }
+        ],
+        "correctAnswers": ["c"],
+        "explanation": "Amazon SageMaker Studio provides an interactive development environment for ML and data science. QuickSight is for BI, Glue is for ETL, and Lambda is for serverless computing.",
+        "multipleSelect": false
+    },
+    {
+        "id": 10,
+        "text": "Which AWS service enables organizations to add real-time personalization to applications using machine learning?",
+        "options": [
+            { "id": "a", "text": "Amazon Personalize" },
+            { "id": "b", "text": "Amazon Comprehend" },
+            { "id": "c", "text": "AWS Glue" },
+            { "id": "d", "text": "Amazon Transcribe" }
+        ],
+        "correctAnswers": ["a"],
+        "explanation": "Amazon Personalize enables real-time personalization using machine learning. Comprehend is for NLP, Glue is for ETL, and Transcribe is for ASR.",
+        "multipleSelect": false
+    },
+
+    
+    {
+        "id": 11,
+        "text": "You are building a generative AI-powered chatbot using Amazon Bedrock. You want to use Retrieval-Augmented Generation (RAG) to enhance the chatbot’s responses by retrieving relevant context from an external knowledge base before generating a response. Which of the following AWS services or features can help implement RAG in this use case? (Select all that apply)",
+        "options": [
+            { "id": "a", "text": "Amazon Kendra" },
+            { "id": "b", "text": "Amazon Lex" },
+            { "id": "c", "text": "Amazon OpenSearch Service" },
+            { "id": "d", "text": "AWS Lambda" },
+            { "id": "e", "text": "Amazon SageMaker Ground Truth" }
+        ],
+        "correctAnswers": ["a", "c", "d"],
+        "explanation": "Amazon Kendra and Amazon OpenSearch Service can be used to retrieve relevant documents for RAG. AWS Lambda can orchestrate retrieval and embedding processes. Amazon Lex is for chatbot NLU and doesn't directly support RAG, and SageMaker Ground Truth is for data labeling.",
+        "multipleSelect": true
+    },
+    {
+        "id": 12,
+        "text": "An enterprise wants to optimize the cost of training a deep learning model on Amazon SageMaker. The training involves large-scale distributed GPU processing. Which of the following strategies can help reduce training costs effectively? (Select all that apply)",
+        "options": [
+            { "id": "a", "text": "Use Amazon EC2 Spot Instances with Managed Spot Training" },
+            { "id": "b", "text": "Enable SageMaker Data Parallelism for distributed training" },
+            { "id": "c", "text": "Use SageMaker Savings Plans to get discounts on instance usage" },
+            { "id": "d", "text": "Train the model locally before deploying to SageMaker" },
+            { "id": "e", "text": "Use SageMaker Hyperparameter Tuning to optimize model convergence time" }
+        ],
+        "correctAnswers": ["a", "b", "c", "e"],
+        "explanation": "Using EC2 Spot Instances with Managed Spot Training can significantly reduce training costs. SageMaker Data Parallelism optimizes GPU usage for distributed training. SageMaker Savings Plans offer long-term cost reductions. Hyperparameter tuning reduces model training time, lowering compute costs. Training locally doesn't scale for enterprise workloads.",
+        "multipleSelect": true
+    },
+    {
+        "id": 13,
+        "text": "You are deploying a fine-tuned large language model (LLM) using Amazon SageMaker and want to evaluate its performance. Which evaluation metrics are most appropriate for assessing the quality of a generative text model? (Select all that apply)",
+        "options": [
+            { "id": "a", "text": "BLEU (Bilingual Evaluation Understudy) Score" },
+            { "id": "b", "text": "ROUGE (Recall-Oriented Understudy for Gisting Evaluation) Score" },
+            { "id": "c", "text": "F1 Score" },
+            { "id": "d", "text": "Mean Squared Error (MSE)" },
+            { "id": "e", "text": "Perplexity" }
+        ],
+        "correctAnswers": ["a", "b", "e"],
+        "explanation": "BLEU and ROUGE are widely used for evaluating text generation tasks. Perplexity measures how well a probability model predicts text sequences. F1 Score is useful for classification tasks, and MSE is for regression problems, making them unsuitable for generative AI evaluation.",
+        "multipleSelect": true
+    },
+    {
+        "id": 14,
+        "text": "Which AWS AI service allows you to deploy and manage foundational models (FMs) with APIs and fine-tune them using your enterprise data?",
+        "options": [
+            { "id": "a", "text": "Amazon Bedrock" },
+            { "id": "b", "text": "Amazon SageMaker JumpStart" },
+            { "id": "c", "text": "AWS Lambda" },
+            { "id": "d", "text": "Amazon Comprehend" }
+        ],
+        "correctAnswers": ["a"],
+        "explanation": "Amazon Bedrock enables enterprises to access and fine-tune foundational models via APIs. SageMaker JumpStart provides pre-trained models but is not specific to FMs. AWS Lambda is a serverless computing service, and Comprehend is an NLP service.",
+        "multipleSelect": false
+    },
+    {
+        "id": 15,
+        "text": "You are designing a generative AI application on AWS that creates images from text descriptions using a foundation model (FM). You want to minimize response latency while ensuring the model is cost-efficient. Which strategies should you implement? (Select all that apply)",
+        "options": [
+            { "id": "a", "text": "Use Amazon Bedrock for managed inference of foundational models" },
+            { "id": "b", "text": "Deploy the model in a SageMaker real-time endpoint with auto-scaling" },
+            { "id": "c", "text": "Use SageMaker Asynchronous Inference for batch image generation requests" },
+            { "id": "d", "text": "Use Amazon EC2 GPU instances and manually manage inference scaling" },
+            { "id": "e", "text": "Leverage AWS Inferentia-based instances for optimized cost-to-performance ratio" }
+        ],
+        "correctAnswers": ["a", "b", "c", "e"],
+        "explanation": "Amazon Bedrock provides optimized inference for FMs. SageMaker real-time endpoints with auto-scaling minimize latency while controlling costs. Asynchronous inference is cost-efficient for non-time-sensitive workloads. AWS Inferentia-based instances reduce inference costs compared to GPUs. Managing inference manually on EC2 is less scalable and cost-efficient.",
+        "multipleSelect": true
+    },
+    {
+        "id": 16,
+        "text": "Which of the following AWS services can be used to build an AI-powered recommendation system that personalizes product suggestions for users in real time? (Select all that apply)",
+        "options": [
+            { "id": "a", "text": "Amazon Personalize" },
+            { "id": "b", "text": "Amazon SageMaker" },
+            { "id": "c", "text": "Amazon Comprehend" },
+            { "id": "d", "text": "Amazon Lex" },
+            { "id": "e", "text": "AWS Glue" }
+        ],
+        "correctAnswers": ["a", "b"],
+        "explanation": "Amazon Personalize is specifically designed for real-time recommendation systems. Amazon SageMaker can also be used to build custom ML-based recommendation engines. Comprehend is for NLP, Lex is for chatbots, and Glue is for ETL and data integration.",
+        "multipleSelect": true
+    },
+    {
+        "id": 17,
+        "text": "Which AWS service can be used to build a document search solution that understands natural language queries and retrieves the most relevant results?",
+        "options": [
+            { "id": "a", "text": "Amazon Kendra" },
+            { "id": "b", "text": "Amazon Lex" },
+            { "id": "c", "text": "AWS DeepRacer" },
+            { "id": "d", "text": "Amazon OpenSearch Service" },
+            { "id": "e", "text": "Amazon Translate" }
+        ],
+        "correctAnswers": ["a", "d"],
+        "explanation": "Amazon Kendra is an intelligent search service that understands natural language queries. Amazon OpenSearch Service provides search and analytics capabilities. Lex is for chatbot interactions, DeepRacer is for reinforcement learning, and Translate is for language translation.",
+        "multipleSelect": true
+    },
+
+    {
+        "id": 18,
+        "text": "You are implementing a document processing pipeline using Amazon Textract to extract text, tables, and forms from scanned documents. The extracted data must be categorized using machine learning. Which of the following services can help you achieve this in an automated and scalable manner? (Select all that apply)",
+        "options": [
+            { "id": "a", "text": "Amazon Comprehend for entity recognition and topic modeling" },
+            { "id": "b", "text": "Amazon SageMaker for training a custom classification model" },
+            { "id": "c", "text": "AWS Glue for data transformation and categorization" },
+            { "id": "d", "text": "Amazon Rekognition for analyzing text sentiment" },
+            { "id": "e", "text": "Amazon Bedrock for fine-tuning large language models to categorize text" }
+        ],
+        "correctAnswers": ["a", "b", "e"],
+        "explanation": "Amazon Comprehend can categorize and extract insights from text. SageMaker allows training custom classification models. Amazon Bedrock enables fine-tuning of foundation models for NLP tasks. AWS Glue is useful for ETL but not for ML-based categorization. Rekognition is for image and video analysis, not text sentiment.",
+        "multipleSelect": true
+    },
+    {
+        "id": 19,
+        "text": "A financial institution is fine-tuning a large language model (LLM) on Amazon SageMaker for risk assessment. Which best practices should be followed to ensure optimal model performance and security? (Select all that apply)",
+        "options": [
+            { "id": "a", "text": "Use Amazon SageMaker Feature Store to standardize feature engineering" },
+            { "id": "b", "text": "Encrypt training data and model artifacts using AWS Key Management Service (KMS)" },
+            { "id": "c", "text": "Enable SageMaker Debugger to monitor training metrics and detect anomalies" },
+            { "id": "d", "text": "Use public S3 buckets to store datasets for easier access by the training jobs" },
+            { "id": "e", "text": "Fine-tune the model with differential privacy techniques to prevent data leakage" }
+        ],
+        "correctAnswers": ["a", "b", "c", "e"],
+        "explanation": "Using SageMaker Feature Store standardizes data processing. Encrypting data with KMS ensures security. SageMaker Debugger helps monitor and debug training issues. Differential privacy techniques prevent leakage of sensitive financial data. Public S3 buckets pose security risks.",
+        "multipleSelect": true
+    },
+    {
+        "id": 20,
+        "text": "Which AWS AI service provides real-time, low-latency inference for machine learning models and is designed to work with deep learning frameworks such as TensorFlow and PyTorch?",
+        "options": [
+            { "id": "a", "text": "Amazon Bedrock" },
+            { "id": "b", "text": "Amazon SageMaker Neo" },
+            { "id": "c", "text": "AWS Inferentia" },
+            { "id": "d", "text": "Amazon Lex" }
+        ],
+        "correctAnswers": ["b", "c"],
+        "explanation": "Amazon SageMaker Neo optimizes ML models for low-latency inference across multiple frameworks. AWS Inferentia provides high-performance, cost-efficient inference for deep learning models. Amazon Bedrock focuses on foundation models, and Lex is for conversational AI.",
+        "multipleSelect": true
+    },
+    {
+        "id": 21,
+        "text": "Which of the following AWS AI services allow fine-tuning of foundation models (FMs) using proprietary or custom datasets? (Select all that apply)",
+        "options": [
+            { "id": "a", "text": "Amazon Bedrock" },
+            { "id": "b", "text": "Amazon SageMaker" },
+            { "id": "c", "text": "Amazon Comprehend" },
+            { "id": "d", "text": "AWS DeepComposer" },
+            { "id": "e", "text": "Amazon Rekognition" }
+        ],
+        "correctAnswers": ["a", "b"],
+        "explanation": "Amazon Bedrock and Amazon SageMaker support fine-tuning foundation models with custom datasets. Amazon Comprehend is for NLP, DeepComposer is for AI-generated music, and Rekognition is for image/video analysis, none of which support FM fine-tuning.",
+        "multipleSelect": true
+    },
+    {
+        "id": 22,
+        "text": "A retail company wants to build an AI-powered chatbot that provides personalized product recommendations and customer support. Which AWS services can be integrated to achieve this functionality? (Select all that apply)",
+        "options": [
+            { "id": "a", "text": "Amazon Lex for conversational AI" },
+            { "id": "b", "text": "Amazon Personalize for recommendation systems" },
+            { "id": "c", "text": "Amazon SageMaker for custom recommendation models" },
+            { "id": "d", "text": "Amazon Transcribe for speech-to-text conversion" },
+            { "id": "e", "text": "AWS Snowball for chatbot inference at the edge" }
+        ],
+        "correctAnswers": ["a", "b", "c", "d"],
+        "explanation": "Amazon Lex enables chatbot functionality, Amazon Personalize provides recommendations, SageMaker allows for custom ML models, and Amazon Transcribe converts speech to text. AWS Snowball is for data migration and not relevant for chatbots.",
+        "multipleSelect": true
+    },
+    {
+        "id": 23,
+        "text": "A company wants to reduce inference costs for their large-scale AI workloads. Which AWS services or techniques can help achieve cost optimization? (Select all that apply)",
+        "options": [
+            { "id": "a", "text": "Use AWS Inferentia-based EC2 instances for model inference" },
+            { "id": "b", "text": "Enable Amazon SageMaker Multi-Model Endpoints (MME)" },
+            { "id": "c", "text": "Leverage SageMaker Asynchronous Inference for batch processing" },
+            { "id": "d", "text": "Deploy models on EC2 GPU instances with on-demand pricing" },
+            { "id": "e", "text": "Use AWS Lambda for deploying deep learning models in production" }
+        ],
+        "correctAnswers": ["a", "b", "c"],
+        "explanation": "AWS Inferentia-based instances reduce inference costs. SageMaker Multi-Model Endpoints optimize resource usage by sharing instances across models. Asynchronous Inference is cost-effective for batch workloads. Using EC2 GPU instances with on-demand pricing is costly, and AWS Lambda is not suitable for large deep learning models due to resource limitations.",
+        "multipleSelect": true
+    },
+
+    {
+        "id": 24,
+        "text": "An organization handling sensitive customer data needs to ensure that personally identifiable information (PII) is not exposed in unstructured data stored in Amazon S3. Which of the following actions can be performed using Amazon Macie? (Select all that apply)",
+        "options": [
+            { "id": "a", "text": "Automatically discover and classify sensitive data in Amazon S3 buckets" },
+            { "id": "b", "text": "Generate alerts when publicly accessible S3 buckets contain sensitive data" },
+            { "id": "c", "text": "Automatically encrypt sensitive data found in S3" },
+            { "id": "d", "text": "Integrate with AWS Security Hub for centralized security findings" },
+            { "id": "e", "text": "Remediate detected PII exposure by blocking external access to affected S3 objects" }
+        ],
+        "correctAnswers": ["a", "b", "d"],
+        "explanation": "Amazon Macie scans and classifies sensitive data in Amazon S3, generates alerts when it finds publicly accessible sensitive data, and integrates with AWS Security Hub. However, it does not automatically encrypt sensitive data or enforce access controls—it only provides findings for further action.",
+        "multipleSelect": true
+    },
+    {
+        "id": 25,
+        "text": "Which features of Amazon Bedrock allow organizations to customize foundation models for their specific use cases while maintaining compliance and security? (Select all that apply)",
+        "options": [
+            { "id": "a", "text": "Fine-tuning foundation models with proprietary datasets" },
+            { "id": "b", "text": "Implementing guardrails to restrict harmful content generation" },
+            { "id": "c", "text": "Using Retrieval-Augmented Generation (RAG) for real-time contextual knowledge integration" },
+            { "id": "d", "text": "Directly modifying the parameters of base foundation models" },
+            { "id": "e", "text": "Deploying models in an AWS private VPC environment to maintain data security" }
+        ],
+        "correctAnswers": ["a", "b", "c", "e"],
+        "explanation": "Amazon Bedrock supports fine-tuning foundation models with private data, enforces guardrails to prevent harmful outputs, enables RAG to integrate external knowledge, and allows secure deployments in a private AWS environment. However, it does not provide direct access to modify base model parameters.",
+        "multipleSelect": true
+    },
+    {
+        "id": 26,
+        "text": "An enterprise wants to prevent Amazon Bedrock-powered applications from generating biased, harmful, or policy-violating content. What AWS capabilities can help implement such safeguards? (Select all that apply)",
+        "options": [
+            { "id": "a", "text": "AWS Content Guardrails to detect and filter harmful or biased AI-generated content" },
+            { "id": "b", "text": "Amazon Bedrock’s model invocation policies to define security rules around API usage" },
+            { "id": "c", "text": "Using Retrieval-Augmented Generation (RAG) to inject curated data and reduce hallucinations" },
+            { "id": "d", "text": "Amazon SageMaker Model Monitor for real-time inference monitoring" },
+            { "id": "e", "text": "AWS Shield to prevent unauthorized API calls to the foundation model" }
+        ],
+        "correctAnswers": ["a", "b", "c", "d"],
+        "explanation": "AWS Content Guardrails filter harmful AI output, Bedrock’s model invocation policies enforce usage rules, RAG helps reduce hallucinations, and SageMaker Model Monitor tracks inference behavior. AWS Shield is designed for DDoS protection, not model safety.",
+        "multipleSelect": true
+    },
+    {
+        "id": 27,
+        "text": "Amazon Q Business is used by enterprises for AI-powered knowledge retrieval and workflow automation. Which capabilities does Amazon Q Business provide to improve enterprise productivity? (Select all that apply)",
+        "options": [
+            { "id": "a", "text": "Integrating with enterprise data sources like Confluence, SharePoint, and S3" },
+            { "id": "b", "text": "Providing chatbot-style conversational search for enterprise knowledge" },
+            { "id": "c", "text": "Running generative AI workloads on AWS Nitro Enclaves for confidential computing" },
+            { "id": "d", "text": "Enforcing access control policies to ensure users can only retrieve permitted data" },
+            { "id": "e", "text": "Automatically summarizing and extracting key insights from documents" }
+        ],
+        "correctAnswers": ["a", "b", "d", "e"],
+        "explanation": "Amazon Q Business integrates with multiple enterprise data sources, offers conversational search, enforces access control policies, and can summarize key insights. However, AWS Nitro Enclaves are not specifically used for running Amazon Q workloads but for secure enclave-based processing.",
+        "multipleSelect": true
+    },
+    {
+        "id": 28,
+        "text": "Which best practices should be followed when deploying Amazon Q Business to ensure security, data privacy, and optimal performance? (Select all that apply)",
+        "options": [
+            { "id": "a", "text": "Use IAM-based access controls to restrict user permissions" },
+            { "id": "b", "text": "Encrypt stored enterprise data using AWS KMS" },
+            { "id": "c", "text": "Enable Amazon GuardDuty to monitor for malicious API requests to Amazon Q Business" },
+            { "id": "d", "text": "Use AWS PrivateLink to keep Amazon Q Business API traffic within the AWS network" },
+            { "id": "e", "text": "Manually curate responses to ensure accuracy before deployment" }
+        ],
+        "correctAnswers": ["a", "b", "c", "d"],
+        "explanation": "IAM-based controls ensure proper user permissions, AWS KMS encrypts stored data, GuardDuty detects potential threats, and AWS PrivateLink ensures secure API traffic. However, manually curating responses is not practical at scale.",
+        "multipleSelect": true
+    }
+
+]
+    

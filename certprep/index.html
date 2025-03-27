@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certification Exam Practice (Beta Testing)</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css?v=1.2" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Left Panel -->
+            <div class="col-md-3 left-panel">
+                <div id="home-button" class="mb-3">
+                    <button class="btn btn-outline-light w-100" onclick="goToHome()">
+                        <i class="bi bi-house-door"></i> Go to Home
+                    </button>
+                </div>
+                
+                <!-- Only show question navigation in exam mode, hidden by default -->
+                <div id="question-nav" class="question-nav" style="display: none;">
+                    <h3>Questions</h3>
+                    <div class="list-group" id="question-list">
+                        <!-- Question list items will be added dynamically -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main Content -->
+            <div class="col-md-9">
+                <header class="mb-4">
+                    <h1 class="text-center" id="main-title">Certification Exam Practice</h1>
+                    <h2 class="text-center mb-4" id="cert-title"></h2>
+                    <div class="progress mb-3" id="progress-container" style="display: none;">
+                        <div id="progress-bar" class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </header>
+
+                <!-- Home page content -->
+                <div id="home-container" class="home-container">
+                    <div class="text-center mb-5">
+                        <h3>Welcome to Certification Exam Practice</h3>
+                        <p class="lead">Select a certification from the list to start practicing</p>
+                    </div>
+                    
+                    <!-- Certification list in main content area -->
+                    <div class="cert-grid" id="cert-grid">
+                        <!-- Cert items will be added here dynamically -->
+                    </div>
+                </div>
+
+                <!-- Question container - hidden initially -->
+                <div id="question-container" class="question-container" style="display: none;">
+                    <!-- Question content will be inserted here -->
+                </div>
+
+                <div id="nav-buttons" class="nav-buttons" style="display: none;">
+                    <button id="prev-btn" class="btn btn-secondary" disabled>Previous Question</button>
+                    <button id="check-btn" class="btn btn-primary" disabled>Check Answer</button>
+                    <button id="next-btn" class="btn btn-secondary" disabled>Next Question</button>
+                </div>
+
+                <div class="col-12 text-center donate-section">
+                    <hr>
+                    <h5>Support This Project</h5>
+                    <p>If you find these practice questions helpful, please consider supporting the project.</p>
+                    <!-- <a href="#" class="btn btn-outline-primary donate-btn">Donate</a> -->
+                    
+                    <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; padding: 20px;">
+    
+                        <!-- Buy Me a Coffee -->
+                        <div>
+                            <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" 
+                                    data-name="bmc-button" 
+                                    data-slug="shantoroy" 
+                                    data-color="#FFDD00" 
+                                    data-emoji=""  
+                                    data-font="Cookie" 
+                                    data-text="Buy me a coffee" 
+                                    data-outline-color="#000000" 
+                                    data-font-color="#000000" 
+                                    data-coffee-color="#ffffff">
+                            </script>
+                        </div>
+                    
+                        <!-- Pay with PayPal -->
+                        <div>
+                            <style>
+                                .paypal-sponsor-button {
+                                  background-color: #FFC439;
+                                  color: #111;
+                                  border: none;
+                                  border-radius: 5px;
+                                  padding: 10px 20px;
+                                  font-size: 16px;
+                                  font-weight: bold;
+                                  cursor: pointer;
+                                  display: inline-flex;
+                                  align-items: center;
+                                  gap: 8px;
+                                  transition: background-color 0.3s;
+                                }
+                                .paypal-sponsor-button:hover {
+                                  background-color: #F2BB36;
+                                }
+                                .paypal-sponsor-button img {
+                                  height: 20px;
+                                }
+                              </style>
+                              
+                              <form action="https://www.paypal.com/donate?business=Q9F45GULUSYMY&currency_code=USD" method="post" target="_blank">
+                                <!-- <input type="hidden" name="business" value="sroy.iitju@gmail.com"> -->
+                                <!-- <input type="hidden" name="currency_code" value="USD"> -->
+                                <button type="submit" class="paypal-sponsor-button">
+                                  <img src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-100px.png" alt="PayPal Logo">
+                                  Sponsor Me
+                                </button>
+                              </form>
+                        </div>
+                    
+                        <div>
+                            <!-- Add Font Awesome for icons -->
+                            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+                            <style>
+                            .payment-button {
+                                display: inline-flex;
+                                align-items: center;
+                                gap: 8px;
+                                padding: 10px 20px;
+                                margin: 5px;
+                                border-radius: 5px;
+                                font-weight: bold;
+                                cursor: pointer;
+                                transition: background-color 0.3s;
+                            }
+                            .venmo-button { background-color: #3D95CE; color: white; }
+                            </style>
+
+
+                            <!-- Venmo -->
+                            <a href="https://venmo.com/shantoroy?txn=pay&amount=5&note=Sponsorship" 
+                            target="_blank" 
+                            class="payment-button venmo-button">
+                            <i class="fab fa-vimeo-v"></i> Venmo
+                            </a>
+
+
+                        </div>
+                    
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- Donation Footer -->
+        <!-- <footer class="row mt-5">
+            <div class="col-12 text-center donate-section">
+                <hr>
+                <h5>Support This Project</h5>
+                <p>If you find these practice questions helpful, please consider supporting the project.</p>
+                <a href="#" class="btn btn-outline-primary donate-btn">Donate</a>
+            </div>
+        </footer> -->
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css" rel="stylesheet">
+    <script src="questions.js?v=1.2"></script>
+    <script src="app.js?v=1.2"></script>
+</body>
+</html>

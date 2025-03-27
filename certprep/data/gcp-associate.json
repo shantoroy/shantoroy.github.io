@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "text": "Which Google Cloud service is most suitable for running containerized applications?",
+        "options": [
+            { "id": "a", "text": "Google App Engine" },
+            { "id": "b", "text": "Google Kubernetes Engine (GKE)" },
+            { "id": "c", "text": "Google Compute Engine" },
+            { "id": "d", "text": "Google Cloud Functions" }
+        ],
+        "correctAnswers": ["b"],
+        "explanation": "Google Kubernetes Engine (GKE) is specifically designed for deploying, managing, and scaling containerized applications using Google's infrastructure. While App Engine can run containers, it's primarily a PaaS for applications. Compute Engine is an IaaS solution that requires more management, and Cloud Functions is a serverless compute service for event-driven code.",
+        "multipleSelect": false
+    },
+    {
+        "id": 2,
+        "text": "Which of the following are Google Cloud storage options? (Select all that apply)",
+        "options": [
+            { "id": "a", "text": "Cloud Storage" },
+            { "id": "b", "text": "Cloud SQL" },
+            { "id": "c", "text": "Persistent Disk" },
+            { "id": "d", "text": "Filestore" }
+        ],
+        "correctAnswers": ["a", "c", "d"],
+        "explanation": "Google Cloud Storage, Persistent Disk, and Filestore are all storage options in Google Cloud. Cloud Storage is object storage, Persistent Disk provides block storage for VM instances, and Filestore is a managed file storage service. Cloud SQL is a managed database service, not primarily a storage option.",
+        "multipleSelect": true
+    }
+]

@@ -1,0 +1,230 @@
+body {
+    padding: 2rem 0;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+}
+
+/* Left Panel Styles */
+.left-panel {
+    background-color: #343a40;
+    color: white;
+    padding: 2rem 1rem;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.question-nav {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.question-nav h3 {
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 0.5rem;
+    flex-shrink: 0;
+}
+
+#question-list {
+    overflow-y: auto;
+    padding-right: 5px;
+    flex-grow: 1;
+    max-height: calc(100vh - 180px);
+    /* Ensure items don't overlap */
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+/* Scrollbar styling */
+#question-list::-webkit-scrollbar {
+    width: 8px;
+}
+
+#question-list::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+}
+
+#question-list::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+}
+
+#question-list::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+#home-button {
+    margin-bottom: 1.5rem;
+    flex-shrink: 0;
+}
+
+.list-group-item {
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.2s ease;
+    /* Ensure proper display of each item */
+    padding: 10px;
+    margin-bottom: 0;
+    display: block;
+    width: 100%;
+}
+
+.list-group-item:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.list-group-item.active {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+/* Question preview in left panel */
+.question-preview {
+    font-size: 0.85rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 2px;
+}
+
+.question-num {
+    font-weight: bold;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+/* Certification Grid */
+.cert-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.cert-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    padding: 1.5rem;
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+    border: 1px solid #eee;
+}
+
+.cert-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.cert-card h4 {
+    margin-bottom: 1rem;
+    color: #343a40;
+}
+
+.cert-card-footer {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+/* Home Container Styles */
+.home-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    padding: 3rem 2rem;
+    margin-bottom: 2rem;
+}
+
+/* Question Container Styles */
+.question-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    min-height: 400px;
+}
+
+.option-label {
+    display: block;
+    padding: 1rem;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.option-label:hover {
+    background-color: #f8f9fa;
+}
+
+.selected {
+    background-color: #e9ecef;
+    border-color: #dee2e6;
+}
+
+.correct {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+
+.incorrect {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+.explanation {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    border-left: 4px solid #17a2b8;
+    background-color: #f8f9fa;
+    display: none;
+}
+
+.progress {
+    height: 10px;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+/* Donation Section */
+.donate-section {
+    padding: 1.5rem;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+
+.donate-btn {
+    margin-top: 0.5rem;
+}
+
+/* Make sure the left panel doesn't overlap main content on smaller screens */
+@media (max-width: 768px) {
+    .left-panel {
+        height: auto;
+        position: static;
+        padding: 1rem;
+    }
+    
+    #question-list {
+        max-height: 300px;
+    }
+    
+    .col-md-3, .col-md-9 {
+        width: 100%;
+    }
+}

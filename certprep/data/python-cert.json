@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "text": "Which of the following is a valid way to define a Python function?",
+        "options": [
+            { "id": "a", "text": "function myFunc():" },
+            { "id": "b", "text": "def myFunc():" },
+            { "id": "c", "text": "function myFunc {}:" },
+            { "id": "d", "text": "define myFunc():" }
+        ],
+        "correctAnswers": ["b"],
+        "explanation": "In Python, functions are defined using the 'def' keyword followed by the function name and parentheses. The correct syntax is 'def myFunc():'. The 'function' keyword is used in JavaScript, not Python.",
+        "multipleSelect": false
+    },
+    {
+        "id": 2,
+        "text": "Which of the following are valid Python data structures? (Select all that apply)",
+        "options": [
+            { "id": "a", "text": "Lists" },
+            { "id": "b", "text": "Arrays" },
+            { "id": "c", "text": "Dictionaries" },
+            { "id": "d", "text": "Tuples" }
+        ],
+        "correctAnswers": ["a", "c", "d"],
+        "explanation": "Lists, dictionaries, and tuples are native Python data structures. While Python does have arrays through the NumPy library, they are not built-in types like the others. The native sequence types in Python are lists, tuples, and strings, with dictionaries serving as the primary mapping type.",
+        "multipleSelect": true
+    }
+]
