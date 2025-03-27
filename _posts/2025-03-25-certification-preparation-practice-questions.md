@@ -151,60 +151,6 @@ Sponsor Me
 
 <div>
 
-<!-- Add Font Awesome for icons -->
-
-<link  rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-  
-
-<style>
-
-.payment-button {
-
-display: inline-flex;
-
-align-items: center;
-
-gap: 8px;
-
-padding: 10px  20px;
-
-margin: 5px;
-
-border-radius: 5px;
-
-font-weight: bold;
-
-cursor: pointer;
-
-transition: background-color 0.3s;
-
-}
-
-.venmo-button { background-color: #3D95CE; color: black; }
-
-</style>
-
-  
-  
-
-<!-- Venmo -->
-
-<a  href="https://venmo.com/shantoroy?txn=pay&amount=5&note=Sponsorship"
-
-target="_blank"
-
-class="payment-button venmo-button">
-
-<i  class="fab fa-vimeo-v"></i> Venmo
-
-</a>
-
-  
-  
-
-</div>
-
 </div>
 
 ## What's Next?
@@ -219,6 +165,6 @@ If you have suggestions, feel free to open an issue in the GitHub repository.
 Stay tuned for updates, and happy learning!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MzkwNDk2MywtMTUzNDA3ODg5MywtMT
-cwMDQ0MzM3OSwyNzY4MzY0MTFdfQ==
+eyJoaXN0b3J5IjpbLTM4NTM5NzQ4NSwtMzkzOTA0OTYzLC0xNT
+M0MDc4ODkzLC0xNzAwNDQzMzc5LDI3NjgzNjQxMV19
 -->
