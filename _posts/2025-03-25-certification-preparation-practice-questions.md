@@ -181,7 +181,7 @@ transition: background-color 0.3s;
 
 }
 
-.venmo-button { background-color: #3D95CE; color: white; }
+.venmo-button { background-color: #3D95CE; color: black; }
 
 </style>
 
@@ -219,6 +219,6 @@ If you have suggestions, feel free to open an issue in the GitHub repository.
 Stay tuned for updates, and happy learning!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzQwNzg4OTMsLTE3MDA0NDMzNzksMj
-c2ODM2NDExXX0=
+eyJoaXN0b3J5IjpbLTM5MzkwNDk2MywtMTUzNDA3ODg5MywtMT
+cwMDQ0MzM3OSwyNzY4MzY0MTFdfQ==
 -->
