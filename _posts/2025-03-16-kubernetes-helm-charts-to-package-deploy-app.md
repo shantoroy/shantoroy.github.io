@@ -5,8 +5,8 @@ excerpt: "Learn how to use Helm Charts for managing Kubernetes applications effi
 seo_title: "Kubernetes Helm Charts – Package & Deploy Applications"
 seo_description: "Step-by-step guide to Kubernetes Helm Charts, packaging applications, and deploying them in a reproducible way."
 header:
-  image: "https://live.staticflickr.com/65535/53398563283_8c0c36b11f_o.png"
-  teaser: "https://live.staticflickr.com/65535/53398563283_8c0c36b11f_o.png"
+  image: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
+  teaser: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
 categories:
   - Kubernetes
 tags:
@@ -372,5 +372,5 @@ For most organizations, especially those managing large-scale or complex Kuberne
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzQwNDU0OTFdfQ==
+eyJoaXN0b3J5IjpbLTQzMzkzNzY0NSwtMTY3NDA0NTQ5MV19
 -->
