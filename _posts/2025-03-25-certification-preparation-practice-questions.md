@@ -8,7 +8,7 @@ header:
   image: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
   teaser: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
 categories:
-  - CertPrep
+  - Certification
 tags:
   - Certification
   - Practice Questions
@@ -165,7 +165,7 @@ If you have suggestions, feel free to open an issue in the GitHub repository.
 Stay tuned for updates, and happy learning!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MTkzMDY3LC0zODUzOTc0ODUsLTM5Mz
-kwNDk2MywtMTUzNDA3ODg5MywtMTcwMDQ0MzM3OSwyNzY4MzY0
-MTFdfQ==
+eyJoaXN0b3J5IjpbLTEyNzgzMDExMTIsLTM4NTM5NzQ4NSwtMz
+kzOTA0OTYzLC0xNTM0MDc4ODkzLC0xNzAwNDQzMzc5LDI3Njgz
+NjQxMV19
 -->
