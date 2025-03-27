@@ -5,8 +5,8 @@ excerpt: "Learn how to set up a CI/CD pipeline for Kubernetes using GitHub Actio
 seo_title: "Kubernetes CI/CD with GitHub Actions & ArgoCD"
 seo_description: "Step-by-step guide to setting up a Kubernetes CI/CD pipeline using GitHub Actions and ArgoCD, automating deployments with GitOps."
 header:
-  image: "https://live.staticflickr.com/65535/53398463283_8c0c36b11f_o.png"
-  teaser: "https://live.staticflickr.com/65535/53398463283_8c0c36b11f_o.png"
+  image: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
+  teaser: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
 categories:
   - Kubernetes
 tags:
@@ -322,5 +322,5 @@ Combining **GitHub Actions** for CI and **Argo CD** for CD is a proper choice fo
 🔹 **Day 36**: Kubernetes Helm Charts 
 🔹 **Day 37**: Kubernetes Deployment using Terraform
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwOTM0NTg1OV19
+eyJoaXN0b3J5IjpbLTE0NDczNzQ1MjksMTUwOTM0NTg1OV19
 -->
