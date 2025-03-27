@@ -1,4 +1,3 @@
-
 ---
 layout: single
 title: "Certification Preparation Question Bank – Practice & Contribute"
@@ -220,5 +219,5 @@ If you have suggestions, feel free to open an issue in the GitHub repository.
 Stay tuned for updates, and happy learning!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc2ODM2NDExXX0=
+eyJoaXN0b3J5IjpbLTE3MDA0NDMzNzksMjc2ODM2NDExXX0=
 -->
