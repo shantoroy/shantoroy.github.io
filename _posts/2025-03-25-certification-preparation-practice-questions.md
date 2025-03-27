@@ -23,7 +23,7 @@ toc_icon: "package"
 
 ## About the Cert Preparation Question Bank
 
-The **Certification Preparation Question Bank** is an open-source project designed to help learners practice for various certification exams. Currently, it is in **beta mode**, and I'll try to actively expand the question sets.
+The [**Certification Preparation Question Bank**](https://shantoroy.com/certprep/) is an open-source question bank project designed to help learners practice for various certification exams. Currently, it is in **beta mode**, and I'll try to actively expand the question sets.
 
 Unlike traditional exam simulations, this platform focuses on **practice mode**, allowing users to go through questions at their own pace, review answers, and learn effectively.
 
@@ -165,7 +165,7 @@ If you have suggestions, feel free to open an issue in the GitHub repository.
 Stay tuned for updates, and happy learning!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzgzMDExMTIsLTM4NTM5NzQ4NSwtMz
-kzOTA0OTYzLC0xNTM0MDc4ODkzLC0xNzAwNDQzMzc5LDI3Njgz
-NjQxMV19
+eyJoaXN0b3J5IjpbMTQzNjgxNTU0NSwtMTI3ODMwMTExMiwtMz
+g1Mzk3NDg1LC0zOTM5MDQ5NjMsLTE1MzQwNzg4OTMsLTE3MDA0
+NDMzNzksMjc2ODM2NDExXX0=
 -->
