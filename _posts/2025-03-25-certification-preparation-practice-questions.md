@@ -41,9 +41,9 @@ If you are preparing for these certifications, you can start practicing right aw
 This project is open-source, and contributions from the community are highly encouraged! You can help by adding new questions, improving existing ones, or expanding the explanations.
 
 ### Steps to Contribute:
-1. Visit the GitHub repository: **[TBA]**  
+1. Visit the GitHub repository: https://github.com/shantoroy/cert-prep-question-bank
 2. Follow the contribution guidelines in the `README.md` file.
-3. Add new questions to the relevant JSON files.
+3. Add new questions to the relevant JSON files. You can use [This Tool](https://github.com/shantoroy/certprep-question-bank-helper) to make life easier.
 4. Create a new question bank by creating a JSON file for a Cert.
 5. Submit a Pull Request (PR) for review.
 
@@ -165,7 +165,7 @@ If you have suggestions, feel free to open an issue in the GitHub repository.
 Stay tuned for updates, and happy learning!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNjgxNTU0NSwtMTI3ODMwMTExMiwtMz
-g1Mzk3NDg1LC0zOTM5MDQ5NjMsLTE1MzQwNzg4OTMsLTE3MDA0
-NDMzNzksMjc2ODM2NDExXX0=
+eyJoaXN0b3J5IjpbLTE2ODA4Nzc3NzEsMTQzNjgxNTU0NSwtMT
+I3ODMwMTExMiwtMzg1Mzk3NDg1LC0zOTM5MDQ5NjMsLTE1MzQw
+Nzg4OTMsLTE3MDA0NDMzNzksMjc2ODM2NDExXX0=
 -->
