@@ -145,9 +145,9 @@ function buildQuestionNav(questions) {
         `;
         
         listItem.addEventListener('click', () => {
-            if (answersChecked || confirm('You haven\'t checked your answer. Are you sure you want to move to another question?')) {
+            // if (answersChecked || confirm('You haven\'t checked your answer. Are you sure you want to move to another question?')) {
                 jumpToQuestion(index);
-            }
+            // }
         });
         
         questionList.appendChild(listItem);
