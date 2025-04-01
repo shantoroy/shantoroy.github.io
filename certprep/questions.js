@@ -1,15 +1,15 @@
 // Certification metadata structure
 const certifications = {
+    "gcp-associate": {
+        id: "gcp-associate",
+        name: "Associate Cloud Engineer (GCP ACE)",
+        file: "data/gcp-associate.json"
+    },
     "aws-ai-practitioner": {
         id: "aws-ai-practitioner",
         name: "AWS Certified AI Practitioner (AIF-C01)",
         file: "data/aws-ai-practitioner.json"
     },
-    // "gcp-associate": {
-    //     id: "gcp-associate",
-    //     name: "Google Cloud Associate Cloud Engineer",
-    //     file: "data/gcp-associate.json"
-    // },
     "scrum-developer": {
         id: "scrum-developer",
         name: "Professional Scrum Developer I (PSD I)",
