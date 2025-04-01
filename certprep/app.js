@@ -280,8 +280,26 @@ function checkAnswer() {
     const correctAnswers = question.correctAnswers;
     const explanation = document.getElementById('explanation');
     
+    // // Check if answers are correct
+    // const optionLabels = document.querySelectorAll('.option-label');
+    // optionLabels.forEach(label => {
+    //     const optionId = label.getAttribute('data-option-id');
+    //     const isSelected = selectedAnswers.includes(optionId);
+    //     const isCorrect = correctAnswers.includes(optionId);
+        
+    //     if (isSelected && isCorrect) {
+    //         label.classList.add('correct');
+    //     } else if (isSelected && !isCorrect) {
+    //         label.classList.add('incorrect');
+    //     } else if (!isSelected && isCorrect) {
+    //         label.classList.add('correct');
+    //     }
+    // });
+
     // Check if answers are correct
     const optionLabels = document.querySelectorAll('.option-label');
+    let allCorrect = true; // Flag to track if all selections are correct
+
     optionLabels.forEach(label => {
         const optionId = label.getAttribute('data-option-id');
         const isSelected = selectedAnswers.includes(optionId);
@@ -291,8 +309,10 @@ function checkAnswer() {
             label.classList.add('correct');
         } else if (isSelected && !isCorrect) {
             label.classList.add('incorrect');
+            allCorrect = false; // User selected a wrong answer
         } else if (!isSelected && isCorrect) {
             label.classList.add('correct');
+            allCorrect = false; // User missed a correct answer
         }
     });
     
@@ -309,10 +329,17 @@ function checkAnswer() {
     document.getElementById('next-btn').disabled = currentQuestionIndex === currentQuestions.length - 1;
     answersChecked = true;
     
-    // Update visual indicator in question list to show this question was answered
+    // // Update visual indicator in question list to show this question was answered
+    // const questionItem = document.querySelector(`#question-list [data-question-index="${currentQuestionIndex}"]`);
+    // if (questionItem) {
+    //     questionItem.style.borderLeft = '4px solid #28a745';
+    // }
+
+    // Update visual indicator in question list to show this question was answered correctly/incorrectly
     const questionItem = document.querySelector(`#question-list [data-question-index="${currentQuestionIndex}"]`);
     if (questionItem) {
-        questionItem.style.borderLeft = '4px solid #28a745';
+        const borderColor = allCorrect ? '#28a745' : '#dc3545'; // Green for correct, red for incorrect
+        questionItem.style.borderLeft = `4px solid ${borderColor}`;
     }
 }
 
