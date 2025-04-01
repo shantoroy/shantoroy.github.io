@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acknowledgements - Question Manager</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .sidebar {
+            height: 100vh;
+            background-color: #212529;
+            padding-top: 20px;
+        }
+        .sidebar .nav-link {
+            color: rgba(255,255,255,.75);
+            border-radius: 0;
+        }
+        .sidebar .nav-link:hover {
+            color: rgba(255,255,255,1);
+        }
+        .sidebar .nav-link.active {
+            color: #fff;
+            background-color: rgba(255,255,255,.1);
+        }
+        .repo-card {
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+        .repo-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        .content-wrapper {
+            padding: 20px;
+        }
+        .text-bg-custom {
+            background-color: #6f42c1;
+            color: white;
+        }
+        .text-bg-scrum {
+            background-color: #20c997;
+            color: white;
+        }
+        .text-bg-azure {
+            background-color: #0d6efd;
+            color: white;
+        }
+        .text-bg-aws {
+            background-color: #fd7e14;
+            color: white;
+        }
+        .text-bg-gcp {
+            background-color: #dc3545;
+            color: white;
+        }
+        footer {
+            margin-top: 50px;
+            padding: 20px 0;
+            background-color: #f8f9fa;
+            border-top: 1px solid #e9ecef;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar -->
+            <div class="col-md-2 sidebar d-none d-md-block">
+                <div class="text-center mb-4">
+                    <h4 class="text-white">Question Manager</h4>
+                </div>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            <i class="fas fa-home me-2"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="acknowledgements.html">
+                            <i class="fas fa-hands-helping me-2"></i> Acknowledgements
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Mobile Header -->
+            <div class="d-md-none bg-dark text-white p-3">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h4 class="m-0">Question Manager</h4>
+                    <div class="dropdown">
+                        <button class="btn btn-dark" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
+                            <li><a class="dropdown-item" href="index.html"><i class="fas fa-home me-2"></i> Home</a></li>
+                            <li><a class="dropdown-item active" href="acknowledgements.html"><i class="fas fa-hands-helping me-2"></i> Acknowledgements</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main Content -->
+            <div class="col-md-10 ms-auto content-wrapper">
+                <h1 class="mb-4">Acknowledgements</h1>
+                <p class="lead">
+                    This project wouldn't be possible without the valuable resources and question banks 
+                    generously shared by the open-source community. We'd like to acknowledge the following 
+                    repositories and resources that contributed to our question bank.
+                </p>
+
+                <div class="alert alert-info">
+                    <i class="fas fa-info-circle me-2"></i>
+                    All content is used for educational purposes only. If you are the owner of any of these repositories and wish for your content to be removed, please contact us.
+                </div>
+
+                <h2 class="mt-5 mb-4">Source Repositories</h2>
+                
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <!-- GitHub Actions -->
+                    <div class="col">
+                        <div class="card h-100 repo-card">
+                            <div class="card-header text-bg-custom">
+                                <h5 class="card-title mb-0">
+                                    <i class="fab fa-github-actions me-2"></i>GitHub Actions
+                                </h5>
+                            </div>
+                            <div class="card-body">
+                                <h6 class="card-subtitle mb-2 text-muted">Question Bank for GitHub Actions Certification</h6>
+                                <p class="card-text">
+                                    A comprehensive collection of questions on <a href="https://ghcertified.com/practice_tests/actions/" target="_blank">ghcertprep</a> covering GitHub Actions workflows, CI/CD pipelines, and automation techniques.
+                                </p>
+                                <a href="https://github.com/FidelusAleksander/ghcertified" class="btn btn-outline-primary" target="_blank">
+                                    <i class="fab fa-github me-2"></i>View Repository
+                                </a>
+                            </div>
+                            <div class="card-footer text-muted">
+                                <small>Contributed by: <a href="https://github.com/FidelusAleksander" target="_blank">Aleksander Fidelus</a> and GitHub Actions Community</small>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Scrum Master -->
+                    <div class="col">
+                        <div class="card h-100 repo-card">
+                            <div class="card-header text-bg-scrum">
+                                <h5 class="card-title mb-0">
+                                    <i class="fas fa-users-cog me-2"></i>Scrum Master
+                                </h5>
+                            </div>
+                            <div class="card-body">
+                                <h6 class="card-subtitle mb-2 text-muted">Professional Scrum Master Certification Questions</h6>
+                                <p class="card-text">
+                                    Practice questions for PSM I, PSM II, and PSM III certifications, covering 
+                                    Scrum framework, events, roles, and artifacts.
+                                </p>
+                                <a href="https://github.com/username/scrum-master-questions" class="btn btn-outline-primary" target="_blank">
+                                    <i class="fab fa-github me-2"></i>View Repository
+                                </a>
+                            </div>
+                            <div class="card-footer text-muted">
+                                <small>Contributed by: Agile Community Collective</small>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Azure -->
+                    <div class="col">
+                        <div class="card h-100 repo-card">
+                            <div class="card-header text-bg-azure">
+                                <h5 class="card-title mb-0">
+                                    <i class="fab fa-microsoft me-2"></i>Azure Certification
+                                </h5>
+                            </div>
+                            <div class="card-body">
+                                <h6 class="card-subtitle mb-2 text-muted">AZ-900, AZ-104, AZ-204 Question Banks</h6>
+                                <p class="card-text">
+                                    Practice questions for various Microsoft Azure certification exams, 
+                                    including Fundamentals, Administrator, and Developer tracks.
+                                </p>
+                                <a href="https://github.com/username/azure-certification-questions" class="btn btn-outline-primary" target="_blank">
+                                    <i class="fab fa-github me-2"></i>View Repository
+                                </a>
+                            </div>
+                            <div class="card-footer text-muted">
+                                <small>Contributed by: Azure Learning Community</small>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- AWS -->
+                    <div class="col">
+                        <div class="card h-100 repo-card">
+                            <div class="card-header text-bg-aws">
+                                <h5 class="card-title mb-0">
+                                    <i class="fab fa-aws me-2"></i>AWS Certification
+                                </h5>
+                            </div>
+                            <div class="card-body">
+                                <h6 class="card-subtitle mb-2 text-muted">AWS Cloud Practitioner & Solutions Architect Questions</h6>
+                                <p class="card-text">
+                                    Comprehensive question set for AWS certifications, covering AWS services, 
+                                    architecture best practices, and cloud concepts.
+                                </p>
+                                <a href="https://github.com/username/aws-certification-questions" class="btn btn-outline-primary" target="_blank">
+                                    <i class="fab fa-github me-2"></i>View Repository
+                                </a>
+                            </div>
+                            <div class="card-footer text-muted">
+                                <small>Contributed by: AWS Certification Prep Group</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h2 class="mt-5 mb-4">Other Resources</h2>
+                <div class="list-group mb-4">
+                    <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3">
+                        <i class="fas fa-book-open fa-2x text-primary"></i>
+                        <div class="d-flex gap-2 w-100 justify-content-between">
+                            <div>
+                                <h6 class="mb-0">Official Documentation Resources</h6>
+                                <p class="mb-0 opacity-75">Questions derived from official documentation of various technologies</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3">
+                        <i class="fas fa-chalkboard-teacher fa-2x text-success"></i>
+                        <div class="d-flex gap-2 w-100 justify-content-between">
+                            <div>
+                                <h6 class="mb-0">Online Learning Platforms</h6>
+                                <p class="mb-0 opacity-75">Practice questions inspired by content from Udemy, Pluralsight, and LinkedIn Learning</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3">
+                        <i class="fas fa-users fa-2x text-info"></i>
+                        <div class="d-flex gap-2 w-100 justify-content-between">
+                            <div>
+                                <h6 class="mb-0">Community Contributions</h6>
+                                <p class="mb-0 opacity-75">Questions submitted by community members and study groups</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="card mb-5">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="mb-0">Want to Contribute?</h5>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                            We welcome contributions to our question bank! If you have questions to share or found errors 
+                            in existing ones, please consider contributing to this project.
+                        </p>
+                        <a href="#" class="btn btn-outline-primary">
+                            <i class="fas fa-code-branch me-2"></i>Learn How to Contribute
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center">
+        <div class="container">
+            <p class="mb-0">
+                &copy; 2025 Question Manager. All questions are used for educational purposes only.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
