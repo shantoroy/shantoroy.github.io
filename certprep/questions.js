@@ -22,7 +22,7 @@ const certifications = {
     },
     "github-actions": {
         id: "github-actions",
-        name: "GitHub Actions",
+        name: "GitHub Actions (GitHub CI/CD)",
         file: "data/github-actions.json"
     }
 };
