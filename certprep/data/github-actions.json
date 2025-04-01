@@ -1,0 +1,4310 @@
+[
+    {
+        "id": 1,
+        "text": "Which statement is correct regarding passing permissions to reusable workflows?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The <code class=\"inline-code\">GITHUB_TOKEN</code> permissions passed from the caller workflow can be only downgraded by the called workflow.",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "The <code class=\"inline-code\">GITHUB_TOKEN</code> permissions passed from the caller workflow can be only elevated by the called workflow.",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "The <code class=\"inline-code\">GITHUB_TOKEN</code> permissions passed from the caller workflow can be both downgraded and elevated by the called workflow.",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "The <code class=\"inline-code\">GITHUB_TOKEN</code> permissions passed from the caller workflow can be neither downgraded or elevated by the called workflow.",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/reusing-workflows#access-and-permissions",
+        "multipleSelect": false
+    },
+    {
+        "id": 2,
+        "text": "What are the different permission levels you can assign to <code class=\"inline-code\">GITHUB_TOKEN</code> in the <code class=\"inline-code\">permissions</code> block?",
+        "options": [
+            {
+                "id": "a",
+                "text": "none, write, read",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "read, write, delete",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "read, write",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-jobs/assigning-permissions-to-jobs",
+        "multipleSelect": false
+    },
+    {
+        "id": 3,
+        "text": "You can use <code class=\"inline-code\">permissions</code> to modify the <code class=\"inline-code\">GITHUB_TOKEN</code> permissions on: (Select two.)",
+        "options": [
+            {
+                "id": "a",
+                "text": "Workflow level",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Job level",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Step level",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a",
+            "b"
+        ],
+        "explanation": "https://docs.github.com/en/actions/writing-workflows/choosing-what-your-workflow-does/controlling-permissions-for-github_token",
+        "multipleSelect": true
+    },
+    {
+        "id": 4,
+        "text": "Are GitHub Actions free for public repositories?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Yes",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "No",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "",
+        "multipleSelect": false
+    },
+    {
+        "id": 5,
+        "text": "Which of these is not a valid event that could trigger a workflow?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Cloning the repository",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Committing a file to master branch",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "A branch is created",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Adding a label to a pull request",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#about-events-that-trigger-workflows",
+        "multipleSelect": false
+    },
+    {
+        "id": 6,
+        "text": "Which is true about workflows? (Select three.)",
+        "options": [
+            {
+                "id": "a",
+                "text": "Workflows can run one or multiple jobs at a time",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Workflows can be triggered manually, by an event or run on a schedule",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Workflows have to be defined in the <code class=\"inline-code\">.github/workflows</code> directory",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "Workflows can only be run on a schedule",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "e",
+                "text": "Workflow can run only one job at a time",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "f",
+                "text": "Workflows are written in any of <code class=\"inline-code\">.yaml</code>, <code class=\"inline-code\">.json</code> or <code class=\"inline-code\">.toml</code> formats",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "a",
+            "b",
+            "c"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/about-workflows",
+        "multipleSelect": true
+    },
+    {
+        "id": 7,
+        "text": "Which components are required for a workflow? (Select two.)",
+        "options": [
+            {
+                "id": "a",
+                "text": "One or more events that will trigger the workflow",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "One or more jobs",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Workflow name",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Defined branches on which the workflow will run",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a",
+            "b"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/about-workflows#workflow-basics",
+        "multipleSelect": true
+    },
+    {
+        "id": 8,
+        "text": "Which event is triggered by a webhook action from outside of the repository?",
+        "options": [
+            {
+                "id": "a",
+                "text": "repository_dispatch",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "webhook_dispatch",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "workflow_dispatch",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "remote_dispatch",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "e",
+                "text": "api_dispatch",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows",
+        "multipleSelect": false
+    },
+    {
+        "id": 9,
+        "text": "Workflows are defined in which format",
+        "options": [
+            {
+                "id": "a",
+                "text": "yaml",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "toml",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "json",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "xml",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "",
+        "multipleSelect": false
+    },
+    {
+        "id": 10,
+        "text": "Where should you store sensitive data such as passwords or certificates that will be used in workflows",
+        "options": [
+            {
+                "id": "a",
+                "text": "secrets",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "config variables",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "vault",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "environment variables",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "",
+        "multipleSelect": false
+    },
+    {
+        "id": 11,
+        "text": "In a workflow with multiple jobs the default behavior is:",
+        "options": [
+            {
+                "id": "a",
+                "text": "All jobs run in parallel",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Jobs run in sequence",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/about-workflows#creating-dependent-jobs",
+        "multipleSelect": false
+    },
+    {
+        "id": 12,
+        "text": "If job B requires job A to be finished you have to:",
+        "options": [
+            {
+                "id": "a",
+                "text": "use the <code class=\"inline-code\">needs</code> keyword in job B to create this dependency",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "use the <code class=\"inline-code\">needs</code> keyword in job A to create this dependency",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "use the <code class=\"inline-code\">requires</code> keyword in job B to create this dependency",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "use the <code class=\"inline-code\">requires</code> keyword in job A to create this dependency",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/about-workflows#creating-dependent-jobs",
+        "multipleSelect": false
+    },
+    {
+        "id": 13,
+        "text": "In a workflow with multiple jobs, if job A fails then:",
+        "options": [
+            {
+                "id": "a",
+                "text": "the jobs that are dependent on job A are skipped",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "the jobs that are dependent on job A fail",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "the workflow immediately cancels all other jobs",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/about-workflows#creating-dependent-jobs",
+        "multipleSelect": false
+    },
+    {
+        "id": 14,
+        "text": "This code will launch 6 different jobs in parallel using the matrix strategy. Can you use the matrix strategy to parallelize entire workflows?",
+        "options": [
+            {
+                "id": "a",
+                "text": "No",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Yes",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "b"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/reusing-workflows#using-a-matrix-strategy-with-a-reusable-workflow",
+        "multipleSelect": false
+    },
+    {
+        "id": 15,
+        "text": "Which matrix job definition is syntactically correct?",
+        "options": [
+            {
+                "id": "a",
+                "text": "<pre><code class='language-yaml'>jobs:\n    example_matrix:\n      strategy:\n        matrix:\n          version: [10, 12, 14]\n          os: [ubuntu-latest, windows-latest]</code></pre>",
+                "isCodeBlock": true,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "<pre><code class='language-yaml'>jobs:\n    example_matrix:\n      matrix:\n        strategy:\n          version: [10, 12, 14]\n          os: [ubuntu-latest, windows-latest]</code></pre>",
+                "isCodeBlock": true,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "<pre><code class='language-yaml'>jobs:\n    example_matrix:\n      matrix:\n        version: [10, 12, 14]\n        os: [ubuntu-latest, windows-latest]</code></pre>",
+                "isCodeBlock": true,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "<pre><code class='language-yaml'>jobs:\n    matrix:\n      version: [10, 12, 14]\n      os: [ubuntu-latest, windows-latest]</code></pre>",
+                "isCodeBlock": true,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-jobs/using-a-matrix-for-your-jobs#using-a-matrix-strategy",
+        "multipleSelect": false
+    },
+    {
+        "id": 16,
+        "text": "How do you access matrix variables in a matrix strategy job?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Using the <code class=\"inline-code\">vars</code> context",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "Using the <code class=\"inline-code\">matrix</code> context",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "Using the <code class=\"inline-code\">job</code> context",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "Using the <code class=\"inline-code\">jobs</code> context",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "b"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-jobs/using-a-matrix-for-your-jobs#using-a-matrix-strategy",
+        "multipleSelect": false
+    },
+    {
+        "id": 17,
+        "text": "When using the <code class=\"inline-code\">pull_request</code> and <code class=\"inline-code\">pull_request_target</code> events, how do you configure the workflow to run only when targeting the <code class=\"inline-code\">prod</code> branch?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Using <code class=\"inline-code\">branches</code> filter",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "Using <code class=\"inline-code\">branch</code> filter",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "You create the workflow only on <code class=\"inline-code\">prod</code> branch",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "Using glob patterns",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/triggering-a-workflow#using-filters-to-target-specific-branches-for-pull-request-events",
+        "multipleSelect": false
+    },
+    {
+        "id": 18,
+        "text": "This workflow will run on all pull requests where:",
+        "options": [
+            {
+                "id": "a",
+                "text": "the target branch name starts with <code class=\"inline-code\">release</code> but does not end with <code class=\"inline-code\">-alpha</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "the target branch name starts with <code class=\"inline-code\">release</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "the source branch name starts with <code class=\"inline-code\">release</code> but does not end with <code class=\"inline-code\">-alpha</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "the source branch name starts with <code class=\"inline-code\">release</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/triggering-a-workflow#example-including-and-excluding-branches",
+        "multipleSelect": false
+    },
+    {
+        "id": 19,
+        "text": "Fill in the blank: When using <code class=\"inline-code\">push</code> event trigger filters you can use <____> patterns to target multiple branches",
+        "options": [
+            {
+                "id": "a",
+                "text": "glob",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "regex",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "scheme",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "action",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/triggering-a-workflow#using-filters-to-target-specific-branches-or-tags-for-push-events",
+        "multipleSelect": false
+    },
+    {
+        "id": 20,
+        "text": "Which event allows you to manually trigger a workflow from the GitHub UI?",
+        "options": [
+            {
+                "id": "a",
+                "text": "workflow_dispatch",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "manual_dispatch",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "workflow_trigger",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "manual_trigger",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/manually-running-a-workflow",
+        "multipleSelect": false
+    },
+    {
+        "id": 21,
+        "text": "What are the possible types of an input variable for a manually triggered workflow? (Select five.)",
+        "options": [
+            {
+                "id": "a",
+                "text": "choice",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "boolean",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "string",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "number",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "e",
+                "text": "environment",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "f",
+                "text": "dropdown",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e"
+        ],
+        "explanation": "https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions#onworkflow_dispatchinputsinput_idtype",
+        "multipleSelect": true
+    },
+    {
+        "id": 22,
+        "text": "A workflow that has only <code class=\"inline-code\">workflow_dispatch</code> event trigger can be triggered using GitHub's REST API",
+        "options": [
+            {
+                "id": "a",
+                "text": "True",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "False",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#onworkflow_dispatchinputs",
+        "multipleSelect": false
+    },
+    {
+        "id": 23,
+        "text": "To stop a workflow from running temporarily without modifying the source code you should",
+        "options": [
+            {
+                "id": "a",
+                "text": "Use the <code class=\"inline-code\">Disable workflow</code> option in GitHub Actions",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "Remove secrets that are required for this workflow",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Delete environment that is required for this workflow",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Prevent any new commits to main branch",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/disabling-and-enabling-a-workflow",
+        "multipleSelect": false
+    },
+    {
+        "id": 24,
+        "text": "What are <code class=\"inline-code\">activity types</code> of an event used for ?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Limiting workflow runs to specific activity types using the <code class=\"inline-code\">types</code> filter",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "Checking if the activity comes from an user or a bot",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Reacting to new activity on a repository (e.g new contributor)",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#about-events-that-trigger-workflows",
+        "multipleSelect": false
+    },
+    {
+        "id": 25,
+        "text": "You want to create a reusable workflow <code class=\"inline-code\">CI</code> that runs some quality checks, linting and tests on code changes. What event trigger should the <code class=\"inline-code\">CI</code> workflow define to allow reusing it in other workflows?",
+        "options": [
+            {
+                "id": "a",
+                "text": "workflow_call",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "workflow_trigger\n> There is no such event trigger",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "workflow_dispatch\n> This is used for manual triggers",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "workflow_run\n> https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#workflow_run",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows",
+        "multipleSelect": false
+    },
+    {
+        "id": 26,
+        "text": "A reusable workflow named <code class=\"inline-code\">build</code> creates zip file artifacts. How do you pass the zip file location to the caller workflow that is calling the <code class=\"inline-code\">build</code> workflow? (Select three.)",
+        "options": [
+            {
+                "id": "a",
+                "text": "You define an output on workflow level in the <code class=\"inline-code\">build</code> workflow",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "You define an output on job level in the <code class=\"inline-code\">build</code> workflow",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "In the <code class=\"inline-code\">build</code> workflow you write the output into <code class=\"inline-code\">$GITHUB_OUTPUT</code> in one of the steps",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "All outputs are automatically passed to the caller workflows",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a",
+            "b",
+            "c"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/reusing-workflows#using-outputs-from-a-reusable-workflow",
+        "multipleSelect": true
+    },
+    {
+        "id": 27,
+        "text": "What are the valid use cases for using **defaults**? (Select two.)",
+        "options": [
+            {
+                "id": "a",
+                "text": "Using defaults.run on workflow level to set default shell (e.g bash) for an entire workflow",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Using defaults.run on job level to set default working-directory for all steps in a single job",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Using defaults.run on step level to set default shell (e.g bash) for that single step\n> defaults.run can only be set on workflow or job level",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Using defaults.env on workflow level to set default environment variables for an entire workflow\n> There is no such thing as defaults.env",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "e",
+                "text": "Using defaults.env on job level to set default environment variables for all steps in a single job\n> There is no such thing as defaults.env",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a",
+            "b"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#defaults",
+        "multipleSelect": true
+    },
+    {
+        "id": 28,
+        "text": "How can you ensure that a workflow called <code class=\"inline-code\">Deploy Prod</code> is always running at most one at a time?",
+        "options": [
+            {
+                "id": "a",
+                "text": "<pre><code class='language-yaml'>concurrency: ${{ github.workflow }}</code></pre>",
+                "isCodeBlock": true,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "<pre><code class='language-yaml'>queue: ${{ github.workflow }}</code></pre>",
+                "isCodeBlock": true,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "<pre><code class='language-yaml'>order: ${{ github.workflow }}</code></pre>",
+                "isCodeBlock": true,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "<pre><code class='language-yaml'>parallel: ${{ github.workflow }}</code></pre>",
+                "isCodeBlock": true,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#concurrency",
+        "multipleSelect": false
+    },
+    {
+        "id": 29,
+        "text": "Your Pull Request analysis workflow uses multiple code analysis tools and takes about 20minutes to fully complete. It is triggered on <code class=\"inline-code\">pull_request</code> event with <code class=\"inline-code\">branches</code> filter set to <code class=\"inline-code\">master</code>. Therefore if a developer pushes multiple commits within few minutes multiple workflows are running in parallel. How can you stop all previous workflow runs and only run the one with latest changes?",
+        "options": [
+            {
+                "id": "a",
+                "text": "<pre><code class='language-yaml'>concurrency:\n    group: ${{ github.workflow }}-${{ github.ref }}\n    cancel-in-progress: true</code></pre>",
+                "isCodeBlock": true,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "<pre><code class='language-yaml'>concurrency:\n    group: ${{ github.ref }}</code></pre>",
+                "isCodeBlock": true,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "<pre><code class='language-yaml'>on:\n    pull_request:\n      branches:\n        - master\n      types: [latest]</code></pre>",
+                "isCodeBlock": true,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "<pre><code class='language-yaml'>on:\n    pull_request:\n      branches:\n        - master\n      cancel-in-progress: true</code></pre>",
+                "isCodeBlock": true,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#example-using-concurrency-to-cancel-any-in-progress-job-or-run",
+        "multipleSelect": false
+    },
+    {
+        "id": 30,
+        "text": "When will job3 run?",
+        "options": [
+            {
+                "id": "a",
+                "text": "job3 will run after job1 and job2 have completed, regardless of whether they were successful",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "You cannot use <code class=\"inline-code\">if: ${{ always() }}</code> and <code class=\"inline-code\">needs</code> together. The workflow will fail on startup.",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "job3 will run after job1 and job2 have been successfully completed",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "job3 will run after both job1 and job2 have failed",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#example-not-requiring-successful-dependent-jobs",
+        "multipleSelect": false
+    },
+    {
+        "id": 31,
+        "text": "What <code class=\"inline-code\">jobs.job_id.if</code> conditional will make sure that job <code class=\"inline-code\">production-deploy</code> is triggered only on <code class=\"inline-code\">my-org/my-repo</code> repository? (Select two.)",
+        "options": [
+            {
+                "id": "a",
+                "text": "<code class=\"inline-code\">if: github.repository == 'my-org/my-repo'</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "<code class=\"inline-code\">if: ${{ github.repository == 'my-org/my-repo' }}</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "<code class=\"inline-code\">if: ${{ github.organization == 'my-org' && github.repository == 'my-repo' }}</code>\n> https://docs.github.com/en/actions/learn-github-actions/contexts#github-context",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "<code class=\"inline-code\">if: ${{ github.org == 'my-org' && github.repository == 'my-repo' }}</code>\n> https://docs.github.com/en/actions/learn-github-actions/contexts#github-context",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "a",
+            "b"
+        ],
+        "explanation": "https://docs.github.com/en/actions/learn-github-actions/contexts#github-context",
+        "multipleSelect": true
+    },
+    {
+        "id": 32,
+        "text": "What GitHub-hosted runner types are available to use? (Select three.)",
+        "options": [
+            {
+                "id": "a",
+                "text": "Windows",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Ubuntu Linux",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "macOS",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Android",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a",
+            "b",
+            "c"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#choosing-github-hosted-runners",
+        "multipleSelect": true
+    },
+    {
+        "id": 33,
+        "text": "Is this statement true? <code class=\"inline-code\">Not all steps run actions, but all actions run as a step</code>",
+        "options": [
+            {
+                "id": "a",
+                "text": "True",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "False\n> Steps can but don't have to run actions (e.g running a run command)",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idsteps",
+        "multipleSelect": false
+    },
+    {
+        "id": 34,
+        "text": "For any action published in GitHub Marketplace, you can often use it in multiple versions, which approach is the most stable and secure?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Reference the commit SHA",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Reference a version tag",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Reference the main branch",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#example-using-versioned-actions",
+        "multipleSelect": false
+    },
+    {
+        "id": 35,
+        "text": "To prevent a job from failure when one of the steps fails you can include:",
+        "options": [
+            {
+                "id": "a",
+                "text": "<pre><code class='language-yaml'>steps:\n      - uses: my-org/failing-action@v1\n        continue-on-error: true</code></pre>",
+                "isCodeBlock": true,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "<pre><code class='language-yaml'>steps:\n      - uses: my-org/failing-action@v1\n        ignore-error: true</code></pre>",
+                "isCodeBlock": true,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "<pre><code class='language-yaml'>steps:\n      - uses: my-org/failing-action@v1\n        if: failure()</code></pre>",
+                "isCodeBlock": true,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "<pre><code class='language-yaml'>steps:\n      - uses: my-org/failing-action@v1\n        if: always()</code></pre>",
+                "isCodeBlock": true,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idstepscontinue-on-error",
+        "multipleSelect": false
+    },
+    {
+        "id": 36,
+        "text": "You defined a matrix job <code class=\"inline-code\">example_matrix</code>. How can limit the matrix to run a maximum of 2 jobs at a time?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Set <code class=\"inline-code\">jobs.example_matrix.strategy.max-parallel</code> to 2",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "Set <code class=\"inline-code\">jobs.example_matrix.strategy.concurrency</code> to 2",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "Use GitHub's REST API to check if the job count is lesser than 2",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "It's not possible, a matrix will always run all of the jobs in parallel if there are runners available",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idstrategymax-parallel",
+        "multipleSelect": false
+    },
+    {
+        "id": 37,
+        "text": "Which of these is a proper way of setting an output parameter <code class=\"inline-code\">PET</code> with a value of <code class=\"inline-code\">DOG</code> in a <code class=\"inline-code\">step</code>.",
+        "options": [
+            {
+                "id": "a",
+                "text": "<code class=\"inline-code\">echo \"PET=DOG\" >> \"$GITHUB_OUTPUT\"</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "<code class=\"inline-code\">echo \"DOG=PET\" >> \"$GITHUB_OUTPUT\"</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "<code class=\"inline-code\">gh set-output \"DOG=PET\"</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "<code class=\"inline-code\">gh set-output \"PET=DOG\"</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#setting-an-output-parameter",
+        "multipleSelect": false
+    },
+    {
+        "id": 38,
+        "text": "Which of these is a way of using <code class=\"inline-code\">action_state</code> in <code class=\"inline-code\">step_two</code>?",
+        "options": [
+            {
+                "id": "a",
+                "text": "<code class=\"inline-code\">run: echo \"$action_state\"</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "<code class=\"inline-code\">run: echo \"${{ steps.step_one.outputs.action_state }}\"</code>\n> That would be the case if <code class=\"inline-code\">action_state</code> was written to <code class=\"inline-code\">$GITHUB_OUTPUT</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "<code class=\"inline-code\">run: echo \"$steps.step_one.outputs.action_state\"</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "<code class=\"inline-code\">run: echo \"${{ action_state }}\"</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#example-of-writing-an-environment-variable-to-github_env",
+        "multipleSelect": false
+    },
+    {
+        "id": 39,
+        "text": "Is this statement true? <code class=\"inline-code\">Workflows can be reused, but a reusable workflow cannot call another reusable workflow.</code>",
+        "options": [
+            {
+                "id": "a",
+                "text": "False",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "True\n> Reusable workflows can be nested, but there are limitations https://docs.github.com/en/actions/using-workflows/reusing-workflows#limitations",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/reusing-workflows#nesting-reusable-workflows",
+        "multipleSelect": false
+    },
+    {
+        "id": 40,
+        "text": "In the following example, <code class=\"inline-code\">workflow A</code> passes all of its secrets to <code class=\"inline-code\">workflow B</code>, by using the inherit keyword. Then <code class=\"inline-code\">workflow B</code> calls <code class=\"inline-code\">workflow C</code>. Which statement regarding <code class=\"inline-code\">secrets</code> is true for that example?",
+        "options": [
+            {
+                "id": "a",
+                "text": "All secrets available to <code class=\"inline-code\">workflow A</code> will be also available to <code class=\"inline-code\">workflow B</code>, but not to <code class=\"inline-code\">workflow C</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "All secrets from <code class=\"inline-code\">octo-org</code> organization and <code class=\"inline-code\">octo-org/example-repo</code> repository will be available to <code class=\"inline-code\">workflow B</code>, but not to <code class=\"inline-code\">workflow C</code>\n> Not all secrets from <code class=\"inline-code\">octo-org</code> organization have to be made available to <code class=\"inline-code\">octo-org/example-repo</code>.",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "All secrets available to <code class=\"inline-code\">workflow A</code> will be also available to <code class=\"inline-code\">workflow B</code> and <code class=\"inline-code\">workflow C</code>\n> <code class=\"inline-code\">Workflow B</code> would need to add <code class=\"inline-code\">secrets: inherit</code> when calling <code class=\"inline-code\">workflow C</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "Only repository and environment secrets available to <code class=\"inline-code\">workflow A</code> will be available to <code class=\"inline-code\">workflow B</code>, but not to <code class=\"inline-code\">workflow C</code>. Organization scoped secrets cannot be inherited",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/reusing-workflows#passing-secrets-to-nested-workflows",
+        "multipleSelect": false
+    },
+    {
+        "id": 41,
+        "text": "When should you use <code class=\"inline-code\">caching</code>?",
+        "options": [
+            {
+                "id": "a",
+                "text": "When you want to reuse files that don't change often between jobs or workflow runs, such as build dependencies from a package management system.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "When you want to reuse files that do change often between jobs or workflow runs, such as build dependencies from a package management system.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "When you want to save files produced by a job to view after a workflow run has ended, such as built binaries or build logs.\n> Artifacts should be used for that https://docs.github.com/en/actions/using-workflows/storing-workflow-data-as-artifacts",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "When you want to save binaries produced by a build job to use in a subsequent deploy job to deploy a new version of an application\n> Artifacts should be used for that https://docs.github.com/en/actions/using-workflows/storing-workflow-data-as-artifacts",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/caching-dependencies-to-speed-up-workflows#comparing-artifacts-and-dependency-caching",
+        "multipleSelect": false
+    },
+    {
+        "id": 42,
+        "text": "When should you use <code class=\"inline-code\">artifacts</code>? (Select two.)",
+        "options": [
+            {
+                "id": "a",
+                "text": "Use artifacts to save files produced by a job to view after a workflow run has ended, such as test results or build logs.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Use artifacts to save binaries produced by a build job to use in a subsequent deploy job to deploy a new version of an application",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Use artifacts to reuse files that don't change often between jobs or workflow runs, such as build dependencies from a package management system.\n> Caching should be used for that https://docs.github.com/en/actions/using-workflows/caching-dependencies-to-speed-up-workflows#comparing-artifacts-and-dependency-caching",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Use artifacts to create new versions of your application together with release notes, mentions and/or contributors\n> That's a use case for releases, not artifacts",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a",
+            "b"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/storing-workflow-data-as-artifacts#about-workflow-artifacts",
+        "multipleSelect": true
+    },
+    {
+        "id": 43,
+        "text": "If a workflow runs on a <code class=\"inline-code\">feature-a</code> branch, can it restore <code class=\"inline-code\">caches</code> created in the default <code class=\"inline-code\">main</code> branch?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Yes, all branches can restore caches created on the default branch",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Yes, all caches can be accessed by workflows on any branch within the same repository",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "No, caches can only be restored from the same branch",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Yes but only if no files were changed on <code class=\"inline-code\">feature-a</code> branch",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/caching-dependencies-to-speed-up-workflows#restrictions-for-accessing-a-cache",
+        "multipleSelect": false
+    },
+    {
+        "id": 44,
+        "text": "To access an <code class=\"inline-code\">artifact</code> that was created in another, previously triggered workflow run you can:",
+        "options": [
+            {
+                "id": "a",
+                "text": "You cannot access <code class=\"inline-code\">artifacts</code> that were created in a different workflow run",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "Use the <code class=\"inline-code\">actions/download-artifact</code> action.",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "Use the <code class=\"inline-code\">actions/upload-artifact</code> action.",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "Use the <code class=\"inline-code\">actions/download-artifact</code> action and make sure the artifact is not expired",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/storing-workflow-data-as-artifacts#about-workflow-artifacts",
+        "multipleSelect": false
+    },
+    {
+        "id": 45,
+        "text": "What should you use to store coverage reports or screenshots generated during a workflow that runs automated testing for a repository?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Artifacts",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Caches",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Packages\n> https://docs.github.com/en/packages/learn-github-packages/introduction-to-github-packages",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Releases\n> https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/storing-workflow-data-as-artifacts#comparing-artifacts-and-dependency-caching",
+        "multipleSelect": false
+    },
+    {
+        "id": 46,
+        "text": "You can only upload a single file at a time when using <code class=\"inline-code\">actions/upload-artifact</code> action",
+        "options": [
+            {
+                "id": "a",
+                "text": "False",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "True",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/storing-workflow-data-as-artifacts#uploading-build-and-test-artifacts",
+        "multipleSelect": false
+    },
+    {
+        "id": 47,
+        "text": "In job <code class=\"inline-code\">deploy</code>, if you want to access binaries (containing your application) that were created in job <code class=\"inline-code\">build</code> you should",
+        "options": [
+            {
+                "id": "a",
+                "text": "upload the binaries as artifacts in <code class=\"inline-code\">build</code> and download them in <code class=\"inline-code\">deploy</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "upload the binaries as artifacts in <code class=\"inline-code\">deploy</code> and download them in <code class=\"inline-code\">build</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "cache the binaries in <code class=\"inline-code\">build</code> and read the files from cache in <code class=\"inline-code\">deploy</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "cache the binaries in <code class=\"inline-code\">deploy</code> and read the files from cache in <code class=\"inline-code\">build</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/storing-workflow-data-as-artifacts#comparing-artifacts-and-dependency-caching",
+        "multipleSelect": false
+    },
+    {
+        "id": 48,
+        "text": "A job called <code class=\"inline-code\">job2</code> is using artifacts created in <code class=\"inline-code\">job1</code>. Therefore it's important to make sure <code class=\"inline-code\">job1</code> finishes before <code class=\"inline-code\">job2</code> starts looking for the artifacts. How should you create that dependency?",
+        "options": [
+            {
+                "id": "a",
+                "text": "create this dependency using the <code class=\"inline-code\">needs</code> keyword in <code class=\"inline-code\">job2</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "this dependency is created implicitly when using <code class=\"inline-code\">actions/download-artifact</code> to download artifact from <code class=\"inline-code\">job1</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "create this dependency by defining <code class=\"inline-code\">job2</code> after <code class=\"inline-code\">job1</code> in the workflow's <code class=\"inline-code\">.yaml</code> definition",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "create this dependency using the <code class=\"inline-code\">concurrency</code> keyword in <code class=\"inline-code\">job2</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idneeds",
+        "multipleSelect": false
+    },
+    {
+        "id": 49,
+        "text": "Which is true about <code class=\"inline-code\">Starter Workflows</code> ? (Select three.)",
+        "options": [
+            {
+                "id": "a",
+                "text": "They allow users to leverage ready-to-use (or requiring minimal changes) workflow templates",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "GitHub provides and maintains starter workflows for different categories, languages and tooling",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Your organization can create custom starter workflows for users in your organization",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Starter workflows cannot call reusable workflows",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "e",
+                "text": "Starter workflows are a paid GitHub feature",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "f",
+                "text": "Starter workflows are provided ready-to-use and cannot be modified or enhanced\n> https://docs.github.com/en/actions/using-workflows/using-starter-workflows#using-starter-workflows",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a",
+            "b",
+            "c"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/creating-starter-workflows-for-your-organization",
+        "multipleSelect": true
+    },
+    {
+        "id": 50,
+        "text": "Secrets and configuration variables can be scoped to: (Select three.)",
+        "options": [
+            {
+                "id": "a",
+                "text": "The entire organization, or selected repositories in an organization",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "A single repository",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "An environment in a repository",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "An environment shared across multiple repositories\n> Environments cannot be shared across repositories",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "e",
+                "text": "Multiple repositories that do not share an organization/enterprise",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "f",
+                "text": "A specific workflow in a repository\n> Environment variables can be scoped to a workflow, configuration variables cannot",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a",
+            "b",
+            "c"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/sharing-workflows-secrets-and-runners-with-your-organization#sharing-secrets-and-variables-within-an-organization",
+        "multipleSelect": true
+    },
+    {
+        "id": 51,
+        "text": "What are the three types of Actions?",
+        "options": [
+            {
+                "id": "a",
+                "text": "<code class=\"inline-code\">Docker container actions</code>, <code class=\"inline-code\">JavaScript Actions</code>, <code class=\"inline-code\">Composite Actions</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "<code class=\"inline-code\">Python Actions</code>, <code class=\"inline-code\">JavaScript Actions</code>, <code class=\"inline-code\">Custom Actions</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "<code class=\"inline-code\">Docker container Actions</code>, <code class=\"inline-code\">JavaScript Actions</code>, <code class=\"inline-code\">Custom Actions</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "<code class=\"inline-code\">Docker container actions</code>, <code class=\"inline-code\">Java Actions</code>, <code class=\"inline-code\">Composite Actions</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/creating-actions/about-custom-actions#types-of-actions",
+        "multipleSelect": false
+    },
+    {
+        "id": 52,
+        "text": "Is this statement true? <code class=\"inline-code\">Docker container actions are usually slower than JavaScript actions</code>",
+        "options": [
+            {
+                "id": "a",
+                "text": "True",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "False\n> Because of the latency to build and retrieve the container, Docker container actions are slower than JavaScript actions.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "",
+        "multipleSelect": false
+    },
+    {
+        "id": 53,
+        "text": "When creating a custom GitHub Action you have to store the source code in <code class=\"inline-code\">.github/workflows</code> directory",
+        "options": [
+            {
+                "id": "a",
+                "text": "False",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "True\n> That is true for <code class=\"inline-code\">workflows</code>, not for <code class=\"inline-code\">actions</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/creating-actions/about-custom-actions#choosing-a-location-for-your-action",
+        "multipleSelect": false
+    },
+    {
+        "id": 54,
+        "text": "When creating custom GitHub Actions - in what file does all the action <code class=\"inline-code\">metadata</code> have to be defined?",
+        "options": [
+            {
+                "id": "a",
+                "text": "In the <code class=\"inline-code\">action.yml</code> or <code class=\"inline-code\">action.yaml</code> file in the action repository",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "In the repository <code class=\"inline-code\">README</code> file\n> While it's good practice to do that, it's not a requirement for the action to work",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "It's edited in GitHub Marketplace UI when published for sharing",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "In the <code class=\"inline-code\">action.yml</code> or <code class=\"inline-code\">action.yaml</code> file in the action repository, but it is not required if the action is not meant to be shared and used by the public\n> All actions require the metadata file.",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/creating-actions/metadata-syntax-for-github-actions",
+        "multipleSelect": false
+    },
+    {
+        "id": 55,
+        "text": "A workflow was initially run on <code class=\"inline-code\">commit A</code> and failed. You fixed the workflow with the subsequent <code class=\"inline-code\">commit B</code>. When you re-run that workflow it will run with code from which commit?",
+        "options": [
+            {
+                "id": "a",
+                "text": "It will run with code from <code class=\"inline-code\">commit A</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "It will run with code from <code class=\"inline-code\">commit B</code>\n> Re-running a workflow uses the same commit SHA and Git ref of the original event that triggered the workflow run.",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "You cannot re-run workflows in GitHub Actions. You have to trigger a new workflow which will run with latest changes",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "It will trigger two workflows, one with code from <code class=\"inline-code\">commit A</code> and one with code from <code class=\"inline-code\">commit B</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/managing-workflow-runs/re-running-workflows-and-jobs#about-re-running-workflows-and-jobs",
+        "multipleSelect": false
+    },
+    {
+        "id": 56,
+        "text": "How can you require manual approvals by a maintainer if the workflow run is targeting the <code class=\"inline-code\">production</code> environment?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Using deployment protection rules",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Setting the required reviewers in the <code class=\"inline-code\">production</code> workflow",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "Using branch protection rules",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Manual approvals are not supported by GitHub Actions",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/deployment/targeting-different-environments/using-environments-for-deployment",
+        "multipleSelect": false
+    },
+    {
+        "id": 57,
+        "text": "Which is true about environments?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Each job in a workflow can reference a single environment.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Each workflow can reference a single environment.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Each job in a workflow can reference a maximum of two environments.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Each workflow can reference a maximum of two environments.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "",
+        "multipleSelect": false
+    },
+    {
+        "id": 58,
+        "text": "When using GitHub Actions to access resources in one of the cloud providers (such as AWS, Azure or GCP) the safest and recommended way to authenticate is",
+        "options": [
+            {
+                "id": "a",
+                "text": "Using OIDC",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Using Vault",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Storing access keys in <code class=\"inline-code\">secrets</code>\n> Using long lasting access keys is not recommended in case of any security leaks or attacks such as [script injection](https://docs.github.com/en/actions/security-guides/security-hardening-for-github-actions#understanding-the-risk-of-script-injections)",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "Storing access keys in <code class=\"inline-code\">variables</code>\n> No sensitive values should be stored in <code class=\"inline-code\">variables</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/deployment/security-hardening-your-deployments/about-security-hardening-with-openid-connect",
+        "multipleSelect": false
+    },
+    {
+        "id": 59,
+        "text": "Your open-source publicly available repository contains a workflow with a <code class=\"inline-code\">pull_request</code> event trigger. How can you require approvals for workflow runs triggered from forks of your repository?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Setup required approvals for fork runs in the repository",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Setup deployment protection rules for the repository\n> Deployment protection rules are used for protecting environments",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Setup branch protection rules for the repository",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "The workflow will not trigger for forks if using <code class=\"inline-code\">pull_request</code> event. If you want to do that you should use <code class=\"inline-code\">fork_pull_request</code> event trigger with <code class=\"inline-code\">require-approval</code> flag.",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/managing-workflow-runs/approving-workflow-runs-from-public-forks#about-workflow-runs-from-public-forks",
+        "multipleSelect": false
+    },
+    {
+        "id": 60,
+        "text": "Which of the following default environment variables contains the name of the person or app that initiated the workflow run?",
+        "options": [
+            {
+                "id": "a",
+                "text": "<code class=\"inline-code\">GITHUB_USER</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "<code class=\"inline-code\">GITHUB_REPOSITORY</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "<code class=\"inline-code\">GITHUB_WORKFLOW</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "<code class=\"inline-code\">GITHUB_ACTOR</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "d"
+        ],
+        "explanation": "https://docs.github.com/en/actions/reference/environment-variables#default-environment-variables",
+        "multipleSelect": false
+    },
+    {
+        "id": 61,
+        "text": "Which of the following are default environment variables in GitHub Actions? (Select three.)",
+        "options": [
+            {
+                "id": "a",
+                "text": "<code class=\"inline-code\">GITHUB_REPOSITORY</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "<code class=\"inline-code\">GITHUB_WORKFLOW</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "<code class=\"inline-code\">GITHUB_ACTOR</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "<code class=\"inline-code\">GITHUB_USER</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "e",
+                "text": "<code class=\"inline-code\">GITHUB_ORGANIZATION</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "f",
+                "text": "<code class=\"inline-code\">GITHUB_TOKEN</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "a",
+            "b",
+            "c"
+        ],
+        "explanation": "https://docs.github.com/en/actions/reference/environment-variables#default-environment-variables",
+        "multipleSelect": true
+    },
+    {
+        "id": 62,
+        "text": "Your organization defines a secret <code class=\"inline-code\">SomeSecret</code>, however when you reference that secret in a workflow using <code class=\"inline-code\">${{ secrets.SomeSecret }}</code> it provides a different value than expected. What may be the reason for that?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The secret <code class=\"inline-code\">SomeSecret</code> is also declared in repository scope",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "The secret <code class=\"inline-code\">SomeSecret</code> is also declared in enterprise scope\n> If a secret with the same name exists at multiple levels, the secret at the lowest level takes precedence.",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "<code class=\"inline-code\">${{ secrets.SomeSecret }}</code> expression is only used for repository scoped secrets",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "You need to use the GitHub API to access organization scoped secrets",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions#naming-your-secrets",
+        "multipleSelect": false
+    },
+    {
+        "id": 63,
+        "text": "Which is a correct way to print a debug message?",
+        "options": [
+            {
+                "id": "a",
+                "text": "<code class=\"inline-code\">echo \"::debug::Watch out here!\"</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "<code class=\"inline-code\">echo \":debug:Watch out here!\"</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "<code class=\"inline-code\">echo \"::debug::message=Watch out here!\"</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "<code class=\"inline-code\">echo \"Watch out here!\" >> $GITHUB_DEBUG</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#example-setting-a-debug-message",
+        "multipleSelect": false
+    },
+    {
+        "id": 64,
+        "text": "How can organizations which are using GitHub Enterprise Server enable automatic syncing of third party GitHub Actions hosted on GitHub.com to their GitHub Enterprise Server instance?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Using GitHub Connect",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "GitHub Enterprise Server has access to all GitHub.com Actions by default\n> GitHub Actions on GitHub Enterprise Server is designed to work in environments without full internet access. By default, workflows cannot use actions from GitHub.com and GitHub Marketplace.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Using actions-sync tool\n> https://docs.github.com/en/enterprise-server@3.6/admin/github-actions/managing-access-to-actions-from-githubcom/manually-syncing-actions-from-githubcom#about-the-actions-sync-tool",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "GitHub Enterprise Server cannot use GitHub.com Actions because of it's on-premise nature and no internet access",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/enterprise-server@3.6/admin/github-actions/managing-access-to-actions-from-githubcom/enabling-automatic-access-to-githubcom-actions-using-github-connect",
+        "multipleSelect": false
+    },
+    {
+        "id": 65,
+        "text": "Where can you find network connectivity logs for a GitHub self-hosted-runner?",
+        "options": [
+            {
+                "id": "a",
+                "text": "In the <code class=\"inline-code\">_diag</code> folder directly on the runner machine",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "On GitHub.com on that specific Runner's page",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "In the job run logs of a job that ran on that Runner",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "In the job run logs of a job that ran on that Runner with debug logging enabled",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/monitoring-and-troubleshooting-self-hosted-runners#checking-self-hosted-runner-network-connectivity",
+        "multipleSelect": false
+    },
+    {
+        "id": 66,
+        "text": "How can you validate that your GitHub self-hosted-runner can access all required GitHub services?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Using a GitHub provided script on the runner machine",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "By trying to access the runner machine by <code class=\"inline-code\">ssh</code> to validate the network connectivity",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "By using the predefined GitHub Actions workflow <code class=\"inline-code\">network-connectivity.yml</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "GitHub will validate the network connectivity automatically when the runner application is installed on the runner machine",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/monitoring-and-troubleshooting-self-hosted-runners#checking-self-hosted-runner-network-connectivity",
+        "multipleSelect": false
+    },
+    {
+        "id": 67,
+        "text": "Which is the correct way of triggering a job only if configuration variable <code class=\"inline-code\">MY_VAR</code> has the value of <code class=\"inline-code\">MY_VALUE</code>?",
+        "options": [
+            {
+                "id": "a",
+                "text": "<pre><code class='language-yaml'>my-job:\n    if: ${{ vars.MY_VAR == 'MY_VALUE' }}</code></pre>",
+                "isCodeBlock": true,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "<pre><code class='language-yaml'>my-job:\n    if: ${{ vars.MY_VAR }} == 'MY_VALUE'</code></pre>",
+                "isCodeBlock": true,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "It's not possible because configuration variables cannot be used in <code class=\"inline-code\">if</code> conditionals\n> That is true for <code class=\"inline-code\">secrets</code> but not for configuration variables",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "It's not possible because configuration variables cannot be used in job level <code class=\"inline-code\">if</code> conditionals\n> That is true for <code class=\"inline-code\">secrets</code> but not for configuration variables",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/learn-github-actions/contexts#example-usage-of-the-vars-context",
+        "multipleSelect": false
+    },
+    {
+        "id": 68,
+        "text": "To run a <code class=\"inline-code\">step</code> only if the secret <code class=\"inline-code\">MY_SECRET</code> has been set, you can:",
+        "options": [
+            {
+                "id": "a",
+                "text": "<pre><code class='language-yaml'>my-job:\n    runs-on: ubuntu-latest\n    env:\n      my_secret: ${{ secrets.MY_SECRET }}\n    steps:\n      - if: ${{ env.my_secret != '' }}</code></pre>",
+                "isCodeBlock": true,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "<pre><code class='language-yaml'>my-job:\n    runs-on: ubuntu-latest\n    if: ${{ secrets.MY_SECRET == '' }}</code></pre>",
+                "isCodeBlock": true,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "<pre><code class='language-yaml'>my-job:\n    runs-on: ubuntu-latest\n    steps:\n      - if: ${{ secrets.MY_SECRET == '' }}</code></pre>",
+                "isCodeBlock": true,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "<pre><code class='language-yaml'>my-job:\n    runs-on: ubuntu-latest\n    steps:\n      - if: ${{ secrets.MY_SECRET }}</code></pre>",
+                "isCodeBlock": true,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#example-using-secrets",
+        "multipleSelect": false
+    },
+    {
+        "id": 69,
+        "text": "How can you use the GitHub API to download workflow run logs?",
+        "options": [
+            {
+                "id": "a",
+                "text": "<code class=\"inline-code\">GET /repos/{owner}/{repo}/actions/runs/{run_id}/logs</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "<code class=\"inline-code\">POST /repos/{owner}/{repo}/actions/runs/{run_id}/logs</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "<code class=\"inline-code\">HEAD /repos/{owner}/{repo}/actions/runs/{run_id}/logs</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "<code class=\"inline-code\">PUT /repos/{owner}/{repo}/actions/runs/{run_id}/logs</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/rest/actions/workflow-runs?apiVersion=2022-11-28#download-workflow-run-logs",
+        "multipleSelect": false
+    },
+    {
+        "id": 70,
+        "text": "How can you use the GitHub API to create or update a repository secret?",
+        "options": [
+            {
+                "id": "a",
+                "text": "<code class=\"inline-code\">PUT /repos/{owner}/{repo}/actions/secrets/{secret_name}</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "<code class=\"inline-code\">POST /repos/{owner}/{repo}/actions/secrets/{secret_name}</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "<code class=\"inline-code\">HEAD /repos/{owner}/{repo}/actions/secrets/{secret_name}</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "<code class=\"inline-code\">GET /repos/{owner}/{repo}/actions/secrets/{secret_name}</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/rest/actions/secrets?create-or-update-a-repository-secret=&apiVersion=2022-11-28#create-or-update-a-repository-secret",
+        "multipleSelect": false
+    },
+    {
+        "id": 71,
+        "text": "How can you override an organization-level GitHub Secret <code class=\"inline-code\">API_KEY</code> with a different value when working within a repository? (Select two.)",
+        "options": [
+            {
+                "id": "a",
+                "text": "By creating a repository secret with the same name <code class=\"inline-code\">API_KEY</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "By creating a environment secret with the same name <code class=\"inline-code\">API_KEY</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "By creating a enterprise secret with the same name <code class=\"inline-code\">API_KEY</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "By creating a enterprise secret with the name <code class=\"inline-code\">OVERRIDE_API_KEY</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "e",
+                "text": "By creating a repository secret with the name <code class=\"inline-code\">OVERRIDE_API_KEY</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "f",
+                "text": "By creating a environment secret with the name <code class=\"inline-code\">OVERRIDE_API_KEY</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "a",
+            "b"
+        ],
+        "explanation": "https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions#naming-your-secrets",
+        "multipleSelect": true
+    },
+    {
+        "id": 72,
+        "text": "What components can be reused within a GitHub Organization? (Select four.)",
+        "options": [
+            {
+                "id": "a",
+                "text": "Secrets",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Configuration Variables",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Self Hosted Runners",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Workflow Templates",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "e",
+                "text": "Artifacts\n> Artifacts are used to preserve data after a job has completed and/or share that data with another job within the same workflow.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "f",
+                "text": "Cache\n> Cache can be reused across workflows within one repository",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a",
+            "b",
+            "c",
+            "d"
+        ],
+        "explanation": "",
+        "multipleSelect": true
+    },
+    {
+        "id": 73,
+        "text": "How many jobs will be executed in the following workflow?",
+        "options": [
+            {
+                "id": "a",
+                "text": "5",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "4",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "6",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "7",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-jobs/using-a-matrix-for-your-jobs#using-a-matrix-strategy",
+        "multipleSelect": false
+    },
+    {
+        "id": 74,
+        "text": "Which of the following default environment variables contains the full name (e.g <code class=\"inline-code\">octocat/hello-world</code>) of the repository where the workflow is running?",
+        "options": [
+            {
+                "id": "a",
+                "text": "<code class=\"inline-code\">GITHUB_REPOSITORY</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "<code class=\"inline-code\">GITHUB_REPOSITORY_ID</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "<code class=\"inline-code\">GITHUB_REPOSITORY_OWNER</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "<code class=\"inline-code\">GITHUB_REPOSITORY_OWNER_ID</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/reference/environment-variables#default-environment-variables",
+        "multipleSelect": false
+    },
+    {
+        "id": 75,
+        "text": "In a workflow that has multiple jobs, all running on GitHub-hosted runners, is it true that all jobs are guaranteed to run on the same runner machine?",
+        "options": [
+            {
+                "id": "a",
+                "text": "No",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Yes\n> Each job runs in a fresh instance of a runner image specified by runs-on",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-jobs/choosing-the-runner-for-a-job#choosing-github-hosted-runners",
+        "multipleSelect": false
+    },
+    {
+        "id": 76,
+        "text": "What's the maximum amount of reusable workflows that can be called from a single workflow file?",
+        "options": [
+            {
+                "id": "a",
+                "text": "20",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "5",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "1",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "10",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/reusing-workflows#limitations",
+        "multipleSelect": false
+    },
+    {
+        "id": 77,
+        "text": "What is a self-hosted runner?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A self-hosted runner is a system that you deploy and manage to execute jobs from GitHub Actions on GitHub.com",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "A self-hosted runner is a system to upload code to a private server",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "A self-hosted runner is a system to be able to create workloads automatically",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "A self-hosted runner is a system to manage pull requests from users of the organization",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/about-self-hosted-runners",
+        "multipleSelect": false
+    },
+    {
+        "id": 78,
+        "text": "Which of the following is a correct statement about GitHub Workflows and Actions?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Each action is composed of one or more workflows which is composed of one or more jobs, and each job is composed of one or more step",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Each workflow is composed of one or more action which is composed of one or more jobs, and each job is composed of one or more step",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Each workflow is composed of one or more job which is composed of one or more step, and each step is an action or a script",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Each action is composed of one or more job which is composed of one or more step, and each step is a workflow",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "c"
+        ],
+        "explanation": "https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions",
+        "multipleSelect": false
+    },
+    {
+        "id": 79,
+        "text": "On which commit and branch do scheduled workflows run in GitHub Actions?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Scheduled workflows run on the specific commit on last modified branch.\n   > incorrect, both specific commit and on last modified branch",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Scheduled workflows run on the specific commit on the main branch.\n   > incorrect, both specific commit and main branch",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Scheduled workflows run on the latest commit on the repository default branch.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Scheduled workflows run on the latest commit on the main branch.\n   > latest commit is correct but the main branch is not",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "c"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule",
+        "multipleSelect": false
+    },
+    {
+        "id": 80,
+        "text": "What is the correct syntax for setting the directory for all <code class=\"inline-code\">run</code> commands in a workflow?",
+        "options": [
+            {
+                "id": "a",
+                "text": "<pre><code class='language-yaml'>defaults:\n        run:\n            shell: bash\n            working-directory: ./scripts</code></pre>",
+                "isCodeBlock": true,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "<pre><code class='language-yaml'>defaults:\n        run:\n            shell: bash\n            directory: ./scripts</code></pre>",
+                "isCodeBlock": true,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "<pre><code class='language-yaml'>defaults:\n        run:\n            shell: bash\n    job:\n        working-directory: ./scripts</code></pre>",
+                "isCodeBlock": true,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "<pre><code class='language-yaml'>defaults:\n        run:\n            shell: bash\n    job:\n        directory: ./scripts</code></pre>",
+                "isCodeBlock": true,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#defaultsrunworking-directory",
+        "multipleSelect": false
+    },
+    {
+        "id": 81,
+        "text": "How can you reuse a defined workflow in multiple repositories? (Choose two.)",
+        "options": [
+            {
+                "id": "a",
+                "text": "By copying the workflow file to each repository",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "By using workflow templates",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "By creating a reusable action",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "By defining the workflow in a central repository",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "b",
+            "d"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/creating-starter-workflows-for-your-organization",
+        "multipleSelect": true
+    },
+    {
+        "id": 82,
+        "text": "How can you ensure a job runs only on a specific branch?",
+        "options": [
+            {
+                "id": "a",
+                "text": "By using the branches filter",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "By using the runs-on filter",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "By using the jobs filter",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "By using the branch keyword",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#using-filters",
+        "multipleSelect": false
+    },
+    {
+        "id": 83,
+        "text": "What does the <code class=\"inline-code\">needs</code> keyword do in a GitHub Actions workflow?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Specifies the dependencies of a job",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Defines environment variables",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Sets up the environment",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Triggers a job based on an event",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idneeds",
+        "multipleSelect": false
+    },
+    {
+        "id": 84,
+        "text": "Which keyword allows you to define environment variables in a GitHub Actions workflow?",
+        "options": [
+            {
+                "id": "a",
+                "text": "env",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "vars",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "secrets",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "config",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idenv",
+        "multipleSelect": false
+    },
+    {
+        "id": 85,
+        "text": "What is the purpose of the <code class=\"inline-code\">with</code> keyword in a GitHub Actions workflow?",
+        "options": [
+            {
+                "id": "a",
+                "text": "To define environment variables",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "To specify input parameters for an action",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "To set up dependencies",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "To trigger another workflow",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "b"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idstepswith",
+        "multipleSelect": false
+    },
+    {
+        "id": 86,
+        "text": "Which of the following GitHub Actions syntax is used to run multiple commands in a single step?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Using && to chain commands",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Defining commands in an array",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Using a multiline string with |",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Separating commands with a semicolon ;",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "c"
+        ],
+        "explanation": "https://docs.github.com/en/enterprise-cloud@latest/actions/using-workflows/workflow-commands-for-github-actions#example-of-a-multiline-string",
+        "multipleSelect": false
+    },
+    {
+        "id": 87,
+        "text": "How can you cache dependencies to speed up workflow execution?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Using the cache keyword",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Using the actions/cache action",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "By storing them in the repository",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "By using the store keyword",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "b"
+        ],
+        "explanation": "https://docs.github.com/en/enterprise-cloud@latest/actions/using-workflows/caching-dependencies-to-speed-up-workflows#about-caching-workflow-dependencies",
+        "multipleSelect": false
+    },
+    {
+        "id": 88,
+        "text": "What does the <code class=\"inline-code\">matrix</code> keyword do in a GitHub Actions workflow?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Allows defining multiple job configurations to run in parallel",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Sets environment variables for the job",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Triggers workflows based on a schedule",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Defines secrets for the workflow",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/enterprise-cloud@latest/actions/using-jobs/using-a-matrix-for-your-jobs",
+        "multipleSelect": false
+    },
+    {
+        "id": 89,
+        "text": "Which of the following can be used to limit the number of concurrent jobs running in a GitHub Actions workflow?",
+        "options": [
+            {
+                "id": "a",
+                "text": "concurrency",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "limit",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "max-jobs",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "parallelism",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/enterprise-cloud@latest/actions/using-jobs/using-concurrency",
+        "multipleSelect": false
+    },
+    {
+        "id": 90,
+        "text": "What is the default timeout for a GitHub Actions job?",
+        "options": [
+            {
+                "id": "a",
+                "text": "30 minutes",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "60 minutes",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "120 minutes",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "360 minutes",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "d"
+        ],
+        "explanation": "https://docs.github.com/en/actions/learn-github-actions/usage-limits-billing-and-administration#usage-limits",
+        "multipleSelect": false
+    },
+    {
+        "id": 91,
+        "text": "How can you specify the operating system for a job in GitHub Actions?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Using the os keyword",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Using the runs-on keyword",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Using the platform keyword",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Using the env keyword",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "b"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idruns-on",
+        "multipleSelect": false
+    },
+    {
+        "id": 92,
+        "text": "In a GitHub Actions workflow, how do you specify a specific version of Node.js to use in a job?",
+        "options": [
+            {
+                "id": "a",
+                "text": "<pre><code class='language-yaml'>uses: actions/setup-node@v4\n  with:\n    node-version: 20</code></pre>",
+                "isCodeBlock": true,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "<pre><code class='language-yaml'>uses: actions/node-setup@v4\n  with:\n    node-version: 20</code></pre>",
+                "isCodeBlock": true,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "<pre><code class='language-yaml'>uses: setup-node@v4\n  with:\n    version: 20</code></pre>",
+                "isCodeBlock": true,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "<pre><code class='language-yaml'>uses: setup-node@v4\n  with:\n    node: 20</code></pre>",
+                "isCodeBlock": true,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs#specifying-the-nodejs-version",
+        "multipleSelect": false
+    },
+    {
+        "id": 93,
+        "text": "How do you reference a secret stored in GitHub Secrets in a workflow?",
+        "options": [
+            {
+                "id": "a",
+                "text": "${{ secrets.SECRET_NAME }}",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "${{ secret.SECRET_NAME }}",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "${{ env.SECRET_NAME }}",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "${{ config.SECRET_NAME }}",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions#using-secrets-in-a-workflow",
+        "multipleSelect": false
+    },
+    {
+        "id": 94,
+        "text": "What is the default shell used by GitHub Actions on Windows runners?",
+        "options": [
+            {
+                "id": "a",
+                "text": "bash",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "sh",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "powershell",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "cmd",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "c"
+        ],
+        "explanation": "https://github.blog/changelog/2019-10-17-github-actions-default-shell-on-windows-runners-is-changing-to-powershell/",
+        "multipleSelect": false
+    },
+    {
+        "id": 95,
+        "text": "Which of the following statements are true about adding a self-hosted runner in GitHub Actions? (Choose three.)",
+        "options": [
+            {
+                "id": "a",
+                "text": "You can add a self-hosted runner to a repository",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "You can add a self-hosted runner to an organization",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "You can add a self-hosted runner to an enterprise",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "You can add a self-hosted runner to a workflow\n> You can't add to workflow level",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "e",
+                "text": "You can add a self-hosted runner to a step\n> You can't add to step level",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a",
+            "b",
+            "c"
+        ],
+        "explanation": "https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/adding-self-hosted-runners#adding-a-self-hosted-runner-to-a-repository",
+        "multipleSelect": true
+    },
+    {
+        "id": 96,
+        "text": "Select the default environment variable that contains the operating system of the runner executing the job",
+        "options": [
+            {
+                "id": "a",
+                "text": "<code class=\"inline-code\">RUNNER_OS</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "<code class=\"inline-code\">GITHUB_RUNNER_OS</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "<code class=\"inline-code\">RUNNER_ARCH</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "<code class=\"inline-code\">RUNNER_NAME</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/learn-github-actions/variables#default-environment-variables",
+        "multipleSelect": false
+    },
+    {
+        "id": 97,
+        "text": "How does the <code class=\"inline-code\">actions/cache</code> action in GitHub Actions handle a cache miss?",
+        "options": [
+            {
+                "id": "a",
+                "text": "by requiring manual intervention to create a new cache",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "by searching for a cache in other repositories",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "by automatically creating a new cache if the job is completed successfully",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "by terminating the workflow if a cache miss occurs",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "c"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/caching-dependencies-to-speed-up-workflows#managing-caches",
+        "multipleSelect": false
+    },
+    {
+        "id": 98,
+        "text": "How can you specify the schedule of a GitHub actions workflow to run on weekdays only?",
+        "options": [
+            {
+                "id": "a",
+                "text": "add a condition in the workflow YAML for weekdays",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "it is not possible in GitHub actions",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "use the on: schedule: weekdays event trigger",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "use the on: schedule: cron event trigger",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "d"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule",
+        "multipleSelect": false
+    },
+    {
+        "id": 99,
+        "text": "What is the recommended approach for storing secrets larger than 48 KB?",
+        "options": [
+            {
+                "id": "a",
+                "text": "avoid storing large secrets entirely to ensure security",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "secrets larger than 48 KB cannot be stored",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "encrypt and store secrets in the repository but keep the decryption passphrase as a secret",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "store large secrets directly as repository secrets to avoid limitations",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "c"
+        ],
+        "explanation": "https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions#limits-for-secrets",
+        "multipleSelect": false
+    },
+    {
+        "id": 100,
+        "text": "Select status check functions in GitHub Actions",
+        "options": [
+            {
+                "id": "a",
+                "text": "<code class=\"inline-code\">success()</code>, <code class=\"inline-code\">always()</code>, <code class=\"inline-code\">cancelled()</code> and <code class=\"inline-code\">failure()</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "<code class=\"inline-code\">completed()</code>, <code class=\"inline-code\">always()</code>, <code class=\"inline-code\">cancelled()</code> and <code class=\"inline-code\">failure()</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "<code class=\"inline-code\">status()</code>, <code class=\"inline-code\">always()</code>, <code class=\"inline-code\">cancelled()</code> and <code class=\"inline-code\">failure()</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "<code class=\"inline-code\">state()</code>, <code class=\"inline-code\">always()</code>, <code class=\"inline-code\">cancelled()</code> and <code class=\"inline-code\">failure()</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/learn-github-actions/expressions#status-check-functions",
+        "multipleSelect": false
+    },
+    {
+        "id": 101,
+        "text": "How do you ensure that <code class=\"inline-code\">Upload Failure test report</code> step is executed only if <code class=\"inline-code\">Run Tests</code> step fails?",
+        "options": [
+            {
+                "id": "a",
+                "text": "<pre><code class='language-yaml'>- name: Run Tests\n      id: run-tests\n      run: npm run test\n\n    - name: Upload Failure test report\n      if: failure() && steps.run-tests.outcome == 'failure'\n      run: actions/upload-artifact@v3\n      with:\n        name: test-report\n        path: test-reports.html</code></pre>",
+                "isCodeBlock": true,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "<pre><code class='language-yaml'>- name: Run Tests\n      id: run-tests\n      run: npm run test\n\n    - name: Upload Failure test report\n      if: always() && steps.run-tests.outcome == 'failure'\n      run: actions/upload-artifact@v3\n      with:\n        name: test-report\n        path: test-reports.html</code></pre>",
+                "isCodeBlock": true,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "<pre><code class='language-yaml'>- name: Run Tests\n      id: run-tests\n      run: npm run test\n\n    - name: Upload Failure test report\n      if: steps.run-tests.outcome == 'failure'\n      run: actions/upload-artifact@v3\n      with:\n        name: test-report\n        path: test-reports.html</code></pre>",
+                "isCodeBlock": true,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "<pre><code class='language-yaml'>- name: Run Tests\n      id: run-tests\n      run: npm run test\n\n    - name: Upload Failure test report\n      run: actions/upload-artifact@v3\n      with:\n        name: test-report\n        path: test-reports.html</code></pre>",
+                "isCodeBlock": true,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/learn-github-actions/expressions#status-check-functions",
+        "multipleSelect": false
+    },
+    {
+        "id": 102,
+        "text": "Which context holds information about the event that triggered a workflow run?",
+        "options": [
+            {
+                "id": "a",
+                "text": "<code class=\"inline-code\">github.event</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "<code class=\"inline-code\">github.repository</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "<code class=\"inline-code\">github.job</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "<code class=\"inline-code\">jobs.<job_id>.result</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/triggering-a-workflow#using-event-information",
+        "multipleSelect": false
+    },
+    {
+        "id": 103,
+        "text": "In GitHub Actions, if you define both branches and paths filter, what is the effect on the workflow execution?",
+        "options": [
+            {
+                "id": "a",
+                "text": "the workflow will only run when both <code class=\"inline-code\">branches</code> and <code class=\"inline-code\">paths</code> are satisfied",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "the workflow will run when either <code class=\"inline-code\">branches</code> or <code class=\"inline-code\">paths</code> are satisfied, but will only apply the matching filter",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "the workflow will run when either <code class=\"inline-code\">branches</code> or <code class=\"inline-code\">paths</code> are satisfied",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "the workflow will not run when both <code class=\"inline-code\">branches</code> and <code class=\"inline-code\">paths</code> are satisfied",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#onpull_requestpull_request_targetbranchesbranches-ignore",
+        "multipleSelect": false
+    },
+    {
+        "id": 104,
+        "text": "What is the recommended practice for treating environment variables in GitHub Actions, regardless of the operating system and shell used?",
+        "options": [
+            {
+                "id": "a",
+                "text": "treat environment variables as case-sensitive",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "use only uppercase letters for environment variable names",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "ignore case sensitivity as GitHub Actions handles it automatically",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "depend on the behavior of the operating system in use",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/writing-workflows/choosing-what-your-workflow-does/workflow-commands-for-github-actions#setting-an-environment-variable",
+        "multipleSelect": false
+    },
+    {
+        "id": 105,
+        "text": "Which of the following statements accurately describes the behavior of workflow jobs referencing an environment's protection rules?",
+        "options": [
+            {
+                "id": "a",
+                "text": "workflow jobs won't start until all the environment's protection rules pass",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "workflow jobs will never start if the environment has protection rules",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "workflow jobs will start immediately, regardless of the environment's protection rules",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "workflow jobs will only start if some of the environment's protection rules pass",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/deployment/targeting-different-environments/using-environments-for-deployment",
+        "multipleSelect": false
+    },
+    {
+        "id": 106,
+        "text": "What is the purpose of the <code class=\"inline-code\">restore-keys</code> parameter in <code class=\"inline-code\">actions/cache</code> in GitHub Actions?",
+        "options": [
+            {
+                "id": "a",
+                "text": "provide alternative keys to use in case of a cache miss",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "indicate whether a cache hit occurred",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "specify the location of the cached files",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "enable cross-OS cache functionality",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/caching-dependencies-to-speed-up-workflows#managing-caches",
+        "multipleSelect": false
+    },
+    {
+        "id": 107,
+        "text": "Which variable would you set to <code class=\"inline-code\">true</code> in order to enable step debug logging?",
+        "options": [
+            {
+                "id": "a",
+                "text": "<code class=\"inline-code\">ACTIONS_STEP_DEBUG</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "<code class=\"inline-code\">ACTIONS_JOB_DEBUG</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "<code class=\"inline-code\">ACTIONS_RUNNER_DEBUG</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "<code class=\"inline-code\">ACTIONS_WORKFLOW_DEBUG</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/monitoring-and-troubleshooting-workflows/enabling-debug-logging",
+        "multipleSelect": false
+    },
+    {
+        "id": 108,
+        "text": "Which configuration is appropriate for triggering a workflow to run on webhook events related to check_run actions?",
+        "options": [
+            {
+                "id": "a",
+                "text": "<pre><code class='language-yaml'>on:\n    check_run:\n        types: [rerequested, completed]</code></pre>",
+                "isCodeBlock": true,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "<pre><code class='language-yaml'>on:\n    check_run:\n        types: [started]</code></pre>",
+                "isCodeBlock": true,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "<pre><code class='language-yaml'>on:\n    check_run:\n        type: [closed]</code></pre>",
+                "isCodeBlock": true,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "<pre><code class='language-yaml'>on:\n    check_run:\n        filter: [requested]</code></pre>",
+                "isCodeBlock": true,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#check_run",
+        "multipleSelect": false
+    },
+    {
+        "id": 109,
+        "text": "What is the purpose of the <code class=\"inline-code\">timeout-minutes</code> keyword in a step?",
+        "options": [
+            {
+                "id": "a",
+                "text": "it limits the execution time for individual step",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "it defines the time interval for individual commands within a step",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "it sets the timeout for waiting on external events before proceeding to the next step",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "it specifies the maximum duration a job is allowed to run",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idstepstimeout-minutes",
+        "multipleSelect": false
+    },
+    {
+        "id": 110,
+        "text": "Dave is creating a templated workflow for his organization. Where must Dave store the workflow files and associated metadata files for the templated workflow?",
+        "options": [
+            {
+                "id": "a",
+                "text": "inside a directory named <code class=\"inline-code\">workflow-templates</code> within a repository named <code class=\"inline-code\">.github</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "inside a directory named <code class=\"inline-code\">workflow-templates</code> within the current repository",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "inside a directory named <code class=\"inline-code\">.github/org-templates</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "inside a directory named <code class=\"inline-code\">.github/workflow-templates</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/creating-starter-workflows-for-your-organization",
+        "multipleSelect": false
+    },
+    {
+        "id": 111,
+        "text": "Dave wants to be notified when a comment is created on an issue within a GitHub repository. Which event trigger should be used within the workflow configuration?",
+        "options": [
+            {
+                "id": "a",
+                "text": "<code class=\"inline-code\">issue_comment</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "<code class=\"inline-code\">issues.comment</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "<code class=\"inline-code\">issues</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "<code class=\"inline-code\">comment</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#issue_comment",
+        "multipleSelect": false
+    },
+    {
+        "id": 112,
+        "text": "What level of access is required on a GitHub repository in order to delete log files from workflow runs?",
+        "options": [
+            {
+                "id": "a",
+                "text": "write",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "read",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "admin",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "owner",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/monitoring-and-troubleshooting-workflows/using-workflow-run-logs",
+        "multipleSelect": false
+    },
+    {
+        "id": 113,
+        "text": "What is true about the following workflow configuration if triggered against the <code class=\"inline-code\">octo/my-dev-repo</code> repository?",
+        "options": [
+            {
+                "id": "a",
+                "text": "the <code class=\"inline-code\">production-deploy</code> job will be marked as skipped",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "the <code class=\"inline-code\">production-deploy</code> job will error",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "the <code class=\"inline-code\">production-deploy</code> job will execute three steps",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "the <code class=\"inline-code\">production-deploy</code> job will run if the <code class=\"inline-code\">node-version</code> is <code class=\"inline-code\">14</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-jobs/using-conditions-to-control-job-execution",
+        "multipleSelect": false
+    },
+    {
+        "id": 114,
+        "text": "How can you access the current values of variables in a matrix within a job in the example below:",
+        "options": [
+            {
+                "id": "a",
+                "text": "reference variables through the <code class=\"inline-code\">matrix</code> context with syntax like<code class=\"inline-code\">matrix.version</code> and <code class=\"inline-code\">matrix.os</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "by using the <code class=\"inline-code\">matrix.property</code> syntax",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "by using the <code class=\"inline-code\">context</code> keyword within the job configuration",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "by accessing the variables directly with the syntax <code class=\"inline-code\">version</code> and <code class=\"inline-code\">os</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-jobs/using-a-matrix-for-your-jobs#using-a-matrix-strategy",
+        "multipleSelect": false
+    },
+    {
+        "id": 115,
+        "text": "What level of permission is required to re-run the workflows",
+        "options": [
+            {
+                "id": "a",
+                "text": "write",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "read",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "admin",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "owner",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/managing-workflow-runs/re-running-workflows-and-jobs",
+        "multipleSelect": false
+    },
+    {
+        "id": 116,
+        "text": "When can you delete workflow runs? (select two)",
+        "options": [
+            {
+                "id": "a",
+                "text": "When workflow run has been completed",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "When workflow run is two weeks old",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "When workflow run is 10 days old",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "When workflow run is in progress",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a",
+            "b"
+        ],
+        "explanation": "https://docs.github.com/en/actions/managing-workflow-runs/deleting-a-workflow-run",
+        "multipleSelect": true
+    },
+    {
+        "id": 117,
+        "text": "Who can bypass configured deployment protection rules to force deployment (by default)",
+        "options": [
+            {
+                "id": "a",
+                "text": "Repository administrators",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Anyone with repository write permission",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Anyone with repository read permission",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/deployment/targeting-different-environments/using-environments-for-deployment#allow-administrators-to-bypass-configured-protection-rules",
+        "multipleSelect": false
+    },
+    {
+        "id": 118,
+        "text": "How can you skip the following workflow run when you commit or create a PR?",
+        "options": [
+            {
+                "id": "a",
+                "text": "<pre><code class='language-yaml'>[skip ci]\n[ci skip]\n[no ci]\n[skip actions]\n[actions skip]</code></pre>",
+                "isCodeBlock": true,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "Provide <code class=\"inline-code\">SKIP_WORKFLOW</code> in the commit message",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "The above workflow will run in every event of push or pull request in every case",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/managing-workflow-runs/skipping-workflow-runs",
+        "multipleSelect": false
+    },
+    {
+        "id": 119,
+        "text": "How can you determine if an action is a container action by looking at its action.yml file?",
+        "options": [
+            {
+                "id": "a",
+                "text": "<code class=\"inline-code\">runs.using</code> has <code class=\"inline-code\">docker</code> as value",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "<code class=\"inline-code\">runs.using</code> has <code class=\"inline-code\">container</code> as value",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "<code class=\"inline-code\">runs.using</code> has <code class=\"inline-code\">Dockerfile</code> as value",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "<code class=\"inline-code\">runs.main</code> has <code class=\"inline-code\">container</code> as value",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/creating-actions/metadata-syntax-for-github-actions#runs-for-docker-container-actions",
+        "multipleSelect": false
+    },
+    {
+        "id": 120,
+        "text": "What is the correct syntax for specifying a cleanup script in a container action?",
+        "options": [
+            {
+                "id": "a",
+                "text": "<pre><code class='language-yaml'>runs:\n      using: 'docker'\n      image: 'Dockerfile'\n      entrypoint: 'entrypoint.sh'\n      post-entrypoint: 'cleanup.sh'</code></pre>",
+                "isCodeBlock": true,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "<pre><code class='language-yaml'>runs:\n      using: 'docker'\n      image: 'Dockerfile'\n      entrypoint: 'entrypoint.sh'\n      post: 'cleanup.sh'</code></pre>",
+                "isCodeBlock": true,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "<pre><code class='language-yaml'>runs:\n      using: 'docker'\n      image: 'Dockerfile'\n      entrypoint: 'entrypoint.sh'\n      after: 'cleanup.sh'</code></pre>",
+                "isCodeBlock": true,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "<pre><code class='language-yaml'>runs:\n      using: 'docker'\n      image: 'Dockerfile'\n      entrypoint: 'entrypoint.sh'\n      after-entrypoint: 'cleanup.sh'</code></pre>",
+                "isCodeBlock": true,
+                "hasInlineCode": true
+            },
+            {
+                "id": "e",
+                "text": "<pre><code class='language-yaml'>runs:\n      using: 'docker'\n      image: 'Dockerfile'\n      entrypoint: 'entrypoint.sh'\n      cleanup: 'cleanup.sh'</code></pre>",
+                "isCodeBlock": true,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/creating-actions/metadata-syntax-for-github-actions#runspost-entrypoint",
+        "multipleSelect": false
+    },
+    {
+        "id": 121,
+        "text": "What\u2019s true about default variables? (choose three)",
+        "options": [
+            {
+                "id": "a",
+                "text": "Default environment variables are set by GitHub and not defined in a workflow",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Most of the default environment variables have a corresponding context property",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Currently, the value of the default CI environment variable can be overwritten, but it's not guaranteed this will always be possible",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "You can add a new default environment variable adding the prefix \u201cGITHUB_\u201d to it",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "e",
+                "text": "Default environment variables always have the prefix \u201cGITHUB_\u201d",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "f",
+                "text": "Default environment variables can be accessed using the env context",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a",
+            "b",
+            "c"
+        ],
+        "explanation": "https://docs.github.com/en/actions/learn-github-actions/variables#default-environment-variables",
+        "multipleSelect": true
+    },
+    {
+        "id": 122,
+        "text": "What are the scopes defined for custom variables in a workflow? (choose three)",
+        "options": [
+            {
+                "id": "a",
+                "text": "The entire workflow, by using <code class=\"inline-code\">env</code> at the top level of the workflow file",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "The contents of a job within a workflow, by using <code class=\"inline-code\">jobs.<job_id>.env</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "A specific step within a job, by using <code class=\"inline-code\">jobs.<job_id>.steps[*].env</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "All the jobs within a workflow, by using <code class=\"inline-code\">jobs.env</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "e",
+                "text": "The entire workflow, by using <code class=\"inline-code\">custom.env</code> at the top level of the workflow file",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "f",
+                "text": "A specific environment in the repository, by using <code class=\"inline-code\">environment.<environment_id>.env</code> at the top level of the workflow file",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "a",
+            "b",
+            "c"
+        ],
+        "explanation": "https://docs.github.com/en/actions/learn-github-actions/variables#defining-environment-variables-for-a-single-workflow",
+        "multipleSelect": true
+    },
+    {
+        "id": 123,
+        "text": "What must be added to <code class=\"inline-code\">actions/checkout</code> if <code class=\"inline-code\">my-org/my-private-repo</code> is a private repository differing from the one containing the current workflow?",
+        "options": [
+            {
+                "id": "a",
+                "text": "<pre><code class='language-yaml'>with:\n    repository: my-org/my-private-repo\n    path: ./.github/actions/my-org/my-private-repo\n    token: ${{ secrets.MY_ACCESS_TOKEN }}</code></pre>",
+                "isCodeBlock": true,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "<pre><code class='language-yaml'>with:\n    repository: my-org/my-private-repo\n    path: ./.github/actions/my-org/my-private-repo\n    token: ${{ MY_ACCESS_TOKEN }}</code></pre>",
+                "isCodeBlock": true,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "<pre><code class='language-yaml'>with:\n    repository: my-org/my-private-repo\n    path: ./.github/actions/my-org/my-private-repo\n    token: $GITHUB_TOKEN</code></pre>",
+                "isCodeBlock": true,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "<pre><code class='language-yaml'>with:\n    repository: my-org/my-private-repo\n    path: ./.github/actions/my-org/my-private-repo</code></pre>",
+                "isCodeBlock": true,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions#example-using-an-action-inside-a-different-private-repository-than-the-workflow",
+        "multipleSelect": false
+    }
+]
