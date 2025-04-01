@@ -5,6 +5,11 @@ const certifications = {
         name: "Associate Cloud Engineer (GCP ACE)",
         file: "data/gcp-associate.json"
     },
+    "aws-solution-architect": {
+        id: "aws-solution-architect",
+        name: "AWS Solutions Architect Associate (SAA-C03)",
+        file: "data/aws-solution-architect.json"
+    },
     "aws-ai-practitioner": {
         id: "aws-ai-practitioner",
         name: "AWS Certified AI Practitioner (AIF-C01)",
