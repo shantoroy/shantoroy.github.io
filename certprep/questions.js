@@ -7,13 +7,18 @@ const certifications = {
     },
     "aws-solution-architect": {
         id: "aws-solution-architect",
-        name: "AWS Solutions Architect Associate (SAA-C03)",
+        name: "AWS Solutions Architect (SAA-C03)",
         file: "data/aws-solution-architect.json"
     },
     "aws-ai-practitioner": {
         id: "aws-ai-practitioner",
-        name: "AWS Certified AI Practitioner (AIF-C01)",
+        name: "AWS AI Practitioner (AIF-C01)",
         file: "data/aws-ai-practitioner.json"
+    },
+    "aws-cloud-practitioner": {
+        id: "aws-cloud-practitioner",
+        name: "AWS Cloud Practitioner (CLF-C02)",
+        file: "data/aws-cloud-practitioner.json"
     },
     "scrum-developer": {
         id: "scrum-developer",
