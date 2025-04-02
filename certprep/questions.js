@@ -39,6 +39,11 @@ const certifications = {
         id: "github-foundations",
         name: "GitHub Foundations (GitHub Basic)",
         file: "data/github-foundations.json"
+    },
+    "github-security": {
+        id: "github-security",
+        name: "GitHub Advanced Security (GH Security)",
+        file: "data/github-security.json"
     }
 };
 
