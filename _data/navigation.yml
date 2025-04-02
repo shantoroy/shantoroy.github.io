@@ -7,7 +7,7 @@ main:
     url: /about/
   - title: "Resume"
     url: /resume/
-  - title: "CertPrep (Beta)"
+  - title: "CertPrep"
     url: /certprep/
   # - title: "Sample Collections"
   #   url: /collection-archive/
