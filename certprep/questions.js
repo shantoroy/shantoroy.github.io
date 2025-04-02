@@ -34,6 +34,11 @@ const certifications = {
         id: "github-actions",
         name: "GitHub Actions (GitHub CI/CD)",
         file: "data/github-actions.json"
+    },
+    "github-foundations": {
+        id: "github-foundations",
+        name: "GitHub Foundations (GitHub Basic)",
+        file: "data/github-foundations.json"
     }
 };
 

@@ -1,0 +1,5012 @@
+[
+    {
+        "id": 1,
+        "text": "What are the possible GitHub account types? (Select three.)",
+        "options": [
+            {
+                "id": "a",
+                "text": "Personal accounts",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Organization accounts",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Enterprise accounts",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Shared accounts",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "e",
+                "text": "Company accounts",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a",
+            "b",
+            "c"
+        ],
+        "explanation": "https://docs.github.com/en/get-started/learning-about-github/types-of-github-accounts",
+        "multipleSelect": true
+    },
+    {
+        "id": 2,
+        "text": "Which of these GitHub features serves the purpose of an adaptable spreadsheet, task board and a roadmap that integrates with issues and pull requests on GitHub to plan and track your work effectively?",
+        "options": [
+            {
+                "id": "a",
+                "text": "GitHub Project",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "GitHub Copilot",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "GitHub Repository",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "GitHub Organization",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "",
+        "multipleSelect": false
+    },
+    {
+        "id": 3,
+        "text": "How does the synchronization between GitHub projects, issues and pull requests work?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Updates to the issues and pull requests will be automatically reflected in GitHub Projects. This integration works both ways, so that when you change information about a pull request or issue in your project, the pull request or issue reflects that information.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Updates to the issues and pull requests will not be automatically reflected in GitHub Projects, it has to be triggered manually by the user.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Information synchronization only works in one direction - from project to issues and pull requests. Updates to issues and pull requests won't be automatically mirrored in GitHub Project items.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Information synchronization only works in one direction - from issues and pull requests to projects. Updates to Project items won't be automatically mirrored in issues and pull requests.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects#staying-up-to-date",
+        "multipleSelect": false
+    },
+    {
+        "id": 4,
+        "text": "Which of these is true regarding custom fields for items in GitHub Projects?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Custom fields enable the addition of metadata beyond the built-in options, such as target dates and iteration fields.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Custom fields are limited to textual information and cannot include numeric or date-related metadata.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Custom fields are exclusively for aesthetic modifications and do not add any meaningful metadata.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Custom fields are limited to predefined options and cannot include user-defined metadata.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects#adding-metadata-to-your-items",
+        "multipleSelect": false
+    },
+    {
+        "id": 5,
+        "text": "What are the different available options for adding issues and pull requests to a GitHub Project board?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Individually, automatically, or in bulk.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Only manually, one at a time.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Only individually or in bulk",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Only automatically using project workflows",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/issues/planning-and-tracking-with-projects/managing-items-in-your-project/adding-items-to-your-project#adding-issues-and-pull-requests-to-a-project",
+        "multipleSelect": false
+    },
+    {
+        "id": 6,
+        "text": "Which of these layouts are available in GitHub Projects? (Choose three.)",
+        "options": [
+            {
+                "id": "a",
+                "text": "Table layout",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Board layout",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Roadmap layout",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Scrum layout",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "e",
+                "text": "Agile layout",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "f",
+                "text": "Project layout",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a",
+            "b",
+            "c"
+        ],
+        "explanation": "https://docs.github.com/en/issues/planning-and-tracking-with-projects/customizing-views-in-your-project/changing-the-layout-of-a-view",
+        "multipleSelect": true
+    },
+    {
+        "id": 7,
+        "text": "Which GitHub Project layout would best serve as a Kanban board?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Board layout",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Table layout",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Roadmap layout",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Agile layout",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/issues/planning-and-tracking-with-projects/customizing-views-in-your-project/customizing-the-board-layout#about-the-board-layout",
+        "multipleSelect": false
+    },
+    {
+        "id": 8,
+        "text": "Which of these workflows are built-in automations in GitHub Projects? (Choose two.)",
+        "options": [
+            {
+                "id": "a",
+                "text": "When issues or pull requests in your project are closed, their status is set to Done",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "When pull requests in your project are merged, their status is set to Done.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "When issues or pull requests are opened in your project, their status is set to Done.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "When a new contributor is added to a repository, the unassigned issues are assigned to him.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "e",
+                "text": "When a GitHub Action is triggered, create a new item in your GitHub Project.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a",
+            "b"
+        ],
+        "explanation": "https://docs.github.com/en/issues/planning-and-tracking-with-projects/automating-your-project/using-the-built-in-automations",
+        "multipleSelect": true
+    },
+    {
+        "id": 9,
+        "text": "What are the different options that allow you to automate operations in your GitHub Project? (Choose three.)",
+        "options": [
+            {
+                "id": "a",
+                "text": "Project workflows",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "GitHub GraphQL API",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "GitHub Actions",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "GitHub Copilot",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "e",
+                "text": "GitHub Charts",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "f",
+                "text": "GitHub Dependabot",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a",
+            "b",
+            "c"
+        ],
+        "explanation": "https://docs.github.com/en/issues/planning-and-tracking-with-projects/automating-your-project/",
+        "multipleSelect": true
+    },
+    {
+        "id": 10,
+        "text": "What is the difference between GitHub projects and GitHub projects classic?",
+        "options": [
+            {
+                "id": "a",
+                "text": "GitHub Projects is a the new GitHub experience which offers a lot of new features and improvements over the older GitHub Projects classic.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "GitHub Projects classic is a the new GitHub experience which offers a lot of new features and improvements over the older GitHub Projects.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "GitHub Projects classic is simpler way to manage your GitHub Projects and is recommended for beginners.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "GitHub Projects classic is the enhanced versions which in addition to GitHub Projects offers some pre-cooked templates such as roadmaps and sprints.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/issues/organizing-your-work-with-project-boards/managing-project-boards/about-project-boards",
+        "multipleSelect": false
+    },
+    {
+        "id": 11,
+        "text": "What are the use cases for labels?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Categorizing issues and pull requests",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Categorizing files in the repository",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Assigning them to releases so that they are included in the release notes\n> You can't assign labels to releases",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Assigning labels to repository contributors to indicate their role and permissions in the project\n> You can't assign labels to contributors",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels",
+        "multipleSelect": false
+    },
+    {
+        "id": 12,
+        "text": "Why would a repository owner want to use milestones? (Choose two.)",
+        "options": [
+            {
+                "id": "a",
+                "text": "To associate issues and pull requests with specific project phases",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "To have an overview of how much work is left to complete a project phase",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "To bring automation to the repository\n> That's what GitHub Actions is for",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "To communicate that the repository is in a stable state",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "e",
+                "text": "To track the repository dependencies\n> That's what Dependency graph and Dependabot are for",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "f",
+                "text": "To list the repository contributors",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a",
+            "b"
+        ],
+        "explanation": "https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/about-milestones",
+        "multipleSelect": true
+    },
+    {
+        "id": 13,
+        "text": "How can you assign a person to an issue or pull request?",
+        "options": [
+            {
+                "id": "a",
+                "text": "By using the Assignees field in the sidebar",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "By adding a label with their GitHub username to that issue or pull request",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "By mentioning them in the issue or pull request description",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "It's not possible to assign a person to an issue or pull request.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/issues/tracking-your-work-with-issues/assigning-issues-and-pull-requests-to-other-github-users",
+        "multipleSelect": false
+    },
+    {
+        "id": 14,
+        "text": "If you face yourself often writing the same set of comments on issues or pull requests, what GitHub feature would you use to save time?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Saved replies",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Comment templates",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Repository templates",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Labels",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/get-started/writing-on-github/working-with-saved-replies/using-saved-replies",
+        "multipleSelect": false
+    },
+    {
+        "id": 15,
+        "text": "Which of these statements about <code class=\"inline-code\">saved replies</code> are true? (Choose two.)",
+        "options": [
+            {
+                "id": "a",
+                "text": "You can create, edit and delete them in your GitHub account settings in the <code class=\"inline-code\">Saved replies</code> section.",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "Saved replies are comments that you can reuse in issues and pull requests.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "When someone comments on your issue or pull request, you can save their reply and set a notification to remind yourself about responding to it later.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Saved replies are only available to repository owners which can setup automated replies to issues and pull requests.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a",
+            "b"
+        ],
+        "explanation": "https://docs.github.com/en/get-started/writing-on-github/working-with-saved-replies/using-saved-replies",
+        "multipleSelect": true
+    },
+    {
+        "id": 16,
+        "text": "What are some actions you can do in regards to Repository Templates? (Choose two.)",
+        "options": [
+            {
+                "id": "a",
+                "text": "Create a repository template from an existing repository",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Create a new repository from a repository template",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Create an organization from a repository template",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Delete all repositories created from a repository template",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "e",
+                "text": "Delete all repositories that do not use a repository template provided by your organization",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a",
+            "b"
+        ],
+        "explanation": "https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template",
+        "multipleSelect": true
+    },
+    {
+        "id": 17,
+        "text": "Which feature in GitHub Projects enables you to effortlessly generate graphs and charts for visualizing the current status and historical progression of your project?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Project Insights",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "GitHub Actions",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Milestones",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Copilot Charts\n> There is no such thing as Copilot Charts.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/issues/planning-and-tracking-with-projects/viewing-insights-from-your-project/about-insights-for-projects",
+        "multipleSelect": false
+    },
+    {
+        "id": 18,
+        "text": "What is the name of GitHub's continuous integration and continuous delivery (CI/CD) platform?",
+        "options": [
+            {
+                "id": "a",
+                "text": "GitHub Actions",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "GitHub Workflows",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "GitHub Pipelines",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "GitHub Projects",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions",
+        "multipleSelect": false
+    },
+    {
+        "id": 19,
+        "text": "Which of these is a common use case for GitHub Actions?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Running automated tests prior to merging a pull request",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Adding sponsorship button to your project",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Large data processing and analytics",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Training machine learning models",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/automating-builds-and-tests/about-continuous-integration",
+        "multipleSelect": false
+    },
+    {
+        "id": 20,
+        "text": "GitHub Action workflows are triggered by events. Which of these are valid events that GitHub Actions support? (Choose two.)",
+        "options": [
+            {
+                "id": "a",
+                "text": "A commit is pushed to a branch",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "A pull request is opened",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "A change is made to the repository settings",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "A new vulnerability has been detected in a dependency\n> This is not a valid event that could trigger a workflow. It's a feature of Dependabot.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "e",
+                "text": "A new member has been added to the repository",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a",
+            "b"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#about-events-that-trigger-workflows",
+        "multipleSelect": true
+    },
+    {
+        "id": 21,
+        "text": "Where can you find publicly available GitHub Actions?",
+        "options": [
+            {
+                "id": "a",
+                "text": "GitHub Marketplace",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "GitHub Public Action Storage",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "GitHub private repositories",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "GitHub Actions Project Boards",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/actions/creating-actions/publishing-actions-in-github-marketplace",
+        "multipleSelect": false
+    },
+    {
+        "id": 22,
+        "text": "Which of these tools serves as an AI pair programmer that offers autocomplete-style suggestions as you code?",
+        "options": [
+            {
+                "id": "a",
+                "text": "GitHub Copilot",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "GitHub AI Aid",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "GitHub Partner",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "GitHub Assistant",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/copilot/quickstart#introduction",
+        "multipleSelect": false
+    },
+    {
+        "id": 23,
+        "text": "Is GitHub Copilot free to use?",
+        "options": [
+            {
+                "id": "a",
+                "text": "No",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Yes",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Yes, if you are a student, teacher, or maintainer of a popular open source project",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Yes, but only for individuals working on public repositories\n> There is a free trial. However GitHub Copilot is a paid feature even for Individuals.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "c"
+        ],
+        "explanation": "https://docs.github.com/en/copilot/overview-of-github-copilot/about-github-copilot-individual#understanding-the-differences-between-copilot-individual-and-copilot-business",
+        "multipleSelect": false
+    },
+    {
+        "id": 24,
+        "text": "What are the differences between GitHub Copilot Individual and GitHub Copilot Business?",
+        "options": [
+            {
+                "id": "a",
+                "text": "GitHub Copilot Individual can only be used by personal accounts and GitHub Copilot Business is used by organizations and enterprises",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "GitHub Copilot Individual uses an AI model trained on public source code and GitHub Copilot Business uses an AI model trained on private source code",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "GitHub Copilot Individual is free and GitHub Copilot Business is a paid feature",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "GitHub Copilot Individual can only be used when working on public repositories and GitHub Copilot Business can be used when working on public and private repositories within an organization",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/copilot/about-github-copilot/subscription-plans-for-github-copilot",
+        "multipleSelect": false
+    },
+    {
+        "id": 25,
+        "text": "How can you start using GitHub Copilot after activating the GitHub Copilot subscription?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Setup GitHub Copilot in one of the supported IDE's such as Visual Studio Code or JetBrains and start coding",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "GitHub Copilot will automatically start giving suggestions on pull requests and issues in your repository",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "You need to setup a GitHub Action that will setup GitHub Copilot on your repository",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "You need to edit the repository settings and enable GitHub Copilot for the repository",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/copilot/using-github-copilot/getting-started-with-github-copilot",
+        "multipleSelect": false
+    },
+    {
+        "id": 26,
+        "text": "What is a GitHub Codespace?",
+        "options": [
+            {
+                "id": "a",
+                "text": "It's a preconfigured development environment specifically setup for a repository. It allows you immediately start writing code for a project without having to setup a local development environment.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "A GitHub Codespace is an interactive holographic coding environment that required special hardware to use.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "GitHub Codespace is an AI-powered coding tool that auto-generates near flawless code",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "GitHub Codespace is an annual GitHub hosted event where developers can meet and discuss coding topics.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/codespaces/overview",
+        "multipleSelect": false
+    },
+    {
+        "id": 27,
+        "text": "What GitHub feature allows the creation of preconfigured development environments where all necessary tools and dependencies to contribute to a repository are installed?",
+        "options": [
+            {
+                "id": "a",
+                "text": "GitHub Codespaces",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "GitHub Docker",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "GitHub Copilot",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "GitHub DevEnv",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/codespaces/overview#benefits-of-github-codespaces",
+        "multipleSelect": false
+    },
+    {
+        "id": 28,
+        "text": "What GitHub features allow repository contributors to work on simple code changes directly through the web browser? (Choose two.)",
+        "options": [
+            {
+                "id": "a",
+                "text": "GitHub Codespaces",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "github.dev editor",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "GitHub Projects",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "GitHub Dependabot",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "e",
+                "text": "GitHub Remote",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "f",
+                "text": "GitHub Online",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a",
+            "b"
+        ],
+        "explanation": "https://docs.github.com/en/codespaces/the-githubdev-web-based-editor",
+        "multipleSelect": true
+    },
+    {
+        "id": 29,
+        "text": "What are the different possible lifecycle phases for a GitHub Codespace?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Create, Rebuild, Stop, Delete",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Create, Delete",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Create, Stop, Delete",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Create, Rebuild, Delete",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/codespaces/getting-started/understanding-the-codespace-lifecycle",
+        "multipleSelect": false
+    },
+    {
+        "id": 30,
+        "text": "If you stop your GitHub Codespace environment can you come back to the changes later if you haven't committed them?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Yes, that's the default behavior when stopping and then starting a GitHub Codespace",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "No, these changes will be lost. You need to commit them before stopping the Codespace.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/codespaces/getting-started/understanding-the-codespace-lifecycle#stopping-a-codespace",
+        "multipleSelect": false
+    },
+    {
+        "id": 31,
+        "text": "Which of these statements regarding GitHub Codespaces lifecycle are true? (Choose three.)",
+        "options": [
+            {
+                "id": "a",
+                "text": "A Codespace's lifecycle begins when you create a Codespace and ends when you delete it.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "You can stop and restart a Codespace without losing the changes that you make to your project.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "You can disconnect and reconnect to an active Codespace without affecting its running processes.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "You can stop and restart a Codespace without affecting its running processes.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "e",
+                "text": "If you create another Codespace on a branch which already had a Codespace running on it, the original Codespace will be deleted",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "f",
+                "text": "If you close the browser tab in which your Codespace was running, the Codespace will automatically be stopped\n> Closing the browser tab does not stop the Codespace and the processes continue running. If you only closed the tab, the Codespace will stop after reaching the inactivity timeout period",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a",
+            "b",
+            "c"
+        ],
+        "explanation": "https://docs.github.com/en/codespaces/getting-started/understanding-the-codespace-lifecycle",
+        "multipleSelect": true
+    },
+    {
+        "id": 32,
+        "text": "Your project requires appropriate hardware to run. Can you customize the amount of CPU cores that will be allocated to your GitHub Codespace environment?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Yes, you can choose an alternative machine type either when you create a codespace or at any time after you've created a codespace.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "No, GitHub Codespaces are hosted on Microsoft Azure and we have no control on what hardware they are running\n> GitHub Codespaces are indeed hosted on Microsoft Azure, but you can configure the machine type to use",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/codespaces/customizing-your-codespace/changing-the-machine-type-for-your-codespace",
+        "multipleSelect": false
+    },
+    {
+        "id": 33,
+        "text": "How can you customize the environment that is run in GitHub Codespaces?",
+        "options": [
+            {
+                "id": "a",
+                "text": "By creating a <code class=\"inline-code\">.devcontainer/devcontainer.json</code> configuration file",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "By creating a custom Dockerfile in the root of your repository",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "By creating a <code class=\"inline-code\">.github/codespaces.yml</code> configuration file",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "By creating custom machine images with the repository installed",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/adding-a-dev-container-configuration/introduction-to-dev-containers",
+        "multipleSelect": false
+    },
+    {
+        "id": 34,
+        "text": "What is a GitHub Codespace deep link?",
+        "options": [
+            {
+                "id": "a",
+                "text": "It's a link that points to a specific GitHub.com Page that allows you to create a new GitHub Codespace and select specific configuration",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "It's a link between the GitHub Codespace and the repository which keeps the Codespace in sync with the changes in the repository",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "It's a link to the most recent GitHub Codespace that was created for the repository",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "It's a link to the most recent GitHub Codespace that you have used in any repository",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/setting-up-your-repository/facilitating-quick-creation-and-resumption-of-codespaces#configuring-more-options",
+        "multipleSelect": false
+    },
+    {
+        "id": 35,
+        "text": "Who should have 2 Factor Authentication enabled on GitHub?",
+        "options": [
+            {
+                "id": "a",
+                "text": "All GitHub users",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "It's not recommended to use 2FA on GitHub for anyone",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "GitHub Organization owners",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "GitHub Enterprise Server users",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/about-two-factor-authentication",
+        "multipleSelect": false
+    },
+    {
+        "id": 36,
+        "text": "What are Enterprise Managed Users?",
+        "options": [
+            {
+                "id": "a",
+                "text": "It's a GitHub Enterprise feature that allows you to manage user access from an external identity provider such as Azure AD or Okta",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "It's a GitHub Enterprise support user that can be used to manage your Enterprise by GitHub Support once requested",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "It's a shared user account that can be used by multiple users in your Enterprise",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "It's an user account without access to GitHub web UI but is rather only used for automation tasks in your GitHub Enterprise",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/enterprise-cloud@latest/admin/identity-and-access-management/understanding-iam-for-enterprises/about-enterprise-managed-users#about-enterprise-managed-users",
+        "multipleSelect": false
+    },
+    {
+        "id": 37,
+        "text": "What are the different permission levels for a repository owned by a personal account? (Choose two.)",
+        "options": [
+            {
+                "id": "a",
+                "text": "repository owner",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "collaborator",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "billing manager",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "security manager",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "e",
+                "text": "project owner",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a",
+            "b"
+        ],
+        "explanation": "https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-user-account-settings/permission-levels-for-a-personal-account-repository",
+        "multipleSelect": true
+    },
+    {
+        "id": 38,
+        "text": "Which of these is NOT a role in a GitHub Organization?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Organization architect",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Organization owner",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Organization member",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Organization moderator",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "e",
+                "text": "Billing manager",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "f",
+                "text": "Security manager",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization",
+        "multipleSelect": false
+    },
+    {
+        "id": 39,
+        "text": "Can you disable the issues tab on a repository?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Yes",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "No\n> Features such as issues, wikis or projects can be disabled on a repository in the repository settings",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/disabling-issues",
+        "multipleSelect": false
+    },
+    {
+        "id": 40,
+        "text": "Where can you disable repository features such as issues, wikis or projects on a repository that you own?",
+        "options": [
+            {
+                "id": "a",
+                "text": "In the repository settings",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "In the <code class=\"inline-code\">.github/settings.yml</code> configuration file",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "These features cannot be disabled",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "In your account settings",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository",
+        "multipleSelect": false
+    },
+    {
+        "id": 41,
+        "text": "What are the different repository visibility options?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Private, Public and Internal (Enterprise only)",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Personal, Public and Internal (Enterprise only)",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Private and Public",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Personal and Public",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/enterprise-cloud@latest/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/setting-repository-visibility",
+        "multipleSelect": false
+    },
+    {
+        "id": 42,
+        "text": "What is the purpose of a <code class=\"inline-code\">CODEOWNERS</code> file?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The <code class=\"inline-code\">CODEOWNERS</code> file allows you to define individuals or teams that are responsible for specific areas of the codebase or its entirety.",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "The <code class=\"inline-code\">CODEOWNERS</code> file contains information about the software licensing fees and conditions under which the code can be used.",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "The <code class=\"inline-code\">CODEOWNERS</code> file includes information about the code quality and the maintainability of the code.",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "The <code class=\"inline-code\">CODEOWNERS</code> file contains contact details to the repository owners.",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners",
+        "multipleSelect": false
+    },
+    {
+        "id": 43,
+        "text": "How can you enforce status checks passing before merging a pull request to the <code class=\"inline-code\">main</code> branch?",
+        "options": [
+            {
+                "id": "a",
+                "text": "By creating a branch protection rule",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "By using GitHub Actions",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "By running tests locally prior to pushing to the remote repository",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "By making the repository private",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches#about-branch-protection-settings",
+        "multipleSelect": false
+    },
+    {
+        "id": 44,
+        "text": "Which of these actions will make sure that prior to any push to the <code class=\"inline-code\">main</code> branch, the changes have been approved by at least two people? (Choose three.)",
+        "options": [
+            {
+                "id": "a",
+                "text": "Create a branch protection rule for <code class=\"inline-code\">main</code> branch",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "On the branch protection rule, require a pull request before merging",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "On the branch protection rule, require at least 2 approvals before merging a pull request",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Create a deployment protection rule for <code class=\"inline-code\">main</code> branch",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "e",
+                "text": "On the deployment protection rule, require at least 2 approvals before merging a pull request",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "f",
+                "text": "Setup a CODEOWNERS file in the repository",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a",
+            "b",
+            "c"
+        ],
+        "explanation": "https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches#require-pull-request-reviews-before-merging",
+        "multipleSelect": true
+    },
+    {
+        "id": 45,
+        "text": "What can you find in the security tab of a repository?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A security overview of that repository such as vulnerabilities in dependencies, code scanning results, and secret scanning alerts",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "A list of all the GitHub Issues that have been opened in the repository for security reasons",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "A list of all best practices that GitHub recommends for securing your software",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Contact information to the security team at GitHub",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/code-security/getting-started/securing-your-repository",
+        "multipleSelect": false
+    },
+    {
+        "id": 46,
+        "text": "What is CodeQL?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A code analysis tool",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "A programming language",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "A text editor",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "A version control system",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://codeql.github.com/",
+        "multipleSelect": false
+    },
+    {
+        "id": 47,
+        "text": "Which tool helps you keep the repository dependencies up to date?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Dependabot",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "GitHub Copilot",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "CodeQL",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "GitHub Actions",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/code-security/dependabot",
+        "multipleSelect": false
+    },
+    {
+        "id": 48,
+        "text": "What are Repository Insights?",
+        "options": [
+            {
+                "id": "a",
+                "text": "It's a place where you can see data about the repository such as code frequency, list of the most active contributors and more.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Repository Insights is a feature that allows you to see the repository's secret and code scanning alerts.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "It's a list of best practices to follow when administrating a repository.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "It's a feature that allows you to see the repository's security overview.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/repositories/viewing-activity-and-data-for-your-repository/about-repository-graphs",
+        "multipleSelect": false
+    },
+    {
+        "id": 49,
+        "text": "Who are repository collaborators?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Collaborators are people who have been granted write access to a repository.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Collaborators are people who have made code contributions to a repository.\n> That's contributors. You can be a collaborator on a repository without having contributed to it. You can also contribute to a repository without being a collaborator, by forking the repository and submitting a pull request.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Collaborators are people who have funded a repository.\n> That's sponsors",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Collaborators are people who have raised issues or pull requests on a repository.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository",
+        "multipleSelect": false
+    },
+    {
+        "id": 50,
+        "text": "How can you work together with a friend of yours on a repository that you have created on your personal GitHub account?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Go to repository settings and invite him as a collaborator",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Add him to <code class=\"inline-code\">CODEOWNERS</code> file",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "It's not possible to work together on personal repositories. You can only do that for repositories owned by organizations.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Provide your friend your GitHub credentials",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository",
+        "multipleSelect": false
+    },
+    {
+        "id": 51,
+        "text": "What are GitHub teams?",
+        "options": [
+            {
+                "id": "a",
+                "text": "It's a group of GitHub users from the same organization.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "It's a version of Microsoft Teams for GitHub.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "It's a way of managing access to personal GitHub repositories to many users at once.\n> Personal repositories cannot be shared with teams, only with individual collaborators.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/organizations/organizing-members-into-teams/about-teams",
+        "multipleSelect": false
+    },
+    {
+        "id": 52,
+        "text": "What is the role of an organization moderator?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Moderators are organization members who, in addition to their permissions as members, are allowed to block and unblock non-member contributors, set interaction limits, and hide comments in public repositories owned by the organization.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Moderators are organization members who have complete access to the organization.\n> That's organization owners",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Moderators are organization members who can manage the billing settings for your organization, such as payment information.\n> That's billing managers",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Moderators are organization members who can view security alerts and manage settings for code security across your organization, as well as read permissions for all repositories in the organization.\n> That's security managers",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization",
+        "multipleSelect": false
+    },
+    {
+        "id": 53,
+        "text": "What is the role of an organization security manager?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Security managers are organization members who can view security alerts and manage settings for code security across your organization, as well as read permissions for all repositories in the organization.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Security managers are organization members who, in addition to their permissions as members, are allowed to block and unblock non-member contributors, set interaction limits, and hide comments in public repositories owned by the organization.\n> That's moderators",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Security managers are organization members who have complete access to the organization.\n> That's organization owners",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Security managers are organization members who can manage the billing settings for your organization, such as payment information.\n> That's billing managers",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization",
+        "multipleSelect": false
+    },
+    {
+        "id": 54,
+        "text": "Which of these definitions best describes open source software?",
+        "options": [
+            {
+                "id": "a",
+                "text": "It's software with source code that anyone can inspect, modify, and enhance.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "It's free to use for any purposes as long as you sign the open source license.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "It's free to use for any personal purposes as long as you don't make profit out of it.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "It's software with source code that anyone can rely on.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://opensource.com/resources/what-open-source",
+        "multipleSelect": false
+    },
+    {
+        "id": 55,
+        "text": "What is the GitHub Sponsors program?",
+        "options": [
+            {
+                "id": "a",
+                "text": "It's a way to financially support the developers of the open source projects",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "It's a group of companies that fund GitHub",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "It's a program that helps people find a job in the tech industry",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "It's a program where highly skilled developers volunteer to help students learn how to use GitHub",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/sponsors/getting-started-with-github-sponsors/about-github-sponsors",
+        "multipleSelect": false
+    },
+    {
+        "id": 56,
+        "text": "On your personal GitHub dashboard you received a notification that user <code class=\"inline-code\">octocat</code> has created a new repository <code class=\"inline-code\">octocat/my-repo</code>. Why did you receive that notification?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Because you are following the user <code class=\"inline-code\">octocat</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "Because you recently visited <code class=\"inline-code\">octocat</code> user profile",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "Because you contributed to the <code class=\"inline-code\">octocat/my-repo</code> repository",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "Because you starred the <code class=\"inline-code\">octocat/my-repo</code> repository",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-user-account-settings/about-your-personal-dashboard#staying-updated-with-activity-from-the-community",
+        "multipleSelect": false
+    },
+    {
+        "id": 57,
+        "text": "What are the effects of you following a user on GitHub?",
+        "options": [
+            {
+                "id": "a",
+                "text": "You will get notifications on your personal dashboard about their public activity.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "That user will get notifications on their personal dashboard about your public activity.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "You will get access to their private repositories once the follow request is accepted.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "You can engage in private conversations with them using GitHub Chat.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/get-started/quickstart/be-social#following-people",
+        "multipleSelect": false
+    },
+    {
+        "id": 58,
+        "text": "What is the GitHub Marketplace?",
+        "options": [
+            {
+                "id": "a",
+                "text": "GitHub Marketplace is a place where developers can find tools that help build software right alongside their code.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "GitHub Marketplace is a place where companies can find developers to hire.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "GitHub Marketplace is a place where developers offer to sell ownership of their repositories.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "GitHub Marketplace is a place where you can sponsor open-source developers on a subscription basis.\n> That is GitHub Sponsors",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/apps/github-marketplace/github-marketplace-overview/about-github-marketplace-for-apps",
+        "multipleSelect": false
+    },
+    {
+        "id": 59,
+        "text": "What is InnerSource?",
+        "options": [
+            {
+                "id": "a",
+                "text": "InnerSource refers to the practice of applying open source principles within an organization",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "InnerSource refers to the practice of applying open source principles in personal projects",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "InnerSource refers to the internal knowledge base of an organization about the project they are working on.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "InnerSource is a tool that allows organizations to see what open source projects they are using in their code.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://resources.github.com/innersource/what-is-innersource/",
+        "multipleSelect": false
+    },
+    {
+        "id": 60,
+        "text": "Which of these is a practice that encourages collaboration, visibility and sharing of code among different teams within an organization?",
+        "options": [
+            {
+                "id": "a",
+                "text": "InnerSource",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "OpenSource",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Continuous Integration",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Git Flow",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://resources.github.com/innersource/what-is-innersource/",
+        "multipleSelect": false
+    },
+    {
+        "id": 61,
+        "text": "What is a fork in GitHub?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A fork is a personal copy of another user's repository that lives on your account.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "A fork is the place where a branch splits off into at least two other branches.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "A fork is the state of a repository when it is not up to date with the remote repository.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "A fork is a branch that is not up to date with the default branch of the repository.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks",
+        "multipleSelect": false
+    },
+    {
+        "id": 62,
+        "text": "Which of these can make a repository more discoverable? (Choose three.)",
+        "options": [
+            {
+                "id": "a",
+                "text": "A well-crafted collection of markdown documents like <code class=\"inline-code\">README.md</code>, <code class=\"inline-code\">CONTRIBUTING.md</code> and others.",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "Giving the repository a descriptive name",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Setting up topics for the repository",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Defining proper CI/CD pipelines",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "e",
+                "text": "Covering the repository software with tests",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "f",
+                "text": "Using a wide range of GitHub Apps and GitHub Actions",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a",
+            "b",
+            "c"
+        ],
+        "explanation": "https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository",
+        "multipleSelect": true
+    },
+    {
+        "id": 63,
+        "text": "How can you define guiding protocols for users intending to submit bug reports or propose new features in your repository so they know what information to fill-in?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Create issue templates",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Add labels to issues that they create",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Set up GitHub Projects",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Have an example issue in the repository that is easy to copy and is never closed",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/about-issue-and-pull-request-templates",
+        "multipleSelect": false
+    },
+    {
+        "id": 64,
+        "text": "What is a pull request template?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Pull request template is a file that defines the default pull request structure that project contributors will automatically see when they open a pull request.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Pull request template is a pull request that is automatically generated when a new branch is created.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Pull request template is a pull request that is chosen by the repository owner for reference when creating new pull requests.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Pull request template is an example of how code changes should look like in a pull request in a given repository.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository",
+        "multipleSelect": false
+    },
+    {
+        "id": 65,
+        "text": "Which of these statements best describes a version control system?",
+        "options": [
+            {
+                "id": "a",
+                "text": "It's a system that tracks the history of changes made to a collection of files.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "It's a system that leverages the git command line tool.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "It's a system that allows you to create a local copy of a project's source code.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "It's a system that allows tracking of what people install on their computers.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/get-started/using-git/about-git#about-version-control-and-git",
+        "multipleSelect": false
+    },
+    {
+        "id": 66,
+        "text": "What is the meaning of the word <code class=\"inline-code\">distributed</code> in distributed version control system?",
+        "options": [
+            {
+                "id": "a",
+                "text": "It means that developers can have a full copy of the repository and its history on their local machine.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "It means that tasks among the team members using the system are easily distributed.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "The term refers to the peer-to-peer sharing of code files among users.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "It means that the codebase is distributed across multiple servers for load balancing.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://about.gitlab.com/topics/version-control/benefits-distributed-version-control-system/",
+        "multipleSelect": false
+    },
+    {
+        "id": 67,
+        "text": "Which of these best describes git?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Git is a distributed version control system.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Git is a centralized version control system.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Git is the product of GitHub that allows for version control.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Git is a file sharing system.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/get-started/using-git/about-git#about-version-control-and-git",
+        "multipleSelect": false
+    },
+    {
+        "id": 68,
+        "text": "Which of these statements best describes what GitHub is?",
+        "options": [
+            {
+                "id": "a",
+                "text": "GitHub is a platform that uses Git as its core technology and adds features that make collaboration and code management easier.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "GitHub is a distributed version control system with features that make collaboration on projects easy.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "GitHub is a file sharing platform with features that make collaboration on projects easy using centralized version control.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "GitHub is a modern CI/CD platform with features that help drive rapid product development.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/get-started/using-git/about-git#how-github-works",
+        "multipleSelect": false
+    },
+    {
+        "id": 69,
+        "text": "What is the relation between Git and GitHub?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Git is a distributed version control system and GitHub is a platform that uses Git as its core technology.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "GitHub is a distributed version control system and Git is a platform that uses GitHub as its core technology.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Git is a file sharing system and GitHub is a platform that uses Git as its core technology.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "GitHub is a file sharing system and Git is a platform that uses GitHub as its core technology.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/get-started/using-git/about-git",
+        "multipleSelect": false
+    },
+    {
+        "id": 70,
+        "text": "What is a repository in GitHub?",
+        "options": [
+            {
+                "id": "a",
+                "text": "It's a place where you can store your code, your files, and each file's revision history.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "It's a place where you can store your Docker images or NPM packages.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "It's a visual code editor that allows you to edit your source code in the browser.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "A repository in GitHub is a chat room where developers can discuss code-related issues.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories",
+        "multipleSelect": false
+    },
+    {
+        "id": 71,
+        "text": "What is a git commit?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A commit is a snapshot of a repository at a specific point in time.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "A commit refers to a new or updated file in a repository.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "A commit refers to the code changes made to a repository in a pull request.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "A commit is human readable text that describes the changes made to a repository.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits",
+        "multipleSelect": false
+    },
+    {
+        "id": 72,
+        "text": "Which git feature allows developers to concurrently work on the same codebase without causing conflicts with each other?",
+        "options": [
+            {
+                "id": "a",
+                "text": "branch",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "commit",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "remote",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "working tree",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches",
+        "multipleSelect": false
+    },
+    {
+        "id": 73,
+        "text": "What is the GitHub Flow?",
+        "options": [
+            {
+                "id": "a",
+                "text": "It refers to a branch-based workflow where developers create a branch for each new change they're working on, and then open pull requests to get their code reviewed, tested, and merged into the main branch.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "It's a practice where every time a commit is pushed to the main branch, a new release is automatically created and deployed.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "It's a practice where every time a commit is pushed to the main branch, a set of CI/CD pipelines are triggered to run tests and validate the code changes.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "It refers to a one branch workflow where developers work on their features on the <code class=\"inline-code\">master</code> branch, and then get their feature code reviewed, tested, and committed.",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/get-started/quickstart/github-flow",
+        "multipleSelect": false
+    },
+    {
+        "id": 74,
+        "text": "What is a GitHub Pro plan?",
+        "options": [
+            {
+                "id": "a",
+                "text": "GitHub Pro is a paid plan for personal accounts that offers additional features in addition to the free plan.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "GitHub Pro is a paid plan for organizations that offers additional features in addition to the free organizations plan.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "GitHub Pro is a certification path at the end of which you become a GitHub Pro.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "GitHub Pro is a paid plan for enterprises to self-host GitHub on their own servers.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/get-started/learning-about-github/githubs-plans#github-pro",
+        "multipleSelect": false
+    },
+    {
+        "id": 75,
+        "text": "Is there a free version of GitHub for organizations?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Yes",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "No",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/get-started/learning-about-github/githubs-plans#github-free-for-organizations",
+        "multipleSelect": false
+    },
+    {
+        "id": 76,
+        "text": "What are the different GitHub pricing plans for organization accounts? (Select three.)",
+        "options": [
+            {
+                "id": "a",
+                "text": "Free",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Team",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Enterprise",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Pro",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "e",
+                "text": "Personal",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "f",
+                "text": "Business",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a",
+            "b",
+            "c"
+        ],
+        "explanation": "https://github.com/pricing",
+        "multipleSelect": true
+    },
+    {
+        "id": 77,
+        "text": "Which GitHub pricing plan offers self-hosted deployment of GitHub?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Enterprise",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Pro",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Team",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Free",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "e",
+                "text": "All of them",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "f",
+                "text": "None of them",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/enterprise-server@3.8/admin/overview/about-github-enterprise-server",
+        "multipleSelect": false
+    },
+    {
+        "id": 78,
+        "text": "Under which GitHub pricing plan can you create an unlimited number of public repositories?",
+        "options": [
+            {
+                "id": "a",
+                "text": "All of them",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Enterprise",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Pro",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Team",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "e",
+                "text": "Team and Enterprise",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "f",
+                "text": "Free",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://github.com/pricing",
+        "multipleSelect": false
+    },
+    {
+        "id": 79,
+        "text": "What are the different deployment options for GitHub Enterprise? (Select two.)",
+        "options": [
+            {
+                "id": "a",
+                "text": "GitHub Enterprise Cloud",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "GitHub Enterprise Server",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "GitHub Enterprise Pro",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "GitHub Enterprise Team",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "e",
+                "text": "GitHub Enterprise Free",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "f",
+                "text": "GitHub Enterprise Advanced",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a",
+            "b"
+        ],
+        "explanation": "https://docs.github.com/en/enterprise-cloud@latest/admin/overview/about-github-for-enterprises#about-deployment-options",
+        "multipleSelect": true
+    },
+    {
+        "id": 80,
+        "text": "Which of these statements about GitHub Enterprise deployment options are true? (Select two.)",
+        "options": [
+            {
+                "id": "a",
+                "text": "GitHub Enterprise Cloud is a set of advanced functionality on GitHub.com",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "GitHub Enterprise Server is a self-hosted platform that runs on the company's infrastructure",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "GitHub Enterprise Server is a set of advanced functionality on GitHub.com",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "GitHub Enterprise Cloud is a cloud hosted platform that runs on the company's cloud infrastructure",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "e",
+                "text": "GitHub Enterprise Cloud is a self-hosted platform that runs on the company's infrastructure",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a",
+            "b"
+        ],
+        "explanation": "https://docs.github.com/en/enterprise-cloud@latest/admin/overview/about-github-for-enterprises#about-deployment-options",
+        "multipleSelect": true
+    },
+    {
+        "id": 81,
+        "text": "What are pinned repositories on GitHub?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Pinned repositories are repositories that you have pinned to the top of your GitHub profile.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Pinned repositories are repositories that GitHub promotes. There are new pinned repositories each month.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Pinned repositories are repositories that have been temporarily or indefinitely suspended by GitHub.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Pinned repositories are repositories that have been marked as favorites by GitHub users.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/pinning-items-to-your-profile",
+        "multipleSelect": false
+    },
+    {
+        "id": 82,
+        "text": "Which of these files can customize your GitHub profile?",
+        "options": [
+            {
+                "id": "a",
+                "text": "a profile <code class=\"inline-code\">README.md</code> file",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "a profile <code class=\"inline-code\">CONTRIBUTING.md</code> file",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "profile is not customizable through files but through the account settings",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme",
+        "multipleSelect": false
+    },
+    {
+        "id": 83,
+        "text": "What language is used to write comments on GitHub issues and pull requests?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Markdown",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "HTML",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "AsciiDoc",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "reStructuredText",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax",
+        "multipleSelect": false
+    },
+    {
+        "id": 84,
+        "text": "What are GitHub's slash commands?",
+        "options": [
+            {
+                "id": "a",
+                "text": "It's a way to quickly insert complex Markdown into your pull request or issue comments and descriptions.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "It's a way of automating GitHub Actions.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "It's an another name for the GitHub CLI.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "It's a way to quickly fix code formatting issues in your pull request's code changes.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/issues/tracking-your-work-with-issues/about-slash-commands",
+        "multipleSelect": false
+    },
+    {
+        "id": 85,
+        "text": "How does GitHub help people that want to write proper issue and pull request comments but don't know Markdown syntax?",
+        "options": [
+            {
+                "id": "a",
+                "text": "There is a text formatting toolbar on issue and pull request comment forms which generates Markdown for you.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "By providing a Markdown cheat sheet.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "GitHub automatically converts HTML to Markdown in issue and pull request comments.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "GitHub pull requests and issues don't support Markdown.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/about-writing-and-formatting-on-github#text-formatting-toolbar",
+        "multipleSelect": false
+    },
+    {
+        "id": 86,
+        "text": "What is GitHub Desktop?",
+        "options": [
+            {
+                "id": "a",
+                "text": "It's a GUI Application for working with Git and GitHub on your computer.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "It's a self hosted version of GitHub that you can install on your own servers or personal computer.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "It's a GitHub pricing plan for personal accounts that offers additional features in addition to the free plan.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "It's an online editor that allows you to work on your repository in the browser.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/desktop",
+        "multipleSelect": false
+    },
+    {
+        "id": 87,
+        "text": "What is GitHub Mobile?",
+        "options": [
+            {
+                "id": "a",
+                "text": "It's a mobile app for iOS and Android that allows you to work with GitHub from your phone.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "It's a service that allows you to test your mobile apps on real devices.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "It's a GitHub data transfer service for petabytes of data where a GitHub owned car will drive to your location and transfer the data to your local network.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "It's a GitHub telemetry service that allows you to track your users' activity on your website or mobile app.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/get-started/using-github/github-mobile",
+        "multipleSelect": false
+    },
+    {
+        "id": 88,
+        "text": "How can you link a pull request to an issue? (Choose two.)",
+        "options": [
+            {
+                "id": "a",
+                "text": "Manually from either the pull request or the issue view.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "By using a keyword in the pull request description and referencing the issue number.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "By using a keyword in the pull request description and referencing the issue title.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "By including the issue number in the code changes.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "e",
+                "text": "By including the issue number in the commit message.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a",
+            "b"
+        ],
+        "explanation": "https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue",
+        "multipleSelect": true
+    },
+    {
+        "id": 89,
+        "text": "What improvement do issue forms bring over issue templates?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Issue forms allow for users to be prompted for information when creating an issue and then have that information automatically added to the issue.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "There is no such thing as issue forms in GitHub",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Issue form is a feature that automatically closes issues after a certain period of time, providing a more efficient issue management compared to issue templates.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Issue form is a tool for creating issues that only contain form fields for title and description, simplifying the process but not necessarily improving the information quality compared to issue templates.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-issue-forms",
+        "multipleSelect": false
+    },
+    {
+        "id": 90,
+        "text": "Which of these is a repository feature that is used as a community forum to have conversations, ask questions, post announcements and share ideas?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Discussions",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Wikis",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Gists",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Pull requests",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/discussions/quickstart#introduction",
+        "multipleSelect": false
+    },
+    {
+        "id": 91,
+        "text": "What is the effect of adding a line <code class=\"inline-code\">Closes #11</code> to the pull request's description?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Once that pull request is merged, the issue #11 will be closed automatically.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Once that pull request is merged, the pull request #11 will be deleted automatically.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Once that pull request is merged, the #11th branch will be deleted automatically.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "That pull request will be automatically merged once the issue #11 is closed.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "e",
+                "text": "That pull request will be automatically merged on the 11th of that month.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/using-keywords-in-issues-and-pull-requests#linking-a-pull-request-to-an-issue",
+        "multipleSelect": false
+    },
+    {
+        "id": 92,
+        "text": "In GitHub a proposal to merge a set of changes from one branch into another branch is called a:",
+        "options": [
+            {
+                "id": "a",
+                "text": "Pull Request",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Gist",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Issue",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Commit",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "e",
+                "text": "A merge branch",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests",
+        "multipleSelect": false
+    },
+    {
+        "id": 93,
+        "text": "You want to merge changes from branch <code class=\"inline-code\">feature-a</code> into <code class=\"inline-code\">main</code> and you are creating a pull request. Which branch should be the <code class=\"inline-code\">base</code> branch and which branch should be the <code class=\"inline-code\">compare</code> branch?",
+        "options": [
+            {
+                "id": "a",
+                "text": "<code class=\"inline-code\">main</code> is the base branch and <code class=\"inline-code\">feature-a</code> is the compare branch.",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "<code class=\"inline-code\">feature-a</code> is the base branch and <code class=\"inline-code\">main</code> is the compare branch.",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-comparing-branches-in-pull-requests",
+        "multipleSelect": false
+    },
+    {
+        "id": 94,
+        "text": "What are draft pull requests?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Draft pull requests are pull requests that are not ready to be reviewed yet.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Draft pull requests are pull requests that have already been reviewed but not merged.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Draft pull requests are pull requests that have already been reviewed but not approved.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Draft pull requests are templates for creating new pull requests.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests#draft-pull-requests",
+        "multipleSelect": false
+    },
+    {
+        "id": 95,
+        "text": "What are the possible statuses for a pull request review? (Choose three.)",
+        "options": [
+            {
+                "id": "a",
+                "text": "Comment",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Approve",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Request Changes",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Close",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "e",
+                "text": "Deny",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "f",
+                "text": "Applaud",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a",
+            "b",
+            "c"
+        ],
+        "explanation": "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews#about-pull-request-reviews",
+        "multipleSelect": true
+    },
+    {
+        "id": 96,
+        "text": "Which of these statements about the differences of issues and discussions is true?",
+        "options": [
+            {
+                "id": "a",
+                "text": "GitHub Discussions are for conversations that need to be transparent and accessible but do not need to be tracked on a project board and are not related to code, unlike GitHub Issues.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "GitHub Issues are for conversations that need to be transparent and accessible but do not need to be tracked on a project board and are not related to code, unlike GitHub Discussions.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/discussions/quickstart",
+        "multipleSelect": false
+    },
+    {
+        "id": 97,
+        "text": "Which of the GitHub features best serves as a simple way to share small code snippets with others?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Gists",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Wikis",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Issues",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Projects",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/get-started/writing-on-github/editing-and-sharing-content-with-gists/creating-gists",
+        "multipleSelect": false
+    },
+    {
+        "id": 98,
+        "text": "What are GitHub Wikis?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Wikis is repository feature for hosting documentation.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Wikis is the official GitHub documentation.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Wikis is a feature for hosting code snippets.\n> That's Gists",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Wikis is a place where you hold the project's <code class=\"inline-code\">README.md</code> file.",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis",
+        "multipleSelect": false
+    },
+    {
+        "id": 99,
+        "text": "What are the two available options when you no longer need to use a Project?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Delete and archive",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Close and delete",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Archive and close",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Deactivate and archive",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "b"
+        ],
+        "explanation": "https://docs.github.com/en/issues/planning-and-tracking-with-projects/managing-your-project/closing-and-deleting-your-projects",
+        "multipleSelect": false
+    },
+    {
+        "id": 100,
+        "text": "Can you change a gist from public to secret after creating it?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Yes",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "No\n> After creating a gist, you cannot convert it from public to secret.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "b"
+        ],
+        "explanation": "https://docs.github.com/en/get-started/writing-on-github/editing-and-sharing-content-with-gists/creating-gists",
+        "multipleSelect": false
+    },
+    {
+        "id": 101,
+        "text": "What happens when you choose to close a Project?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The project is permanently removed from the platform",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "The content is retained and you have the ability to reopen it later.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Associated values and insights data are deleted",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "The Project is moved to a separate folder",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "b"
+        ],
+        "explanation": "https://docs.github.com/en/issues/planning-and-tracking-with-projects/managing-your-project/closing-and-deleting-your-projects",
+        "multipleSelect": false
+    },
+    {
+        "id": 102,
+        "text": "If there are multiple Readme.md files in a GitHub repository, what is the priority order to show them?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Root directory, <code class=\"inline-code\">.docs</code> directory, <code class=\"inline-code\">.github</code> directory",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "<code class=\"inline-code\">.docs</code> directory, Root directory, <code class=\"inline-code\">.github</code> directory",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "<code class=\"inline-code\">.github</code> directory, Root directory, <code class=\"inline-code\">.docs</code> directory",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "<code class=\"inline-code\">.docs</code> directory, <code class=\"inline-code\">.github</code> directory, Root directory",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "c"
+        ],
+        "explanation": "https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes",
+        "multipleSelect": false
+    },
+    {
+        "id": 103,
+        "text": "Which of the following Git commands allow you to create a new branch and start working on it in one line? (Select two.)",
+        "options": [
+            {
+                "id": "a",
+                "text": "git checkout -b <code class=\"inline-code\"><new_branch_name></code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "git branch -c <code class=\"inline-code\"><new_branch_name></code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "git switch -c <code class=\"inline-code\"><new_branch_name></code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "git merge -m <code class=\"inline-code\"><new_branch_name></code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "e",
+                "text": "git switch -m <code class=\"inline-code\"><new_branch_name></code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "f",
+                "text": "git checkout -m <code class=\"inline-code\"><new_branch_name></code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "a",
+            "c"
+        ],
+        "explanation": "https://git-scm.com/docs/git-switch",
+        "multipleSelect": true
+    },
+    {
+        "id": 104,
+        "text": "If a GitHub Discussion is converted into an Issue and the issue is closed or referred to using its corresponding # number, will the discussion be modified?",
+        "options": [
+            {
+                "id": "a",
+                "text": "No",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Yes\n> When you \"convert\" a discussion into an Issue it essentially creates a new issue that is soft linked to the discussion and pre-fills the issue information. There isn't a bigger connection between them.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue#creating-an-issue-from-discussion",
+        "multipleSelect": false
+    },
+    {
+        "id": 105,
+        "text": "Which information can be found in the Pulse section in the Insights tab of a repository? (Choose four)",
+        "options": [
+            {
+                "id": "a",
+                "text": "Pull requests open/merged ratio",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Summary of repository activity",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Amount of code line additions and deletions",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "List of issue discussions",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "e",
+                "text": "List of unresolved conversations",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "f",
+                "text": "Amount of forks of the repo",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a",
+            "b",
+            "c",
+            "e"
+        ],
+        "explanation": "https://docs.github.com/en/repositories/viewing-activity-and-data-for-your-repository/using-pulse-to-view-a-summary-of-repository-activity",
+        "multipleSelect": true
+    },
+    {
+        "id": 106,
+        "text": "What are the different levels of GitHub organizational hierarchy? (Choose three.)",
+        "options": [
+            {
+                "id": "a",
+                "text": "Team level",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Organization level",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Personal level\n> GitHub Personal is a type of account and not an organizational hierarchy on GitHub.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Pro level\n> GitHub Pro is a type of account and not an organizational hierarchy on GitHub.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "e",
+                "text": "Enterprise level",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a",
+            "b",
+            "e"
+        ],
+        "explanation": "https://learn.microsoft.com/en-us/training/modules/github-introduction-administration/2-what-is-github-administration",
+        "multipleSelect": true
+    },
+    {
+        "id": 107,
+        "text": "Who can setup billing or assign billing managers for an organization? (Select three.)",
+        "options": [
+            {
+                "id": "a",
+                "text": "Owner of the repository",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Team maintainer at the team level",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Admin in at the team level",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Billing managers at the organization level",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "e",
+                "text": "Owner at the organization level",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "f",
+                "text": "Owner at the enterprise level",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "d",
+            "e",
+            "f"
+        ],
+        "explanation": "",
+        "multipleSelect": true
+    },
+    {
+        "id": 108,
+        "text": "What is one of the main benefits for using a Personal Access Token (PAT) instead of a standard username and password for GitHub authentication?",
+        "options": [
+            {
+                "id": "a",
+                "text": "PATs can be managed by the organization and enterprise.\n> PAT's as the name suggests, are personal. Organizations and Enterprises can manage other forms of authentication, such as LDAP, SAML, and SSH keys.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "PAT is an extra layer of security used when logging into websites or apps. With PAT, users have to sign in with their username and password and provide another form of authentication that only they have access to.\n> This is a description of multi-factor or two-factor authentication.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "PAT can be used for authentication to GitHub when using the GitHub API or the command line. Users generate a token via the GitHub's settings option, and tie the token permissions to a repository or organization.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "PAT lets you authenticate GitHub Enterprise Server against your existing accounts and centrally manage repository access. \n> This is a description of LDAP's benefits for GitHub, not PAT.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "c"
+        ],
+        "explanation": "https://learn.microsoft.com/en-us/training/modules/github-introduction-administration/3-how-github-authentication-works",
+        "multipleSelect": false
+    },
+    {
+        "id": 109,
+        "text": "What are the different forms of two-factor or multi-factor authentication supported by GitHub? (Choose five.)",
+        "options": [
+            {
+                "id": "a",
+                "text": "Passkey",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Text message",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Phone call\n> While text messages are supported in some countries, phone calls are not",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Email",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "e",
+                "text": "Security key",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "f",
+                "text": "GitHub mobile",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a",
+            "b",
+            "e",
+            "f"
+        ],
+        "explanation": "https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/accessing-github-using-two-factor-authentication",
+        "multipleSelect": true
+    },
+    {
+        "id": 110,
+        "text": "What are the different GitHub pricing plans for personal accounts? (Select two)",
+        "options": [
+            {
+                "id": "a",
+                "text": "Free",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Team",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Enterprise",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Pro",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "e",
+                "text": "Personal",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "f",
+                "text": "Business",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a",
+            "d"
+        ],
+        "explanation": "https://docs.github.com/en/get-started/learning-about-github/githubs-plans",
+        "multipleSelect": true
+    },
+    {
+        "id": 111,
+        "text": "What is/are the common GitHub pricing plan(s) for both personal and organization accounts?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Free",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Team",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Enterprise",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Pro",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "e",
+                "text": "Personal",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "f",
+                "text": "Business",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://docs.github.com/en/get-started/learning-about-github/githubs-plans",
+        "multipleSelect": false
+    },
+    {
+        "id": 112,
+        "text": "What syntax is used in GitHub Markdown to create a task list?",
+        "options": [
+            {
+                "id": "a",
+                "text": "<code class=\"inline-code\">- [ ] and - [x]</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "<code class=\"inline-code\"># TODO: and # DONE:</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "<code class=\"inline-code\">// TODO: and // DONE:</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "<code class=\"inline-code\"><task> and <done></code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "https://learn.microsoft.com/en-us/training/modules/communicate-using-markdown/2-what-is-markdown",
+        "multipleSelect": false
+    },
+    {
+        "id": 113,
+        "text": "Which Markdown element is not correctly paired with its syntax?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Heading - <code class=\"inline-code\"># Heading</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "Bold text - <code class=\"inline-code\">**bold**</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "Inline code - <code class=\"inline-code\">'''code'''</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "Hyperlink - <code class=\"inline-code\">[title](https://)</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "c"
+        ],
+        "explanation": "https://learn.microsoft.com/en-us/training/modules/communicate-using-markdown/2-what-is-markdown",
+        "multipleSelect": false
+    },
+    {
+        "id": 114,
+        "text": "What feature is unique to GitHub Desktop compared to github.com?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Clone repositories to local machine",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Create new repositories",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "View repository insights",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Visualize branch histories in a graphical interface",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "d"
+        ],
+        "explanation": "",
+        "multipleSelect": false
+    },
+    {
+        "id": 115,
+        "text": "Which of the following actions cannot be performed directly from GitHub Desktop?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Stashing changes",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Managing GitHub Actions",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Switching between branches",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Committing changes",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "b"
+        ],
+        "explanation": "",
+        "multipleSelect": false
+    },
+    {
+        "id": 116,
+        "text": "What are some actions you can do in regards to Project Templates in your organization? (Choose three.)",
+        "options": [
+            {
+                "id": "a",
+                "text": "With write permission, set an existing project as a template\n> You need admin permissions to set an existing project as a template",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Configure recommended templates to your organization's members",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Create a new template to be used as a base for new projects",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "With admin or write permissions, copy an existing project as a template",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "e",
+                "text": "Publish your templates in GitHub Marketplace for anyone to use",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "b",
+            "c",
+            "d"
+        ],
+        "explanation": "https://docs.github.com/en/issues/planning-and-tracking-with-projects/managing-your-project/managing-project-templates-in-your-organization",
+        "multipleSelect": true
+    },
+    {
+        "id": 117,
+        "text": "Which of the following is true about GitHub wikis?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Wikis in private repositories are accessible to anyone with a GitHub account.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "You can only edit wikis directly on GitHub; local editing is not supported.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Wikis in public repositories are accessible to anyone, while those in private repositories are only accessible to repository collaborators.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Markdown cannot be used to add rendered math expressions, diagrams, maps, and 3D models to a wiki.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "c"
+        ],
+        "explanation": "https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis",
+        "multipleSelect": false
+    },
+    {
+        "id": 118,
+        "text": "Which of the following roles are available for a repository at the organization level on GitHub? (Choose five.)",
+        "options": [
+            {
+                "id": "a",
+                "text": "Read",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Triage",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Delete",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Admin",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "e",
+                "text": "Write",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "f",
+                "text": "Maintain",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a",
+            "b",
+            "d",
+            "e",
+            "f"
+        ],
+        "explanation": "https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/repository-roles-for-an-organization#repository-roles-for-organizations",
+        "multipleSelect": true
+    },
+    {
+        "id": 119,
+        "text": "What is the minimum permission a user must have to directly push commits to a repository owned by an organization?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Push commits",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Manage issues and pull requests",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Delete the repository",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Change repository settings",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "e",
+                "text": "Create new repositories",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "b"
+        ],
+        "explanation": "",
+        "multipleSelect": false
+    },
+    {
+        "id": 120,
+        "text": "Which of these is a capability of a Security Manager with respect to GitHub Actions in an organization?",
+        "options": [
+            {
+                "id": "a",
+                "text": "They can configure which actions are allowed or blocked across the organization.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "They can delete all workflow runs from private repositories that are over 90 days old.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "They can turn off code reviews for repositories in the organization.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "They can remove the <code class=\"inline-code\">Require status checks to pass before merging</code> branch protection rule.",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "",
+        "multipleSelect": false
+    },
+    {
+        "id": 121,
+        "text": "Which feature provides pre-built charts or visualizations for repository activity and health?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Insights tab",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "GitHub Actions",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "GitHub Projects",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "GitHub Discussions",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "",
+        "multipleSelect": false
+    },
+    {
+        "id": 122,
+        "text": "Which of these features does GitHub Copilot for Business offer that GitHub Copilot for Individuals does not?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Organization-wide policy management, including restricting model suggestions based on public code",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Exemption from all paid usage fees",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "24/7 phone support from GitHub Copilot team",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Local hosting of the AI model behind GitHub Copilot",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "",
+        "multipleSelect": false
+    },
+    {
+        "id": 123,
+        "text": "What is the main difference between an organization member and an outside collaborator for a repository owned by that organization?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Outside collaborators have repository-level access but are not part of the organization; members belong to the organization and may have broader access and roles.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Outside collaborators can manage billing settings, while members cannot.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Members can never contribute to private repositories, while outside collaborators can.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Outside collaborators automatically become team maintainers in the organization.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "",
+        "multipleSelect": false
+    },
+    {
+        "id": 124,
+        "text": "Which of the following actions can you perform on a GitHub Discussion? (Choose three.)",
+        "options": [
+            {
+                "id": "a",
+                "text": "Pin a discussion",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Transfer it to another repository discussion (if you have admin permissions)",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Convert the discussion to a secret gist",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Convert it to an issue",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "e",
+                "text": "Merge it into an existing pull request",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a",
+            "b",
+            "d"
+        ],
+        "explanation": "",
+        "multipleSelect": true
+    },
+    {
+        "id": 125,
+        "text": "Which search query finds all open issues labeled <code class=\"inline-code\">test</code> that mention 'fix' in their body text?",
+        "options": [
+            {
+                "id": "a",
+                "text": "<code class=\"inline-code\">is:pr is:open label:test \"fix\"</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "<code class=\"inline-code\">is:issue in:comments label:test \"fix\"</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "<code class=\"inline-code\">is:issue is:open label:test \"fix\"</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "<code class=\"inline-code\">type:issue label:test is:open body:\"fix\"</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "c"
+        ],
+        "explanation": "",
+        "multipleSelect": false
+    },
+    {
+        "id": 126,
+        "text": "Which of the following are valid states for a pull request on GitHub? (Choose four.)",
+        "options": [
+            {
+                "id": "a",
+                "text": "Open",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Draft",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Merged",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Closed",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "e",
+                "text": "Pending",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "f",
+                "text": "Abandoned",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a",
+            "b",
+            "c",
+            "d"
+        ],
+        "explanation": "",
+        "multipleSelect": true
+    },
+    {
+        "id": 127,
+        "text": "Which statement best describes a major difference between new GitHub Projects and GitHub Projects Classic?",
+        "options": [
+            {
+                "id": "a",
+                "text": "The new GitHub Projects provide a flexible spreadsheet-like interface, custom fields, and two-way issue synchronization that were not available in Projects Classic.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "GitHub Projects Classic has a built-in AI that automatically closes pull requests, while the new GitHub Projects do not.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "GitHub Projects Classic supports code scanning and secret scanning, while the new GitHub Projects do not.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "The new GitHub Projects only allow you to manage open issues without supporting pull requests.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "",
+        "multipleSelect": false
+    },
+    {
+        "id": 128,
+        "text": "Which of these can you customize in a Codespaces <code class=\"inline-code\">.devcontainer/devcontainer.json</code> configuration file? (Choose three.)",
+        "options": [
+            {
+                "id": "a",
+                "text": "Operating system or base image",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Shell configuration",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "GitHub Actions billing usage",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Codespace display name",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "e",
+                "text": "Repository branch protection rules",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "f",
+                "text": "Organization-level policies",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a",
+            "b",
+            "d"
+        ],
+        "explanation": "",
+        "multipleSelect": true
+    },
+    {
+        "id": 129,
+        "text": "Which roles in an organization can view and manage security alerts for private repositories?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Outside collaborators  \n  > Outside collaborators have repository-specific permissions only and are not organization members with security privileges.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Repository maintainers  \n  > Maintainers can manage certain repository settings but do not have default access to organization-wide security alerts.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Organization owners and Security managers  \n  > **Correct**. Organization owners and Security managers can view and manage security alerts, including for private repositories.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Billing managers",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "c"
+        ],
+        "explanation": "",
+        "multipleSelect": false
+    },
+    {
+        "id": 130,
+        "text": "Which of these statements accurately describes a difference between personal accounts and organization accounts on GitHub?",
+        "options": [
+            {
+                "id": "a",
+                "text": "An organization account can have multiple owners and members, whereas a personal account belongs to a single user only.  \n  > **Correct**. Organizations allow for collaborative management by multiple people, while a personal account is tied to an individual.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "A personal account allows unlimited private repositories, but an organization account only allows public repositories.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "A personal account can only be accessed via SSH keys, while an organization account can only be accessed via passwords.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "An organization account can only be created if you have a GitHub Enterprise plan.  \n  > Organizations are available on Free, Team, or Enterprise plans.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "",
+        "multipleSelect": false
+    },
+    {
+        "id": 131,
+        "text": "Which statement best describes the difference between cloning a repository and forking a repository?",
+        "options": [
+            {
+                "id": "a",
+                "text": "When you clone a repository, changes you push go directly to the original repository. Forking requires a separate local copy.  \n  > Cloning and forking both result in separate local copies, but pushing to a clone requires the correct permission on the original repo.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Forking creates a copy under your GitHub account, while cloning creates a local copy on your computer without linking ownership to your account.  \n  > **Correct**. A fork is a GitHub-level copy that appears in your account, whereas a clone is a local-only copy.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Cloning always transfers repository ownership, while forking does not.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Only private repositories can be forked, whereas only public repositories can be cloned.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "b"
+        ],
+        "explanation": "",
+        "multipleSelect": false
+    },
+    {
+        "id": 132,
+        "text": "Which of these statements about pinned items on your GitHub profile is true?",
+        "options": [
+            {
+                "id": "a",
+                "text": "You can pin up to 10 repositories on your profile.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "You can pin up to six repositories or gists on your profile for quick access.  \n  > **Correct**. GitHub supports pinning up to six items (repositories or gists).",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "You can only pin public repositories, not private ones.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Pinning an item deletes it from your repository list.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "b"
+        ],
+        "explanation": "",
+        "multipleSelect": false
+    },
+    {
+        "id": 133,
+        "text": "Which advanced search operator combination would you use to find public repositories with more than 100 stars that mention 'docker' in their name?",
+        "options": [
+            {
+                "id": "a",
+                "text": "<code class=\"inline-code\">in:name docker stars:>100 is:public</code>  \n  > **Correct**. This will find all public repositories that have 'docker' in their name and more than 100 stars.",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "<code class=\"inline-code\">docker in:description stars:<100 is:public</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "<code class=\"inline-code\">is:public name:docker stars:100</code>  \n  > This is missing the range operator (<code class=\"inline-code\">></code>) for stars, and <code class=\"inline-code\">name:docker</code> is not a valid syntax.",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "<code class=\"inline-code\">topic:docker stars:>100 in:readme</code>  \n  > This searches within topics or readmes, not the repository name.",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "",
+        "multipleSelect": false
+    },
+    {
+        "id": 134,
+        "text": "Which of the following best describes GitHub secret scanning?",
+        "options": [
+            {
+                "id": "a",
+                "text": "A feature that scans issues for unverified credentials and deletes them automatically.  \n  > Secret scanning doesn't automatically delete anything; it detects potentially leaked secrets.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "A feature that encrypts your repository secrets before pushing them to GitHub.  \n  > GitHub Actions Encrypted Secrets handle encryption, but that\u2019s different from secret scanning.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "A feature that runs third-party password managers on your code to store secrets securely.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "A feature that searches repositories for known secret formats to prevent accidental exposure of sensitive data.  \n  > **Correct**. Secret scanning detects tokens, keys, and other credentials to help avoid leaks.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "d"
+        ],
+        "explanation": "",
+        "multipleSelect": false
+    },
+    {
+        "id": 135,
+        "text": "Which of these statements about GitHub Pages is correct?",
+        "options": [
+            {
+                "id": "a",
+                "text": "GitHub Pages allows you to host a private website for free, accessible only by organization members.  \n  > GitHub Pages sites are always publicly accessible, unless you use a project site with enterprise firewall rules on GitHub Enterprise Server.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "GitHub Pages enables you to host static sites from a GitHub repository.  \n  > **Correct**. GitHub Pages is specifically for static site hosting from your repo.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "GitHub Pages automatically converts Java files into dynamic web apps.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "GitHub Pages can only be used by organization accounts.  \n  > Both personal and organization accounts can use Pages.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "b"
+        ],
+        "explanation": "",
+        "multipleSelect": false
+    }
+]
