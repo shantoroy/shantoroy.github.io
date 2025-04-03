@@ -221,7 +221,7 @@
             "c",
             "d"
         ],
-        "explanation": "https://docs.github.com/en/code-security/getting-started/github-security-features",
+        "explanation": "https://docs.github.com/en/code-security/getting-started/github-security-features\n\nDependabot is not a tool for code scanning, it is a tool for dependency management Dependabot is not a tool for secret scanning, it is a tool for dependency management Secret scanning is available for public repositories and for organizations with a GitHub Advanced Security license. It's not available for personal private repositories. Code scanning is available for public repositories and for organizations with a GitHub Advanced Security license. It's not available for personal private repositories.",
         "multipleSelect": true
     },
     {
@@ -434,7 +434,7 @@
             "b",
             "c"
         ],
-        "explanation": "https://docs.github.com/en/code-security/secret-scanning/secret-scanning-partner-program",
+        "explanation": "https://docs.github.com/en/code-security/secret-scanning/secret-scanning-partner-program\n\nGitHub is always responsible for running the secret scanning, not the partner. GitHub does not participate in the revocation of leaked secrets; the service provider has the option to do so.",
         "multipleSelect": true
     },
     {
@@ -474,7 +474,7 @@
     },
     {
         "id": 14,
-        "text": "You have included some fake secrets in your test code and they have been picked up by GitHub's secret scanning. What can you do to tell GitHub that these are fake secrets used in tests and can be ignored by secret scanning? (Choose two.)\n\n> <br/> [Managing secret scanning alerts](https://docs.github.com/en/code-security/secret-scanning/managing-alerts-from-secret-scanning#managing-secret-scanning-alerts) \n> <br/> [Excluding directories from secret scanning alerts](https://docs.github.com/en/code-security/secret-scanning/configuring-secret-scanning-for-your-repositories#excluding-directories-from-secret-scanning-alerts-for-users)",
+        "text": "You have included some fake secrets in your test code and they have been picked up by GitHub's secret scanning. What can you do to tell GitHub that these are fake secrets used in tests and can be ignored by secret scanning? (Choose two.)",
         "options": [
             {
                 "id": "a",
@@ -505,7 +505,7 @@
             "a",
             "b"
         ],
-        "explanation": "",
+        "explanation": "<br/> [Managing secret scanning alerts](https://docs.github.com/en/code-security/secret-scanning/managing-alerts-from-secret-scanning#managing-secret-scanning-alerts) <br/> [Excluding directories from secret scanning alerts](https://docs.github.com/en/code-security/secret-scanning/configuring-secret-scanning-for-your-repositories#excluding-directories-from-secret-scanning-alerts-for-users)",
         "multipleSelect": true
     },
     {
@@ -685,7 +685,7 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "https://docs.github.com/en/code-security/secret-scanning/secret-scanning-patterns#about-secret-scanning-patterns",
+        "explanation": "https://docs.github.com/en/code-security/secret-scanning/secret-scanning-patterns#about-secret-scanning-patterns\n\nThere are three different sets of secret scanning patterns. They overlap but are not the same.",
         "multipleSelect": false
     },
     {
@@ -804,7 +804,7 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "https://docs.github.com/en/enterprise-cloud@latest/code-security/secret-scanning/defining-custom-patterns-for-secret-scanning#defining-a-custom-pattern-for-an-organization",
+        "explanation": "https://docs.github.com/en/enterprise-cloud@latest/code-security/secret-scanning/defining-custom-patterns-for-secret-scanning#defining-a-custom-pattern-for-an-organization\n\nGitHub partner program is meant for service providers which distribute secrets outside of their organization (e.g cloud providers). It's not meant for internal secrets of a single organization. `secret_scanning.yml` file that can be used to disable secret scanning for specific files or directories.",
         "multipleSelect": false
     },
     {
@@ -839,7 +839,7 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "https://docs.github.com/en/code-security/dependabot/dependabot-alerts/about-dependabot-alerts",
+        "explanation": "https://docs.github.com/en/code-security/dependabot/dependabot-alerts/about-dependabot-alerts\n\nDependabot does that with version updates, but not with alerts.",
         "multipleSelect": false
     },
     {
@@ -1045,7 +1045,7 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph#using-the-dependency-graph",
+        "explanation": "https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph#using-the-dependency-graph\n\nYou can use Dependency Graph without using Dependabot Alerts. However you can't use Dependabot Alerts with Dependency Graph disabled.",
         "multipleSelect": false
     },
     {
@@ -2134,7 +2134,7 @@
             "a",
             "b"
         ],
-        "explanation": "https://docs.github.com/en/code-security/supply-chain-security/end-to-end-supply-chain/securing-code#scan-your-code-for-vulnerable-patterns",
+        "explanation": "https://docs.github.com/en/code-security/supply-chain-security/end-to-end-supply-chain/securing-code#scan-your-code-for-vulnerable-patterns\n\nThat is secret scanning",
         "multipleSelect": true
     },
     {
@@ -2428,7 +2428,7 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "https://docs.github.com/en/code-security/codeql-cli/getting-started-with-the-codeql-cli/customizing-analysis-with-codeql-packs#about-codeql-packs",
+        "explanation": "https://docs.github.com/en/code-security/codeql-cli/getting-started-with-the-codeql-cli/customizing-analysis-with-codeql-packs#about-codeql-packs\n\nThat's a CodeQL query suite",
         "multipleSelect": false
     },
     {
@@ -2666,7 +2666,7 @@
             "b",
             "c"
         ],
-        "explanation": "https://docs.github.com/en/code-security/code-scanning/enabling-code-scanning/configuring-default-setup-for-code-scanning",
+        "explanation": "https://docs.github.com/en/code-security/code-scanning/enabling-code-scanning/configuring-default-setup-for-code-scanning\n\nIf you enable default setup on a repository that does not include any CodeQL-supported languages, default setup will not run any scans Default setup includes scheduled scanning and pull request / push scanning on the default and protected branches",
         "multipleSelect": true
     },
     {
@@ -2974,7 +2974,7 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "https://docs.github.com/en/code-security/codeql-cli/getting-started-with-the-codeql-cli/analyzing-your-code-with-codeql-queries#running-codeql-database-analyze",
+        "explanation": "https://docs.github.com/en/code-security/codeql-cli/getting-started-with-the-codeql-cli/analyzing-your-code-with-codeql-queries#running-codeql-database-analyze\n\nThe results are not uploaded to GitHub, a separate command is used for that.",
         "multipleSelect": false
     },
     {
@@ -3016,7 +3016,7 @@
             "a",
             "b"
         ],
-        "explanation": "https://docs.github.com/en/code-security/code-scanning/integrating-with-code-scanning/uploading-a-sarif-file-to-github#about-sarif-file-uploads-for-code-scanning",
+        "explanation": "https://docs.github.com/en/code-security/code-scanning/integrating-with-code-scanning/uploading-a-sarif-file-to-github#about-sarif-file-uploads-for-code-scanning\n\nYou can't use GitHub Actions in Jenkins pipelines.",
         "multipleSelect": true
     },
     {
@@ -3353,7 +3353,7 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "https://docs.github.com/en/enterprise-cloud@latest/organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/managing-security-and-analysis-settings-for-your-organization#enabling-or-disabling-a-feature-for-all-existing-repositories",
+        "explanation": "https://docs.github.com/en/enterprise-cloud@latest/organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/managing-security-and-analysis-settings-for-your-organization#enabling-or-disabling-a-feature-for-all-existing-repositories\n\nThat is an option when using GitHub Enterprise Server",
         "multipleSelect": false
     },
     {
@@ -3493,7 +3493,7 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "https://docs.github.com/en/rest/dependabot/alerts?apiVersion=2022-11-28#list-dependabot-alerts-for-an-enterprise",
+        "explanation": "https://docs.github.com/en/rest/dependabot/alerts?apiVersion=2022-11-28#list-dependabot-alerts-for-an-enterprise\n\nThat is a correct endpoint for organization, but not for an enterprise That is a correct endpoint for a repository, but not for an enterprise",
         "multipleSelect": false
     },
     {
@@ -3528,7 +3528,7 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "https://docs.github.com/en/rest/secret-scanning/secret-scanning?apiVersion=2022-11-28#list-secret-scanning-alerts-for-an-organization",
+        "explanation": "https://docs.github.com/en/rest/secret-scanning/secret-scanning?apiVersion=2022-11-28#list-secret-scanning-alerts-for-an-organization\n\nThat is a correct endpoint for enterprise, but not for an organization That is a correct endpoint for a repository, but not for an organization",
         "multipleSelect": false
     },
     {
@@ -3633,7 +3633,7 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "https://docs.github.com/en/code-security/dependabot/dependabot-security-updates/about-dependabot-security-updates",
+        "explanation": "https://docs.github.com/en/code-security/dependabot/dependabot-security-updates/about-dependabot-security-updates\n\nThat's Dependabot alerts, Dependabot security updates are based on Dependabot alerts. That's Dependabot version updates",
         "multipleSelect": false
     },
     {
@@ -3668,7 +3668,7 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "https://docs.github.com/en/code-security/dependabot/dependabot-alerts/about-dependabot-alerts#configuration-of-dependabot-alerts",
+        "explanation": "https://docs.github.com/en/code-security/dependabot/dependabot-alerts/about-dependabot-alerts#configuration-of-dependabot-alerts\n\nGitHub detects vulnerable dependencies in public repositories and displays the dependency graph, but does not generate Dependabot alerts by default.",
         "multipleSelect": false
     },
     {
@@ -3855,7 +3855,7 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "https://docs.github.com/en/code-security/dependabot/dependabot-alerts/configuring-notifications-for-dependabot-alerts#configuring-notifications-for-dependabot-alerts",
+        "explanation": "https://docs.github.com/en/code-security/dependabot/dependabot-alerts/configuring-notifications-for-dependabot-alerts#configuring-notifications-for-dependabot-alerts\n\nWarnings are displayed as callbacks when you push to repositories with any insecure dependencies",
         "multipleSelect": false
     },
     {
@@ -4036,7 +4036,7 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/about-dependabot-version-updates#about-dependabot-version-updates",
+        "explanation": "https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/about-dependabot-version-updates#about-dependabot-version-updates\n\nGitHub Actions is not required for Dependabot version updates and Dependabot security updates to run on GitHub. However, pull requests opened by Dependabot can trigger workflows that run actions. Dependency review uses `actions/dependency-review-action` GitHub Action",
         "multipleSelect": false
     },
     {

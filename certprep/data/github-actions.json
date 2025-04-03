@@ -197,7 +197,7 @@
             "b",
             "c"
         ],
-        "explanation": "https://docs.github.com/en/actions/using-workflows/about-workflows",
+        "explanation": "https://docs.github.com/en/actions/using-workflows/about-workflows\n\nActions (not workflows) can be shared in GitHub Marketplace",
         "multipleSelect": true
     },
     {
@@ -837,7 +837,7 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows",
+        "explanation": "https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows\n\nThere is no such event trigger This is used for manual triggers",
         "multipleSelect": false
     },
     {
@@ -916,7 +916,7 @@
             "a",
             "b"
         ],
-        "explanation": "https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#defaults",
+        "explanation": "https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#defaults\n\ndefaults.run can only be set on workflow or job level There is no such thing as defaults.env There is no such thing as defaults.env",
         "multipleSelect": true
     },
     {
@@ -986,7 +986,7 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#example-using-concurrency-to-cancel-any-in-progress-job-or-run",
+        "explanation": "https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#example-using-concurrency-to-cancel-any-in-progress-job-or-run\n\nThis would queue runs on that github ref. It will not stop previous runs There is no such activity type as `latest` for pull_request event",
         "multipleSelect": false
     },
     {
@@ -1117,7 +1117,7 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idsteps",
+        "explanation": "https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idsteps\n\nSteps can but don't have to run actions (e.g running a run command)",
         "multipleSelect": false
     },
     {
@@ -1286,7 +1286,7 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#example-of-writing-an-environment-variable-to-github_env",
+        "explanation": "https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#example-of-writing-an-environment-variable-to-github_env\n\nThat would be the case if `action_state` was written to `$GITHUB_OUTPUT`",
         "multipleSelect": false
     },
     {
@@ -1309,7 +1309,7 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "https://docs.github.com/en/actions/using-workflows/reusing-workflows#nesting-reusable-workflows",
+        "explanation": "https://docs.github.com/en/actions/using-workflows/reusing-workflows#nesting-reusable-workflows\n\nReusable workflows can be nested, but there are limitations https://docs.github.com/en/actions/using-workflows/reusing-workflows#limitations",
         "multipleSelect": false
     },
     {
@@ -1344,7 +1344,7 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "https://docs.github.com/en/actions/using-workflows/reusing-workflows#passing-secrets-to-nested-workflows",
+        "explanation": "https://docs.github.com/en/actions/using-workflows/reusing-workflows#passing-secrets-to-nested-workflows\n\nNot all secrets from `octo-org` organization have to be made available to `octo-org/example-repo`. `Workflow B` would need to add `secrets: inherit` when calling `workflow C`",
         "multipleSelect": false
     },
     {
@@ -1379,7 +1379,7 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "https://docs.github.com/en/actions/using-workflows/caching-dependencies-to-speed-up-workflows#comparing-artifacts-and-dependency-caching",
+        "explanation": "https://docs.github.com/en/actions/using-workflows/caching-dependencies-to-speed-up-workflows#comparing-artifacts-and-dependency-caching\n\nArtifacts should be used for that https://docs.github.com/en/actions/using-workflows/storing-workflow-data-as-artifacts Artifacts should be used for that https://docs.github.com/en/actions/using-workflows/storing-workflow-data-as-artifacts",
         "multipleSelect": false
     },
     {
@@ -1415,7 +1415,7 @@
             "a",
             "b"
         ],
-        "explanation": "https://docs.github.com/en/actions/using-workflows/storing-workflow-data-as-artifacts#about-workflow-artifacts",
+        "explanation": "https://docs.github.com/en/actions/using-workflows/storing-workflow-data-as-artifacts#about-workflow-artifacts\n\nCaching should be used for that https://docs.github.com/en/actions/using-workflows/caching-dependencies-to-speed-up-workflows#comparing-artifacts-and-dependency-caching That's a use case for releases, not artifacts",
         "multipleSelect": true
     },
     {
@@ -1711,7 +1711,7 @@
             "b",
             "c"
         ],
-        "explanation": "https://docs.github.com/en/actions/using-workflows/sharing-workflows-secrets-and-runners-with-your-organization#sharing-secrets-and-variables-within-an-organization",
+        "explanation": "https://docs.github.com/en/actions/using-workflows/sharing-workflows-secrets-and-runners-with-your-organization#sharing-secrets-and-variables-within-an-organization\n\nEnvironments cannot be shared across repositories Environment variables can be scoped to a workflow, configuration variables cannot Environment variables can be scoped to a workflow, configuration variables cannot",
         "multipleSelect": true
     },
     {
@@ -1751,7 +1751,7 @@
     },
     {
         "id": 52,
-        "text": "Is this statement true? <code class=\"inline-code\">Docker container actions are usually slower than JavaScript actions</code>\n\n> Docker container actions are slower than JavaScript actions",
+        "text": "Is this statement true? <code class=\"inline-code\">Docker container actions are usually slower than JavaScript actions</code>",
         "options": [
             {
                 "id": "a",
@@ -1769,7 +1769,7 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "",
+        "explanation": "Docker container actions are slower than JavaScript actions Because of the latency to build and retrieve the container, Docker container actions are slower than JavaScript actions.",
         "multipleSelect": false
     },
     {
@@ -1792,7 +1792,7 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "https://docs.github.com/en/actions/creating-actions/about-custom-actions#choosing-a-location-for-your-action",
+        "explanation": "https://docs.github.com/en/actions/creating-actions/about-custom-actions#choosing-a-location-for-your-action\n\nThat is true for `workflows`, not for `actions`",
         "multipleSelect": false
     },
     {
@@ -1827,7 +1827,7 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "https://docs.github.com/en/actions/creating-actions/metadata-syntax-for-github-actions",
+        "explanation": "https://docs.github.com/en/actions/creating-actions/metadata-syntax-for-github-actions\n\nWhile it's good practice to do that, it's not a requirement for the action to work All actions require the metadata file.",
         "multipleSelect": false
     },
     {
@@ -1862,7 +1862,7 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "https://docs.github.com/en/actions/managing-workflow-runs/re-running-workflows-and-jobs#about-re-running-workflows-and-jobs",
+        "explanation": "https://docs.github.com/en/actions/managing-workflow-runs/re-running-workflows-and-jobs#about-re-running-workflows-and-jobs\n\nRe-running a workflow uses the same commit SHA and Git ref of the original event that triggered the workflow run.",
         "multipleSelect": false
     },
     {
@@ -1902,7 +1902,7 @@
     },
     {
         "id": 57,
-        "text": "Which is true about environments?\n\n> Each job in a workflow can reference a single environment.",
+        "text": "Which is true about environments?",
         "options": [
             {
                 "id": "a",
@@ -1932,7 +1932,7 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "",
+        "explanation": "Each job in a workflow can reference a single environment.",
         "multipleSelect": false
     },
     {
@@ -1967,7 +1967,7 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "https://docs.github.com/en/actions/deployment/security-hardening-your-deployments/about-security-hardening-with-openid-connect",
+        "explanation": "https://docs.github.com/en/actions/deployment/security-hardening-your-deployments/about-security-hardening-with-openid-connect\n\nUsing long lasting access keys is not recommended in case of any security leaks or attacks such as [script injection](https://docs.github.com/en/actions/security-guides/security-hardening-for-github-actions#understanding-the-risk-of-script-injections) No sensitive values should be stored in `variables`",
         "multipleSelect": false
     },
     {
@@ -2002,7 +2002,7 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "https://docs.github.com/en/actions/managing-workflow-runs/approving-workflow-runs-from-public-forks#about-workflow-runs-from-public-forks",
+        "explanation": "https://docs.github.com/en/actions/managing-workflow-runs/approving-workflow-runs-from-public-forks#about-workflow-runs-from-public-forks\n\nDeployment protection rules are used for protecting environments",
         "multipleSelect": false
     },
     {
@@ -2121,7 +2121,7 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions#naming-your-secrets",
+        "explanation": "https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions#naming-your-secrets\n\nIf a secret with the same name exists at multiple levels, the secret at the lowest level takes precedence.",
         "multipleSelect": false
     },
     {
@@ -2191,7 +2191,7 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "https://docs.github.com/en/enterprise-server@3.6/admin/github-actions/managing-access-to-actions-from-githubcom/enabling-automatic-access-to-githubcom-actions-using-github-connect",
+        "explanation": "https://docs.github.com/en/enterprise-server@3.6/admin/github-actions/managing-access-to-actions-from-githubcom/enabling-automatic-access-to-githubcom-actions-using-github-connect\n\nGitHub Actions on GitHub Enterprise Server is designed to work in environments without full internet access. By default, workflows cannot use actions from GitHub.com and GitHub Marketplace.",
         "multipleSelect": false
     },
     {
@@ -2296,7 +2296,7 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "https://docs.github.com/en/actions/learn-github-actions/contexts#example-usage-of-the-vars-context",
+        "explanation": "https://docs.github.com/en/actions/learn-github-actions/contexts#example-usage-of-the-vars-context\n\nThis will always be evaluate to True That is true for `secrets` but not for configuration variables That is true for `secrets` but not for configuration variables",
         "multipleSelect": false
     },
     {
@@ -2331,7 +2331,7 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#example-using-secrets",
+        "explanation": "https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#example-using-secrets\n\nsecrets cannot be directly referenced in if: conditionals secrets cannot be directly referenced in if: conditionals secrets cannot be directly referenced in if: conditionals",
         "multipleSelect": false
     },
     {
@@ -2499,7 +2499,7 @@
             "c",
             "d"
         ],
-        "explanation": "",
+        "explanation": "Artifacts are used to preserve data after a job has completed and/or share that data with another job within the same workflow. Cache can be reused across workflows within one repository Environment variables can be scoped to a step, job or a workflow. They cannot be shared across workflows/repositories or organizations",
         "multipleSelect": true
     },
     {
@@ -2592,7 +2592,7 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "https://docs.github.com/en/actions/using-jobs/choosing-the-runner-for-a-job#choosing-github-hosted-runners",
+        "explanation": "https://docs.github.com/en/actions/using-jobs/choosing-the-runner-for-a-job#choosing-github-hosted-runners\n\nEach job runs in a fresh instance of a runner image specified by runs-on",
         "multipleSelect": false
     },
     {
@@ -2732,7 +2732,7 @@
         "correctAnswers": [
             "c"
         ],
-        "explanation": "https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule",
+        "explanation": "https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule\n\nincorrect, both specific commit and on last modified branch incorrect, both specific commit and main branch latest commit is correct but the main branch is not",
         "multipleSelect": false
     },
     {
@@ -3301,7 +3301,7 @@
             "b",
             "c"
         ],
-        "explanation": "https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/adding-self-hosted-runners#adding-a-self-hosted-runner-to-a-repository",
+        "explanation": "https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/adding-self-hosted-runners#adding-a-self-hosted-runner-to-a-repository\n\nYou can't add to workflow level You can't add to step level",
         "multipleSelect": true
     },
     {
@@ -4095,7 +4095,7 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "https://docs.github.com/en/actions/managing-workflow-runs/skipping-workflow-runs",
+        "explanation": "https://docs.github.com/en/actions/managing-workflow-runs/skipping-workflow-runs\n\nhttps://docs.github.com/en/actions/managing-workflow-runs/skipping-workflow-runs",
         "multipleSelect": false
     },
     {

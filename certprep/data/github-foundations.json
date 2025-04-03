@@ -424,7 +424,7 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels",
+        "explanation": "https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels\n\nYou can't assign labels to releases You can't assign labels to contributors",
         "multipleSelect": false
     },
     {
@@ -472,7 +472,7 @@
             "a",
             "b"
         ],
-        "explanation": "https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/about-milestones",
+        "explanation": "https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/about-milestones\n\nThat's what GitHub Actions is for That's what Dependency graph and Dependabot are for",
         "multipleSelect": true
     },
     {
@@ -655,7 +655,7 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "https://docs.github.com/en/issues/planning-and-tracking-with-projects/viewing-insights-from-your-project/about-insights-for-projects",
+        "explanation": "https://docs.github.com/en/issues/planning-and-tracking-with-projects/viewing-insights-from-your-project/about-insights-for-projects\n\nThere is no such thing as Copilot Charts.",
         "multipleSelect": false
     },
     {
@@ -767,7 +767,7 @@
             "a",
             "b"
         ],
-        "explanation": "https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#about-events-that-trigger-workflows",
+        "explanation": "https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#about-events-that-trigger-workflows\n\nThis is not a valid event that could trigger a workflow. It's a feature of Dependabot.",
         "multipleSelect": true
     },
     {
@@ -872,7 +872,7 @@
         "correctAnswers": [
             "c"
         ],
-        "explanation": "https://docs.github.com/en/copilot/overview-of-github-copilot/about-github-copilot-individual#understanding-the-differences-between-copilot-individual-and-copilot-business",
+        "explanation": "https://docs.github.com/en/copilot/overview-of-github-copilot/about-github-copilot-individual#understanding-the-differences-between-copilot-individual-and-copilot-business\n\nThere is a free trial. However GitHub Copilot is a paid feature even for Individuals.",
         "multipleSelect": false
     },
     {
@@ -1167,7 +1167,7 @@
             "b",
             "c"
         ],
-        "explanation": "https://docs.github.com/en/codespaces/getting-started/understanding-the-codespace-lifecycle",
+        "explanation": "https://docs.github.com/en/codespaces/getting-started/understanding-the-codespace-lifecycle\n\nClosing the browser tab does not stop the Codespace and the processes continue running. If you only closed the tab, the Codespace will stop after reaching the inactivity timeout period",
         "multipleSelect": true
     },
     {
@@ -1190,7 +1190,7 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "https://docs.github.com/en/codespaces/customizing-your-codespace/changing-the-machine-type-for-your-codespace",
+        "explanation": "https://docs.github.com/en/codespaces/customizing-your-codespace/changing-the-machine-type-for-your-codespace\n\nGitHub Codespaces are indeed hosted on Microsoft Azure, but you can configure the machine type to use",
         "multipleSelect": false
     },
     {
@@ -1442,7 +1442,7 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/disabling-issues",
+        "explanation": "https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/disabling-issues\n\nFeatures such as issues, wikis or projects can be disabled on a repository in the repository settings",
         "multipleSelect": false
     },
     {
@@ -1806,7 +1806,7 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository",
+        "explanation": "https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository\n\nThat's contributors. You can be a collaborator on a repository without having contributed to it. You can also contribute to a repository without being a collaborator, by forking the repository and submitting a pull request. That's sponsors",
         "multipleSelect": false
     },
     {
@@ -1870,7 +1870,7 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "https://docs.github.com/en/organizations/organizing-members-into-teams/about-teams",
+        "explanation": "https://docs.github.com/en/organizations/organizing-members-into-teams/about-teams\n\nPersonal repositories cannot be shared with teams, only with individual collaborators.",
         "multipleSelect": false
     },
     {
@@ -1905,7 +1905,7 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization",
+        "explanation": "https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization\n\nThat's organization owners That's billing managers That's security managers",
         "multipleSelect": false
     },
     {
@@ -1940,7 +1940,7 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization",
+        "explanation": "https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization\n\nThat's moderators That's organization owners That's billing managers",
         "multipleSelect": false
     },
     {
@@ -2115,7 +2115,7 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "https://docs.github.com/en/apps/github-marketplace/github-marketplace-overview/about-github-marketplace-for-apps",
+        "explanation": "https://docs.github.com/en/apps/github-marketplace/github-marketplace-overview/about-github-marketplace-for-apps\n\nThat is GitHub Sponsors",
         "multipleSelect": false
     },
     {
@@ -3578,7 +3578,7 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis",
+        "explanation": "https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis\n\nThat's Gists",
         "multipleSelect": false
     },
     {
@@ -3636,7 +3636,7 @@
         "correctAnswers": [
             "b"
         ],
-        "explanation": "https://docs.github.com/en/get-started/writing-on-github/editing-and-sharing-content-with-gists/creating-gists",
+        "explanation": "https://docs.github.com/en/get-started/writing-on-github/editing-and-sharing-content-with-gists/creating-gists\n\nAfter creating a gist, you cannot convert it from public to secret.",
         "multipleSelect": false
     },
     {
@@ -3777,7 +3777,7 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue#creating-an-issue-from-discussion",
+        "explanation": "https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue#creating-an-issue-from-discussion\n\nWhen you \"convert\" a discussion into an Issue it essentially creates a new issue that is soft linked to the discussion and pre-fills the issue information. There isn't a bigger connection between them.",
         "multipleSelect": false
     },
     {
@@ -3870,12 +3870,12 @@
             "b",
             "e"
         ],
-        "explanation": "https://learn.microsoft.com/en-us/training/modules/github-introduction-administration/2-what-is-github-administration",
+        "explanation": "https://learn.microsoft.com/en-us/training/modules/github-introduction-administration/2-what-is-github-administration\n\nGitHub Personal is a type of account and not an organizational hierarchy on GitHub. GitHub Pro is a type of account and not an organizational hierarchy on GitHub.",
         "multipleSelect": true
     },
     {
         "id": 107,
-        "text": "Who can setup billing or assign billing managers for an organization? (Select three.)\n\n> Official GitHub documentation: https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/adding-a-billing-manager-to-your-organization, Microsoft Learn study guide: https://learn.microsoft.com/en-us/training/modules/github-introduction-administration/2-what-is-github-administration",
+        "text": "Who can setup billing or assign billing managers for an organization? (Select three.)",
         "options": [
             {
                 "id": "a",
@@ -3919,7 +3919,7 @@
             "e",
             "f"
         ],
-        "explanation": "",
+        "explanation": "Official GitHub documentation: https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/adding-a-billing-manager-to-your-organization, Microsoft Learn study guide: https://learn.microsoft.com/en-us/training/modules/github-introduction-administration/2-what-is-github-administration",
         "multipleSelect": true
     },
     {
@@ -3954,7 +3954,7 @@
         "correctAnswers": [
             "c"
         ],
-        "explanation": "https://learn.microsoft.com/en-us/training/modules/github-introduction-administration/3-how-github-authentication-works",
+        "explanation": "https://learn.microsoft.com/en-us/training/modules/github-introduction-administration/3-how-github-authentication-works\n\nPAT's as the name suggests, are personal. Organizations and Enterprises can manage other forms of authentication, such as LDAP, SAML, and SSH keys. This is a description of multi-factor or two-factor authentication. This is a description of LDAP's benefits for GitHub, not PAT.",
         "multipleSelect": false
     },
     {
@@ -4004,7 +4004,7 @@
             "e",
             "f"
         ],
-        "explanation": "https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/accessing-github-using-two-factor-authentication",
+        "explanation": "https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/accessing-github-using-two-factor-authentication\n\nWhile text messages are supported in some countries, phone calls are not",
         "multipleSelect": true
     },
     {
@@ -4174,7 +4174,7 @@
     },
     {
         "id": 114,
-        "text": "What feature is unique to GitHub Desktop compared to github.com?\n\n> GitHub Desktop provides a graphical interface for visualizing branch histories, which is unique compared to the website\n> - https://docs.github.com/en/desktop/making-changes-in-a-branch/viewing-the-branch-history-in-github-desktop\n> - https://docs.github.com/en/repositories/viewing-activity-and-data-for-your-repository/using-the-activity-view-to-see-changes-to-a-repository",
+        "text": "What feature is unique to GitHub Desktop compared to github.com?",
         "options": [
             {
                 "id": "a",
@@ -4204,12 +4204,12 @@
         "correctAnswers": [
             "d"
         ],
-        "explanation": "",
+        "explanation": "GitHub Desktop provides a graphical interface for visualizing branch histories, which is unique compared to the website - https://docs.github.com/en/desktop/making-changes-in-a-branch/viewing-the-branch-history-in-github-desktop - https://docs.github.com/en/repositories/viewing-activity-and-data-for-your-repository/using-the-activity-view-to-see-changes-to-a-repository",
         "multipleSelect": false
     },
     {
         "id": 115,
-        "text": "Which of the following actions cannot be performed directly from GitHub Desktop?\n\n> Managing GitHub Actions is not a feature available in GitHub Desktop and must be done via github.com or CI/CD integration\n> - https://docs.github.com/en/actions/quickstart#prerequisites",
+        "text": "Which of the following actions cannot be performed directly from GitHub Desktop?",
         "options": [
             {
                 "id": "a",
@@ -4239,7 +4239,7 @@
         "correctAnswers": [
             "b"
         ],
-        "explanation": "",
+        "explanation": "Managing GitHub Actions is not a feature available in GitHub Desktop and must be done via github.com or CI/CD integration - https://docs.github.com/en/actions/quickstart#prerequisites",
         "multipleSelect": false
     },
     {
@@ -4282,7 +4282,7 @@
             "c",
             "d"
         ],
-        "explanation": "https://docs.github.com/en/issues/planning-and-tracking-with-projects/managing-your-project/managing-project-templates-in-your-organization",
+        "explanation": "https://docs.github.com/en/issues/planning-and-tracking-with-projects/managing-your-project/managing-project-templates-in-your-organization\n\nYou need admin permissions to set an existing project as a template",
         "multipleSelect": true
     },
     {
@@ -4373,7 +4373,7 @@
     },
     {
         "id": 119,
-        "text": "What is the minimum permission a user must have to directly push commits to a repository owned by an organization?\n\n> **More info**: [Repository roles for organizations](https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/repository-roles-for-an-organization)",
+        "text": "What is the minimum permission a user must have to directly push commits to a repository owned by an organization?",
         "options": [
             {
                 "id": "a",
@@ -4409,12 +4409,12 @@
         "correctAnswers": [
             "b"
         ],
-        "explanation": "",
+        "explanation": "**More info**: [Repository roles for organizations](https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/repository-roles-for-an-organization)",
         "multipleSelect": false
     },
     {
         "id": 120,
-        "text": "Which of these is a capability of a Security Manager with respect to GitHub Actions in an organization?\n\n> **More info**: [Roles in an organization](https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization)",
+        "text": "Which of these is a capability of a Security Manager with respect to GitHub Actions in an organization?",
         "options": [
             {
                 "id": "a",
@@ -4444,12 +4444,12 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "",
+        "explanation": "**More info**: [Roles in an organization](https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization)",
         "multipleSelect": false
     },
     {
         "id": 121,
-        "text": "Which feature provides pre-built charts or visualizations for repository activity and health?\n\n> **More info**: [About repository insights](https://docs.github.com/en/repositories/viewing-activity-and-data-for-your-repository/about-repository-graphs)",
+        "text": "Which feature provides pre-built charts or visualizations for repository activity and health?",
         "options": [
             {
                 "id": "a",
@@ -4479,12 +4479,12 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "",
+        "explanation": "**More info**: [About repository insights](https://docs.github.com/en/repositories/viewing-activity-and-data-for-your-repository/about-repository-graphs)",
         "multipleSelect": false
     },
     {
         "id": 122,
-        "text": "Which of these features does GitHub Copilot for Business offer that GitHub Copilot for Individuals does not?\n\n> **More info**: [GitHub Copilot for Business](https://docs.github.com/en/copilot/about-github-copilot/subscription-plans-for-github-copilot)",
+        "text": "Which of these features does GitHub Copilot for Business offer that GitHub Copilot for Individuals does not?",
         "options": [
             {
                 "id": "a",
@@ -4514,12 +4514,12 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "",
+        "explanation": "**More info**: [GitHub Copilot for Business](https://docs.github.com/en/copilot/about-github-copilot/subscription-plans-for-github-copilot)",
         "multipleSelect": false
     },
     {
         "id": 123,
-        "text": "What is the main difference between an organization member and an outside collaborator for a repository owned by that organization?\n\n> **More info**: [Adding outside collaborators to repositories in your organization](https://docs.github.com/en/organizations/managing-access-to-your-organizations-repositories/adding-outside-collaborators-to-repositories-in-your-organization)",
+        "text": "What is the main difference between an organization member and an outside collaborator for a repository owned by that organization?",
         "options": [
             {
                 "id": "a",
@@ -4549,12 +4549,12 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "",
+        "explanation": "**More info**: [Adding outside collaborators to repositories in your organization](https://docs.github.com/en/organizations/managing-access-to-your-organizations-repositories/adding-outside-collaborators-to-repositories-in-your-organization)",
         "multipleSelect": false
     },
     {
         "id": 124,
-        "text": "Which of the following actions can you perform on a GitHub Discussion? (Choose three.)\n\n> **More info**: [About discussions](https://docs.github.com/en/discussions/quickstart#introduction)",
+        "text": "Which of the following actions can you perform on a GitHub Discussion? (Choose three.)",
         "options": [
             {
                 "id": "a",
@@ -4592,12 +4592,12 @@
             "b",
             "d"
         ],
-        "explanation": "",
+        "explanation": "**More info**: [About discussions](https://docs.github.com/en/discussions/quickstart#introduction)",
         "multipleSelect": true
     },
     {
         "id": 125,
-        "text": "Which search query finds all open issues labeled <code class=\"inline-code\">test</code> that mention 'fix' in their body text?\n\n> **More info**: [Searching issues and pull requests](https://docs.github.com/en/search-github/searching-on-github/searching-issues-and-pull-requests)",
+        "text": "Which search query finds all open issues labeled <code class=\"inline-code\">test</code> that mention 'fix' in their body text?",
         "options": [
             {
                 "id": "a",
@@ -4627,12 +4627,12 @@
         "correctAnswers": [
             "c"
         ],
-        "explanation": "",
+        "explanation": "**More info**: [Searching issues and pull requests](https://docs.github.com/en/search-github/searching-on-github/searching-issues-and-pull-requests)",
         "multipleSelect": false
     },
     {
         "id": 126,
-        "text": "Which of the following are valid states for a pull request on GitHub? (Choose four.)\n\n> **More info**: [About pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)",
+        "text": "Which of the following are valid states for a pull request on GitHub? (Choose four.)",
         "options": [
             {
                 "id": "a",
@@ -4677,12 +4677,12 @@
             "c",
             "d"
         ],
-        "explanation": "",
+        "explanation": "**More info**: [About pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)",
         "multipleSelect": true
     },
     {
         "id": 127,
-        "text": "Which statement best describes a major difference between new GitHub Projects and GitHub Projects Classic?\n\n> **More info**: [About projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects#differences-from-projects-classic)",
+        "text": "Which statement best describes a major difference between new GitHub Projects and GitHub Projects Classic?",
         "options": [
             {
                 "id": "a",
@@ -4712,12 +4712,12 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "",
+        "explanation": "**More info**: [About projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects#differences-from-projects-classic)",
         "multipleSelect": false
     },
     {
         "id": 128,
-        "text": "Which of these can you customize in a Codespaces <code class=\"inline-code\">.devcontainer/devcontainer.json</code> configuration file? (Choose three.)\n\n> **More info**: [Introduction to dev containers](https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/adding-a-dev-container-configuration/introduction-to-dev-containers)",
+        "text": "Which of these can you customize in a Codespaces <code class=\"inline-code\">.devcontainer/devcontainer.json</code> configuration file? (Choose three.)",
         "options": [
             {
                 "id": "a",
@@ -4761,12 +4761,12 @@
             "b",
             "d"
         ],
-        "explanation": "",
+        "explanation": "**More info**: [Introduction to dev containers](https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/adding-a-dev-container-configuration/introduction-to-dev-containers)",
         "multipleSelect": true
     },
     {
         "id": 129,
-        "text": "Which roles in an organization can view and manage security alerts for private repositories?\n\n> **More info**: [Roles in an organization](https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization)",
+        "text": "Which roles in an organization can view and manage security alerts for private repositories?",
         "options": [
             {
                 "id": "a",
@@ -4796,12 +4796,12 @@
         "correctAnswers": [
             "c"
         ],
-        "explanation": "",
+        "explanation": "**More info**: [Roles in an organization](https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization) Outside collaborators have repository-specific permissions only and are not organization members with security privileges. Maintainers can manage certain repository settings but do not have default access to organization-wide security alerts. **Correct**. Organization owners and Security managers can view and manage security alerts, including for private repositories.",
         "multipleSelect": false
     },
     {
         "id": 130,
-        "text": "Which of these statements accurately describes a difference between personal accounts and organization accounts on GitHub?\n\n> **More info**: [Types of GitHub accounts](https://docs.github.com/en/get-started/learning-about-github/types-of-github-accounts)",
+        "text": "Which of these statements accurately describes a difference between personal accounts and organization accounts on GitHub?",
         "options": [
             {
                 "id": "a",
@@ -4831,12 +4831,12 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "",
+        "explanation": "**More info**: [Types of GitHub accounts](https://docs.github.com/en/get-started/learning-about-github/types-of-github-accounts) **Correct**. Organizations allow for collaborative management by multiple people, while a personal account is tied to an individual. Organizations are available on Free, Team, or Enterprise plans.",
         "multipleSelect": false
     },
     {
         "id": 131,
-        "text": "Which statement best describes the difference between cloning a repository and forking a repository?\n\n> **More info**: [About forks](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks)",
+        "text": "Which statement best describes the difference between cloning a repository and forking a repository?",
         "options": [
             {
                 "id": "a",
@@ -4866,12 +4866,12 @@
         "correctAnswers": [
             "b"
         ],
-        "explanation": "",
+        "explanation": "**More info**: [About forks](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks) Cloning and forking both result in separate local copies, but pushing to a clone requires the correct permission on the original repo. **Correct**. A fork is a GitHub-level copy that appears in your account, whereas a clone is a local-only copy.",
         "multipleSelect": false
     },
     {
         "id": 132,
-        "text": "Which of these statements about pinned items on your GitHub profile is true?\n\n> **More info**: [Pinning items to your profile](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/pinning-items-to-your-profile)",
+        "text": "Which of these statements about pinned items on your GitHub profile is true?",
         "options": [
             {
                 "id": "a",
@@ -4901,12 +4901,12 @@
         "correctAnswers": [
             "b"
         ],
-        "explanation": "",
+        "explanation": "**More info**: [Pinning items to your profile](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/pinning-items-to-your-profile) **Correct**. GitHub supports pinning up to six items (repositories or gists).",
         "multipleSelect": false
     },
     {
         "id": 133,
-        "text": "Which advanced search operator combination would you use to find public repositories with more than 100 stars that mention 'docker' in their name?\n\n> **More info**: [Searching repositories](https://docs.github.com/en/search-github/searching-on-github/searching-for-repositories)",
+        "text": "Which advanced search operator combination would you use to find public repositories with more than 100 stars that mention 'docker' in their name?",
         "options": [
             {
                 "id": "a",
@@ -4936,12 +4936,12 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "",
+        "explanation": "**More info**: [Searching repositories](https://docs.github.com/en/search-github/searching-on-github/searching-for-repositories) **Correct**. This will find all public repositories that have 'docker' in their name and more than 100 stars. This is missing the range operator (`>`) for stars, and `name:docker` is not a valid syntax. This searches within topics or readmes, not the repository name.",
         "multipleSelect": false
     },
     {
         "id": 134,
-        "text": "Which of the following best describes GitHub secret scanning?\n\n> **More info**: [About secret scanning](https://docs.github.com/en/code-security/secret-scanning/about-secret-scanning)",
+        "text": "Which of the following best describes GitHub secret scanning?",
         "options": [
             {
                 "id": "a",
@@ -4971,12 +4971,12 @@
         "correctAnswers": [
             "d"
         ],
-        "explanation": "",
+        "explanation": "**More info**: [About secret scanning](https://docs.github.com/en/code-security/secret-scanning/about-secret-scanning) Secret scanning doesn't automatically delete anything; it detects potentially leaked secrets. GitHub Actions Encrypted Secrets handle encryption, but that\u2019s different from secret scanning. **Correct**. Secret scanning detects tokens, keys, and other credentials to help avoid leaks.",
         "multipleSelect": false
     },
     {
         "id": 135,
-        "text": "Which of these statements about GitHub Pages is correct?\n\n> **More info**: [About GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages)",
+        "text": "Which of these statements about GitHub Pages is correct?",
         "options": [
             {
                 "id": "a",
@@ -5006,7 +5006,7 @@
         "correctAnswers": [
             "b"
         ],
-        "explanation": "",
+        "explanation": "**More info**: [About GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages) GitHub Pages sites are always publicly accessible, unless you use a project site with enterprise firewall rules on GitHub Enterprise Server. **Correct**. GitHub Pages is specifically for static site hosting from your repo. Both personal and organization accounts can use Pages.",
         "multipleSelect": false
     }
 ]
