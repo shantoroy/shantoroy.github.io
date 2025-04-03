@@ -204,13 +204,13 @@
             },
             {
                 "id": "e",
-                "text": "Dependabot code scanning\n> Dependabot is not a tool for code scanning, it is a tool for dependency management",
+                "text": "Dependabot code scanning",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "f",
-                "text": "Dependabot secret scanning\n> Dependabot is not a tool for secret scanning, it is a tool for dependency management",
+                "text": "Dependabot secret scanning",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
@@ -277,13 +277,13 @@
             },
             {
                 "id": "c",
-                "text": "GitHub Repository secrets\n> https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions#creating-secrets-for-a-repository",
+                "text": "GitHub Repository secrets",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "d",
-                "text": "GitHub Environment secrets\n> https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions#creating-secrets-for-an-environment",
+                "text": "GitHub Environment secrets",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
@@ -418,13 +418,13 @@
             },
             {
                 "id": "d",
-                "text": "It grants the partner access to the secret GitHub scanning API so that the service provider can scan GitHub repositories for secrets that match their format.\n> GitHub is always responsible for running the secret scanning, not the partner.",
+                "text": "It grants the partner access to the secret GitHub scanning API so that the service provider can scan GitHub repositories for secrets that match their format.",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "e",
-                "text": "GitHub has the ability to automatically revoke leaked secrets and notify the service provider that they have been invalidated by GitHub.\n> GitHub does not participate in the revocation of leaked secrets; the service provider has the option to do so.",
+                "text": "GitHub has the ability to automatically revoke leaked secrets and notify the service provider that they have been invalidated by GitHub.",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
@@ -474,7 +474,7 @@
     },
     {
         "id": 14,
-        "text": "You have included some fake secrets in your test code and they have been picked up by GitHub's secret scanning. What can you do to tell GitHub that these are fake secrets used in tests and can be ignored by secret scanning? (Choose two.)",
+        "text": "You have included some fake secrets in your test code and they have been picked up by GitHub's secret scanning. What can you do to tell GitHub that these are fake secrets used in tests and can be ignored by secret scanning? (Choose two.)\n\n> <br/> [Managing secret scanning alerts](https://docs.github.com/en/code-security/secret-scanning/managing-alerts-from-secret-scanning#managing-secret-scanning-alerts) \n> <br/> [Excluding directories from secret scanning alerts](https://docs.github.com/en/code-security/secret-scanning/configuring-secret-scanning-for-your-repositories#excluding-directories-from-secret-scanning-alerts-for-users)",
         "options": [
             {
                 "id": "a",
@@ -677,7 +677,7 @@
             },
             {
                 "id": "b",
-                "text": "Yes, its the same set of secret patterns\n> There are three different sets of secret scanning patterns. They overlap but are not the same.",
+                "text": "Yes, its the same set of secret patterns",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
@@ -784,7 +784,7 @@
             },
             {
                 "id": "b",
-                "text": "The company should join the GitHub partner program so the pattern of the companies secrets is recognized.\n> GitHub partner program is meant for service providers which distribute secrets outside of their organization (e.g cloud providers). It's not meant for internal secrets of a single organization.",
+                "text": "The company should join the GitHub partner program so the pattern of the companies secrets is recognized.",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
@@ -796,7 +796,7 @@
             },
             {
                 "id": "d",
-                "text": "In all repositories include <code class=\"inline-code\">secret_scanning.yml</code> file which will define these custom secrets that should be scanned for.\n> <code class=\"inline-code\">secret_scanning.yml</code> file that can be used to disable secret scanning for specific files or directories.",
+                "text": "In all repositories include <code class=\"inline-code\">secret_scanning.yml</code> file which will define these custom secrets that should be scanned for.",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             }
@@ -831,7 +831,7 @@
             },
             {
                 "id": "d",
-                "text": "Dependabot alerts tell you that your repository uses an outdated version of a package\n> Dependabot does that with version updates, but not with alerts.",
+                "text": "Dependabot alerts tell you that your repository uses an outdated version of a package",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
@@ -1037,7 +1037,7 @@
             },
             {
                 "id": "b",
-                "text": "No\n> You can use Dependency Graph without using Dependabot Alerts. However you can't use Dependabot Alerts with Dependency Graph disabled.",
+                "text": "No",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
@@ -2119,7 +2119,7 @@
             },
             {
                 "id": "d",
-                "text": "Code scanning helps finding any leaked credentials in the codebase such as API keys or cloud credentials. \n> That is secret scanning",
+                "text": "Code scanning helps finding any leaked credentials in the codebase such as API keys or cloud credentials.",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
@@ -2174,7 +2174,7 @@
     },
     {
         "id": 62,
-        "text": "What is the effect of adding the <code class=\"inline-code\">paths-ignore</code> keyword to your code scanning GitHub Actions workflow?",
+        "text": "What is the effect of adding the <code class=\"inline-code\">paths-ignore</code> keyword to your code scanning GitHub Actions workflow?\n\n<pre><code class='language-yaml'>.github/workflows/codeql-analysis.yml\n\non:\n  pull_request:\n    branches: [main]\n    paths-ignore:\n      - '**/*.md'\n      - '**/*.txt'</code></pre>",
         "options": [
             {
                 "id": "a",
@@ -2414,7 +2414,7 @@
             },
             {
                 "id": "c",
-                "text": "It's a collection of CodeQL queries\n> That's a CodeQL query suite",
+                "text": "It's a collection of CodeQL queries",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
@@ -2437,25 +2437,25 @@
         "options": [
             {
                 "id": "a",
-                "text": "Creating a CodeQL database -> Running CodeQL queries -> Interpreting the results",
+                "text": "Creating a CodeQL database -",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "b",
-                "text": "Running CodeQL queries -> Creating a CodeQL database -> Interpreting the results",
+                "text": "Running CodeQL queries -",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "c",
-                "text": "Running CodeQL queries -> Interpreting the results",
+                "text": "Running CodeQL queries -",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "d",
-                "text": "Creating a CodeQL database -> Interpreting the results -> Running CodeQL queries",
+                "text": "Creating a CodeQL database -",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
@@ -2644,13 +2644,13 @@
             },
             {
                 "id": "d",
-                "text": "You can only enable default setup on repositories that contain at least one CodeQL-supported language\n> If you enable default setup on a repository that does not include any CodeQL-supported languages, default setup will not run any scans",
+                "text": "You can only enable default setup on repositories that contain at least one CodeQL-supported language",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "e",
-                "text": "Default setup will scan the repository on a schedule that you can configure. For event based scanning, you need to configure a GitHub Action workflow\n> Default setup includes scheduled scanning and pull request / push scanning on the default and protected branches",
+                "text": "Default setup will scan the repository on a schedule that you can configure. For event based scanning, you need to configure a GitHub Action workflow",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
@@ -2966,7 +2966,7 @@
             },
             {
                 "id": "d",
-                "text": "Analyzing a CodeQL database and uploading the results to GitHub.\n> The results are not uploaded to GitHub, a separate command is used for that.",
+                "text": "Analyzing a CodeQL database and uploading the results to GitHub.",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
@@ -3007,7 +3007,7 @@
             },
             {
                 "id": "e",
-                "text": "Using the <code class=\"inline-code\">github/codeql-action/upload-sarif</code> GitHub Action\n> You can't use GitHub Actions in Jenkins pipelines.",
+                "text": "Using the <code class=\"inline-code\">github/codeql-action/upload-sarif</code> GitHub Action",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             }
@@ -3333,7 +3333,7 @@
             },
             {
                 "id": "b",
-                "text": "By connecting directly to the GitHub Enterprise Cloud instance through SSH and using the administrative shell <code class=\"inline-code\">ghe-config</code> commands.\n> That is an option when using GitHub Enterprise Server",
+                "text": "By connecting directly to the GitHub Enterprise Cloud instance through SSH and using the administrative shell <code class=\"inline-code\">ghe-config</code> commands.",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
@@ -3473,13 +3473,13 @@
             },
             {
                 "id": "b",
-                "text": "<code class=\"inline-code\">GET /orgs/{org}/dependabot/alerts</code>\n> That is a correct endpoint for organization, but not for an enterprise",
+                "text": "<code class=\"inline-code\">GET /orgs/{org}/dependabot/alerts</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
             {
                 "id": "c",
-                "text": "<code class=\"inline-code\">GET /repos/{owner}/{repo}/dependabot/alerts</code>\n> That is a correct endpoint for a repository, but not for an enterprise",
+                "text": "<code class=\"inline-code\">GET /repos/{owner}/{repo}/dependabot/alerts</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
@@ -3508,13 +3508,13 @@
             },
             {
                 "id": "b",
-                "text": "<code class=\"inline-code\">GET /enterprises/{enterprise}/secret-scanning/alerts</code>\n> That is a correct endpoint for enterprise, but not for an organization",
+                "text": "<code class=\"inline-code\">GET /enterprises/{enterprise}/secret-scanning/alerts</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
             {
                 "id": "c",
-                "text": "<code class=\"inline-code\">GET /repos/{owner}/{repo}/secret-scanning/alerts</code>\n> That is a correct endpoint for a repository, but not for an organization",
+                "text": "<code class=\"inline-code\">GET /repos/{owner}/{repo}/secret-scanning/alerts</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
@@ -3619,13 +3619,13 @@
             },
             {
                 "id": "c",
-                "text": "It's a Dependabot feature that creates alerts when a security vulnerability is detected in one of your dependencies.\n> That's Dependabot alerts, Dependabot security updates are based on Dependabot alerts.",
+                "text": "It's a Dependabot feature that creates alerts when a security vulnerability is detected in one of your dependencies.",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "d",
-                "text": "It's a Dependabot feature that automatically creates pull requests to update dependencies in your repository when they release a new version.\n> That's Dependabot version updates",
+                "text": "It's a Dependabot feature that automatically creates pull requests to update dependencies in your repository when they release a new version.",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
@@ -3648,7 +3648,7 @@
             },
             {
                 "id": "b",
-                "text": "Only public repositories.\n> GitHub detects vulnerable dependencies in public repositories and displays the dependency graph, but does not generate Dependabot alerts by default.",
+                "text": "Only public repositories.",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
@@ -3841,7 +3841,7 @@
             },
             {
                 "id": "d",
-                "text": "GitHub CLI\n> Warnings are displayed as callbacks when you push to repositories with any insecure dependencies",
+                "text": "GitHub CLI",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
@@ -4022,15 +4022,15 @@
             },
             {
                 "id": "d",
-                "text": "All of these\n> GitHub Actions is not required for Dependabot version updates and Dependabot security updates to run on GitHub. However, pull requests opened by Dependabot can trigger workflows that run actions.",
+                "text": "All of these",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "e",
-                "text": "None of these\n> Dependency review uses <code class=\"inline-code\">actions/dependency-review-action</code> GitHub Action",
+                "text": "None of these",
                 "isCodeBlock": false,
-                "hasInlineCode": true
+                "hasInlineCode": false
             }
         ],
         "correctAnswers": [

@@ -410,13 +410,13 @@
             },
             {
                 "id": "c",
-                "text": "Assigning them to releases so that they are included in the release notes\n> You can't assign labels to releases",
+                "text": "Assigning them to releases so that they are included in the release notes",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "d",
-                "text": "Assigning labels to repository contributors to indicate their role and permissions in the project\n> You can't assign labels to contributors",
+                "text": "Assigning labels to repository contributors to indicate their role and permissions in the project",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
@@ -445,7 +445,7 @@
             },
             {
                 "id": "c",
-                "text": "To bring automation to the repository\n> That's what GitHub Actions is for",
+                "text": "To bring automation to the repository",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
@@ -457,7 +457,7 @@
             },
             {
                 "id": "e",
-                "text": "To track the repository dependencies\n> That's what Dependency graph and Dependabot are for",
+                "text": "To track the repository dependencies",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
@@ -647,7 +647,7 @@
             },
             {
                 "id": "d",
-                "text": "Copilot Charts\n> There is no such thing as Copilot Charts.",
+                "text": "Copilot Charts",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
@@ -752,7 +752,7 @@
             },
             {
                 "id": "d",
-                "text": "A new vulnerability has been detected in a dependency\n> This is not a valid event that could trigger a workflow. It's a feature of Dependabot.",
+                "text": "A new vulnerability has been detected in a dependency",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
@@ -864,7 +864,7 @@
             },
             {
                 "id": "d",
-                "text": "Yes, but only for individuals working on public repositories\n> There is a free trial. However GitHub Copilot is a paid feature even for Individuals.",
+                "text": "Yes, but only for individuals working on public repositories",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
@@ -1157,7 +1157,7 @@
             },
             {
                 "id": "f",
-                "text": "If you close the browser tab in which your Codespace was running, the Codespace will automatically be stopped\n> Closing the browser tab does not stop the Codespace and the processes continue running. If you only closed the tab, the Codespace will stop after reaching the inactivity timeout period",
+                "text": "If you close the browser tab in which your Codespace was running, the Codespace will automatically be stopped",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
@@ -1182,7 +1182,7 @@
             },
             {
                 "id": "b",
-                "text": "No, GitHub Codespaces are hosted on Microsoft Azure and we have no control on what hardware they are running\n> GitHub Codespaces are indeed hosted on Microsoft Azure, but you can configure the machine type to use",
+                "text": "No, GitHub Codespaces are hosted on Microsoft Azure and we have no control on what hardware they are running",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
@@ -1434,7 +1434,7 @@
             },
             {
                 "id": "b",
-                "text": "No\n> Features such as issues, wikis or projects can be disabled on a repository in the repository settings",
+                "text": "No",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
@@ -1786,13 +1786,13 @@
             },
             {
                 "id": "b",
-                "text": "Collaborators are people who have made code contributions to a repository.\n> That's contributors. You can be a collaborator on a repository without having contributed to it. You can also contribute to a repository without being a collaborator, by forking the repository and submitting a pull request.",
+                "text": "Collaborators are people who have made code contributions to a repository.",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "c",
-                "text": "Collaborators are people who have funded a repository.\n> That's sponsors",
+                "text": "Collaborators are people who have funded a repository.",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
@@ -1862,7 +1862,7 @@
             },
             {
                 "id": "c",
-                "text": "It's a way of managing access to personal GitHub repositories to many users at once.\n> Personal repositories cannot be shared with teams, only with individual collaborators.",
+                "text": "It's a way of managing access to personal GitHub repositories to many users at once.",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
@@ -1885,19 +1885,19 @@
             },
             {
                 "id": "b",
-                "text": "Moderators are organization members who have complete access to the organization.\n> That's organization owners",
+                "text": "Moderators are organization members who have complete access to the organization.",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "c",
-                "text": "Moderators are organization members who can manage the billing settings for your organization, such as payment information.\n> That's billing managers",
+                "text": "Moderators are organization members who can manage the billing settings for your organization, such as payment information.",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "d",
-                "text": "Moderators are organization members who can view security alerts and manage settings for code security across your organization, as well as read permissions for all repositories in the organization.\n> That's security managers",
+                "text": "Moderators are organization members who can view security alerts and manage settings for code security across your organization, as well as read permissions for all repositories in the organization.",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
@@ -1920,19 +1920,19 @@
             },
             {
                 "id": "b",
-                "text": "Security managers are organization members who, in addition to their permissions as members, are allowed to block and unblock non-member contributors, set interaction limits, and hide comments in public repositories owned by the organization.\n> That's moderators",
+                "text": "Security managers are organization members who, in addition to their permissions as members, are allowed to block and unblock non-member contributors, set interaction limits, and hide comments in public repositories owned by the organization.",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "c",
-                "text": "Security managers are organization members who have complete access to the organization.\n> That's organization owners",
+                "text": "Security managers are organization members who have complete access to the organization.",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "d",
-                "text": "Security managers are organization members who can manage the billing settings for your organization, such as payment information.\n> That's billing managers",
+                "text": "Security managers are organization members who can manage the billing settings for your organization, such as payment information.",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
@@ -2107,7 +2107,7 @@
             },
             {
                 "id": "d",
-                "text": "GitHub Marketplace is a place where you can sponsor open-source developers on a subscription basis.\n> That is GitHub Sponsors",
+                "text": "GitHub Marketplace is a place where you can sponsor open-source developers on a subscription basis.",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
@@ -3564,7 +3564,7 @@
             },
             {
                 "id": "c",
-                "text": "Wikis is a feature for hosting code snippets.\n> That's Gists",
+                "text": "Wikis is a feature for hosting code snippets.",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
@@ -3628,7 +3628,7 @@
             },
             {
                 "id": "b",
-                "text": "No\n> After creating a gist, you cannot convert it from public to secret.",
+                "text": "No",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
@@ -3715,37 +3715,37 @@
         "options": [
             {
                 "id": "a",
-                "text": "git checkout -b <code class=\"inline-code\"><new_branch_name></code>",
+                "text": "git checkout -b `<new_branch_name",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
             {
                 "id": "b",
-                "text": "git branch -c <code class=\"inline-code\"><new_branch_name></code>",
+                "text": "git branch -c `<new_branch_name",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
             {
                 "id": "c",
-                "text": "git switch -c <code class=\"inline-code\"><new_branch_name></code>",
+                "text": "git switch -c `<new_branch_name",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
             {
                 "id": "d",
-                "text": "git merge -m <code class=\"inline-code\"><new_branch_name></code>",
+                "text": "git merge -m `<new_branch_name",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
             {
                 "id": "e",
-                "text": "git switch -m <code class=\"inline-code\"><new_branch_name></code>",
+                "text": "git switch -m `<new_branch_name",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
             {
                 "id": "f",
-                "text": "git checkout -m <code class=\"inline-code\"><new_branch_name></code>",
+                "text": "git checkout -m `<new_branch_name",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             }
@@ -3769,7 +3769,7 @@
             },
             {
                 "id": "b",
-                "text": "Yes\n> When you \"convert\" a discussion into an Issue it essentially creates a new issue that is soft linked to the discussion and pre-fills the issue information. There isn't a bigger connection between them.",
+                "text": "Yes",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
@@ -3848,13 +3848,13 @@
             },
             {
                 "id": "c",
-                "text": "Personal level\n> GitHub Personal is a type of account and not an organizational hierarchy on GitHub.",
+                "text": "Personal level",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "d",
-                "text": "Pro level\n> GitHub Pro is a type of account and not an organizational hierarchy on GitHub.",
+                "text": "Pro level",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
@@ -3875,7 +3875,7 @@
     },
     {
         "id": 107,
-        "text": "Who can setup billing or assign billing managers for an organization? (Select three.)",
+        "text": "Who can setup billing or assign billing managers for an organization? (Select three.)\n\n> Official GitHub documentation: https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/adding-a-billing-manager-to-your-organization, Microsoft Learn study guide: https://learn.microsoft.com/en-us/training/modules/github-introduction-administration/2-what-is-github-administration",
         "options": [
             {
                 "id": "a",
@@ -3928,13 +3928,13 @@
         "options": [
             {
                 "id": "a",
-                "text": "PATs can be managed by the organization and enterprise.\n> PAT's as the name suggests, are personal. Organizations and Enterprises can manage other forms of authentication, such as LDAP, SAML, and SSH keys.",
+                "text": "PATs can be managed by the organization and enterprise.",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "b",
-                "text": "PAT is an extra layer of security used when logging into websites or apps. With PAT, users have to sign in with their username and password and provide another form of authentication that only they have access to.\n> This is a description of multi-factor or two-factor authentication.",
+                "text": "PAT is an extra layer of security used when logging into websites or apps. With PAT, users have to sign in with their username and password and provide another form of authentication that only they have access to.",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
@@ -3946,7 +3946,7 @@
             },
             {
                 "id": "d",
-                "text": "PAT lets you authenticate GitHub Enterprise Server against your existing accounts and centrally manage repository access. \n> This is a description of LDAP's benefits for GitHub, not PAT.",
+                "text": "PAT lets you authenticate GitHub Enterprise Server against your existing accounts and centrally manage repository access.",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
@@ -3975,7 +3975,7 @@
             },
             {
                 "id": "c",
-                "text": "Phone call\n> While text messages are supported in some countries, phone calls are not",
+                "text": "Phone call",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
@@ -4126,7 +4126,7 @@
             },
             {
                 "id": "d",
-                "text": "<code class=\"inline-code\"><task> and <done></code>",
+                "text": "`<task",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             }
@@ -4174,7 +4174,7 @@
     },
     {
         "id": 114,
-        "text": "What feature is unique to GitHub Desktop compared to github.com?",
+        "text": "What feature is unique to GitHub Desktop compared to github.com?\n\n> GitHub Desktop provides a graphical interface for visualizing branch histories, which is unique compared to the website\n> - https://docs.github.com/en/desktop/making-changes-in-a-branch/viewing-the-branch-history-in-github-desktop\n> - https://docs.github.com/en/repositories/viewing-activity-and-data-for-your-repository/using-the-activity-view-to-see-changes-to-a-repository",
         "options": [
             {
                 "id": "a",
@@ -4209,7 +4209,7 @@
     },
     {
         "id": 115,
-        "text": "Which of the following actions cannot be performed directly from GitHub Desktop?",
+        "text": "Which of the following actions cannot be performed directly from GitHub Desktop?\n\n> Managing GitHub Actions is not a feature available in GitHub Desktop and must be done via github.com or CI/CD integration\n> - https://docs.github.com/en/actions/quickstart#prerequisites",
         "options": [
             {
                 "id": "a",
@@ -4248,7 +4248,7 @@
         "options": [
             {
                 "id": "a",
-                "text": "With write permission, set an existing project as a template\n> You need admin permissions to set an existing project as a template",
+                "text": "With write permission, set an existing project as a template",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
@@ -4373,7 +4373,7 @@
     },
     {
         "id": 119,
-        "text": "What is the minimum permission a user must have to directly push commits to a repository owned by an organization?",
+        "text": "What is the minimum permission a user must have to directly push commits to a repository owned by an organization?\n\n> **More info**: [Repository roles for organizations](https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/repository-roles-for-an-organization)",
         "options": [
             {
                 "id": "a",
@@ -4414,7 +4414,7 @@
     },
     {
         "id": 120,
-        "text": "Which of these is a capability of a Security Manager with respect to GitHub Actions in an organization?",
+        "text": "Which of these is a capability of a Security Manager with respect to GitHub Actions in an organization?\n\n> **More info**: [Roles in an organization](https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization)",
         "options": [
             {
                 "id": "a",
@@ -4449,7 +4449,7 @@
     },
     {
         "id": 121,
-        "text": "Which feature provides pre-built charts or visualizations for repository activity and health?",
+        "text": "Which feature provides pre-built charts or visualizations for repository activity and health?\n\n> **More info**: [About repository insights](https://docs.github.com/en/repositories/viewing-activity-and-data-for-your-repository/about-repository-graphs)",
         "options": [
             {
                 "id": "a",
@@ -4484,7 +4484,7 @@
     },
     {
         "id": 122,
-        "text": "Which of these features does GitHub Copilot for Business offer that GitHub Copilot for Individuals does not?",
+        "text": "Which of these features does GitHub Copilot for Business offer that GitHub Copilot for Individuals does not?\n\n> **More info**: [GitHub Copilot for Business](https://docs.github.com/en/copilot/about-github-copilot/subscription-plans-for-github-copilot)",
         "options": [
             {
                 "id": "a",
@@ -4519,7 +4519,7 @@
     },
     {
         "id": 123,
-        "text": "What is the main difference between an organization member and an outside collaborator for a repository owned by that organization?",
+        "text": "What is the main difference between an organization member and an outside collaborator for a repository owned by that organization?\n\n> **More info**: [Adding outside collaborators to repositories in your organization](https://docs.github.com/en/organizations/managing-access-to-your-organizations-repositories/adding-outside-collaborators-to-repositories-in-your-organization)",
         "options": [
             {
                 "id": "a",
@@ -4554,7 +4554,7 @@
     },
     {
         "id": 124,
-        "text": "Which of the following actions can you perform on a GitHub Discussion? (Choose three.)",
+        "text": "Which of the following actions can you perform on a GitHub Discussion? (Choose three.)\n\n> **More info**: [About discussions](https://docs.github.com/en/discussions/quickstart#introduction)",
         "options": [
             {
                 "id": "a",
@@ -4597,7 +4597,7 @@
     },
     {
         "id": 125,
-        "text": "Which search query finds all open issues labeled <code class=\"inline-code\">test</code> that mention 'fix' in their body text?",
+        "text": "Which search query finds all open issues labeled <code class=\"inline-code\">test</code> that mention 'fix' in their body text?\n\n> **More info**: [Searching issues and pull requests](https://docs.github.com/en/search-github/searching-on-github/searching-issues-and-pull-requests)",
         "options": [
             {
                 "id": "a",
@@ -4632,7 +4632,7 @@
     },
     {
         "id": 126,
-        "text": "Which of the following are valid states for a pull request on GitHub? (Choose four.)",
+        "text": "Which of the following are valid states for a pull request on GitHub? (Choose four.)\n\n> **More info**: [About pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)",
         "options": [
             {
                 "id": "a",
@@ -4682,7 +4682,7 @@
     },
     {
         "id": 127,
-        "text": "Which statement best describes a major difference between new GitHub Projects and GitHub Projects Classic?",
+        "text": "Which statement best describes a major difference between new GitHub Projects and GitHub Projects Classic?\n\n> **More info**: [About projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects#differences-from-projects-classic)",
         "options": [
             {
                 "id": "a",
@@ -4717,7 +4717,7 @@
     },
     {
         "id": 128,
-        "text": "Which of these can you customize in a Codespaces <code class=\"inline-code\">.devcontainer/devcontainer.json</code> configuration file? (Choose three.)",
+        "text": "Which of these can you customize in a Codespaces <code class=\"inline-code\">.devcontainer/devcontainer.json</code> configuration file? (Choose three.)\n\n> **More info**: [Introduction to dev containers](https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/adding-a-dev-container-configuration/introduction-to-dev-containers)",
         "options": [
             {
                 "id": "a",
@@ -4766,23 +4766,23 @@
     },
     {
         "id": 129,
-        "text": "Which roles in an organization can view and manage security alerts for private repositories?",
+        "text": "Which roles in an organization can view and manage security alerts for private repositories?\n\n> **More info**: [Roles in an organization](https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization)",
         "options": [
             {
                 "id": "a",
-                "text": "Outside collaborators  \n  > Outside collaborators have repository-specific permissions only and are not organization members with security privileges.",
+                "text": "Outside collaborators",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "b",
-                "text": "Repository maintainers  \n  > Maintainers can manage certain repository settings but do not have default access to organization-wide security alerts.",
+                "text": "Repository maintainers",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "c",
-                "text": "Organization owners and Security managers  \n  > **Correct**. Organization owners and Security managers can view and manage security alerts, including for private repositories.",
+                "text": "Organization owners and Security managers",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
@@ -4801,11 +4801,11 @@
     },
     {
         "id": 130,
-        "text": "Which of these statements accurately describes a difference between personal accounts and organization accounts on GitHub?",
+        "text": "Which of these statements accurately describes a difference between personal accounts and organization accounts on GitHub?\n\n> **More info**: [Types of GitHub accounts](https://docs.github.com/en/get-started/learning-about-github/types-of-github-accounts)",
         "options": [
             {
                 "id": "a",
-                "text": "An organization account can have multiple owners and members, whereas a personal account belongs to a single user only.  \n  > **Correct**. Organizations allow for collaborative management by multiple people, while a personal account is tied to an individual.",
+                "text": "An organization account can have multiple owners and members, whereas a personal account belongs to a single user only.",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
@@ -4823,7 +4823,7 @@
             },
             {
                 "id": "d",
-                "text": "An organization account can only be created if you have a GitHub Enterprise plan.  \n  > Organizations are available on Free, Team, or Enterprise plans.",
+                "text": "An organization account can only be created if you have a GitHub Enterprise plan.",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
@@ -4836,17 +4836,17 @@
     },
     {
         "id": 131,
-        "text": "Which statement best describes the difference between cloning a repository and forking a repository?",
+        "text": "Which statement best describes the difference between cloning a repository and forking a repository?\n\n> **More info**: [About forks](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks)",
         "options": [
             {
                 "id": "a",
-                "text": "When you clone a repository, changes you push go directly to the original repository. Forking requires a separate local copy.  \n  > Cloning and forking both result in separate local copies, but pushing to a clone requires the correct permission on the original repo.",
+                "text": "When you clone a repository, changes you push go directly to the original repository. Forking requires a separate local copy.",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "b",
-                "text": "Forking creates a copy under your GitHub account, while cloning creates a local copy on your computer without linking ownership to your account.  \n  > **Correct**. A fork is a GitHub-level copy that appears in your account, whereas a clone is a local-only copy.",
+                "text": "Forking creates a copy under your GitHub account, while cloning creates a local copy on your computer without linking ownership to your account.",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
@@ -4871,7 +4871,7 @@
     },
     {
         "id": 132,
-        "text": "Which of these statements about pinned items on your GitHub profile is true?",
+        "text": "Which of these statements about pinned items on your GitHub profile is true?\n\n> **More info**: [Pinning items to your profile](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/pinning-items-to-your-profile)",
         "options": [
             {
                 "id": "a",
@@ -4881,7 +4881,7 @@
             },
             {
                 "id": "b",
-                "text": "You can pin up to six repositories or gists on your profile for quick access.  \n  > **Correct**. GitHub supports pinning up to six items (repositories or gists).",
+                "text": "You can pin up to six repositories or gists on your profile for quick access.",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
@@ -4906,11 +4906,11 @@
     },
     {
         "id": 133,
-        "text": "Which advanced search operator combination would you use to find public repositories with more than 100 stars that mention 'docker' in their name?",
+        "text": "Which advanced search operator combination would you use to find public repositories with more than 100 stars that mention 'docker' in their name?\n\n> **More info**: [Searching repositories](https://docs.github.com/en/search-github/searching-on-github/searching-for-repositories)",
         "options": [
             {
                 "id": "a",
-                "text": "<code class=\"inline-code\">in:name docker stars:>100 is:public</code>  \n  > **Correct**. This will find all public repositories that have 'docker' in their name and more than 100 stars.",
+                "text": "`in:name docker stars:",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
@@ -4922,13 +4922,13 @@
             },
             {
                 "id": "c",
-                "text": "<code class=\"inline-code\">is:public name:docker stars:100</code>  \n  > This is missing the range operator (<code class=\"inline-code\">></code>) for stars, and <code class=\"inline-code\">name:docker</code> is not a valid syntax.",
+                "text": "<code class=\"inline-code\">is:public name:docker stars:100</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
             {
                 "id": "d",
-                "text": "<code class=\"inline-code\">topic:docker stars:>100 in:readme</code>  \n  > This searches within topics or readmes, not the repository name.",
+                "text": "`topic:docker stars:",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             }
@@ -4941,17 +4941,17 @@
     },
     {
         "id": 134,
-        "text": "Which of the following best describes GitHub secret scanning?",
+        "text": "Which of the following best describes GitHub secret scanning?\n\n> **More info**: [About secret scanning](https://docs.github.com/en/code-security/secret-scanning/about-secret-scanning)",
         "options": [
             {
                 "id": "a",
-                "text": "A feature that scans issues for unverified credentials and deletes them automatically.  \n  > Secret scanning doesn't automatically delete anything; it detects potentially leaked secrets.",
+                "text": "A feature that scans issues for unverified credentials and deletes them automatically.",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "b",
-                "text": "A feature that encrypts your repository secrets before pushing them to GitHub.  \n  > GitHub Actions Encrypted Secrets handle encryption, but that\u2019s different from secret scanning.",
+                "text": "A feature that encrypts your repository secrets before pushing them to GitHub.",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
@@ -4963,7 +4963,7 @@
             },
             {
                 "id": "d",
-                "text": "A feature that searches repositories for known secret formats to prevent accidental exposure of sensitive data.  \n  > **Correct**. Secret scanning detects tokens, keys, and other credentials to help avoid leaks.",
+                "text": "A feature that searches repositories for known secret formats to prevent accidental exposure of sensitive data.",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
@@ -4976,17 +4976,17 @@
     },
     {
         "id": 135,
-        "text": "Which of these statements about GitHub Pages is correct?",
+        "text": "Which of these statements about GitHub Pages is correct?\n\n> **More info**: [About GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages)",
         "options": [
             {
                 "id": "a",
-                "text": "GitHub Pages allows you to host a private website for free, accessible only by organization members.  \n  > GitHub Pages sites are always publicly accessible, unless you use a project site with enterprise firewall rules on GitHub Enterprise Server.",
+                "text": "GitHub Pages allows you to host a private website for free, accessible only by organization members.",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "b",
-                "text": "GitHub Pages enables you to host static sites from a GitHub repository.  \n  > **Correct**. GitHub Pages is specifically for static site hosting from your repo.",
+                "text": "GitHub Pages enables you to host static sites from a GitHub repository.",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
@@ -4998,7 +4998,7 @@
             },
             {
                 "id": "d",
-                "text": "GitHub Pages can only be used by organization accounts.  \n  > Both personal and organization accounts can use Pages.",
+                "text": "GitHub Pages can only be used by organization accounts.",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
