@@ -837,7 +837,7 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows\n\nThere is no such event trigger This is used for manual triggers",
+        "explanation": "https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows\n\nThere is no such event trigger. This is used for manual triggers",
         "multipleSelect": false
     },
     {
@@ -916,7 +916,7 @@
             "a",
             "b"
         ],
-        "explanation": "https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#defaults\n\ndefaults.run can only be set on workflow or job level There is no such thing as defaults.env There is no such thing as defaults.env",
+        "explanation": "https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#defaults\n\ndefaults.run can only be set on workflow or job level. There is no such thing as defaults.env. There is no such thing as defaults.env",
         "multipleSelect": true
     },
     {
@@ -986,7 +986,7 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#example-using-concurrency-to-cancel-any-in-progress-job-or-run\n\nThis would queue runs on that github ref. It will not stop previous runs There is no such activity type as `latest` for pull_request event",
+        "explanation": "https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#example-using-concurrency-to-cancel-any-in-progress-job-or-run\n\nThis would queue runs on that github ref. It will not stop previous runs. There is no such activity type as `latest` for pull_request event",
         "multipleSelect": false
     },
     {
@@ -1344,7 +1344,7 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "https://docs.github.com/en/actions/using-workflows/reusing-workflows#passing-secrets-to-nested-workflows\n\nNot all secrets from `octo-org` organization have to be made available to `octo-org/example-repo`. `Workflow B` would need to add `secrets: inherit` when calling `workflow C`",
+        "explanation": "https://docs.github.com/en/actions/using-workflows/reusing-workflows#passing-secrets-to-nested-workflows\n\nNot all secrets from `octo-org` organization have to be made available to `octo-org/example-repo`.. `Workflow B` would need to add `secrets: inherit` when calling `workflow C`",
         "multipleSelect": false
     },
     {
@@ -1379,7 +1379,7 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "https://docs.github.com/en/actions/using-workflows/caching-dependencies-to-speed-up-workflows#comparing-artifacts-and-dependency-caching\n\nArtifacts should be used for that https://docs.github.com/en/actions/using-workflows/storing-workflow-data-as-artifacts Artifacts should be used for that https://docs.github.com/en/actions/using-workflows/storing-workflow-data-as-artifacts",
+        "explanation": "https://docs.github.com/en/actions/using-workflows/caching-dependencies-to-speed-up-workflows#comparing-artifacts-and-dependency-caching\n\nArtifacts should be used for that https://docs.github.com/en/actions/using-workflows/storing-workflow-data-as-artifacts. Artifacts should be used for that https://docs.github.com/en/actions/using-workflows/storing-workflow-data-as-artifacts",
         "multipleSelect": false
     },
     {
@@ -1415,7 +1415,7 @@
             "a",
             "b"
         ],
-        "explanation": "https://docs.github.com/en/actions/using-workflows/storing-workflow-data-as-artifacts#about-workflow-artifacts\n\nCaching should be used for that https://docs.github.com/en/actions/using-workflows/caching-dependencies-to-speed-up-workflows#comparing-artifacts-and-dependency-caching That's a use case for releases, not artifacts",
+        "explanation": "https://docs.github.com/en/actions/using-workflows/storing-workflow-data-as-artifacts#about-workflow-artifacts\n\nCaching should be used for that https://docs.github.com/en/actions/using-workflows/caching-dependencies-to-speed-up-workflows#comparing-artifacts-and-dependency-caching. That's a use case for releases, not artifacts",
         "multipleSelect": true
     },
     {
@@ -1711,7 +1711,7 @@
             "b",
             "c"
         ],
-        "explanation": "https://docs.github.com/en/actions/using-workflows/sharing-workflows-secrets-and-runners-with-your-organization#sharing-secrets-and-variables-within-an-organization\n\nEnvironments cannot be shared across repositories Environment variables can be scoped to a workflow, configuration variables cannot Environment variables can be scoped to a workflow, configuration variables cannot",
+        "explanation": "https://docs.github.com/en/actions/using-workflows/sharing-workflows-secrets-and-runners-with-your-organization#sharing-secrets-and-variables-within-an-organization\n\nEnvironments cannot be shared across repositories. Environment variables can be scoped to a workflow, configuration variables cannot. Environment variables can be scoped to a workflow, configuration variables cannot",
         "multipleSelect": true
     },
     {
@@ -1769,7 +1769,7 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "Docker container actions are slower than JavaScript actions Because of the latency to build and retrieve the container, Docker container actions are slower than JavaScript actions.",
+        "explanation": "Docker container actions are slower than JavaScript actions. Because of the latency to build and retrieve the container, Docker container actions are slower than JavaScript actions.",
         "multipleSelect": false
     },
     {
@@ -1827,7 +1827,7 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "https://docs.github.com/en/actions/creating-actions/metadata-syntax-for-github-actions\n\nWhile it's good practice to do that, it's not a requirement for the action to work All actions require the metadata file.",
+        "explanation": "https://docs.github.com/en/actions/creating-actions/metadata-syntax-for-github-actions\n\nWhile it's good practice to do that, it's not a requirement for the action to work. All actions require the metadata file.",
         "multipleSelect": false
     },
     {
@@ -1967,7 +1967,7 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "https://docs.github.com/en/actions/deployment/security-hardening-your-deployments/about-security-hardening-with-openid-connect\n\nUsing long lasting access keys is not recommended in case of any security leaks or attacks such as [script injection](https://docs.github.com/en/actions/security-guides/security-hardening-for-github-actions#understanding-the-risk-of-script-injections) No sensitive values should be stored in `variables`",
+        "explanation": "https://docs.github.com/en/actions/deployment/security-hardening-your-deployments/about-security-hardening-with-openid-connect\n\nUsing long lasting access keys is not recommended in case of any security leaks or attacks such as [script injection](https://docs.github.com/en/actions/security-guides/security-hardening-for-github-actions#understanding-the-risk-of-script-injections). No sensitive values should be stored in `variables`",
         "multipleSelect": false
     },
     {
@@ -2296,7 +2296,7 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "https://docs.github.com/en/actions/learn-github-actions/contexts#example-usage-of-the-vars-context\n\nThis will always be evaluate to True That is true for `secrets` but not for configuration variables That is true for `secrets` but not for configuration variables",
+        "explanation": "https://docs.github.com/en/actions/learn-github-actions/contexts#example-usage-of-the-vars-context\n\nThis will always be evaluate to True. That is true for `secrets` but not for configuration variables. That is true for `secrets` but not for configuration variables",
         "multipleSelect": false
     },
     {
@@ -2331,7 +2331,7 @@
         "correctAnswers": [
             "a"
         ],
-        "explanation": "https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#example-using-secrets\n\nsecrets cannot be directly referenced in if: conditionals secrets cannot be directly referenced in if: conditionals secrets cannot be directly referenced in if: conditionals",
+        "explanation": "https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#example-using-secrets\n\nsecrets cannot be directly referenced in if: conditionals. secrets cannot be directly referenced in if: conditionals. secrets cannot be directly referenced in if: conditionals",
         "multipleSelect": false
     },
     {
@@ -2499,7 +2499,7 @@
             "c",
             "d"
         ],
-        "explanation": "Artifacts are used to preserve data after a job has completed and/or share that data with another job within the same workflow. Cache can be reused across workflows within one repository Environment variables can be scoped to a step, job or a workflow. They cannot be shared across workflows/repositories or organizations",
+        "explanation": "Artifacts are used to preserve data after a job has completed and/or share that data with another job within the same workflow.. Cache can be reused across workflows within one repository. Environment variables can be scoped to a step, job or a workflow. They cannot be shared across workflows/repositories or organizations",
         "multipleSelect": true
     },
     {
@@ -2732,7 +2732,7 @@
         "correctAnswers": [
             "c"
         ],
-        "explanation": "https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule\n\nincorrect, both specific commit and on last modified branch incorrect, both specific commit and main branch latest commit is correct but the main branch is not",
+        "explanation": "https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule\n\nincorrect, both specific commit and on last modified branch. incorrect, both specific commit and main branch. latest commit is correct but the main branch is not",
         "multipleSelect": false
     },
     {
@@ -3301,7 +3301,7 @@
             "b",
             "c"
         ],
-        "explanation": "https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/adding-self-hosted-runners#adding-a-self-hosted-runner-to-a-repository\n\nYou can't add to workflow level You can't add to step level",
+        "explanation": "https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/adding-self-hosted-runners#adding-a-self-hosted-runner-to-a-repository\n\nYou can't add to workflow level. You can't add to step level",
         "multipleSelect": true
     },
     {
