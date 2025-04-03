@@ -436,7 +436,7 @@
     },
     {
         "id": 14,
-        "text": "This code will launch 6 different jobs in parallel using the matrix strategy. Can you use the matrix strategy to parallelize entire workflows?",
+        "text": "This code will launch 6 different jobs in parallel using the matrix strategy. Can you use the matrix strategy to parallelize entire workflows?\n\n<pre><code class='language-yaml'>jobs:\n  example_matrix:\n    strategy:\n      matrix:\n        version: [10, 12, 14]\n        os: [ubuntu-latest, windows-latest]</code></pre>",
         "options": [
             {
                 "id": "a",
@@ -564,7 +564,7 @@
     },
     {
         "id": 18,
-        "text": "This workflow will run on all pull requests where:",
+        "text": "This workflow will run on all pull requests where:\n\n<pre><code class='language-yaml'>on:\n  pull_request:\n    branches:\n      - 'release/**'\n      - '!release/**-alpha'</code></pre>",
         "options": [
             {
                 "id": "a",
@@ -817,19 +817,19 @@
             },
             {
                 "id": "b",
-                "text": "workflow_trigger\n> There is no such event trigger",
+                "text": "workflow_trigger",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "c",
-                "text": "workflow_dispatch\n> This is used for manual triggers",
+                "text": "workflow_dispatch",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "d",
-                "text": "workflow_run\n> https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#workflow_run",
+                "text": "workflow_run",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
@@ -895,19 +895,19 @@
             },
             {
                 "id": "c",
-                "text": "Using defaults.run on step level to set default shell (e.g bash) for that single step\n> defaults.run can only be set on workflow or job level",
+                "text": "Using defaults.run on step level to set default shell (e.g bash) for that single step",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "d",
-                "text": "Using defaults.env on workflow level to set default environment variables for an entire workflow\n> There is no such thing as defaults.env",
+                "text": "Using defaults.env on workflow level to set default environment variables for an entire workflow",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "e",
-                "text": "Using defaults.env on job level to set default environment variables for all steps in a single job\n> There is no such thing as defaults.env",
+                "text": "Using defaults.env on job level to set default environment variables for all steps in a single job",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
@@ -991,7 +991,7 @@
     },
     {
         "id": 30,
-        "text": "When will job3 run?",
+        "text": "When will job3 run?\n\n<pre><code class='language-yaml'>jobs:\n    job1:\n    job2:\n      needs: job1\n    job3:\n      if: ${{ always() }}\n      needs: [job1, job2]</code></pre>",
         "options": [
             {
                 "id": "a",
@@ -1026,7 +1026,7 @@
     },
     {
         "id": 31,
-        "text": "What <code class=\"inline-code\">jobs.job_id.if</code> conditional will make sure that job <code class=\"inline-code\">production-deploy</code> is triggered only on <code class=\"inline-code\">my-org/my-repo</code> repository? (Select two.)",
+        "text": "What <code class=\"inline-code\">jobs.job_id.if</code> conditional will make sure that job <code class=\"inline-code\">production-deploy</code> is triggered only on <code class=\"inline-code\">my-org/my-repo</code> repository? (Select two.)\n\n<pre><code class='language-yaml'>jobs:\n    production-deploy:  \n      if: <CONDITION>\n      runs-on: ubuntu-latest\n      steps:\n        ...</code></pre>",
         "options": [
             {
                 "id": "a",
@@ -1042,13 +1042,13 @@
             },
             {
                 "id": "c",
-                "text": "<code class=\"inline-code\">if: ${{ github.organization == 'my-org' && github.repository == 'my-repo' }}</code>\n> https://docs.github.com/en/actions/learn-github-actions/contexts#github-context",
+                "text": "<code class=\"inline-code\">if: ${{ github.organization == 'my-org' && github.repository == 'my-repo' }}</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
             {
                 "id": "d",
-                "text": "<code class=\"inline-code\">if: ${{ github.org == 'my-org' && github.repository == 'my-repo' }}</code>\n> https://docs.github.com/en/actions/learn-github-actions/contexts#github-context",
+                "text": "<code class=\"inline-code\">if: ${{ github.org == 'my-org' && github.repository == 'my-repo' }}</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             }
@@ -1109,7 +1109,7 @@
             },
             {
                 "id": "b",
-                "text": "False\n> Steps can but don't have to run actions (e.g running a run command)",
+                "text": "False",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
@@ -1186,7 +1186,7 @@
     },
     {
         "id": 36,
-        "text": "You defined a matrix job <code class=\"inline-code\">example_matrix</code>. How can limit the matrix to run a maximum of 2 jobs at a time?",
+        "text": "You defined a matrix job <code class=\"inline-code\">example_matrix</code>. How can limit the matrix to run a maximum of 2 jobs at a time?\n\n<pre><code class='language-yaml'>jobs:\n    example_matrix:\n      strategy:\n        matrix:\n          version: [10, 12, 14]\n          os: [ubuntu-latest, windows-latest]</code></pre>",
         "options": [
             {
                 "id": "a",
@@ -1225,13 +1225,13 @@
         "options": [
             {
                 "id": "a",
-                "text": "<code class=\"inline-code\">echo \"PET=DOG\" >> \"$GITHUB_OUTPUT\"</code>",
+                "text": "`echo \"PET=DOG\"",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
             {
                 "id": "b",
-                "text": "<code class=\"inline-code\">echo \"DOG=PET\" >> \"$GITHUB_OUTPUT\"</code>",
+                "text": "`echo \"DOG=PET\"",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
@@ -1256,7 +1256,7 @@
     },
     {
         "id": 38,
-        "text": "Which of these is a way of using <code class=\"inline-code\">action_state</code> in <code class=\"inline-code\">step_two</code>?",
+        "text": "Which of these is a way of using <code class=\"inline-code\">action_state</code> in <code class=\"inline-code\">step_two</code>?\n\n<pre><code class='language-yaml'>steps:\n    - name: Set the value\n      id: step_one\n      run: |\n        echo \"action_state=yellow\" >> \"$GITHUB_ENV\"\n    - name: Use the value\n      id: step_two\n      run: ?</code></pre>",
         "options": [
             {
                 "id": "a",
@@ -1266,7 +1266,7 @@
             },
             {
                 "id": "b",
-                "text": "<code class=\"inline-code\">run: echo \"${{ steps.step_one.outputs.action_state }}\"</code>\n> That would be the case if <code class=\"inline-code\">action_state</code> was written to <code class=\"inline-code\">$GITHUB_OUTPUT</code>",
+                "text": "<code class=\"inline-code\">run: echo \"${{ steps.step_one.outputs.action_state }}\"</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
@@ -1301,7 +1301,7 @@
             },
             {
                 "id": "b",
-                "text": "True\n> Reusable workflows can be nested, but there are limitations https://docs.github.com/en/actions/using-workflows/reusing-workflows#limitations",
+                "text": "True",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
@@ -1314,7 +1314,7 @@
     },
     {
         "id": 40,
-        "text": "In the following example, <code class=\"inline-code\">workflow A</code> passes all of its secrets to <code class=\"inline-code\">workflow B</code>, by using the inherit keyword. Then <code class=\"inline-code\">workflow B</code> calls <code class=\"inline-code\">workflow C</code>. Which statement regarding <code class=\"inline-code\">secrets</code> is true for that example?",
+        "text": "In the following example, <code class=\"inline-code\">workflow A</code> passes all of its secrets to <code class=\"inline-code\">workflow B</code>, by using the inherit keyword. Then <code class=\"inline-code\">workflow B</code> calls <code class=\"inline-code\">workflow C</code>. Which statement regarding <code class=\"inline-code\">secrets</code> is true for that example?\n\n<pre><code class='language-yaml'>jobs:\n    workflowA-calls-workflowB:\n      uses: octo-org/example-repo/.github/workflows/B.yml@main\n      secrets: inherit</code></pre>",
         "options": [
             {
                 "id": "a",
@@ -1324,13 +1324,13 @@
             },
             {
                 "id": "b",
-                "text": "All secrets from <code class=\"inline-code\">octo-org</code> organization and <code class=\"inline-code\">octo-org/example-repo</code> repository will be available to <code class=\"inline-code\">workflow B</code>, but not to <code class=\"inline-code\">workflow C</code>\n> Not all secrets from <code class=\"inline-code\">octo-org</code> organization have to be made available to <code class=\"inline-code\">octo-org/example-repo</code>.",
+                "text": "All secrets from <code class=\"inline-code\">octo-org</code> organization and <code class=\"inline-code\">octo-org/example-repo</code> repository will be available to <code class=\"inline-code\">workflow B</code>, but not to <code class=\"inline-code\">workflow C</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
             {
                 "id": "c",
-                "text": "All secrets available to <code class=\"inline-code\">workflow A</code> will be also available to <code class=\"inline-code\">workflow B</code> and <code class=\"inline-code\">workflow C</code>\n> <code class=\"inline-code\">Workflow B</code> would need to add <code class=\"inline-code\">secrets: inherit</code> when calling <code class=\"inline-code\">workflow C</code>",
+                "text": "All secrets available to <code class=\"inline-code\">workflow A</code> will be also available to <code class=\"inline-code\">workflow B</code> and <code class=\"inline-code\">workflow C</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
@@ -1365,13 +1365,13 @@
             },
             {
                 "id": "c",
-                "text": "When you want to save files produced by a job to view after a workflow run has ended, such as built binaries or build logs.\n> Artifacts should be used for that https://docs.github.com/en/actions/using-workflows/storing-workflow-data-as-artifacts",
+                "text": "When you want to save files produced by a job to view after a workflow run has ended, such as built binaries or build logs.",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "d",
-                "text": "When you want to save binaries produced by a build job to use in a subsequent deploy job to deploy a new version of an application\n> Artifacts should be used for that https://docs.github.com/en/actions/using-workflows/storing-workflow-data-as-artifacts",
+                "text": "When you want to save binaries produced by a build job to use in a subsequent deploy job to deploy a new version of an application",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
@@ -1400,13 +1400,13 @@
             },
             {
                 "id": "c",
-                "text": "Use artifacts to reuse files that don't change often between jobs or workflow runs, such as build dependencies from a package management system.\n> Caching should be used for that https://docs.github.com/en/actions/using-workflows/caching-dependencies-to-speed-up-workflows#comparing-artifacts-and-dependency-caching",
+                "text": "Use artifacts to reuse files that don't change often between jobs or workflow runs, such as build dependencies from a package management system.",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "d",
-                "text": "Use artifacts to create new versions of your application together with release notes, mentions and/or contributors\n> That's a use case for releases, not artifacts",
+                "text": "Use artifacts to create new versions of your application together with release notes, mentions and/or contributors",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
@@ -1506,13 +1506,13 @@
             },
             {
                 "id": "c",
-                "text": "Packages\n> https://docs.github.com/en/packages/learn-github-packages/introduction-to-github-packages",
+                "text": "Packages",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "d",
-                "text": "Releases\n> https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases",
+                "text": "Releases",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
@@ -1652,7 +1652,7 @@
             },
             {
                 "id": "f",
-                "text": "Starter workflows are provided ready-to-use and cannot be modified or enhanced\n> https://docs.github.com/en/actions/using-workflows/using-starter-workflows#using-starter-workflows",
+                "text": "Starter workflows are provided ready-to-use and cannot be modified or enhanced",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
@@ -1689,7 +1689,7 @@
             },
             {
                 "id": "d",
-                "text": "An environment shared across multiple repositories\n> Environments cannot be shared across repositories",
+                "text": "An environment shared across multiple repositories",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
@@ -1701,7 +1701,7 @@
             },
             {
                 "id": "f",
-                "text": "A specific workflow in a repository\n> Environment variables can be scoped to a workflow, configuration variables cannot",
+                "text": "A specific workflow in a repository",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
@@ -1751,7 +1751,7 @@
     },
     {
         "id": 52,
-        "text": "Is this statement true? <code class=\"inline-code\">Docker container actions are usually slower than JavaScript actions</code>",
+        "text": "Is this statement true? <code class=\"inline-code\">Docker container actions are usually slower than JavaScript actions</code>\n\n> Docker container actions are slower than JavaScript actions",
         "options": [
             {
                 "id": "a",
@@ -1761,7 +1761,7 @@
             },
             {
                 "id": "b",
-                "text": "False\n> Because of the latency to build and retrieve the container, Docker container actions are slower than JavaScript actions.",
+                "text": "False",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
@@ -1784,9 +1784,9 @@
             },
             {
                 "id": "b",
-                "text": "True\n> That is true for <code class=\"inline-code\">workflows</code>, not for <code class=\"inline-code\">actions</code>",
+                "text": "True",
                 "isCodeBlock": false,
-                "hasInlineCode": true
+                "hasInlineCode": false
             }
         ],
         "correctAnswers": [
@@ -1797,7 +1797,7 @@
     },
     {
         "id": 54,
-        "text": "When creating custom GitHub Actions - in what file does all the action <code class=\"inline-code\">metadata</code> have to be defined?",
+        "text": "When creating custom GitHub Actions - in what file does all the action <code class=\"inline-code\">metadata</code> have to be defined?\n\nMetadata examples: name, description, outputs or required inputs",
         "options": [
             {
                 "id": "a",
@@ -1807,7 +1807,7 @@
             },
             {
                 "id": "b",
-                "text": "In the repository <code class=\"inline-code\">README</code> file\n> While it's good practice to do that, it's not a requirement for the action to work",
+                "text": "In the repository <code class=\"inline-code\">README</code> file",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
@@ -1819,7 +1819,7 @@
             },
             {
                 "id": "d",
-                "text": "In the <code class=\"inline-code\">action.yml</code> or <code class=\"inline-code\">action.yaml</code> file in the action repository, but it is not required if the action is not meant to be shared and used by the public\n> All actions require the metadata file.",
+                "text": "In the <code class=\"inline-code\">action.yml</code> or <code class=\"inline-code\">action.yaml</code> file in the action repository, but it is not required if the action is not meant to be shared and used by the public",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             }
@@ -1842,7 +1842,7 @@
             },
             {
                 "id": "b",
-                "text": "It will run with code from <code class=\"inline-code\">commit B</code>\n> Re-running a workflow uses the same commit SHA and Git ref of the original event that triggered the workflow run.",
+                "text": "It will run with code from <code class=\"inline-code\">commit B</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
@@ -1902,7 +1902,7 @@
     },
     {
         "id": 57,
-        "text": "Which is true about environments?",
+        "text": "Which is true about environments?\n\n> Each job in a workflow can reference a single environment.",
         "options": [
             {
                 "id": "a",
@@ -1953,13 +1953,13 @@
             },
             {
                 "id": "c",
-                "text": "Storing access keys in <code class=\"inline-code\">secrets</code>\n> Using long lasting access keys is not recommended in case of any security leaks or attacks such as [script injection](https://docs.github.com/en/actions/security-guides/security-hardening-for-github-actions#understanding-the-risk-of-script-injections)",
+                "text": "Storing access keys in <code class=\"inline-code\">secrets</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
             {
                 "id": "d",
-                "text": "Storing access keys in <code class=\"inline-code\">variables</code>\n> No sensitive values should be stored in <code class=\"inline-code\">variables</code>",
+                "text": "Storing access keys in <code class=\"inline-code\">variables</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             }
@@ -1982,7 +1982,7 @@
             },
             {
                 "id": "b",
-                "text": "Setup deployment protection rules for the repository\n> Deployment protection rules are used for protecting environments",
+                "text": "Setup deployment protection rules for the repository",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
@@ -2101,7 +2101,7 @@
             },
             {
                 "id": "b",
-                "text": "The secret <code class=\"inline-code\">SomeSecret</code> is also declared in enterprise scope\n> If a secret with the same name exists at multiple levels, the secret at the lowest level takes precedence.",
+                "text": "The secret <code class=\"inline-code\">SomeSecret</code> is also declared in enterprise scope",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
@@ -2148,7 +2148,7 @@
             },
             {
                 "id": "d",
-                "text": "<code class=\"inline-code\">echo \"Watch out here!\" >> $GITHUB_DEBUG</code>",
+                "text": "`echo \"Watch out here!\"",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             }
@@ -2171,13 +2171,13 @@
             },
             {
                 "id": "b",
-                "text": "GitHub Enterprise Server has access to all GitHub.com Actions by default\n> GitHub Actions on GitHub Enterprise Server is designed to work in environments without full internet access. By default, workflows cannot use actions from GitHub.com and GitHub Marketplace.",
+                "text": "GitHub Enterprise Server has access to all GitHub.com Actions by default",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "c",
-                "text": "Using actions-sync tool\n> https://docs.github.com/en/enterprise-server@3.6/admin/github-actions/managing-access-to-actions-from-githubcom/manually-syncing-actions-from-githubcom#about-the-actions-sync-tool",
+                "text": "Using actions-sync tool",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
@@ -2282,13 +2282,13 @@
             },
             {
                 "id": "c",
-                "text": "It's not possible because configuration variables cannot be used in <code class=\"inline-code\">if</code> conditionals\n> That is true for <code class=\"inline-code\">secrets</code> but not for configuration variables",
+                "text": "It's not possible because configuration variables cannot be used in <code class=\"inline-code\">if</code> conditionals",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
             {
                 "id": "d",
-                "text": "It's not possible because configuration variables cannot be used in job level <code class=\"inline-code\">if</code> conditionals\n> That is true for <code class=\"inline-code\">secrets</code> but not for configuration variables",
+                "text": "It's not possible because configuration variables cannot be used in job level <code class=\"inline-code\">if</code> conditionals",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             }
@@ -2482,13 +2482,13 @@
             },
             {
                 "id": "e",
-                "text": "Artifacts\n> Artifacts are used to preserve data after a job has completed and/or share that data with another job within the same workflow.",
+                "text": "Artifacts",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "f",
-                "text": "Cache\n> Cache can be reused across workflows within one repository",
+                "text": "Cache",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
@@ -2504,7 +2504,7 @@
     },
     {
         "id": 73,
-        "text": "How many jobs will be executed in the following workflow?",
+        "text": "How many jobs will be executed in the following workflow?\n\n<pre><code class='language-yaml'>jobs:\n  matrix-job:\n    runs-on: ubuntu-latest\n    strategy:\n      matrix:\n        pet: [cat, dog]\n        color: [pink, brown]\n        include:\n          - color: white\n            pet: dog\n    steps:\n      - run: echo \"Hello ${{ matrix.color }} ${{ matrix.pet }}\"</code></pre>",
         "options": [
             {
                 "id": "a",
@@ -2584,7 +2584,7 @@
             },
             {
                 "id": "b",
-                "text": "Yes\n> Each job runs in a fresh instance of a runner image specified by runs-on",
+                "text": "Yes",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
@@ -2706,13 +2706,13 @@
         "options": [
             {
                 "id": "a",
-                "text": "Scheduled workflows run on the specific commit on last modified branch.\n   > incorrect, both specific commit and on last modified branch",
+                "text": "Scheduled workflows run on the specific commit on last modified branch.",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "b",
-                "text": "Scheduled workflows run on the specific commit on the main branch.\n   > incorrect, both specific commit and main branch",
+                "text": "Scheduled workflows run on the specific commit on the main branch.",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
@@ -2724,7 +2724,7 @@
             },
             {
                 "id": "d",
-                "text": "Scheduled workflows run on the latest commit on the main branch.\n   > latest commit is correct but the main branch is not",
+                "text": "Scheduled workflows run on the latest commit on the main branch.",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
@@ -3285,13 +3285,13 @@
             },
             {
                 "id": "d",
-                "text": "You can add a self-hosted runner to a workflow\n> You can't add to workflow level",
+                "text": "You can add a self-hosted runner to a workflow",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "e",
-                "text": "You can add a self-hosted runner to a step\n> You can't add to step level",
+                "text": "You can add a self-hosted runner to a step",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
@@ -3538,7 +3538,7 @@
             },
             {
                 "id": "d",
-                "text": "<code class=\"inline-code\">jobs.<job_id>.result</code>",
+                "text": "`jobs.<job_id",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             }
@@ -3901,7 +3901,7 @@
     },
     {
         "id": 113,
-        "text": "What is true about the following workflow configuration if triggered against the <code class=\"inline-code\">octo/my-dev-repo</code> repository?",
+        "text": "What is true about the following workflow configuration if triggered against the <code class=\"inline-code\">octo/my-dev-repo</code> repository?\n\n<pre><code class='language-yaml'>name: deploy-workflow\non: [push]\njobs:\n    production-deploy:\n        if: github.repository == 'octo/my-prod-repo'\n        runs-on: ubuntu-latest\n        steps:\n            - uses: actions/checkout@v4\n            - uses: actions/setup-node@v4\n              with:\n                  node-version: '14'\n            - run: npm install -g bats</code></pre>",
         "options": [
             {
                 "id": "a",
@@ -3936,7 +3936,7 @@
     },
     {
         "id": 114,
-        "text": "How can you access the current values of variables in a matrix within a job in the example below:",
+        "text": "How can you access the current values of variables in a matrix within a job in the example below:\n\n<pre><code class='language-yaml'>jobs:\n    example_matrix:\n        strategy:\n            matrix:\n                version: [10, 12, 14]\n                os: [ubuntu-latest, windows-latest]</code></pre>",
         "options": [
             {
                 "id": "a",
@@ -4071,7 +4071,7 @@
     },
     {
         "id": 118,
-        "text": "How can you skip the following workflow run when you commit or create a PR?",
+        "text": "How can you skip the following workflow run when you commit or create a PR?\n\n<pre><code class='language-yaml'>name: Build\non: [push, pull_request]\n\njobs:\n  build:\n    runs-on: ubuntu-latest\n    name: Extract artifact version\n...</code></pre>",
         "options": [
             {
                 "id": "a",
@@ -4235,13 +4235,13 @@
             },
             {
                 "id": "b",
-                "text": "The contents of a job within a workflow, by using <code class=\"inline-code\">jobs.<job_id>.env</code>",
+                "text": "The contents of a job within a workflow, by using `jobs.<job_id",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
             {
                 "id": "c",
-                "text": "A specific step within a job, by using <code class=\"inline-code\">jobs.<job_id>.steps[*].env</code>",
+                "text": "A specific step within a job, by using `jobs.<job_id",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
@@ -4259,7 +4259,7 @@
             },
             {
                 "id": "f",
-                "text": "A specific environment in the repository, by using <code class=\"inline-code\">environment.<environment_id>.env</code> at the top level of the workflow file",
+                "text": "A specific environment in the repository, by using `environment.<environment_id",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             }
@@ -4274,7 +4274,7 @@
     },
     {
         "id": 123,
-        "text": "What must be added to <code class=\"inline-code\">actions/checkout</code> if <code class=\"inline-code\">my-org/my-private-repo</code> is a private repository differing from the one containing the current workflow?",
+        "text": "What must be added to <code class=\"inline-code\">actions/checkout</code> if <code class=\"inline-code\">my-org/my-private-repo</code> is a private repository differing from the one containing the current workflow?\n\n<pre><code class='language-yaml'>name: deploy-workflow\non: [push]\njobs:\n    my-job:\n        runs-on: ubuntu-latest\n        steps:\n          - name: \"Checkout GitHub Action\"\n            uses: actions/checkout@v4\n            with:\n               repository: my-org/my-private-repo\n               path: ./.github/actions/my-org/my-private-repo</code></pre>",
         "options": [
             {
                 "id": "a",
