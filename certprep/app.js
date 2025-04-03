@@ -174,7 +174,18 @@ function jumpToQuestion(index) {
     }
 }
 
-// Render a question
+// Function to convert plain text URLs into clickable links
+function makeUrlsClickable(text) {
+    // Regular expression to match URLs starting with https
+    const urlRegex = /(https:\/\/[^\s]+)/g;
+    
+    // Replace URLs with anchor tags
+    return text.replace(urlRegex, function(url) {
+        return `<a href="${url}" target="_blank" rel="noopener noreferrer">${url}</a>`;
+    });
+}
+
+// Modified renderQuestion function with URL conversion
 function renderQuestion(index) {
     if (!currentCertification || currentQuestions.length === 0) return;
     
@@ -207,8 +218,11 @@ function renderQuestion(index) {
         `;
     });
     
+    // Convert URLs in explanation to clickable links
+    const explanationWithLinks = makeUrlsClickable(question.explanation);
+    
     questionHTML += `</div>
-        <div id="explanation" class="explanation">${question.explanation}</div>
+        <div id="explanation" class="explanation">${explanationWithLinks}</div>
     `;
     
     questionContainer.innerHTML = questionHTML;
@@ -342,6 +356,51 @@ function checkAnswer() {
         questionItem.style.borderLeft = `4px solid ${borderColor}`;
     }
 }
+
+
+// Function to check if the user's answer is correct
+function checkIfAnswerIsCorrect() {
+    const currentQuestion = currentQuestions[currentQuestionIndex];
+    
+    // Get user's selected answers
+    let userAnswers = [];
+    
+    if (currentQuestion.multipleSelect) {
+        // For multiple select questions, gather all checked options
+        const checkboxes = document.querySelectorAll('.correct-multi:checked');
+        userAnswers = Array.from(checkboxes).map(checkbox => checkbox.value);
+    } else {
+        // For single select questions, get the selected radio value
+        const selectedRadio = document.querySelector('input[name="option"]:checked');
+        if (selectedRadio) {
+            userAnswers = [selectedRadio.value];
+        }
+    }
+    
+    // No answer selected
+    if (userAnswers.length === 0) {
+        return false;
+    }
+    
+    // Check if arrays have the same elements (regardless of order)
+    if (userAnswers.length !== currentQuestion.correctAnswers.length) {
+        return false;
+    }
+    
+    // Sort both arrays to compare them easily
+    const sortedUserAnswers = [...userAnswers].sort();
+    const sortedCorrectAnswers = [...currentQuestion.correctAnswers].sort();
+    
+    // Compare each element
+    for (let i = 0; i < sortedUserAnswers.length; i++) {
+        if (sortedUserAnswers[i] !== sortedCorrectAnswers[i]) {
+            return false;
+        }
+    }
+    
+    return true;
+}
+
 
 // Move to the next question
 function nextQuestion() {
