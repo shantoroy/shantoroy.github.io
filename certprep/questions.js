@@ -44,6 +44,11 @@ const certifications = {
         id: "github-security",
         name: "GitHub Advanced Security (GH Security)",
         file: "data/github-security.json"
+    },
+    "comptia-security-plus": {
+        id: "comptia-security-plus",
+        name: "Comptia Security+ (SY0-701)",
+        file: "data/comptia-security-plus.json"
     }
 };
 

@@ -1,0 +1,2769 @@
+[
+    {
+        "id": 1,
+        "category": "Risk Management",
+        "text": "You are reviewing Web server logs after a Web application security breach. To what type of security control do log reviews relate?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Detective",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Preventative",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Compensating",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Technical",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "Correct Answer: Reviewing logs allows technicians to detect anomalous activity.\nIncorrect Answers: Preventative controls take steps to reduce the possibility of threat incidents such as keeping antivirus databases up to date. Compensating controls are used when it is not feasible to implement the preferred control due to cost, time or complexity. Technical controls use technology to safeguard assets, such as a firewall appliance.",
+        "multipleSelect": false,
+        "reference": "1.06 Security Controls"
+    },
+    {
+        "id": 1,
+        "category": "Foundations of Cryptography",
+        "text": "Which technique is used to enhance the security of password hashes?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Password length",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Key pinning",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Multifactor authentication",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Salting",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "d"
+        ],
+        "explanation": "Correct Answer: Salting adds random data to passwords before they are hashed thus making them much more difficult to crack.\nIncorrect Answers: The listed items do not enhance the security of password hashes. The password length does not affect the password hash; the hash is always a fixed length. Key pinning is an older technique that associates a certificate stored on a client device with a Web site. Multifactor authentication (MFA) uses multiple factors for authentication, such as a username (something you know) and a private key (something you have).",
+        "multipleSelect": false,
+        "reference": "2.04 Password Cracking"
+    },
+    {
+        "id": 1,
+        "category": "Physical Security",
+        "text": "Which type of device records everything a user types?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Common Access Card",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Ransomware",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Keylogger",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Hardware security module",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "c"
+        ],
+        "explanation": "Correct Answer: Keyloggers come in the form of hardware and software. User keystrokes are captured and can later be viewed by malicious actors.\nIncorrect Answers: A Common Access Card (CAC) is a single card used to authenticate to many systems such as buildings, floors in a building, as well as computer systems. Ransomware is malware that encrypts user data files and demands a ransom payment in exchange for a decryption key. A Hardware Security Module (HSM) is a tamper-proof device used for cryptographic operations and the secure storage of cryptographic keys.",
+        "multipleSelect": false,
+        "reference": "3.02 Physical Security"
+    },
+    {
+        "id": 1,
+        "category": "Identity and Account Management",
+        "text": "Which of the following constitutes multifactor authentication (MFA)?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Username + password device PIN",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Fingerprint scan",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Facial recognition",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Username + password + answer to security question",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "Correct Answer: Username + password device PIN. MFA uses multiple categories of authentication such as something you know (username, password) along with something you have (a device on which you receive a PIN).\nIncorrect Answers: The listed items constitute only single factor authentication (SFA) because they use only one authentication category such as something you are (fingerprint scan, facial recognition) or something you know (username, password, answer to security question).",
+        "multipleSelect": false,
+        "reference": "4.01 Identification, Authentication, and Authorization"
+    },
+    {
+        "id": 1,
+        "category": "Tools of the Trade",
+        "text": "Which file extension is normally used for Microsoft PowerShell scripts?",
+        "options": [
+            {
+                "id": "a",
+                "text": "BAT",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "PY",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "PS1",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "SH",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "c"
+        ],
+        "explanation": "Correct Answer: PS1. Microsoft PowerShell scripts normally use a .PS1 file extension.\nIncorrect Answers: Batch files use a .BAT extension, Python scripts use a .PY extension and shell scripts often use the .SH file extension.",
+        "multipleSelect": false,
+        "reference": "5.04 Microsoft PowerShell"
+    },
+    {
+        "id": 1,
+        "category": "Securing Individual Systems",
+        "text": "Which of the following Wi-Fi configurations is considered to be the weakest?",
+        "options": [
+            {
+                "id": "a",
+                "text": "WPA3",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "RADIUS authentication",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Disable DHCP",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "WEP",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "d"
+        ],
+        "explanation": "Correct Answer: Wired Equivalent Privacy (WEP) is a deprecated insecure wireless security protocol and should not be used.\nIncorrect Answers:  Wi-Fi Protected Access 3 (WPA3) is a current wireless network security protocol. Remote Access Dial-in User Service (RADIUS) authentication uses a central authentication server to service authentication requests from RADIUS clients. Disabling DHCP is a hardening technique because it makes it more difficult for attackers to get on an IP network.",
+        "multipleSelect": false,
+        "reference": "6.02 Weak Configurations"
+    },
+    {
+        "id": 1,
+        "category": "Secuirng the Basic LAN",
+        "text": "Which type of encryption uses a single key for encryption and decryption?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Asymmetric",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "RSA",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Symmetric",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "SHA256",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "c"
+        ],
+        "explanation": "Correct Answer: Symmetric encrypting uses a single \u201csecret\u201d key for encrypting and decrypting.\nIncorrect Answers: Asymmetric keys (public and private keys) are used for security in the form of encryption, digital signatures and so on; the recipient public key is used to encrypt and the related private key is used to decrypt. RSA is a public and private key pair cryptosystem. SHA256 is a hashing algorithm.",
+        "multipleSelect": false,
+        "reference": "7.03 Symmetric Cryptosystems"
+    },
+    {
+        "id": 1,
+        "category": "Securing Wireless LANs",
+        "text": "Which Wi-Fi standard pairs devices together using a PIN?",
+        "options": [
+            {
+                "id": "a",
+                "text": "WPA",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "WPS",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "WEP",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "TKIP",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "b"
+        ],
+        "explanation": "Correct Answer: Wi-Fi Protected Setup (WPS) pairs Wi-Fi devices using a PIN.\nIncorrect Answers: The listed Wi-Fi standards do not pair Wi-Fi devices using a PIN.",
+        "multipleSelect": false,
+        "reference": "8.01 Wi-Fi Encryption Standards"
+    },
+    {
+        "id": 1,
+        "category": "Securing Virtual and Cloud Environments",
+        "text": "You need to start a Docker container named \u201ccust-dev-lamp1.\u201d The container image has a small HTTP Web server stack configure for TCP port 443 but you want connectivity to occur using TCP port 4443. Which Docker command should you use?",
+        "options": [
+            {
+                "id": "a",
+                "text": "sudo docker init \u2013d \u2013p 4443:443 cust-dev-lamp1",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "sudo docker run \u2013d \u2013p 443:4443 cust-dev-lamp1",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "sudo docker run \u2013d \u2013p 4443:443 cust-dev-lamp1",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "sudo docker init \u2013d \u2013p 443:4443 cust-dev-lamp1",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "c"
+        ],
+        "explanation": "Correct Answer: sudo docker run \u2013d \u2013p 4443:443 cust-dev-lamp1. The first port number is the local Docker host port number, the second port number after the colon is the configured listening port number within the application container.\nIncorrect Answers: The listed syntax options are incorrect.",
+        "multipleSelect": false,
+        "reference": "9.04 Containers and Software-Defined Networking"
+    },
+    {
+        "id": 1,
+        "category": "Securing Dedicated and Mobile Systems",
+        "text": "Which term describes a specialized computer interface that controls industrial devices such as manufacturing robots and centrifuges?",
+        "options": [
+            {
+                "id": "a",
+                "text": "PLC",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "SLA",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "ICS",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "HSM",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "Correct Answer: Programmable Logic Controllers (PLCs) are used extensively in manufacturing and various industries such as oil refining, electricity and water treatment.\nIncorrect Answers: Service Level Agreements (SLAs) guarantee uptime for services such as those offered in the cloud. An Industrial Control System (ICS) refers to a collection of computerized solution used for industrial process control. A Hardware Security Module (HSM) is a tamper-resistant device used for cryptographic operations and the storage of cryptographic keys.",
+        "multipleSelect": false,
+        "reference": "10.02 Industrial Control System (ICS)"
+    },
+    {
+        "id": 1,
+        "category": "Secure Protocols and Applications",
+        "text": "You need to ensure that DNS client query responses are authentic and have not been tampered with. What should you configure?",
+        "options": [
+            {
+                "id": "a",
+                "text": "IPsec",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "DNSSEC",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "PKI",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "HTTPS",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "b"
+        ],
+        "explanation": "Correct Answer: DNS Security (DNSSEC) digitally signs DNS zone records. Clients validate the signature to ensure DNS responses are authentic.\nIncorrect Answers: IP security (IPsec) is a suite of network security protocols that can be used to encrypt and authenticate network messages. Public Key Infrastructure (PKI) is a hierarchy of digital security certificates. Hyper Text Transfer Protocol Secure (HTTPS) encrypts HTTP network transmissions between clients and servers.",
+        "multipleSelect": false,
+        "reference": "11.01 DNS Security"
+    },
+    {
+        "id": 1,
+        "category": "Testing Infrastructure ",
+        "text": "What type of document is often signed by pen testers before starting a pen test engagement?",
+        "options": [
+            {
+                "id": "a",
+                "text": "MOU",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "NDA",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "ISA",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "MOA",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "b"
+        ],
+        "explanation": "Correct Answer: A Non-disclosure Agreement (NDA) ensures that pen testers will not divulge any sensitive information they might encounter with unauthorized parties.\nIncorrect Answers: A Memorandum of Understanding (MOU) consists of a general agreement with broad terms between 2 parties. An Inter-connection Security Agreement (ISA) defines how 2 parties will securely connect their networks and systems together. A Memorandum of Agreement (MOA) consists of details terms agreed upon by two parties in a business arrangement.",
+        "multipleSelect": false,
+        "reference": "12.04 Penetration Testing"
+    },
+    {
+        "id": 1,
+        "category": "Business Security Impact",
+        "text": "Your company is hiring new employees that may come into contact with sensitive data during the course of their jobs. Which type of document is normally signed by employees during the user on-boarding process to ensure that they will not disclose sensitive data?",
+        "options": [
+            {
+                "id": "a",
+                "text": "ISA",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "NDA",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "MOU",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "MOA",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "b"
+        ],
+        "explanation": "Correct Answer: A Non-disclosure Agreement (NDA) is used to ensure that any sensitive data will not be disclosed to unauthorized parties.\nIncorrect Answers: An Interconnection Security Agreement (ISA) defines how to secure communications when linking organizations, sites, or government agencies together. A Memorandum of Understanding (MOU) defines general terms of agreement between two parties, where a Memorandum of Understanding (MOA) defines granular contractual details between two parties.",
+        "multipleSelect": false,
+        "reference": "13.09 Agreement Types"
+    },
+    {
+        "id": 1,
+        "category": "Dealing with Incidents",
+        "text": "Which type of planning is designed to deal with security events as they occur?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Disaster recovery plan",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Business continuity plan",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Incident response plan",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Backup plan",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "c"
+        ],
+        "explanation": "Correct Answer: An Incident Response Plan (IRP) is a plan created to deal with incidents as they occur such as enabling incident containment and ultimately eradication.\nIncorrect Answers: A Disaster Recovery Plan (DRP) is specific to a business process, IT system, or data, and it focuses on recovering from a security incident as quickly as possible. A Business Continuity Plan (BCP) is a document specifying general terms organizations will take to ensure continued business operations. A backup plan is not a standard accepted term in this context.",
+        "multipleSelect": false,
+        "reference": "14.01 Incident Response Plans (IRPs)"
+    },
+    {
+        "id": 2,
+        "category": "Risk Management",
+        "text": "After analyzing the risk associated with working with an external organization to fulfil a government contract, you decide to enter into a contractual agreement after applying security settings to the external organization. What type of risk treatment is this?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Risk acceptance",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Risk mitigation",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Risk transfer",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Risk avoidance",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "b"
+        ],
+        "explanation": "Correct Answer: Mitigating risk means putting security controls in place to eliminate or reduce the impact or realized threats.\nIncorrect Answers:  Risk acceptance occurs when the potential benefit of engaging in an activity outweighs the risks and no changes are made to mitigate risk. Risk transfer shifts some or all risk responsibility to a third party, as is the case with cybersecurity attack insurance. With risk avoidance, the risk is not undertaken due to potential benefits not outweighing the risks.",
+        "multipleSelect": false,
+        "reference": "1.07 Risk Assessments and Treatments"
+    },
+    {
+        "id": 2,
+        "category": "Physical Security",
+        "text": "Which physical security item mitigates the ramming of vehicles into buildings?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Bollard",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Security guards",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Access control vestibule",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Door locks",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "Correct Answer: Bollards are concrete or steel pillars embedded deep into the ground near sensitive areas to prevent vehicle ramming.\nIncorrect Answers: Security guards cannot effectively prevent vehicles from ramming buildings. Access control vestibules (man traps) prevent a second inner door from opening until the first outer door closes and locks. Door locks prevent physical entry to a room but do not mitigate vehicles ramming buildings.",
+        "multipleSelect": false,
+        "reference": "3.02 Physical Security"
+    },
+    {
+        "id": 2,
+        "category": "Identity and Account Management",
+        "text": "A user gains access to a secured Web application using a digitally signed security token in the form of a Web browser cookie. To which security term does this best apply?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Accounting",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Authorization",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Availability",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Authentication",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "b"
+        ],
+        "explanation": "Correct Answer: Authorization (gaining access to a resource) occurs only after successful authentication.\nIncorrect Answers: Accounting, also referred to as auditing, is used to track activity in an IT environment. Availability ensures that data or IT systems are available when needed. Authentication proves the identity of a user, device, or software component in an IT environment.",
+        "multipleSelect": false,
+        "reference": "4.01 Identification, Authentication, and Authorization"
+    },
+    {
+        "id": 2,
+        "category": "Tools of the Trade",
+        "text": "You are a Linux sys admin attempting to execute privileged commands in Linux but you keep receiving \u201cPermission denied\u201d messages. What should you do?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Use the sudo command",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Use the chmod command",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Login as root",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Disable SELinux enforcing mode",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "Correct Answer: The sudo command prefix allows non-root users to run privileged commands as long as they are granted this permission in the sudoers file.\nIncorrect Answers: The chmod command is used to set Linux file system permissions. Logging in as root is not recommended because it is such a powerful account. Security Enhanced Linux (SELinux) is not causing permission denied messages in this scenario.",
+        "multipleSelect": false,
+        "reference": "5.05 Linux Shells"
+    },
+    {
+        "id": 2,
+        "category": "Securing Individual Systems",
+        "text": "You are planning the configuration of HTTPS for a Web site. Which items should be acquired/configured?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Client PKI certificates",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Server PKI certificate",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Enable security protocols that precede SSL v3.0",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Enable security protocols that precede TLS v1.0",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "b"
+        ],
+        "explanation": "Correct Answer: Server PKI certificate. HTTP Web sites require a server PKI certificate to secure communications and normally use TCP port 443.\nIncorrect Answers: Client PKI certificates are not required to enable an HTTPS Web application. TLS v1.2 should be configured on clients and servers as the network security protocol used for HTTPS; SSL v3.0 and TLS v1.0 are deprecated and should not be used.",
+        "multipleSelect": false,
+        "reference": "6.02 Weak Configurations"
+    },
+    {
+        "id": 2,
+        "category": "Secuirng the Basic LAN",
+        "text": "Which block cipher mode uses the ciphertext from the previous block to be fed into the algorithm to encrypt the next block?",
+        "options": [
+            {
+                "id": "a",
+                "text": "CFB",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "ECB",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "CBC",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "OFB",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "Correct Answer: With Cipher Feedback Mode (CFB), each previous block ciphertext is encrypted and fed into the algorithm to encrypt the next block.\nIncorrect Answers: Electronic Code Book (ECB), given the same plaintext, always results in the same ciphertext and is thus considered insecure. Cipher Block Chaining (CBC) is similar to ECB except that it used a random Initialization Vector (IV). Output Feedback Mode (OFB) uses a keystream of bits to encrypt data blocks.",
+        "multipleSelect": false,
+        "reference": "7.04 Symmetric Block Modes"
+    },
+    {
+        "id": 2,
+        "category": "Securing Wireless LANs",
+        "text": "Your hotel provides free Wi-Fi to guests. The Wi-Fi network is secured. You would like to provide a simple convenient way for guests to immediately connect to the Wi-Fi network using their smartphones. What should you do?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Send automated emails to registered guests with Wi-Fi connection information.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Provide guests with a printout of Wi-Fi connection information.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Use RFID tags that contain Wi-Fi connection information.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Use NFC tags that contain Wi-Fi connection information.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "d"
+        ],
+        "explanation": "Correct Answer: Use NFC tags that contain Wi-Fi connection information. With a smartphone app, you can write data to a physical NFC tag that can be purchased inexpensively. Users with NFC-enabled smartphones can retrieve NFC tag information such as Wi-Fi connection details.\nIncorrect Answers: The listed options are not as convenient as using NFC tags.",
+        "multipleSelect": false,
+        "reference": "8.02 RFID, NFC, and Bluetooth"
+    },
+    {
+        "id": 2,
+        "category": "Securing Virtual and Cloud Environments",
+        "text": "Which type of hypervisor runs within an existing operating system?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Type 1",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Type 2",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Type A",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Type B",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "b"
+        ],
+        "explanation": "Correct Answer: Type 2 hypervisors run as an app within an existing operating system.\nIncorrect Answers: Type 1 hypervisors are a specialized operating system designed to host multiple virtual machine guests. Type A and B are not valid hypervisor types.",
+        "multipleSelect": false,
+        "reference": "9.05 Hypervisors and Virtual Machines"
+    },
+    {
+        "id": 2,
+        "category": "Securing Dedicated and Mobile Systems",
+        "text": "Which smart home wireless networking protocol does not use TCP/IP?",
+        "options": [
+            {
+                "id": "a",
+                "text": "ICS",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "PLC",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Zigbee",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "IoT",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "c"
+        ],
+        "explanation": "Correct Answer: Zigbee is designed to make connecting smart home devices together simple and convenient, and it does not use TCP/IP.\nIncorrect Answers: An Industrial Control System (ICS) refers to a collection of computerized solution used for industrial process control. Programmable Logic Controllers (PLCs) are used extensively in manufacturing and various industries such as oil refining, electricity and water treatment. Internet of Things (IoT) refers to devices that connect to and send and receive data over the Internet.",
+        "multipleSelect": false,
+        "reference": "10.03 Internet of Things (IoT) Devices"
+    },
+    {
+        "id": 2,
+        "category": "Secure Protocols and Applications",
+        "text": "Which TCP/IP protocol is used for configuring and gathering remote network host statistics?",
+        "options": [
+            {
+                "id": "a",
+                "text": "SNMP",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "DNSEC",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "IPsec",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "HTTPS",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "Correct Answer: The Simple Network Management Protocol (SNMP) uses a management station that connects to network devices to retrieve statistics and to allow remote configuration.\nIncorrect Answers: DNS Security (DNSSEC) digitally signs DNS zone records. Clients validate the signature to ensure DNS responses are authentic. IP security (IPsec) is a suite of network security protocols that can be used to encrypt and authenticate network messages. Hyper Text Transfer Protocol Secure (HTTPS) encrypts HTTP network transmissions between clients and servers.",
+        "multipleSelect": false,
+        "reference": "11.01 DNS Security"
+    },
+    {
+        "id": 2,
+        "category": "Business Security Impact",
+        "text": "The General Data Protection Regulation protects EU citizens data under what conditions?",
+        "options": [
+            {
+                "id": "a",
+                "text": "It protects EU citizen's data based on location",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "It protects EU citizens data based on time, location, and data useless",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "It protects EU citizen's data regardless of location",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "It protects EU citizen's data based on location but regardless of time and data use.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "c"
+        ],
+        "explanation": "Correct Answer: No matter the location in the world, the General Data Protection Regulation protects EU citzens data.\nIncorrect Answer: This is not the correct answer. ",
+        "multipleSelect": false,
+        "reference": "13.03 Data Types and Roles"
+    },
+    {
+        "id": 2,
+        "category": "Dealing with Incidents",
+        "text": "Your company has determined that incident response to security events must be automated to reduce incident response time. What type of solution should be implemented?",
+        "options": [
+            {
+                "id": "a",
+                "text": "SOAR",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "SIEM",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "ICS",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "PLC",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "Correct Answer: A Security, Orchestration, Automation, and Response (SOAR) solution allows the creation of playbooks that can automate some or all incident response tasks.\nIncorrect Answers: Security Information Event Management (SIEM) is a solution that ingests activity data from numerous sources in order to detect indicators of compromise. An Industrial Control System (ICS) is a collection of computerized solutions used for industry, such as with manufacturing, oil refining, or power plants. A Programmable Logic Controller (PLC) is a network device that connects with some kind of industrial component such as robotics, sensors, gauges, values, centrifuges, and so on.",
+        "multipleSelect": false,
+        "reference": "14.04 Threat Analysis and Mitigating Actions"
+    },
+    {
+        "id": 3,
+        "category": "Risk Management",
+        "text": "How is an asset's Single Loss Expectancy (SLE) derived?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Multiply the Annual Rate of Occurrence (ARO) by the Exposure Factor (EF).",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Multiply the Asset Value (AV) by the Exposure Factor (EF).",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Multiply the Annual Rate of Occurrence (ARO) by the Asset Value (AV).",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Multiply the Exposure Factor (EF) by the risk severity rating.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "b"
+        ],
+        "explanation": "Correct Answer: Multiple the Asset Value (AV) by the Exposure Factor (EF). The SLE reflects the cost associated with an asset being unavailable, such as a server going down for a period of time. The Single Loss Expectancy (SLE) is calculated by multiplying the Asset Value (AV) by the Exposure Factor (EF) where the EF is a percentage expressing how much of an asset\u2019s value is loss due to a negative event.\nIncorrect Answers: The listed options do not reflect the values used to calculate the SLE.",
+        "multipleSelect": false,
+        "reference": "1.08 Quantitative Risk Assessments"
+    },
+    {
+        "id": 3,
+        "category": "Physical Security",
+        "text": "Your company runs sensitive medical research equipment and servers on a network named RNET-A. You need to ensure external network access to RNET-A is not possible. Which technique should you use?",
+        "options": [
+            {
+                "id": "a",
+                "text": "VLANs",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Layer 4 firewall",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Air-gapping",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Reverse proxy",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "c"
+        ],
+        "explanation": "Correct Answer: Air-gapping ensures that there is not a physical wired or wireless connection to a sensitive network.\nIncorrect Answers: The listed items can be used for optimizing network throughput (VLAN) and limiting network access (Layer 4 firewall, reverse proxy), but these options do not ensure external network access to RNET-A is impossible.",
+        "multipleSelect": false,
+        "reference": "3.02 Physical Security"
+    },
+    {
+        "id": 3,
+        "category": "Identity and Account Management",
+        "text": "Which authentication mechanism generates a code for use only once?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Multifactor authentication",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Single factor authentication",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "One-time password",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Digital signature",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "c"
+        ],
+        "explanation": "Correct Answer: One-time passwords (OTPs) enhance user sign in security since the code is supplied through a separate mechanism than the login mechanism (out of band), and the code can only be used once.\nIncorrect Answers: Multifactor authentication (MFA) combines authentication categories such as a username (something you know) with a private key (something you have), where single factor uses only one category. Digital signatures are used to prove the authenticity of received network messages.",
+        "multipleSelect": false,
+        "reference": "4.05 Authentication Methods"
+    },
+    {
+        "id": 3,
+        "category": "Tools of the Trade",
+        "text": "Which Linux command can be used to create an SSH public and private key pair?",
+        "options": [
+            {
+                "id": "a",
+                "text": "md5sum",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "sha256sum",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "ssh",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "ssh-keygen",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "d"
+        ],
+        "explanation": "Correct Answer: The ssh-keygen command creates an SSH public and private key pair.\nIncorrect Answers: The listed commands do not create key pairs. md5sum and sha256sum are used to generate file hashes. The ssh command allows remote management of any device with an SSH daemon over an encrypted connection.",
+        "multipleSelect": false,
+        "reference": "5.05 Linux Shells"
+    },
+    {
+        "id": 3,
+        "category": "Securing Individual Systems",
+        "text": "Which type of security flaw is not known by the vendor?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Firmware",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Denial of service",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Application",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Zero-day",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "d"
+        ],
+        "explanation": "Correct Answer: Zero-days are security flaws not yet known by vendors.\nIncorrect Answers: The listed flaw types do not reflect security problems unknown to the vendor.",
+        "multipleSelect": false,
+        "reference": "6.03 Common Attacks"
+    },
+    {
+        "id": 3,
+        "category": "Secuirng the Basic LAN",
+        "text": "You are decrypting a message sent over the network. Which key will be used for decryption?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Your public key",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Sender public key",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Your private key",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Sender private key",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "c"
+        ],
+        "explanation": "Correct Answer: Your private key. Recipient private keys decrypt network messages (the recipient\u2019s related public key encrypts network messages).\nIncorrect Answers: The listed keys are not used for decryption.",
+        "multipleSelect": false,
+        "reference": "7.05 Asymmetric Cryptosystems"
+    },
+    {
+        "id": 3,
+        "category": "Securing Wireless LANs",
+        "text": "What approximate range do Bluetooth Class 2 devices have?",
+        "options": [
+            {
+                "id": "a",
+                "text": "10 feet",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "30 feet ",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "60 feet",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "150 feet",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [],
+        "explanation": "Correct Answer: Bluetooth Class 2 devices have a range of approximately 30 feet.\nIncorrect Answers: The listed ranges are not valid.",
+        "multipleSelect": false,
+        "reference": "8.02 RFID, NFC, and Bluetooth"
+    },
+    {
+        "id": 3,
+        "category": "Securing Virtual and Cloud Environments",
+        "text": "Which type of cloud is owned and used by a single organization?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Pubic",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Hybrid",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Community",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Private",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "d"
+        ],
+        "explanation": "Correct Answer: Private clouds are owned and used by a single organization.\nIncorrect Answers: Public clouds are accessible by anybody over the Internet. Hybrid clouds combine Public and Private clouds. Community clouds serve the specific cloud computing needs of a group of tenants, such as for government cloud usage.",
+        "multipleSelect": false,
+        "reference": "9.06 Cloud Deployment Models"
+    },
+    {
+        "id": 3,
+        "category": "Securing Dedicated and Mobile Systems",
+        "text": "What is the proposed maximum speed of a 5G network?",
+        "options": [
+            {
+                "id": "a",
+                "text": "1 Gbps",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "3 Gbps",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "10 Gbps",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "50 Gbps",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "c"
+        ],
+        "explanation": "Correct Answer: The maximum proposed speed for 5G is 10 Gbps.\nIncorrect Answers: The listed transmission rates are incorrect.",
+        "multipleSelect": false,
+        "reference": "10.04 Connecting to Dedicated and Mobile Systems"
+    },
+    {
+        "id": 3,
+        "category": "Secure Protocols and Applications",
+        "text": "What type of attack hijacks authenticated sessions between a client and a server?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Cross-site scripting",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Denial of service",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Cross-site request forgery",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Distributed denial of service",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "c"
+        ],
+        "explanation": "Correct Answer: A Cross-site Request Forgery (CSRF) attack occurs when the attacker takes over an existing authenticated user session and issues commands to the server that appear to originate from the authenticated user.\nIncorrect Answers: A Cross-site Scripting (XSS) attack occurs when a victim views a Web page where a malicious user has injected malicious code, normally written in JavaScript, that executes in the victim Web browser. A Denial of Service (DoS) attack renders a service unreachable by legitimate users, often by flooding the network or host with useless traffic. A Distributed Denial of Service (DDoS) is similar to a DoS attack but instead uses multiple hosts to attack the victim host or network.",
+        "multipleSelect": false,
+        "reference": "11.04 Request Forgery Attacks"
+    },
+    {
+        "id": 3,
+        "category": "Testing Infrastructure ",
+        "text": "Social Engineering attackers exploit behaviors and human interactions to get the things they want. What are some of the tactics that social engineering attackers use?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Impoersonation",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Urgency",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Misinformation/Disinformation",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Impersonation ",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [],
+        "explanation": "Correct Answer: All answers are correct options for social engineering attacks.\nIncorrect Answer: This answer doesn't cover the full scope of possibilities for social engineering attacks.",
+        "multipleSelect": false,
+        "reference": "12.02 Social Engineering Attacks"
+    },
+    {
+        "id": 3,
+        "category": "Business Security Impact",
+        "text": "Which of the following is a consideration in change management? ",
+        "options": [
+            {
+                "id": "a",
+                "text": "Operating procedures",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Backout plans",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Employee Results",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Company attitude",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "b"
+        ],
+        "explanation": "Correct Answer: Backout plans are something important to consider when you are looking at change management.\nIncorrect Answer: This is not the correct answer. ",
+        "multipleSelect": false,
+        "reference": ""
+    },
+    {
+        "id": 3,
+        "category": "Dealing with Incidents",
+        "text": "You have determined that your department can withstand the loss of no more than 3 hours of data, so you have adjusted your backups to occur once every three hours. To which term does this scenario best apply?",
+        "options": [
+            {
+                "id": "a",
+                "text": "SLA",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "HSM",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "RPO",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "RTO",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "c"
+        ],
+        "explanation": "Correct Answer: The Recovery Point Objective (RPO) specifies, in time, the maximum tolerable amount of data loss due to a negative occurrence.\nIncorrect Answers: The Service Level Agreement (SLA) is a document detailing guaranteed service uptime. A Hardware Security Module (HSM) is a tamper-resistant device used for cryptographic operations. The Recovery Time Objective (RTO) specifies, in time, the maximum amount of tolerable downtime for a business process or IT system.",
+        "multipleSelect": false,
+        "reference": "14.07 Data Backup"
+    },
+    {
+        "id": 4,
+        "category": "Risk Management",
+        "text": "How is the Annual Loss Expectancy (ALE) calculated?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Multiply the Annual Rate of Occurrence (ARO) by the Exposure Factor (EF).",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Multiply the Asset Value (AV) by the Exposure Factor (EF).",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Multiply the Annual Rate of Occurrence (ARO) by the Asset Value (AV).",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Multiply the Single Loss Expectancy (SLE) by the Annual Rate of Occurrence (ARO).",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "d"
+        ],
+        "explanation": "Correct Answer: Multiply the Single Loss Expectancy (SLE) by the Annual Rate of Occurrence (ARO). The Annual Loss Expectancy (ALE) represents a cost related to the downtime of an asset over a one-year period. It is calculated by multiplying the Single Loss Expectancy (SLE) by the Annual Rate of Occurrence (ARO).\nIncorrect Answers: The listed options do not reflect the values used to calculate the ALE.",
+        "multipleSelect": false,
+        "reference": "1.08 Quantitative Risk Assessments"
+    },
+    {
+        "id": 4,
+        "category": "Physical Security",
+        "text": "Why is it important to install blanking panels on equipment rack spaces that do not contain equipment?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Rack security is enhanced",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Inventory gathering is made easier",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Visual equipment inspection is made easier",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Air flow is improved",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "d"
+        ],
+        "explanation": "Correct Answer: Air flow is improved by installing blanking panels in racks where there is no equipment.\nIncorrect Answers: The listed items are not valid reasons for installing blanking panels.",
+        "multipleSelect": false,
+        "reference": "3.04 Environmental Controls"
+    },
+    {
+        "id": 4,
+        "category": "Identity and Account Management",
+        "text": "You are configuring SSH public key authentication for a Linux host that will be managed from a Windows computer. Where must the public key be stored?",
+        "options": [
+            {
+                "id": "a",
+                "text": "User home directory on the Linux server",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "User home directory on the Windows host",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Root directory on the Linux server",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Root directory on the Windows host",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "Correct Answer: User home directory on the Linux server. SSH public keys must be stored on the server in the user home directory in a file called \u201cauthorized_keys\u201d.\nIncorrect Answers: None of the listed options specifies the correct location of the SSH public key.",
+        "multipleSelect": false,
+        "reference": "4.05 Authentication Methods"
+    },
+    {
+        "id": 4,
+        "category": "Tools of the Trade",
+        "text": "You are logged into a Linux host and need to view its IP address. Which command should you use?",
+        "options": [
+            {
+                "id": "a",
+                "text": "dig",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "nslookup",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "ipconfig",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "ifconfig",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "d"
+        ],
+        "explanation": "Correct Answer: The ifconfig command shows Linux network interfaces and IP address information.\nIncorrect Answers: The dig command in Linux can be used to test and troubleshoot DNS name resolution. The name server lookup (nslookup) command is used to test and troubleshoot DNS name resolution in both Windows and Linux. Ipconfig is used to view network interface and IP address information in Windows.",
+        "multipleSelect": false,
+        "reference": "5.05 Linux Shells"
+    },
+    {
+        "id": 4,
+        "category": "Secuirng the Basic LAN",
+        "text": "You are verifying a digital signature. Which key will be used?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Your public key",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Sender public key",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Your private key",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Sender private key",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "b"
+        ],
+        "explanation": "Correct Answer: Sender public key. Verifying digital signatures is done using the sender\u2019s public key (the sender\u2019s private key creates the digital signature).\nIncorrect Answers: The listed keys are not used to verify a digital signature.",
+        "multipleSelect": false,
+        "reference": "7.06 Understanding Digital Certificates"
+    },
+    {
+        "id": 4,
+        "category": "Securing Wireless LANs",
+        "text": "You are performing a Wi-Fi site survey due to complaints about slow wireless network connectivity. Which reading indicates a strong signal that will provide the best wireless network speeds?",
+        "options": [
+            {
+                "id": "a",
+                "text": "-120 dBm",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "-80 dBm",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "-50 dBm",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "-30 dBm",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "d"
+        ],
+        "explanation": "Correct Answer: A -30 dBm wireless signal strength is considered excellent.\nIncorrect Answers: The listed wireless signal strengths are sub-standard.",
+        "multipleSelect": false,
+        "reference": "8.03 Wi-Fi Coverage and Performance"
+    },
+    {
+        "id": 4,
+        "category": "Securing Virtual and Cloud Environments",
+        "text": "With which cloud service model is the cloud tenant responsible for patching virtual machines?",
+        "options": [
+            {
+                "id": "a",
+                "text": "SaaS",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "IaaS",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "SECaaS",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "PaaS",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "b"
+        ],
+        "explanation": "Correct Answer: Infrastructure as a Service (IaaS) includes storage, network and virtual machines. IaaS virtual machine software patching is the responsibility of the cloud tenant.\nIncorrect Answers: Software as a Service (SaaS) refers to end-user productivity software running in the cloud, Security as a Service (SECaaS) refers to cloud security services, and Platform as a Service (PaaS) refers to database and software development platforms, all of which do not place the responsibility of virtual machine patching on the cloud tenant.",
+        "multipleSelect": false,
+        "reference": "9.07 Cloud Service Models"
+    },
+    {
+        "id": 4,
+        "category": "Securing Dedicated and Mobile Systems",
+        "text": "What is the approximate signal range for 4G cell towers?",
+        "options": [
+            {
+                "id": "a",
+                "text": "1 mile",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "3 miles",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "6 miles",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "20 miles",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "c"
+        ],
+        "explanation": "Correct Answer: 4G cell towers have an approximate range of 6 miles.\nIncorrect Answers: The listed distances are incorrect.",
+        "multipleSelect": false,
+        "reference": "10.04 Connecting to Dedicated and Mobile Systems"
+    },
+    {
+        "id": 4,
+        "category": "Secure Protocols and Applications",
+        "text": "Which language is commonly used by attackers for XSS attacks?",
+        "options": [
+            {
+                "id": "a",
+                "text": "PowerShell",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Python",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Perl",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "JavaScript",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "d"
+        ],
+        "explanation": "Correct Answer: JavaScript. A Cross-site Scripting (XSS) attack occurs when a victim views a Web page where a malicious user has injected malicious code, normally written in JavaScript, that executes in the victim Web browser.\nIncorrect Answers: The listed languages are not commonly used for XSS attacks.",
+        "multipleSelect": false,
+        "reference": "11.05 Cross-Site Scripting Attacks"
+    },
+    {
+        "id": 5,
+        "category": "Risk Management",
+        "text": "Which type of risk assessment is based on subjective opinions regarding threat likelihood and threat impact severity?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Risk heat map",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Qualitative",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Risk register",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Quantitative",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "b"
+        ],
+        "explanation": "Correct Answer: A qualitative risk assessment organizes risks by a severity or threat rating which may differ from one organization to another.\nIncorrect Answers: A risk heat map plots risks on a grid using colors to represent severities; red is normally high severity and green is normally low severity. A risk register is a centralized list of risks that includes details such as a risk priority value, risk severity rating, mitigating controls, responsible person and so on. Quantitative risk assessments use numbers (such as dollar values and percentages) to calculate the impact realized threats can have on assets; the goal is to determine if the cost of protecting an asset is less than the projected annual cost of negative security incidents.",
+        "multipleSelect": false,
+        "reference": "1.09 Qualitative Risk Assessments"
+    },
+    {
+        "id": 5,
+        "category": "Physical Security",
+        "text": "Which server room consideration focuses on pulling warm equipment exhaust air away from equipment?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Cold aisles",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Hot aisles",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Air conditioning",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Blanking panels",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "b"
+        ],
+        "explanation": "Correct Answer: Hot aisles are designed to pull warm exhaust air away from equipment.\nIncorrect Answers: The listed items are not focused on removing warm exhaust air from server rooms.",
+        "multipleSelect": false,
+        "reference": "3.04 Environmental Controls"
+    },
+    {
+        "id": 5,
+        "category": "Identity and Account Management",
+        "text": "You are configuring a Windows file server so that files marked as \u201cPII-Finance\u201d are accessible only to full-time users in the Finance department. What type of access control model are you configuring?",
+        "options": [
+            {
+                "id": "a",
+                "text": "ABAC",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "RBAC",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "DAC",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "MAC",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "Correct Answer: Access-based Access Control (ABAC) allows resource access based on user, device and resource attributes.\nIncorrect Answers:  Role-based Access Control (RBAC) uses roles, which are collections of related permissions, to control resource access. Discretionary Access Control (DAC) allows the data custodian to set permissions in accordance with policies set forth by the data owner. Mandatory Access Control (MAC) labels resources and ties security clearance levels to specific labels to allow resource access.",
+        "multipleSelect": false,
+        "reference": "4.06 Access Control Schemes"
+    },
+    {
+        "id": 5,
+        "category": "Securing Individual Systems",
+        "text": "Which type of password attack tries every possible combination of letters, numbers and symbols?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Dictionary",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Brute-force",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Spraying",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Offline",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "b"
+        ],
+        "explanation": "Correct Answer: Brute-force attacks use automation tools to try every possible combination of letters, numbers and symbols to crack passwords.\nIncorrect Answers: Dictionary attacks use dictionary word or phrase files to try them in combination with a username in an attempt to crack user passwords. Password spraying blasts many accounts with a best-guess common password before trying a new password; this is slower (per-user account basis) than traditional attacks and is less likely to trigger account lockout thresholds. Offline password attacks use an offline copy of passwords for cracking passwords.",
+        "multipleSelect": false,
+        "reference": "6.05 Password Attacks"
+    },
+    {
+        "id": 5,
+        "category": "Secuirng the Basic LAN",
+        "text": "Your company has numerous public-facing Web sites that use the same DNS domain suffix. You need to use PKI to secure each Web site. Which solution involves the least amount of administrative effort?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Generate self-signed certificates for each Web sit",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Acquire public certificates for each Web site",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Acquire a wildcard certificate",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Acquire an extended validation certificate",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "c"
+        ],
+        "explanation": "Correct Answer: Wildcard certificates allow a single certificate tied a DNS domain to be used by hosts within subdomains.\nIncorrect Answers: Using self-signed or public certificates for each Web site requires more effort than using a wildcard certificate. Extended validation certificates require the certificate issuer to perform extra due diligence in ensuring that the certificate request is legitimate.",
+        "multipleSelect": false,
+        "reference": "7.09 Certificate Types"
+    },
+    {
+        "id": 5,
+        "category": "Securing Wireless LANs",
+        "text": "When pen testing Wi-Fi networks, why is deauthentication sometimes used?",
+        "options": [
+            {
+                "id": "a",
+                "text": "To forcibly disconnect Wi-Fi clients to observe authentication",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "To forcibly disconnect Wi-Fi clients to prevent their Wi-Fi connectivity.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "To test RADIUS authentication resiliency.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "To perform offline dictionary attacks.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "Correct Answer: To forcibly disconnect Wi-Fi clients to observe authentication. Deauthentication kicks connected devices off the Wi-Fi network in order observe the reconnection authentication information.\nIncorrect Answers: The listed explanations do not explain why deauthentication is often used with Wi-Fi pen testing.",
+        "multipleSelect": false,
+        "reference": "8.04 Wi-Fi Discovery and Attacks"
+    },
+    {
+        "id": 5,
+        "category": "Securing Virtual and Cloud Environments",
+        "text": "Which cloud configuration enforces security policies when accessing cloud resources?",
+        "options": [
+            {
+                "id": "a",
+                "text": "CSP",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "CASB",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "SLA",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "IaaS",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "b"
+        ],
+        "explanation": "Correct Answer: A Cloud Access Security Broker (CASB) sits between users and cloud services to enforce organizational security policies.\nIncorrect Answers: Cloud Service Providers (CSPs) host cloud services. Service Level Agreements (SLAs) guarantee cloud service uptime. Infrastructure as a Service (IaaS) includes storage, network and virtual machines. IaaS virtual machine software patching is the responsibility of the cloud tenant.",
+        "multipleSelect": false,
+        "reference": "9.08 Securing the Cloud"
+    },
+    {
+        "id": 5,
+        "category": "Securing Dedicated and Mobile Systems",
+        "text": "Which cryptographic algorithm uses smaller keys but provides just as much crypto strength as other algorithms with larger key spaces?",
+        "options": [
+            {
+                "id": "a",
+                "text": "ECC",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "RSA",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "MD5",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "SHA256",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "a"
+        ],
+        "explanation": "Correct Answer: Elliptic Curve Cryptography (ECC) uses small keys to achieve strong crypto strength.\nIncorrect Answers: RSA keys are larger than ECC keys. MD5 and SHA256 do not use keys; they are hashing algorithms.",
+        "multipleSelect": false,
+        "reference": "10.05 Security Constraints for Dedicated Systems"
+    },
+    {
+        "id": 5,
+        "category": "Secure Protocols and Applications",
+        "text": "Where do XSS attacks execute?",
+        "options": [
+            {
+                "id": "a",
+                "text": "On the Web server",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "In the client Web browser",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "In the client operating system",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "On the Web server operating system",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "b"
+        ],
+        "explanation": "Correct Answer: In the client Web browser. A Cross-site Scripting (XSS) attack occurs when a victim views a Web page where a malicious user has injected malicious code, normally written in JavaScript, that executes in the victim Web browser.\nIncorrect Answers: The listed locations do not correctly identity where XSS attacks execute.",
+        "multipleSelect": false,
+        "reference": "11.05 Cross-Site Scripting Attacks"
+    },
+    {
+        "id": 6,
+        "category": "Identity and Account Management",
+        "text": "Which technique adds location metadata to social media posts and pictures?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Geofencing",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Global positioning system",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Geotagging",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Triangulation",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "c"
+        ],
+        "explanation": "Correct Answer: Geotagging uses GPS coordinates or IP address block information to add detailed location information to social media posts and pictures.\nIncorrect Answers: Geofencing is used to allow app access within a specific location. The Global Positioning System (GPS) uses satellites to pinpoint the location of objects on the Earth\u2019s surface. Triangulation is a technique used to determine the distances and relative positions of points spread over a geographical region.",
+        "multipleSelect": false,
+        "reference": "4.07 Account Management"
+    },
+    {
+        "id": 6,
+        "category": "Securing Individual Systems",
+        "text": "While comparing previous and current network traffic patterns, you notice new numerous DNS client queries for TXT records. What might this indicate?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Client devices are performing normal forward lookup DNS queries for Web sites.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Client devices are performing normal reverse lookup DNS queries for IP addresses.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Client devices are infected and are attempting to remove the infection.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Client devices are infected and are attempting to discover a command and control server.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "d"
+        ],
+        "explanation": "Correct Answer: Client devices are infected and are attempting to discover a command and control server. Client devices normally query IPv4 A records or IPv6 AAAA records to resolve FQDNs to IP addresses. Clients querying DNS TXT records is abnormal.\nIncorrect Answers: The listed reasons are invalid in this scenario.",
+        "multipleSelect": false,
+        "reference": "6.06 Bots and Botnets"
+    },
+    {
+        "id": 6,
+        "category": "Secuirng the Basic LAN",
+        "text": "TCP port numbers apply to which layer of the OSI model?",
+        "options": [
+            {
+                "id": "a",
+                "text": "2",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "3",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "4",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "7",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [],
+        "explanation": "Correct Answer: Port numbers apply to the OSI model transport layer (layer 4).\nIncorrect Answers: The listed OSI layers are not related to port numbers.",
+        "multipleSelect": false,
+        "reference": "7.12 The OSI Model"
+    },
+    {
+        "id": 6,
+        "category": "Securing Wireless LANs",
+        "text": "Which Wi-Fi EAP configuration uses both client and server PKI certificates?",
+        "options": [
+            {
+                "id": "a",
+                "text": "EAP-FAST",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "EAP-TTLS",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "EAP-TLS",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Protected EAP",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "c"
+        ],
+        "explanation": "Correct Answer: EAP-TLS can use client and server PKI certificates for mutual authentication.\nIncorrect Answers: The listed EAP configurations do not require both client and server PKI certificates.",
+        "multipleSelect": false,
+        "reference": "8.06 Wi-Fi Hardening"
+    },
+    {
+        "id": 6,
+        "category": "Securing Dedicated and Mobile Systems",
+        "text": "Which term describes installing a smart phone app directly, without going through an app store?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Geotagging",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Geofencing",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Registering",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Sideloading",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "d"
+        ],
+        "explanation": "Correct Answer: Sideloading refers to installing mobile device apps directly from installation files, without using an app store.\nIncorrect Answers: Geotagging adds geographic metadata (such as GPS coordinates) to files, such as photos taken with a smart phone. Geofencing uses geographical location to control app access. Registering refers to linking a mobile device to a centralized Mobile Device Management (MDM) system.",
+        "multipleSelect": false,
+        "reference": "10.06 Mobile Device Deployment and Hardening"
+    },
+    {
+        "id": 6,
+        "category": "Secure Protocols and Applications",
+        "text": "You are developing a Web application that uses cookies. You want to prevent client Javascript access to cookies. Which HTTP response header attribute flag should you set?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Samesite",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Secure",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "HTTPOnly",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Domain",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "c"
+        ],
+        "explanation": "Correct Answer: The HTTPOnly flag ensures that client Javascript cannot access the cookie which can help mitigate cross-site scripting (XSS) attacks.\nIncorrect Answers: The Samesite attribute helps mitigate cross-site request forgery (CSRF) attacks. The Secure attribute requires HTTPS connectivity. The Domain attribute controls the target host to which the cookie will be sent.",
+        "multipleSelect": false,
+        "reference": "11.06 Web Application Security"
+    },
+    {
+        "id": 7,
+        "category": "Identity and Account Management",
+        "text": "What type of authentication server is used with IEEE 802.1x network access control?",
+        "options": [
+            {
+                "id": "a",
+                "text": "LDAP",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "RADIUS",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Identity federation",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Active Directory",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "b"
+        ],
+        "explanation": "Correct Answer: Remote Authentication Dial-In User Service (RADIUS) servers are centralized authentication servers that receive authentication requests from RADIUS clients such as network switches and Wi-Fi routers.\nIncorrect Answers: The Lightweight Directory Access Protocol (LDAP) is a protocol used to access a central network directory. Identity federation uses a central trusted Identity Provider (IdP) to allow access to resources such as Web sites. Active Directory is a Microsoft Windows Server role that uses a replicated database containing user, computer and application configuration information.",
+        "multipleSelect": false,
+        "reference": "4.08 Network Authentication"
+    },
+    {
+        "id": 7,
+        "category": "Securing Individual Systems",
+        "text": "You need a network security solution that can not only detect, but also stop current suspicious activity. What should you implement?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Layer 4 firewall",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Reverse proxy server",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Network intrusion prevention system",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Network intrusion detection system",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "c"
+        ],
+        "explanation": "Correct Answer: A network intrusion prevention system can not only detect but also be configured to stop suspicious activity.\nIncorrect Answers: Layer 4 firewalls are packet filtering firewalls which do not detect or prevent suspicious activity. Reverse proxy servers map public IP addresses and ports to internal servers to protect their true identities. Intrusion detection systems only detect and report, log, or notify of suspicious activity.",
+        "multipleSelect": false,
+        "reference": "6.06 Bots and Botnets"
+    },
+    {
+        "id": 7,
+        "category": "Secuirng the Basic LAN",
+        "text": "What is the general premise of ARP cache poisoning?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Network devices modify their DNS cache to use the attacker MAC address for the default gateway.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Network devices modify their ARP cache to use the attacker IP address for the default gateway.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Network devices modify their ARP cache to use the attacker MAC address for the default gateway.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Network devices modify their DNS cache to use the attacker IP address for the default gateway.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "c"
+        ],
+        "explanation": "Correct Answer: Network devices modify their ARP cache to use the attacker MAC address for the default gateway. ARP cache poisoning forces client traffic destined for a router (default gateway) first through an attacker machine.\nIncorrect Answers: The listed items do not properly describe ARP cache poisoning.",
+        "multipleSelect": false,
+        "reference": "7.13 ARP Cache Poisoning"
+    },
+    {
+        "id": 7,
+        "category": "Securing Wireless LANs",
+        "text": "When connecting to a public Wi-Fi hotspot you are presented with a Web page where you must agree to the terms of use before gaining Internet access. What is this?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Reverse proxy server",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Port address translation",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "RADIUS authentication",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Captive portal",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "d"
+        ],
+        "explanation": "Correct Answer: Captive portals present a Web page when users connect to a Wi-Fi network; sometimes a user account is required (often users must agree to the terms of use before connecting to the Internet).\nIncorrect Answers: The listed security configurations would not result with the Web page presented when connection to a public Wi-Fi hotspot.",
+        "multipleSelect": false,
+        "reference": "8.06 Wi-Fi Hardening"
+    },
+    {
+        "id": 8,
+        "category": "Identity and Account Management",
+        "text": "Which term describes an end user device attempting to connect to an IEEE 802.1x Wi-Fi network configured with network authentication?",
+        "options": [
+            {
+                "id": "a",
+                "text": "RADIUS client",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Applicant",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Supplicant",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "RADIUS requester",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "c"
+        ],
+        "explanation": "Correct Answer: RADIUS supplicants (client devices) initiate authentication requests.\nIncorrect Answers: RADIUS clients are network edge devices such as Wi-Fi routers or network switches that forward RADIUS supplication authentication requests to a RADIUS server. Application is not a valid term in this context. RADIUS requester is not a valid term in this context.",
+        "multipleSelect": false,
+        "reference": "4.08 Network Authentication"
+    },
+    {
+        "id": 8,
+        "category": "Securing Individual Systems",
+        "text": "You are configuring the disks in a server so that in the event of a single disk loss, a second disk will already have all of the data. Which RAID level should you configure?",
+        "options": [
+            {
+                "id": "a",
+                "text": "RAID 0",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "RAID 1",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "RAID 5",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "RAID 6",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "b"
+        ],
+        "explanation": "Correct Answer: RAID level 1 (disk mirroring) writes each file to all disks in the mirrored array.\nIncorrect Answers: RAID 0 (disk striping) writes data across an array of disks to improve performance. RAID 5 (disk striping with distributed parity) writes data across an array of disks but also write parity (error recovery information) across the disks in the array, thus providing a performance improvement in addition to resiliency against a single failed disk in the array. RAID 6 uses at least 4 disks for striping and stores 2 parity stripes on each disk in the array; this allows for a tolerance of 2 disk failures within the array.",
+        "multipleSelect": false,
+        "reference": "6.07 Disk RAID Levels"
+    },
+    {
+        "id": 8,
+        "category": "Secuirng the Basic LAN",
+        "text": "Which mitigation can prevent network switching loops?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Disable link auto negotiation",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "MAC filtering",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Intrusion detection sensor",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Spanning Tree Protocol",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "d"
+        ],
+        "explanation": "Correct Answer: The Spanning Tree Protocol (STP) is a network switch configuration option that can prevent network switching loops.\nIncorrect Answers: The listed mitigations are not designed to prevent network switching loops.",
+        "multipleSelect": false,
+        "reference": "7.14 Other Layer 2 Attacks"
+    },
+    {
+        "id": 9,
+        "category": "Identity and Account Management",
+        "text": "You are building a Web application that will allow users to sign in with their Google account. Which term best describes this scenario?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Multifactor authentication",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Identity federation",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "SAML",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "LDAP",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "b"
+        ],
+        "explanation": "Correct Answer: Identity federation uses a central trusted Identity Provider (IdP) to allow access to resources such as Web sites.\nIncorrect Answers: Multifactor authentication (MFA) combines authentication categories such as a username (something you know) with a private key (something you have). Security Assertion Markup Language (SAML) is an authentication scheme whereby an identity provider issues digitally signed security tokens which are then used to gain resource access. The Lightweight Directory Access Protocol (LDAP) is a protocol used to access a central network directory.",
+        "multipleSelect": false,
+        "reference": "4.09 Identity Management Systems"
+    },
+    {
+        "id": 9,
+        "category": "Securing Individual Systems",
+        "text": "You are ordering laptops for sales executives that travel for work. The laptops will run the Windows 10 Enterprise operating system. You need to ensure that protection of data at rest is enabled for internal laptop disks. The encryption must be tied to the specific laptop. What should you do?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Order laptops with HSM chips and configure BitLocker disk encryption.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Order laptops with HSM chips and configure EFS encryption.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Order laptops with TPM chips and configure EFS encryption.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Order laptops with TPM chips and configure BitLocker disk encryption.",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "d"
+        ],
+        "explanation": "Correct Answer: Order laptops with TPM chips and configure BitLocker disk encryption. A Trusted Platform Module (TPM) chip in a computer is used to secure the integrity of the machine boot process and to store disk volume encryption keys.\nIncorrect Answers: A Hardware Security Module (HSM) is not a chip installed within a computer; it is a tamper-resistant device used for cryptographic operations and the storage of encryption keys. Encrypting File System (EFS) file encryption is tied to the user account, not tied to the machine.",
+        "multipleSelect": false,
+        "reference": "6.08 Securing Hardware"
+    },
+    {
+        "id": 9,
+        "category": "Secuirng the Basic LAN",
+        "text": "Which load balancing algorithm sends each client app request to the next backend virtual machine?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Weighted",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Active/passive",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Round robin",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Least connections",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "c"
+        ],
+        "explanation": "Correct Answer: Round robin load balancing sends each client app request to the next backend server.\nIncorrect Answers: Weighted load balancing uses a configured relative weight value for each backend server to determine how much traffic each server gets. Active/passive is a load balancing redundancy configuration where a standby server is not active until the active server fails. Least connections send client app requests to the backend server that is currently the least busy.",
+        "multipleSelect": false,
+        "reference": "7.17 Load Balancing"
+    },
+    {
+        "id": 10,
+        "category": "Secuirng the Basic LAN",
+        "text": "To which OSI layer do packet filtering firewalls apply?",
+        "options": [
+            {
+                "id": "a",
+                "text": "2",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "3",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "4",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "7",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [],
+        "explanation": "Correct Answer: Layer 4. Packet filtering firewall can examine only packets headers (OSI layers 2-4).\nIncorrect Answers: The listed layers do not correctly represent where packet filtering firewalls fit into the OSI model.",
+        "multipleSelect": false,
+        "reference": "7.21 Firewalls"
+    },
+    {
+        "id": 11,
+        "category": "Secuirng the Basic LAN",
+        "text": "You need to force user authentication and time-based restrictions for internal client devices connecting out to the Internet. You also need to ensure client device IP addresses are not exposed to the Internet. What should you implement?",
+        "options": [
+            {
+                "id": "a",
+                "text": "Reverse proxy server",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Port address translation",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Network address translation",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Forward proxy server",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            }
+        ],
+        "correctAnswers": [
+            "d"
+        ],
+        "explanation": "Correct Answer: Forward proxy servers fetch content on behalf of internal client devices, and they can require authentication and enforce time of day restrictions.\nIncorrect Answers: Reverse proxy servers map public IP addresses and port numbers to internal servers. Port Address Translation (PAT) allows many internal clients to get to the Internet using a single public IP address. Network Address Translation (NAT) is similar to a reverse proxy server except it cannot force user authentication or time of day restrictions; it applies to OSI model 4 (transport layer), not layer 7 (the application layer).",
+        "multipleSelect": false,
+        "reference": "7.22 Proxy Servers"
+    }
+]
