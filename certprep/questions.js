@@ -49,6 +49,11 @@ const certifications = {
         id: "comptia-security-plus",
         name: "Comptia Security+ (SY0-701)",
         file: "data/comptia-security-plus.json"
+    },
+    "certified-ethical-hacker": {
+        id: "certified-ethical-hacker",
+        name: "Certified Ethical Hacker (CEH)",
+        file: "data/certified-ethical-hacker.json"
     }
 };
 
