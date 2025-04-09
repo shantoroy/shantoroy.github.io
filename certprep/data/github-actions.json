@@ -5,13 +5,13 @@
         "options": [
             {
                 "id": "a",
-                "text": "The <code class=\"inline-code\">GITHUB_TOKEN</code> permissions passed from the caller workflow can be only downgraded by the called workflow.",
+                "text": "The <code class=\"inline-code\">GITHUB_TOKEN</code> permissions passed from the caller workflow can be only elevated by the called workflow.",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
             {
                 "id": "b",
-                "text": "The <code class=\"inline-code\">GITHUB_TOKEN</code> permissions passed from the caller workflow can be only elevated by the called workflow.",
+                "text": "The <code class=\"inline-code\">GITHUB_TOKEN</code> permissions passed from the caller workflow can be only downgraded by the called workflow.",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
@@ -29,7 +29,7 @@
             }
         ],
         "correctAnswers": [
-            "a"
+            "b"
         ],
         "explanation": "https://docs.github.com/en/actions/using-workflows/reusing-workflows#access-and-permissions",
         "multipleSelect": false
@@ -40,25 +40,25 @@
         "options": [
             {
                 "id": "a",
-                "text": "none, write, read",
-                "isCodeBlock": false,
-                "hasInlineCode": false
-            },
-            {
-                "id": "b",
                 "text": "read, write, delete",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
-                "id": "c",
+                "id": "b",
                 "text": "read, write",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "none, write, read",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
         ],
         "correctAnswers": [
-            "a"
+            "c"
         ],
         "explanation": "https://docs.github.com/en/actions/using-jobs/assigning-permissions-to-jobs",
         "multipleSelect": false
@@ -69,26 +69,26 @@
         "options": [
             {
                 "id": "a",
-                "text": "Workflow level",
+                "text": "Step level",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "b",
-                "text": "Job level",
+                "text": "Workflow level",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "c",
-                "text": "Step level",
+                "text": "Job level",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
         ],
         "correctAnswers": [
-            "a",
-            "b"
+            "b",
+            "c"
         ],
         "explanation": "https://docs.github.com/en/actions/writing-workflows/choosing-what-your-workflow-does/controlling-permissions-for-github_token",
         "multipleSelect": true
@@ -99,19 +99,19 @@
         "options": [
             {
                 "id": "a",
-                "text": "Yes",
+                "text": "No",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "b",
-                "text": "No",
+                "text": "Yes",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
         ],
         "correctAnswers": [
-            "a"
+            "b"
         ],
         "explanation": "",
         "multipleSelect": false
@@ -122,7 +122,7 @@
         "options": [
             {
                 "id": "a",
-                "text": "Cloning the repository",
+                "text": "A branch is created",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
@@ -134,7 +134,7 @@
             },
             {
                 "id": "c",
-                "text": "A branch is created",
+                "text": "Cloning the repository",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
@@ -146,7 +146,7 @@
             }
         ],
         "correctAnswers": [
-            "a"
+            "c"
         ],
         "explanation": "https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#about-events-that-trigger-workflows",
         "multipleSelect": false
@@ -163,39 +163,39 @@
             },
             {
                 "id": "b",
-                "text": "Workflows can be triggered manually, by an event or run on a schedule",
-                "isCodeBlock": false,
-                "hasInlineCode": false
-            },
-            {
-                "id": "c",
                 "text": "Workflows have to be defined in the <code class=\"inline-code\">.github/workflows</code> directory",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
             {
-                "id": "d",
+                "id": "c",
                 "text": "Workflows can only be run on a schedule",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
-                "id": "e",
+                "id": "d",
                 "text": "Workflow can run only one job at a time",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
-                "id": "f",
+                "id": "e",
                 "text": "Workflows are written in any of <code class=\"inline-code\">.yaml</code>, <code class=\"inline-code\">.json</code> or <code class=\"inline-code\">.toml</code> formats",
                 "isCodeBlock": false,
                 "hasInlineCode": true
+            },
+            {
+                "id": "f",
+                "text": "Workflows can be triggered manually, by an event or run on a schedule",
+                "isCodeBlock": false,
+                "hasInlineCode": false
             }
         ],
         "correctAnswers": [
             "a",
             "b",
-            "c"
+            "f"
         ],
         "explanation": "https://docs.github.com/en/actions/using-workflows/about-workflows\n\nActions (not workflows) can be shared in GitHub Marketplace",
         "multipleSelect": true
@@ -206,25 +206,25 @@
         "options": [
             {
                 "id": "a",
-                "text": "One or more events that will trigger the workflow",
-                "isCodeBlock": false,
-                "hasInlineCode": false
-            },
-            {
-                "id": "b",
                 "text": "One or more jobs",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
+                "id": "b",
+                "text": "One or more events that will trigger the workflow",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
                 "id": "c",
-                "text": "Workflow name",
+                "text": "Defined branches on which the workflow will run",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "d",
-                "text": "Defined branches on which the workflow will run",
+                "text": "Workflow name",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
@@ -242,37 +242,37 @@
         "options": [
             {
                 "id": "a",
-                "text": "repository_dispatch",
-                "isCodeBlock": false,
-                "hasInlineCode": false
-            },
-            {
-                "id": "b",
-                "text": "webhook_dispatch",
-                "isCodeBlock": false,
-                "hasInlineCode": false
-            },
-            {
-                "id": "c",
-                "text": "workflow_dispatch",
-                "isCodeBlock": false,
-                "hasInlineCode": false
-            },
-            {
-                "id": "d",
                 "text": "remote_dispatch",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
-                "id": "e",
+                "id": "b",
                 "text": "api_dispatch",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "repository_dispatch",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "webhook_dispatch",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "e",
+                "text": "workflow_dispatch",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
         ],
         "correctAnswers": [
-            "a"
+            "c"
         ],
         "explanation": "https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows",
         "multipleSelect": false
@@ -283,31 +283,31 @@
         "options": [
             {
                 "id": "a",
-                "text": "yaml",
-                "isCodeBlock": false,
-                "hasInlineCode": false
-            },
-            {
-                "id": "b",
-                "text": "toml",
-                "isCodeBlock": false,
-                "hasInlineCode": false
-            },
-            {
-                "id": "c",
                 "text": "json",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
-                "id": "d",
+                "id": "b",
+                "text": "yaml",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
                 "text": "xml",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "toml",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
         ],
         "correctAnswers": [
-            "a"
+            "b"
         ],
         "explanation": "",
         "multipleSelect": false
@@ -330,13 +330,13 @@
             },
             {
                 "id": "c",
-                "text": "vault",
+                "text": "environment variables",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "d",
-                "text": "environment variables",
+                "text": "vault",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
@@ -376,31 +376,31 @@
         "options": [
             {
                 "id": "a",
-                "text": "use the <code class=\"inline-code\">needs</code> keyword in job B to create this dependency",
-                "isCodeBlock": false,
-                "hasInlineCode": true
-            },
-            {
-                "id": "b",
-                "text": "use the <code class=\"inline-code\">needs</code> keyword in job A to create this dependency",
-                "isCodeBlock": false,
-                "hasInlineCode": true
-            },
-            {
-                "id": "c",
                 "text": "use the <code class=\"inline-code\">requires</code> keyword in job B to create this dependency",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
             {
-                "id": "d",
+                "id": "b",
                 "text": "use the <code class=\"inline-code\">requires</code> keyword in job A to create this dependency",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "use the <code class=\"inline-code\">needs</code> keyword in job B to create this dependency",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "use the <code class=\"inline-code\">needs</code> keyword in job A to create this dependency",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             }
         ],
         "correctAnswers": [
-            "a"
+            "c"
         ],
         "explanation": "https://docs.github.com/en/actions/using-workflows/about-workflows#creating-dependent-jobs",
         "multipleSelect": false
@@ -417,13 +417,13 @@
             },
             {
                 "id": "b",
-                "text": "the jobs that are dependent on job A fail",
+                "text": "the workflow immediately cancels all other jobs",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "c",
-                "text": "the workflow immediately cancels all other jobs",
+                "text": "the jobs that are dependent on job A fail",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
@@ -463,13 +463,13 @@
         "options": [
             {
                 "id": "a",
-                "text": "<pre><code class='language-yaml'>jobs:\n    example_matrix:\n      strategy:\n        matrix:\n          version: [10, 12, 14]\n          os: [ubuntu-latest, windows-latest]</code></pre>",
+                "text": "<pre><code class='language-yaml'>jobs:\n    matrix:\n      version: [10, 12, 14]\n      os: [ubuntu-latest, windows-latest]</code></pre>",
                 "isCodeBlock": true,
                 "hasInlineCode": true
             },
             {
                 "id": "b",
-                "text": "<pre><code class='language-yaml'>jobs:\n    example_matrix:\n      matrix:\n        strategy:\n          version: [10, 12, 14]\n          os: [ubuntu-latest, windows-latest]</code></pre>",
+                "text": "<pre><code class='language-yaml'>jobs:\n    example_matrix:\n      strategy:\n        matrix:\n          version: [10, 12, 14]\n          os: [ubuntu-latest, windows-latest]</code></pre>",
                 "isCodeBlock": true,
                 "hasInlineCode": true
             },
@@ -481,43 +481,8 @@
             },
             {
                 "id": "d",
-                "text": "<pre><code class='language-yaml'>jobs:\n    matrix:\n      version: [10, 12, 14]\n      os: [ubuntu-latest, windows-latest]</code></pre>",
+                "text": "<pre><code class='language-yaml'>jobs:\n    example_matrix:\n      matrix:\n        strategy:\n          version: [10, 12, 14]\n          os: [ubuntu-latest, windows-latest]</code></pre>",
                 "isCodeBlock": true,
-                "hasInlineCode": true
-            }
-        ],
-        "correctAnswers": [
-            "a"
-        ],
-        "explanation": "https://docs.github.com/en/actions/using-jobs/using-a-matrix-for-your-jobs#using-a-matrix-strategy",
-        "multipleSelect": false
-    },
-    {
-        "id": 16,
-        "text": "How do you access matrix variables in a matrix strategy job?",
-        "options": [
-            {
-                "id": "a",
-                "text": "Using the <code class=\"inline-code\">vars</code> context",
-                "isCodeBlock": false,
-                "hasInlineCode": true
-            },
-            {
-                "id": "b",
-                "text": "Using the <code class=\"inline-code\">matrix</code> context",
-                "isCodeBlock": false,
-                "hasInlineCode": true
-            },
-            {
-                "id": "c",
-                "text": "Using the <code class=\"inline-code\">job</code> context",
-                "isCodeBlock": false,
-                "hasInlineCode": true
-            },
-            {
-                "id": "d",
-                "text": "Using the <code class=\"inline-code\">jobs</code> context",
-                "isCodeBlock": false,
                 "hasInlineCode": true
             }
         ],
@@ -528,36 +493,71 @@
         "multipleSelect": false
     },
     {
-        "id": 17,
-        "text": "When using the <code class=\"inline-code\">pull_request</code> and <code class=\"inline-code\">pull_request_target</code> events, how do you configure the workflow to run only when targeting the <code class=\"inline-code\">prod</code> branch?",
+        "id": 16,
+        "text": "How do you access matrix variables in a matrix strategy job?",
         "options": [
             {
                 "id": "a",
-                "text": "Using <code class=\"inline-code\">branches</code> filter",
+                "text": "Using the <code class=\"inline-code\">job</code> context",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
             {
                 "id": "b",
-                "text": "Using <code class=\"inline-code\">branch</code> filter",
+                "text": "Using the <code class=\"inline-code\">jobs</code> context",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
             {
                 "id": "c",
-                "text": "You create the workflow only on <code class=\"inline-code\">prod</code> branch",
+                "text": "Using the <code class=\"inline-code\">matrix</code> context",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
             {
                 "id": "d",
-                "text": "Using glob patterns",
+                "text": "Using the <code class=\"inline-code\">vars</code> context",
                 "isCodeBlock": false,
-                "hasInlineCode": false
+                "hasInlineCode": true
             }
         ],
         "correctAnswers": [
-            "a"
+            "c"
+        ],
+        "explanation": "https://docs.github.com/en/actions/using-jobs/using-a-matrix-for-your-jobs#using-a-matrix-strategy",
+        "multipleSelect": false
+    },
+    {
+        "id": 17,
+        "text": "When using the <code class=\"inline-code\">pull_request</code> and <code class=\"inline-code\">pull_request_target</code> events, how do you configure the workflow to run only when targeting the <code class=\"inline-code\">prod</code> branch?",
+        "options": [
+            {
+                "id": "a",
+                "text": "You create the workflow only on <code class=\"inline-code\">prod</code> branch",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "b",
+                "text": "Using glob patterns",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Using <code class=\"inline-code\">branch</code> filter",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "Using <code class=\"inline-code\">branches</code> filter",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            }
+        ],
+        "correctAnswers": [
+            "d"
         ],
         "explanation": "https://docs.github.com/en/actions/using-workflows/triggering-a-workflow#using-filters-to-target-specific-branches-for-pull-request-events",
         "multipleSelect": false
@@ -568,13 +568,13 @@
         "options": [
             {
                 "id": "a",
-                "text": "the target branch name starts with <code class=\"inline-code\">release</code> but does not end with <code class=\"inline-code\">-alpha</code>",
+                "text": "the target branch name starts with <code class=\"inline-code\">release</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
             {
                 "id": "b",
-                "text": "the target branch name starts with <code class=\"inline-code\">release</code>",
+                "text": "the source branch name starts with <code class=\"inline-code\">release</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
@@ -586,13 +586,13 @@
             },
             {
                 "id": "d",
-                "text": "the source branch name starts with <code class=\"inline-code\">release</code>",
+                "text": "the target branch name starts with <code class=\"inline-code\">release</code> but does not end with <code class=\"inline-code\">-alpha</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             }
         ],
         "correctAnswers": [
-            "a"
+            "d"
         ],
         "explanation": "https://docs.github.com/en/actions/using-workflows/triggering-a-workflow#example-including-and-excluding-branches",
         "multipleSelect": false
@@ -603,31 +603,31 @@
         "options": [
             {
                 "id": "a",
-                "text": "glob",
+                "text": "action",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "b",
-                "text": "regex",
-                "isCodeBlock": false,
-                "hasInlineCode": false
-            },
-            {
-                "id": "c",
                 "text": "scheme",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
+                "id": "c",
+                "text": "glob",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
                 "id": "d",
-                "text": "action",
+                "text": "regex",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
         ],
         "correctAnswers": [
-            "a"
+            "c"
         ],
         "explanation": "https://docs.github.com/en/actions/using-workflows/triggering-a-workflow#using-filters-to-target-specific-branches-or-tags-for-push-events",
         "multipleSelect": false
@@ -638,7 +638,7 @@
         "options": [
             {
                 "id": "a",
-                "text": "workflow_dispatch",
+                "text": "workflow_trigger",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
@@ -650,7 +650,7 @@
             },
             {
                 "id": "c",
-                "text": "workflow_trigger",
+                "text": "workflow_dispatch",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
@@ -662,7 +662,7 @@
             }
         ],
         "correctAnswers": [
-            "a"
+            "c"
         ],
         "explanation": "https://docs.github.com/en/actions/using-workflows/manually-running-a-workflow",
         "multipleSelect": false
@@ -673,37 +673,37 @@
         "options": [
             {
                 "id": "a",
-                "text": "choice",
-                "isCodeBlock": false,
-                "hasInlineCode": false
-            },
-            {
-                "id": "b",
                 "text": "boolean",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
-                "id": "c",
-                "text": "string",
-                "isCodeBlock": false,
-                "hasInlineCode": false
-            },
-            {
-                "id": "d",
+                "id": "b",
                 "text": "number",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
-                "id": "e",
+                "id": "c",
                 "text": "environment",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
-                "id": "f",
+                "id": "d",
                 "text": "dropdown",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "e",
+                "text": "choice",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "f",
+                "text": "string",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
@@ -712,8 +712,8 @@
             "a",
             "b",
             "c",
-            "d",
-            "e"
+            "e",
+            "f"
         ],
         "explanation": "https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions#onworkflow_dispatchinputsinput_idtype",
         "multipleSelect": true
@@ -747,15 +747,15 @@
         "options": [
             {
                 "id": "a",
-                "text": "Use the <code class=\"inline-code\">Disable workflow</code> option in GitHub Actions",
-                "isCodeBlock": false,
-                "hasInlineCode": true
-            },
-            {
-                "id": "b",
                 "text": "Remove secrets that are required for this workflow",
                 "isCodeBlock": false,
                 "hasInlineCode": false
+            },
+            {
+                "id": "b",
+                "text": "Use the <code class=\"inline-code\">Disable workflow</code> option in GitHub Actions",
+                "isCodeBlock": false,
+                "hasInlineCode": true
             },
             {
                 "id": "c",
@@ -771,7 +771,7 @@
             }
         ],
         "correctAnswers": [
-            "a"
+            "b"
         ],
         "explanation": "https://docs.github.com/en/actions/using-workflows/disabling-and-enabling-a-workflow",
         "multipleSelect": false
@@ -782,25 +782,25 @@
         "options": [
             {
                 "id": "a",
-                "text": "Limiting workflow runs to specific activity types using the <code class=\"inline-code\">types</code> filter",
-                "isCodeBlock": false,
-                "hasInlineCode": true
-            },
-            {
-                "id": "b",
                 "text": "Checking if the activity comes from an user or a bot",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
-                "id": "c",
+                "id": "b",
                 "text": "Reacting to new activity on a repository (e.g new contributor)",
                 "isCodeBlock": false,
                 "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Limiting workflow runs to specific activity types using the <code class=\"inline-code\">types</code> filter",
+                "isCodeBlock": false,
+                "hasInlineCode": true
             }
         ],
         "correctAnswers": [
-            "a"
+            "c"
         ],
         "explanation": "https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#about-events-that-trigger-workflows",
         "multipleSelect": false
@@ -811,31 +811,31 @@
         "options": [
             {
                 "id": "a",
-                "text": "workflow_call",
-                "isCodeBlock": false,
-                "hasInlineCode": false
-            },
-            {
-                "id": "b",
-                "text": "workflow_trigger",
-                "isCodeBlock": false,
-                "hasInlineCode": false
-            },
-            {
-                "id": "c",
                 "text": "workflow_dispatch",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
-                "id": "d",
+                "id": "b",
+                "text": "workflow_call",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
                 "text": "workflow_run",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "workflow_trigger",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
         ],
         "correctAnswers": [
-            "a"
+            "b"
         ],
         "explanation": "https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows\n\nThere is no such event trigger. This is used for manual triggers",
         "multipleSelect": false
@@ -846,33 +846,33 @@
         "options": [
             {
                 "id": "a",
-                "text": "You define an output on workflow level in the <code class=\"inline-code\">build</code> workflow",
+                "text": "All outputs are automatically passed to the caller workflows",
                 "isCodeBlock": false,
-                "hasInlineCode": true
+                "hasInlineCode": false
             },
             {
                 "id": "b",
-                "text": "You define an output on job level in the <code class=\"inline-code\">build</code> workflow",
-                "isCodeBlock": false,
-                "hasInlineCode": true
-            },
-            {
-                "id": "c",
                 "text": "In the <code class=\"inline-code\">build</code> workflow you write the output into <code class=\"inline-code\">$GITHUB_OUTPUT</code> in one of the steps",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
             {
-                "id": "d",
-                "text": "All outputs are automatically passed to the caller workflows",
+                "id": "c",
+                "text": "You define an output on workflow level in the <code class=\"inline-code\">build</code> workflow",
                 "isCodeBlock": false,
-                "hasInlineCode": false
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "You define an output on job level in the <code class=\"inline-code\">build</code> workflow",
+                "isCodeBlock": false,
+                "hasInlineCode": true
             }
         ],
         "correctAnswers": [
-            "a",
             "b",
-            "c"
+            "c",
+            "d"
         ],
         "explanation": "https://docs.github.com/en/actions/using-workflows/reusing-workflows#using-outputs-from-a-reusable-workflow",
         "multipleSelect": true
@@ -883,38 +883,38 @@
         "options": [
             {
                 "id": "a",
-                "text": "Using defaults.run on workflow level to set default shell (e.g bash) for an entire workflow",
+                "text": "Using defaults.env on job level to set default environment variables for all steps in a single job",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "b",
-                "text": "Using defaults.run on job level to set default working-directory for all steps in a single job",
+                "text": "Using defaults.run on workflow level to set default shell (e.g bash) for an entire workflow",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "c",
-                "text": "Using defaults.run on step level to set default shell (e.g bash) for that single step",
-                "isCodeBlock": false,
-                "hasInlineCode": false
-            },
-            {
-                "id": "d",
                 "text": "Using defaults.env on workflow level to set default environment variables for an entire workflow",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
+                "id": "d",
+                "text": "Using defaults.run on job level to set default working-directory for all steps in a single job",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
                 "id": "e",
-                "text": "Using defaults.env on job level to set default environment variables for all steps in a single job",
+                "text": "Using defaults.run on step level to set default shell (e.g bash) for that single step",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
         ],
         "correctAnswers": [
-            "a",
-            "b"
+            "b",
+            "d"
         ],
         "explanation": "https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#defaults\n\ndefaults.run can only be set on workflow or job level. There is no such thing as defaults.env. There is no such thing as defaults.env",
         "multipleSelect": true
@@ -925,7 +925,7 @@
         "options": [
             {
                 "id": "a",
-                "text": "<pre><code class='language-yaml'>concurrency: ${{ github.workflow }}</code></pre>",
+                "text": "<pre><code class='language-yaml'>order: ${{ github.workflow }}</code></pre>",
                 "isCodeBlock": true,
                 "hasInlineCode": true
             },
@@ -937,19 +937,19 @@
             },
             {
                 "id": "c",
-                "text": "<pre><code class='language-yaml'>order: ${{ github.workflow }}</code></pre>",
+                "text": "<pre><code class='language-yaml'>parallel: ${{ github.workflow }}</code></pre>",
                 "isCodeBlock": true,
                 "hasInlineCode": true
             },
             {
                 "id": "d",
-                "text": "<pre><code class='language-yaml'>parallel: ${{ github.workflow }}</code></pre>",
+                "text": "<pre><code class='language-yaml'>concurrency: ${{ github.workflow }}</code></pre>",
                 "isCodeBlock": true,
                 "hasInlineCode": true
             }
         ],
         "correctAnswers": [
-            "a"
+            "d"
         ],
         "explanation": "https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#concurrency",
         "multipleSelect": false
@@ -960,19 +960,19 @@
         "options": [
             {
                 "id": "a",
-                "text": "<pre><code class='language-yaml'>concurrency:\n    group: ${{ github.workflow }}-${{ github.ref }}\n    cancel-in-progress: true</code></pre>",
-                "isCodeBlock": true,
-                "hasInlineCode": true
-            },
-            {
-                "id": "b",
                 "text": "<pre><code class='language-yaml'>concurrency:\n    group: ${{ github.ref }}</code></pre>",
                 "isCodeBlock": true,
                 "hasInlineCode": true
             },
             {
-                "id": "c",
+                "id": "b",
                 "text": "<pre><code class='language-yaml'>on:\n    pull_request:\n      branches:\n        - master\n      types: [latest]</code></pre>",
+                "isCodeBlock": true,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "<pre><code class='language-yaml'>concurrency:\n    group: ${{ github.workflow }}-${{ github.ref }}\n    cancel-in-progress: true</code></pre>",
                 "isCodeBlock": true,
                 "hasInlineCode": true
             },
@@ -984,7 +984,7 @@
             }
         ],
         "correctAnswers": [
-            "a"
+            "c"
         ],
         "explanation": "https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#example-using-concurrency-to-cancel-any-in-progress-job-or-run\n\nThis would queue runs on that github ref. It will not stop previous runs. There is no such activity type as `latest` for pull_request event",
         "multipleSelect": false
@@ -995,31 +995,31 @@
         "options": [
             {
                 "id": "a",
-                "text": "job3 will run after job1 and job2 have completed, regardless of whether they were successful",
+                "text": "job3 will run after both job1 and job2 have failed",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "b",
-                "text": "You cannot use <code class=\"inline-code\">if: ${{ always() }}</code> and <code class=\"inline-code\">needs</code> together. The workflow will fail on startup.",
-                "isCodeBlock": false,
-                "hasInlineCode": true
-            },
-            {
-                "id": "c",
                 "text": "job3 will run after job1 and job2 have been successfully completed",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
-                "id": "d",
-                "text": "job3 will run after both job1 and job2 have failed",
+                "id": "c",
+                "text": "job3 will run after job1 and job2 have completed, regardless of whether they were successful",
                 "isCodeBlock": false,
                 "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "You cannot use <code class=\"inline-code\">if: ${{ always() }}</code> and <code class=\"inline-code\">needs</code> together. The workflow will fail on startup.",
+                "isCodeBlock": false,
+                "hasInlineCode": true
             }
         ],
         "correctAnswers": [
-            "a"
+            "c"
         ],
         "explanation": "https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#example-not-requiring-successful-dependent-jobs",
         "multipleSelect": false
@@ -1036,13 +1036,13 @@
             },
             {
                 "id": "b",
-                "text": "<code class=\"inline-code\">if: ${{ github.repository == 'my-org/my-repo' }}</code>",
+                "text": "<code class=\"inline-code\">if: ${{ github.organization == 'my-org' && github.repository == 'my-repo' }}</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
             {
                 "id": "c",
-                "text": "<code class=\"inline-code\">if: ${{ github.organization == 'my-org' && github.repository == 'my-repo' }}</code>",
+                "text": "<code class=\"inline-code\">if: ${{ github.repository == 'my-org/my-repo' }}</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
@@ -1055,7 +1055,7 @@
         ],
         "correctAnswers": [
             "a",
-            "b"
+            "c"
         ],
         "explanation": "https://docs.github.com/en/actions/learn-github-actions/contexts#github-context",
         "multipleSelect": true
@@ -1072,27 +1072,27 @@
             },
             {
                 "id": "b",
-                "text": "Ubuntu Linux",
+                "text": "Android",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "c",
-                "text": "macOS",
+                "text": "Ubuntu Linux",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "d",
-                "text": "Android",
+                "text": "macOS",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
         ],
         "correctAnswers": [
             "a",
-            "b",
-            "c"
+            "c",
+            "d"
         ],
         "explanation": "https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#choosing-github-hosted-runners",
         "multipleSelect": true
@@ -1225,7 +1225,7 @@
         "options": [
             {
                 "id": "a",
-                "text": "`echo \"PET=DOG\"",
+                "text": "<code class=\"inline-code\">gh set-output \"DOG=PET\"</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
@@ -1237,19 +1237,19 @@
             },
             {
                 "id": "c",
-                "text": "<code class=\"inline-code\">gh set-output \"DOG=PET\"</code>",
+                "text": "<code class=\"inline-code\">gh set-output \"PET=DOG\"</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
             {
                 "id": "d",
-                "text": "<code class=\"inline-code\">gh set-output \"PET=DOG\"</code>",
+                "text": "`echo \"PET=DOG\"",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             }
         ],
         "correctAnswers": [
-            "a"
+            "d"
         ],
         "explanation": "https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#setting-an-output-parameter",
         "multipleSelect": false
@@ -1260,13 +1260,13 @@
         "options": [
             {
                 "id": "a",
-                "text": "<code class=\"inline-code\">run: echo \"$action_state\"</code>",
+                "text": "<code class=\"inline-code\">run: echo \"${{ action_state }}\"</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
             {
                 "id": "b",
-                "text": "<code class=\"inline-code\">run: echo \"${{ steps.step_one.outputs.action_state }}\"</code>",
+                "text": "<code class=\"inline-code\">run: echo \"$action_state\"</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
@@ -1278,13 +1278,13 @@
             },
             {
                 "id": "d",
-                "text": "<code class=\"inline-code\">run: echo \"${{ action_state }}\"</code>",
+                "text": "<code class=\"inline-code\">run: echo \"${{ steps.step_one.outputs.action_state }}\"</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             }
         ],
         "correctAnswers": [
-            "a"
+            "b"
         ],
         "explanation": "https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#example-of-writing-an-environment-variable-to-github_env\n\nThat would be the case if `action_state` was written to `$GITHUB_OUTPUT`",
         "multipleSelect": false
@@ -1318,19 +1318,19 @@
         "options": [
             {
                 "id": "a",
-                "text": "All secrets available to <code class=\"inline-code\">workflow A</code> will be also available to <code class=\"inline-code\">workflow B</code>, but not to <code class=\"inline-code\">workflow C</code>",
+                "text": "All secrets available to <code class=\"inline-code\">workflow A</code> will be also available to <code class=\"inline-code\">workflow B</code> and <code class=\"inline-code\">workflow C</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
             {
                 "id": "b",
-                "text": "All secrets from <code class=\"inline-code\">octo-org</code> organization and <code class=\"inline-code\">octo-org/example-repo</code> repository will be available to <code class=\"inline-code\">workflow B</code>, but not to <code class=\"inline-code\">workflow C</code>",
+                "text": "All secrets available to <code class=\"inline-code\">workflow A</code> will be also available to <code class=\"inline-code\">workflow B</code>, but not to <code class=\"inline-code\">workflow C</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
             {
                 "id": "c",
-                "text": "All secrets available to <code class=\"inline-code\">workflow A</code> will be also available to <code class=\"inline-code\">workflow B</code> and <code class=\"inline-code\">workflow C</code>",
+                "text": "All secrets from <code class=\"inline-code\">octo-org</code> organization and <code class=\"inline-code\">octo-org/example-repo</code> repository will be available to <code class=\"inline-code\">workflow B</code>, but not to <code class=\"inline-code\">workflow C</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
@@ -1342,7 +1342,7 @@
             }
         ],
         "correctAnswers": [
-            "a"
+            "b"
         ],
         "explanation": "https://docs.github.com/en/actions/using-workflows/reusing-workflows#passing-secrets-to-nested-workflows\n\nNot all secrets from `octo-org` organization have to be made available to `octo-org/example-repo`.. `Workflow B` would need to add `secrets: inherit` when calling `workflow C`",
         "multipleSelect": false
@@ -1353,7 +1353,7 @@
         "options": [
             {
                 "id": "a",
-                "text": "When you want to reuse files that don't change often between jobs or workflow runs, such as build dependencies from a package management system.",
+                "text": "When you want to save binaries produced by a build job to use in a subsequent deploy job to deploy a new version of an application",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
@@ -1365,19 +1365,19 @@
             },
             {
                 "id": "c",
-                "text": "When you want to save files produced by a job to view after a workflow run has ended, such as built binaries or build logs.",
+                "text": "When you want to reuse files that don't change often between jobs or workflow runs, such as build dependencies from a package management system.",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "d",
-                "text": "When you want to save binaries produced by a build job to use in a subsequent deploy job to deploy a new version of an application",
+                "text": "When you want to save files produced by a job to view after a workflow run has ended, such as built binaries or build logs.",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
         ],
         "correctAnswers": [
-            "a"
+            "c"
         ],
         "explanation": "https://docs.github.com/en/actions/using-workflows/caching-dependencies-to-speed-up-workflows#comparing-artifacts-and-dependency-caching\n\nArtifacts should be used for that https://docs.github.com/en/actions/using-workflows/storing-workflow-data-as-artifacts. Artifacts should be used for that https://docs.github.com/en/actions/using-workflows/storing-workflow-data-as-artifacts",
         "multipleSelect": false
@@ -1388,13 +1388,13 @@
         "options": [
             {
                 "id": "a",
-                "text": "Use artifacts to save files produced by a job to view after a workflow run has ended, such as test results or build logs.",
+                "text": "Use artifacts to create new versions of your application together with release notes, mentions and/or contributors",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "b",
-                "text": "Use artifacts to save binaries produced by a build job to use in a subsequent deploy job to deploy a new version of an application",
+                "text": "Use artifacts to save files produced by a job to view after a workflow run has ended, such as test results or build logs.",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
@@ -1406,14 +1406,14 @@
             },
             {
                 "id": "d",
-                "text": "Use artifacts to create new versions of your application together with release notes, mentions and/or contributors",
+                "text": "Use artifacts to save binaries produced by a build job to use in a subsequent deploy job to deploy a new version of an application",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
         ],
         "correctAnswers": [
-            "a",
-            "b"
+            "b",
+            "d"
         ],
         "explanation": "https://docs.github.com/en/actions/using-workflows/storing-workflow-data-as-artifacts#about-workflow-artifacts\n\nCaching should be used for that https://docs.github.com/en/actions/using-workflows/caching-dependencies-to-speed-up-workflows#comparing-artifacts-and-dependency-caching. That's a use case for releases, not artifacts",
         "multipleSelect": true
@@ -1424,7 +1424,7 @@
         "options": [
             {
                 "id": "a",
-                "text": "Yes, all branches can restore caches created on the default branch",
+                "text": "No, caches can only be restored from the same branch",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
@@ -1436,7 +1436,7 @@
             },
             {
                 "id": "c",
-                "text": "No, caches can only be restored from the same branch",
+                "text": "Yes, all branches can restore caches created on the default branch",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
@@ -1448,7 +1448,7 @@
             }
         ],
         "correctAnswers": [
-            "a"
+            "c"
         ],
         "explanation": "https://docs.github.com/en/actions/using-workflows/caching-dependencies-to-speed-up-workflows#restrictions-for-accessing-a-cache",
         "multipleSelect": false
@@ -1459,31 +1459,31 @@
         "options": [
             {
                 "id": "a",
-                "text": "You cannot access <code class=\"inline-code\">artifacts</code> that were created in a different workflow run",
-                "isCodeBlock": false,
-                "hasInlineCode": true
-            },
-            {
-                "id": "b",
                 "text": "Use the <code class=\"inline-code\">actions/download-artifact</code> action.",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
             {
+                "id": "b",
+                "text": "You cannot access <code class=\"inline-code\">artifacts</code> that were created in a different workflow run",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
                 "id": "c",
-                "text": "Use the <code class=\"inline-code\">actions/upload-artifact</code> action.",
+                "text": "Use the <code class=\"inline-code\">actions/download-artifact</code> action and make sure the artifact is not expired",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
             {
                 "id": "d",
-                "text": "Use the <code class=\"inline-code\">actions/download-artifact</code> action and make sure the artifact is not expired",
+                "text": "Use the <code class=\"inline-code\">actions/upload-artifact</code> action.",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             }
         ],
         "correctAnswers": [
-            "a"
+            "b"
         ],
         "explanation": "https://docs.github.com/en/actions/using-workflows/storing-workflow-data-as-artifacts#about-workflow-artifacts",
         "multipleSelect": false
@@ -1494,13 +1494,13 @@
         "options": [
             {
                 "id": "a",
-                "text": "Artifacts",
+                "text": "Caches",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "b",
-                "text": "Caches",
+                "text": "Releases",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
@@ -1512,13 +1512,13 @@
             },
             {
                 "id": "d",
-                "text": "Releases",
+                "text": "Artifacts",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
         ],
         "correctAnswers": [
-            "a"
+            "d"
         ],
         "explanation": "https://docs.github.com/en/actions/using-workflows/storing-workflow-data-as-artifacts#comparing-artifacts-and-dependency-caching",
         "multipleSelect": false
@@ -1558,13 +1558,13 @@
             },
             {
                 "id": "b",
-                "text": "upload the binaries as artifacts in <code class=\"inline-code\">deploy</code> and download them in <code class=\"inline-code\">build</code>",
+                "text": "cache the binaries in <code class=\"inline-code\">build</code> and read the files from cache in <code class=\"inline-code\">deploy</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
             {
                 "id": "c",
-                "text": "cache the binaries in <code class=\"inline-code\">build</code> and read the files from cache in <code class=\"inline-code\">deploy</code>",
+                "text": "upload the binaries as artifacts in <code class=\"inline-code\">deploy</code> and download them in <code class=\"inline-code\">build</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
@@ -1587,31 +1587,31 @@
         "options": [
             {
                 "id": "a",
-                "text": "create this dependency using the <code class=\"inline-code\">needs</code> keyword in <code class=\"inline-code\">job2</code>",
-                "isCodeBlock": false,
-                "hasInlineCode": true
-            },
-            {
-                "id": "b",
-                "text": "this dependency is created implicitly when using <code class=\"inline-code\">actions/download-artifact</code> to download artifact from <code class=\"inline-code\">job1</code>",
-                "isCodeBlock": false,
-                "hasInlineCode": true
-            },
-            {
-                "id": "c",
                 "text": "create this dependency by defining <code class=\"inline-code\">job2</code> after <code class=\"inline-code\">job1</code> in the workflow's <code class=\"inline-code\">.yaml</code> definition",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
             {
-                "id": "d",
+                "id": "b",
                 "text": "create this dependency using the <code class=\"inline-code\">concurrency</code> keyword in <code class=\"inline-code\">job2</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "create this dependency using the <code class=\"inline-code\">needs</code> keyword in <code class=\"inline-code\">job2</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "this dependency is created implicitly when using <code class=\"inline-code\">actions/download-artifact</code> to download artifact from <code class=\"inline-code\">job1</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             }
         ],
         "correctAnswers": [
-            "a"
+            "c"
         ],
         "explanation": "https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idneeds",
         "multipleSelect": false
@@ -1622,45 +1622,45 @@
         "options": [
             {
                 "id": "a",
-                "text": "They allow users to leverage ready-to-use (or requiring minimal changes) workflow templates",
-                "isCodeBlock": false,
-                "hasInlineCode": false
-            },
-            {
-                "id": "b",
-                "text": "GitHub provides and maintains starter workflows for different categories, languages and tooling",
-                "isCodeBlock": false,
-                "hasInlineCode": false
-            },
-            {
-                "id": "c",
-                "text": "Your organization can create custom starter workflows for users in your organization",
-                "isCodeBlock": false,
-                "hasInlineCode": false
-            },
-            {
-                "id": "d",
-                "text": "Starter workflows cannot call reusable workflows",
-                "isCodeBlock": false,
-                "hasInlineCode": false
-            },
-            {
-                "id": "e",
                 "text": "Starter workflows are a paid GitHub feature",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
-                "id": "f",
+                "id": "b",
+                "text": "They allow users to leverage ready-to-use (or requiring minimal changes) workflow templates",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "GitHub provides and maintains starter workflows for different categories, languages and tooling",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
                 "text": "Starter workflows are provided ready-to-use and cannot be modified or enhanced",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "e",
+                "text": "Starter workflows cannot call reusable workflows",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "f",
+                "text": "Your organization can create custom starter workflows for users in your organization",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
         ],
         "correctAnswers": [
-            "a",
             "b",
-            "c"
+            "c",
+            "f"
         ],
         "explanation": "https://docs.github.com/en/actions/using-workflows/creating-starter-workflows-for-your-organization",
         "multipleSelect": true
@@ -1671,45 +1671,45 @@
         "options": [
             {
                 "id": "a",
-                "text": "The entire organization, or selected repositories in an organization",
-                "isCodeBlock": false,
-                "hasInlineCode": false
-            },
-            {
-                "id": "b",
-                "text": "A single repository",
-                "isCodeBlock": false,
-                "hasInlineCode": false
-            },
-            {
-                "id": "c",
-                "text": "An environment in a repository",
-                "isCodeBlock": false,
-                "hasInlineCode": false
-            },
-            {
-                "id": "d",
                 "text": "An environment shared across multiple repositories",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
-                "id": "e",
+                "id": "b",
                 "text": "Multiple repositories that do not share an organization/enterprise",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
-                "id": "f",
+                "id": "c",
                 "text": "A specific workflow in a repository",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "The entire organization, or selected repositories in an organization",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "e",
+                "text": "An environment in a repository",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "f",
+                "text": "A single repository",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
         ],
         "correctAnswers": [
-            "a",
-            "b",
-            "c"
+            "d",
+            "e",
+            "f"
         ],
         "explanation": "https://docs.github.com/en/actions/using-workflows/sharing-workflows-secrets-and-runners-with-your-organization#sharing-secrets-and-variables-within-an-organization\n\nEnvironments cannot be shared across repositories. Environment variables can be scoped to a workflow, configuration variables cannot. Environment variables can be scoped to a workflow, configuration variables cannot",
         "multipleSelect": true
@@ -1720,31 +1720,31 @@
         "options": [
             {
                 "id": "a",
-                "text": "<code class=\"inline-code\">Docker container actions</code>, <code class=\"inline-code\">JavaScript Actions</code>, <code class=\"inline-code\">Composite Actions</code>",
-                "isCodeBlock": false,
-                "hasInlineCode": true
-            },
-            {
-                "id": "b",
-                "text": "<code class=\"inline-code\">Python Actions</code>, <code class=\"inline-code\">JavaScript Actions</code>, <code class=\"inline-code\">Custom Actions</code>",
-                "isCodeBlock": false,
-                "hasInlineCode": true
-            },
-            {
-                "id": "c",
                 "text": "<code class=\"inline-code\">Docker container Actions</code>, <code class=\"inline-code\">JavaScript Actions</code>, <code class=\"inline-code\">Custom Actions</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
             {
-                "id": "d",
+                "id": "b",
+                "text": "<code class=\"inline-code\">Docker container actions</code>, <code class=\"inline-code\">JavaScript Actions</code>, <code class=\"inline-code\">Composite Actions</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
                 "text": "<code class=\"inline-code\">Docker container actions</code>, <code class=\"inline-code\">Java Actions</code>, <code class=\"inline-code\">Composite Actions</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "<code class=\"inline-code\">Python Actions</code>, <code class=\"inline-code\">JavaScript Actions</code>, <code class=\"inline-code\">Custom Actions</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             }
         ],
         "correctAnswers": [
-            "a"
+            "b"
         ],
         "explanation": "https://docs.github.com/en/actions/creating-actions/about-custom-actions#types-of-actions",
         "multipleSelect": false
@@ -1755,19 +1755,19 @@
         "options": [
             {
                 "id": "a",
-                "text": "True",
+                "text": "False",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "b",
-                "text": "False",
+                "text": "True",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
         ],
         "correctAnswers": [
-            "a"
+            "b"
         ],
         "explanation": "Docker container actions are slower than JavaScript actions. Because of the latency to build and retrieve the container, Docker container actions are slower than JavaScript actions.",
         "multipleSelect": false
@@ -1801,31 +1801,31 @@
         "options": [
             {
                 "id": "a",
-                "text": "In the <code class=\"inline-code\">action.yml</code> or <code class=\"inline-code\">action.yaml</code> file in the action repository",
-                "isCodeBlock": false,
-                "hasInlineCode": true
-            },
-            {
-                "id": "b",
-                "text": "In the repository <code class=\"inline-code\">README</code> file",
-                "isCodeBlock": false,
-                "hasInlineCode": true
-            },
-            {
-                "id": "c",
                 "text": "It's edited in GitHub Marketplace UI when published for sharing",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
-                "id": "d",
+                "id": "b",
                 "text": "In the <code class=\"inline-code\">action.yml</code> or <code class=\"inline-code\">action.yaml</code> file in the action repository, but it is not required if the action is not meant to be shared and used by the public",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "In the repository <code class=\"inline-code\">README</code> file",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "In the <code class=\"inline-code\">action.yml</code> or <code class=\"inline-code\">action.yaml</code> file in the action repository",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             }
         ],
         "correctAnswers": [
-            "a"
+            "d"
         ],
         "explanation": "https://docs.github.com/en/actions/creating-actions/metadata-syntax-for-github-actions\n\nWhile it's good practice to do that, it's not a requirement for the action to work. All actions require the metadata file.",
         "multipleSelect": false
@@ -1836,13 +1836,13 @@
         "options": [
             {
                 "id": "a",
-                "text": "It will run with code from <code class=\"inline-code\">commit A</code>",
+                "text": "It will run with code from <code class=\"inline-code\">commit B</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
             {
                 "id": "b",
-                "text": "It will run with code from <code class=\"inline-code\">commit B</code>",
+                "text": "It will trigger two workflows, one with code from <code class=\"inline-code\">commit A</code> and one with code from <code class=\"inline-code\">commit B</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
@@ -1854,13 +1854,13 @@
             },
             {
                 "id": "d",
-                "text": "It will trigger two workflows, one with code from <code class=\"inline-code\">commit A</code> and one with code from <code class=\"inline-code\">commit B</code>",
+                "text": "It will run with code from <code class=\"inline-code\">commit A</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             }
         ],
         "correctAnswers": [
-            "a"
+            "d"
         ],
         "explanation": "https://docs.github.com/en/actions/managing-workflow-runs/re-running-workflows-and-jobs#about-re-running-workflows-and-jobs\n\nRe-running a workflow uses the same commit SHA and Git ref of the original event that triggered the workflow run.",
         "multipleSelect": false
@@ -1877,21 +1877,21 @@
             },
             {
                 "id": "b",
-                "text": "Setting the required reviewers in the <code class=\"inline-code\">production</code> workflow",
-                "isCodeBlock": false,
-                "hasInlineCode": true
-            },
-            {
-                "id": "c",
                 "text": "Using branch protection rules",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
-                "id": "d",
+                "id": "c",
                 "text": "Manual approvals are not supported by GitHub Actions",
                 "isCodeBlock": false,
                 "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Setting the required reviewers in the <code class=\"inline-code\">production</code> workflow",
+                "isCodeBlock": false,
+                "hasInlineCode": true
             }
         ],
         "correctAnswers": [
@@ -1941,21 +1941,21 @@
         "options": [
             {
                 "id": "a",
-                "text": "Using OIDC",
-                "isCodeBlock": false,
-                "hasInlineCode": false
-            },
-            {
-                "id": "b",
                 "text": "Using Vault",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
-                "id": "c",
+                "id": "b",
                 "text": "Storing access keys in <code class=\"inline-code\">secrets</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "Using OIDC",
+                "isCodeBlock": false,
+                "hasInlineCode": false
             },
             {
                 "id": "d",
@@ -1965,7 +1965,7 @@
             }
         ],
         "correctAnswers": [
-            "a"
+            "c"
         ],
         "explanation": "https://docs.github.com/en/actions/deployment/security-hardening-your-deployments/about-security-hardening-with-openid-connect\n\nUsing long lasting access keys is not recommended in case of any security leaks or attacks such as [script injection](https://docs.github.com/en/actions/security-guides/security-hardening-for-github-actions#understanding-the-risk-of-script-injections). No sensitive values should be stored in `variables`",
         "multipleSelect": false
@@ -1976,31 +1976,31 @@
         "options": [
             {
                 "id": "a",
-                "text": "Setup required approvals for fork runs in the repository",
-                "isCodeBlock": false,
-                "hasInlineCode": false
-            },
-            {
-                "id": "b",
-                "text": "Setup deployment protection rules for the repository",
-                "isCodeBlock": false,
-                "hasInlineCode": false
-            },
-            {
-                "id": "c",
                 "text": "Setup branch protection rules for the repository",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
-                "id": "d",
+                "id": "b",
                 "text": "The workflow will not trigger for forks if using <code class=\"inline-code\">pull_request</code> event. If you want to do that you should use <code class=\"inline-code\">fork_pull_request</code> event trigger with <code class=\"inline-code\">require-approval</code> flag.",
                 "isCodeBlock": false,
                 "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "Setup deployment protection rules for the repository",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "Setup required approvals for fork runs in the repository",
+                "isCodeBlock": false,
+                "hasInlineCode": false
             }
         ],
         "correctAnswers": [
-            "a"
+            "d"
         ],
         "explanation": "https://docs.github.com/en/actions/managing-workflow-runs/approving-workflow-runs-from-public-forks#about-workflow-runs-from-public-forks\n\nDeployment protection rules are used for protecting environments",
         "multipleSelect": false
@@ -2017,7 +2017,7 @@
             },
             {
                 "id": "b",
-                "text": "<code class=\"inline-code\">GITHUB_REPOSITORY</code>",
+                "text": "<code class=\"inline-code\">GITHUB_ACTOR</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
@@ -2029,13 +2029,13 @@
             },
             {
                 "id": "d",
-                "text": "<code class=\"inline-code\">GITHUB_ACTOR</code>",
+                "text": "<code class=\"inline-code\">GITHUB_REPOSITORY</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             }
         ],
         "correctAnswers": [
-            "d"
+            "b"
         ],
         "explanation": "https://docs.github.com/en/actions/reference/environment-variables#default-environment-variables",
         "multipleSelect": false
@@ -2046,45 +2046,45 @@
         "options": [
             {
                 "id": "a",
-                "text": "<code class=\"inline-code\">GITHUB_REPOSITORY</code>",
-                "isCodeBlock": false,
-                "hasInlineCode": true
-            },
-            {
-                "id": "b",
-                "text": "<code class=\"inline-code\">GITHUB_WORKFLOW</code>",
-                "isCodeBlock": false,
-                "hasInlineCode": true
-            },
-            {
-                "id": "c",
-                "text": "<code class=\"inline-code\">GITHUB_ACTOR</code>",
-                "isCodeBlock": false,
-                "hasInlineCode": true
-            },
-            {
-                "id": "d",
                 "text": "<code class=\"inline-code\">GITHUB_USER</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
             {
+                "id": "b",
+                "text": "<code class=\"inline-code\">GITHUB_ACTOR</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "<code class=\"inline-code\">GITHUB_TOKEN</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "<code class=\"inline-code\">GITHUB_WORKFLOW</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
                 "id": "e",
-                "text": "<code class=\"inline-code\">GITHUB_ORGANIZATION</code>",
+                "text": "<code class=\"inline-code\">GITHUB_REPOSITORY</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
             {
                 "id": "f",
-                "text": "<code class=\"inline-code\">GITHUB_TOKEN</code>",
+                "text": "<code class=\"inline-code\">GITHUB_ORGANIZATION</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             }
         ],
         "correctAnswers": [
-            "a",
             "b",
-            "c"
+            "d",
+            "e"
         ],
         "explanation": "https://docs.github.com/en/actions/reference/environment-variables#default-environment-variables",
         "multipleSelect": true
@@ -2095,31 +2095,31 @@
         "options": [
             {
                 "id": "a",
-                "text": "The secret <code class=\"inline-code\">SomeSecret</code> is also declared in repository scope",
+                "text": "You need to use the GitHub API to access organization scoped secrets",
                 "isCodeBlock": false,
-                "hasInlineCode": true
+                "hasInlineCode": false
             },
             {
                 "id": "b",
-                "text": "The secret <code class=\"inline-code\">SomeSecret</code> is also declared in enterprise scope",
-                "isCodeBlock": false,
-                "hasInlineCode": true
-            },
-            {
-                "id": "c",
                 "text": "<code class=\"inline-code\">${{ secrets.SomeSecret }}</code> expression is only used for repository scoped secrets",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
             {
-                "id": "d",
-                "text": "You need to use the GitHub API to access organization scoped secrets",
+                "id": "c",
+                "text": "The secret <code class=\"inline-code\">SomeSecret</code> is also declared in repository scope",
                 "isCodeBlock": false,
-                "hasInlineCode": false
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "The secret <code class=\"inline-code\">SomeSecret</code> is also declared in enterprise scope",
+                "isCodeBlock": false,
+                "hasInlineCode": true
             }
         ],
         "correctAnswers": [
-            "a"
+            "c"
         ],
         "explanation": "https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions#naming-your-secrets\n\nIf a secret with the same name exists at multiple levels, the secret at the lowest level takes precedence.",
         "multipleSelect": false
@@ -2136,19 +2136,19 @@
             },
             {
                 "id": "b",
-                "text": "<code class=\"inline-code\">echo \":debug:Watch out here!\"</code>",
-                "isCodeBlock": false,
-                "hasInlineCode": true
-            },
-            {
-                "id": "c",
                 "text": "<code class=\"inline-code\">echo \"::debug::message=Watch out here!\"</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
             {
-                "id": "d",
+                "id": "c",
                 "text": "`echo \"Watch out here!\"",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "<code class=\"inline-code\">echo \":debug:Watch out here!\"</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             }
@@ -2165,13 +2165,13 @@
         "options": [
             {
                 "id": "a",
-                "text": "Using GitHub Connect",
+                "text": "GitHub Enterprise Server cannot use GitHub.com Actions because of it's on-premise nature and no internet access",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "b",
-                "text": "GitHub Enterprise Server has access to all GitHub.com Actions by default",
+                "text": "Using GitHub Connect",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
@@ -2183,13 +2183,13 @@
             },
             {
                 "id": "d",
-                "text": "GitHub Enterprise Server cannot use GitHub.com Actions because of it's on-premise nature and no internet access",
+                "text": "GitHub Enterprise Server has access to all GitHub.com Actions by default",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
         ],
         "correctAnswers": [
-            "a"
+            "b"
         ],
         "explanation": "https://docs.github.com/en/enterprise-server@3.6/admin/github-actions/managing-access-to-actions-from-githubcom/enabling-automatic-access-to-githubcom-actions-using-github-connect\n\nGitHub Actions on GitHub Enterprise Server is designed to work in environments without full internet access. By default, workflows cannot use actions from GitHub.com and GitHub Marketplace.",
         "multipleSelect": false
@@ -2206,7 +2206,7 @@
             },
             {
                 "id": "b",
-                "text": "On GitHub.com on that specific Runner's page",
+                "text": "In the job run logs of a job that ran on that Runner with debug logging enabled",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
@@ -2218,7 +2218,7 @@
             },
             {
                 "id": "d",
-                "text": "In the job run logs of a job that ran on that Runner with debug logging enabled",
+                "text": "On GitHub.com on that specific Runner's page",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
@@ -2235,31 +2235,31 @@
         "options": [
             {
                 "id": "a",
-                "text": "Using a GitHub provided script on the runner machine",
-                "isCodeBlock": false,
-                "hasInlineCode": false
-            },
-            {
-                "id": "b",
-                "text": "By trying to access the runner machine by <code class=\"inline-code\">ssh</code> to validate the network connectivity",
-                "isCodeBlock": false,
-                "hasInlineCode": true
-            },
-            {
-                "id": "c",
                 "text": "By using the predefined GitHub Actions workflow <code class=\"inline-code\">network-connectivity.yml</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
             {
-                "id": "d",
+                "id": "b",
                 "text": "GitHub will validate the network connectivity automatically when the runner application is installed on the runner machine",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "By trying to access the runner machine by <code class=\"inline-code\">ssh</code> to validate the network connectivity",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "Using a GitHub provided script on the runner machine",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
         ],
         "correctAnswers": [
-            "a"
+            "d"
         ],
         "explanation": "https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/monitoring-and-troubleshooting-self-hosted-runners#checking-self-hosted-runner-network-connectivity",
         "multipleSelect": false
@@ -2270,13 +2270,13 @@
         "options": [
             {
                 "id": "a",
-                "text": "<pre><code class='language-yaml'>my-job:\n    if: ${{ vars.MY_VAR == 'MY_VALUE' }}</code></pre>",
-                "isCodeBlock": true,
+                "text": "It's not possible because configuration variables cannot be used in job level <code class=\"inline-code\">if</code> conditionals",
+                "isCodeBlock": false,
                 "hasInlineCode": true
             },
             {
                 "id": "b",
-                "text": "<pre><code class='language-yaml'>my-job:\n    if: ${{ vars.MY_VAR }} == 'MY_VALUE'</code></pre>",
+                "text": "<pre><code class='language-yaml'>my-job:\n    if: ${{ vars.MY_VAR == 'MY_VALUE' }}</code></pre>",
                 "isCodeBlock": true,
                 "hasInlineCode": true
             },
@@ -2288,13 +2288,13 @@
             },
             {
                 "id": "d",
-                "text": "It's not possible because configuration variables cannot be used in job level <code class=\"inline-code\">if</code> conditionals",
-                "isCodeBlock": false,
+                "text": "<pre><code class='language-yaml'>my-job:\n    if: ${{ vars.MY_VAR }} == 'MY_VALUE'</code></pre>",
+                "isCodeBlock": true,
                 "hasInlineCode": true
             }
         ],
         "correctAnswers": [
-            "a"
+            "b"
         ],
         "explanation": "https://docs.github.com/en/actions/learn-github-actions/contexts#example-usage-of-the-vars-context\n\nThis will always be evaluate to True. That is true for `secrets` but not for configuration variables. That is true for `secrets` but not for configuration variables",
         "multipleSelect": false
@@ -2311,13 +2311,13 @@
             },
             {
                 "id": "b",
-                "text": "<pre><code class='language-yaml'>my-job:\n    runs-on: ubuntu-latest\n    if: ${{ secrets.MY_SECRET == '' }}</code></pre>",
+                "text": "<pre><code class='language-yaml'>my-job:\n    runs-on: ubuntu-latest\n    steps:\n      - if: ${{ secrets.MY_SECRET == '' }}</code></pre>",
                 "isCodeBlock": true,
                 "hasInlineCode": true
             },
             {
                 "id": "c",
-                "text": "<pre><code class='language-yaml'>my-job:\n    runs-on: ubuntu-latest\n    steps:\n      - if: ${{ secrets.MY_SECRET == '' }}</code></pre>",
+                "text": "<pre><code class='language-yaml'>my-job:\n    runs-on: ubuntu-latest\n    if: ${{ secrets.MY_SECRET == '' }}</code></pre>",
                 "isCodeBlock": true,
                 "hasInlineCode": true
             },
@@ -2346,13 +2346,13 @@
             },
             {
                 "id": "b",
-                "text": "<code class=\"inline-code\">POST /repos/{owner}/{repo}/actions/runs/{run_id}/logs</code>",
+                "text": "<code class=\"inline-code\">HEAD /repos/{owner}/{repo}/actions/runs/{run_id}/logs</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
             {
                 "id": "c",
-                "text": "<code class=\"inline-code\">HEAD /repos/{owner}/{repo}/actions/runs/{run_id}/logs</code>",
+                "text": "<code class=\"inline-code\">POST /repos/{owner}/{repo}/actions/runs/{run_id}/logs</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
@@ -2381,7 +2381,7 @@
             },
             {
                 "id": "b",
-                "text": "<code class=\"inline-code\">POST /repos/{owner}/{repo}/actions/secrets/{secret_name}</code>",
+                "text": "<code class=\"inline-code\">GET /repos/{owner}/{repo}/actions/secrets/{secret_name}</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
@@ -2393,7 +2393,7 @@
             },
             {
                 "id": "d",
-                "text": "<code class=\"inline-code\">GET /repos/{owner}/{repo}/actions/secrets/{secret_name}</code>",
+                "text": "<code class=\"inline-code\">POST /repos/{owner}/{repo}/actions/secrets/{secret_name}</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             }
@@ -2410,7 +2410,7 @@
         "options": [
             {
                 "id": "a",
-                "text": "By creating a repository secret with the same name <code class=\"inline-code\">API_KEY</code>",
+                "text": "By creating a repository secret with the name <code class=\"inline-code\">OVERRIDE_API_KEY</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
@@ -2422,7 +2422,7 @@
             },
             {
                 "id": "c",
-                "text": "By creating a enterprise secret with the same name <code class=\"inline-code\">API_KEY</code>",
+                "text": "By creating a environment secret with the name <code class=\"inline-code\">OVERRIDE_API_KEY</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
@@ -2434,20 +2434,20 @@
             },
             {
                 "id": "e",
-                "text": "By creating a repository secret with the name <code class=\"inline-code\">OVERRIDE_API_KEY</code>",
+                "text": "By creating a enterprise secret with the same name <code class=\"inline-code\">API_KEY</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
             {
                 "id": "f",
-                "text": "By creating a environment secret with the name <code class=\"inline-code\">OVERRIDE_API_KEY</code>",
+                "text": "By creating a repository secret with the same name <code class=\"inline-code\">API_KEY</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             }
         ],
         "correctAnswers": [
-            "a",
-            "b"
+            "b",
+            "f"
         ],
         "explanation": "https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions#naming-your-secrets",
         "multipleSelect": true
@@ -2458,37 +2458,37 @@
         "options": [
             {
                 "id": "a",
-                "text": "Secrets",
-                "isCodeBlock": false,
-                "hasInlineCode": false
-            },
-            {
-                "id": "b",
                 "text": "Configuration Variables",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
-                "id": "c",
+                "id": "b",
                 "text": "Self Hosted Runners",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
-                "id": "d",
-                "text": "Workflow Templates",
+                "id": "c",
+                "text": "Cache",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
-                "id": "e",
+                "id": "d",
                 "text": "Artifacts",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
+                "id": "e",
+                "text": "Workflow Templates",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
                 "id": "f",
-                "text": "Cache",
+                "text": "Secrets",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
@@ -2496,8 +2496,8 @@
         "correctAnswers": [
             "a",
             "b",
-            "c",
-            "d"
+            "e",
+            "f"
         ],
         "explanation": "Artifacts are used to preserve data after a job has completed and/or share that data with another job within the same workflow.. Cache can be reused across workflows within one repository. Environment variables can be scoped to a step, job or a workflow. They cannot be shared across workflows/repositories or organizations",
         "multipleSelect": true
@@ -2520,13 +2520,13 @@
             },
             {
                 "id": "c",
-                "text": "6",
+                "text": "7",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "d",
-                "text": "7",
+                "text": "6",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
@@ -2543,31 +2543,31 @@
         "options": [
             {
                 "id": "a",
-                "text": "<code class=\"inline-code\">GITHUB_REPOSITORY</code>",
-                "isCodeBlock": false,
-                "hasInlineCode": true
-            },
-            {
-                "id": "b",
-                "text": "<code class=\"inline-code\">GITHUB_REPOSITORY_ID</code>",
-                "isCodeBlock": false,
-                "hasInlineCode": true
-            },
-            {
-                "id": "c",
                 "text": "<code class=\"inline-code\">GITHUB_REPOSITORY_OWNER</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
             {
-                "id": "d",
+                "id": "b",
                 "text": "<code class=\"inline-code\">GITHUB_REPOSITORY_OWNER_ID</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "<code class=\"inline-code\">GITHUB_REPOSITORY_ID</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "<code class=\"inline-code\">GITHUB_REPOSITORY</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             }
         ],
         "correctAnswers": [
-            "a"
+            "d"
         ],
         "explanation": "https://docs.github.com/en/actions/reference/environment-variables#default-environment-variables",
         "multipleSelect": false
@@ -2601,7 +2601,7 @@
         "options": [
             {
                 "id": "a",
-                "text": "20",
+                "text": "10",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
@@ -2619,13 +2619,13 @@
             },
             {
                 "id": "d",
-                "text": "10",
+                "text": "20",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
         ],
         "correctAnswers": [
-            "a"
+            "d"
         ],
         "explanation": "https://docs.github.com/en/actions/using-workflows/reusing-workflows#limitations",
         "multipleSelect": false
@@ -2636,13 +2636,13 @@
         "options": [
             {
                 "id": "a",
-                "text": "A self-hosted runner is a system that you deploy and manage to execute jobs from GitHub Actions on GitHub.com",
+                "text": "A self-hosted runner is a system to upload code to a private server",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "b",
-                "text": "A self-hosted runner is a system to upload code to a private server",
+                "text": "A self-hosted runner is a system to manage pull requests from users of the organization",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
@@ -2654,13 +2654,13 @@
             },
             {
                 "id": "d",
-                "text": "A self-hosted runner is a system to manage pull requests from users of the organization",
+                "text": "A self-hosted runner is a system that you deploy and manage to execute jobs from GitHub Actions on GitHub.com",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
         ],
         "correctAnswers": [
-            "a"
+            "d"
         ],
         "explanation": "https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/about-self-hosted-runners",
         "multipleSelect": false
@@ -2671,19 +2671,19 @@
         "options": [
             {
                 "id": "a",
-                "text": "Each action is composed of one or more workflows which is composed of one or more jobs, and each job is composed of one or more step",
+                "text": "Each workflow is composed of one or more job which is composed of one or more step, and each step is an action or a script",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "b",
-                "text": "Each workflow is composed of one or more action which is composed of one or more jobs, and each job is composed of one or more step",
+                "text": "Each action is composed of one or more workflows which is composed of one or more jobs, and each job is composed of one or more step",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "c",
-                "text": "Each workflow is composed of one or more job which is composed of one or more step, and each step is an action or a script",
+                "text": "Each workflow is composed of one or more action which is composed of one or more jobs, and each job is composed of one or more step",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
@@ -2695,7 +2695,7 @@
             }
         ],
         "correctAnswers": [
-            "c"
+            "a"
         ],
         "explanation": "https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions",
         "multipleSelect": false
@@ -2706,19 +2706,19 @@
         "options": [
             {
                 "id": "a",
-                "text": "Scheduled workflows run on the specific commit on last modified branch.",
+                "text": "Scheduled workflows run on the latest commit on the repository default branch.",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "b",
-                "text": "Scheduled workflows run on the specific commit on the main branch.",
+                "text": "Scheduled workflows run on the specific commit on last modified branch.",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "c",
-                "text": "Scheduled workflows run on the latest commit on the repository default branch.",
+                "text": "Scheduled workflows run on the specific commit on the main branch.",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
@@ -2730,7 +2730,7 @@
             }
         ],
         "correctAnswers": [
-            "c"
+            "a"
         ],
         "explanation": "https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule\n\nincorrect, both specific commit and on last modified branch. incorrect, both specific commit and main branch. latest commit is correct but the main branch is not",
         "multipleSelect": false
@@ -2747,19 +2747,19 @@
             },
             {
                 "id": "b",
-                "text": "<pre><code class='language-yaml'>defaults:\n        run:\n            shell: bash\n            directory: ./scripts</code></pre>",
+                "text": "<pre><code class='language-yaml'>defaults:\n        run:\n            shell: bash\n    job:\n        directory: ./scripts</code></pre>",
                 "isCodeBlock": true,
                 "hasInlineCode": true
             },
             {
                 "id": "c",
-                "text": "<pre><code class='language-yaml'>defaults:\n        run:\n            shell: bash\n    job:\n        working-directory: ./scripts</code></pre>",
+                "text": "<pre><code class='language-yaml'>defaults:\n        run:\n            shell: bash\n            directory: ./scripts</code></pre>",
                 "isCodeBlock": true,
                 "hasInlineCode": true
             },
             {
                 "id": "d",
-                "text": "<pre><code class='language-yaml'>defaults:\n        run:\n            shell: bash\n    job:\n        directory: ./scripts</code></pre>",
+                "text": "<pre><code class='language-yaml'>defaults:\n        run:\n            shell: bash\n    job:\n        working-directory: ./scripts</code></pre>",
                 "isCodeBlock": true,
                 "hasInlineCode": true
             }
@@ -2776,25 +2776,25 @@
         "options": [
             {
                 "id": "a",
-                "text": "By copying the workflow file to each repository",
-                "isCodeBlock": false,
-                "hasInlineCode": false
-            },
-            {
-                "id": "b",
-                "text": "By using workflow templates",
-                "isCodeBlock": false,
-                "hasInlineCode": false
-            },
-            {
-                "id": "c",
                 "text": "By creating a reusable action",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
-                "id": "d",
+                "id": "b",
                 "text": "By defining the workflow in a central repository",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "By copying the workflow file to each repository",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "By using workflow templates",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
@@ -2812,31 +2812,31 @@
         "options": [
             {
                 "id": "a",
-                "text": "By using the branches filter",
-                "isCodeBlock": false,
-                "hasInlineCode": false
-            },
-            {
-                "id": "b",
                 "text": "By using the runs-on filter",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
+                "id": "b",
+                "text": "By using the branch keyword",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
                 "id": "c",
-                "text": "By using the jobs filter",
+                "text": "By using the branches filter",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "d",
-                "text": "By using the branch keyword",
+                "text": "By using the jobs filter",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
         ],
         "correctAnswers": [
-            "a"
+            "c"
         ],
         "explanation": "https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#using-filters",
         "multipleSelect": false
@@ -2847,19 +2847,19 @@
         "options": [
             {
                 "id": "a",
-                "text": "Specifies the dependencies of a job",
-                "isCodeBlock": false,
-                "hasInlineCode": false
-            },
-            {
-                "id": "b",
                 "text": "Defines environment variables",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
-                "id": "c",
+                "id": "b",
                 "text": "Sets up the environment",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Specifies the dependencies of a job",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
@@ -2871,7 +2871,7 @@
             }
         ],
         "correctAnswers": [
-            "a"
+            "c"
         ],
         "explanation": "https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idneeds",
         "multipleSelect": false
@@ -2882,31 +2882,31 @@
         "options": [
             {
                 "id": "a",
-                "text": "env",
-                "isCodeBlock": false,
-                "hasInlineCode": false
-            },
-            {
-                "id": "b",
                 "text": "vars",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
-                "id": "c",
+                "id": "b",
                 "text": "secrets",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
-                "id": "d",
+                "id": "c",
                 "text": "config",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "env",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
         ],
         "correctAnswers": [
-            "a"
+            "d"
         ],
         "explanation": "https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idenv",
         "multipleSelect": false
@@ -2923,25 +2923,25 @@
             },
             {
                 "id": "b",
-                "text": "To specify input parameters for an action",
-                "isCodeBlock": false,
-                "hasInlineCode": false
-            },
-            {
-                "id": "c",
                 "text": "To set up dependencies",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
-                "id": "d",
+                "id": "c",
                 "text": "To trigger another workflow",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "To specify input parameters for an action",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
         ],
         "correctAnswers": [
-            "b"
+            "d"
         ],
         "explanation": "https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idstepswith",
         "multipleSelect": false
@@ -2952,31 +2952,31 @@
         "options": [
             {
                 "id": "a",
-                "text": "Using && to chain commands",
+                "text": "Separating commands with a semicolon ;",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "b",
-                "text": "Defining commands in an array",
-                "isCodeBlock": false,
-                "hasInlineCode": false
-            },
-            {
-                "id": "c",
                 "text": "Using a multiline string with |",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
+                "id": "c",
+                "text": "Using && to chain commands",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
                 "id": "d",
-                "text": "Separating commands with a semicolon ;",
+                "text": "Defining commands in an array",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
         ],
         "correctAnswers": [
-            "c"
+            "b"
         ],
         "explanation": "https://docs.github.com/en/enterprise-cloud@latest/actions/using-workflows/workflow-commands-for-github-actions#example-of-a-multiline-string",
         "multipleSelect": false
@@ -2993,13 +2993,13 @@
             },
             {
                 "id": "b",
-                "text": "Using the actions/cache action",
+                "text": "By storing them in the repository",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "c",
-                "text": "By storing them in the repository",
+                "text": "Using the actions/cache action",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
@@ -3011,7 +3011,7 @@
             }
         ],
         "correctAnswers": [
-            "b"
+            "c"
         ],
         "explanation": "https://docs.github.com/en/enterprise-cloud@latest/actions/using-workflows/caching-dependencies-to-speed-up-workflows#about-caching-workflow-dependencies",
         "multipleSelect": false
@@ -3034,13 +3034,13 @@
             },
             {
                 "id": "c",
-                "text": "Triggers workflows based on a schedule",
+                "text": "Defines secrets for the workflow",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "d",
-                "text": "Defines secrets for the workflow",
+                "text": "Triggers workflows based on a schedule",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
@@ -3057,31 +3057,31 @@
         "options": [
             {
                 "id": "a",
-                "text": "concurrency",
-                "isCodeBlock": false,
-                "hasInlineCode": false
-            },
-            {
-                "id": "b",
-                "text": "limit",
-                "isCodeBlock": false,
-                "hasInlineCode": false
-            },
-            {
-                "id": "c",
                 "text": "max-jobs",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
-                "id": "d",
+                "id": "b",
+                "text": "concurrency",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
                 "text": "parallelism",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "limit",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
         ],
         "correctAnswers": [
-            "a"
+            "b"
         ],
         "explanation": "https://docs.github.com/en/enterprise-cloud@latest/actions/using-jobs/using-concurrency",
         "multipleSelect": false
@@ -3092,13 +3092,13 @@
         "options": [
             {
                 "id": "a",
-                "text": "30 minutes",
+                "text": "60 minutes",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "b",
-                "text": "60 minutes",
+                "text": "360 minutes",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
@@ -3110,13 +3110,13 @@
             },
             {
                 "id": "d",
-                "text": "360 minutes",
+                "text": "30 minutes",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
         ],
         "correctAnswers": [
-            "d"
+            "b"
         ],
         "explanation": "https://docs.github.com/en/actions/learn-github-actions/usage-limits-billing-and-administration#usage-limits",
         "multipleSelect": false
@@ -3133,13 +3133,13 @@
             },
             {
                 "id": "b",
-                "text": "Using the runs-on keyword",
+                "text": "Using the platform keyword",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "c",
-                "text": "Using the platform keyword",
+                "text": "Using the runs-on keyword",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
@@ -3151,7 +3151,7 @@
             }
         ],
         "correctAnswers": [
-            "b"
+            "c"
         ],
         "explanation": "https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idruns-on",
         "multipleSelect": false
@@ -3162,31 +3162,31 @@
         "options": [
             {
                 "id": "a",
-                "text": "<pre><code class='language-yaml'>uses: actions/setup-node@v4\n  with:\n    node-version: 20</code></pre>",
-                "isCodeBlock": true,
-                "hasInlineCode": true
-            },
-            {
-                "id": "b",
                 "text": "<pre><code class='language-yaml'>uses: actions/node-setup@v4\n  with:\n    node-version: 20</code></pre>",
                 "isCodeBlock": true,
                 "hasInlineCode": true
             },
             {
+                "id": "b",
+                "text": "<pre><code class='language-yaml'>uses: setup-node@v4\n  with:\n    node: 20</code></pre>",
+                "isCodeBlock": true,
+                "hasInlineCode": true
+            },
+            {
                 "id": "c",
-                "text": "<pre><code class='language-yaml'>uses: setup-node@v4\n  with:\n    version: 20</code></pre>",
+                "text": "<pre><code class='language-yaml'>uses: actions/setup-node@v4\n  with:\n    node-version: 20</code></pre>",
                 "isCodeBlock": true,
                 "hasInlineCode": true
             },
             {
                 "id": "d",
-                "text": "<pre><code class='language-yaml'>uses: setup-node@v4\n  with:\n    node: 20</code></pre>",
+                "text": "<pre><code class='language-yaml'>uses: setup-node@v4\n  with:\n    version: 20</code></pre>",
                 "isCodeBlock": true,
                 "hasInlineCode": true
             }
         ],
         "correctAnswers": [
-            "a"
+            "c"
         ],
         "explanation": "https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs#specifying-the-nodejs-version",
         "multipleSelect": false
@@ -3197,13 +3197,13 @@
         "options": [
             {
                 "id": "a",
-                "text": "${{ secrets.SECRET_NAME }}",
+                "text": "${{ config.SECRET_NAME }}",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "b",
-                "text": "${{ secret.SECRET_NAME }}",
+                "text": "${{ secrets.SECRET_NAME }}",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
@@ -3215,13 +3215,13 @@
             },
             {
                 "id": "d",
-                "text": "${{ config.SECRET_NAME }}",
+                "text": "${{ secret.SECRET_NAME }}",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
         ],
         "correctAnswers": [
-            "a"
+            "b"
         ],
         "explanation": "https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions#using-secrets-in-a-workflow",
         "multipleSelect": false
@@ -3232,31 +3232,31 @@
         "options": [
             {
                 "id": "a",
-                "text": "bash",
-                "isCodeBlock": false,
-                "hasInlineCode": false
-            },
-            {
-                "id": "b",
                 "text": "sh",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
+                "id": "b",
+                "text": "cmd",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
                 "id": "c",
-                "text": "powershell",
+                "text": "bash",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "d",
-                "text": "cmd",
+                "text": "powershell",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
         ],
         "correctAnswers": [
-            "c"
+            "d"
         ],
         "explanation": "https://github.blog/changelog/2019-10-17-github-actions-default-shell-on-windows-runners-is-changing-to-powershell/",
         "multipleSelect": false
@@ -3273,7 +3273,7 @@
             },
             {
                 "id": "b",
-                "text": "You can add a self-hosted runner to an organization",
+                "text": "You can add a self-hosted runner to a step",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
@@ -3285,21 +3285,21 @@
             },
             {
                 "id": "d",
-                "text": "You can add a self-hosted runner to a workflow",
+                "text": "You can add a self-hosted runner to an organization",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "e",
-                "text": "You can add a self-hosted runner to a step",
+                "text": "You can add a self-hosted runner to a workflow",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
         ],
         "correctAnswers": [
             "a",
-            "b",
-            "c"
+            "c",
+            "d"
         ],
         "explanation": "https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/adding-self-hosted-runners#adding-a-self-hosted-runner-to-a-repository\n\nYou can't add to workflow level. You can't add to step level",
         "multipleSelect": true
@@ -3310,31 +3310,31 @@
         "options": [
             {
                 "id": "a",
-                "text": "<code class=\"inline-code\">RUNNER_OS</code>",
-                "isCodeBlock": false,
-                "hasInlineCode": true
-            },
-            {
-                "id": "b",
                 "text": "<code class=\"inline-code\">GITHUB_RUNNER_OS</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
             {
+                "id": "b",
+                "text": "<code class=\"inline-code\">RUNNER_NAME</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
                 "id": "c",
-                "text": "<code class=\"inline-code\">RUNNER_ARCH</code>",
+                "text": "<code class=\"inline-code\">RUNNER_OS</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
             {
                 "id": "d",
-                "text": "<code class=\"inline-code\">RUNNER_NAME</code>",
+                "text": "<code class=\"inline-code\">RUNNER_ARCH</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             }
         ],
         "correctAnswers": [
-            "a"
+            "c"
         ],
         "explanation": "https://docs.github.com/en/actions/learn-github-actions/variables#default-environment-variables",
         "multipleSelect": false
@@ -3345,13 +3345,13 @@
         "options": [
             {
                 "id": "a",
-                "text": "by requiring manual intervention to create a new cache",
+                "text": "by terminating the workflow if a cache miss occurs",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "b",
-                "text": "by searching for a cache in other repositories",
+                "text": "by requiring manual intervention to create a new cache",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
@@ -3363,7 +3363,7 @@
             },
             {
                 "id": "d",
-                "text": "by terminating the workflow if a cache miss occurs",
+                "text": "by searching for a cache in other repositories",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
@@ -3380,13 +3380,13 @@
         "options": [
             {
                 "id": "a",
-                "text": "add a condition in the workflow YAML for weekdays",
+                "text": "it is not possible in GitHub actions",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "b",
-                "text": "it is not possible in GitHub actions",
+                "text": "add a condition in the workflow YAML for weekdays",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
@@ -3415,19 +3415,19 @@
         "options": [
             {
                 "id": "a",
-                "text": "avoid storing large secrets entirely to ensure security",
+                "text": "encrypt and store secrets in the repository but keep the decryption passphrase as a secret",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "b",
-                "text": "secrets larger than 48 KB cannot be stored",
+                "text": "avoid storing large secrets entirely to ensure security",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "c",
-                "text": "encrypt and store secrets in the repository but keep the decryption passphrase as a secret",
+                "text": "secrets larger than 48 KB cannot be stored",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
@@ -3439,7 +3439,7 @@
             }
         ],
         "correctAnswers": [
-            "c"
+            "a"
         ],
         "explanation": "https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions#limits-for-secrets",
         "multipleSelect": false
@@ -3450,7 +3450,7 @@
         "options": [
             {
                 "id": "a",
-                "text": "<code class=\"inline-code\">success()</code>, <code class=\"inline-code\">always()</code>, <code class=\"inline-code\">cancelled()</code> and <code class=\"inline-code\">failure()</code>",
+                "text": "<code class=\"inline-code\">state()</code>, <code class=\"inline-code\">always()</code>, <code class=\"inline-code\">cancelled()</code> and <code class=\"inline-code\">failure()</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
@@ -3468,13 +3468,13 @@
             },
             {
                 "id": "d",
-                "text": "<code class=\"inline-code\">state()</code>, <code class=\"inline-code\">always()</code>, <code class=\"inline-code\">cancelled()</code> and <code class=\"inline-code\">failure()</code>",
+                "text": "<code class=\"inline-code\">success()</code>, <code class=\"inline-code\">always()</code>, <code class=\"inline-code\">cancelled()</code> and <code class=\"inline-code\">failure()</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             }
         ],
         "correctAnswers": [
-            "a"
+            "d"
         ],
         "explanation": "https://docs.github.com/en/actions/learn-github-actions/expressions#status-check-functions",
         "multipleSelect": false
@@ -3497,13 +3497,13 @@
             },
             {
                 "id": "c",
-                "text": "<pre><code class='language-yaml'>- name: Run Tests\n      id: run-tests\n      run: npm run test\n\n    - name: Upload Failure test report\n      if: steps.run-tests.outcome == 'failure'\n      run: actions/upload-artifact@v3\n      with:\n        name: test-report\n        path: test-reports.html</code></pre>",
+                "text": "<pre><code class='language-yaml'>- name: Run Tests\n      id: run-tests\n      run: npm run test\n\n    - name: Upload Failure test report\n      run: actions/upload-artifact@v3\n      with:\n        name: test-report\n        path: test-reports.html</code></pre>",
                 "isCodeBlock": true,
                 "hasInlineCode": true
             },
             {
                 "id": "d",
-                "text": "<pre><code class='language-yaml'>- name: Run Tests\n      id: run-tests\n      run: npm run test\n\n    - name: Upload Failure test report\n      run: actions/upload-artifact@v3\n      with:\n        name: test-report\n        path: test-reports.html</code></pre>",
+                "text": "<pre><code class='language-yaml'>- name: Run Tests\n      id: run-tests\n      run: npm run test\n\n    - name: Upload Failure test report\n      if: steps.run-tests.outcome == 'failure'\n      run: actions/upload-artifact@v3\n      with:\n        name: test-report\n        path: test-reports.html</code></pre>",
                 "isCodeBlock": true,
                 "hasInlineCode": true
             }
@@ -3526,13 +3526,13 @@
             },
             {
                 "id": "b",
-                "text": "<code class=\"inline-code\">github.repository</code>",
+                "text": "<code class=\"inline-code\">github.job</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
             {
                 "id": "c",
-                "text": "<code class=\"inline-code\">github.job</code>",
+                "text": "<code class=\"inline-code\">github.repository</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
@@ -3561,7 +3561,7 @@
             },
             {
                 "id": "b",
-                "text": "the workflow will run when either <code class=\"inline-code\">branches</code> or <code class=\"inline-code\">paths</code> are satisfied, but will only apply the matching filter",
+                "text": "the workflow will not run when both <code class=\"inline-code\">branches</code> and <code class=\"inline-code\">paths</code> are satisfied",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
@@ -3573,7 +3573,7 @@
             },
             {
                 "id": "d",
-                "text": "the workflow will not run when both <code class=\"inline-code\">branches</code> and <code class=\"inline-code\">paths</code> are satisfied",
+                "text": "the workflow will run when either <code class=\"inline-code\">branches</code> or <code class=\"inline-code\">paths</code> are satisfied, but will only apply the matching filter",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             }
@@ -3590,31 +3590,31 @@
         "options": [
             {
                 "id": "a",
-                "text": "treat environment variables as case-sensitive",
+                "text": "depend on the behavior of the operating system in use",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "b",
-                "text": "use only uppercase letters for environment variable names",
-                "isCodeBlock": false,
-                "hasInlineCode": false
-            },
-            {
-                "id": "c",
                 "text": "ignore case sensitivity as GitHub Actions handles it automatically",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
+                "id": "c",
+                "text": "use only uppercase letters for environment variable names",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
                 "id": "d",
-                "text": "depend on the behavior of the operating system in use",
+                "text": "treat environment variables as case-sensitive",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
         ],
         "correctAnswers": [
-            "a"
+            "d"
         ],
         "explanation": "https://docs.github.com/en/actions/writing-workflows/choosing-what-your-workflow-does/workflow-commands-for-github-actions#setting-an-environment-variable",
         "multipleSelect": false
@@ -3625,31 +3625,31 @@
         "options": [
             {
                 "id": "a",
-                "text": "workflow jobs won't start until all the environment's protection rules pass",
-                "isCodeBlock": false,
-                "hasInlineCode": false
-            },
-            {
-                "id": "b",
                 "text": "workflow jobs will never start if the environment has protection rules",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
-                "id": "c",
+                "id": "b",
                 "text": "workflow jobs will start immediately, regardless of the environment's protection rules",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
-                "id": "d",
+                "id": "c",
                 "text": "workflow jobs will only start if some of the environment's protection rules pass",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "workflow jobs won't start until all the environment's protection rules pass",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
         ],
         "correctAnswers": [
-            "a"
+            "d"
         ],
         "explanation": "https://docs.github.com/en/actions/deployment/targeting-different-environments/using-environments-for-deployment",
         "multipleSelect": false
@@ -3660,7 +3660,7 @@
         "options": [
             {
                 "id": "a",
-                "text": "provide alternative keys to use in case of a cache miss",
+                "text": "specify the location of the cached files",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
@@ -3672,7 +3672,7 @@
             },
             {
                 "id": "c",
-                "text": "specify the location of the cached files",
+                "text": "provide alternative keys to use in case of a cache miss",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
@@ -3684,7 +3684,7 @@
             }
         ],
         "correctAnswers": [
-            "a"
+            "c"
         ],
         "explanation": "https://docs.github.com/en/actions/using-workflows/caching-dependencies-to-speed-up-workflows#managing-caches",
         "multipleSelect": false
@@ -3695,31 +3695,31 @@
         "options": [
             {
                 "id": "a",
-                "text": "<code class=\"inline-code\">ACTIONS_STEP_DEBUG</code>",
-                "isCodeBlock": false,
-                "hasInlineCode": true
-            },
-            {
-                "id": "b",
-                "text": "<code class=\"inline-code\">ACTIONS_JOB_DEBUG</code>",
-                "isCodeBlock": false,
-                "hasInlineCode": true
-            },
-            {
-                "id": "c",
                 "text": "<code class=\"inline-code\">ACTIONS_RUNNER_DEBUG</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
             {
-                "id": "d",
+                "id": "b",
                 "text": "<code class=\"inline-code\">ACTIONS_WORKFLOW_DEBUG</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "<code class=\"inline-code\">ACTIONS_JOB_DEBUG</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "<code class=\"inline-code\">ACTIONS_STEP_DEBUG</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             }
         ],
         "correctAnswers": [
-            "a"
+            "d"
         ],
         "explanation": "https://docs.github.com/en/actions/monitoring-and-troubleshooting-workflows/enabling-debug-logging",
         "multipleSelect": false
@@ -3730,31 +3730,31 @@
         "options": [
             {
                 "id": "a",
-                "text": "<pre><code class='language-yaml'>on:\n    check_run:\n        types: [rerequested, completed]</code></pre>",
+                "text": "<pre><code class='language-yaml'>on:\n    check_run:\n        filter: [requested]</code></pre>",
                 "isCodeBlock": true,
                 "hasInlineCode": true
             },
             {
                 "id": "b",
-                "text": "<pre><code class='language-yaml'>on:\n    check_run:\n        types: [started]</code></pre>",
+                "text": "<pre><code class='language-yaml'>on:\n    check_run:\n        types: [rerequested, completed]</code></pre>",
                 "isCodeBlock": true,
                 "hasInlineCode": true
             },
             {
                 "id": "c",
-                "text": "<pre><code class='language-yaml'>on:\n    check_run:\n        type: [closed]</code></pre>",
+                "text": "<pre><code class='language-yaml'>on:\n    check_run:\n        types: [started]</code></pre>",
                 "isCodeBlock": true,
                 "hasInlineCode": true
             },
             {
                 "id": "d",
-                "text": "<pre><code class='language-yaml'>on:\n    check_run:\n        filter: [requested]</code></pre>",
+                "text": "<pre><code class='language-yaml'>on:\n    check_run:\n        type: [closed]</code></pre>",
                 "isCodeBlock": true,
                 "hasInlineCode": true
             }
         ],
         "correctAnswers": [
-            "a"
+            "b"
         ],
         "explanation": "https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#check_run",
         "multipleSelect": false
@@ -3765,19 +3765,19 @@
         "options": [
             {
                 "id": "a",
-                "text": "it limits the execution time for individual step",
-                "isCodeBlock": false,
-                "hasInlineCode": false
-            },
-            {
-                "id": "b",
                 "text": "it defines the time interval for individual commands within a step",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
-                "id": "c",
+                "id": "b",
                 "text": "it sets the timeout for waiting on external events before proceeding to the next step",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "it limits the execution time for individual step",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
@@ -3789,7 +3789,7 @@
             }
         ],
         "correctAnswers": [
-            "a"
+            "c"
         ],
         "explanation": "https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idstepstimeout-minutes",
         "multipleSelect": false
@@ -3800,7 +3800,7 @@
         "options": [
             {
                 "id": "a",
-                "text": "inside a directory named <code class=\"inline-code\">workflow-templates</code> within a repository named <code class=\"inline-code\">.github</code>",
+                "text": "inside a directory named <code class=\"inline-code\">.github/workflow-templates</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
@@ -3812,19 +3812,19 @@
             },
             {
                 "id": "c",
-                "text": "inside a directory named <code class=\"inline-code\">.github/org-templates</code>",
+                "text": "inside a directory named <code class=\"inline-code\">workflow-templates</code> within a repository named <code class=\"inline-code\">.github</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
             {
                 "id": "d",
-                "text": "inside a directory named <code class=\"inline-code\">.github/workflow-templates</code>",
+                "text": "inside a directory named <code class=\"inline-code\">.github/org-templates</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             }
         ],
         "correctAnswers": [
-            "a"
+            "c"
         ],
         "explanation": "https://docs.github.com/en/actions/using-workflows/creating-starter-workflows-for-your-organization",
         "multipleSelect": false
@@ -3841,19 +3841,19 @@
             },
             {
                 "id": "b",
-                "text": "<code class=\"inline-code\">issues.comment</code>",
-                "isCodeBlock": false,
-                "hasInlineCode": true
-            },
-            {
-                "id": "c",
                 "text": "<code class=\"inline-code\">issues</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
             {
-                "id": "d",
+                "id": "c",
                 "text": "<code class=\"inline-code\">comment</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "<code class=\"inline-code\">issues.comment</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             }
@@ -3870,13 +3870,13 @@
         "options": [
             {
                 "id": "a",
-                "text": "write",
+                "text": "read",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "b",
-                "text": "read",
+                "text": "write",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
@@ -3894,7 +3894,7 @@
             }
         ],
         "correctAnswers": [
-            "a"
+            "b"
         ],
         "explanation": "https://docs.github.com/en/actions/monitoring-and-troubleshooting-workflows/using-workflow-run-logs",
         "multipleSelect": false
@@ -3905,31 +3905,31 @@
         "options": [
             {
                 "id": "a",
-                "text": "the <code class=\"inline-code\">production-deploy</code> job will be marked as skipped",
-                "isCodeBlock": false,
-                "hasInlineCode": true
-            },
-            {
-                "id": "b",
                 "text": "the <code class=\"inline-code\">production-deploy</code> job will error",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
             {
+                "id": "b",
+                "text": "the <code class=\"inline-code\">production-deploy</code> job will run if the <code class=\"inline-code\">node-version</code> is <code class=\"inline-code\">14</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
                 "id": "c",
-                "text": "the <code class=\"inline-code\">production-deploy</code> job will execute three steps",
+                "text": "the <code class=\"inline-code\">production-deploy</code> job will be marked as skipped",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
             {
                 "id": "d",
-                "text": "the <code class=\"inline-code\">production-deploy</code> job will run if the <code class=\"inline-code\">node-version</code> is <code class=\"inline-code\">14</code>",
+                "text": "the <code class=\"inline-code\">production-deploy</code> job will execute three steps",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             }
         ],
         "correctAnswers": [
-            "a"
+            "c"
         ],
         "explanation": "https://docs.github.com/en/actions/using-jobs/using-conditions-to-control-job-execution",
         "multipleSelect": false
@@ -3940,31 +3940,31 @@
         "options": [
             {
                 "id": "a",
-                "text": "reference variables through the <code class=\"inline-code\">matrix</code> context with syntax like<code class=\"inline-code\">matrix.version</code> and <code class=\"inline-code\">matrix.os</code>",
-                "isCodeBlock": false,
-                "hasInlineCode": true
-            },
-            {
-                "id": "b",
-                "text": "by using the <code class=\"inline-code\">matrix.property</code> syntax",
-                "isCodeBlock": false,
-                "hasInlineCode": true
-            },
-            {
-                "id": "c",
                 "text": "by using the <code class=\"inline-code\">context</code> keyword within the job configuration",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
             {
-                "id": "d",
+                "id": "b",
                 "text": "by accessing the variables directly with the syntax <code class=\"inline-code\">version</code> and <code class=\"inline-code\">os</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
+                "text": "reference variables through the <code class=\"inline-code\">matrix</code> context with syntax like<code class=\"inline-code\">matrix.version</code> and <code class=\"inline-code\">matrix.os</code>",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "by using the <code class=\"inline-code\">matrix.property</code> syntax",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             }
         ],
         "correctAnswers": [
-            "a"
+            "c"
         ],
         "explanation": "https://docs.github.com/en/actions/using-jobs/using-a-matrix-for-your-jobs#using-a-matrix-strategy",
         "multipleSelect": false
@@ -3987,13 +3987,13 @@
             },
             {
                 "id": "c",
-                "text": "admin",
+                "text": "owner",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
                 "id": "d",
-                "text": "owner",
+                "text": "admin",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
@@ -4010,32 +4010,32 @@
         "options": [
             {
                 "id": "a",
-                "text": "When workflow run has been completed",
-                "isCodeBlock": false,
-                "hasInlineCode": false
-            },
-            {
-                "id": "b",
-                "text": "When workflow run is two weeks old",
-                "isCodeBlock": false,
-                "hasInlineCode": false
-            },
-            {
-                "id": "c",
                 "text": "When workflow run is 10 days old",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
-                "id": "d",
+                "id": "b",
+                "text": "When workflow run has been completed",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
                 "text": "When workflow run is in progress",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
+                "text": "When workflow run is two weeks old",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
         ],
         "correctAnswers": [
-            "a",
-            "b"
+            "b",
+            "d"
         ],
         "explanation": "https://docs.github.com/en/actions/managing-workflow-runs/deleting-a-workflow-run",
         "multipleSelect": true
@@ -4081,15 +4081,15 @@
             },
             {
                 "id": "b",
-                "text": "Provide <code class=\"inline-code\">SKIP_WORKFLOW</code> in the commit message",
-                "isCodeBlock": false,
-                "hasInlineCode": true
-            },
-            {
-                "id": "c",
                 "text": "The above workflow will run in every event of push or pull request in every case",
                 "isCodeBlock": false,
                 "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Provide <code class=\"inline-code\">SKIP_WORKFLOW</code> in the commit message",
+                "isCodeBlock": false,
+                "hasInlineCode": true
             }
         ],
         "correctAnswers": [
@@ -4104,31 +4104,31 @@
         "options": [
             {
                 "id": "a",
-                "text": "<code class=\"inline-code\">runs.using</code> has <code class=\"inline-code\">docker</code> as value",
-                "isCodeBlock": false,
-                "hasInlineCode": true
-            },
-            {
-                "id": "b",
-                "text": "<code class=\"inline-code\">runs.using</code> has <code class=\"inline-code\">container</code> as value",
-                "isCodeBlock": false,
-                "hasInlineCode": true
-            },
-            {
-                "id": "c",
                 "text": "<code class=\"inline-code\">runs.using</code> has <code class=\"inline-code\">Dockerfile</code> as value",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
             {
-                "id": "d",
+                "id": "b",
+                "text": "<code class=\"inline-code\">runs.using</code> has <code class=\"inline-code\">docker</code> as value",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
                 "text": "<code class=\"inline-code\">runs.main</code> has <code class=\"inline-code\">container</code> as value",
+                "isCodeBlock": false,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "<code class=\"inline-code\">runs.using</code> has <code class=\"inline-code\">container</code> as value",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             }
         ],
         "correctAnswers": [
-            "a"
+            "b"
         ],
         "explanation": "https://docs.github.com/en/actions/creating-actions/metadata-syntax-for-github-actions#runs-for-docker-container-actions",
         "multipleSelect": false
@@ -4139,7 +4139,7 @@
         "options": [
             {
                 "id": "a",
-                "text": "<pre><code class='language-yaml'>runs:\n      using: 'docker'\n      image: 'Dockerfile'\n      entrypoint: 'entrypoint.sh'\n      post-entrypoint: 'cleanup.sh'</code></pre>",
+                "text": "<pre><code class='language-yaml'>runs:\n      using: 'docker'\n      image: 'Dockerfile'\n      entrypoint: 'entrypoint.sh'\n      cleanup: 'cleanup.sh'</code></pre>",
                 "isCodeBlock": true,
                 "hasInlineCode": true
             },
@@ -4151,25 +4151,25 @@
             },
             {
                 "id": "c",
-                "text": "<pre><code class='language-yaml'>runs:\n      using: 'docker'\n      image: 'Dockerfile'\n      entrypoint: 'entrypoint.sh'\n      after: 'cleanup.sh'</code></pre>",
+                "text": "<pre><code class='language-yaml'>runs:\n      using: 'docker'\n      image: 'Dockerfile'\n      entrypoint: 'entrypoint.sh'\n      post-entrypoint: 'cleanup.sh'</code></pre>",
                 "isCodeBlock": true,
                 "hasInlineCode": true
             },
             {
                 "id": "d",
-                "text": "<pre><code class='language-yaml'>runs:\n      using: 'docker'\n      image: 'Dockerfile'\n      entrypoint: 'entrypoint.sh'\n      after-entrypoint: 'cleanup.sh'</code></pre>",
+                "text": "<pre><code class='language-yaml'>runs:\n      using: 'docker'\n      image: 'Dockerfile'\n      entrypoint: 'entrypoint.sh'\n      after: 'cleanup.sh'</code></pre>",
                 "isCodeBlock": true,
                 "hasInlineCode": true
             },
             {
                 "id": "e",
-                "text": "<pre><code class='language-yaml'>runs:\n      using: 'docker'\n      image: 'Dockerfile'\n      entrypoint: 'entrypoint.sh'\n      cleanup: 'cleanup.sh'</code></pre>",
+                "text": "<pre><code class='language-yaml'>runs:\n      using: 'docker'\n      image: 'Dockerfile'\n      entrypoint: 'entrypoint.sh'\n      after-entrypoint: 'cleanup.sh'</code></pre>",
                 "isCodeBlock": true,
                 "hasInlineCode": true
             }
         ],
         "correctAnswers": [
-            "a"
+            "c"
         ],
         "explanation": "https://docs.github.com/en/actions/creating-actions/metadata-syntax-for-github-actions#runspost-entrypoint",
         "multipleSelect": false
@@ -4180,45 +4180,45 @@
         "options": [
             {
                 "id": "a",
-                "text": "Default environment variables are set by GitHub and not defined in a workflow",
-                "isCodeBlock": false,
-                "hasInlineCode": false
-            },
-            {
-                "id": "b",
-                "text": "Most of the default environment variables have a corresponding context property",
-                "isCodeBlock": false,
-                "hasInlineCode": false
-            },
-            {
-                "id": "c",
-                "text": "Currently, the value of the default CI environment variable can be overwritten, but it's not guaranteed this will always be possible",
-                "isCodeBlock": false,
-                "hasInlineCode": false
-            },
-            {
-                "id": "d",
                 "text": "You can add a new default environment variable adding the prefix \u201cGITHUB_\u201d to it",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
-                "id": "e",
+                "id": "b",
+                "text": "Currently, the value of the default CI environment variable can be overwritten, but it's not guaranteed this will always be possible",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "c",
+                "text": "Default environment variables can be accessed using the env context",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
+                "id": "d",
                 "text": "Default environment variables always have the prefix \u201cGITHUB_\u201d",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             },
             {
+                "id": "e",
+                "text": "Default environment variables are set by GitHub and not defined in a workflow",
+                "isCodeBlock": false,
+                "hasInlineCode": false
+            },
+            {
                 "id": "f",
-                "text": "Default environment variables can be accessed using the env context",
+                "text": "Most of the default environment variables have a corresponding context property",
                 "isCodeBlock": false,
                 "hasInlineCode": false
             }
         ],
         "correctAnswers": [
-            "a",
             "b",
-            "c"
+            "e",
+            "f"
         ],
         "explanation": "https://docs.github.com/en/actions/learn-github-actions/variables#default-environment-variables",
         "multipleSelect": true
@@ -4229,19 +4229,19 @@
         "options": [
             {
                 "id": "a",
-                "text": "The entire workflow, by using <code class=\"inline-code\">env</code> at the top level of the workflow file",
+                "text": "The entire workflow, by using <code class=\"inline-code\">custom.env</code> at the top level of the workflow file",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
             {
                 "id": "b",
-                "text": "The contents of a job within a workflow, by using `jobs.<job_id",
+                "text": "A specific step within a job, by using `jobs.<job_id",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
             {
                 "id": "c",
-                "text": "A specific step within a job, by using `jobs.<job_id",
+                "text": "The entire workflow, by using <code class=\"inline-code\">env</code> at the top level of the workflow file",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
@@ -4253,7 +4253,7 @@
             },
             {
                 "id": "e",
-                "text": "The entire workflow, by using <code class=\"inline-code\">custom.env</code> at the top level of the workflow file",
+                "text": "The contents of a job within a workflow, by using `jobs.<job_id",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
@@ -4265,9 +4265,9 @@
             }
         ],
         "correctAnswers": [
-            "a",
             "b",
-            "c"
+            "c",
+            "e"
         ],
         "explanation": "https://docs.github.com/en/actions/learn-github-actions/variables#defining-environment-variables-for-a-single-workflow",
         "multipleSelect": true
@@ -4278,31 +4278,31 @@
         "options": [
             {
                 "id": "a",
-                "text": "<pre><code class='language-yaml'>with:\n    repository: my-org/my-private-repo\n    path: ./.github/actions/my-org/my-private-repo\n    token: ${{ secrets.MY_ACCESS_TOKEN }}</code></pre>",
-                "isCodeBlock": true,
-                "hasInlineCode": true
-            },
-            {
-                "id": "b",
-                "text": "<pre><code class='language-yaml'>with:\n    repository: my-org/my-private-repo\n    path: ./.github/actions/my-org/my-private-repo\n    token: ${{ MY_ACCESS_TOKEN }}</code></pre>",
-                "isCodeBlock": true,
-                "hasInlineCode": true
-            },
-            {
-                "id": "c",
                 "text": "<pre><code class='language-yaml'>with:\n    repository: my-org/my-private-repo\n    path: ./.github/actions/my-org/my-private-repo\n    token: $GITHUB_TOKEN</code></pre>",
                 "isCodeBlock": true,
                 "hasInlineCode": true
             },
             {
-                "id": "d",
+                "id": "b",
+                "text": "<pre><code class='language-yaml'>with:\n    repository: my-org/my-private-repo\n    path: ./.github/actions/my-org/my-private-repo\n    token: ${{ secrets.MY_ACCESS_TOKEN }}</code></pre>",
+                "isCodeBlock": true,
+                "hasInlineCode": true
+            },
+            {
+                "id": "c",
                 "text": "<pre><code class='language-yaml'>with:\n    repository: my-org/my-private-repo\n    path: ./.github/actions/my-org/my-private-repo</code></pre>",
+                "isCodeBlock": true,
+                "hasInlineCode": true
+            },
+            {
+                "id": "d",
+                "text": "<pre><code class='language-yaml'>with:\n    repository: my-org/my-private-repo\n    path: ./.github/actions/my-org/my-private-repo\n    token: ${{ MY_ACCESS_TOKEN }}</code></pre>",
                 "isCodeBlock": true,
                 "hasInlineCode": true
             }
         ],
         "correctAnswers": [
-            "a"
+            "b"
         ],
         "explanation": "https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions#example-using-an-action-inside-a-different-private-repository-than-the-workflow",
         "multipleSelect": false
