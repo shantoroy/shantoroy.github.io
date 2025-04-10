@@ -4235,7 +4235,7 @@
             },
             {
                 "id": "b",
-                "text": "A specific step within a job, by using `jobs.<job_id",
+                "text": "A specific step within a job, by using <code class=\"inline-code\">jobs.<job_id></code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
@@ -4253,13 +4253,13 @@
             },
             {
                 "id": "e",
-                "text": "The contents of a job within a workflow, by using `jobs.<job_id",
+                "text": "The contents of a job within a workflow, by using <code class=\"inline-code\">jobs.<job_id></code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
             {
                 "id": "f",
-                "text": "A specific environment in the repository, by using `environment.<environment_id",
+                "text": "A specific environment in the repository, by using <code class=\"inline-code\">environment.<environment_id</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             }
