@@ -1231,7 +1231,7 @@
             },
             {
                 "id": "b",
-                "text": "`echo \"DOG=PET\"",
+                "text": "<code class=\"inline-code\">echo \"DOG=PET\" >> \"$GITHUB_OUTPUT\"</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
@@ -1243,7 +1243,7 @@
             },
             {
                 "id": "d",
-                "text": "`echo \"PET=DOG\"",
+                "text": "<code class=\"inline-code\">echo \"PET=DOG\" >> \"$GITHUB_OUTPUT\"</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             }
@@ -2142,7 +2142,7 @@
             },
             {
                 "id": "c",
-                "text": "`echo \"Watch out here!\"",
+                "text": "<code class=\"inline-code\">echo \"Watch out here!\"  >> $GITHUB_DEBUG</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             },
@@ -3538,7 +3538,7 @@
             },
             {
                 "id": "d",
-                "text": "`jobs.<job_id",
+                "text": "<code class=\"inline-code\">jobs.<job_id>.result</code>",
                 "isCodeBlock": false,
                 "hasInlineCode": true
             }
