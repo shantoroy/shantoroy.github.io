@@ -1,6 +1,9 @@
 # main links
 main:
   - title: "Home"
+    url: /
+  - title: "Blog"
+    url: /blog/
   # - title: "Portfolio"
   #   url: /profile/experience/
   - title: "About"

@@ -1,4 +1,573 @@
 ---
-layout: home
-author_profile: true
+layout: null
+title: "Shanto Roy — AI Security Engineer"
+description: "Shanto Roy is an AI Security Engineer (PhD, Cybersecurity) securing enterprise LLM, agentic AI and MCP platforms."
 ---
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shanto Roy — AI Security Engineer</title>
+  <meta name="description" content="Shanto Roy is an AI Security Engineer (PhD, Cybersecurity) securing enterprise LLM, agentic AI and MCP platforms.">
+  <link rel="canonical" href="{{ '/' | absolute_url }}">
+  <meta property="og:title" content="Shanto Roy — AI Security Engineer">
+  <meta property="og:description" content="Securing enterprise LLM, agentic AI and MCP platforms. PhD in Cybersecurity.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ '/' | absolute_url }}">
+  <meta property="og:image" content="{{ '/resume/img/shanto-roy.png' | absolute_url }}">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#0b1020">
+  <link rel="icon" href="/assets/images/sroy.png">
+  <link rel="alternate" type="application/atom+xml" href="{{ '/feed.xml' | relative_url }}" title="Roy's Blog">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Shanto Roy",
+    "jobTitle": "AI Security Engineer",
+    "worksFor": {"@type": "Organization", "name": "Charles Schwab"},
+    "url": "https://shantoroy.com",
+    "email": "mailto:shantoroy@ieee.org",
+    "sameAs": ["https://www.linkedin.com/in/shanto-roy/", "https://github.com/shantoroy", "https://scholar.google.com/citations?user=OMGYMbwAAAAJ&hl=en"]
+  }
+  </script>
+  <style>
+    :root {
+      --bg: #0b1020; --bg2: #0f1630; --card: rgba(255,255,255,.04); --border: rgba(255,255,255,.09);
+      --text: #e6e9f5; --muted: #99a1be; --accent: #7c8cff; --accent2: #22d3ee; --accent3: #a78bfa;
+      --grad: linear-gradient(120deg, var(--accent2), var(--accent) 50%, var(--accent3));
+      --shadow: 0 10px 40px rgba(0,0,0,.35);
+    }
+    [data-theme="light"] {
+      --bg: #f6f7fb; --bg2: #ffffff; --card: #ffffff; --border: rgba(15,22,48,.1);
+      --text: #12182f; --muted: #576080; --accent: #4f5fe8; --accent2: #0891b2; --accent3: #7c3aed;
+      --shadow: 0 10px 30px rgba(15,22,48,.08);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; scroll-padding-top: 80px; }
+    body { font-family: Inter, system-ui, -apple-system, "Segoe UI", sans-serif; background: var(--bg); color: var(--text); line-height: 1.65; -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+    a { color: inherit; text-decoration: none; }
+    ul { list-style: none; }
+    .wrap { max-width: 1120px; margin: 0 auto; padding: 0 24px; }
+    section { padding: 96px 0; position: relative; }
+    .mono { font-family: "JetBrains Mono", ui-monospace, monospace; }
+    .grad { background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+
+    /* background glow */
+    .glow { position: fixed; inset: 0; z-index: -1; pointer-events: none;
+      background: radial-gradient(600px 400px at 85% 5%, rgba(124,140,255,.18), transparent 60%),
+                  radial-gradient(500px 400px at 5% 35%, rgba(34,211,238,.10), transparent 60%),
+                  radial-gradient(500px 500px at 70% 95%, rgba(167,139,250,.12), transparent 60%); }
+
+    /* nav */
+    header.nav { position: fixed; top: 0; left: 0; right: 0; z-index: 50; backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); background: color-mix(in srgb, var(--bg) 70%, transparent); border-bottom: 1px solid var(--border); }
+    .nav .wrap { display: flex; align-items: center; justify-content: space-between; height: 64px; }
+    .logo { font-weight: 800; letter-spacing: -.02em; font-size: 1.1rem; }
+    .logo span { color: var(--accent2); }
+    .links { display: flex; gap: 6px; align-items: center; }
+    .links a { padding: 6px 12px; border-radius: 8px; font-size: .92rem; color: var(--muted); transition: .2s; }
+    .links a:hover, .links a.active { color: var(--text); background: var(--card); }
+    .links a.cta { color: #fff; background: var(--grad); font-weight: 600; }
+    .icon-btn { background: var(--card); border: 1px solid var(--border); color: var(--text); width: 36px; height: 36px; border-radius: 10px; cursor: pointer; font-size: 1rem; }
+    .burger { display: none; }
+
+    /* hero */
+    .hero { min-height: 100vh; display: flex; align-items: center; padding-top: 120px; }
+    .hero .wrap { display: grid; grid-template-columns: 1.4fr 1fr; gap: 56px; align-items: center; }
+    .pill { display: inline-flex; align-items: center; gap: 8px; padding: 6px 14px; border: 1px solid var(--border); background: var(--card); border-radius: 999px; font-size: .82rem; color: var(--muted); }
+    .dot { width: 8px; height: 8px; background: #34d399; border-radius: 50%; box-shadow: 0 0 0 4px rgba(52,211,153,.2); }
+    h1 { font-size: clamp(2.6rem, 6vw, 4.4rem); line-height: 1.05; letter-spacing: -.035em; font-weight: 800; margin: 22px 0 14px; }
+    .role { font-size: clamp(1.1rem, 2.2vw, 1.45rem); color: var(--muted); min-height: 2em; }
+    .role b { color: var(--text); font-weight: 600; }
+    .caret { display: inline-block; width: 2px; height: 1.1em; background: var(--accent2); margin-left: 3px; vertical-align: -3px; animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    .lede { max-width: 580px; margin: 22px 0 32px; color: var(--muted); font-size: 1.05rem; }
+    .btns { display: flex; flex-wrap: wrap; gap: 12px; }
+    .btn { display: inline-flex; align-items: center; gap: 8px; padding: 12px 22px; border-radius: 12px; font-weight: 600; font-size: .95rem; border: 1px solid var(--border); background: var(--card); transition: .2s; cursor: pointer; }
+    .btn:hover { transform: translateY(-2px); border-color: var(--accent); }
+    .btn.primary { background: var(--grad); color: #fff; border: 0; box-shadow: 0 8px 28px rgba(124,140,255,.35); }
+    .socials { display: flex; gap: 10px; margin-top: 30px; flex-wrap: wrap; }
+    .socials a { width: 42px; height: 42px; display: grid; place-items: center; border-radius: 12px; border: 1px solid var(--border); background: var(--card); transition: .2s; }
+    .socials a:hover { transform: translateY(-3px); border-color: var(--accent2); color: var(--accent2); }
+    .socials svg { width: 19px; height: 19px; fill: currentColor; }
+    .photo { position: relative; justify-self: center; width: min(340px, 80vw); aspect-ratio: 1; }
+    .photo::before { content: ""; position: absolute; inset: -14px; border-radius: 50%; background: conic-gradient(from 0deg, var(--accent2), var(--accent), var(--accent3), var(--accent2)); filter: blur(22px); opacity: .55; animation: spin 14s linear infinite; }
+    .photo img { position: relative; width: 100%; height: 100%; object-fit: cover; border-radius: 50%; border: 4px solid var(--bg); box-shadow: var(--shadow); }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .chip-float { position: absolute; background: var(--bg2); border: 1px solid var(--border); border-radius: 12px; padding: 8px 14px; font-size: .78rem; box-shadow: var(--shadow); font-weight: 600; }
+    .chip-float.a { top: 6%; right: -8%; } .chip-float.b { bottom: 8%; left: -10%; }
+
+    /* stats */
+    .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-top: 72px; grid-column: 1 / -1; }
+    .stat { padding: 22px; border-radius: 16px; background: var(--card); border: 1px solid var(--border); text-align: center; }
+    .stat b { display: block; font-size: 2rem; font-weight: 800; letter-spacing: -.02em; }
+    .stat span { font-size: .85rem; color: var(--muted); }
+
+    /* headings */
+    .eyebrow { font-size: .8rem; letter-spacing: .14em; text-transform: uppercase; color: var(--accent2); font-weight: 600; }
+    h2 { font-size: clamp(1.9rem, 4vw, 2.7rem); letter-spacing: -.03em; line-height: 1.15; margin: 8px 0 44px; font-weight: 800; }
+    .alt { background: linear-gradient(180deg, transparent, color-mix(in srgb, var(--bg2) 60%, transparent), transparent); }
+
+    /* cards */
+    .grid { display: grid; gap: 20px; }
+    .g2 { grid-template-columns: repeat(2, 1fr); } .g3 { grid-template-columns: repeat(3, 1fr); }
+    .card { background: var(--card); border: 1px solid var(--border); border-radius: 18px; padding: 26px; transition: .25s; position: relative; overflow: hidden; }
+    .card:hover { transform: translateY(-4px); border-color: color-mix(in srgb, var(--accent) 60%, transparent); box-shadow: var(--shadow); }
+    .card h3 { font-size: 1.08rem; margin-bottom: 8px; letter-spacing: -.01em; }
+    .card p, .card li { color: var(--muted); font-size: .94rem; }
+    .card .ico { font-size: 1.6rem; margin-bottom: 14px; display: block; }
+    .tag { display: inline-block; font-size: .74rem; padding: 3px 10px; border-radius: 999px; background: color-mix(in srgb, var(--accent) 16%, transparent); color: var(--accent); margin: 14px 6px 0 0; font-weight: 500; }
+    .card a.more { display: inline-block; margin-top: 14px; color: var(--accent2); font-weight: 600; font-size: .9rem; }
+    .card a.more:hover { text-decoration: underline; }
+
+    /* about */
+    .about { display: grid; grid-template-columns: 1.3fr 1fr; gap: 40px; align-items: start; }
+    .about p { color: var(--muted); margin-bottom: 16px; font-size: 1.02rem; }
+    .about p strong { color: var(--text); }
+    .facts li { display: flex; gap: 12px; padding: 12px 0; border-bottom: 1px dashed var(--border); font-size: .94rem; }
+    .facts li:last-child { border: 0; }
+    .facts em { font-style: normal; color: var(--accent2); min-width: 92px; font-weight: 600; }
+    .facts span { color: var(--muted); }
+
+    /* timeline */
+    .timeline { position: relative; padding-left: 32px; }
+    .timeline::before { content: ""; position: absolute; left: 7px; top: 8px; bottom: 8px; width: 2px; background: linear-gradient(var(--accent2), var(--accent3), transparent); }
+    .job { position: relative; margin-bottom: 26px; }
+    .job::before { content: ""; position: absolute; left: -32px; top: 28px; width: 16px; height: 16px; border-radius: 50%; background: var(--bg); border: 3px solid var(--accent2); }
+    .job.now::before { background: var(--accent2); box-shadow: 0 0 0 6px rgba(34,211,238,.2); }
+    .job header { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 6px 16px; margin-bottom: 4px; }
+    .job h3 { margin: 0; font-size: 1.15rem; }
+    .job .when { font-size: .82rem; color: var(--accent2); }
+    .job .org { color: var(--muted); font-size: .92rem; margin-bottom: 10px; }
+    .job ul { margin-top: 6px; }
+    .job li { position: relative; padding-left: 18px; margin: 5px 0; }
+    .job li::before { content: "▹"; position: absolute; left: 0; color: var(--accent); }
+    .job h4 { font-size: .8rem; text-transform: uppercase; letter-spacing: .08em; color: var(--text); margin-top: 14px; }
+
+    /* skills */
+    .skill h3 { display: flex; align-items: center; gap: 10px; }
+    .skill .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+    .chips span { font-size: .82rem; padding: 5px 12px; border-radius: 8px; border: 1px solid var(--border); background: color-mix(in srgb, var(--bg) 50%, transparent); color: var(--text); }
+
+    /* certs / awards */
+    .cert { display: flex; gap: 14px; align-items: center; padding: 18px 20px; }
+    .cert .yr { font-size: .78rem; color: var(--accent2); min-width: 40px; }
+    .cert b { font-size: .95rem; font-weight: 600; }
+    .cert small { display: block; color: var(--muted); font-size: .78rem; }
+
+    /* pubs */
+    .pub { display: block; }
+    .pub .venue { font-size: .78rem; color: var(--accent2); font-weight: 600; margin-bottom: 8px; display: block; }
+
+    /* blog */
+    .post .date { font-size: .78rem; color: var(--accent2); }
+    .post h3 { margin: 6px 0 8px; }
+
+    /* contact */
+    .contact { text-align: center; }
+    .contact .box { padding: 56px 24px; border-radius: 26px; border: 1px solid var(--border); background: linear-gradient(135deg, color-mix(in srgb, var(--accent) 16%, transparent), color-mix(in srgb, var(--accent2) 8%, transparent)); }
+    .contact h2 { margin-bottom: 14px; }
+    .contact p { color: var(--muted); max-width: 520px; margin: 0 auto 28px; }
+    .contact .btns { justify-content: center; }
+    footer { padding: 32px 0 48px; text-align: center; color: var(--muted); font-size: .85rem; }
+
+    /* reveal */
+    .reveal { opacity: 0; transform: translateY(24px); transition: opacity .7s ease, transform .7s ease; }
+    .reveal.in { opacity: 1; transform: none; }
+    @media (prefers-reduced-motion: reduce) { .reveal { opacity: 1; transform: none; transition: none; } .photo::before { animation: none; } html { scroll-behavior: auto; } }
+
+    @media (max-width: 900px) {
+      section { padding: 72px 0; }
+      .hero .wrap, .about { grid-template-columns: 1fr; }
+      .photo { order: -1; width: 220px; }
+      .g3, .g2 { grid-template-columns: 1fr; }
+      .stats { grid-template-columns: repeat(2, 1fr); margin-top: 40px; }
+      .burger { display: inline-block; }
+      .links { position: absolute; top: 64px; left: 0; right: 0; flex-direction: column; align-items: stretch; background: var(--bg2); padding: 12px 24px 20px; border-bottom: 1px solid var(--border); display: none; }
+      .links.open { display: flex; }
+    }
+  </style>
+</head>
+<body>
+<div class="glow"></div>
+
+<header class="nav">
+  <div class="wrap">
+    <a href="#top" class="logo">shanto<span>.</span>roy</a>
+    <nav class="links" id="links">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#research">Research</a>
+      <a href="#blog">Blog</a>
+      <a href="/blog/" class="cta">Visit Blog →</a>
+    </nav>
+    <div style="display:flex;gap:8px">
+      <button class="icon-btn" id="theme" aria-label="Toggle theme">☾</button>
+      <button class="icon-btn burger" id="burger" aria-label="Menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <span class="pill"><i class="dot"></i> AI Platform Security Engineer @ Charles Schwab</span>
+        <h1>Hi, I'm <span class="grad">Shanto Roy</span></h1>
+        <p class="role mono"><b id="typed"></b><span class="caret"></span></p>
+        <p class="lede">PhD in Cybersecurity turned enterprise AI security engineer. I design guardrails, monitoring and governance so organizations can adopt LLMs, agents and MCP safely — blending academic security research with hands-on SRE operations.</p>
+        <div class="btns">
+          <a class="btn primary" href="/resume/docs/Shanto_Roy_AI_Security_Engineer_2026.pdf" target="_blank" rel="noopener">⬇ Download Resume</a>
+          <a class="btn" href="#projects">View Projects</a>
+          <a class="btn" href="mailto:shantoroy@ieee.org">✉ Get in touch</a>
+        </div>
+        <div class="socials">
+          <a href="https://www.linkedin.com/in/shanto-roy/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M4.98 3.5a2.5 2.5 0 11-.02 5 2.5 2.5 0 01.02-5zM3 9.75h4V21H3zM9.5 9.75h3.8v1.54h.05c.53-1 1.82-2.04 3.75-2.04 4 0 4.75 2.63 4.75 6.05V21h-4v-4.9c0-1.17 0-2.67-1.63-2.67s-1.87 1.27-1.87 2.59V21h-4z"/></svg></a>
+          <a href="https://github.com/shantoroy" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 24 24"><path d="M12 .5a11.5 11.5 0 00-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 015.78 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.42-2.69 5.39-5.25 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0012 .5z"/></svg></a>
+          <a href="https://scholar.google.com/citations?user=OMGYMbwAAAAJ&hl=en" target="_blank" rel="noopener" aria-label="Google Scholar"><svg viewBox="0 0 24 24"><path d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9zm6.82 6L12 12.72 5.18 9 12 5.28zM17 16l-5 2.72L7 16v-3.73L12 15l5-2.73z"/></svg></a>
+          <a href="https://www.credly.com/users/shantoroy" target="_blank" rel="noopener" aria-label="Credly"><svg viewBox="0 0 24 24"><path d="M12 2l2.4 1.9 3-.3 1 2.9 2.7 1.4-.6 3 1.6 2.6-2 2.3.1 3.1-3 .7-1.7 2.5L12 20.9 9.5 22l-1.7-2.5-3-.7.1-3.1-2-2.3 1.6-2.6-.6-3 2.7-1.4 1-2.9 3 .3zm-1.3 12.3l5-5-1.4-1.4-3.6 3.6-1.6-1.6-1.4 1.4z"/></svg></a>
+          <a href="/blog/" aria-label="Blog"><svg viewBox="0 0 24 24"><path d="M4 4h16v16H4zm3 4v2h10V8zm0 4v2h10v-2zm0 4v2h6v-2z"/></svg></a>
+        </div>
+      </div>
+      <div class="photo">
+        <img src="/resume/img/shanto-roy.png" alt="Portrait of Shanto Roy" width="340" height="340">
+        <span class="chip-float a">🛡️ LLM &amp; Agent Security</span>
+        <span class="chip-float b">🎓 PhD · Cyber Security</span>
+      </div>
+      <div class="stats">
+        <div class="stat"><b class="grad" data-count="10" data-suffix="+">0</b><span>AI security vendors evaluated</span></div>
+        <div class="stat"><b class="grad" data-count="50" data-suffix="+">0</b><span>Applications supported as SRE</span></div>
+        <div class="stat"><b class="grad" data-count="6">0</b><span>Industry certifications</span></div>
+        <div class="stat"><b class="grad" data-count="6" data-suffix="+">0</b><span>Peer-reviewed security papers</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="alt">
+    <div class="wrap about reveal">
+      <div>
+        <div class="eyebrow">About me</div>
+        <h2>Research-driven security, <span class="grad">production-grade</span> operations</h2>
+        <p>I'm an <strong>AI Platform Security Engineer at Charles Schwab</strong> focused on securing enterprise AI platforms — guardrail and policy design, OWASP AI risk assessment, AI traffic and agent monitoring, and governance for LLMs, agents and MCP.</p>
+        <p>I came to this role through a <strong>PhD in Computer Science (Cyber Security)</strong> at the University of Houston, where I researched cyber deception, adversarial reconnaissance and IoT security, and through years of running production infrastructure as a <strong>Site Reliability Engineer</strong>.</p>
+        <p>That mix of research rigor, hands-on infrastructure and vendor evaluation helps me build AI systems that are secure, observable and governed at scale. Outside of work I write on this site's <a href="/blog/" style="color:var(--accent2)">blog</a> about Linux, security, DevOps and travel.</p>
+      </div>
+      <div class="card">
+        <ul class="facts">
+          <li><em>Role</em><span>AI Platform Security Engineer</span></li>
+          <li><em>Company</em><span>Charles Schwab · Texas, USA</span></li>
+          <li><em>Education</em><span>PhD &amp; MS, Univ. of Houston</span></li>
+          <li><em>Focus</em><span>LLM, Agentic &amp; MCP Security</span></li>
+          <li><em>Email</em><span><a href="mailto:shantoroy@ieee.org">shantoroy@ieee.org</a></span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOCUS -->
+  <section>
+    <div class="wrap">
+      <div class="reveal">
+        <div class="eyebrow">What I do</div>
+        <h2>Securing the AI stack, end to end</h2>
+      </div>
+      <div class="grid g3 reveal">
+        <div class="card"><span class="ico">🧱</span><h3>AI Guardrail Architecture</h3><p>Policies for LLM, MCP and agent guardrails — input validation, output evaluation/filtering, and controlled access and context boundaries.</p></div>
+        <div class="card"><span class="ico">👁️</span><h3>Shadow AI &amp; MCP Visibility</h3><p>Visibility and control over agents, harnesses, MCPs and skills across SaaS apps, endpoints and enterprise infrastructure.</p></div>
+        <div class="card"><span class="ico">🚨</span><h3>Detection &amp; Response</h3><p>Monitoring AI API traffic through centralized logging, SIEM and zero-trust platforms, partnering with DLP and Insider Risk teams.</p></div>
+        <div class="card"><span class="ico">⚖️</span><h3>AI Governance</h3><p>Access control, auditability and data boundaries; secure onboarding and lifecycle management of enterprise AI tools.</p></div>
+        <div class="card"><span class="ico">🔬</span><h3>Vendor &amp; Risk Assessment</h3><p>Evaluated 10+ industry-leading AI security products and assessed AI applications against OWASP AI risks.</p></div>
+        <div class="card"><span class="ico">⚙️</span><h3>Resilient Infrastructure</h3><p>Hardened Red Hat and Windows estates, vulnerability remediation, observability and automation with Python, Shell and Salt.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="alt">
+    <div class="wrap">
+      <div class="reveal">
+        <div class="eyebrow">Career</div>
+        <h2>Experience</h2>
+      </div>
+      <div class="timeline">
+        <article class="card job now reveal">
+          <header><h3>AI Platform Security Engineer</h3><span class="when mono">Jan 2026 – Present</span></header>
+          <div class="org">Charles Schwab · Texas, USA</div>
+          <h4>Shadow AI &amp; MCP security control</h4>
+          <ul>
+            <li>Manage Shadow AI and agentic (harness, agents, MCPs, skills) visibility and guardrails across SaaS, endpoints and infrastructure</li>
+            <li>Evaluated 10+ industry-leading AI security vendor products and provided recommendations</li>
+          </ul>
+          <h4>AI guardrail architecture</h4>
+          <ul>
+            <li>Designed LLM/MCP/agent guardrail policies covering input validation and output filtering</li>
+            <li>Enforced controlled agent/MCP access and context boundaries aligned to enterprise policy</li>
+          </ul>
+          <h4>Monitoring, detection &amp; governance</h4>
+          <ul>
+            <li>Monitored AI API traffic via centralized logging and SIEM/zero-trust platforms; partnered with DLP and Insider Risk teams</li>
+            <li>Supported AI governance: access control, auditability, data boundaries and secure onboarding of AI apps</li>
+          </ul>
+        </article>
+        <article class="card job reveal">
+          <header><h3>Site Reliability Engineer</h3><span class="when mono">Jun 2024 – Jan 2026 · Intern Jun – Aug 2023</span></header>
+          <div class="org">Charles Schwab · Texas, USA</div>
+          <ul>
+            <li>Managed Red Hat and Windows servers across dev, non-prod and production for 50+ applications</li>
+            <li>Ran vulnerability assessments and patching, disaster recovery, load testing, capacity planning and on-call support</li>
+            <li>Built documentation, runbooks, monitoring and Python/Shell/PowerShell/Salt automation; mentored interns</li>
+            <li>Built a RAG AI chatbot PoC that helps SREs find critical information faster and reduce MTTR</li>
+          </ul>
+        </article>
+        <article class="card job reveal">
+          <header><h3>Research &amp; Teaching Assistant</h3><span class="when mono">Aug 2019 – May 2024</span></header>
+          <div class="org">University of Houston · Texas, USA</div>
+          <ul>
+            <li>Researched cyber deception and reconnaissance for threat detection and defense; published 6+ manuscripts</li>
+            <li>Collaborated on 5+ projects spanning MITRE ATT&amp;CK, cloud data security and IoT security</li>
+            <li>Used REST APIs, PostgreSQL and Grafana for 10+ large-scale IoT ecosystem projects</li>
+          </ul>
+        </article>
+        <article class="card job reveal">
+          <header><h3>Lecturer → Senior Lecturer</h3><span class="when mono">2016 – 2019</span></header>
+          <div class="org">Green University of Bangladesh</div>
+          <ul>
+            <li>Taught CSE courses, supervised student research, developed curricula and led the student mentorship program</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="wrap">
+      <div class="reveal">
+        <div class="eyebrow">Selected work</div>
+        <h2>Projects</h2>
+      </div>
+      <div class="grid g2 reveal">
+        <div class="card">
+          <span class="ico">🤖</span><h3>RAG Chatbot (Local LLMs)</h3>
+          <p>A retrieval-augmented question-answering system that lets users query their documents in natural language. Uses local LLMs through Ollama for privacy and performance, with a full-stack chat interface.</p>
+          <span class="tag">Python</span><span class="tag">RAG</span><span class="tag">Ollama</span><span class="tag">Full-stack</span><br>
+          <a class="more" href="https://github.com/shantoroy/rag-chatbot-python-fullstack-template" target="_blank" rel="noopener">View on GitHub →</a>
+        </div>
+        <div class="card">
+          <span class="ico">🔌</span><h3>Model Context Protocol (MCP)</h3>
+          <p>Hands-on work with local MCP servers for tool integration, context retrieval and secure interaction patterns, including a Python MCP registry.</p>
+          <span class="tag">MCP</span><span class="tag">Agents</span><span class="tag">Secure tooling</span><br>
+          <a class="more" href="https://github.com/shantoroy?tab=repositories" target="_blank" rel="noopener">Browse repositories →</a>
+        </div>
+        <div class="card">
+          <span class="ico">🛠️</span><h3>AI Chatbot for Operations</h3>
+          <p>A RAG PoC for SREs to reach critical information from documentation and logs faster, letting engineers focus on process over data source and reducing time-to-resolution during incidents.</p>
+          <span class="tag">RAG</span><span class="tag">SRE</span><span class="tag">MTTR</span>
+        </div>
+        <div class="card">
+          <span class="ico">🏗️</span><h3>Infrastructure Security Program</h3>
+          <p>Data center/cloud migration of 5+ applications, a team infra inventory, an activity calendar for patching and releases, and vulnerability compliance insights across 50+ applications.</p>
+          <span class="tag">Compliance</span><span class="tag">Migration</span><span class="tag">Automation</span>
+        </div>
+        <div class="card">
+          <span class="ico">🎭</span><h3>Cyber Deception &amp; Reconnaissance</h3>
+          <p>A taxonomy of adversarial reconnaissance and a deception framework combining semi-indistinguishable honeypots with attacker redirection.</p>
+          <span class="tag">Honeypots</span><span class="tag">Game theory</span><span class="tag">Threat intel</span><br>
+          <a class="more" href="https://arxiv.org/pdf/2105.04749.pdf" target="_blank" rel="noopener">Read the paper →</a>
+        </div>
+        <div class="card">
+          <span class="ico">🧭</span><h3>MITRE ATT&amp;CK Use Cases</h3>
+          <p>Surveyed how the ATT&amp;CK framework is used in threat intelligence, intrusion detection, offensive security and cyber risk assessment.</p>
+          <span class="tag">MITRE ATT&amp;CK</span><span class="tag">Survey</span><br>
+          <a class="more" href="https://arxiv.org/pdf/2304.07411.pdf" target="_blank" rel="noopener">Read the paper →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="alt">
+    <div class="wrap">
+      <div class="reveal">
+        <div class="eyebrow">Toolbox</div>
+        <h2>Skills &amp; Certifications</h2>
+      </div>
+      <div class="grid g3 reveal">
+        <div class="card skill"><h3>🤖 AI Security</h3><div class="chips"><span>LLM Security</span><span>AI Guardrails</span><span>Agentic Security</span><span>MCP Security</span><span>AI Governance</span><span>OWASP AI</span></div></div>
+        <div class="card skill"><h3>🛡️ Security Operations</h3><div class="chips"><span>SIEM</span><span>SOAR</span><span>EDR</span><span>Security Monitoring</span><span>Threat Detection</span><span>MITRE ATT&amp;CK</span></div></div>
+        <div class="card skill"><h3>🧰 Platforms</h3><div class="chips"><span>CrowdStrike</span><span>Zscaler</span><span>Google Chronicle</span><span>ExtraHop</span><span>Grafana</span><span>Splunk</span></div></div>
+        <div class="card skill"><h3>☁️ Cloud &amp; DevOps</h3><div class="chips"><span>GCP</span><span>AWS</span><span>Kubernetes</span><span>Docker</span><span>Terraform</span><span>Ansible</span></div></div>
+        <div class="card skill"><h3>💻 Programming</h3><div class="chips"><span>Python</span><span>Bash</span><span>SQL</span><span>PowerShell</span><span>Salt</span></div></div>
+        <div class="card skill"><h3>🔬 Research</h3><div class="chips"><span>Cyber Deception</span><span>Game Theory</span><span>IoT Security</span><span>Technical Writing</span></div></div>
+      </div>
+      <div class="grid g3 reveal" style="margin-top:20px">
+        <div class="card cert"><span class="yr mono">2025</span><div><b>AWS AI Practitioner</b><small>Amazon Web Services</small></div></div>
+        <div class="card cert"><span class="yr mono">2025</span><div><b>Professional Scrum Master I</b><small>Scrum.org</small></div></div>
+        <div class="card cert"><span class="yr mono">2024</span><div><b>GCP Associate Cloud Engineer</b><small>Google Cloud</small></div></div>
+        <div class="card cert"><span class="yr mono">2017</span><div><b>RHCSA in Red Hat OpenStack</b><small>Red Hat</small></div></div>
+        <div class="card cert"><span class="yr mono">2016</span><div><b>Red Hat Certified Engineer</b><small>Red Hat</small></div></div>
+        <div class="card cert"><span class="yr mono">2016</span><div><b>Red Hat Certified System Admin</b><small>Red Hat</small></div></div>
+      </div>
+      <p class="reveal" style="margin-top:18px;text-align:center"><a class="more" style="color:var(--accent2);font-weight:600" href="https://www.credly.com/users/shantoroy" target="_blank" rel="noopener">Verify badges on Credly →</a></p>
+    </div>
+  </section>
+
+  <!-- RESEARCH & EDUCATION -->
+  <section id="research">
+    <div class="wrap">
+      <div class="reveal">
+        <div class="eyebrow">Academia</div>
+        <h2>Education &amp; Research</h2>
+      </div>
+      <div class="grid g2 reveal">
+        <div class="card">
+          <span class="ico">🎓</span><h3>University of Houston</h3>
+          <p><b style="color:var(--text)">Ph.D. in Computer Science (Cyber Security)</b> — May 2024<br><span class="mono" style="font-size:.8rem;color:var(--accent2)">Aug 2019 – May 2024</span></p>
+          <p style="margin-top:10px">Labs: Resilient Network and Systems Lab (Dr. Aron Laszka) and Networked Systems Laboratory (Dr. Omprakash Gnawali).</p>
+          <a class="more" href="https://scholar.google.com/citations?user=OMGYMbwAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar profile →</a>
+        </div>
+        <div class="card">
+          <span class="ico">📚</span><h3>Jahangirnagar University</h3>
+          <p><b style="color:var(--text)">MS &amp; BSc in Information Technology</b><br><span class="mono" style="font-size:.8rem;color:var(--accent2)">2011 – 2016</span></p>
+          <p style="margin-top:10px">MS thesis on efficient data confidentiality in the cloud; ICT Research Fellowship from the Government of Bangladesh.</p>
+        </div>
+      </div>
+      <div class="grid g3 reveal" style="margin-top:20px">
+        <a class="card pub" href="https://arxiv.org/pdf/2304.07411.pdf" target="_blank" rel="noopener"><span class="venue mono">arXiv · 2023</span><h3>MITRE ATT&amp;CK: State of the Art and Way Forward</h3><p>Use cases of ATT&amp;CK across threat intelligence, detection and risk assessment.</p></a>
+        <a class="card pub" href="https://arxiv.org/pdf/2105.04749.pdf" target="_blank" rel="noopener"><span class="venue mono">ACM Computing Surveys · 2023</span><h3>Survey and Taxonomy of Adversarial Reconnaissance Techniques</h3><p>A taxonomy of techniques attackers use to gather information before an attack.</p></a>
+        <a class="card pub" href="https://arxiv.org/pdf/2306.06769" target="_blank" rel="noopener"><span class="venue mono">arXiv · 2023</span><h3>Cyber Reconnaissance Modeling</h3><p>A probability-based model of adversary belief formation for deception games.</p></a>
+        <a class="card pub" href="https://arxiv.org/pdf/2109.07724.pdf" target="_blank" rel="noopener"><span class="venue mono">arXiv · 2021</span><h3>IoT Remote Attestation &amp; Security Game</h3><p>Game theory applied to ARM-based IoT vulnerability, exploitation and attestation.</p></a>
+        <a class="card pub" href="https://aronlaszka.com/papers/kiekintveld2023strategic.pdf" target="_blank" rel="noopener"><span class="venue mono">Paper · 2023</span><h3>Strategic Cyber Camouflage</h3><p>Autonomous cyber defense agents optimizing decoys using game theory and ML.</p></a>
+        <a class="card pub" href="https://arxiv.org/pdf/1905.08833.pdf" target="_blank" rel="noopener"><span class="venue mono">WTSC · 2019</span><h3>Smart Contract Development: Topics &amp; Issues</h3><p>Analysis of developer discussions on security tools and attacks in smart contracts.</p></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- AWARDS -->
+  <section class="alt">
+    <div class="wrap">
+      <div class="reveal">
+        <div class="eyebrow">Recognition</div>
+        <h2>Awards &amp; Honors</h2>
+      </div>
+      <div class="grid g3 reveal">
+        <div class="card"><span class="ico">🏆</span><h3>Cyber Range Hackathon</h3><p>Top 10 out of 70+ teams at Charles Schwab's cybersecurity hackathon in both 2024 and 2025.</p></div>
+        <div class="card"><span class="ico">⭐</span><h3>Schwab Recognition</h3><p>Two quarterly org-wide recognitions and seven team monthly shout-outs.</p></div>
+        <div class="card"><span class="ico">📝</span><h3>Reviewer</h3><p>Peer reviewer for IEEE Communications Surveys &amp; Tutorials, IEEE Access, and the Journal of Network and Computer Applications.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BLOG -->
+  <section id="blog">
+    <div class="wrap">
+      <div class="reveal" style="display:flex;justify-content:space-between;align-items:end;flex-wrap:wrap;gap:12px">
+        <div>
+          <div class="eyebrow">Writing</div>
+          <h2 style="margin-bottom:28px">Latest from the blog</h2>
+        </div>
+        <a class="btn" href="/blog/" style="margin-bottom:28px">All posts →</a>
+      </div>
+      <div class="grid g3 reveal">
+        {% for post in site.posts limit:3 %}
+        <a class="card post" href="{{ post.url | relative_url }}">
+          <span class="date mono">{{ post.date | date: "%b %-d, %Y" }}</span>
+          <h3>{{ post.title }}</h3>
+          <p>{{ post.excerpt | strip_html | truncatewords: 24 }}</p>
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <div class="wrap reveal">
+      <div class="box">
+        <div class="eyebrow">Contact</div>
+        <h2>Let's build <span class="grad">secure AI</span> together</h2>
+        <p>Interested in AI security, collaboration or just talking shop? My inbox is open.</p>
+        <div class="btns">
+          <a class="btn primary" href="mailto:shantoroy@ieee.org">✉ shantoroy@ieee.org</a>
+          <a class="btn" href="https://www.linkedin.com/in/shanto-roy/" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn" href="/resume/docs/Shanto_Roy_AI_Security_Engineer_2026.pdf" target="_blank" rel="noopener">Resume (PDF)</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">© <span id="yr"></span> Shanto Roy · <a href="/blog/" style="color:var(--accent2)">Blog</a> · <a href="/resume/" style="color:var(--accent2)">Classic resume</a> · <a href="/certprep/" style="color:var(--accent2)">CertPrep</a></div>
+</footer>
+
+<script>
+(function () {
+  var root = document.documentElement, btn = document.getElementById('theme');
+  var saved = localStorage.getItem('theme');
+  if (saved) root.dataset.theme = saved;
+  function paint() { btn.textContent = root.dataset.theme === 'dark' ? '☾' : '☀'; }
+  paint();
+  btn.addEventListener('click', function () {
+    root.dataset.theme = root.dataset.theme === 'dark' ? 'light' : 'dark';
+    localStorage.setItem('theme', root.dataset.theme); paint();
+  });
+
+  var links = document.getElementById('links');
+  document.getElementById('burger').addEventListener('click', function () { links.classList.toggle('open'); });
+  links.addEventListener('click', function () { links.classList.remove('open'); });
+  document.getElementById('yr').textContent = new Date().getFullYear();
+
+  // typing effect
+  var phrases = ['Securing LLMs, agents & MCP', 'Designing AI guardrails & policy', 'PhD · Cybersecurity researcher', 'Ex-SRE · Cloud & automation'];
+  var el = document.getElementById('typed'), p = 0, c = 0, del = false;
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) { el.textContent = phrases[0]; }
+  else (function tick() {
+    var s = phrases[p];
+    c += del ? -1 : 1; el.textContent = s.slice(0, c);
+    var d = del ? 28 : 65;
+    if (!del && c === s.length) { del = true; d = 1700; }
+    else if (del && c === 0) { del = false; p = (p + 1) % phrases.length; d = 350; }
+    setTimeout(tick, d);
+  })();
+
+  // reveal + counters
+  function count(n) {
+    var t = +n.dataset.count, suf = n.dataset.suffix || '', st = null;
+    (function step(ts) {
+      st = st || ts; var k = Math.min((ts - st) / 1200, 1);
+      n.textContent = Math.round(t * (1 - Math.pow(1 - k, 3))) + suf;
+      if (k < 1) requestAnimationFrame(step);
+    })(performance.now());
+  }
+  var io = new IntersectionObserver(function (es) {
+    es.forEach(function (e) {
+      if (!e.isIntersecting) return;
+      e.target.classList.add('in'); io.unobserve(e.target);
+      e.target.querySelectorAll('[data-count]').forEach(count);
+    });
+  }, { threshold: .12 });
+  document.querySelectorAll('.reveal').forEach(function (n) { io.observe(n); });
+  document.querySelectorAll('.stat b').forEach(function (n) {
+    new IntersectionObserver(function (es, o) { if (es[0].isIntersecting) { count(n); o.disconnect(); } }).observe(n);
+  });
+
+  // active nav link
+  var secs = document.querySelectorAll('section[id]'), as = document.querySelectorAll('.links a[href^="#"]');
+  secs.forEach(function (s) {
+    new IntersectionObserver(function (es) {
+      if (es[0].isIntersecting) as.forEach(function (a) { a.classList.toggle('active', a.getAttribute('href') === '#' + s.id); });
+    }, { rootMargin: '-45% 0px -50% 0px' }).observe(s);
+  });
+})();
+</script>
+</body>
+</html>
