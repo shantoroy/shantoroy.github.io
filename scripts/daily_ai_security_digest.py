@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-"""Build a daily AI-security news digest post from RSS feeds, summarized with GitHub Models."""
+"""Build a daily AI-security news digest post from RSS feeds, summarized with Copilot CLI."""
 import datetime as dt
 import email.utils
 import html
 import json
 import os
 import re
+import subprocess
 import sys
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -23,8 +24,6 @@ KEYWORDS = re.compile(
     r"copilot|chatgpt|openai|anthropic|claude|gemini|deepfake|machine learning|guardrails?|shadow AI)\b",
     re.I,
 )
-MODEL = os.environ.get("MODEL", "openai/gpt-4.1-mini")
-API = "https://models.github.ai/inference/chat/completions"
 MAX_ITEMS = 15
 UA = {"User-Agent": "Mozilla/5.0 (compatible; shantoroy.com digest bot)"}
 NS = {"atom": "http://www.w3.org/2005/Atom"}
@@ -90,12 +89,14 @@ def summarize(entries):
         "End with a '## Takeaways' list of 2-3 bullets. Do not include a top-level title or front matter.\n\n%s"
         % (MAX_ITEMS, json.dumps(entries, indent=1))
     )
-    body = json.dumps({"model": MODEL, "temperature": 0.3, "messages": [{"role": "user", "content": prompt}]}).encode()
-    req = urllib.request.Request(API, data=body, headers={
-        "Authorization": f"Bearer {os.environ['GITHUB_TOKEN']}",
-        "Content-Type": "application/json", "Accept": "application/vnd.github+json"})
-    with urllib.request.urlopen(req, timeout=120) as r:
-        return json.load(r)["choices"][0]["message"]["content"].strip()
+    # Tools are disabled so feed text (untrusted) cannot trigger any actions
+    out = subprocess.run(
+        ["copilot", "-p", prompt, "-s", "--no-ask-user", "--available-tools="],
+        capture_output=True, text=True, timeout=600, check=True,
+    ).stdout.strip()
+    if len(out) < 200:
+        raise RuntimeError(f"unexpectedly short summary: {out!r}")
+    return out
 
 
 def main():
