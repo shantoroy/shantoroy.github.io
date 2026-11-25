@@ -72,6 +72,7 @@ description: "Shanto Roy is an AI Security Engineer (PhD, Cybersecurity) securin
     .links a { padding: 6px 12px; border-radius: 8px; font-size: .92rem; color: var(--muted); transition: .2s; }
     .links a:hover, .links a.active { color: var(--text); background: var(--card); }
     .links a.cta { color: #fff; background: var(--grad); font-weight: 600; }
+    #theme { width: auto; padding: 0 12px; font-size: .85rem; white-space: nowrap; }
     .icon-btn { background: var(--card); border: 1px solid var(--border); color: var(--text); width: 36px; height: 36px; border-radius: 10px; cursor: pointer; font-size: 1rem; }
     .burger { display: none; }
 
@@ -202,13 +203,12 @@ description: "Shanto Roy is an AI Security Engineer (PhD, Cybersecurity) securin
       <a href="#projects">Projects</a>
       <a href="#skills">Skills</a>
       <a href="#research">Research</a>
-      <a href="#blog">Blog</a>
-      <a href="/threat-intel/">Threat Intel</a>
-      <a href="/ai-sec-hub/">AI Hub</a>
-      <a href="/blog/" class="cta">Visit Blog →</a>
+      <a href="/blog/">Blog</a>
+      <a href="/threat-intel/" class="cta">Threat Intel</a>
+      <a href="/ai-sec-hub/" class="cta">AI/CyberSec Hub</a>
     </nav>
     <div style="display:flex;gap:8px">
-      <button class="icon-btn" id="theme" aria-label="Toggle theme">☾</button>
+      <button class="icon-btn" id="theme" aria-label="Toggle light/dark theme">☀ Light</button>
       <button class="icon-btn burger" id="burger" aria-label="Menu">☰</button>
     </div>
   </div>
@@ -381,7 +381,7 @@ description: "Shanto Roy is an AI Security Engineer (PhD, Cybersecurity) securin
           <a class="more" href="/threat-intel/">Open the dashboard →</a>
         </div>
         <div class="card">
-          <span class="ico">🛰️</span><h3>AI &amp; Cybersecurity Hub</h3>
+          <span class="ico">🛰️</span><h3>AI/CyberSec Hub</h3>
           <p>A daily-updated, one-page hub for AI, cybersecurity and AI-security: latest news and blogs, arXiv papers, community discussions, trending GitHub projects, AI briefings and a curated resource directory.</p>
           <span class="tag">Automation</span><span class="tag">arXiv</span><span class="tag">RSS</span><span class="tag">AI Summaries</span><br>
           <a class="more" href="/ai-sec-hub/">Open the hub →</a>
@@ -537,7 +537,7 @@ description: "Shanto Roy is an AI Security Engineer (PhD, Cybersecurity) securin
 </main>
 
 <footer>
-  <div class="wrap">© <span id="yr"></span> Shanto Roy · <a href="/blog/" style="color:var(--accent2)">Blog</a> · <a href="/threat-intel/" style="color:var(--accent2)">Threat Intel</a> · <a href="/ai-sec-hub/" style="color:var(--accent2)">AI Hub</a> · <a href="/resume/" style="color:var(--accent2)">Classic resume</a> · <a href="/certprep/" style="color:var(--accent2)">CertPrep</a></div>
+  <div class="wrap">© <span id="yr"></span> Shanto Roy · <a href="/blog/" style="color:var(--accent2)">Blog</a> · <a href="/threat-intel/" style="color:var(--accent2)">Threat Intel</a> · <a href="/ai-sec-hub/" style="color:var(--accent2)">AI/CyberSec Hub</a> · <a href="/resume/" style="color:var(--accent2)">Classic resume</a> · <a href="/certprep/" style="color:var(--accent2)">CertPrep</a></div>
 </footer>
 
 <script>
@@ -545,7 +545,7 @@ description: "Shanto Roy is an AI Security Engineer (PhD, Cybersecurity) securin
   var root = document.documentElement, btn = document.getElementById('theme');
   var saved = localStorage.getItem('theme');
   if (saved) root.dataset.theme = saved;
-  function paint() { btn.textContent = root.dataset.theme === 'dark' ? '☾' : '☀'; }
+  function paint() { btn.textContent = root.dataset.theme === 'dark' ? '☀ Light' : '☾ Dark'; }
   paint();
   btn.addEventListener('click', function () {
     root.dataset.theme = root.dataset.theme === 'dark' ? 'light' : 'dark';
