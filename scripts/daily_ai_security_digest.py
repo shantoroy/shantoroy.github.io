@@ -116,6 +116,9 @@ layout: single
 title: "AI Security News Digest – {dt.date.today().strftime('%B %-d, %Y')}"
 excerpt: "Daily summary of AI and cybersecurity news from {sources}."
 permalink: /ai-security-digest/{today}/
+header:
+  image: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
+  teaser: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
 categories:
   - AI-Security-Digest
 tags:
@@ -123,7 +126,9 @@ tags:
   - Cybersecurity
   - News
   - Digest
-comments: false
+toc: true
+toc_label: "Table of Contents"
+toc_icon: "package"
 ---
 
 *Auto-generated daily digest of AI-security headlines. Summaries are AI-assisted; always check the linked sources.*
