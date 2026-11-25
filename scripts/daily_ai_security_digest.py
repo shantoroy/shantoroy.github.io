@@ -112,10 +112,12 @@ def main():
     body = summarize(entries)
     sources = ", ".join(sorted({e["source"] for e in entries}))
     front = f"""---
+layout: single
 title: "AI Security News Digest – {dt.date.today().strftime('%B %-d, %Y')}"
 excerpt: "Daily summary of AI and cybersecurity news from {sources}."
+permalink: /ai-security-digest/{today}/
 categories:
-  - AI Security Digest
+  - AI-Security-Digest
 tags:
   - AI Security
   - Cybersecurity
