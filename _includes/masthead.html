@@ -18,6 +18,18 @@
             </li>
           {%- endfor -%}
         </ul>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle light/dark theme">☀ Light</button>
+        <script>
+          (function () {
+            var root = document.documentElement, b = document.getElementById('theme-toggle');
+            function paint() { b.textContent = root.dataset.theme === 'dark' ? '☀ Light' : '☾ Dark'; }
+            b.addEventListener('click', function () {
+              root.dataset.theme = root.dataset.theme === 'dark' ? 'light' : 'dark';
+              localStorage.setItem('theme', root.dataset.theme); paint();
+            });
+            paint();
+          })();
+        </script>
         {% if site.search == true %}
         <button class="search__toggle" type="button">
           <span class="visually-hidden">{{ site.data.ui-text[site.locale].search_label | default: "Toggle search" }}</span>
