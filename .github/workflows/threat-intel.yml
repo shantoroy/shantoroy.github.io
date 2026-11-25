@@ -1,0 +1,53 @@
+name: Threat Intelligence
+
+on:
+  schedule:
+    - cron: "15 14 * * *" # 14:15 UTC daily; weekly report is added on Mondays
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "NVD modification window in days (use 14 to backfill)"
+        default: "2"
+      weekly:
+        description: "Also force a weekly report"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: threat-intel
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Install Copilot CLI
+        run: npm install -g @github/copilot
+      - name: Collect, summarize and report
+        env:
+          COPILOT_GITHUB_TOKEN: ${{ secrets.COPILOT_PAT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NVD_API_KEY: ${{ secrets.NVD_API_KEY }}
+        run: |
+          args="--days ${{ inputs.days || '2' }}"
+          if [ "${{ inputs.weekly }}" = "true" ]; then args="$args --weekly"; fi
+          python scripts/threat_intel.py $args
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/data/threat-intel threat-intel
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Update threat intelligence data and reports"
+          for i in 1 2 3; do git pull --rebase -X theirs && git push && break; sleep 5; done

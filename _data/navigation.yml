@@ -4,6 +4,8 @@ main:
     url: /
   - title: "Blog"
     url: /blog/
+  - title: "Threat Intel"
+    url: /threat-intel/
   # - title: "Portfolio"
   #   url: /profile/experience/
   - title: "About"

@@ -1,0 +1,296 @@
+---
+layout: null
+title: "Threat Intelligence Dashboard"
+permalink: /threat-intel/
+description: "Automated daily vulnerability intelligence: CISA KEV, NVD CVEs and security advisories, summarized with AI and searchable."
+---
+{%- assign daily = site.pages | where_exp: "p", "p.report_type == 'daily'" | sort: "report_date" | reverse -%}
+{%- assign weekly = site.pages | where_exp: "p", "p.report_type == 'weekly'" | sort: "report_date" | reverse -%}
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Threat Intelligence Dashboard — Shanto Roy</title>
+  <meta name="description" content="Automated daily vulnerability intelligence: CISA KEV, NVD CVEs and security advisories, summarized with AI and searchable.">
+  <link rel="canonical" href="{{ '/threat-intel/' | absolute_url }}">
+  <meta property="og:title" content="Threat Intelligence Dashboard">
+  <meta property="og:description" content="Daily CISA KEV, NVD and advisory intelligence with AI summaries and search.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ '/threat-intel/' | absolute_url }}">
+  <meta name="theme-color" content="#0b1020">
+  <link rel="icon" href="/assets/images/sroy.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0b1020; --bg2: #0f1630; --card: rgba(255,255,255,.04); --border: rgba(255,255,255,.09);
+      --text: #e6e9f5; --muted: #99a1be; --accent: #7c8cff; --accent2: #22d3ee; --accent3: #a78bfa;
+      --crit: #f43f5e; --high: #fb923c; --med: #facc15; --ok: #34d399;
+      --grad: linear-gradient(120deg, var(--accent2), var(--accent) 50%, var(--accent3));
+      --shadow: 0 10px 40px rgba(0,0,0,.35);
+    }
+    [data-theme="light"] {
+      --bg: #f6f7fb; --bg2: #ffffff; --card: #ffffff; --border: rgba(15,22,48,.1);
+      --text: #12182f; --muted: #576080; --accent: #4f5fe8; --accent2: #0891b2; --accent3: #7c3aed;
+      --crit: #e11d48; --high: #ea580c; --med: #ca8a04; --ok: #059669; --shadow: 0 10px 30px rgba(15,22,48,.08);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; scroll-padding-top: 80px; }
+    body { font-family: Inter, system-ui, -apple-system, "Segoe UI", sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; -webkit-font-smoothing: antialiased; }
+    a { color: inherit; text-decoration: none; }
+    ul { list-style: none; }
+    .wrap { max-width: 1120px; margin: 0 auto; padding: 0 24px; }
+    .mono { font-family: "JetBrains Mono", ui-monospace, monospace; }
+    .grad { background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+    .glow { position: fixed; inset: 0; z-index: -1; pointer-events: none;
+      background: radial-gradient(600px 400px at 85% 0%, rgba(124,140,255,.16), transparent 60%), radial-gradient(500px 400px at 0% 40%, rgba(34,211,238,.09), transparent 60%); }
+    header.nav { position: sticky; top: 0; z-index: 50; backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); background: color-mix(in srgb, var(--bg) 72%, transparent); border-bottom: 1px solid var(--border); }
+    .nav .wrap { display: flex; align-items: center; justify-content: space-between; height: 64px; gap: 12px; }
+    .logo { font-weight: 800; letter-spacing: -.02em; }
+    .logo span { color: var(--accent2); }
+    .links { display: flex; gap: 4px; align-items: center; flex-wrap: wrap; }
+    .links a { padding: 6px 12px; border-radius: 8px; font-size: .9rem; color: var(--muted); transition: .2s; }
+    .links a:hover { color: var(--text); background: var(--card); }
+    .icon-btn { background: var(--card); border: 1px solid var(--border); color: var(--text); width: 36px; height: 36px; border-radius: 10px; cursor: pointer; }
+    .eyebrow { font-size: .78rem; letter-spacing: .14em; text-transform: uppercase; color: var(--accent2); font-weight: 600; }
+    h1 { font-size: clamp(2rem, 5vw, 3.2rem); letter-spacing: -.03em; line-height: 1.1; font-weight: 800; margin: 10px 0 12px; }
+    h2 { font-size: 1.5rem; letter-spacing: -.02em; margin-bottom: 18px; }
+    .hero { padding-top: 64px; padding-bottom: 28px; }
+    .lede { color: var(--muted); max-width: 720px; }
+    .pill { display: inline-flex; align-items: center; gap: 8px; padding: 5px 13px; border: 1px solid var(--border); background: var(--card); border-radius: 999px; font-size: .8rem; color: var(--muted); margin-top: 18px; }
+    .dot { width: 8px; height: 8px; background: var(--ok); border-radius: 50%; box-shadow: 0 0 0 4px rgba(52,211,153,.2); }
+    section { padding: 28px 0; }
+    .grid { display: grid; gap: 16px; }
+    .stats { grid-template-columns: repeat(5, 1fr); }
+    .card { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 20px; }
+    .stat { text-align: center; }
+    .stat b { display: block; font-size: 1.9rem; font-weight: 800; letter-spacing: -.02em; }
+    .stat span { font-size: .8rem; color: var(--muted); }
+    .two { grid-template-columns: 1.2fr 1fr; }
+    .bar { display: grid; grid-template-columns: 130px 1fr 34px; align-items: center; gap: 10px; font-size: .85rem; margin: 9px 0; color: var(--muted); }
+    .bar i { display: block; height: 8px; border-radius: 99px; background: var(--grad); }
+    .bar em { font-style: normal; text-align: right; color: var(--text); }
+    .reports li { display: flex; justify-content: space-between; gap: 10px; padding: 9px 0; border-bottom: 1px dashed var(--border); font-size: .92rem; }
+    .reports li:last-child { border: 0; }
+    .reports a:hover { color: var(--accent2); }
+    .reports small { color: var(--muted); font-family: "JetBrains Mono", monospace; font-size: .75rem; white-space: nowrap; }
+    .reports h3 { font-size: .8rem; text-transform: uppercase; letter-spacing: .08em; color: var(--accent2); margin: 6px 0 4px; }
+    .tools { display: grid; grid-template-columns: 1fr auto auto auto; gap: 10px; align-items: center; }
+    input, select { font: inherit; color: var(--text); background: var(--bg2); border: 1px solid var(--border); border-radius: 12px; padding: 11px 14px; min-width: 0; }
+    input:focus, select:focus { outline: 2px solid var(--accent); }
+    .chips { display: flex; gap: 8px; flex-wrap: wrap; margin: 14px 0 6px; }
+    .chip { cursor: pointer; font: inherit; font-size: .82rem; padding: 6px 14px; border-radius: 999px; border: 1px solid var(--border); background: var(--card); color: var(--muted); }
+    .chip.on { color: #fff; background: var(--grad); border-color: transparent; font-weight: 600; }
+    .count { color: var(--muted); font-size: .85rem; margin: 10px 2px; }
+    .item { margin-bottom: 12px; transition: .2s; }
+    .item:hover { border-color: color-mix(in srgb, var(--accent) 55%, transparent); }
+    .item .top { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 8px; }
+    .item .id { font-weight: 700; font-family: "JetBrains Mono", monospace; font-size: .95rem; }
+    .item .id:hover { color: var(--accent2); }
+    .badge { font-size: .7rem; font-weight: 700; padding: 3px 9px; border-radius: 6px; letter-spacing: .04em; text-transform: uppercase; }
+    .b-critical { background: color-mix(in srgb, var(--crit) 20%, transparent); color: var(--crit); }
+    .b-high { background: color-mix(in srgb, var(--high) 20%, transparent); color: var(--high); }
+    .b-medium { background: color-mix(in srgb, var(--med) 20%, transparent); color: var(--med); }
+    .b-kev { background: color-mix(in srgb, var(--accent3) 22%, transparent); color: var(--accent3); }
+    .b-ransom { background: var(--crit); color: #fff; }
+    .b-src { background: var(--card); border: 1px solid var(--border); color: var(--muted); }
+    .item .who { color: var(--muted); font-size: .88rem; }
+    .item p { font-size: .93rem; color: var(--text); margin: 4px 0 8px; opacity: .92; }
+    .item .meta { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: .78rem; color: var(--muted); align-items: center; }
+    .item .meta a { color: var(--accent2); font-weight: 600; }
+    .tag { font-size: .74rem; padding: 2px 9px; border-radius: 999px; background: color-mix(in srgb, var(--accent) 16%, transparent); color: var(--accent); }
+    .more { display: block; margin: 18px auto; }
+    .btn { cursor: pointer; font: inherit; font-weight: 600; padding: 11px 22px; border-radius: 12px; border: 1px solid var(--border); background: var(--card); color: var(--text); }
+    .btn:hover { border-color: var(--accent); }
+    .empty { text-align: center; color: var(--muted); padding: 40px 0; }
+    footer { padding: 36px 0 52px; text-align: center; color: var(--muted); font-size: .84rem; }
+    footer a { color: var(--accent2); }
+    .note { font-size: .8rem; color: var(--muted); margin-top: 8px; }
+    @media (max-width: 860px) {
+      .stats { grid-template-columns: repeat(2, 1fr); } .two { grid-template-columns: 1fr; }
+      .tools { grid-template-columns: 1fr 1fr; } .tools input { grid-column: 1 / -1; }
+      .links a:not(.keep) { display: none; }
+    }
+  </style>
+</head>
+<body>
+<div class="glow"></div>
+<header class="nav">
+  <div class="wrap">
+    <a href="/" class="logo">shanto<span>.</span>roy</a>
+    <nav class="links">
+      <a href="/" class="keep">Portfolio</a>
+      <a href="/threat-intel/reports/">Reports</a>
+      <a href="/blog/" class="keep">Blog</a>
+      <button class="icon-btn" id="theme" aria-label="Toggle theme">☾</button>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap hero">
+    <div class="eyebrow">Automated · Updated daily</div>
+    <h1>Threat <span class="grad">Intelligence</span> Dashboard</h1>
+    <p class="lede">Vulnerabilities from CISA KEV, NVD and public security advisories, collected every day, summarized with AI and made searchable. Daily and weekly reports are generated automatically.</p>
+    <span class="pill"><i class="dot"></i> <span id="updated">Loading latest data…</span></span>
+  </div>
+
+  <section><div class="wrap grid stats" id="stats"></div></section>
+
+  <section>
+    <div class="wrap grid two">
+      <div class="card">
+        <h2>Most affected vendors <small style="font-size:.7rem;color:var(--muted)">last 30 days</small></h2>
+        <div id="vendors"></div>
+      </div>
+      <div class="card reports">
+        <h2>Latest reports</h2>
+        <h3>Daily</h3>
+        <ul>{% for p in daily limit:4 %}<li><a href="{{ p.url | relative_url }}">{{ p.title }}</a><small>{{ p.report_date }}</small></li>{% else %}<li><span class="note">First report publishes with the next daily run.</span></li>{% endfor %}</ul>
+        <h3>Weekly</h3>
+        <ul>{% for p in weekly limit:3 %}<li><a href="{{ p.url | relative_url }}">{{ p.title }}</a><small>{{ p.report_date }}</small></li>{% else %}<li><span class="note">Weekly reports publish on Mondays.</span></li>{% endfor %}</ul>
+        <p class="note"><a href="/threat-intel/reports/" style="color:var(--accent2)">Browse all reports →</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="search">
+    <div class="wrap">
+      <h2>Search vulnerability intelligence</h2>
+      <div class="tools card">
+        <input id="q" type="search" placeholder="Search CVE ID, vendor, product, technology, keyword…" aria-label="Search" autocomplete="off">
+        <select id="vendor" aria-label="Vendor"><option value="">All vendors</option></select>
+        <select id="range" aria-label="Date range"><option value="0">Any time</option><option value="1">Last 24h</option><option value="7">Last 7 days</option><option value="30" >Last 30 days</option></select>
+        <select id="sort" aria-label="Sort"><option value="date">Newest first</option><option value="cvss">Highest CVSS</option></select>
+      </div>
+      <div class="chips" id="chips"></div>
+      <div class="count" id="count"></div>
+      <div id="results"></div>
+      <button class="btn more" id="more" hidden>Show more</button>
+      <p class="note">Summaries marked AI-assisted are generated from NVD and CISA data and may contain errors. Always verify against the linked primary sources.</p>
+    </div>
+  </section>
+</main>
+
+<footer><div class="wrap">Data: <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" rel="noopener">CISA KEV</a> · <a href="https://nvd.nist.gov/" rel="noopener">NVD</a> · CISA &amp; GitHub advisories · <a href="/">Portfolio</a> · <a href="/blog/">Blog</a></div></footer>
+
+<script>
+(function () {
+  var BASE = "{{ '/assets/data/threat-intel/' | relative_url }}";
+  var root = document.documentElement, tbtn = document.getElementById('theme');
+  var saved = localStorage.getItem('theme'); if (saved) root.dataset.theme = saved;
+  function paint() { tbtn.textContent = root.dataset.theme === 'dark' ? '☾' : '☀'; } paint();
+  tbtn.onclick = function () { root.dataset.theme = root.dataset.theme === 'dark' ? 'light' : 'dark'; localStorage.setItem('theme', root.dataset.theme); paint(); };
+
+  var $ = function (id) { return document.getElementById(id); };
+  var FILTERS = [['all', 'All'], ['kev', 'CISA KEV'], ['ransom', 'Ransomware-linked'], ['critical', 'Critical'], ['high', 'High'], ['advisory', 'Advisories']];
+  var state = { f: 'all', q: '', vendor: '', range: 0, sort: 'date', shown: 30 };
+  var items = [], advisories = [], today = new Date();
+
+  function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
+  function days(d) { return d ? (today - new Date(d + 'T00:00:00Z')) / 864e5 : 9999; }
+  function get(u) { return fetch(BASE + u).then(function (r) { if (!r.ok) throw new Error(u); return r.json(); }); }
+
+  Promise.all([get('items.json'), get('advisories.json'), get('meta.json').catch(function () { return {}; })]).then(function (r) {
+    items = r[0]; advisories = r[1];
+    items.forEach(function (i) {
+      i._h = [i.id, i.vendor, i.product, i.title, i.desc, (i.tech || []).join(' '), i.ai && i.ai.summary, i.ai && (i.ai.affected || []).join(' '), i.ai && i.ai.impact, (i.cwe || []).join(' ')].join(' ').toLowerCase();
+    });
+    advisories.forEach(function (a) { a._h = [a.title, a.summary, a.source, (a.cves || []).join(' '), (a.tech || []).join(' ')].join(' ').toLowerCase(); });
+    $('updated').textContent = r[2].updated ? 'Last updated ' + r[2].updated : 'Data loaded';
+    stats(); vendors(); filters(); fromUrl(); render();
+  }).catch(function () { $('updated').textContent = 'Data unavailable'; $('results').innerHTML = '<div class="empty">Could not load vulnerability data.</div>'; });
+
+  function stats() {
+    var kev = items.filter(function (i) { return i.kev; });
+    var s = [
+      [items.length, 'Tracked CVEs'], [kev.length, 'CISA KEV entries'],
+      [kev.filter(function (i) { return days(i.kev_added) <= 30; }).length, 'KEV added (30d)'],
+      [items.filter(function (i) { return (i.cvss || 0) >= 9; }).length, 'Critical (9.0+)'],
+      [kev.filter(function (i) { return i.ransom; }).length, 'Ransomware-linked']
+    ];
+    $('stats').innerHTML = s.map(function (x) { return '<div class="card stat"><b class="grad">' + x[0].toLocaleString() + '</b><span>' + x[1] + '</span></div>'; }).join('');
+  }
+
+  function vendors() {
+    var c = {};
+    items.forEach(function (i) { if (i.vendor && days(i.date) <= 30) c[i.vendor] = (c[i.vendor] || 0) + 1; });
+    var top = Object.keys(c).sort(function (a, b) { return c[b] - c[a]; });
+    var max = c[top[0]] || 1;
+    $('vendors').innerHTML = top.slice(0, 8).map(function (v) {
+      return '<div class="bar"><span>' + esc(v) + '</span><i style="width:' + Math.max(4, c[v] / max * 100) + '%"></i><em>' + c[v] + '</em></div>';
+    }).join('') || '<p class="note">No data yet.</p>';
+    var all = {}; items.forEach(function (i) { if (i.vendor) all[i.vendor] = (all[i.vendor] || 0) + 1; });
+    $('vendor').innerHTML += Object.keys(all).sort(function (a, b) { return all[b] - all[a]; }).slice(0, 80).map(function (v) { return '<option>' + esc(v) + '</option>'; }).join('');
+  }
+
+  function filters() {
+    $('chips').innerHTML = FILTERS.map(function (f) { return '<button class="chip" data-f="' + f[0] + '">' + f[1] + '</button>'; }).join('');
+    $('chips').onclick = function (e) { var b = e.target.closest('.chip'); if (b) { state.f = b.dataset.f; state.shown = 30; render(); } };
+    var t; $('q').oninput = function () { clearTimeout(t); t = setTimeout(function () { state.q = $('q').value.trim().toLowerCase(); state.shown = 30; render(); }, 150); };
+    ['vendor', 'range', 'sort'].forEach(function (k) { $(k).onchange = function () { state[k] = k === 'range' ? +this.value : this.value; state.shown = 30; render(); }; });
+    $('more').onclick = function () { state.shown += 30; render(); };
+  }
+
+  function fromUrl() {
+    var p = new URLSearchParams(location.search);
+    if (p.get('q')) { $('q').value = p.get('q'); state.q = p.get('q').toLowerCase(); }
+    if (p.get('f')) state.f = p.get('f');
+  }
+
+  function match(i) {
+    if (state.q && i._h.indexOf(state.q) < 0) return false;
+    if (state.vendor && i.vendor !== state.vendor) return false;
+    if (state.range && days(i.date) > state.range) return false;
+    if (state.f === 'kev') return !!i.kev;
+    if (state.f === 'ransom') return !!i.ransom;
+    if (state.f === 'critical') return (i.cvss || 0) >= 9;
+    if (state.f === 'high') return (i.cvss || 0) >= 7 && (i.cvss || 0) < 9;
+    return true;
+  }
+
+  function card(i) {
+    var sev = (i.sev || '').toLowerCase(), ai = i.ai || {};
+    var url = i.page ? '/threat-intel/cve/' + i.id + '/' : 'https://nvd.nist.gov/vuln/detail/' + i.id;
+    var aff = (ai.affected || i.tech || []).slice(0, 4).map(function (t) { return '<span class="tag">' + esc(t) + '</span>'; }).join('');
+    var who = [i.vendor, i.product].filter(Boolean).filter(function (x, k, a) { return a.indexOf(x) === k; }).join(' · ');
+    return '<article class="card item"><div class="top"><a class="id" href="' + url + '">' + esc(i.id) + '</a>' +
+      (sev ? '<span class="badge b-' + sev + '">' + sev + (i.cvss != null ? ' ' + i.cvss : '') + '</span>' : '') +
+      (i.kev ? '<span class="badge b-kev">CISA KEV</span>' : '') + (i.ransom ? '<span class="badge b-ransom">Ransomware</span>' : '') +
+      '<span class="who">' + esc(who) + '</span></div>' +
+      '<p>' + esc(ai.summary || i.desc) + '</p>' +
+      '<div class="meta">' + (ai.impact ? '<span>Impact: ' + esc(ai.impact) + '</span>' : '') +
+      '<span>' + (i.kev ? 'KEV added ' + esc(i.kev_added) : 'Published ' + esc(i.pub)) + '</span>' + (i.kev && i.due ? '<span>Due ' + esc(i.due) + '</span>' : '') +
+      (ai.summary ? '<span>AI-assisted</span>' : '') + aff + '<a href="' + url + '">' + (i.page ? 'Details' : 'NVD') + ' →</a></div></article>';
+  }
+
+  function advCard(a) {
+    return '<article class="card item"><div class="top"><a class="id" href="' + esc(a.url) + '" rel="noopener" target="_blank">' + esc(a.title) + '</a></div>' +
+      '<div class="top"><span class="badge b-src">' + esc(a.source) + '</span>' + (a.sev ? '<span class="badge b-' + a.sev.toLowerCase() + '">' + esc(a.sev) + '</span>' : '') +
+      (a.cves || []).slice(0, 3).map(function (c) { return '<span class="tag">' + esc(c) + '</span>'; }).join('') + '</div>' +
+      '<p>' + esc(a.summary) + '</p><div class="meta"><span>' + esc(a.date) + '</span>' + (a.tech || []).slice(0, 3).map(function (t) { return '<span class="tag">' + esc(t) + '</span>'; }).join('') + '</div></article>';
+  }
+
+  function render() {
+    document.querySelectorAll('.chip').forEach(function (b) { b.classList.toggle('on', b.dataset.f === state.f); });
+    var rows, html;
+    if (state.f === 'advisory') {
+      rows = advisories.filter(function (a) { return (!state.q || a._h.indexOf(state.q) >= 0) && (!state.range || days(a.date) <= state.range); })
+        .sort(function (a, b) { return a.date < b.date ? 1 : -1; });
+      html = rows.slice(0, state.shown).map(advCard).join('');
+    } else {
+      rows = items.filter(match).sort(function (a, b) {
+        return state.sort === 'cvss' ? (b.cvss || 0) - (a.cvss || 0) || (a.date < b.date ? 1 : -1) : (a.date < b.date ? 1 : a.date > b.date ? -1 : (b.cvss || 0) - (a.cvss || 0));
+      });
+      html = rows.slice(0, state.shown).map(card).join('');
+    }
+    $('results').innerHTML = html || '<div class="empty">No results. Try a different search or filter.</div>';
+    $('count').textContent = rows.length.toLocaleString() + (state.f === 'advisory' ? ' advisories' : ' vulnerabilities');
+    $('more').hidden = rows.length <= state.shown;
+  }
+})();
+</script>
+</body>
+</html>
