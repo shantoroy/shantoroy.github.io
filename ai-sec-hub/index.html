@@ -280,8 +280,6 @@ description: "One page for AI, cybersecurity and AI-security updates: latest new
     .res { display: block; padding: 12px 14px; border: 1px solid var(--border); border-radius: 12px; background: var(--bg2); transition: .2s; }
     .res:hover { border-color: var(--accent); transform: translateY(-1px); }
     .res b { display: block; font-size: .9rem; } .res span { font-size: .78rem; color: var(--muted); }
-    .ad { margin: 22px auto; text-align: center; min-height: 90px; }
-    .ad small { display: block; font-size: .68rem; color: var(--muted); letter-spacing: .08em; text-transform: uppercase; margin-bottom: 4px; }
     .disclaimer { font-size: .78rem; color: var(--muted); margin-top: 10px; }
     @media (max-width: 860px) { .panels { grid-template-columns: 1fr; } .tab { padding: 10px 16px; } }
 
@@ -325,9 +323,6 @@ description: "One page for AI, cybersecurity and AI-security updates: latest new
     <div class="search"><input id="q" type="search" placeholder="Search everything on this tab (e.g. prompt injection, MCP, ransomware, agents)…" aria-label="Search" style="width:100%"></div>
   </div></section>
 
-  <div class="wrap ad"><small>Advertisement</small>
-{% include advertisements.html %}
-  </div>
 
   <section><div class="wrap">
     <div class="panels" id="panels"></div>
@@ -338,9 +333,6 @@ description: "One page for AI, cybersecurity and AI-security updates: latest new
     <div id="resources"></div>
   </div></section>
 
-  <div class="wrap ad"><small>Advertisement</small>
-{% include advertisements.html %}
-  </div>
   <section class="faq"><div class="wrap"><h2>Frequently asked questions</h2>
     <details><summary>What is the AI/CyberSec Hub?</summary><p>A single page that aggregates the latest AI, cybersecurity and AI-security news, blogs, arXiv papers, community discussions and GitHub projects, with a curated resource directory.</p></details>
     <details><summary>What is the difference between the AI Security, AI and Cybersecurity tabs?</summary><p>AI Security covers securing and attacking AI systems (LLMs, agents, prompt injection, red teaming). AI covers the broader AI landscape. Cybersecurity covers general security news and research. Items can appear in more than one tab.</p></details>
