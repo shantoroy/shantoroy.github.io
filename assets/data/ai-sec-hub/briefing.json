@@ -1,18 +1,18 @@
 {
  "date": "2026-11-25",
  "aisec": [
-  "Agent security dominates: research shows prompt injection via conversation history, malicious agent skills supply chains, and multi-step attacks against computer-using agents, while resource-exhaustion attacks add cost and denial-of-service risk.",
-  "Defenses are emerging: AgentBouncer's system-call mediation and bounded-autonomy controls aim to guard coding agents, while evaluation research warns attack success rate comparisons may be misleading.",
-  "CrowdStrike's proposed $44 billion Zscaler purchase and Unit 42's agentic attack findings show vendors and defenders preparing for AI agent risk, while UK officials say AI attacks mostly exploit basic weaknesses."
+  "Research shows agents face prompt injection via exposed conversation history, poisoned skill supply chains, multi-step attacks, and resource-exhaustion abuse; new defenses include system-call mediation and bounded autonomy.",
+  "UK's cyber agency says AI-driven attacks mostly succeed by exploiting long-neglected basic weaknesses, while Unit 42 documents autonomous AI agents automating intrusions across multiple platforms.",
+  "CrowdStrike's proposed $44 billion Zscaler purchase aims at stronger control of AI agents, as red-teaming research questions benchmark reliability and attacker diversity."
  ],
  "ai": [
-  "OpenAI and Cisco announced Shirudo, an open-source Linux runtime to protect live systems during patch rollouts, alongside OpenAI customer stories on legal workflows and support automation with GPT-6 models.",
-  "Research and tooling advances: DeepMind pairs AI agents with formal verification for quantum algorithms, Z.ai released GLM 5.4's looped transformer, and NVIDIA published cuDSS 1.0 and GPU DuckDB guidance.",
-  "Governance and leadership stories continue: Jensen Huang's return to Nvidia draws scrutiny, a philosopher disputes Anthropic's consciousness stance, and Character.AI's legal defense raises machine rights questions."
+  "Jensen Huang's return to Nvidia after resigning amid reported misconduct dominates coverage, raising governance questions at a central AI hardware supplier.",
+  "OpenAI and Cisco announced Shirudo, an open-source Linux runtime protecting live systems during patch rollout; OpenAI customer stories highlight enterprise agent adoption in legal and support.",
+  "Z.ai released GLM 5.4 with a looped transformer, DeepMind paired agents with formal verification for quantum algorithms, and NVIDIA released cuDSS 1.0 and GPU-accelerated DuckDB tooling."
  ],
  "cyber": [
-  "Threat activity: Iran-aligned Volant Manticore uses an IPFS-based KuboShell backdoor in espionage, and Broadcom patched VMware vCenter flaws including a 9.8-rated authentication bypass after zero-day exploitation.",
-  "Exposure and research: industrial serial gateways reveal weak authentication, Project Zero revisits VirtualBox process hardening on Windows, and IDSMorph proposes adaptive malicious traffic detection.",
-  "Policy and attribution: Kirsten Davies became Acting National Cyber Director, a researcher unmasked a decade of ransomware aliases, and Schneier argues recent outages reflect society's infrastructure investment choices."
+  "Iran-aligned Volant Manticore uses the IPFS-based KuboShell backdoor against Cyprus telecoms, airlines and infrastructure, while Broadcom patched 23 VMware flaws including a 9.8-rated vCenter authentication bypass.",
+  "Industrial serial gateways expose whether authentication protects them, and Project Zero revisited VirtualBox's Windows process hardening, highlighting exposure in OT and virtualization software.",
+  "Kirsten Davies became Acting National Cyber Director, a researcher unmasked a decade of ransomware aliases, and Schneier argued recent outages reflect underinvestment in infrastructure."
  ]
 }
