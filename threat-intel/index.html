@@ -11,18 +11,182 @@ description: "Automated daily vulnerability intelligence: CISA KEV, NVD CVEs and
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Threat Intelligence Dashboard — Shanto Roy</title>
+  <title>Threat Intelligence Dashboard: Daily CISA KEV, CVE &amp; NVD Updates</title>
   <meta name="description" content="Automated daily vulnerability intelligence: CISA KEV, NVD CVEs and security advisories, summarized with AI and searchable.">
   <link rel="canonical" href="{{ '/threat-intel/' | absolute_url }}">
   <meta property="og:title" content="Threat Intelligence Dashboard">
   <meta property="og:description" content="Daily CISA KEV, NVD and advisory intelligence with AI summaries and search.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ '/threat-intel/' | absolute_url }}">
+  <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+  <meta name="author" content="Shanto Roy">
+  <meta property="og:site_name" content="Shanto Roy">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:image" content="https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Threat Intelligence Dashboard: Daily CISA KEV, CVE &amp; NVD Updates">
+  <meta name="twitter:image" content="https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg">
   <meta name="theme-color" content="#0b1020">
   <link rel="icon" href="/assets/images/sroy.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <script type="application/ld+json">
+  {
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "WebSite",
+   "@id": "https://shantoroy.com/#website",
+   "url": "https://shantoroy.com/",
+   "name": "Shanto Roy",
+   "publisher": {
+    "@id": "https://shantoroy.com/#person"
+   },
+   "inLanguage": "en"
+  },
+  {
+   "@type": "Person",
+   "@id": "https://shantoroy.com/#person",
+   "name": "Shanto Roy",
+   "jobTitle": "AI Platform Security Engineer",
+   "description": "AI Platform Security Engineer at Charles Schwab with a PhD in Cybersecurity from the University of Houston, working on AI guardrails, AI traffic monitoring and incident response for enterprise AI platforms.",
+   "url": "https://shantoroy.com/",
+   "image": "https://shantoroy.com/resume/img/shanto-roy.png",
+   "email": "mailto:shantoroy@ieee.org",
+   "worksFor": {
+    "@type": "Organization",
+    "name": "Charles Schwab"
+   },
+   "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "University of Houston"
+   },
+   "knowsAbout": [
+    "AI security",
+    "LLM security",
+    "Agentic AI security",
+    "Model Context Protocol",
+    "OWASP Top 10 for LLMs",
+    "Cybersecurity",
+    "Cyber deception",
+    "IoT security",
+    "Site reliability engineering",
+    "Python"
+   ],
+   "sameAs": [
+    "https://www.linkedin.com/in/shanto-roy/",
+    "https://github.com/shantoroy",
+    "https://scholar.google.com/citations?user=OMGYMbwAAAAJ&hl=en",
+    "https://twitter.com/royshanto9"
+   ]
+  },
+  {
+   "@type": "CollectionPage",
+   "@id": "https://shantoroy.com/threat-intel/#page",
+   "url": "https://shantoroy.com/threat-intel/",
+   "name": "Threat Intelligence Dashboard",
+   "description": "Automated daily vulnerability intelligence: CISA KEV, NVD CVEs and security advisories, summarized with AI and searchable.",
+   "isPartOf": {
+    "@id": "https://shantoroy.com/#website"
+   },
+   "author": {
+    "@id": "https://shantoroy.com/#person"
+   },
+   "inLanguage": "en"
+  },
+  {
+   "@type": "Dataset",
+   "name": "Daily vulnerability intelligence: CISA KEV, NVD and security advisories",
+   "description": "Machine-readable JSON of tracked CVEs, CISA KEV entries and security advisories with AI-assisted summaries, refreshed daily.",
+   "url": "https://shantoroy.com/threat-intel/",
+   "creator": {
+    "@id": "https://shantoroy.com/#person"
+   },
+   "isBasedOn": [
+    "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+    "https://nvd.nist.gov/"
+   ],
+   "keywords": [
+    "CVE",
+    "CISA KEV",
+    "NVD",
+    "vulnerability",
+    "threat intelligence"
+   ],
+   "distribution": [
+    {
+     "@type": "DataDownload",
+     "encodingFormat": "application/json",
+     "contentUrl": "https://shantoroy.com/assets/data/threat-intel/items.json"
+    }
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://shantoroy.com/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Threat Intelligence Dashboard",
+     "item": "https://shantoroy.com/threat-intel/"
+    }
+   ]
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "What is the CISA Known Exploited Vulnerabilities (KEV) catalog?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "It is CISA's authoritative list of vulnerabilities known to be exploited in the wild. U.S. federal agencies must remediate listed CVEs by a due date, and many organizations use it to prioritize patching."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Where does this dashboard's data come from?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "It combines the CISA KEV catalog, the NIST National Vulnerability Database (NVD) API, CISA advisories and GitHub security advisories."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How often is it updated?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Data is collected automatically every day, with a weekly report published on Mondays and a daily report when there is new activity."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Which CVEs are included?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Every CISA KEV entry, plus recent NVD vulnerabilities rated high or critical (CVSS 7.0 and above)."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Are the AI summaries reliable?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Summaries marked AI-assisted are generated from NVD and CISA data and may contain errors. Always verify against the linked primary sources."
+     }
+    }
+   ]
+  }
+ ]
+}
+  </script>
   <style>
     :root {
       --bg: #0b1020; --bg2: #0f1630; --card: rgba(255,255,255,.04); --border: rgba(255,255,255,.09);
@@ -114,6 +278,13 @@ description: "Automated daily vulnerability intelligence: CISA KEV, NVD CVEs and
       .tools { grid-template-columns: 1fr 1fr; } .tools input { grid-column: 1 / -1; }
       .links a:not(.keep) { display: none; }
     }
+
+    .faq { padding: 28px 0; } .faq h2 { margin-bottom: 14px; }
+    .faq details { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 14px 18px; margin-bottom: 10px; }
+    .faq summary { cursor: pointer; font-weight: 600; } .faq p { color: var(--muted); margin-top: 8px; font-size: .94rem; }
+    .faq a { color: var(--accent2); }
+    #static-feed { padding: 20px 24px 40px; } #static-feed h2 { margin: 18px 0 8px; } #static-feed h3 { margin: 16px 0 6px; font-size: 1rem; color: var(--accent2); }
+    #static-feed li { margin: 6px 0; font-size: .9rem; color: var(--muted); } #static-feed a { color: var(--text); text-decoration: underline; text-decoration-color: var(--border); }
   </style>
 </head>
 <body>
@@ -124,6 +295,7 @@ description: "Automated daily vulnerability intelligence: CISA KEV, NVD CVEs and
     <nav class="links">
       <a href="/" class="keep">Portfolio</a>
       <a href="/threat-intel/reports/">Reports</a>
+      <a href="/ai-sec-hub/">AI/CyberSec Hub</a>
       <a href="/blog/" class="keep">Blog</a>
       <button class="icon-btn" id="theme" aria-label="Toggle light/dark theme">☀ Light</button>
     </nav>
@@ -173,6 +345,14 @@ description: "Automated daily vulnerability intelligence: CISA KEV, NVD CVEs and
       <p class="note">Summaries marked AI-assisted are generated from NVD and CISA data and may contain errors. Always verify against the linked primary sources.</p>
     </div>
   </section>
+  <section class="faq"><div class="wrap"><h2>Frequently asked questions</h2>
+    <details><summary>What is the CISA Known Exploited Vulnerabilities (KEV) catalog?</summary><p>It is CISA's authoritative list of vulnerabilities known to be exploited in the wild. U.S. federal agencies must remediate listed CVEs by a due date, and many organizations use it to prioritize patching.</p></details>
+    <details><summary>Where does this dashboard's data come from?</summary><p>It combines the CISA KEV catalog, the NIST National Vulnerability Database (NVD) API, CISA advisories and GitHub security advisories.</p></details>
+    <details><summary>How often is it updated?</summary><p>Data is collected automatically every day, with a weekly report published on Mondays and a daily report when there is new activity.</p></details>
+    <details><summary>Which CVEs are included?</summary><p>Every CISA KEV entry, plus recent NVD vulnerabilities rated high or critical (CVSS 7.0 and above).</p></details>
+    <details><summary>Are the AI summaries reliable?</summary><p>Summaries marked AI-assisted are generated from NVD and CISA data and may contain errors. Always verify against the linked primary sources.</p></details>
+  </div></section>
+{% include threat-intel-static.html %}
 </main>
 
 <footer><div class="wrap">Data: <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" rel="noopener">CISA KEV</a> · <a href="https://nvd.nist.gov/" rel="noopener">NVD</a> · CISA &amp; GitHub advisories · <a href="/">Portfolio</a> · <a href="/blog/">Blog</a></div></footer>

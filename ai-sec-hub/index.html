@@ -9,18 +9,155 @@ description: "One page for AI, cybersecurity and AI-security updates: latest new
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AI &amp; Cybersecurity Hub — Shanto Roy</title>
+  <title>AI/CyberSec Hub: Daily AI Security &amp; Cybersecurity News, Papers, Repos</title>
   <meta name="description" content="One page for AI, cybersecurity and AI-security updates: latest news, blogs, arXiv papers, community posts, GitHub repos and a curated resource directory.">
   <link rel="canonical" href="{{ '/ai-sec-hub/' | absolute_url }}">
   <meta property="og:title" content="AI & Cybersecurity Hub">
   <meta property="og:description" content="Daily-updated AI, cybersecurity and AI-security news, papers, repos and resources in one page.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ '/ai-sec-hub/' | absolute_url }}">
+  <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+  <meta name="author" content="Shanto Roy">
+  <meta property="og:site_name" content="Shanto Roy">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:image" content="https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="AI/CyberSec Hub: Daily AI Security &amp; Cybersecurity News, Papers, Repos">
+  <meta name="twitter:image" content="https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg">
   <meta name="theme-color" content="#0b1020">
   <link rel="icon" href="/assets/images/sroy.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <script type="application/ld+json">
+  {
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "WebSite",
+   "@id": "https://shantoroy.com/#website",
+   "url": "https://shantoroy.com/",
+   "name": "Shanto Roy",
+   "publisher": {
+    "@id": "https://shantoroy.com/#person"
+   },
+   "inLanguage": "en"
+  },
+  {
+   "@type": "Person",
+   "@id": "https://shantoroy.com/#person",
+   "name": "Shanto Roy",
+   "jobTitle": "AI Platform Security Engineer",
+   "description": "AI Platform Security Engineer at Charles Schwab with a PhD in Cybersecurity from the University of Houston, working on AI guardrails, AI traffic monitoring and incident response for enterprise AI platforms.",
+   "url": "https://shantoroy.com/",
+   "image": "https://shantoroy.com/resume/img/shanto-roy.png",
+   "email": "mailto:shantoroy@ieee.org",
+   "worksFor": {
+    "@type": "Organization",
+    "name": "Charles Schwab"
+   },
+   "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "University of Houston"
+   },
+   "knowsAbout": [
+    "AI security",
+    "LLM security",
+    "Agentic AI security",
+    "Model Context Protocol",
+    "OWASP Top 10 for LLMs",
+    "Cybersecurity",
+    "Cyber deception",
+    "IoT security",
+    "Site reliability engineering",
+    "Python"
+   ],
+   "sameAs": [
+    "https://www.linkedin.com/in/shanto-roy/",
+    "https://github.com/shantoroy",
+    "https://scholar.google.com/citations?user=OMGYMbwAAAAJ&hl=en",
+    "https://twitter.com/royshanto9"
+   ]
+  },
+  {
+   "@type": "CollectionPage",
+   "@id": "https://shantoroy.com/ai-sec-hub/#page",
+   "url": "https://shantoroy.com/ai-sec-hub/",
+   "name": "AI/CyberSec Hub",
+   "description": "Daily-updated AI, cybersecurity and AI-security news, blogs, arXiv papers, community discussions, GitHub projects and a curated resource directory.",
+   "isPartOf": {
+    "@id": "https://shantoroy.com/#website"
+   },
+   "author": {
+    "@id": "https://shantoroy.com/#person"
+   },
+   "inLanguage": "en"
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://shantoroy.com/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "AI/CyberSec Hub",
+     "item": "https://shantoroy.com/ai-sec-hub/"
+    }
+   ]
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "What is the AI/CyberSec Hub?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A single page that aggregates the latest AI, cybersecurity and AI-security news, blogs, arXiv papers, community discussions and GitHub projects, with a curated resource directory."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What is the difference between the AI Security, AI and Cybersecurity tabs?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "AI Security covers securing and attacking AI systems (LLMs, agents, prompt injection, red teaming). AI covers the broader AI landscape. Cybersecurity covers general security news and research. Items can appear in more than one tab."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Which sources are used?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Public RSS feeds from security and AI publications and blogs, the arXiv API, Hacker News, Lobsters and the GitHub search API. Every item links to its original source."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How often is it updated?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The hub refreshes automatically about every 8 hours."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How are the summaries and briefings made?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Short summaries and the daily briefing are written by an AI model from titles and snippets, and may contain mistakes. Always check the linked source."
+     }
+    }
+   ]
+  }
+ ]
+}
+  </script>
   <style>
     :root {
       --bg: #0b1020; --bg2: #0f1630; --card: rgba(255,255,255,.04); --border: rgba(255,255,255,.09);
@@ -147,6 +284,13 @@ description: "One page for AI, cybersecurity and AI-security updates: latest new
     .ad small { display: block; font-size: .68rem; color: var(--muted); letter-spacing: .08em; text-transform: uppercase; margin-bottom: 4px; }
     .disclaimer { font-size: .78rem; color: var(--muted); margin-top: 10px; }
     @media (max-width: 860px) { .panels { grid-template-columns: 1fr; } .tab { padding: 10px 16px; } }
+
+    .faq { padding: 28px 0; } .faq h2 { margin-bottom: 14px; }
+    .faq details { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 14px 18px; margin-bottom: 10px; }
+    .faq summary { cursor: pointer; font-weight: 600; } .faq p { color: var(--muted); margin-top: 8px; font-size: .94rem; }
+    .faq a { color: var(--accent2); }
+    #static-feed { padding: 20px 24px 40px; } #static-feed h2 { margin: 18px 0 8px; } #static-feed h3 { margin: 16px 0 6px; font-size: 1rem; color: var(--accent2); }
+    #static-feed li { margin: 6px 0; font-size: .9rem; color: var(--muted); } #static-feed a { color: var(--text); text-decoration: underline; text-decoration-color: var(--border); }
   </style>
 </head>
 <body>
@@ -197,6 +341,14 @@ description: "One page for AI, cybersecurity and AI-security updates: latest new
   <div class="wrap ad"><small>Advertisement</small>
 {% include advertisements.html %}
   </div>
+  <section class="faq"><div class="wrap"><h2>Frequently asked questions</h2>
+    <details><summary>What is the AI/CyberSec Hub?</summary><p>A single page that aggregates the latest AI, cybersecurity and AI-security news, blogs, arXiv papers, community discussions and GitHub projects, with a curated resource directory.</p></details>
+    <details><summary>What is the difference between the AI Security, AI and Cybersecurity tabs?</summary><p>AI Security covers securing and attacking AI systems (LLMs, agents, prompt injection, red teaming). AI covers the broader AI landscape. Cybersecurity covers general security news and research. Items can appear in more than one tab.</p></details>
+    <details><summary>Which sources are used?</summary><p>Public RSS feeds from security and AI publications and blogs, the arXiv API, Hacker News, Lobsters and the GitHub search API. Every item links to its original source.</p></details>
+    <details><summary>How often is it updated?</summary><p>The hub refreshes automatically about every 8 hours.</p></details>
+    <details><summary>How are the summaries and briefings made?</summary><p>Short summaries and the daily briefing are written by an AI model from titles and snippets, and may contain mistakes. Always check the linked source.</p></details>
+  </div></section>
+{% include ai-sec-hub-static.html %}
 </main>
 
 <footer>

@@ -43,11 +43,17 @@ jobs:
           args="--days ${{ inputs.days || '2' }}"
           if [ "${{ inputs.weekly }}" = "true" ]; then args="$args --weekly"; fi
           python scripts/threat_intel.py $args
+      - name: Render crawlable static content
+        run: python scripts/seo_static.py threat
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/data/threat-intel threat-intel
+          git add assets/data/threat-intel threat-intel _includes/threat-intel-static.html
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "Update threat intelligence data and reports"
           for i in 1 2 3; do git pull --rebase -X theirs && git push && break; sleep 5; done
+      - name: Ping IndexNow
+        run: |
+          sleep 200
+          python scripts/indexnow.py

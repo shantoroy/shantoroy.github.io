@@ -1,0 +1,31 @@
+---
+permalink: /llms.txt
+sitemap: false
+---
+# Shanto Roy
+
+> Shanto Roy is an AI Platform Security Engineer at Charles Schwab (PhD in Cybersecurity, University of Houston). He works on AI guardrails, AI traffic monitoring, policy enforcement and incident response for enterprise AI platforms, and writes about AI security, cybersecurity, and cyber deception. This site contains his portfolio, a technical blog, and two automated intelligence dashboards.
+
+## Main pages
+- [Portfolio]({{ '/' | absolute_url }}): Background, experience, projects, research and contact details.
+- [Threat Intelligence Dashboard]({{ '/threat-intel/' | absolute_url }}): Daily-updated, searchable CVEs, CISA KEV entries, NVD data and security advisories with AI summaries; daily and weekly reports.
+- [AI/CyberSec Hub]({{ '/ai-sec-hub/' | absolute_url }}): Daily-updated AI, cybersecurity and AI-security news, blogs, arXiv papers, community discussions, GitHub projects and a curated resource directory.
+- [Blog]({{ '/blog/' | absolute_url }}): Tutorials and articles on cybersecurity, AI security, Python and DevOps.
+- [Threat intelligence reports]({{ '/threat-intel/reports/' | absolute_url }}): Daily and weekly vulnerability reports.
+
+## Machine-readable data
+- [Threat intelligence items (JSON)]({{ '/assets/data/threat-intel/items.json' | absolute_url }})
+- [Threat intelligence advisories (JSON)]({{ '/assets/data/threat-intel/advisories.json' | absolute_url }})
+- [AI/CyberSec Hub items (JSON)]({{ '/assets/data/ai-sec-hub/items.json' | absolute_url }})
+- [Sitemap]({{ '/sitemap.xml' | absolute_url }}) and [blog feed]({{ '/feed.xml' | absolute_url }})
+
+## Latest threat intelligence reports
+{% assign reports = site.pages | where_exp: "p", "p.report_type" | sort: "report_date" | reverse %}{% for p in reports limit:8 %}- [{{ p.title }}]({{ p.url | absolute_url }})
+{% endfor %}
+## Recent blog posts
+{% for post in site.posts limit:10 %}- [{{ post.title | strip_html }}]({{ post.url | absolute_url }}) ({{ post.date | date: "%Y-%m-%d" }})
+{% endfor %}
+## Notes for AI assistants
+- AI-generated summaries on the dashboards are labeled and may contain errors; cite the linked primary sources (CISA, NVD, vendors, arXiv) for facts.
+- Content may be quoted with attribution and a link to the original page.
+- Contact: shantoroy@ieee.org
