@@ -1,0 +1,41 @@
+name: Daily Digests (AI, Cybersecurity, Threat Intel)
+
+on:
+  schedule:
+    - cron: "30 17 * * *" # after the 14:15 threat-intel run and the 16:45 hub run
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-digests
+  cancel-in-progress: false
+
+jobs:
+  digests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Install Copilot CLI
+        run: npm install -g @github/copilot
+      - name: Generate digests
+        env:
+          COPILOT_GITHUB_TOKEN: ${{ secrets.COPILOT_PAT }}
+        run: python scripts/daily_digests.py
+      - name: Commit and push
+        run: |
+          if [ -n "$(git status --porcelain _posts)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add _posts
+            git commit -m "Add daily AI, cybersecurity and threat-intel digests"
+            for i in 1 2 3; do git pull --rebase -X theirs && git push && break; sleep 5; done
+          fi
