@@ -1,0 +1,124 @@
+# Curated resources shown on /ai-sec-hub/. Edit freely: add a category or an item and commit.
+# tabs: any of aisec (AI Security), ai (AI), cyber (Cybersecurity)
+
+- category: "Frameworks & Standards"
+  tabs: [aisec]
+  items:
+    - {name: "OWASP GenAI Security Project", url: "https://genai.owasp.org/", desc: "Home of the OWASP Top 10 for LLM Applications and agentic AI security guidance."}
+    - {name: "OWASP Top 10 for LLM Applications", url: "https://genai.owasp.org/llm-top-10/", desc: "The ten most critical risks for LLM-based applications."}
+    - {name: "MITRE ATLAS", url: "https://atlas.mitre.org/", desc: "Adversarial threat landscape for AI systems: tactics, techniques and case studies."}
+    - {name: "NIST AI Risk Management Framework", url: "https://www.nist.gov/itl/ai-risk-management-framework", desc: "Voluntary framework for managing risks of AI systems."}
+    - {name: "NIST Adversarial Machine Learning Taxonomy", url: "https://csrc.nist.gov/pubs/ai/100/2/e2025/final", desc: "NIST AI 100-2: taxonomy and terminology of attacks and mitigations."}
+    - {name: "Google Secure AI Framework (SAIF)", url: "https://saif.google/", desc: "Google's conceptual framework for securing AI systems."}
+    - {name: "CSA AI Safety Initiative", url: "https://cloudsecurityalliance.org/ai-safety-initiative", desc: "Cloud Security Alliance guidance and research on secure AI adoption."}
+    - {name: "AI Incident Database", url: "https://incidentdatabase.ai/", desc: "Searchable collection of real-world AI failures and harms."}
+
+- category: "AI Red Teaming & Defense Tools"
+  tabs: [aisec]
+  items:
+    - {name: "garak", url: "https://github.com/NVIDIA/garak", desc: "NVIDIA's LLM vulnerability scanner."}
+    - {name: "PyRIT", url: "https://github.com/Azure/PyRIT", desc: "Microsoft's Python Risk Identification Tool for generative AI red teaming."}
+    - {name: "promptfoo", url: "https://github.com/promptfoo/promptfoo", desc: "Test, evaluate and red-team prompts, agents and RAG pipelines."}
+    - {name: "LLM Guard", url: "https://github.com/protectai/llm-guard", desc: "Input and output scanners for LLM interactions."}
+    - {name: "NeMo Guardrails", url: "https://github.com/NVIDIA/NeMo-Guardrails", desc: "Programmable guardrails for LLM-based conversational systems."}
+    - {name: "Guardrails AI", url: "https://github.com/guardrails-ai/guardrails", desc: "Validate and structure LLM inputs and outputs."}
+    - {name: "Adversarial Robustness Toolbox", url: "https://github.com/Trusted-AI/adversarial-robustness-toolbox", desc: "Python library for evasion, poisoning, extraction and inference attacks and defenses."}
+    - {name: "Giskard", url: "https://github.com/Giskard-AI/giskard", desc: "Open-source testing for ML models and LLM agents."}
+    - {name: "Gandalf by Lakera", url: "https://gandalf.lakera.ai/", desc: "A prompt-injection game to learn how LLMs get tricked."}
+    - {name: "HackAPrompt", url: "https://www.hackaprompt.com/", desc: "Prompt hacking competitions and research."}
+
+- category: "Awesome Lists"
+  tabs: [aisec, ai, cyber]
+  items:
+    - {name: "awesome-llm-security", url: "https://github.com/corca-ai/awesome-llm-security", desc: "Curated tools, papers and docs on LLM security.", tabs: [aisec]}
+    - {name: "awesome-ai-security", url: "https://github.com/ottosulin/awesome-ai-security", desc: "Resources for AI and ML security.", tabs: [aisec]}
+    - {name: "awesome-ml-for-cybersecurity", url: "https://github.com/jivoi/awesome-ml-for-cybersecurity", desc: "Machine learning applied to cybersecurity.", tabs: [aisec, cyber]}
+    - {name: "Awesome-LLM", url: "https://github.com/Hannibal046/Awesome-LLM", desc: "Papers, frameworks and tools for large language models.", tabs: [ai]}
+    - {name: "awesome-mcp-servers", url: "https://github.com/punkpeye/awesome-mcp-servers", desc: "Collection of Model Context Protocol servers.", tabs: [ai, aisec]}
+    - {name: "awesome-ai-agents", url: "https://github.com/e2b-dev/awesome-ai-agents", desc: "List of autonomous AI agents and frameworks.", tabs: [ai]}
+    - {name: "awesome-security", url: "https://github.com/sbilly/awesome-security", desc: "Software, libraries, documents and other security resources.", tabs: [cyber]}
+    - {name: "awesome-pentest", url: "https://github.com/enaqx/awesome-pentest", desc: "Penetration testing resources and tools.", tabs: [cyber]}
+    - {name: "awesome-threat-intelligence", url: "https://github.com/hslatman/awesome-threat-intelligence", desc: "Threat intelligence resources.", tabs: [cyber]}
+    - {name: "awesome-incident-response", url: "https://github.com/meirwah/awesome-incident-response", desc: "Tools and resources for incident response.", tabs: [cyber]}
+    - {name: "PayloadsAllTheThings", url: "https://github.com/swisskyrepo/PayloadsAllTheThings", desc: "Payloads and bypasses for web application security.", tabs: [cyber]}
+
+- category: "AI Labs, Research Blogs & Newsletters"
+  tabs: [ai, aisec]
+  items:
+    - {name: "Anthropic Research", url: "https://www.anthropic.com/research", desc: "Research on interpretability, alignment and safety.", tabs: [ai, aisec]}
+    - {name: "OpenAI News", url: "https://openai.com/news/", desc: "Product, research and safety announcements.", tabs: [ai]}
+    - {name: "Google DeepMind Blog", url: "https://deepmind.google/discover/blog/", desc: "Research and product updates from DeepMind.", tabs: [ai]}
+    - {name: "Hugging Face Blog", url: "https://huggingface.co/blog", desc: "Open-source models, tooling and community posts.", tabs: [ai]}
+    - {name: "Hugging Face Daily Papers", url: "https://huggingface.co/papers", desc: "Community-ranked AI papers of the day.", tabs: [ai]}
+    - {name: "Simon Willison's Weblog", url: "https://simonwillison.net/", desc: "Practical LLM notes, prompt injection coverage and tooling.", tabs: [ai, aisec]}
+    - {name: "Embrace The Red", url: "https://embracethered.com/blog/", desc: "Offensive research on LLM and agent exploits.", tabs: [aisec]}
+    - {name: "Import AI", url: "https://importai.substack.com/", desc: "Weekly newsletter on AI research and policy.", tabs: [ai]}
+    - {name: "NVIDIA Technical Blog", url: "https://developer.nvidia.com/blog/", desc: "Includes AI red team and LLM security write-ups.", tabs: [ai, aisec]}
+
+- category: "Cybersecurity News & Blogs"
+  tabs: [cyber]
+  items:
+    - {name: "The Hacker News", url: "https://thehackernews.com/", desc: "Daily cybersecurity news."}
+    - {name: "BleepingComputer", url: "https://www.bleepingcomputer.com/", desc: "News, malware analysis and tech support."}
+    - {name: "Krebs on Security", url: "https://krebsonsecurity.com/", desc: "Investigative cybercrime reporting."}
+    - {name: "Dark Reading", url: "https://www.darkreading.com/", desc: "Enterprise security news and analysis."}
+    - {name: "SecurityWeek", url: "https://www.securityweek.com/", desc: "Security news, trends and vulnerability coverage."}
+    - {name: "The Record", url: "https://therecord.media/", desc: "Cybersecurity and policy reporting from Recorded Future News."}
+    - {name: "Schneier on Security", url: "https://www.schneier.com/", desc: "Bruce Schneier's blog."}
+    - {name: "SANS Internet Storm Center", url: "https://isc.sans.edu/", desc: "Daily handler diaries and threat data."}
+    - {name: "Risky Business", url: "https://risky.biz/", desc: "Weekly security news podcast and newsletters."}
+    - {name: "tl;dr sec", url: "https://tldrsec.com/", desc: "Weekly newsletter of security tools, talks and research."}
+    - {name: "Unit 42", url: "https://unit42.paloaltonetworks.com/", desc: "Threat research from Palo Alto Networks."}
+    - {name: "Cisco Talos", url: "https://blog.talosintelligence.com/", desc: "Threat intelligence and vulnerability research."}
+    - {name: "Google Project Zero", url: "https://googleprojectzero.blogspot.com/", desc: "Deep-dive vulnerability research."}
+
+- category: "Vulnerability & Threat Intelligence"
+  tabs: [cyber]
+  items:
+    - {name: "NVD", url: "https://nvd.nist.gov/", desc: "NIST National Vulnerability Database."}
+    - {name: "CISA Known Exploited Vulnerabilities", url: "https://www.cisa.gov/known-exploited-vulnerabilities-catalog", desc: "Vulnerabilities actively exploited in the wild."}
+    - {name: "CVE Program", url: "https://www.cve.org/", desc: "Authoritative CVE records."}
+    - {name: "MITRE ATT&CK", url: "https://attack.mitre.org/", desc: "Adversary tactics and techniques knowledge base."}
+    - {name: "FIRST EPSS", url: "https://www.first.org/epss/", desc: "Exploit Prediction Scoring System."}
+    - {name: "Exploit-DB", url: "https://www.exploit-db.com/", desc: "Archive of public exploits."}
+    - {name: "AlienVault OTX", url: "https://otx.alienvault.com/", desc: "Open threat exchange."}
+    - {name: "abuse.ch", url: "https://abuse.ch/", desc: "Malware, botnet and URL threat feeds."}
+    - {name: "GreyNoise", url: "https://viz.greynoise.io/", desc: "Internet background noise and mass-exploitation tracking."}
+    - {name: "VirusTotal", url: "https://www.virustotal.com/", desc: "File, URL and domain analysis."}
+    - {name: "Shodan", url: "https://www.shodan.io/", desc: "Search engine for internet-connected devices."}
+    - {name: "My Threat Intelligence Dashboard", url: "/threat-intel/", desc: "Daily KEV, NVD and advisory intelligence with AI summaries."}
+
+- category: "Academia & Conferences"
+  tabs: [aisec, ai, cyber]
+  items:
+    - {name: "arXiv cs.CR (Cryptography and Security)", url: "https://arxiv.org/list/cs.CR/recent", desc: "Newest security papers.", tabs: [cyber, aisec]}
+    - {name: "arXiv cs.AI", url: "https://arxiv.org/list/cs.AI/recent", desc: "Newest AI papers.", tabs: [ai]}
+    - {name: "arXiv cs.LG", url: "https://arxiv.org/list/cs.LG/recent", desc: "Newest machine learning papers.", tabs: [ai, aisec]}
+    - {name: "Semantic Scholar", url: "https://www.semanticscholar.org/", desc: "AI-powered paper search with citation data.", tabs: [aisec, ai, cyber]}
+    - {name: "Security conference deadlines", url: "https://sec-deadlines.github.io/", desc: "Deadlines for top security venues.", tabs: [cyber, aisec]}
+    - {name: "USENIX Security", url: "https://www.usenix.org/conferences", desc: "Top-tier systems security conference.", tabs: [cyber, aisec]}
+    - {name: "IEEE Symposium on Security and Privacy", url: "https://www.ieee-security.org/TC/SP-Index.html", desc: "Flagship IEEE security conference.", tabs: [cyber, aisec]}
+    - {name: "ACM CCS", url: "https://www.sigsac.org/ccs.html", desc: "ACM Conference on Computer and Communications Security.", tabs: [cyber, aisec]}
+    - {name: "NDSS Symposium", url: "https://www.ndss-symposium.org/", desc: "Network and Distributed System Security Symposium.", tabs: [cyber, aisec]}
+    - {name: "NeurIPS", url: "https://neurips.cc/", desc: "Leading machine learning conference.", tabs: [ai]}
+
+- category: "Learning & Practice"
+  tabs: [cyber, aisec]
+  items:
+    - {name: "PortSwigger Web Security Academy", url: "https://portswigger.net/web-security", desc: "Free web security training and labs.", tabs: [cyber]}
+    - {name: "TryHackMe", url: "https://tryhackme.com/", desc: "Guided hands-on cybersecurity rooms.", tabs: [cyber]}
+    - {name: "Hack The Box", url: "https://www.hackthebox.com/", desc: "Offensive security labs and challenges.", tabs: [cyber]}
+    - {name: "OverTheWire", url: "https://overthewire.org/wargames/", desc: "Wargames to learn security concepts.", tabs: [cyber]}
+    - {name: "CyberDefenders", url: "https://cyberdefenders.org/", desc: "Blue-team challenges and labs.", tabs: [cyber]}
+    - {name: "SANS Reading Room", url: "https://www.sans.org/white-papers/", desc: "Free security white papers.", tabs: [cyber]}
+    - {name: "Gandalf by Lakera", url: "https://gandalf.lakera.ai/", desc: "Practice prompt injection.", tabs: [aisec]}
+    - {name: "MLSecOps Community", url: "https://mlsecops.com/", desc: "Community and podcast on securing ML systems.", tabs: [aisec]}
+
+- category: "Communities"
+  tabs: [aisec, ai, cyber]
+  items:
+    - {name: "r/netsec", url: "https://www.reddit.com/r/netsec/", desc: "Technical information security content.", tabs: [cyber]}
+    - {name: "r/MachineLearning", url: "https://www.reddit.com/r/MachineLearning/", desc: "Machine learning research discussion.", tabs: [ai]}
+    - {name: "r/LocalLLaMA", url: "https://www.reddit.com/r/LocalLLaMA/", desc: "Open and local LLM community.", tabs: [ai]}
+    - {name: "Hacker News", url: "https://news.ycombinator.com/", desc: "Tech and security discussion.", tabs: [ai, cyber, aisec]}
+    - {name: "Lobsters", url: "https://lobste.rs/", desc: "Curated computing community.", tabs: [ai, cyber]}

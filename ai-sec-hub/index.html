@@ -1,0 +1,314 @@
+---
+layout: null
+title: "AI & Cybersecurity Hub"
+permalink: /ai-sec-hub/
+description: "One page for AI, cybersecurity and AI-security updates: latest news, blogs, arXiv papers, community posts, GitHub repos and a curated resource directory."
+---
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI &amp; Cybersecurity Hub — Shanto Roy</title>
+  <meta name="description" content="One page for AI, cybersecurity and AI-security updates: latest news, blogs, arXiv papers, community posts, GitHub repos and a curated resource directory.">
+  <link rel="canonical" href="{{ '/ai-sec-hub/' | absolute_url }}">
+  <meta property="og:title" content="AI & Cybersecurity Hub">
+  <meta property="og:description" content="Daily-updated AI, cybersecurity and AI-security news, papers, repos and resources in one page.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ '/ai-sec-hub/' | absolute_url }}">
+  <meta name="theme-color" content="#0b1020">
+  <link rel="icon" href="/assets/images/sroy.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0b1020; --bg2: #0f1630; --card: rgba(255,255,255,.04); --border: rgba(255,255,255,.09);
+      --text: #e6e9f5; --muted: #99a1be; --accent: #7c8cff; --accent2: #22d3ee; --accent3: #a78bfa;
+      --crit: #f43f5e; --high: #fb923c; --med: #facc15; --ok: #34d399;
+      --grad: linear-gradient(120deg, var(--accent2), var(--accent) 50%, var(--accent3));
+      --shadow: 0 10px 40px rgba(0,0,0,.35);
+    }
+    [data-theme="light"] {
+      --bg: #f6f7fb; --bg2: #ffffff; --card: #ffffff; --border: rgba(15,22,48,.1);
+      --text: #12182f; --muted: #576080; --accent: #4f5fe8; --accent2: #0891b2; --accent3: #7c3aed;
+      --crit: #e11d48; --high: #ea580c; --med: #ca8a04; --ok: #059669; --shadow: 0 10px 30px rgba(15,22,48,.08);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; scroll-padding-top: 80px; }
+    body { font-family: Inter, system-ui, -apple-system, "Segoe UI", sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; -webkit-font-smoothing: antialiased; }
+    a { color: inherit; text-decoration: none; }
+    ul { list-style: none; }
+    .wrap { max-width: 1120px; margin: 0 auto; padding: 0 24px; }
+    .mono { font-family: "JetBrains Mono", ui-monospace, monospace; }
+    .grad { background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+    .glow { position: fixed; inset: 0; z-index: -1; pointer-events: none;
+      background: radial-gradient(600px 400px at 85% 0%, rgba(124,140,255,.16), transparent 60%), radial-gradient(500px 400px at 0% 40%, rgba(34,211,238,.09), transparent 60%); }
+    header.nav { position: sticky; top: 0; z-index: 50; backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); background: color-mix(in srgb, var(--bg) 72%, transparent); border-bottom: 1px solid var(--border); }
+    .nav .wrap { display: flex; align-items: center; justify-content: space-between; height: 64px; gap: 12px; }
+    .logo { font-weight: 800; letter-spacing: -.02em; }
+    .logo span { color: var(--accent2); }
+    .links { display: flex; gap: 4px; align-items: center; flex-wrap: wrap; }
+    .links a { padding: 6px 12px; border-radius: 8px; font-size: .9rem; color: var(--muted); transition: .2s; }
+    .links a:hover { color: var(--text); background: var(--card); }
+    .icon-btn { background: var(--card); border: 1px solid var(--border); color: var(--text); width: 36px; height: 36px; border-radius: 10px; cursor: pointer; }
+    .eyebrow { font-size: .78rem; letter-spacing: .14em; text-transform: uppercase; color: var(--accent2); font-weight: 600; }
+    h1 { font-size: clamp(2rem, 5vw, 3.2rem); letter-spacing: -.03em; line-height: 1.1; font-weight: 800; margin: 10px 0 12px; }
+    h2 { font-size: 1.5rem; letter-spacing: -.02em; margin-bottom: 18px; }
+    .hero { padding-top: 64px; padding-bottom: 28px; }
+    .lede { color: var(--muted); max-width: 720px; }
+    .pill { display: inline-flex; align-items: center; gap: 8px; padding: 5px 13px; border: 1px solid var(--border); background: var(--card); border-radius: 999px; font-size: .8rem; color: var(--muted); margin-top: 18px; }
+    .dot { width: 8px; height: 8px; background: var(--ok); border-radius: 50%; box-shadow: 0 0 0 4px rgba(52,211,153,.2); }
+    section { padding: 28px 0; }
+    .grid { display: grid; gap: 16px; }
+    .stats { grid-template-columns: repeat(5, 1fr); }
+    .card { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 20px; }
+    .stat { text-align: center; }
+    .stat b { display: block; font-size: 1.9rem; font-weight: 800; letter-spacing: -.02em; }
+    .stat span { font-size: .8rem; color: var(--muted); }
+    .two { grid-template-columns: 1.2fr 1fr; }
+    .bar { display: grid; grid-template-columns: 130px 1fr 34px; align-items: center; gap: 10px; font-size: .85rem; margin: 9px 0; color: var(--muted); }
+    .bar i { display: block; height: 8px; border-radius: 99px; background: var(--grad); }
+    .bar em { font-style: normal; text-align: right; color: var(--text); }
+    .reports li { display: flex; justify-content: space-between; gap: 10px; padding: 9px 0; border-bottom: 1px dashed var(--border); font-size: .92rem; }
+    .reports li:last-child { border: 0; }
+    .reports a:hover { color: var(--accent2); }
+    .reports small { color: var(--muted); font-family: "JetBrains Mono", monospace; font-size: .75rem; white-space: nowrap; }
+    .reports h3 { font-size: .8rem; text-transform: uppercase; letter-spacing: .08em; color: var(--accent2); margin: 6px 0 4px; }
+    .tools { display: grid; grid-template-columns: 1fr auto auto auto; gap: 10px; align-items: center; }
+    input, select { font: inherit; color: var(--text); background: var(--bg2); border: 1px solid var(--border); border-radius: 12px; padding: 11px 14px; min-width: 0; }
+    input:focus, select:focus { outline: 2px solid var(--accent); }
+    .chips { display: flex; gap: 8px; flex-wrap: wrap; margin: 14px 0 6px; }
+    .chip { cursor: pointer; font: inherit; font-size: .82rem; padding: 6px 14px; border-radius: 999px; border: 1px solid var(--border); background: var(--card); color: var(--muted); }
+    .chip.on { color: #fff; background: var(--grad); border-color: transparent; font-weight: 600; }
+    .count { color: var(--muted); font-size: .85rem; margin: 10px 2px; }
+    .item { margin-bottom: 12px; transition: .2s; }
+    .item:hover { border-color: color-mix(in srgb, var(--accent) 55%, transparent); }
+    .item .top { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 8px; }
+    .item .id { font-weight: 700; font-family: "JetBrains Mono", monospace; font-size: .95rem; }
+    .item .id:hover { color: var(--accent2); }
+    .badge { font-size: .7rem; font-weight: 700; padding: 3px 9px; border-radius: 6px; letter-spacing: .04em; text-transform: uppercase; }
+    .b-critical { background: color-mix(in srgb, var(--crit) 20%, transparent); color: var(--crit); }
+    .b-high { background: color-mix(in srgb, var(--high) 20%, transparent); color: var(--high); }
+    .b-medium { background: color-mix(in srgb, var(--med) 20%, transparent); color: var(--med); }
+    .b-kev { background: color-mix(in srgb, var(--accent3) 22%, transparent); color: var(--accent3); }
+    .b-ransom { background: var(--crit); color: #fff; }
+    .b-src { background: var(--card); border: 1px solid var(--border); color: var(--muted); }
+    .item .who { color: var(--muted); font-size: .88rem; }
+    .item p { font-size: .93rem; color: var(--text); margin: 4px 0 8px; opacity: .92; }
+    .item .meta { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: .78rem; color: var(--muted); align-items: center; }
+    .item .meta a { color: var(--accent2); font-weight: 600; }
+    .tag { font-size: .74rem; padding: 2px 9px; border-radius: 999px; background: color-mix(in srgb, var(--accent) 16%, transparent); color: var(--accent); }
+    .more { display: block; margin: 18px auto; }
+    .btn { cursor: pointer; font: inherit; font-weight: 600; padding: 11px 22px; border-radius: 12px; border: 1px solid var(--border); background: var(--card); color: var(--text); }
+    .btn:hover { border-color: var(--accent); }
+    .empty { text-align: center; color: var(--muted); padding: 40px 0; }
+    footer { padding: 36px 0 52px; text-align: center; color: var(--muted); font-size: .84rem; }
+    footer a { color: var(--accent2); }
+    .note { font-size: .8rem; color: var(--muted); margin-top: 8px; }
+    @media (max-width: 860px) {
+      .stats { grid-template-columns: repeat(2, 1fr); } .two { grid-template-columns: 1fr; }
+      .tools { grid-template-columns: 1fr 1fr; } .tools input { grid-column: 1 / -1; }
+      .links a:not(.keep) { display: none; }
+    }
+  
+    .tabs { display: flex; gap: 10px; flex-wrap: wrap; margin: 6px 0 4px; }
+    .tab { cursor: pointer; font: inherit; font-weight: 700; padding: 12px 22px; border-radius: 14px; border: 1px solid var(--border); background: var(--card); color: var(--muted); display: inline-flex; gap: 10px; align-items: center; }
+    .tab small { font-weight: 600; font-size: .72rem; padding: 1px 8px; border-radius: 99px; background: color-mix(in srgb, var(--accent) 18%, transparent); color: var(--accent); }
+    .tab.on { color: #fff; background: var(--grad); border-color: transparent; box-shadow: var(--shadow); }
+    .tab.on small { background: rgba(255,255,255,.25); color: #fff; }
+    .tabdesc { color: var(--muted); font-size: .92rem; margin: 10px 2px 0; }
+    .brief { border-left: 3px solid var(--accent2); }
+    .brief h2 { font-size: 1.05rem; margin-bottom: 10px; }
+    .brief li { position: relative; padding: 5px 0 5px 20px; font-size: .95rem; }
+    .brief li::before { content: "▸"; position: absolute; left: 0; color: var(--accent2); }
+    .panels { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+    .panel { padding: 18px 18px 8px; min-width: 0; }
+    .panel h3 { font-size: .85rem; text-transform: uppercase; letter-spacing: .09em; color: var(--accent2); margin-bottom: 6px; display: flex; justify-content: space-between; }
+    .panel h3 span { color: var(--muted); font-weight: 500; letter-spacing: 0; text-transform: none; }
+    .row { padding: 12px 0; border-bottom: 1px dashed var(--border); }
+    .row:last-of-type { border-bottom: 0; }
+    .row a.t { font-weight: 600; font-size: .95rem; line-height: 1.35; display: block; }
+    .row a.t:hover { color: var(--accent2); }
+    .row p { font-size: .84rem; color: var(--muted); margin: 4px 0 4px; }
+    .row .meta { display: flex; flex-wrap: wrap; gap: 4px 10px; font-size: .74rem; color: var(--muted); align-items: center; }
+    .row .meta a { color: var(--accent2); }
+    .ai-dot { color: var(--accent3); font-weight: 700; }
+    .panel .btn { width: 100%; margin: 8px 0 10px; padding: 8px; font-size: .85rem; }
+    .search { margin-top: 18px; }
+    .rescat { margin-bottom: 18px; }
+    .rescat h3 { font-size: 1rem; margin-bottom: 10px; }
+    .links2 { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 10px; }
+    .res { display: block; padding: 12px 14px; border: 1px solid var(--border); border-radius: 12px; background: var(--bg2); transition: .2s; }
+    .res:hover { border-color: var(--accent); transform: translateY(-1px); }
+    .res b { display: block; font-size: .9rem; } .res span { font-size: .78rem; color: var(--muted); }
+    .ad { margin: 22px auto; text-align: center; min-height: 90px; }
+    .ad small { display: block; font-size: .68rem; color: var(--muted); letter-spacing: .08em; text-transform: uppercase; margin-bottom: 4px; }
+    .disclaimer { font-size: .78rem; color: var(--muted); margin-top: 10px; }
+    @media (max-width: 860px) { .panels { grid-template-columns: 1fr; } .tab { padding: 10px 16px; } }
+  </style>
+</head>
+<body>
+<div class="glow"></div>
+<header class="nav">
+  <div class="wrap">
+    <a href="/" class="logo">shanto<span>.</span>roy</a>
+    <nav class="links">
+      <a href="/" class="keep">Portfolio</a>
+      <a href="/threat-intel/">Threat Intel</a>
+      <a href="/blog/" class="keep">Blog</a>
+      <button class="icon-btn" id="theme" aria-label="Toggle theme">☾</button>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap hero">
+    <div class="eyebrow">Automated · Updated daily</div>
+    <h1>AI &amp; Cybersecurity <span class="grad">Hub</span></h1>
+    <p class="lede">News, blogs, research papers, community discussions and trending GitHub projects from across AI and cybersecurity, plus a curated directory of the best resources. Titles link to their original sources.
+    <span class="pill"><i class="dot"></i> <span id="updated">Loading latest data…</span></span></p>
+  </div>
+
+  <div class="wrap">
+    <div class="tabs" id="tabs"></div>
+    <p class="tabdesc" id="tabdesc"></p>
+  </div>
+
+  <section><div class="wrap">
+    <div class="card brief" id="brief" hidden></div>
+    <div class="search"><input id="q" type="search" placeholder="Search everything on this tab (e.g. prompt injection, MCP, ransomware, agents)…" aria-label="Search" style="width:100%"></div>
+  </div></section>
+
+  <div class="wrap ad"><small>Advertisement</small>
+{% include advertisements.html %}
+  </div>
+
+  <section><div class="wrap">
+    <div class="panels" id="panels"></div>
+  </div></section>
+
+  <section><div class="wrap">
+    <h2>Resource directory</h2>
+    <div id="resources"></div>
+  </div></section>
+
+  <div class="wrap ad"><small>Advertisement</small>
+{% include advertisements.html %}
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>Built and automated by <a href="/">Shanto Roy</a> · Also see the <a href="/threat-intel/">Threat Intelligence Dashboard</a> and the <a href="/blog/">blog</a>.</p>
+    <p class="disclaimer">Collected automatically from public RSS feeds, the arXiv, Hacker News, Lobsters and GitHub APIs. Short summaries are AI-generated and may contain mistakes: always verify with the linked source.</p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var BASE = "{{ '/assets/data/ai-sec-hub/' | relative_url }}";
+  var RES = {{ site.data.ai_sec_resources | jsonify }};
+  var root = document.documentElement, tbtn = document.getElementById('theme');
+  var saved = localStorage.getItem('theme'); if (saved) root.dataset.theme = saved;
+  function paint() { tbtn.textContent = root.dataset.theme === 'dark' ? '☾' : '☀'; } paint();
+  tbtn.onclick = function () { root.dataset.theme = root.dataset.theme === 'dark' ? 'light' : 'dark'; localStorage.setItem('theme', root.dataset.theme); paint(); };
+
+  var $ = function (id) { return document.getElementById(id); };
+  var TABS = [
+    ['aisec', 'AI Security', 'Securing and attacking AI: LLM and agent security, prompt injection, red teaming, guardrails and AI-enabled threats.'],
+    ['ai', 'AI', 'The broader AI landscape: models, labs, tooling, agents and research.'],
+    ['cyber', 'Cybersecurity', 'General cybersecurity: threats, vulnerabilities, incidents, research and tooling.']
+  ];
+  var PANELS = [
+    ['news', 'News & Blogs', ['news', 'blog']],
+    ['papers', 'Research Papers (arXiv)', ['paper']],
+    ['community', 'Community Discussions', ['community']],
+    ['repos', 'GitHub Projects', ['repo']]
+  ];
+  var state = { tab: 'aisec', q: '', open: {} }, items = [], brief = {}, meta = {}, today = new Date();
+
+  function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
+  function ago(d) {
+    var n = Math.floor((today - new Date(d + 'T00:00:00Z')) / 864e5);
+    return n <= 0 ? 'today' : n === 1 ? 'yesterday' : n < 30 ? n + 'd ago' : d;
+  }
+  function get(u) { return fetch(BASE + u).then(function (r) { if (!r.ok) throw new Error(u); return r.json(); }); }
+
+  Promise.all([get('items.json'), get('briefing.json').catch(function () { return {}; }), get('meta.json').catch(function () { return {}; })]).then(function (r) {
+    items = r[0]; brief = r[1]; meta = r[2];
+    items.forEach(function (i) { i._h = [i.title, i.desc, i.sum, i.source, i.authors].join(' ').toLowerCase(); });
+    $('updated').textContent = meta.updated ? 'Last updated ' + meta.updated : 'Data loaded';
+    var p = new URLSearchParams(location.search);
+    if (p.get('tab') && TABS.some(function (t) { return t[0] === p.get('tab'); })) state.tab = p.get('tab');
+    if (p.get('q')) { $('q').value = p.get('q'); state.q = p.get('q').toLowerCase(); }
+    tabs(); render();
+  }).catch(function () { $('updated').textContent = 'Data unavailable'; $('panels').innerHTML = '<div class="empty">Could not load data.</div>'; });
+
+  function tabs() {
+    $('tabs').innerHTML = TABS.map(function (t) {
+      return '<button class="tab" data-t="' + t[0] + '">' + t[1] + ' <small>' + ((meta.tabs || {})[t[0]] || '') + '</small></button>';
+    }).join('');
+    $('tabs').onclick = function (e) {
+      var b = e.target.closest('.tab'); if (!b) return;
+      state.tab = b.dataset.t; state.open = {};
+      history.replaceState(null, '', '?tab=' + state.tab + (state.q ? '&q=' + encodeURIComponent(state.q) : ''));
+      render();
+    };
+    var t; $('q').oninput = function () { clearTimeout(t); t = setTimeout(function () { state.q = $('q').value.trim().toLowerCase(); state.open = {}; render(); }, 150); };
+  }
+
+  function row(i) {
+    var m = [esc(i.source)];
+    if (i.kind === 'repo') { m.push('★ ' + (i.stars || 0).toLocaleString()); if (i.lang) m.push(esc(i.lang)); m.push('updated ' + ago(i.date)); }
+    else {
+      m.push(ago(i.date));
+      if (i.authors) m.push(esc(i.authors));
+      if (i.points) m.push(i.points + ' pts');
+      if (i.discuss) m.push('<a href="' + esc(i.discuss) + '" target="_blank" rel="noopener">discuss</a>');
+    }
+    var text = i.sum || i.desc || '';
+    if (text.length > 220) text = text.slice(0, 217).replace(/\s+\S*$/, '') + '…';
+    return '<div class="row"><a class="t" href="' + esc(i.url) + '" target="_blank" rel="noopener">' + esc(i.title) + '</a>' +
+      (text ? '<p>' + (i.sum ? '<span class="ai-dot" title="AI-generated summary">✦</span> ' : '') + esc(text) + '</p>' : '') +
+      '<div class="meta">' + m.join(' · ') + '</div></div>';
+  }
+
+  function render() {
+    var tab = TABS.filter(function (t) { return t[0] === state.tab; })[0];
+    Array.prototype.forEach.call(document.querySelectorAll('.tab'), function (b) { b.classList.toggle('on', b.dataset.t === state.tab); });
+    $('tabdesc').textContent = tab[2];
+    var b = brief[state.tab];
+    $('brief').hidden = !(b && b.length) || !!state.q;
+    if (b && b.length) $('brief').innerHTML = '<h2>✦ Today’s briefing · <span class="mono" style="font-weight:400;color:var(--muted)">' + esc(brief.date || '') + '</span></h2><ul>' + b.map(function (x) { return '<li>' + esc(x) + '</li>'; }).join('') + '</ul><p class="disclaimer">AI-generated overview of the headlines below.</p>';
+
+    var base = items.filter(function (i) { return i.tabs.indexOf(state.tab) >= 0 && (!state.q || i._h.indexOf(state.q) >= 0); });
+    $('panels').innerHTML = PANELS.map(function (p) {
+      var list = base.filter(function (i) { return p[2].indexOf(i.kind) >= 0; });
+      if (p[0] === 'repos') list.sort(function (a, b) { return b.stars - a.stars; });
+      if (p[0] === 'community') list.sort(function (a, b) { return a.date < b.date ? 1 : a.date > b.date ? -1 : (b.points || 0) - (a.points || 0); });
+      var n = state.open[p[0]] || 8, shown = list.slice(0, n);
+      return '<div class="card panel"><h3>' + p[1] + ' <span>' + list.length + '</span></h3>' +
+        (shown.map(row).join('') || '<div class="empty">Nothing found.</div>') +
+        (list.length > n ? '<button class="btn" data-p="' + p[0] + '">Show more</button>' : '') + '</div>';
+    }).join('');
+    Array.prototype.forEach.call(document.querySelectorAll('.panel .btn'), function (btn) {
+      btn.onclick = function () { state.open[btn.dataset.p] = (state.open[btn.dataset.p] || 8) + 10; render(); };
+    });
+
+    var q = state.q;
+    $('resources').innerHTML = RES.map(function (c) {
+      var its = (c.items || []).filter(function (it) {
+        var t = it.tabs || c.tabs || [];
+        return t.indexOf(state.tab) >= 0 && (!q || (it.name + ' ' + it.desc + ' ' + c.category).toLowerCase().indexOf(q) >= 0);
+      });
+      return its.length ? '<div class="rescat"><h3>' + esc(c.category) + '</h3><div class="links2">' + its.map(function (it) {
+        var ext = /^https?:/.test(it.url);
+        return '<a class="res" href="' + esc(it.url) + '"' + (ext ? ' target="_blank" rel="noopener"' : '') + '><b>' + esc(it.name) + '</b><span>' + esc(it.desc) + '</span></a>';
+      }).join('') + '</div></div>' : '';
+    }).join('') || '<div class="empty">No matching resources.</div>';
+  }
+})();
+</script>
+</body>
+</html>
