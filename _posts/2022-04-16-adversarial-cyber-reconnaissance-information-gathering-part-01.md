@@ -5,8 +5,8 @@ excerpt:  "Adversarial reconnaissance techniques are becoming increasingly sophi
 seo_title:  "Survey and Taxonomy of Adversarial Reconnaissance Techniques: A Summary of the reputed paper published in the ACM Computing Survey"
 seo_description:  "Discover the various adversarial reconnaissance techniques and their implications for organizations in this summary of my comprehensive first-authored paper. The paper was published in the renowned Journal ACM Computing Survey which has a high impact factor and well-known in the academic communities. Learn how these techniques and tools are performed to gather information. I also discuss the review processes and the reviewer's comments."
 header:
-  image: "https://live.staticflickr.com/65535/52008239918_4ec6bc5c4b_o.png"
-  teaser: "https://live.staticflickr.com/65535/52008239918_4ec6bc5c4b_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Security
 tags:

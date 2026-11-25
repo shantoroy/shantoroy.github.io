@@ -5,8 +5,8 @@ excerpt: "Learn how to boost the performance of your Python PostgreSQL database 
 seo_title: "Boost PostgreSQL Connection Performance with Python Connection Pooling"
 seo_description: "Learn how to implement a connection pool for PostgreSQL in Python using the psycopg2 module, and speed up your database connections for improved scalability and performance. My tutorial explores and provides a step-by-step guide to setting up a connection pool and optimizing an application's responsiveness."
 header:
-  image: "https://live.staticflickr.com/65535/52740797409_36082cda2c_o.png"
-  teaser: "https://live.staticflickr.com/65535/52740797409_36082cda2c_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Python
 tags:

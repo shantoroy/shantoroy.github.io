@@ -5,8 +5,8 @@ excerpt:  "Creating a taxonomy tree is essential for scientific research papers,
 seo_title:  "How to Draw a Taxonomy Tree in Latex using Tikz for Publication"
 seo_description:  "Learn how to create a taxonomy tree in Latex using Tikz and PGFPlots for publication. Follow our step-by-step guide and produce a clear visualization of the classification of objects or concepts in your research paper or report."
 header:
-  image: "https://live.staticflickr.com/65535/49322225972_9fd2532e24_h.jpg"
-  teaser: "https://live.staticflickr.com/65535/49322225972_9fd2532e24_h.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Latex
 tags:

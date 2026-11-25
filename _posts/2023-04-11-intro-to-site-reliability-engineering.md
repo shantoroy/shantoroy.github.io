@@ -5,8 +5,8 @@ excerpt: "Site Reliability Engineering (SRE) is a discipline that emerged from G
 seo_title: "#100daysofSRE (Day 01): An Introduction to Site Reliability Engineering (SRE)"
 seo_description: "Learn the basics of Site Reliability Engineering (SRE) and its importance in maintaining highly reliable and scalable software systems. Follow our #100daysofSRE challenge and get ready to become an SRE expert."
 header:
-  image: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
-  teaser: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - SRE
 tags:

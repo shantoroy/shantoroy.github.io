@@ -2,8 +2,8 @@
 layout: single
 title: "Introduction to Data Science in Python: Pandas Module (Part 01)"
 header:
-  image: "https://live.staticflickr.com/65535/51677928748_7cd1af1e23_o.png"
-  teaser: "https://live.staticflickr.com/65535/51677928748_7cd1af1e23_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Python
 tags:

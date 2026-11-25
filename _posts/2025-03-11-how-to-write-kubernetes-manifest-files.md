@@ -5,8 +5,8 @@ excerpt: "Learn how to convert a Docker-Compose setup into Kubernetes manifest f
 seo_title: "How to Write Kubernetes Manifest Files: Kubernetes vs Docker-Compose"
 seo_description: "A hands-on guide to writing Kubernetes manifest files from a Docker-Compose setup. Deploy a Python-based frontend, backend, and PostgreSQL database using Minikube."
 header:
-  image: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
-  teaser: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Kubernetes
 tags:

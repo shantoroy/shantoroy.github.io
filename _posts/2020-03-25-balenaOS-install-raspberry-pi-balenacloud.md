@@ -5,8 +5,8 @@ excerpt:  "Have you ever wanted to create your own cloud service, but didn't wan
 seo_title:  "Build a Balena Cloud using Raspberry Pi: A Beginner's Guide"
 seo_description:  "Learn how to create your own cloud service using a Raspberry Pi and Balena, a popular platform for building IoT applications. With this step-by-step guide, you'll be able to set up your own personal cloud storage and computing platform quickly and easily."
 header:
-  image: "https://live.staticflickr.com/65535/49803481683_3b7c3e3447_b.jpg"
-  teaser: "https://live.staticflickr.com/65535/49803481683_3b7c3e3447_b.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Raspberry Pi
 tags:

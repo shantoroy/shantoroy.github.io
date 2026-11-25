@@ -5,8 +5,8 @@ excerpt: "Are you new to LaTeX and struggling to get the desired output for your
 seo_title: "20 Most Common Mistakes Made by New Latex Users"
 seo_description: "Are you struggling to use LaTeX for your document? Learn how to avoid the 20 most common mistakes made by new LaTeX users and improve your LaTeX skills."
 header:
-  image: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
-  teaser: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Latex
 tags:

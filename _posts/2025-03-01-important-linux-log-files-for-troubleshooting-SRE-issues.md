@@ -5,8 +5,8 @@ excerpt: "As a Site Reliability Engineer, logs are your best friend when trouble
 seo_title: "Essential /var/log Files for SREs and How to Analyze Them"
 seo_description: "Learn about the most important log files under `/var/log` that help Site Reliability Engineers (SREs) troubleshoot system and application issues. Discover practical `grep`, `sed`, and `awk` commands to extract valuable insights."
 header:
-  image: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
-  teaser: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
  - SRE
 tags:

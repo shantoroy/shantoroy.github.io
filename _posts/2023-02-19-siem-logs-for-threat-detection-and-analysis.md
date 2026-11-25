@@ -5,8 +5,8 @@ excerpt:  "A Security Information and Event Management (SIEM) system collects lo
 seo_title:  "What Logs are Logged by the SIEM and How those logs are essential for Threat Intelligence/Modeling, Intrusion/Threat Detection"
 seo_description:  "Learn how Security Information and Event Management (SIEM) system logs can help organizations detect and respond to security incidents, identify potential threats, and improve threat modeling efforts."
 header:
-  image: "https://live.staticflickr.com/65535/52711346998_b4c0a18047_o.png"
-  teaser: "https://live.staticflickr.com/65535/52711346998_b4c0a18047_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Security
 tags:

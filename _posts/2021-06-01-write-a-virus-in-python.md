@@ -5,8 +5,8 @@ excerpt:  "Have you ever wondered how viruses work? What if you could learn abou
 seo_title:  "Learn How Virus Works Through Writing a Simple Harmless Virus in Python"
 seo_description:  "Discover how viruses work by writing a simple, harmless virus in Python. This blog post will guide you through the process of creating your own virus while explaining the key concepts behind it. Learn about virus replication, spreading, and more in this educational and informative post."
 header:
-  image: "https://live.staticflickr.com/65535/51221326129_1df153df24_c.jpg"
-  teaser: "https://live.staticflickr.com/65535/51221326129_1df153df24_c.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Security
 tags:

@@ -5,8 +5,8 @@ excerpt:  "Learn how to make lists in Latex using the itemize, enumerate, and to
 seo_title:  "Itemize, Enumerate, and To-do-list in Latex: A Comprehensive Guide"
 seo_description:  "Organize your text with ease using the itemize, enumerate, and to-do-list environments in Latex. From research papers to notes, this comprehensive guide will teach you the basics of list-making in Latex."
 header:
-  image: "https://live.staticflickr.com/65535/51648791820_873f7cea50_b.jpg"
-  teaser: "https://live.staticflickr.com/65535/51648791820_873f7cea50_b.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Latex
 tags:

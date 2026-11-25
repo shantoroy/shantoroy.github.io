@@ -2,8 +2,8 @@
 layout: single
 title: "Necessary Concept Papers of Natural Language Processing (NLP)"
 header:
-  image: "https://live.staticflickr.com/65535/52014583379_0e837e6525_o.png"
-  teaser: "https://live.staticflickr.com/65535/52014583379_0e837e6525_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - NLP
 tags:

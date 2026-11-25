@@ -5,8 +5,8 @@ excerpt:  "Learn how to download a specific subfolder or file from a Github repo
 seo_title:  "Downloading Specific Subfolder or File from Github Repository"
 seo_description:  "Want to download only a specific subfolder or file from a Github repository? Learn how to do it easily using either Github Desktop or the command line interface (CLI) in this step-by-step guide. Save time and disk space by only downloading the files you need."
 header:
-  image: "https://live.staticflickr.com/65535/51648277541_7c90766f9e_b.jpg"
-  teaser: "https://live.staticflickr.com/65535/51648277541_7c90766f9e_b.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Github
 tags:

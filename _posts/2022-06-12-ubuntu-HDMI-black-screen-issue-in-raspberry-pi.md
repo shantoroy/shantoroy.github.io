@@ -5,8 +5,8 @@ excerpt: "If you've recently installed Ubuntu on your Raspberry Pi, you might ha
 seo_title: "How to Fix the Ubuntu Black Screen Issue in a Raspberry Pi after Installation"
 seo_description: "Are you facing a black screen issue on your Raspberry Pi after installing Ubuntu? Don't worry, this post will guide you through the troubleshooting steps to fix the Ubuntu black screen issue on your Raspberry Pi."
 header:
-  image: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
-  teaser: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Ubuntu
 tags:

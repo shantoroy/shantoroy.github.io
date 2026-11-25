@@ -5,8 +5,8 @@ excerpt:  "Ignoring certain files and directories in a Git repository is crucial
 seo_title:  "How to git-ignore Cached Code files and all Hidden Directories Recursively in a Git Repository"
 seo_description:  "Learn how to ignore cached code files and all hidden directories recursively in a Git repository using the .gitignore file. Keep your repository clean and tidy by only including the files that matter, and avoid cluttering it with files that can be generated or are irrelevant to the project. This post provides a step-by-step guide to help you efficiently manage your Git repository."
 header:
-  image: "https://live.staticflickr.com/65535/52025139285_52e38b859f_o.png"
-  teaser: "https://live.staticflickr.com/65535/52025139285_52e38b859f_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Git
 tags:

@@ -5,8 +5,8 @@ excerpt:  "If you're into exploit development, you've probably heard of Return O
 seo_title:  "Using Ropper to Find ROP Gadgets: A Beginner's Guide"
 seo_description:  "Discover how to simplify your ROP gadget hunting with Ropper, a powerful tool that automates the process of finding gadgets in binary files. This tutorial provides step-by-step instructions for using Ropper to search for ROP gadgets, helping you streamline your exploit development workflow and create more effective payloads. Whether you're a seasoned hacker or just getting started with ROP, this guide will help you get the most out of this essential tool."
 header:
-  image: "https://live.staticflickr.com/65535/49852909896_7baa2438ae_z.jpg"
-  teaser: "https://live.staticflickr.com/65535/49852909896_7baa2438ae_z.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Security
 tags:

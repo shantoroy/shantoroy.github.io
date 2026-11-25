@@ -2,8 +2,8 @@
 layout: single
 title: "Resources and Collection of the best CV/Resume templates in Latex"
 header:
-  image: "https://live.staticflickr.com/65535/49342713283_120bfd2790_h.jpg"
-  teaser: "https://live.staticflickr.com/65535/49342713283_120bfd2790_h.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Latex
 tags:

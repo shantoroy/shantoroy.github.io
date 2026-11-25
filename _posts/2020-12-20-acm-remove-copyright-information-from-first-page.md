@@ -5,8 +5,8 @@ excerpt:  "Are you tired of manually removing the ACM sigconf template's copyrig
 seo_title:  "How to Remove Copyright Information from the ACM sigconf Template"
 seo_description: "Learn how to quickly and easily remove the copyright information from the ACM sigconf template with the steps mentioned in the blog post. Save time and streamline your paper preparation process with this helpful guide."
 header:
-  image: "https://live.staticflickr.com/65535/51205458808_32b32577cb_c.jpg"
-  teaser: "https://live.staticflickr.com/65535/51205458808_32b32577cb_c.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Latex
 tags:

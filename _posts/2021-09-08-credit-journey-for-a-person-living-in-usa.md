@@ -5,8 +5,8 @@ excerpt:  "Are you living in the USA and looking to improve your credit score or
 seo_title:  "Recommended Credit Journey for a Person Living in USA | Tips for Building Credit, Managing Credit, and Increasing Your Credit Score"
 seo_description:  "Looking to improve your credit score or establish a credit history in the USA? Check out our recommended credit journey, including tips on building credit, managing credit, and increasing your credit score. Whether you're new to credit or trying to rebuild your credit, I've got you covered."
 header:
-  image: "https://live.staticflickr.com/65535/51678148839_b5561d2d43_o.png"
-  teaser: "https://live.staticflickr.com/65535/51678148839_b5561d2d43_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - lifehacks
 tags:

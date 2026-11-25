@@ -5,8 +5,8 @@ excerpt:  If you need to create line plots from a CSV file, LaTeX TikZ and PGFPl
 seo_title:  "Creating Multiple Line Plots from CSV File using LaTeX TikZ and PGFPlot"
 seo_description:  "Learn how to create professional-looking multiple line plots from a CSV file using LaTeX TikZ and PGFPlot. This guide will help beginners and experienced LaTeX users add labels, change axis scales, and adjust plot appearance."
 header:
-  image: "https://live.staticflickr.com/65535/51232995681_568b5ea17b_w.jpg"
-  teaser: "https://live.staticflickr.com/65535/51232995681_568b5ea17b_w.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Latex
 tags:

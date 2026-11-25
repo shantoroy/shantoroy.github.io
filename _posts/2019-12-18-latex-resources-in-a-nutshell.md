@@ -5,9 +5,9 @@ excerpt:  "If you are a beginner in LaTeX or even an experienced user, you might
 seo_title:  "Important LaTeX Resources: A Comprehensive List for Beginners and Experts"
 seo_description: "Are you struggling to keep track of all the LaTeX resources available? Check out this comprehensive list of important LaTeX resources, including beginner tutorials, reference guides, package documentation, and LaTeX editors. Whether you're a beginner or an experienced user, this post has everything you need to know about LaTeX."
 header:
-  image: "https://live.staticflickr.com/65535/49236199717_2f17584491_h.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
   og_image: "https://live.staticflickr.com/65535/49236199717_2f17584491_h.jpg"
-  teaser: "https://live.staticflickr.com/65535/49236199717_2f17584491_h.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Latex
 tags:

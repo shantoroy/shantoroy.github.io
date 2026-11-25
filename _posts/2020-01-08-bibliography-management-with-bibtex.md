@@ -5,8 +5,8 @@ excerpt:  "Bibliography management is an essential aspect of academic writing, p
 seo_title:  "Bibliography Management with Bibtex in Latex: A Comprehensive Guide"
 seo_description:  "Learn how to manage and create a bibliography in a Latex document using Bibtex. Our comprehensive guide will help you get started with Bibtex, from importing references to formatting your bibliography in your preferred citation style."
 header:
-  image: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
-  teaser: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Latex
 tags:

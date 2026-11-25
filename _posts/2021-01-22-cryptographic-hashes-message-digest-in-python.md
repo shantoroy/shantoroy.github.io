@@ -5,8 +5,8 @@ excerpt:  "Learn about cryptographic hashes and message digests in Python, and h
 seo_title:  "Cryptographic Hashes and Message Digest in Python"
 seo_description:  "Learn about cryptographic hashes and message digests in Python, and how they are used to ensure the integrity of data. This blog post will cover the basics of hash functions, how to implement them in Python, and how to use them to verify data integrity."
 header:
-  image: "https://live.staticflickr.com/65535/51697235355_8a0b24e338_o.png"
-  teaser: "https://live.staticflickr.com/65535/51697235355_8a0b24e338_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Python
 tags:

@@ -5,8 +5,8 @@ excerpt:  "Reinforcement learning is a subfield of machine learning that focuses
 seo_title:  "Introduction to Reinforcement Learning (Part 01: Basic Concepts)"
 seo_description:  "Learn the basic concepts of reinforcement learning, including the environment, agent, states, actions, rewards, and episodes. Explore how reinforcement learning can be applied in various domains, such as robotics, game playing, and recommendation systems. This is the first post in a series on reinforcement learning."
 header:
-  image: "https://live.staticflickr.com/65535/51227976855_8d59f8284f_w.jpg"
-  teaser: "https://live.staticflickr.com/65535/51227976855_8d59f8284f_w.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - reinforcement-learning
 tags:

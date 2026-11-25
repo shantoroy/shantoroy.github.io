@@ -2,8 +2,8 @@
 layout: single
 title: "Hikining near Houston: Huntsville State Park Hiking and Biking Trail"
 header:
-  image: "https://live.staticflickr.com/65535/52468714299_4f772a08f4_o.png"
-  teaser: "https://live.staticflickr.com/65535/52468714299_4f772a08f4_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Travel
 tags:

@@ -5,8 +5,8 @@ excerpt: "Site Reliability Engineering (SRE) is a relatively new field that has 
 seo_title: "A Brief History of Site Reliability Engineering (SRE) and its Evolution | #100daysofSRE (Day 02)"
 seo_description: "Discover the history and evolution of Site Reliability Engineering (SRE) in this #100daysofSRE (Day 02) blog post. Learn about the pioneers, key concepts, and challenges of SRE."
 header:
-  image: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
-  teaser: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - SRE
 tags:

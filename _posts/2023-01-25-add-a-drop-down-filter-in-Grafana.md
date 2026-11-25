@@ -2,8 +2,8 @@
 layout: single
 title: "How to Create a New Drop-Down Menu/Filter (Query Variable) in Grafana Based on PostgreSQL Table Column"
 header:
-  image: "https://live.staticflickr.com/65535/52695891576_98e68b805e_o.png"
-  teaser: "https://live.staticflickr.com/65535/52695891576_98e68b805e_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Monitoring
 tags:

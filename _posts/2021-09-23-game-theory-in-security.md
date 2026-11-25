@@ -5,8 +5,8 @@ excerpt:  "In today's digital age, game theory is becoming an essential tool for
 seo_title:  "Game Theory in Cyber Security: A Comprehensive Overview"
 seo_description:  "Learn about the importance of game theory in cyber security, and how it can help you better understand the interactions between attackers and defenders. Discover key concepts, applications, and real-world examples in this comprehensive overview."
 header:
-  image: "https://live.staticflickr.com/65535/51647825732_3f23aa12a4_b.jpg"
-  teaser: "https://live.staticflickr.com/65535/51647825732_3f23aa12a4_b.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Security
 tags:

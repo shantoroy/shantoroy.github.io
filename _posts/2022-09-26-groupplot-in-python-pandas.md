@@ -5,8 +5,8 @@ excerpt:  "Learn how to create beautiful group-plots in Python with this step-by
 seo_title:  "How to Plot Group-Plots in Python: A Step-by-Step Guide"
 seo_description:  "Discover how to create suitable group-plots in Python using Matplotlib and Pandas. Follow the tutorial and learn how to visualize complex data sets with ease. Here, the example includes visualizing CPU usage data based on PIDs."
 header:
-  image: "https://live.staticflickr.com/65535/52479338640_f66fd4ee41_o.png"
-  teaser: "https://live.staticflickr.com/65535/52479338640_f66fd4ee41_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Python
 tags:

@@ -5,8 +5,8 @@ excerpt:  "Managing finances can be challenging for anyone, but as an internatio
 seo_title:  "Money Management for International Students in the USA: Tips and Tricks"
 seo_description: "Studying abroad can be expensive, and managing finances can be a daunting task, especially for international students. In this blog post, I provide some valuable tips and tricks for managing your finances while studying in the USA, including budgeting, saving money, and handling expenses. Learn how to track your spending and make the most of your resources to achieve financial success during your studies."
 header:
-  image: "https://live.staticflickr.com/65535/52009558630_53c0e20fd0_o.png"
-  teaser: "https://live.staticflickr.com/65535/52009558630_53c0e20fd0_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - lifehacks
 tags:

@@ -5,8 +5,8 @@ excerpt:  "Are you a Python programmer looking to quickly learn the basics of Ja
 seo_title:  "Learn JavaScript Syntax for Python Programmers: A Quick Tutorial"
 seo_description:  "Are you a Python programmer who wants to quickly learn the basics of JavaScript syntax? This beginner-friendly tutorial will guide you through the key syntax differences between Python and JavaScript, including variables, functions, loops, and more. Get up to speed with JavaScript in just a few minutes!"
 header:
-  image: "https://live.staticflickr.com/65535/51710532826_e84ae3159c_o.png"
-  teaser: "https://live.staticflickr.com/65535/51710532826_e84ae3159c_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Python
 tags:

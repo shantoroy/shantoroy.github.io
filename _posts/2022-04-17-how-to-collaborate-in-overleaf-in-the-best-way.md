@@ -5,8 +5,8 @@ excerpt:  "Overleaf is a popular web-based platform for writing and collaboratin
 seo_title:  "A Complete Guide to Collaborating on LaTeX Documents with Overleaf"
 seo_description:  "Looking for an efficient way to collaborate on LaTeX documents with your collaborators? Check out this guide on how to use Overleaf, the most popular web-based LaTeX platform. In this post, I discuss how to make our collaborative writing process smoother and more streamlined. Learn how to utilize Overleaf's features to boost your team's productivity and create high-quality LaTeX documents quickly and easily."
 header:
-  image: "https://live.staticflickr.com/65535/52012497165_8a03814fd4_o.png"
-  teaser: "https://live.staticflickr.com/65535/52012497165_8a03814fd4_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Latex
 tags:

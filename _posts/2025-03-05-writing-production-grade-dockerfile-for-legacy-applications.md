@@ -5,8 +5,8 @@ excerpt: "Building a robust, secure, and production-ready Dockerfile for legacy 
 seo_title: "Advanced Dockerfile Writing for Production-Grade Legacy Applications"
 seo_description: "Learn how to write a production-grade Dockerfile optimized for legacy applications. We cover multi-stage builds, security best practices, process management, and dependency handling to ensure high performance in production environments."
 header:
-  image: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
-  teaser: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - SRE
 tags:

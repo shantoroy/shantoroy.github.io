@@ -5,8 +5,8 @@ excerpt:  "Want to understand how keyloggers work? This blog post will guide you
 seo_title:  "Learn How Keyloggers Work Through Writing a Basic Keylogger in Python" 
 seo_description:  "Want to know how keyloggers work? In this blog post, you'll learn how to build a basic keylogger in Python. Gain a deeper understanding of how keyloggers function and how to protect against them."
 header:
-  image: "https://live.staticflickr.com/65535/51211036232_6916bf5c10_c.jpg"
-  teaser: "https://live.staticflickr.com/65535/51211036232_6916bf5c10_c.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Security
 tags:

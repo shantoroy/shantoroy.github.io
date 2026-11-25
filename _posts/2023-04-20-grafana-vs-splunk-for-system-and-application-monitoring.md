@@ -5,8 +5,8 @@ excerpt: "In today's #100daysofSRE post, we'll be exploring the key differences 
 seo_title: "#100daysofSRE (Day 10): Grafana vs Splunk for Monitoring System and Applications"
 seo_description: "In this #100daysofSRE post, we compare Grafana and Splunk, two of the most popular tools for monitoring system and application performance. Discover their features, benefits, and drawbacks to help you decide which one is right for your organization."
 header:
-  image: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
-  teaser: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - SRE
 tags:

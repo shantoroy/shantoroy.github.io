@@ -5,8 +5,8 @@ excerpt:  "In this blog post, we take you on a journey through our second day in
 seo_title:  "Colorado Tour 2021 (Day 02): The Rocky Mountain National Park"
 seo_description: "Join us as we explore the Rocky Mountain National Park on our second day in Colorado. From breathtaking scenery to encounters with wildlife, our journey will take you on a visual tour of this picturesque destination."
 header:
-  image: "https://live.staticflickr.com/65535/52009565686_a3cd3b4e03_o.png"
-  teaser: "https://live.staticflickr.com/65535/52009565686_a3cd3b4e03_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Sports
 tags:

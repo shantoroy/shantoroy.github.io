@@ -5,8 +5,8 @@ excerpt:  "Looking for an exciting day-long tour in Austin? Look no further! Thi
 seo_title:  "Austin Day-long Tour: Hiking, Biking, and Sightseeing"
 seo_description:  "Discover the best outdoor activities in Austin, including hiking, biking, and sightseeing at places like Austin 360, Bull Creek, Zilker Park/Lady Bird Lake, Mount Bonnel, and Oasis on Lake Travis. Don't miss out on the breathtaking views and refreshing waters of these top destinations for an unforgettable day-long adventure!"
 header:
-  image: "https://live.staticflickr.com/65535/51233856439_291da04e77_w.jpg"
-  teaser: "https://live.staticflickr.com/65535/51233856439_291da04e77_w.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Travel
 tags:

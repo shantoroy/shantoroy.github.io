@@ -5,8 +5,8 @@ excerpt: "Welcome to Day 4 of #100daysofSRE! Today, I'll be discussing Chaos Eng
 seo_title: "Day 4 of #100daysofSRE: Chaos Engineering and SRE - Techniques and Tools to Break Things on Purpose"
 seo_description: "Learn how Chaos Engineering is an essential practice for Site Reliability Engineering (SRE) and how to use tools and techniques to intentionally break things in a controlled environment."
 header:
-  image: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
-  teaser: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - SRE
 tags:

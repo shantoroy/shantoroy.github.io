@@ -5,8 +5,8 @@ excerpt:  "If you're interested in learning web application vulnerabilities, ins
 seo_title:  "Learning Web Application Vulnerabilities: Installing Damn Vulnerable Web Application (DVWA)"
 seo_description:  "Want to learn about web application vulnerabilities? Installing Damn Vulnerable Web Application (DVWA) is a great way to start. In this article, I'll show you how to install DVWA on your local machine and use it to improve your understanding of web application security. Learn how to identify and exploit multiple vulnerabilities intentionally placed in DVWA to help you practice your skills."
 header:
-  image: "https://live.staticflickr.com/65535/52007423566_8be9641575_o.png"
-  teaser: "https://live.staticflickr.com/65535/52007423566_8be9641575_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Security
 tags:

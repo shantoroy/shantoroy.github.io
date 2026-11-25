@@ -5,8 +5,8 @@ excerpt: "Are you looking for a book that can help you become more productive an
 seo_title: "A Personal Review of the 7 Habits of Highly Effective People: Key Takeaways and Insights"
 seo_description: "Discover the key takeaways and insights from the popular self-help book, The 7 Habits of Highly Effective People, in this personal review. Let's learn together how the habits can transform our personal and professional life and why these habits can help us achieve success."
 header:
-  image: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
-  teaser: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Productivity
 tags:

@@ -5,8 +5,8 @@ excerpt:  "Python itertools module is a powerful library to create fast and effi
 seo_title: "Mastering Python Iterators with itertools Module: A Comprehensive Guide"
 seo_description:  "Discover the power of the Python itertools module and learn how to create fast and efficient iterators. Explore some of the most useful functions of the itertools module to simplify complex problems into smaller, manageable chunks."
 header:
-  image: "https://live.staticflickr.com/65535/51665428921_00a40a1374_b.jpg"
-  teaser: "https://live.staticflickr.com/65535/51665428921_00a40a1374_b.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Python
 tags:

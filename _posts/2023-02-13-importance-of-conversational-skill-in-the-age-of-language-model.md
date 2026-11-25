@@ -2,8 +2,8 @@
 layout: single
 title: "The Importance of Conversational Skills in the Age of Language Models"
 header:
-  image: "https://live.staticflickr.com/65535/52687293382_0e78b3d690_o.png"
-  teaser: "https://live.staticflickr.com/65535/52687293382_0e78b3d690_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - AI
 tags:

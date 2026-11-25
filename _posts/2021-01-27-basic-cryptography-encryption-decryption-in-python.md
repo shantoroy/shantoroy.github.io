@@ -5,8 +5,8 @@ excerpt:  "Learn the basics of cryptography and explore the process of encryptio
 seo_title:  "Basic Cryptographic Operations (Encryption and Decryption) in Python"
 seo_description:  "Discover how to perform basic cryptographic operations using Python, including encryption and decryption. This guide covers the key concepts of symmetric-key and asymmetric-key cryptography and provides examples of how to implement these techniques in your Python projects."
 header:
-  image: "https://live.staticflickr.com/65535/51697584980_255eb49bb7_o.png"
-  teaser: "https://live.staticflickr.com/65535/51697584980_255eb49bb7_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Python
 tags:

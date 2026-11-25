@@ -5,8 +5,8 @@ excerpt:  "If you’re new to Data Science or just looking for a better setup fo
 seo_title:  "Data Science Work Environment setup on Linux/Mac: A Complete Guide"
 seo_description:  "Looking for a better setup for your Data Science work environment? In this tutorial, I will guide you on how to set up your Data Science work environment on Linux or Mac, step by step. Get started now!"
 header:
-  image: "https://live.staticflickr.com/65535/49155021077_42b4a1bc81_h.jpg"
-  teaser: "https://live.staticflickr.com/65535/49155021077_42b4a1bc81_h.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Data Science
 tags:

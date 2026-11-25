@@ -5,8 +5,8 @@ excerpt:  "In this tutorial series, we have been exploring the implementation of
 seo_title:  "Write a Reverse Proxy Server in Python: Part 4 (Automation with a Shell Script)"
 seo_description:  "Learn how to automate the reverse proxy server setup process by creating a shell script in Python. This tutorial will guide you through using the command-line arguments and simplify the configuration and startup process. Follow along with our series to implement a reverse proxy server in Python!"
 header:
-  image: "https://live.staticflickr.com/65535/51236536118_0418e6819c_w.jpg"
-  teaser: "https://live.staticflickr.com/65535/51236536118_0418e6819c_w.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - network
 tags:

@@ -5,8 +5,8 @@ excerpt:  "Passive operating system fingerprinting is a critical skill for any n
 seo_title:  "Passive Operating System Fingerprinting using PCAP Analysis"
 seo_description:  "Learn how to perform passive operating system fingerprinting by analyzing PCAP files in this comprehensive guide. Discover the key tools and techniques used in the process and gain insights into the art of network traffic analysis."
 header:
-  image: "https://live.staticflickr.com/65535/51205416268_12b5776516_c.jpg"
-  teaser: "https://live.staticflickr.com/65535/51205416268_12b5776516_c.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Security
 tags:

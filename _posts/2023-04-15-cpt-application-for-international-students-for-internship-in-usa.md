@@ -5,8 +5,8 @@ excerpt: "As an international student in the USA, applying for an internship or 
 seo_title: "Internship/Co-op and CPT Application Explained for International Students in the USA"
 seo_description: "Are you an international student in the USA looking to apply for an internship or co-op? Do you know what CPT is and how to apply for it? This blog post explains everything you need to know about the Internship/Co-op and CPT application process, including eligibility requirements, application procedures, and tips for success. Don't miss out on valuable work experience - read on to learn how to apply for an internship or co-op as an international student in the USA."
 header:
-  image: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
-  teaser: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Internship
 tags:

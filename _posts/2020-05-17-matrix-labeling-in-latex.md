@@ -5,8 +5,8 @@ excerpt:  "Writing matrices with row/column labels is a common requirement in sc
 seo_title:  "How to Write Matrix with Row/Column Labels in LaTeX: Complete Guide"
 seo_description: "Writing matrices with row/column labels is easy in LaTeX. In this post, I will discuss different methods to accomplish this task, including the use of `matrix` and `bmatrix` environments, and the `array` package. I will provide code snippets and examples to help you write matrices with labels like a pro."
 header:
-  image: "https://live.staticflickr.com/65535/51663858257_8c17ded63f_b.jpg"
-  teaser: "https://live.staticflickr.com/65535/51663858257_8c17ded63f_b.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Latex
 tags:

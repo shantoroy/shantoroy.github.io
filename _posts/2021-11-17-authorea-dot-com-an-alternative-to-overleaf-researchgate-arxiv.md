@@ -2,8 +2,8 @@
 layout: single
 title: "Authorea: An Alternative to Overleaf, ResearchGate, or ArXiv?"
 header:
-  image: "https://live.staticflickr.com/65535/51684381017_ccb6ca7411_o.png"
-  teaser: "https://live.staticflickr.com/65535/51684381017_ccb6ca7411_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Latex
 tags:

@@ -5,8 +5,8 @@ excerpt:  "If you are new to web development, Django can be a great starting poi
 seo_title:  "Introduction to Django with Creating a Simple 'helloworld' App"
 seo_description:  "Get started with web development using Django by following this step-by-step tutorial to create a simple 'helloworld' app. Learn about creating projects, virtual environments, views, and URLs with Python's popular web framework, Django. By the end of this tutorial, you'll have a solid foundation to build more advanced web applications with Django."
 header:
-  image: "https://live.staticflickr.com/65535/49993827911_e3d3c300d6_c.jpg"
-  teaser: "https://live.staticflickr.com/65535/49993827911_e3d3c300d6_c.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Python
 tags:

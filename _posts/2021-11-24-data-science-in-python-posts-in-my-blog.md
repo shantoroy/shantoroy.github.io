@@ -2,8 +2,8 @@
 layout: single
 title: "Collection of `Data Science in Python` Posts in my Blog"
 header:
-  image: "https://live.staticflickr.com/65535/51702265701_5d63b11031_o.png"
-  teaser: "https://live.staticflickr.com/65535/51702265701_5d63b11031_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Python
 tags:

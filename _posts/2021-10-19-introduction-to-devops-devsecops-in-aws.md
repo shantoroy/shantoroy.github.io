@@ -5,8 +5,8 @@ excerpt:  "DevOps is a software development approach that aims to bridge the gap
 seo_title:  "Introduction to the DevOps Concept: Benefits, Principles, and Best Practices"
 seo_description:  "Learn about the DevOps approach in software development and how it can improve the delivery of software applications. This blog post provides an introduction to DevOps, covering its benefits, key principles, and best practices."
 header:
-  image: "https://live.staticflickr.com/65535/51648143178_bc143b4544_b.jpg"
-  teaser: "https://live.staticflickr.com/65535/51648143178_bc143b4544_b.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - DevOps
 tags:

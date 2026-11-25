@@ -5,8 +5,8 @@ excerpt:  "Are you struggling with classifying multiple types of objects in your
 seo_title:  "Machine Learning: Multiclass Classification Template for any Classification Dataset"
 seo_description:  "Simplify your multiclass classification tasks with our template for any classification dataset. Our tutorial covers popular machine learning algorithms like SVM, Random Forest, and KNN, along with code examples and step-by-step instructions for Python implementation. Start achieving accurate results in your complex machine learning projects today!"
 header:
-  image: "https://live.staticflickr.com/65535/51237631257_b822eb6470_w.jpg"
-  teaser: "https://live.staticflickr.com/65535/51237631257_b822eb6470_w.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - machine-learning
 tags:

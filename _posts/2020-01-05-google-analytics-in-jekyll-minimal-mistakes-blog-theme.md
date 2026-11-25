@@ -5,8 +5,8 @@ excerpt:  "Want to track the performance of your Minimal Mistakes blog? Google A
 seo_title:  "Google Analytics in Minimal Mistakes Blog Theme"
 seo_description:  "Learn how to add Google Analytics to your Minimal Mistakes blog theme and track your website's performance, traffic, and audience behavior. This tutorial will guide you through the process of setting up Google Analytics and using its features to gain insights into your blog's performance."
 header:
-  image: "https://live.staticflickr.com/65535/51702645308_89b0e0fe5a_o.png"
-  teaser: "https://live.staticflickr.com/65535/51702645308_89b0e0fe5a_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - jekyll
 tags:

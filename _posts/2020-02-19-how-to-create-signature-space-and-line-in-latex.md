@@ -5,8 +5,8 @@ excerpt:  "Adding a signature line and space in LaTeX is an essential part of wr
 seo_title:  "How to Add a Signature Line and Space in LaTeX: A Step-by-Step Guide"
 seo_description:  "Learn how to create a signature line with space in LaTeX for your formal documents like letters and resumes. Follow our step-by-step guide using the `tabular` environment and formatting options to customize your signature line."
 header:
-  image: "https://live.staticflickr.com/65535/51887360931_5dfb39dbd7_o.png"
-  teaser: "https://live.staticflickr.com/65535/51887360931_5dfb39dbd7_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Latex
 tags:

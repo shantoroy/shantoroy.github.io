@@ -5,8 +5,8 @@ excerpt:  "If you are looking for a fun and exciting way to get outside and expl
 seo_title: "MTB in Houston Texas: Exploring the Thrilling Anthills Hike and Bike Trail"
 seo_description:  "Discover the excitement of mountain biking in Houston with Anthills Hike and Bike Trail. This blog post covers my experience including a few videos of the trail. Get ready to take on one of the most popular bike parks in Texas!"
 header:
-  image: "https://live.staticflickr.com/65535/52006323817_0e5d9a8332_o.png"
-  teaser: "https://live.staticflickr.com/65535/52006323817_0e5d9a8332_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Sports
 tags:

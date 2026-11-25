@@ -5,8 +5,8 @@ excerpt:  "Are you a computer science or related fields student approaching grad
 seo_title:  "12 Things to Do Before Completing Graduation in Computer Science or Related Fields"
 seo_description:  "As a computer science or related fields student, there are many things you can do to prepare yourself for post-graduation success. In this blog post, we'll outline 12 essential steps to take before completing your degree, from networking to gaining experience to perfecting your resume."
 header: 
-  image: "https://farm5.staticflickr.com/4654/24859362187_2c62340d96_b.jpg"
-  teaser: "https://farm5.staticflickr.com/4654/24859362187_2c62340d96_b.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories: 
   - Education
 tags:

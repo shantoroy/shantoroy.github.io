@@ -5,8 +5,8 @@ excerpt:  "Are you interested in setting up a live video monitoring system using
 seo_title:  "Live Video Monitoring using a Raspberry Pi and any Webcam"
 seo_description:  "Learn how to set up a live video monitoring system using a Raspberry Pi and any webcam with this easy-to-follow tutorial. Monitor your property remotely and receive email notifications with motion detection."
 header:
-  image: "https://live.staticflickr.com/65535/51699602895_9f512e632d_o.png"
-  teaser: "https://live.staticflickr.com/65535/51881564712_cc98a50055_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Raspberry Pi
 tags:

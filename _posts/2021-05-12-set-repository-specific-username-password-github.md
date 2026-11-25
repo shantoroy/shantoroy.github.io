@@ -5,8 +5,8 @@ excerpt:  "Setting up Git credentials is an essential step in securing your Git 
 seo_title:  "How to Set Git Repository-specific User Credential Configuration | Git Tips"
 seo_description:  "Learn how to set up user credentials configuration for specific Git repositories using Git command line and Git config file."
 header:
-  image: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
-  teaser: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Git
 tags:

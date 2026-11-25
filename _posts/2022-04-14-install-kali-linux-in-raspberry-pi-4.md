@@ -5,8 +5,8 @@ excerpt:  "Learn how to set up headless Kali Linux in a Raspberry Pi 4 without t
 seo_title:  "How to Set Up Headless Kali Linux in a Raspberry Pi 4 without Monitor, Keyboard, and Mouse"
 seo_description:  "Discover how to install and configure headless Kali Linux in a Raspberry Pi 4 without needing a monitor, keyboard, or mouse. Follow this guide to remotely access and control your device with ease."
 header:
-  image: "https://live.staticflickr.com/65535/51881085549_dd32d6eb18_o.png"
-  teaser: "https://live.staticflickr.com/65535/51881085549_dd32d6eb18_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Security
 tags:

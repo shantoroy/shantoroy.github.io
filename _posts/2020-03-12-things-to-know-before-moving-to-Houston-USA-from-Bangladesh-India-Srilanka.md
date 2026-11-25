@@ -5,8 +5,8 @@ excerpt:  "Are you planning to move to Houston from the Indian Sub-continent? Th
 seo_title:  "Moving to Houston from the Indian Sub-continent: Things to Know"
 seo_description:  "Relocating to Houston from the Indian Sub-continent can be challenging. Learn about the city's climate, culture, food, and lifestyle before you move. My list of pros and cons will help you make a smooth transition to the Houston City lifestyle."
 header:
-  image: "https://live.staticflickr.com/65535/52717469172_cd8efa407b_o.png"
-  teaser: "https://live.staticflickr.com/65535/52717469172_cd8efa407b_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Lifestyle
 tags:

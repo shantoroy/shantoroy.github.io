@@ -5,8 +5,8 @@ excerpt:  "If you're interested in learning how to analyze vulnerable code, you'
 seo_title:  "Vulnerable Code Analysis Practices and Solutions: A Tutorial Series by Harsh Bothra"
 seo_description: "Learn about vulnerable code analysis with this tutorial series by Harsh Bothra. Discover best practices and solutions for identifying and fixing security issues in code."
 header:
-  image: "https://live.staticflickr.com/65535/51895478088_f53e124850_o.png"
-  teaser: "https://live.staticflickr.com/65535/51895478088_f53e124850_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Security
 tags:

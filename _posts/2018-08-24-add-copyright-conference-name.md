@@ -5,8 +5,8 @@ excerpt:  "If you're using the IEEE conference format to submit your research pa
 seo_title:  "How to Add Copyright Notice and Conference Name in IEEE Conference LaTeX Template"
 seo_description:  "Learn how to add a copyright notice and conference name to your IEEE conference paper using LaTeX. Follow this step-by-step guide with code examples to customize your paper and meet the formatting requirements."
 header: 
-  image: "https://farm5.staticflickr.com/4833/44165377060_0353fbcc5c_b.jpg"
-  teaser: "https://farm5.staticflickr.com/4833/44165377060_0353fbcc5c_b.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories: 
   - Latex
 tags:

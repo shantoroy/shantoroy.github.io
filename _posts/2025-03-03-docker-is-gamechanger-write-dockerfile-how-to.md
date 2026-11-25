@@ -5,8 +5,8 @@ excerpt: "Docker has revolutionized the way we deploy and manage applications by
 seo_title: "Why Docker is Better Than VMs & Writing Your First Dockerfile"
 seo_description: "Learn why Docker is a game-changer compared to traditional virtual machines and how to write a Dockerfile with practical examples. Ideal for SREs, DevOps, and developers looking to simplify deployments."
 header:
-  image: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
-  teaser: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - SRE
 tags:

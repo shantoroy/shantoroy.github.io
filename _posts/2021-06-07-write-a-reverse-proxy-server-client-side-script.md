@@ -5,8 +5,8 @@ excerpt:  "In this third part of the, Write a Reverse Proxy Server in Python, se
 seo_title:  "Write a Reverse Proxy Server in Python: Part 3 (Client-side Script)"
 seo_description:  "In this post, we'll discuss the implementation of the client-side script in the, Write a Reverse Proxy Server in Python, series. The client-side script is the interface through which end-users access the resources on the backend server. Read on to learn more about writing a reverse proxy server in Python."
 header:
-  image: "https://live.staticflickr.com/65535/51223565539_e5e45f3896_w.jpg"
-  teaser: "https://live.staticflickr.com/65535/51223565539_e5e45f3896_w.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - network
 tags:

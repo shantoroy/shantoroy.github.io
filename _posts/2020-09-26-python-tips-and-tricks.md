@@ -5,8 +5,8 @@ excerpt:  "Are you looking for some useful Python tips and tricks that can help 
 seo_title:  "Python Programming: Useful Tips and Tricks with Short Code Snippets"
 seo_description:  "Want to improve your Python programming skills? Check out these useful tips and tricks with short code snippets to help you write better and more efficient Python code, including creating generators, using the `with` statement, unpacking sequences, and manipulating strings."
 header:
-  image: "https://live.staticflickr.com/65535/51647090362_457bcd966b_b.jpg"
-  teaser: "https://live.staticflickr.com/65535/51647090362_457bcd966b_b.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Python
 tags:

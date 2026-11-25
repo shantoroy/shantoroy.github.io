@@ -6,8 +6,8 @@ redirect_from: /vlogging/tools-I-use-to-edit-my-videos/
 seo_title:  "Beginner Vloggers: Essential Tools for Video Editing"
 seo_description:  "Are you a beginner vlogger struggling with video editing? Discover the essential tools beginner vloggers use to edit their videos in this blog post. Learn about the tools and start creating engaging content for your vlog."
 header:
-  image: "https://live.staticflickr.com/65535/52469449084_ac66cccb6b_o.png"
-  teaser: "https://live.staticflickr.com/65535/52469449084_ac66cccb6b_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Vlogging
 tags:

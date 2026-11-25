@@ -2,8 +2,8 @@
 layout: single
 title: "Items Checklist: Things to take to USA for International Students"
 header:
-  image: "https://live.staticflickr.com/65535/51252103256_04047fe30f_b.jpg"
-  teaser: "https://live.staticflickr.com/65535/51252103256_04047fe30f_b.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Travel
 tags:

@@ -5,8 +5,8 @@ excerpt: "In this post, I'll be discussing the importance of effective communica
 seo_title: "#100daysofSRE (Day 07): Effective Communication during Incidents for Better Incident Response"
 seo_description: "Learn about effective communication during incidents for better incident response in Site Reliability Engineering. Discover communication strategies, tools, and techniques that SREs can use to ensure clear and timely communication during incidents. Join the #100daysofSRE challenge for more SRE insights!"
 header:
-  image: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
-  teaser: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - SRE
 tags:

@@ -5,8 +5,8 @@ excerpt:  "Planning a camping trip? Don't forget to pack all the essentials with
 seo_title:  "Camping Checklist: Essential Items to Pack for Your Next Camping Trip"
 seo_description:  "Heading out on a camping trip? Make sure you don't forget any essentials with our comprehensive camping checklist. From tents and sleeping bags to cooking supplies and emergency gear, this post has got you covered."
 header:
-  image: "https://live.staticflickr.com/65535/51252297873_e986a07a24_b.jpg"
-  teaser: "https://live.staticflickr.com/65535/51252297873_e986a07a24_b.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Travel
 tags:

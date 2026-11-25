@@ -5,8 +5,8 @@ excerpt:  "Learn how to add LaTeX math equations to Jekyll-based theme Minimal M
 seo_title:  "How to Add LaTeX Math Equations to Jekyll-based Theme - Minimal Mistakes"
 seo_description:  "Are you struggling to add LaTeX math equations to your Jekyll-based blog posts? Look no further than this step-by-step tutorial on integrating math equations into your Minimal Mistakes theme. Discover how easy it can be to create professional-looking math formulas on your blog!"
 header:
-  image: "https://live.staticflickr.com/65535/51227438353_7a68113b99_w.jpg"
-  teaser: "https://live.staticflickr.com/65535/49316271662_9c8b200cb6_h.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Jekyll
 tags:

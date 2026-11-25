@@ -2,8 +2,8 @@
 layout: single
 title: "CoronaVirus (CoVid-19) Pandemic Resources: All You Need to Know"
 header:
-  image: "https://live.staticflickr.com/65535/49811995937_5a03a52d4e_b.jpg"
-  teaser: "https://live.staticflickr.com/65535/49811995937_5a03a52d4e_b.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - CoronaVirus
 tags:

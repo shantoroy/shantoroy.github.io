@@ -5,8 +5,8 @@ excerpt:  "Have you ever wanted to create a simple chatting program in Python? M
 seo_title:  "Learn to Create a Half-Duplex Chatting Program in Python"
 seo_description:  "Want to create a simple chatting program in Python? Follow this tutorial to learn how to make a half-duplex chatting program using Python's socket module. Two users can chat back and forth, taking turns sending and receiving messages. With just a few lines of code, you'll have a functional chatting program to use and learn from."
 header: 
-  image: "https://farm1.staticflickr.com/980/41781019432_d3614829b6_b.jpg"
-  teaser: "https://farm1.staticflickr.com/980/41781019432_d3614829b6_b.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories: 
   - Tutorial
 tags:

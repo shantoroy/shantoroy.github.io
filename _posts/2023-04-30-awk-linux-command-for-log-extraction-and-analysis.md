@@ -5,8 +5,8 @@ excerpt: "`awk` is a versatile tool that can be used to search, filter, and mani
 seo_title: "Simplifying Log Analysis with Linux `awk` Command: Basic and Templates"
 seo_description: "Learn how to simplify log analysis with the powerful `awk` command in Linux. In this blog post, we'll cover the basics of `awk` and provide templates to make log analysis easier and more efficient for sysadmins, devops, and site reliability engineers."
 header:
-  image: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
-  teaser: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - SRE
 tags:

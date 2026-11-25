@@ -5,8 +5,8 @@ excerpt: "With the increasing sophistication of cyber threats and the growing am
 seo_title: "Use Cases of Data Analytics in Cyber Security: Examples and Applications"
 seo_description: "Learn about the various applications and use cases of data analytics in cyber security. Discover how data analytics can be used to identify cyber threats, detect anomalies, and improve network security."
 header:
-  image: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
-  teaser: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Security
 tags:

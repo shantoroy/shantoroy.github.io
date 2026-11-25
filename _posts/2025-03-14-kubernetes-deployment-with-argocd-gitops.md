@@ -5,8 +5,8 @@ excerpt: "Learn how to automate Kubernetes deployments using ArgoCD and GitOps p
 seo_title: "ArgoCD & GitOps: Automating Kubernetes Deployments"
 seo_description: "A step-by-step guide to using ArgoCD for Kubernetes deployments with GitOps, ensuring consistency, automation, and version control."
 header:
-  image: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
-  teaser: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Kubernetes
 tags:

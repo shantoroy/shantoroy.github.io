@@ -5,8 +5,8 @@ excerpt: "In Day 14 of #100daysofSRE, we dive into the world of load testing and
 seo_title: "#100daysofSRE (Day 14): Load Testing and Stress Testing in Site Reliability Engineering"
 seo_description: "In this post, we'll explore the importance of load testing and stress testing in Site Reliability Engineering (SRE), the tools you can use, and best practices for incorporating them into your SRE processes. Learn how to ensure that your systems can handle expected traffic and unexpected spikes in user activity."
 header:
-  image: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
-  teaser: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - SRE
 tags:

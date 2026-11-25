@@ -5,8 +5,8 @@ excerpt: "Adding custom headers to your Python files is an excellent way to prov
 seo_title:  "Add Custom Headers to Python Files in Seconds using VSCode Editor"
 seo_description:  "Learn how to add custom headers to your Python files in seconds using the VSCode editor. Adding headers to your code provides important information such as author name, creation date, and copyright information. Stop manually typing headers in every file and simplify the process with this quick tutorial."
 header:
-  image: "https://live.staticflickr.com/65535/51234195440_2488a7d7f5_w.jpg"
-  teaser: "https://live.staticflickr.com/65535/51234195440_2488a7d7f5_w.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Tutorial
 tags:

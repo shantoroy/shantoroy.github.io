@@ -5,8 +5,8 @@ excerpt:  "In this tutorial, you will learn how to install Jekyll, a simple stat
 seo_title:  "How to Install Jekyll with the Minimal Mistakes Theme in macOS | Step-by-Step Guide" 
 seo_description:  "Learn how to install Jekyll on macOS and create a stunning website with the popular Minimal Mistakes theme. This easy-to-follow tutorial includes step-by-step instructions and helpful tips for beginners and experienced developers alike. Get started with Jekyll and Minimal Mistakes today!"
 header:
-  image: "https://live.staticflickr.com/65535/52104048713_44e91fe733_o.png"
-  teaser: "https://live.staticflickr.com/65535/52104048713_44e91fe733_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Blogging
 tags:

@@ -5,8 +5,8 @@ excerpt:  "Backdoors are one of the most common types of malware used by hackers
 seo_title:  "Learn How Backdoor Works Through Writing a Simple Backdoor in Python"
 seo_description:  "In this tutorial, you will learn the basics of backdoors and how they work by writing a simple backdoor in Python. I will cover topics such as establishing a connection, creating a shell, and running remote commands on the target machine. By the end of this tutorial, you will have a better understanding of how backdoors work and the techniques used to create them."
 header:
-  image: "https://live.staticflickr.com/65535/51222794626_b02e736eb2_z.jpg"
-  teaser: "https://live.staticflickr.com/65535/51222794626_b02e736eb2_z.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Security
 tags:

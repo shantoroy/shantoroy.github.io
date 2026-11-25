@@ -5,8 +5,8 @@ excerpt: "If you're a Jekyll blogger and struggling with 404 errors on your blog
 seo_title: "Jekyll SEO: How to Find and Fix 404 Error on a Jekyll (Minimal Mistakes) Blog Website"
 seo_description: "Struggling with 404 errors on your Jekyll (Minimal Mistakes) blog website? This blog post shows you how to find issues using Google Analytics/console and enable redirection to fix broken links. Keep your readers happy and improve your search engine rankings with these simple steps. I used Redirection 301 to fix the issue."
 header:
-  image: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
-  teaser: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Jekyll
 tags:

@@ -5,8 +5,8 @@ excerpt: "Our latest preprint on Arxiv explores the practical use cases and appl
 seo_title: "MITRE ATT&CK Framework Use Cases and Applications in Research and Practice"
 seo_description: "Discover the practical use cases and applications of the MITRE ATT&CK framework in our latest preprint on Arxiv. This blog post summarizes the key takeaways from our paper, highlighting how the framework can be leveraged for threat intelligence, detection, and response. Learn how to apply this framework in your research and practice to enhance your organization's cybersecurity posture."
 header:
-  image: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
-  teaser: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - security
 tags:

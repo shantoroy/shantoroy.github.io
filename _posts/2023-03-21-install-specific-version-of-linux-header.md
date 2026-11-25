@@ -5,8 +5,8 @@ excerpt: "Installing a specific version of Linux header in a Raspberry Pi can be
 seo_title: "How to Install Specific Version of Linux Header in a Raspberry Pi"
 seo_description: "Need to install a specific version of Linux header in your Raspberry Pi? This blog post will guide you through the steps to get it done quickly and easily. Learn how to install Linux headers and avoid any issues with your applications on your Raspberry Pi. Includes solution for multiple definition of yylloc error"
 header:
-  image: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
-  teaser: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Raspberry Pi
 tags:

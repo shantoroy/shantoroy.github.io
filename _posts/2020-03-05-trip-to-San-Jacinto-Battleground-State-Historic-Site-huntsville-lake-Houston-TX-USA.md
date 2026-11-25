@@ -5,8 +5,8 @@ excerpt:  "Looking for a weekend getaway near Houston? Look no further than the 
 seo_title:  "Hangouts near Houston: San Jacinto Battleground and Huntsville Lake"
 seo_description:  "Discover the San Jacinto Battleground and Huntsville Lake, two perfect weekend getaways near Houston. Explore the historic site of the Battle of San Jacinto, go hiking, biking, fishing or boating in the park, and make the most of your time outside. Read on for tips and recommendations."
 header:
-  image: "https://live.staticflickr.com/65535/51223015653_d51e3fae43_c.jpg"
-  teaser: "https://live.staticflickr.com/65535/51223015653_d51e3fae43_c.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Travel
 tags:

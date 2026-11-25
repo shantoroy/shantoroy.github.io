@@ -5,8 +5,8 @@ excerpt:  "Discover the beauty of Martin Dies, Jr. State Park located in Jasper,
 seo_title: "Camping and Biking at Martin Dies, Jr. State Park, Jasper, TX"
 seo_description:  "Explore the natural beauty of Martin Dies, Jr. State Park in Jasper, TX, with its lush forests, sparkling waters, and diverse wildlife. This state park offers camping and biking enthusiasts an opportunity to experience the great outdoors, away from the hustle and bustle of city life. Whether you're looking for a weekend adventure or a week-long escape, Martin Dies, Jr. State Park has everything you need for a memorable camping and biking experience."
 header:
-  image: "https://live.staticflickr.com/65535/51253165860_fb875f1bc0_b.jpg"
-  teaser: "https://live.staticflickr.com/65535/51253165860_fb875f1bc0_b.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Travel
 tags:

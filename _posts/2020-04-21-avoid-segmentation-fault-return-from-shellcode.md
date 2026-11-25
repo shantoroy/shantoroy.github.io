@@ -5,8 +5,8 @@ excerpt:  "In this blog post, I will introduce you to ARM exploitation with Rasp
 seo_title:  "ARM Exploitation with Raspberry Pi: Return Back to Program without Crashing"
 seo_description:  "Learn how to perform ARM exploitation with Raspberry Pi and return back to a program without crashing. This blog post covers the basics of stack buffer overflow and techniques to bypass stack protections. Get started with ARM exploitation today."
 header:
-  image: "https://live.staticflickr.com/65535/49799517733_05b4a81f72_h.jpg"
-  teaser: "https://live.staticflickr.com/65535/49799517733_05b4a81f72_h.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Security
 tags:

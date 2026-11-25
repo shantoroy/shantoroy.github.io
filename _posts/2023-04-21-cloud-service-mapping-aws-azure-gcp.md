@@ -5,8 +5,8 @@ excerpt: "Are you looking for an easy way to compare and find alternatives of di
 seo_title: "Cloud Service Mapping: AWS vs Azure vs GCP"
 seo_description: "Learn how to map cloud services across AWS, Azure, and GCP in one place. Check out a comprehensive GitHub repository, a basic mapping of common services, and free course links for your cloud education."
 header:
-  image: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
-  teaser: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - SRE
 tags:

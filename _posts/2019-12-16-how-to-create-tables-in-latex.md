@@ -8,8 +8,8 @@ excerpt:  "Tables are a vital component of scientific documentation and publishi
 seo_title:  "Preparing Tables for Publication and Documentation in Latex"
 seo_description:  "Learn how to prepare tables for publication and documentation in LaTeX, the document preparation system favored by many scientists and researchers. Our guide covers everything from basic table creation to advanced formatting techniques, including merging cells, coloring cells, and aligning table columns. Whether you're writing a research paper, thesis, or technical report, this guide will help you produce professional-quality tables that are suitable for publication."
 header:
-  image: "https://live.staticflickr.com/65535/49211373397_8de8c1daa4_h.jpg"
-  teaser: "https://live.staticflickr.com/65535/49211373397_8de8c1daa4_h.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Latex
 tags:

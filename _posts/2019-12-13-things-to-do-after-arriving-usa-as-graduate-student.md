@@ -5,8 +5,8 @@ excerpt:  "Are you an international student who has just arrived in the USA for 
 seo_title:  "Things to Do After Arriving in the USA for Higher Studies: An International Student's Guide"
 seo_description:  "As an international student, arriving in a new country can be overwhelming. In this blog post, I provide a comprehensive guide to help you navigate your new surroundings and prepare for your academic journey in the USA. Learn about important things to do such as setting up a bank account, getting a SIM card, finding housing, and more. Read on for our top tips on making the most of your time as an international student in the USA."
 header:
-  image: "https://live.staticflickr.com/65535/49211149676_69ee4e35b9_h.jpg"
-  teaser: "https://live.staticflickr.com/65535/49211149676_69ee4e35b9_h.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Higher Study
 tags:

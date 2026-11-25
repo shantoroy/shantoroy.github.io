@@ -5,8 +5,8 @@ excerpt:  "Join me as I embark on a journey to explore the stunning state of Col
 seo_title:  "Colorado Tour 2021 (Day 01): Tour Plans and Travel Journal"
 seo_description:  "Follow my adventure as I explore Colorado and share my tour plans and travel journal for Day 01. Discover the highlights of my journey, the challenges I faced, and the unforgettable experiences that made my first day in Colorado an adventure of a lifetime."
 header:
-  image: "https://live.staticflickr.com/65535/51699602895_9f512e632d_o.png"
-  teaser: "https://live.staticflickr.com/65535/52009565686_a3cd3b4e03_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Sports
 tags:

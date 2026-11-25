@@ -5,8 +5,9 @@ excerpt: "If you are a Wordpress user and have faced issues while installing a n
 seo_title:  "Fixing Wordpress Theme Installation Issue in macOS - A Step-by-Step Guide"
 seo_description: "Are you struggling to install a new theme on your Wordpress site using a macOS device? This blog post provides a step-by-step guide to help you fix the issue quickly and easily. Whether you are new to the software or an experienced user, our guide will provide you with everything you need to know to get your Wordpress theme installed and running smoothly on your macOS device."
 header:
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
   overlay_image: "https://live.staticflickr.com/65535/51699602895_9f512e632d_o.png"
-  teaser: "https://live.staticflickr.com/65535/52010965276_faf5ae76ef_o.png"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Wordpress
 tags:

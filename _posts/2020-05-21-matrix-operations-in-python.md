@@ -5,8 +5,8 @@ excerpt:  "Learn how to perform matrix operations like addition, subtraction, mu
 seo_title:  "Matrix Operations in Python Numpy - A Beginner's Guide"
 seo_description:  "Want to perform matrix operations in Python? Learn how to do it using NumPy - the most popular numerical computing library in Python. This tutorial covers the basics of NumPy arrays and how to use them for matrix manipulation, including addition, subtraction, multiplication, inverse, transpose, and more."
 header:
-  image: "https://live.staticflickr.com/65535/51665439656_9c1e063572_b.jpg"
-  teaser: "https://live.staticflickr.com/65535/51665439656_9c1e063572_b.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Python
 tags:

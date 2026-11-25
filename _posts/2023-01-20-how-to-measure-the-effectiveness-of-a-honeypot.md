@@ -5,8 +5,8 @@ excerpt:  "Cyber deception is a technique used to detect and mitigate cybersecur
 seo_title:  "Understanding the Evaluation Metrics for Honeypot Research and Development"
 seo_description:  "Honeypots are an effective tool in the field of cybersecurity. In this blog post, I discuss the evaluation metrics for honeypot research and development. I explore the various metrics used for evaluating honeypots."
 header:
-  image: "https://live.staticflickr.com/65535/52745174878_31b9b78883_o.png"
-  teaser: "https://live.staticflickr.com/65535/52745174878_31b9b78883_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Security
 tags:

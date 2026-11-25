@@ -5,8 +5,8 @@ excerpt:  "If you're running a Jekyll static site or a blog using the Minimal Mi
 seo_title:  "How to Add Google Adsense to Jekyll Static Site or Minimal Mistakes Blog Theme"
 seo_description:  "Learn how to monetize your Jekyll static site or blog built with the Minimal Mistakes theme by adding Google Adsense. This tutorial will guide you through the steps to set up and add ad units to your posts."
 header:
-  image: "https://live.staticflickr.com/65535/51703105884_43aa3f4b4d_o.png"
-  teaser: "https://live.staticflickr.com/65535/51703105884_43aa3f4b4d_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - jekyll
 tags:

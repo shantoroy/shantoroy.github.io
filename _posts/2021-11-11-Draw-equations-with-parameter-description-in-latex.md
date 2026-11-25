@@ -5,8 +5,8 @@ excerpt:  "If you're looking to create professional-looking equations with clear
 seo_title:  "How to Draw Equations with Parameter Description in Latex using Tikz"
 seo_description:  "Learn how to create clear and professional-looking equations with parameter descriptions in Latex using Tikz. This tutorial will walk you through the process step-by-step, so you can easily display mathematical equations in your documents."
 header:
-  image: "https://live.staticflickr.com/65535/52102560767_07df211900_o.png"
-  teaser: "https://live.staticflickr.com/65535/52102560767_07df211900_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Latex
 tags:

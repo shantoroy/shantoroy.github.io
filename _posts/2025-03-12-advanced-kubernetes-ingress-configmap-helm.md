@@ -5,8 +5,8 @@ excerpt: "Take your Kubernetes skills to the next level by adding Ingress for ro
 seo_title: "Advanced Kubernetes: Ingress, ConfigMaps, Secrets & Helm"
 seo_description: "Learn how to enhance your Kubernetes setup with Ingress, ConfigMaps, Secrets, and Helm Charts. Secure and manage your applications effectively."
 header:
-  image: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
-  teaser: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Kubernetes
 tags:

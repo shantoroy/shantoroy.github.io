@@ -2,8 +2,8 @@
 layout: single
 title: "How to write a Twitter Data Scrapper in Python"
 header:
-  image: "https://live.staticflickr.com/65535/52696451758_de672f8380_o.png"
-  teaser: "https://live.staticflickr.com/65535/52696451758_de672f8380_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Python
 tags:

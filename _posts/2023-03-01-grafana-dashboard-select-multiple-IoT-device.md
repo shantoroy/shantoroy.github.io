@@ -5,8 +5,8 @@ excerpt:  "In this tutorial, I will show you how to select multiple options from
 seo_title:  "How to Select Multiple Options from Drop-Down Menu/Filter (Query Variable) in Grafana Based on PostgreSQL Table Column"
 seo_description:  "Learn how to filter data in Grafana based on multiple conditions using a drop-down menu/filter (Query Variable). This tutorial covers the steps to create a PostgreSQL table column filter in Grafana, making it easier to analyze large datasets."
 header:
-  image: "https://live.staticflickr.com/65535/52695891576_98e68b805e_o.png"
-  teaser: "https://live.staticflickr.com/65535/52695891576_98e68b805e_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Monitoring
 tags:

@@ -5,8 +5,8 @@ excerpt:  "Learn how to detect objects from images and count them using Python! 
 seo_title:  "Object Detection from Images and Counting Objects in Python"
 seo_description:  "Learn how to use OpenCV and CVLib to detect objects from images and count them in Python! This tutorial walks you through the process of installing necessary libraries, loading images, detecting objects, and filtering out unwanted objects."
 header:
-  image: "https://live.staticflickr.com/65535/51687913575_dc02a1466e_o.png"
-  teaser: "https://live.staticflickr.com/65535/51687913575_dc02a1466e_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Python
 tags:

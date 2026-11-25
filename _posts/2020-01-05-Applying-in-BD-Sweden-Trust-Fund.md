@@ -5,8 +5,8 @@ excerpt:  "Are you a student in Bangladesh who's looking for opportunities to tr
 seo_title:  "How to Apply for the Bangladesh-Sweden Trust Fund for a Travel Grant (BD students only)"
 seo_description:  "Are you a student in Bangladesh looking to attend a conference or training program outside of the country? The Bangladesh-Sweden Trust Fund for Research and Development (BSTF) offers travel grants to Bangladeshi students. In this post, I'll show you how to apply for a travel grant from the BSTF, including eligibility criteria, application requirements, and deadlines."
 header:
-  image: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
-  teaser: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - higher-study
 tags:

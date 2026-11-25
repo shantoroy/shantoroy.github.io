@@ -5,8 +5,8 @@ excerpt:  "If you are working on a LaTeX document using the IEEE Access template
 seo_title:  "[Solved] Tikz Package Causing Error in IEEE Access Template"  
 seo_description:  "Are you facing an error while using the `tikz` package in your LaTeX document using the IEEE Access template? Don't worry, we have got you covered. Read this blog post to learn the reason behind the error and how to fix it. Also, get some useful insights on the IEEE Access template and its usage."
 header:
-  image: "https://live.staticflickr.com/65535/49273391188_54c1ce853b_h.jpg"
-  teaser: "https://live.staticflickr.com/65535/49273391188_54c1ce853b_h.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Latex
 tags:

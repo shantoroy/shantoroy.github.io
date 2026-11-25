@@ -2,8 +2,8 @@
 layout: single
 title: "Rakuten Earn 30 Dollar Cashback Offer on Sign Up"
 header:
-  image: "https://live.staticflickr.com/65535/51702878069_15985a2037_o.png"
-  teaser: "https://live.staticflickr.com/65535/51702878069_15985a2037_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Offer
 tags:

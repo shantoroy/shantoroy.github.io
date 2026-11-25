@@ -5,8 +5,8 @@ excerpt:  "Are you tired of your IP address changing every time you restart your
 seo_title:  "Set Static IP Address in Linux/Raspbian OS: A Step-by-Step Guide"
 seo_description:  "Tired of your IP address changing every time you restart your Linux/Raspbian OS? In this tutorial, I'll walk you through the steps of setting up a static IP address on your Linux/Raspbian machine using simple command-line tools. Say goodbye to the hassle of finding your IP address every time you need it!"
 header:
-  image: "https://live.staticflickr.com/65535/51228020554_0a011cd6ca_w.jpg"
-  teaser: "https://live.staticflickr.com/65535/51228020554_0a011cd6ca_w.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Linux
 tags:

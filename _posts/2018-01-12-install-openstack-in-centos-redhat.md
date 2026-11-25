@@ -5,8 +5,8 @@ excerpt:  "OpenStack is a popular cloud computing platform that allows users to 
 seo_title:  How to Install OpenStack Cloud on CentOS or Red Hat Linux
 seo_description:  Learn how to install and configure OpenStack on your CentOS or Red Hat Linux system in this comprehensive guide. From preparing your system to launching instances, I'll walk you through every step of the process.
 header: 
-  image: "https://farm5.staticflickr.com/4714/39193500724_2d5c375b4c_b.jpg"
-  teaser: "https://farm5.staticflickr.com/4714/39193500724_2d5c375b4c_b.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories: 
   - Cloud
 tags:

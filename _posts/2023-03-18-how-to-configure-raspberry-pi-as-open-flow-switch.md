@@ -5,8 +5,8 @@ excerpt:  "Configuring a Raspberry Pi as an OpenFlow switch (low cost open flow 
 seo_title:  "A Step-by-Step Guide to Configuring a Raspberry Pi as an OpenFlow Switch"
 seo_description:  "Learn how to configure a Raspberry Pi as an OpenFlow switch with this comprehensive guide. Build your first low cost open flow switch. It can also be a low cost SDN switch. Discover common issues, troubleshooting guides, and solutions, and set up your own software-defined (SDN) network."
 header:
-  image: "https://live.staticflickr.com/65535/52763084849_e3ee0ecaf0_o.png"
-  teaser: "https://live.staticflickr.com/65535/52763084849_e3ee0ecaf0_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - OpenFlow
 tags:

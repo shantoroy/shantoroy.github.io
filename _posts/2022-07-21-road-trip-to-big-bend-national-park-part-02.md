@@ -5,8 +5,8 @@ excerpt:  "Explore the Chisos Basin Mountains of the Big Bend National Park in T
 seo_title:  "Big Bend National Park Road Trip Part 02 - Chisos Basin Mountains | Houston to Big Bend National Park near Marathon and Mexico Border" 
 seo_description:  "Check our scenic road trip from Houston to the Big Bend National Park in Texas and discover the popular and widely-hiked Chisos Basin Mountains. With numerous popular hiking trails, this natural wonderland is a must-visit destination for nature lovers, hikers, and back-packers. Check the highlights of Part 02 of our Texas US national park journey near the Mexico border, Marathon, and Alpine. We hiked the Chisos Basin Loop Trail in the hot Summer of 2022."
 header:
-  image: "https://live.staticflickr.com/65535/52512526139_8064d16bd9_o.png"
-  teaser: "https://live.staticflickr.com/65535/52512526139_8064d16bd9_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Travel
 tags:

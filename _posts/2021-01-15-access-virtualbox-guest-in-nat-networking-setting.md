@@ -5,8 +5,8 @@ excerpt:  "If you're working with VirtualBox, you may have encountered a situati
 seo_title:  "Enable Access to VirtualBox Guest Machine via SSH in a NAT Network Settings"
 seo_description:  "Learn how to enable access to a VirtualBox guest machine via SSH in a NAT network setting. This blog post provides a step-by-step guide on configuring your VirtualBox network settings to allow SSH access to the guest machine."
 header:
-  image: "https://live.staticflickr.com/65535/51878165271_d341fbc248_o.png"
-  teaser: "https://live.staticflickr.com/65535/51878165271_d341fbc248_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Security
 tags:

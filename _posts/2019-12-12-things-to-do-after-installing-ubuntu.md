@@ -5,8 +5,8 @@ excerpt:  "Are you a computer science student who just installed Ubuntu on your 
 seo_title:  "Essential Things to Do After Installing Ubuntu for Computer Science Students"
 seo_description:  "If you're a computer science student who has just installed Ubuntu, don't miss out on these essential steps to set up your system for optimal performance. Learn how to customize your environment, install necessary tools, and more in this guide."
 header:
-  image: "https://live.staticflickr.com/65535/49211373302_5b79643345_h.jpg"
-  teaser: "https://live.staticflickr.com/65535/49211373302_5b79643345_h.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Linux
 tags:

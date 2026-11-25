@@ -2,8 +2,8 @@
 layout: single
 title: "A few hours in the Galveston Beach"
 header:
-  image: "https://live.staticflickr.com/65535/49276809047_d5a5ff175f_h.jpg"
-  teaser: "https://live.staticflickr.com/65535/49276809047_d5a5ff175f_h.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Travel
 tags:

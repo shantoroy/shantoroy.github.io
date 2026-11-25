@@ -5,8 +5,8 @@ excerpt: "Learn how to scrape data from Medium.com blogs by clicking the 'Show M
 seo_title:  "Web Scrapping: Clicking the 'Show More' Button Multiple times in Medium.com Blog via Selenium"
 seo_description:  "Learn how to automate the process of clicking the 'Show More' button multiple times in Medium.com blogs with Selenium and Python to get links of all posts upon searching for tags or keywords. Follow this easy-to-follow tutorial to extract more data from this type of dynamic interactive javascript-based websites like medium blog efficiently."
 header:
-  image: "https://live.staticflickr.com/65535/52023019312_ca3bbdb467_o.png"
-  teaser: "https://live.staticflickr.com/65535/52023019312_ca3bbdb467_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - WebScrapping
 tags:

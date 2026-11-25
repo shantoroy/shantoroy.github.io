@@ -5,8 +5,8 @@ excerpt: "Root cause analysis (RCA) and post-incident reviews (PIR) are critical
 seo_title: "#100daysofSRE (Day 08): Root Cause Analysis and Post-Incident Reviews for SRE"
 seo_description: "Learn the basics of root cause analysis (RCA) and post-incident reviews (PIR) and how they can benefit site reliability engineering (SRE) teams in improving the reliability and resilience of their systems. Join my #100daysofSRE challenge and enhance your SRE skills today!"
 header:
-  image: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
-  teaser: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - SRE
 tags:

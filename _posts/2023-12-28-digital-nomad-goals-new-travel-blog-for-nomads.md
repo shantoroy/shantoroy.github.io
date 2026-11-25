@@ -5,8 +5,8 @@ excerpt: "Join me on a journey with 'Digital Nomad Goals' where we build a commu
 seo_title: "Digital Nomad Goals: A new Blog for Travel Enthusiasts and Digital Nomads"
 seo_description: "Discover 'Digital Nomad Goals' to explore thrilling travel stories, gear insights, and practical tips for the nomadic lifestyle. Explore the world through engaging travel diaries and expert guides for an ideal nomad experience."
 header:
-  image: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
-  teaser: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Travel
 tags:

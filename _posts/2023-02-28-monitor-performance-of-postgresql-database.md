@@ -5,8 +5,8 @@ excerpt: "Want to improve the performance of your PostgreSQL database? In this p
 seo_title: "PostgreSQL Database Performance Monitoring and Analysis for Applications"
 seo_description: "Learn how to monitor and analyze PostgreSQL database performance to improve your application's performance. Discover key performance metrics to track and tools to help you identify and solve issues."
 header:
-  image: "https://live.staticflickr.com/65535/52743428804_bdd0ba4be6_o.png"
-  teaser: "https://live.staticflickr.com/65535/52743428804_bdd0ba4be6_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Monitoring
 tags:

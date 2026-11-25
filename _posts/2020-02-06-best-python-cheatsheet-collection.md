@@ -5,8 +5,8 @@ excerpt:  "Python is a powerful and versatile programming language that is widel
 seo_title:  "A Curated List of Python Cheatsheets Collections- Find the Best Resources to Master Python"
 seo_description:  "Looking for the best Python cheatsheet collections? Check out our curated list of top resources for mastering Python programming language. Find cheatsheets that cover important concepts, syntax, and libraries for data science, machine learning, web development, and more."
 header:
-  image: "https://live.staticflickr.com/65535/52479261660_2769d81bc2_o.png"
-  teaser: "https://live.staticflickr.com/65535/52479261660_2769d81bc2_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Python
 tags:

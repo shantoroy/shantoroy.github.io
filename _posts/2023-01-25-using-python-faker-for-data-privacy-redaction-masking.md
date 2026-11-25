@@ -5,8 +5,8 @@ excerpt:  "Python Faker Module enables us to generate realistic-looking fake dat
 seo_title:  "Python Faker Module for Data Privacy: Data Masking and Redaction"
 seo_description:  "Learn how to use Python Faker Module to generate fake data and protect sensitive information in your applications by replacing sensitive data. This blog post explains how to use Python Faker Module for data masking and redaction, helping you achieve data privacy."
 header:
-  image: "https://live.staticflickr.com/65535/52721381577_02749f8c11_o.png"
-  teaser: "https://live.staticflickr.com/65535/52721381577_02749f8c11_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Python
 tags:

@@ -5,8 +5,8 @@ excerpt: "Disaster recovery planning is a critical aspect of SRE that involves p
 seo_title: "Disaster Recovery Planning and Testing in SRE: Strategies, Techniques, and Best Practices"
 seo_description: "Disaster recovery planning and testing is a critical aspect of Site Reliability Engineering (SRE) to ensure that systems and applications can recover quickly in case of a disaster. This post covers the strategies, techniques, and best practices for disaster recovery planning and testing in SRE, including backup and recovery, redundancy, and testing methodologies. Join us for #100daysofSRE (Day 15) to learn more about disaster recovery planning and testing in SRE."
 header:
-  image: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
-  teaser: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - SRE
 tags:

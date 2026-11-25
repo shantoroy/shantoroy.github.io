@@ -2,8 +2,8 @@
 layout: single
 title: "Python ZeroMQ Module: A Simple Publisher-Subscriber Chat Application"
 header:
-  image: "https://live.staticflickr.com/65535/52696720985_7cff7b56a3_o.png"
-  teaser: "https://live.staticflickr.com/65535/52696720985_7cff7b56a3_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Python
 tags:

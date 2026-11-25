@@ -5,8 +5,8 @@ excerpt: "Master Kubernetes with Minikube! This post provides a cheatsheet of es
 seo_title: "Learn Kubernetes Commands and Operations using Minikube"
 seo_description: "A practical guide to Kubernetes commands and operations using Minikube. Includes essential commands, scenario-based examples, and step-by-step troubleshooting for Kubernetes beginners and SREs."
 header:
-  image: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
-  teaser: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Kubernetes
 tags:

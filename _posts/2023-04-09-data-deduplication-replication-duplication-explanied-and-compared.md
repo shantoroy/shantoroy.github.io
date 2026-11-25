@@ -6,8 +6,8 @@ In this post, I will explain what data replication, duplication, and deduplicati
 seo_title: "Data Management: Data Replication, Duplication, and Deduplication Explained and Compared"
 seo_description: "Learn the differences between data replication, duplication, and deduplication, and which one is the best fit for your data storage needs. This post explores the pros and cons of each method and provides examples of how they are used in real-world scenarios."
 header:
-  image: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
-  teaser: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - data
 tags:

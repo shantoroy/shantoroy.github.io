@@ -5,8 +5,8 @@ excerpt:  "Looking for a quick and easy way to create your first web application
 seo_title:  "Create Your First Flask (Python) `Hello World` App in 5 Minutes"
 seo_description:  "Learn how to create your first web application using Flask in just 5 minutes! This step-by-step tutorial will guide you through the process of building a simple `Hello World` app. Perfect for beginners, you'll learn the basics of Flask, setting up your development environment, running and testing your app, and more. Start building your own Flask app today!"
 header:
-  image: "https://live.staticflickr.com/65535/51207015303_8ef57cac63_c.jpg"
-  teaser: "https://live.staticflickr.com/65535/51207015303_8ef57cac63_c.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Python
 tags:

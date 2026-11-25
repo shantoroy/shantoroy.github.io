@@ -5,8 +5,8 @@ excerpt: "Learn why Kubernetes is the go-to solution for production deployments,
 seo_title: "Introduction to Kubernetes – Why It’s Better for Production"
 seo_description: "Discover why Kubernetes is preferred over Docker Compose for enterprise deployments. Learn how it enhances scalability, fault tolerance, and automation."
 header:
-  image: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
-  teaser: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - SRE
 tags:

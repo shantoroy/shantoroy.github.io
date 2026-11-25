@@ -5,8 +5,8 @@ excerpt:  "If you're looking for some inspiration and motivation to conquer your
 seo_title:  "Best Motivational Mountain Climbing Documentaries: My Own Favorites"
 seo_description:  "Looking for inspiration and motivation to conquer your own personal mountains? Check out this list of the best mountain climbing documentaries featuring some of the most challenging and inspiring expeditions in the world, including Mount Everest and K2. Get ready to be awestruck and inspired."
 header:
-  image: "https://live.staticflickr.com/65535/51678947033_43b15bd9d2_o.png"
-  teaser: "https://live.staticflickr.com/65535/51678947033_43b15bd9d2_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Movies
 tags:

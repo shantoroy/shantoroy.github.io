@@ -5,8 +5,8 @@ excerpt:  "Looking for a more professional-looking and publication-ready plot fo
 seo_title:  "Why Latex Plots are a Better Choice than Matplotlib Plots for Academic Reports and Publications"
 seo_description:  "Find out why using Latex plots is a better choice than Matplotlib plots. Learn about the advantages of Latex plots and how they can help you create professional-looking and publication-ready plots for your academic reports and research papers."
 header:
-  image: "https://live.staticflickr.com/65535/52104342559_4543d284e9_o.png"
-  teaser: "https://live.staticflickr.com/65535/52104342559_4543d284e9_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Latex
 tags:

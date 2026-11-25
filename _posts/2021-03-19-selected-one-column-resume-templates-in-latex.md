@@ -2,8 +2,8 @@
 layout: single
 title: "Five Awesome One-Column Resume Templates in Latex"
 header:
-  image: "https://live.staticflickr.com/65535/52099084861_9388371edf_o.png"
-  teaser: "https://live.staticflickr.com/65535/52099084861_9388371edf_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Latex
 tags:

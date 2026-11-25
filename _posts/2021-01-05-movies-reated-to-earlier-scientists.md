@@ -5,8 +5,8 @@ excerpt:  "The life stories of scientists and mathematicians have always fascina
 seo_title:  "8 Inspiring Movies about the Lives of Famous Scientists and Mathematicians"
 seo_description:  "Looking for some inspiring movies to watch? Check out our list of 8 movies about the lives of famous scientists and mathematicians. Learn about their struggles, triumphs, and contributions to science and mathematics. Whether you're a science buff or just looking for an interesting movie to watch, you won't be disappointed with our recommendations."
 header:
-  image: "https://live.staticflickr.com/65535/51648664816_15e0502967_b.jpg"
-  teaser: "https://live.staticflickr.com/65535/51648664816_15e0502967_b.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Movies
 tags:

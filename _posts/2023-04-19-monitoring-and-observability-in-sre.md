@@ -5,8 +5,8 @@ excerpt: "In Day 9 of #100daysofSRE, we dive into the world of monitoring and ob
 seo_title: "#100daysofSRE (Day 09): Monitoring and Observability in SRE"
 seo_description: "Learn about the importance of monitoring and observability in Site Reliability Engineering. Discover techniques and tools to enhance your system's performance, reliability, and observability. Join us for Day 9 of #100daysofSRE."
 header:
-  image: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
-  teaser: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - SRE
 tags:

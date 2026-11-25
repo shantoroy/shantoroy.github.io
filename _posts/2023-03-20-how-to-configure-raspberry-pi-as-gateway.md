@@ -5,8 +5,8 @@ excerpt: "In research/development testbeds, there is often a need to connect mul
 seo_title: "Step-by-Step Guide: Configure Raspberry Pi as a Gateway for Two Private LANs using Ethernet Interfaces"
 seo_description: "Learn how to configure your Raspberry Pi as a gateway between two private local area networks using Ethernet interfaces. My easy-to-follow guide provides step-by-step instructions for setting up a testbed and configuring the necessary settings to get two LANs communicating with each other."
 header:
-  image: "https://live.staticflickr.com/65535/52762763609_cc0b7cecb9_o.png"
-  teaser: "https://live.staticflickr.com/65535/52762763609_cc0b7cecb9_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Raspberry Pi
 tags:

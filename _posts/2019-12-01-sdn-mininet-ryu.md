@@ -2,8 +2,8 @@
 layout: single
 title: "Software Defined Network: Mininet with Ryu Controller"
 header:
-  image: "https://live.staticflickr.com/65535/49150212507_036b060f54_h.jpg"
-  teaser: "https://live.staticflickr.com/65535/49150212507_036b060f54_h.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - SDN
 tags:

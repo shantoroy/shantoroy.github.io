@@ -5,8 +5,8 @@ excerpt:  "Are you new to Git and Github and feeling overwhelmed by all the comm
 seo_title:  "Short Introduction to Git Commands and Github for Beginners"
 seo_description:  "Are you new to Git and Github? This beginner's guide will introduce you to the basics of Git commands and Github in simple and easy-to-understand terms. From setting up a repository to committing changes and pushing them to Github, learn all the essential commands and concepts to become a Git pro!"
 header:
-  image: "https://live.staticflickr.com/65535/51233648279_e97dd9a2b8_w.jpg"
-  teaser: "https://live.staticflickr.com/65535/51233648279_e97dd9a2b8_w.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - github
 tags:

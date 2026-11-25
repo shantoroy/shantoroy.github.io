@@ -5,8 +5,8 @@ excerpt:  "Hash tables are one of the most efficient data structures for storing
 seo_title:  "Hash Tables Concept and Implementation in Python | Learn about Hash Tables"
 seo_description:  "Learn about hash tables and their implementation in Python. This post explains the concept of hash tables and provides a step-by-step guide on how to create a hash table using Python."
 header:
-  image: "https://live.staticflickr.com/65535/51653692227_af82a634a0_b.jpg"
-  teaser: "https://live.staticflickr.com/65535/51653692227_af82a634a0_b.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Python
 tags:

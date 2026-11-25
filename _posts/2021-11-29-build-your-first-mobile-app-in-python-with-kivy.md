@@ -5,8 +5,8 @@ excerpt:  "Building a mobile app in Python has never been easier with the Kivy f
 seo_title:  "Build Your First Mobile App in Python with Kivy: A Step-by-Step Guide"
 seo_description:  "Ready to create your first mobile app with Python? Check out this step-by-step guide to building a Hello World app with the Kivy framework. Learn how to design and code a simple app that runs on Android and iOS devices."
 header:
-  image: "https://live.staticflickr.com/65535/51713840278_c17951a974_o.png"
-  teaser: "https://live.staticflickr.com/65535/51713840278_c17951a974_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Python
 tags:

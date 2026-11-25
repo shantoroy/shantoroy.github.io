@@ -5,8 +5,8 @@ excerpt: "Do you want a quick and easy way to extract, analyze, and visualize yo
 seo_title: "How to Use the Splitwise API for Personal Expenditure Analytics in Python"
 seo_description: "Learn how to use the Splitwise API in Python to extract, analyze, and visualize your personal expenditure data. Get a detailed walkthrough on integrating the API with Python and accessing your expense data to gain insights into your spending habits."
 header:
-  image: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
-  teaser: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - python
 tags:

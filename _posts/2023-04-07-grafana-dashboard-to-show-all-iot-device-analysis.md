@@ -5,8 +5,8 @@ excerpt: "Learn how to create a powerful Grafana dashboard to present your devic
 seo_title: "Create a Powerful Grafana Dashboard for Device Analysis Using Individual Panels"
 seo_description: "In this tutorial, you will learn how to create a dynamic Grafana dashboard with individual panels to present your device analysis. Our step-by-step guide will show you how to utilize Grafana's advanced features and customization options to create a powerful dashboard that will make your data easy to understand and visually appealing. By the end of this post, you'll have the knowledge to create a customized dashboard that will showcase your device analysis in the most effective way."
 header:
-  image: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
-  teaser: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Monitoring
 tags:

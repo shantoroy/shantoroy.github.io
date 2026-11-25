@@ -5,8 +5,8 @@ excerpt: "High availability and redundancy are critical components of any succes
 seo_title: "High Availability and Redundancy Strategies for Data in DevOps/Site Reliability Engineering"
 seo_description: "This post discusses the importance of high availability and redundancy strategies for data in Site Reliability Engineering. I explore common techniques used to achieve high availability, such as data replication, clustering, and load balancing. I also highlight the benefits of implementing redundancy strategies for data and provide insights into how SRE teams can ensure the reliability and availability of their data systems."
 header:
-  image: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
-  teaser: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - SRE
 tags:

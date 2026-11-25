@@ -5,8 +5,8 @@ excerpt:  "Cyber security threats are on the rise, and everyone is vulnerable to
 seo_title:  "Cyber Security Awareness and Best Practices to Keep Your Personal Data and Online Accounts Safe"
 seo_description:  "Protect your personal data with these cyber security awareness tips and best practices. Learn how to safeguard your devices, online accounts, and personal information against cyber attacks."
 header:
-  image: "https://live.staticflickr.com/65535/51651624220_c268312ac6_b.jpg"
-  teaser: "https://live.staticflickr.com/65535/51651624220_c268312ac6_b.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Security
 tags:

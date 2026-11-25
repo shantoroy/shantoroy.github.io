@@ -5,8 +5,8 @@ excerpt: "Introducing our certification preparation question bank, currently in 
 seo_title: "Certification Preparation Question Bank – Practice & Contribute"
 seo_description: "A growing collection of certification practice questions. Learn, contribute, and support this open-source initiative."
 header:
-  image: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
-  teaser: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Certification
 tags:

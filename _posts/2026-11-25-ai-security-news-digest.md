@@ -4,8 +4,8 @@ title: "AI Security News Digest – November 25, 2026"
 excerpt: "Daily summary of AI and cybersecurity news from BleepingComputer, Dark Reading, SecurityWeek, The Hacker News."
 permalink: /ai-security-digest/2026-11-25/
 header:
-  image: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
-  teaser: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - AI-Security-Digest
 tags:

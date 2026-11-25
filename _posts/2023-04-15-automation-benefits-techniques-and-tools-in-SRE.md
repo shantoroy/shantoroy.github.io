@@ -5,8 +5,8 @@ excerpt: "In the fifth post of #100daysofSRE series, we will discuss how automat
 seo_title: "#100daysofSRE (Day 05): Importance of Automation in Site Reliability Engineering (SRE)"
 seo_description: "In this post, we will explore the benefits of automation in Site Reliability Engineering (SRE) and how automation techniques and tools are utilized in SRE. I will also discuss the importance of automation in reducing toil and improving system reliability and efficiency. Stay tuned for the fifth post of #100daysofSRE series! Along the way, here, I will talk about some most commonly used DevOps/SRE automation tools including Ansible, Jenkins, Puppet, Grafana, Kubernetes, Chef, Docker within cloud platforms, including Amazon AWS, Microsoft Azure, and Google Cloud."
 header:
-  image: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
-  teaser: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - SRE
 tags:

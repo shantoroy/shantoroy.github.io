@@ -5,8 +5,8 @@ excerpt: "Learn how to set up Prometheus and Grafana for monitoring Kubernetes a
 seo_title: "Kubernetes Monitoring: Prometheus & Grafana"
 seo_description: "Monitor Kubernetes applications using Prometheus for metrics collection and Grafana for visualization. Step-by-step setup for Minikube."
 header:
-  image: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
-  teaser: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Kubernetes
 tags:

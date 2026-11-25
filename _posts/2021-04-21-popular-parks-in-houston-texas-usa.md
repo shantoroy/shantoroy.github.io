@@ -5,8 +5,8 @@ excerpt:  "Discover the most popular parks in Houston for walking, running, and 
 seo_title:  "Top Parks in Houston for Walking, Running, and Biking | Houston Outdoor Adventures"
 seo_description:  "Looking for a great park for walking, running, or biking in Houston? Check out our guide to the most popular parks in the city, including Memorial Park, Buffalo Bayou Park, Hermann Park, and more. Find the perfect place for your next outdoor adventure today!"
 header:
-  image: "https://live.staticflickr.com/65535/51699602895_9f512e632d_o.png"
-  teaser: "https://live.staticflickr.com/65535/52010068120_8e3bbfcefd_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Sports
 tags:

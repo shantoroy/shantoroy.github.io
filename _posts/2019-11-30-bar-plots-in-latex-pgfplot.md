@@ -5,8 +5,8 @@ excerpt:  "In this tutorial, we'll learn how to create beautiful bar charts usin
 seo_title:  "How to Create Bar Charts using Latex PGFPlots"
 seo_description:  "Learn how to create stunning bar charts in Latex using the PGFPlots package. This tutorial covers the basics of bar chart creation, along with customization options such as colors, legends, axis labels, and more."
 header:
-  image: "https://live.staticflickr.com/65535/49149608331_427d999f03_h.jpg"
-  teaser: "https://live.staticflickr.com/65535/49149608331_427d999f03_h.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Latex
 tags:

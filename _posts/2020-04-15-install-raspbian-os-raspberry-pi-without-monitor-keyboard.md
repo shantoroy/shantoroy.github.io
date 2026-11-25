@@ -5,8 +5,8 @@ excerpt:  "In this tutorial, I'll show you how to install Raspbian OS in Raspber
 seo_title:  "Install Raspbian OS in Raspberry Pi without Keyboard and Monitor"
 seo_description:  "Learn how to install Raspbian OS in Raspberry Pi without using a keyboard and monitor. This headless installation method is perfect for those who don't have access to a keyboard and monitor, or want to avoid the hassle of using them. Follow this step-by-step guide to install Raspbian OS on your Raspberry Pi using your laptop or desktop computer."
 header:
-  image: "https://live.staticflickr.com/65535/49799517663_f7285ba01d_h.jpg"
-  teaser: "https://live.staticflickr.com/65535/49799517663_f7285ba01d_h.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Raspberry Pi
 tags:

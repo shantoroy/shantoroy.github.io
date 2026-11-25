@@ -5,8 +5,8 @@ excerpt: "A well-structured Dockerfile enhances portability, security, and perfo
 seo_title: "Intermediate Dockerfile Writing: Best Practices & Enhancements"
 seo_description: "Learn intermediate-level Dockerfile techniques, including installing system dependencies, setting up environment variables, using non-root users, and optimizing Python dependency installation for better performance."
 header:
-  image: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
-  teaser: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - SRE
 tags:

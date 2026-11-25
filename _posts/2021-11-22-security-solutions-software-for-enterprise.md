@@ -5,8 +5,8 @@ excerpt:  "Are you wondering how to protect your enterprise from potential cyber
 seo_title:  "A Brief Overview of Security Solutions for Enterprise: SIEM, EDR, SOAR"
 seo_description:  "Protecting your enterprise from cyber threats is critical. Learn about the top security solutions for enterprises including SIEM, EDR, and SOAR to keep your business safe."
 header:
-  image: "https://live.staticflickr.com/65535/51711452189_ba18a4a5c2_o.png"
-  teaser: "https://live.staticflickr.com/65535/51711452189_ba18a4a5c2_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Security
 tags:

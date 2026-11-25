@@ -8,8 +8,8 @@ excerpt:  "Subfigures in LaTeX are a great way to add multiple images to a docum
 seo_title:  "How to Add Subfigure in Latex: Step-by-Step Tutorial with Examples"
 seo_description:  "Want to add multiple images in your LaTeX document without causing any formatting issues? Learn how to add subfigure in Latex using the subcaption package. Our step-by-step tutorial with examples will guide you through the process."
 header: 
-  image: "https://farm5.staticflickr.com/4618/39005424665_7933a838e6_b.jpg"
-  teaser: "https://farm5.staticflickr.com/4618/39005424665_7933a838e6_b.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories: 
   - Latex
 tags:

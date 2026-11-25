@@ -5,8 +5,8 @@ excerpt:  "If you're writing a document that requires code snippets, you'll need
 seo_title:  "How to Add Code Snippets to LaTeX using the `listings` Package"
 seo_description:  Learn how to easily format and add code snippets to your LaTeX document using the `listings` package. Follow our step-by-step guide to use the package and make your code look professional and polished.
 header:
-  image: "https://live.staticflickr.com/65535/51214156890_330427f781_c.jpg"
-  teaser: "https://live.staticflickr.com/65535/51214156890_330427f781_c.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Latex
 tags:

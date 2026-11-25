@@ -5,8 +5,8 @@ excerpt: "In Site Reliability Engineering (SRE), metrics play a vital role in me
 seo_title: "#100daysofSRE (Day 03): Understanding the Metrics of Reliability: SLAs, SLOs, and SLIs"
 seo_description: "In the world of SRE, understanding the metrics of reliability is crucial. This blog post explores the key metrics of Service Level Agreements (SLAs), Service Level Objectives (SLOs), and Service Level Indicators (SLIs) and their significance in ensuring system reliability."
 header:
-  image: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
-  teaser: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - SRE
 tags:

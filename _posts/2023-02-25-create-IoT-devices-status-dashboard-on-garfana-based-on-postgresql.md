@@ -5,8 +5,8 @@ excerpt: "Learn how to create a dashboard on Grafana that displays the status of
 seo_title: "How to Create a Grafana Dashboard to Monitor IoT Device Status"
 seo_description: "In this blog post, we will learn how to create a dashboard on Grafana that displays the status of a set of IoT devices. Let's learn how to monitor our devices in real-time and gain insights into their performance with this easy-to-follow guide."
 header:
-  image: "https://live.staticflickr.com/65535/52710961314_e1d5ea744a_o.png"
-  teaser: "https://live.staticflickr.com/65535/52710961314_e1d5ea744a_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Monitoring
 tags:

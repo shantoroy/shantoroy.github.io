@@ -5,8 +5,8 @@ excerpt:  "Learn how to write algorithms in Latex using the algorithmicx package
 seo_title:  "How to Write Algorithm in Latex: A Comprehensive Guide"
 seo_description:  "Want to write algorithms in Latex? Discover the algorithmicx package, a powerful tool for creating professional-looking algorithms for research papers, theses, or technical reports. In this guide, learn how to write algorithms in Latex with customizable formatting options."
 header:
-  image: "https://farm5.staticflickr.com/4662/40356609652_d977cf85a9_b.jpg"
-  teaser: "https://farm5.staticflickr.com/4662/40356609652_d977cf85a9_b.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Latex
 tags:

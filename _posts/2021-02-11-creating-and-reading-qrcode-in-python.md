@@ -5,8 +5,8 @@ excerpt:  "QR codes are becoming increasingly popular in many applications, from
 seo_title:  "Creating and Reading QR Code in Python: A Simple Python Class using `qrcode` and `opencv` module"
 seo_description:  "Learn how to create and read QR codes in Python using a simple Python class that leverages the `qrcode` and `opencv` modules. This post will show you how to generate QR codes from text or URLs, and decode them with your computer's camera."
 header:
-  image: "https://live.staticflickr.com/65535/51686080612_afb4e84885_o.png"
-  teaser: "https://live.staticflickr.com/65535/51686080612_afb4e84885_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Python
 tags:

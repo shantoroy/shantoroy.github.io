@@ -5,8 +5,8 @@ excerpt:  "In this tutorial, you'll learn how to convert PCAP files to CSV forma
 seo_title:  "Convert PCAP Files to CSV for Network Traffic Analysis in Python"
 seo_description:  "Learn how to use Python to convert PCAP files to CSV for easy network traffic analysis. Use the command line interface to parse PCAP files and create CSV files that can be analyzed in Excel or pandas."
 header:
-  image: "https://live.staticflickr.com/65535/51206509290_743874dcd9_c.jpg"
-  teaser: "https://live.staticflickr.com/65535/51206509290_743874dcd9_c.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Networking
 tags:

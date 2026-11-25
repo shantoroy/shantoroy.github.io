@@ -5,8 +5,8 @@ excerpt: "In Day 6 of #100daysofSRE, we'll dive into the critical role of incide
 seo_title: "#100daysofSRE (Day 06): Incident Management and Response for Site Reliability Engineers"
 seo_description: "Learn about the critical role of incident management and response in Site Reliability Engineering (SRE) in Day 6 of #100daysofSRE. Discover the best practices for detecting, responding, and mitigating incidents that can impact the reliability and availability of your systems. Get expert insights on creating an incident management plan and conducting post-incident reviews to ensure the resilience of your infrastructure. For your convenience, I added tools to use for this purpose as well."
 header:
-  image: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
-  teaser: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - SRE
 tags:

@@ -5,8 +5,8 @@ excerpt:  "In academic writing, a literature survey is an essential component fo
 seo_title:  "How to Draw a Literature Survey Taxonomy Tree in LaTeX - A Step-by-Step Guide"
 seo_description:  "Learn how to draw a literature survey taxonomy tree in LaTeX, a powerful tool for typesetting scientific documents. This step-by-step guide will show you how to visually represent the relationships between entities in your field using a taxonomy tree."
 header:
-  image: "https://live.staticflickr.com/65535/52103583338_6325627e1f_o.png"
-  teaser: "https://live.staticflickr.com/65535/52103583338_6325627e1f_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Latex
 tags:

@@ -5,8 +5,8 @@ excerpt:  "If you're looking to create high-quality videos, having the right equ
 seo_title:  "My Video Capture Setup: Devices I Use to Record High-Quality Videos"
 seo_description:  "In this blog post, I discuss the devices I use to capture my videos, including my cameras, microphone, and other accessories. Learn about my setup and tips for recording high-quality videos."
 header:
-  image: "https://live.staticflickr.com/65535/52479269958_d7ee1f7afa_o.png"
-  teaser: "https://live.staticflickr.com/65535/52479269958_d7ee1f7afa_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Vlogging
 tags:

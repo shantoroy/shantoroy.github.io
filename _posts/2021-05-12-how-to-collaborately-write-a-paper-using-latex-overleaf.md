@@ -5,8 +5,8 @@ excerpt:  "Collaborating with others on a writing project can be a challenge, es
 seo_title:  "How to Collaboratively Write a Paper using Overleaf Latex Platform"
 seo_description:  "Learn how to collaborate on a writing project using Overleaf, a collaborative LaTeX editor that allows for real-time collaboration, track changes, and version control. Invite collaborators, make changes, and manage versions with ease."
 header:
-  image: "https://live.staticflickr.com/65535/51678387310_9e01a03f7e_o.png"
-  teaser: "https://live.staticflickr.com/65535/51678387310_9e01a03f7e_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Latex
 tags:

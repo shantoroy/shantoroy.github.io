@@ -5,8 +5,8 @@ excerpt:  "In this second part of our, Write a Reverse Proxy Server in Python, t
 seo_title:  "Write a Reverse Proxy Server in Python: Part 2 (Server Pool)"
 seo_description:  "Learn how to create a server pool for your reverse proxy server in Python using the Flask web framework. Distribute your workload across multiple servers to improve performance and capacity. Part 2 of our, Write a Reverse Proxy Server in Python, tutorial series."
 header:
-  image: "https://live.staticflickr.com/65535/51223565529_111260e908_w.jpg"
-  teaser: "https://live.staticflickr.com/65535/51223565529_111260e908_w.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - network
 tags:

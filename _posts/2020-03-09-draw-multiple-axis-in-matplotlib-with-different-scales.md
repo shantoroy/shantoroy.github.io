@@ -5,8 +5,8 @@ excerpt:  "Matplotlib is a powerful data visualization library in Python. It all
 seo_title:  "Drawing Multiple Axis in Matplotlib with Different Scales | Python Data Visualization"
 seo_description:  "Learn how to draw multiple axis charts with different scales using Matplotlib, a powerful data visualization library in Python. Follow my step-by-step tutorial to create impressive visualizations that clearly convey your data."
 header:
-  image: "https://live.staticflickr.com/65535/52094166609_1f861b6c70_o.png"
-  teaser: "https://live.staticflickr.com/65535/52094166609_1f861b6c70_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Python
 tags:

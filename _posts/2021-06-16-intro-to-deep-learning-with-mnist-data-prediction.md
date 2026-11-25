@@ -5,8 +5,8 @@ excerpt:  "In this post, we will introduce you to deep learning in Python using 
 seo_title:  "Introduction to Deep Learning in Python (Keras and Tensorflow) with MNIST Dataset"
 seo_description:  "Learn the basics of deep learning in Python using Keras and Tensorflow with the MNIST dataset. Build and train a neural network, apply convolutional neural networks and backpropagation, and evaluate performance. Get started with deep learning and apply it to real-world problems."
 header:
-  image: "https://live.staticflickr.com/65535/51255187292_17ae375815_b.jpg"
-  teaser: "https://live.staticflickr.com/65535/51255187292_17ae375815_b.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - machine-learning
 tags:

@@ -5,8 +5,8 @@ excerpt:  "In this post, I will take you through the first part of our journey e
 seo_title:  "Road Trip to Big Bend National Park from Houston: Part 01 - Santa Elena Canyon Hike with best Canyon Views"
 seo_description:  "Discover the beauty of Santa Elena Canyon in Big Bend National Park. Read on for stunning photos, full hike videos using my GoPro Hero 8, and insider travel tips!"
 header:
-  image: "https://live.staticflickr.com/65535/52512526139_8064d16bd9_o.png"
-  teaser: "https://live.staticflickr.com/65535/52512526139_8064d16bd9_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Travel
 tags:

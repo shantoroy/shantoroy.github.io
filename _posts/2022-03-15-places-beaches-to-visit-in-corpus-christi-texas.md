@@ -5,8 +5,8 @@ excerpt:  "Discover the beautiful sea beaches of Corpus Christi, Texas! From the
 seo_title:  "Explore the Best Beaches in Corpus Christi, Texas - Whitecap, Mustang Island, and North Beach"
 seo_description:  "Plan a perfect beach getaway in Corpus Christi, Texas! This guide highlights the top three beaches in the area: Whitecap Beach, Mustang Island, and North Beach. Discover what to do on your next visit to these stunning beaches."
 header:
-  image: "https://live.staticflickr.com/65535/52007398833_f78a52ec57_o.png"
-  teaser: "https://live.staticflickr.com/65535/52007398833_f78a52ec57_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Travel
 tags:

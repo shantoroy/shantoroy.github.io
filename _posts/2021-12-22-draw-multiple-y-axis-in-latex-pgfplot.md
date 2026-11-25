@@ -5,8 +5,8 @@ excerpt:  "Want to plot multiple y-axes on a single LaTeX PGFPlots plot? Check o
 seo_title:  "Drawing Multiple Y-Axes in Latex PGFPlots: A Step-by-Step Guide"
 seo_description:  "Learn how to draw multiple y-axes in LaTeX PGFPlots with this comprehensive tutorial. Follow my easy-to-understand instructions and create stunning, multi-dimensional plots for your research papers and presentations. Perfect for scientists, students, and anyone looking to enhance their LaTeX skills."
 header:
-  image: "https://live.staticflickr.com/65535/52102245910_94d1a1a625_o.png"
-  teaser: "https://live.staticflickr.com/65535/52102245910_94d1a1a625_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Latex
 tags:

@@ -5,8 +5,8 @@ excerpt:  "Looking for a cheat sheet to improve your Jekyll-based blog using the
 seo_title:  "Minimal Mistakes Cheat Sheet: Code Snippets I use to Blog using Jekyll and the Minimal Mistakes Theme"
 seo_description:  "Looking to enhance your Jekyll-based blog using the Minimal Mistakes theme? Check out this cheat sheet, which features code snippets for adding posts from social medias, text formatting, adding syntax highlighting to code snippets, and more!"
 header:
-  image: "https://live.staticflickr.com/65535/52099493299_0bbdfc4b68_o.png"
-  teaser: "https://live.staticflickr.com/65535/52099493299_0bbdfc4b68_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Jekyll
 tags:

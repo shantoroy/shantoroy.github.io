@@ -5,8 +5,8 @@ excerpt:  "Are you searching for a stunning and free Bootstrap template to showc
 seo_title:  "Top 5 Free Bootstrap Templates for Personal Portfolio or Website"
 seo_description:  "Looking for a free and responsive Bootstrap template to showcase your personal portfolio or website? Check out my top 5 picks of the best Bootstrap templates that are customizable and easy to use!"
 header:
-  image: "https://live.staticflickr.com/65535/52098485927_c14ca376b4_o.png"
-  teaser: "https://live.staticflickr.com/65535/52098485927_c14ca376b4_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Template
 tags:

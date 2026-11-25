@@ -5,8 +5,8 @@ excerpt:  "If you're writing a research survey paper, a well-organized and prope
 seo_title:  "Latex Table for Literature Survey in Research Survey Papers"
 seo_description:  "Learn how to create a literature survey table in LaTeX for your research survey paper. I'll cover the table structure, data population, and how to add captions and labels for an organized and easy-to-read format. This post provides a nice template for your next survey work."
 header:
-  image: "https://live.staticflickr.com/65535/49301962946_8eef420816_h.jpg"
-  teaser: "https://live.staticflickr.com/65535/49301962946_8eef420816_h.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Latex
 tags:

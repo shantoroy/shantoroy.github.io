@@ -5,8 +5,8 @@ excerpt:  "In this tutorial, you will learn how to write a reverse proxy server 
 seo_title:  "Write a Reverse Proxy Server in Python: Part 1 (Reverse Proxy Server)"
 seo_description:  "Learn how to build a reverse proxy server in Python. In this tutorial, I will cover the basics of a reverse proxy and write a reverse proxy server that listens on a specified port and forwards incoming requests to one of the backend servers. Follow this step-by-step guide to create your own reverse proxy server in Python."
 header:
-  image: "https://live.staticflickr.com/65535/51222794636_14a21deed5_w.jpg"
-  teaser: "https://live.staticflickr.com/65535/51222794636_14a21deed5_w.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - network
 tags:

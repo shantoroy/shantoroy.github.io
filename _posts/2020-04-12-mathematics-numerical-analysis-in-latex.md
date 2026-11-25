@@ -5,8 +5,8 @@ excerpt:  "If you're writing mathematical documents, Latex is a great tool for c
 seo_title:  "Mathematics Documentation in Latex: A Guide to Using Math Environments and Symbols"
 seo_description:  "Learn how to properly use math environments and symbols in Latex for creating professional-looking mathematical documents. This guide covers the basics of Latex syntax for math, including how to use math environments, symbols, and more."
 header:
-  image: "https://live.staticflickr.com/65535/49814118206_a5cf091236_b.jpg"
-  teaser: "https://live.staticflickr.com/65535/49814118206_a5cf091236_b.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Latex
 tags:

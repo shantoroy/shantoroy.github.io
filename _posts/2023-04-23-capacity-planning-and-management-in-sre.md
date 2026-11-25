@@ -5,8 +5,8 @@ excerpt: "In this post, I'll dive into capacity planning and management in SRE, 
 seo_title: "#100daysofSRE (Day 13): Capacity Planning and Management in Site Reliability Engineering"
 seo_description: "Learn about capacity planning and management in SRE, including its importance, techniques, tools, and best practices. Discover tips to overcome capacity planning challenges and optimize your systems for reliability and scalability."
 header:
-  image: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
-  teaser: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - SRE
 tags:

@@ -2,8 +2,8 @@
 layout: single
 title: "The Impact of Integrating Language Models to Search Engines on the Advertising Business"
 header:
-  image: "https://live.staticflickr.com/65535/52688338668_e94929cef2_o.png"
-  teaser: "https://live.staticflickr.com/65535/52688338668_e94929cef2_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - AI
 tags:

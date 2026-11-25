@@ -5,8 +5,8 @@ excerpt: "OpenFlow is a popular networking protocol that allows for the centrali
 seo_title: "OpenFlow Switch Tutorial: A Basic Guide to Bridge Configuration"
 seo_description: "In this tutorial, we'll explore the basics of OpenFlow switches and provide a step-by-step guide to configuring a bridge using OpenFlow. From setting up the controller to configuring flow rules, you'll learn how to use OpenFlow to control network traffic and create a flexible and efficient network architecture."
 header:
-  image: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
-  teaser: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Openflow
 tags:

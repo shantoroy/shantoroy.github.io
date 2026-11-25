@@ -5,8 +5,8 @@ excerpt:  "Bar charts are one of the most commonly used visualizations in data s
 seo_title:  "How to Create Bar Charts using Python Matplotlib: A Step-by-Step Guide"
 seo_description:  "Learn how to create bar charts in Python using Matplotlib. This step-by-step guide will show you how to create bar charts from scratch, customize their appearance, and communicate your data effectively."
 header:
-  image: "https://live.staticflickr.com/65535/49138218397_179201690d_h.jpg"
-  teaser: "https://live.staticflickr.com/65535/49138218397_179201690d_h.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Python
 tags:

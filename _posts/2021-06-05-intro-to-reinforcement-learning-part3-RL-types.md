@@ -5,8 +5,8 @@ excerpt:  "Reinforcement Learning is an exciting and powerful technique used in 
 seo_title:  "Introduction to Reinforcement Learning (Part 03: Q-Learning in Python)"
 seo_description:  "Learn about Q-Learning, one of the most popular algorithms used in Reinforcement Learning, in this tutorial. We will explore how to implement the Q-Learning algorithm in Python and apply it to solve various problems."
 header:
-  image: "https://live.staticflickr.com/65535/52718364503_44032e3ab3_o.png"
-  teaser: "https://live.staticflickr.com/65535/52718364503_44032e3ab3_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - reinforcement-learning
 tags:

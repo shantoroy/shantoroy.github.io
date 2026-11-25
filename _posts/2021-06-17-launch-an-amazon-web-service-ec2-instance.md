@@ -5,8 +5,8 @@ excerpt:  "In this blog post, we will guide you on how to launch an Amazon Web S
 seo_title:  "Amazon Web Service: Launch an AWS EC2 Instance"
 seo_description:  "Learn how to launch an Amazon Web Service (AWS) Elastic Compute Cloud (EC2) instance with our step-by-step guide. AWS EC2 is a flexible cloud computing service that lets you scale your compute capacity up or down as your needs change. Get started today and only pay for what you use."
 header:
-  image: "https://live.staticflickr.com/65535/51256840514_4e8b205c6d_b.jpg"
-  teaser: "https://live.staticflickr.com/65535/51256840514_4e8b205c6d_b.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - cloud
 tags:

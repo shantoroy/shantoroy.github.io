@@ -5,8 +5,8 @@ excerpt:  "Password cracking is an essential skill for ethical hackers and secur
 seo_title:  "Password Cracking through Dictionary Attack in Python"
 seo_description:  "Learn how to perform a dictionary attack on password-protected files using Python. This blog post will teach you the essential skills for ethical hackers and security researchers to crack a password through a dictionary attack."
 header:
-  image: "https://live.staticflickr.com/65535/51209883741_aa1454127a_c.jpg"
-  teaser: "https://live.staticflickr.com/65535/51209883741_aa1454127a_c.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Security
 tags:

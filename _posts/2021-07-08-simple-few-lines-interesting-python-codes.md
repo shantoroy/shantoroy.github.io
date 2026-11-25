@@ -5,8 +5,8 @@ excerpt:  "If you're looking for some interesting and useful Python code snippet
 seo_title:  "Simple and Short Interesting Python Code Snippets for your Projects" 
 seo_description:  "Looking for some useful Python code snippets for your projects? Check out this blog post for a list of simple and short Python code snippets that you can use to make your projects more efficient and effective."
 header:
-  image: "https://live.staticflickr.com/65535/51716722206_4eba6e6d3b_o.png"
-  teaser: "https://live.staticflickr.com/65535/51716722206_4eba6e6d3b_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Python
 tags:

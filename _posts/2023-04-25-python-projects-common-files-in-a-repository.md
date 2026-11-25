@@ -5,8 +5,8 @@ excerpt: "When you start a new Python project, you'll quickly realize that it in
 seo_title: "Common Files Typically Included in Python Projects: A Comprehensive Guide"
 seo_description: "Python projects often include a variety of files that are critical to their functioning. In this blog post, we explore the most common files you'll encounter in Python projects, such as requirements.txt, setup.py, config.py, LICENSE, dockerfile, etc. and their significance."
 header:
-  image: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
-  teaser: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Python
 tags:

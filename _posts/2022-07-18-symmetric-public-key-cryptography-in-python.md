@@ -5,8 +5,8 @@ excerpt:  "Learn about the difference between symmetric and asymmetric key crypt
 seo_title:  "Symmetric and Asymmetric Key Cryptography in Python | Tutorial"
 seo_description:  "Explore the concept of symmetric and asymmetric key cryptography in Python with this short comprehensive tutorial. Learn about some popular cryptographic algorithms and how they can be used to secure your sensitive data in python. This will give you idea on how to integrate cryptographic algos on your python applications!"
 header:
-  image: "https://live.staticflickr.com/65535/52703382288_65d2aced51_o.png"
-  teaser: "https://live.staticflickr.com/65535/52703382288_65d2aced51_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Security
 tags:

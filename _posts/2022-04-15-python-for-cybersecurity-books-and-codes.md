@@ -5,8 +5,8 @@ excerpt:  "Looking for a comprehensive collection of Cyber Security resources in
 seo_title:  "Cyber Security (in Python) Books, Codes, and Resource Collection on GitHub"
 seo_description:  "Explore a comprehensive collection of Cyber Security resources in Python, including books, codes, and more, all available on GitHub. Whether you're looking to learn the basics or dive deep into advanced topics, this collection has everything you need to enhance your Cyber Security skills."
 header:
-  image: "https://live.staticflickr.com/65535/51878456659_e06c494b01_o.png"
-  teaser: "https://live.staticflickr.com/65535/51878456659_e06c494b01_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Security
 tags:

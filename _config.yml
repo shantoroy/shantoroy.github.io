@@ -93,12 +93,9 @@ author:
   bio              : "I Explore Research, Tech, Travel, and Business. SRE @Charles Schwab."
   location         : "TX, USA"
   links:
-    - label: "Google Site"
-      icon: "fas fa-fw fa-link"
-      url: "http://shantoroy.me"
     - label: "Travel Blog"
       icon: "fas fa-fw fa-link"
-      url: "https://digitalnomadgoals.com/"
+      url: "https://digitalnomadgoals.xyz/"
     - label: "Linktree"
       icon: "fas fa-fw fa-link"
       URL: "https://linktr.ee/shantoroy"

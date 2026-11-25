@@ -5,8 +5,8 @@ excerpt: "Managing and automating scripts on Linux systems is crucial for ensuri
 seo_title: "How to use Supervisor to manage a script on Linux"
 seo_description: "Learn how to utilize Supervisor, a robust process control system on Linux, to effectively manage and automate scripts for enhanced system stability. This post covers the installation, configuration, and practical usage of Supervisor so that you can seamlessly maintain your scripts' execution for optimized performance."
 header:
-  image: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
-  teaser: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - SRE
 tags:

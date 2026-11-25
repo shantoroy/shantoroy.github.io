@@ -5,8 +5,8 @@ excerpt:  "Learn how to easily convert your Python Matplotlib plots to LaTeX for
 seo_title:  "Convert Python Matplotlib Plots to LaTeX Format - Easy Tutorial using tikzplotlib module for academic writing"
 seo_description:  "Easily convert Python Matplotlib plots to LaTeX format with just a few lines of code. Create publication-quality plots for your research papers in conferences and journals with minimal effort. Follow our tutorial for step-by-step instructions. It is just a few lines of codes. Here we use the module tikzplotlib to do the job."
 header:
-  image: "https://live.staticflickr.com/65535/52104303039_044542e267_o.png"
-  teaser: "https://live.staticflickr.com/65535/52104303039_044542e267_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Latex
 tags:

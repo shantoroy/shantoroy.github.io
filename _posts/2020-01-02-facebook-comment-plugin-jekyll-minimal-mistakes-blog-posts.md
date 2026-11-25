@@ -5,8 +5,8 @@ excerpt:  "Are you looking to integrate Facebook comments on your Jekyll blog? T
 seo_title:  "How to Enable Facebook Comments Plugin in Jekyll Blog Posts"
 seo_description:  "Learn how to easily integrate the Facebook commenting system into your Jekyll blog and allow your readers to share their thoughts and feedback on your blog posts. Follow these steps to enable Facebook comments plugin in Jekyll."
 header:
-  image: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
-  teaser: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Jekyll
 tags:

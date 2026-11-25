@@ -5,8 +5,8 @@ excerpt:  "In this second part of our Reinforcement Learning series, we will int
 seo_title:  "Introduction to Reinforcement Learning (Part 02: Glossaries) - A Beginner's Guide"
 seo_description:  "This post will introduce you to some of the fundamental glossaries and concepts of Reinforcement Learning. With the help of these terms, you will have a better understanding of RL and be able to comprehend the concepts discussed in the upcoming posts better. If you're a beginner looking to learn RL, this post is an excellent starting point for you."
 header:
-  image: "https://live.staticflickr.com/65535/52718364503_44032e3ab3_o.png"
-  teaser: "https://live.staticflickr.com/65535/52718364503_44032e3ab3_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - reinforcement-learning
 tags:

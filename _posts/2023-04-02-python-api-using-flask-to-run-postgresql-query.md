@@ -5,8 +5,8 @@ excerpt: "Learn how to build a RESTful API in Python using Flask and PostgreSQL.
 seo_title: "How to Write a Python API using Flask and PostgreSQL"
 seo_description: "Learn how to build a RESTful API in Python using Flask and PostgreSQL. In this tutorial, you'll learn how to connect Flask to a PostgreSQL database and create API endpoints to fetch data."
 header:
-  image: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
-  teaser: "https://live.staticflickr.com/65535/52766618900_226fb0f322_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Python
 tags:

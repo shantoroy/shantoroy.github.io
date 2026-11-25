@@ -5,8 +5,8 @@ excerpt:  "As an author or scientific content writer, you need tools that can he
 seo_title:  "Best Cloud-Based Tools for Authors or Scientific Content Writers"
 seo_description:  "Discover the best cloud-based tools for authors and scientific content writers, including their features and benefits, in this comprehensive guide. Improve your writing workflow and streamline your content creation process today."
 header: 
-  image: "https://farm1.staticflickr.com/954/41751189022_78a89cfd6f_b.jpg"
-  teaser: "https://farm1.staticflickr.com/954/41751189022_78a89cfd6f_b.jpg"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories: 
   - Article
 tags:

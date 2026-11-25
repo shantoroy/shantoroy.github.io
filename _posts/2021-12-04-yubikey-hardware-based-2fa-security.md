@@ -5,8 +5,8 @@ excerpt:  "YubiKey is a small, portable hardware-based security key that adds an
 seo_title:  "YubiKey: Enhance Your Online Security with This Hardware-based Two-factor Authentication Tool"
 seo_description:  "Learn about YubiKey, a hardware-based security key that adds an extra layer of protection to your online accounts. This post explains what YubiKey is, how it works, and why it is beneficial. It also highlights the key features of YubiKey and its compatibility with various online services."
 header:
-  image: "https://live.staticflickr.com/65535/51725279518_fa654f4994_o.png"
-  teaser: "https://live.staticflickr.com/65535/51725279518_fa654f4994_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - Security
 tags:

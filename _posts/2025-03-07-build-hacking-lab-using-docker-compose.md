@@ -5,8 +5,8 @@ excerpt: "Want to practice ethical hacking, penetration testing, or security res
 seo_title: "Docker Compose Hacking Lab: Kali Linux & Vulnerable Machines"
 seo_description: "Learn how to use Docker Compose to create a hacking lab with Kali Linux and vulnerable applications for security research and ethical hacking practice."
 header:
-  image: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
-  teaser: "https://live.staticflickr.com/65535/53398371763_5fc8772ed9_o.png"
+  image: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
+  teaser: "https://live.staticflickr.com/65535/55672381423_3128d9aaf7_b.jpg"
 categories:
   - SRE
 tags:
