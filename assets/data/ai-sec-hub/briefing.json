@@ -1,18 +1,18 @@
 {
- "date": "2026-11-25",
+ "date": "2026-11-26",
  "aisec": [
-  "Research shows agents face prompt injection via exposed conversation history, poisoned skill supply chains, multi-step attacks, and resource-exhaustion abuse; new defenses include system-call mediation and bounded autonomy.",
-  "UK's cyber agency says AI-driven attacks mostly succeed by exploiting long-neglected basic weaknesses, while Unit 42 documents autonomous AI agents automating intrusions across multiple platforms.",
-  "CrowdStrike's proposed $44 billion Zscaler purchase aims at stronger control of AI agents, as red-teaming research questions benchmark reliability and attacker diversity."
+  "Unit 42 documents campaigns where autonomous AI agents automated intrusions using ordinary tools yet left distinctive traces; the UK cyber agency says AI-driven attacks mostly exploit long-neglected basic weaknesses.",
+  "Research shows many LLM attack surfaces: quantization-conditioned backdoors, single-bit flips, jailbreak suffix sampling, criteria hijacking in recommenders, numeric leakage across linked prompts, and fingerprinting the LLM behind agents.",
+  "Defensive work includes attestation-based zero-trust for HPC agents, red-teaming a sovereign LLM's prompt confidentiality, testing whether LLMs will run advance-fee scams, and deepfakes of executives like Jensen Huang spreading widely."
  ],
  "ai": [
-  "Jensen Huang's return to Nvidia after resigning amid reported misconduct dominates coverage, raising governance questions at a central AI hardware supplier.",
-  "OpenAI and Cisco announced Shirudo, an open-source Linux runtime protecting live systems during patch rollout; OpenAI customer stories highlight enterprise agent adoption in legal and support.",
-  "Z.ai released GLM 5.4 with a looped transformer, DeepMind paired agents with formal verification for quantum algorithms, and NVIDIA released cuDSS 1.0 and GPU-accelerated DuckDB tooling."
+  "Nvidia's Jensen Huang dominates coverage: he reportedly apologized in an all-hands, thanked the White House, denied political pressure got him rehired, and still opposes formal succession planning.",
+  "Platforms and publishers push back on synthetic content: Tidal will ban AI-generated music from December 9th, The New York Times warns photographers about Photoshop AI features, and viewers suspect AI in a Fincher film.",
+  "Agents move into commerce while limits show: Meta's Muse arrives in Instagram DMs and Walmart Black Friday deals, yet a benchmark finds top agents struggle with everyday tasks; Anthropic shares fall below IPO price."
  ],
  "cyber": [
-  "Iran-aligned Volant Manticore uses the IPFS-based KuboShell backdoor against Cyprus telecoms, airlines and infrastructure, while Broadcom patched 23 VMware flaws including a 9.8-rated vCenter authentication bypass.",
-  "Industrial serial gateways expose whether authentication protects them, and Project Zero revisited VirtualBox's Windows process hardening, highlighting exposure in OT and virtualization software.",
-  "Kirsten Davies became Acting National Cyber Director, a researcher unmasked a decade of ransomware aliases, and Schneier argued recent outages reflect underinvestment in infrastructure."
+  "Breaches pile up: Rackspace is closing its Spot platform, Radware exposed customer cloud keys, Turnitin and the European Commission's EU Academy reported intrusions, an unclassified CIA system was breached, and Colorado's myColorado app lost about 150,000 user",
+  "Extortion and espionage activity: the new Inception vishing group is linked to ShinyHunters-associated actors, ShinyHunters claims a return, Iran-aligned Volant Manticore uses an IPFS-based backdoor, and Webworm customizes SoftEther VPN.",
+  "VMware patched critical ESX and vCenter flaws including a 9.8-rated authentication bypass; researchers flagged border-control visa system flaws and weak satellite ground infrastructure, while lawmakers press ID verification firms to improve security."
  ]
 }
