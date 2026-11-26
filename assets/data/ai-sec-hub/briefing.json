@@ -1,18 +1,18 @@
 {
  "date": "2026-11-26",
  "aisec": [
-  "Unit 42 documents campaigns where autonomous AI agents automated intrusions using ordinary tools yet left distinctive traces; the UK cyber agency says AI-driven attacks mostly exploit long-neglected basic weaknesses.",
-  "Research shows many LLM attack surfaces: quantization-conditioned backdoors, single-bit flips, jailbreak suffix sampling, criteria hijacking in recommenders, numeric leakage across linked prompts, and fingerprinting the LLM behind agents.",
-  "Defensive work includes attestation-based zero-trust for HPC agents, red-teaming a sovereign LLM's prompt confidentiality, testing whether LLMs will run advance-fee scams, and deepfakes of executives like Jensen Huang spreading widely."
+  "Unit 42 documents campaigns where autonomous AI agents automated intrusions using ordinary tools but left distinctive traces; the UK cyber agency says AI hacking mostly exploits long-neglected basic weaknesses.",
+  "New research targets LLM weaknesses: jailbreak suffix sampling, quantization-conditioned backdoors, single-bit flips, backend-model fingerprinting of agents, numeric leakage across linked prompts, and recommender criteria hijacking.",
+  "Defensive work includes attestation-based zero-trust for HPC agents, red-teaming open sovereign LLMs for prompt confidentiality, and testing whether LLMs will assist advance-fee scams; Jensen Huang deepfakes show impersonation risks."
  ],
  "ai": [
-  "Nvidia's Jensen Huang dominates coverage: he reportedly apologized in an all-hands, thanked the White House, denied political pressure got him rehired, and still opposes formal succession planning.",
-  "Platforms and publishers push back on synthetic content: Tidal will ban AI-generated music from December 9th, The New York Times warns photographers about Photoshop AI features, and viewers suspect AI in a Fincher film.",
-  "Agents move into commerce while limits show: Meta's Muse arrives in Instagram DMs and Walmart Black Friday deals, yet a benchmark finds top agents struggle with everyday tasks; Anthropic shares fall below IPO price."
+  "Nvidia leadership dominates headlines: Jensen Huang apologized in an all-hands, thanked the White House, denied political pressure got him rehired, and still rejects formal succession planning.",
+  "Platforms and publishers push back on generative AI: Tidal will ban AI-generated music from December 9th, the New York Times warns photographers off Photoshop's AI features, and Fincher faces AI-use suspicions.",
+  "Agents move into commerce while benchmarks show limits; OpenAI reports GPT-6 protein-design results, and Anthropic shares falling below IPO price hint at valuation pressure on AI startups."
  ],
  "cyber": [
-  "Breaches pile up: Rackspace is closing its Spot platform, Radware exposed customer cloud keys, Turnitin and the European Commission's EU Academy reported intrusions, an unclassified CIA system was breached, and Colorado's myColorado app lost about 150,000 user",
-  "Extortion and espionage activity: the new Inception vishing group is linked to ShinyHunters-associated actors, ShinyHunters claims a return, Iran-aligned Volant Manticore uses an IPFS-based backdoor, and Webworm customizes SoftEther VPN.",
-  "VMware patched critical ESX and vCenter flaws including a 9.8-rated authentication bypass; researchers flagged border-control visa system flaws and weak satellite ground infrastructure, while lawmakers press ID verification firms to improve security."
+  "Extortion and vishing persist: Inception launched a large SSO-credential vishing campaign tied to ShinyHunters, which claims a return after FBI arrests.",
+  "Cloud and vendor breaches hit Rackspace Spot, Radware (exposed cloud access keys), and Turnitin; the European Commission confirmed EU Academy data theft, and Colorado's myColorado app exposed about 150,000 users.",
+  "Broadcom patched critical VMware ESX and vCenter flaws including a 9.8-rated auth bypass; Volant Manticore and Webworm espionage campaigns use IPFS-based backdoors and a customized SoftEther VPN."
  ]
 }
