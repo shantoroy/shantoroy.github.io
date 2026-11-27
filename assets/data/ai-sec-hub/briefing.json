@@ -1,18 +1,18 @@
 {
- "date": "2026-11-26",
+ "date": "2026-11-27",
  "aisec": [
-  "Unit 42 documents campaigns where autonomous AI agents automated intrusions using ordinary tools but left distinctive traces; the UK cyber agency says AI hacking mostly exploits long-neglected basic weaknesses.",
-  "New research targets LLM weaknesses: jailbreak suffix sampling, quantization-conditioned backdoors, single-bit flips, backend-model fingerprinting of agents, numeric leakage across linked prompts, and recommender criteria hijacking.",
-  "Defensive work includes attestation-based zero-trust for HPC agents, red-teaming open sovereign LLMs for prompt confidentiality, and testing whether LLMs will assist advance-fee scams; Jensen Huang deepfakes show impersonation risks."
+  "AI-assisted offensive tooling is hitting core security infrastructure: Check Point management servers and Palo Alto firewalls were compromised, while an Anthropic scanner-found Drupal flaw is now exploited.",
+  "Agentic attack frameworks are spreading: Microsoft says ARTEX is used by Chinese and North Korean groups, while Cisco Talos and Swiss and Italian agencies warn of autonomous AI-driven attacks.",
+  "Research targets AI system security itself, covering agent auditing, model-as-a-service assurance, LLM watermarks, Rowhammer backdoors, deception defenses, and privacy and poisoning risks."
  ],
  "ai": [
-  "Nvidia leadership dominates headlines: Jensen Huang apologized in an all-hands, thanked the White House, denied political pressure got him rehired, and still rejects formal succession planning.",
-  "Platforms and publishers push back on generative AI: Tidal will ban AI-generated music from December 9th, the New York Times warns photographers off Photoshop's AI features, and Fincher faces AI-use suspicions.",
-  "Agents move into commerce while benchmarks show limits; OpenAI reports GPT-6 protein-design results, and Anthropic shares falling below IPO price hint at valuation pressure on AI startups."
+  "AI-driven attacks dominate coverage, with insurers noting a divide between organizations with and without AI defenses, and incident trackers cataloguing real-world AI-enhanced hacking.",
+  "Agent and platform competition continues: Amazon and Meta reportedly discuss lifting Amazon's roughly two-month block on Meta's Muse shopping agent.",
+  "Infrastructure and governance pressure persists: AI data centers are harder to build, Nvidia faces scrutiny over Megaspeed chips, and a former OpenAI employee accused of bugging offices got bail."
  ],
  "cyber": [
-  "Extortion and vishing persist: Inception launched a large SSO-credential vishing campaign tied to ShinyHunters, which claims a return after FBI arrests.",
-  "Cloud and vendor breaches hit Rackspace Spot, Radware (exposed cloud access keys), and Turnitin; the European Commission confirmed EU Academy data theft, and Colorado's myColorado app exposed about 150,000 users.",
-  "Broadcom patched critical VMware ESX and vCenter flaws including a 9.8-rated auth bypass; Volant Manticore and Webworm espionage campaigns use IPFS-based backdoors and a customized SoftEther VPN."
+  "Critical flaws are under active exploitation: Drupal RCE (Fail2Install, CISA KEV listed), GeoServer chains, and a CVSS 10.0 Hex.pm bug that compromised six registry servers.",
+  "Supply-chain attacks continue through backdoored WordPress plugins, malicious NuGet packages aimed at .NET developers, and third-party components in network appliances.",
+  "Breaches and access abuse include a FinCEN intrusion, a reported CIA analysis system breach, and vishing-driven cloud account takeovers, plus Microsoft November update authentication issues."
  ]
 }
