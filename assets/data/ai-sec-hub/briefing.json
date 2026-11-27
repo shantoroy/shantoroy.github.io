@@ -1,18 +1,18 @@
 {
  "date": "2026-11-27",
  "aisec": [
-  "AI-assisted offensive tooling is hitting core security infrastructure: Check Point management servers and Palo Alto firewalls were compromised, while an Anthropic scanner-found Drupal flaw is now exploited.",
+  "AI-assisted offensive tooling is hitting core security infrastructure: Check Point management servers and Palo Alto firewalls were compromised, and an Anthropic-scanner-found Drupal flaw is now exploited.",
   "Agentic attack frameworks are spreading: Microsoft says ARTEX is used by Chinese and North Korean groups, while Cisco Talos and Swiss and Italian agencies warn of autonomous AI-driven attacks.",
-  "Research targets AI system security itself, covering agent auditing, model-as-a-service assurance, LLM watermarks, Rowhammer backdoors, deception defenses, and privacy and poisoning risks."
+  "Research covers AI system weaknesses: agent auditing, Rowhammer backdoors in DNN models, model-as-a-service assurance, LLM watermarking, telecom LLM risks and deception that raises attacker costs."
  ],
  "ai": [
-  "AI-driven attacks dominate coverage, with insurers noting a divide between organizations with and without AI defenses, and incident trackers cataloguing real-world AI-enhanced hacking.",
-  "Agent and platform competition continues: Amazon and Meta reportedly discuss lifting Amazon's roughly two-month block on Meta's Muse shopping agent.",
-  "Infrastructure and governance pressure persists: AI data centers are harder to build, Nvidia faces scrutiny over Megaspeed chips, and a former OpenAI employee accused of bugging offices got bail."
+  "Agentic AI is driving access disputes and attacks: Amazon and Meta reportedly discuss ending the Muse shopping agent block, while AI-assisted hacking incidents and swarm tradecraft draw scrutiny.",
+  "AI infrastructure and governance face pressure: neoclouds struggle with data center delays and costlier debt, and Nvidia faces questions over Megaspeed chip diversion and leadership liability.",
+  "AI is spreading into products and public systems: recording earbuds raise privacy concerns, AI-driven demand strains open records offices, and vibe coding enables synthesizer firmware modding."
  ],
  "cyber": [
-  "Critical flaws are under active exploitation: Drupal RCE (Fail2Install, CISA KEV listed), GeoServer chains, and a CVSS 10.0 Hex.pm bug that compromised six registry servers.",
-  "Supply-chain attacks continue through backdoored WordPress plugins, malicious NuGet packages aimed at .NET developers, and third-party components in network appliances.",
-  "Breaches and access abuse include a FinCEN intrusion, a reported CIA analysis system breach, and vishing-driven cloud account takeovers, plus Microsoft November update authentication issues."
+  "Critical flaws are under active exploitation: Drupal RCE (Fail2Install), GeoServer chains, and a CVSS 10.0 Hex.pm bug that compromised six package registry servers, so patch quickly.",
+  "Supply-chain and identity attacks continue: backdoored WordPress plugins, malicious NuGet packages aimed at .NET developers, appliance third-party component flaws, and Com-affiliated vishing for cloud account takeover.",
+  "Government and enterprise incidents persist: FinCEN took systems offline after an intrusion, a CIA analysis system was reportedly breached, and Microsoft's November updates caused authentication problems."
  ]
 }
