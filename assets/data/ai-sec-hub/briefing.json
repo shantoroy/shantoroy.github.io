@@ -1,18 +1,18 @@
 {
- "date": "2026-11-27",
+ "date": "2026-11-28",
  "aisec": [
-  "AI-assisted offensive tooling is hitting core security infrastructure: Check Point management servers and Palo Alto firewalls were compromised, and an Anthropic-scanner-found Drupal flaw is now exploited.",
-  "Agentic attack frameworks are spreading: Microsoft says ARTEX is used by Chinese and North Korean groups, while Cisco Talos and Swiss and Italian agencies warn of autonomous AI-driven attacks.",
-  "Research covers AI system weaknesses: agent auditing, Rowhammer backdoors in DNN models, model-as-a-service assurance, LLM watermarking, telecom LLM risks and deception that raises attacker costs."
+  "Swiss authorities confirmed AI-agent-driven intrusions succeeded in four of five confirmed attacks, including on critical infrastructure operators, showing agentic attacks are now a real-world threat.",
+  "Mitel MiCollab zero-days were exploited before Mitel's advisory in suspected AI-assisted extortion attacks, hinting that AI may be shrinking exploitation timelines.",
+  "Commentary urges current, operational security measures over presentation metrics as attackers move at AI speed; a threat roundup also flags AI server hijacking and malicious extensions."
  ],
  "ai": [
-  "Agentic AI is driving access disputes and attacks: Amazon and Meta reportedly discuss ending the Muse shopping agent block, while AI-assisted hacking incidents and swarm tradecraft draw scrutiny.",
-  "AI infrastructure and governance face pressure: neoclouds struggle with data center delays and costlier debt, and Nvidia faces questions over Megaspeed chip diversion and leadership liability.",
-  "AI is spreading into products and public systems: recording earbuds raise privacy concerns, AI-driven demand strains open records offices, and vibe coding enables synthesizer firmware modding."
+  "OpenAI fixed a bug that had wrongly discounted GPT-6.2 usage, so users now hit limits 40% faster; Nvidia also paused server shipments to four Southeast Asian countries amid export-control pressure.",
+  "Forty-two state attorneys general are trying to stop Character.AI from selling user chat histories in bankruptcy, highlighting privacy risks of AI conversation data.",
+  "Hugging Face posts cover Nemotron 3.5 Parse, a llama.cpp benchmark dashboard for AMD hardware, multi-agent systems, and video generation on Trainium3 with LTX-2.5."
  ],
  "cyber": [
-  "Critical flaws are under active exploitation: Drupal RCE (Fail2Install), GeoServer chains, and a CVSS 10.0 Hex.pm bug that compromised six package registry servers, so patch quickly.",
-  "Supply-chain and identity attacks continue: backdoored WordPress plugins, malicious NuGet packages aimed at .NET developers, appliance third-party component flaws, and Com-affiliated vishing for cloud account takeover.",
-  "Government and enterprise incidents persist: FinCEN took systems offline after an intrusion, a CIA analysis system was reportedly breached, and Microsoft's November updates caused authentication problems."
+  "Actively exploited flaws dominate: Drupal takeover bugs (including an incomplete installer patch), a critical Juniper Session Smart Conductor root-command flaw, and ten CISA KEV additions spanning Mitel, Juniper, Vates and Danfoss.",
+  "Developer-account and supply-chain attacks continue: 1Password reported a GitHub account breach exposing customer data and source code, PolinRider poisoned over 7,600 GitHub repositories, and 13 malicious NuGet packages targeted .NET developers.",
+  "Credential and email theft campaigns persist: GoodGuys fake-interview phishing, Remus and SYS01 browser-extension infostealers targeting Gmail and Outlook, while FIFA disclosed a breach and Iranian actors target Cyprus."
  ]
 }
